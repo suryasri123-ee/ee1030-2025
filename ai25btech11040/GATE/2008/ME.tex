@@ -2,9 +2,11 @@
 
 % Page configurations
 \title{ME: MECHANICAL ENGINEERING}
-\usepackage[a4paper, ]{geometry}
+\usepackage[a4paper,bottom=1in,top=1in]{geometry}
 \usepackage{amsmath}
-\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+% \usetikzlibrary{decorations.markings}
 \graphicspath{{images/}}
 
 % Header and footer
@@ -132,8 +134,24 @@
         \choice $\sqrt{3}$m/s
         \choice $2$m/s
     \end{oneparchoices}
+    \pagebreak
 
-    \question A cantilever type gate hinged at Q is shown in the figure. P and R are the centers of gravity of the cantilever part and the counterweight respectively. The mass of the cantilever part is 75 kg. The mass of the coutnerweight, for static balance, is % TODO
+    \question A cantilever type gate hinged at Q is shown in the figure. P and R are the centers of gravity of the cantilever part and the counterweight respectively. The mass of the cantilever part is 75 kg. The mass of the coutnerweight, for static balance, is
+
+    \begin{tikzpicture}
+        \draw (0,0) rectangle (2,3);
+        \node at (1,1.5) {•R};
+        \draw[very thin] (1,1.25) -- (1,-0.5);
+        \draw (2,2) -- (10,2) -- (10,1.75) -- (2,0.5);
+        \node at (2.5,1.5) {•Q};
+        \draw[very thin] (2.5,1.25) -- (2.5,-0.5);
+        \node at (6.5,1.5) {•P};
+        \draw[very thin] (6.5,1.25) -- (6.5,-0.5);
+        \draw[thick, <->] (1.1,-0.5) -- (2.4,-0.5);
+        \draw[thick, <->] (2.6,-0.5) -- (6.4,-0.5);
+        \node at (1.75,-0.75) {0.5m};
+        \node at (4.5,-0.75) {2.0m};
+    \end{tikzpicture}
 
     \begin{oneparchoices}
         \choice 75kg
@@ -212,16 +230,16 @@
 
     \question A set of 5 jobs is to be processed on a single machine. The processing time (in days) is given in the table below. The holding cost for each job is Rs. $K$ per day.\\
     \begin{center}
-        \begin{tabular}{|l|l|}
-            \hline
-            \textbf{Job} & \textbf{Processing time} \\\hline
-            P            & 5                        \\\hline
-            Q            & 2                        \\\hline
-            R            & 3                        \\\hline
-            S            & 2                        \\\hline
-            T            & 1                        \\
-            \hline
-        \end{tabular}
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Job} & \textbf{Processing time} \\
+        \hline
+        P & 5 \\\hline
+        Q & 2 \\\hline
+        R & 3 \\\hline
+        S & 2 \\\hline
+        T & 1 \\\hline
+    \end{tabular}
     \end{center}
     A schedule that minimizes the total inventory cost is
 
@@ -231,8 +249,6 @@
         \choice T-R-S-Q-P
         \choice P-Q-R-S-T
     \end{oneparchoices}
-
-    \pagebreak
 
     \question For generating a Coon's surface we require
     \begin{choices}
@@ -249,6 +265,30 @@
         \choice shaping with pinion cutter
         \choice hobbing
     \end{choices}
+\end{questions}
+\pagebreak
+\large\textbf{Q.21 -- Q.75 carry two marks each.}\\
+\begin{questions}
+    \question Consider the shaded triangular region $P$ shown in the figure. What is $\iint\limits_P xy\mathrm{d}x\mathrm{d}y$?
+    \begin{center}
+        \begin{tikzpicture}[scale=2]
+            \centering
+            \fill[black!30!white] (0,0) -- (2,0) -- (0,1) -- cycle;
+            \node at (0.4,0.4) {$P$};
+            \draw (0,1) -- (2,0);
+            \draw[thick,-triangle 90] (0,0) -- (3,0) node [below] {x};
+            \draw[thick,-triangle 90] (0,0) -- (0,2) node [left] {y};
+            \node[circle,fill=black,inner sep=0pt,minimum size=5pt,label=below:2] at (2,0) {};
+            \node[circle,fill=black,inner sep=0pt,minimum size=5pt,label=left:0] at (0,0) {};
+            \node[circle,fill=black,inner sep=0pt,minimum size=5pt,label=left:1] at (0,1) {};
+        \end{tikzpicture}
+    \end{center}
 
+    \begin{oneparchoices}
+        \choice $\frac{1}{6}$
+        \choice $\frac{2}{9}$
+        \choice $\frac{7}{2}$
+        \choice $1$
+    \end{oneparchoices}
 \end{questions}
 \end{document}
