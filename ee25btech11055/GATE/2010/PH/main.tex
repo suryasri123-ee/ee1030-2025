@@ -5,22 +5,21 @@
 \usepackage{enumitem}
 \usepackage{float}
 \usepackage{multicol}
+\usepackage{caption}
 \usepackage{gvv}
 
 \begin{document}
 
-\begin{center}
+\begin{figure}[H] \centering
 	\textbf{GATE 2010 PH: PHYSICS} \\
 	\textbf{EE25BTECH11055: Subhodeep Chakraborty} \\
 	\textbf{Assignment 1}
-\end{center}
+\end{figure}
 
 \noindent\textbf{Duration:} Three Hours \hfill \textbf{Maximum Marks:} 100
 
 \hrulefill
 % \setlist[enumerate]{label=(\Aplh*)}
-
-\subsection*{Q.1 - Q.25 carry one mark each.}
 
 \begin{questions}
 \question Consider an anti-symmetric tensor $P_{U}$ with the indices i and j running from 1 to 5. The number of independent components of the tensor is \hfill\brak{\text{GATE PH 2010}}
@@ -87,11 +86,13 @@
 
 \question In an experiment involving a ferromagnetic medium, the following observations were made. Which one of the plots does NOT correctly represent the property of the medium? ($T_C$ is the Curie temperature)\hfill\brak{\text{GATE PH 2010}}
 \begin{figure}[H]
+\begin{multicols}{2}
 	\centering
-	\includegraphics[width=0.45\textwidth]{pics/9a.png}
-	\includegraphics[width=0.45\textwidth]{pics/9b.png}
-	\includegraphics[width=0.45\textwidth]{pics/9c.png}
-	\includegraphics[width=0.45\textwidth]{pics/9d.png}
+	\caption*{} \label{9a} \includegraphics[width=0.45\columnwidth]{pics/9a.png}
+	\caption*{} \label{9b} \includegraphics[width=0.45\columnwidth]{pics/9b.png}
+	\caption*{} \label{9c} \includegraphics[width=0.45\columnwidth]{pics/9c.png}
+	\caption*{} \label{9d} \includegraphics[width=0.45\columnwidth]{pics/9d.png}
+	\end{multicols}
 \end{figure}
 
 \question The thermal conductivity of a given material reduces when it undergoes a transition from its normal state to the superconducting state. The reason is:\hfill\brak{\text{GATE PH 2010}}
@@ -187,7 +188,7 @@
 \question In one of the following circuits, negative feedback does not operate for a negative input. Which one is it? The opamps are running from $\pm$15 V supplies.\hfill\brak{\text{GATE PH 2010}}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{pics/20.png}
+	\caption*{} \label{20} \includegraphics[width=0.9\columnwidth]{pics/20.png}
 \end{figure}
 
 \question A system of N non-interacting classical point particles is constrained to move on the two-dimensional surface of a sphere. The internal energy of the system is\hfill\brak{\text{GATE PH 2010}}
@@ -233,7 +234,6 @@
 	\choice $20 \frac{\text{keV}}{c}$ \choice $200 \frac{\text{keV}}{c}$ \choice $200 \frac{\text{MeV}}{c}$ \choice $2 \frac{\text{GeV}}{c}$
 \end{oneparchoices}
 
-\subsection*{Q.26 - Q.55 carry two marks each.}
 
 \question For the complex function, $f(z)=\frac{e^{\sqrt{z}}-e^{-\sqrt{z}}}{\sin(\sqrt{z})},$ which of the following statements is correct?\hfill\brak{\text{GATE PH 2010}}
 
@@ -286,13 +286,13 @@
 \end{choices}
 
 \question The first three energy levels of ${}^{228}Th_{90}$ are shown below
-	\begin{center}
+	\begin{figure}[H] \centering
 	\begin{tabular}{r c l}
 		$4^+$ & \rule{3cm}{0.4pt} & 187 keV \\
 		$2^+$ & \rule{3cm}{0.4pt} & 57.5 keV \\
 		$0^+$ & \rule{3cm}{0.4pt} & 0 keV \\
 	\end{tabular}
-	\end{center}
+	\end{figure}
 The expected spin-parity and energy of the next level are given by\hfill\brak{\text{GATE PH 2010}}
 
 \begin{oneparchoices}
@@ -319,9 +319,9 @@ The expected spin-parity and energy of the next level are given by\hfill\brak{\t
 
 \question A particle of mass m is confined in the potential $V(x)=\begin{cases} \frac{1}{2}m\omega^{2}x^{2} & \text{for } x>0, \\ \infty & \text{for } x \le 0. \end{cases}$
 	Let the wavefunction of the particle be given by $\psi(x)=-\frac{1}{\sqrt{5}}\psi_{0}+\frac{2}{\sqrt{5}}\psi_{1}$, where $\psi_0$ and $\psi_1$ are the eigenfunctions of the ground state and the first excited state respectively. The expectation value of the energy is\hfill\brak{\text{GATE PH 2010}}
-	\begin{center}
-		\includegraphics[width=0.2\textwidth]{pics/35.png}
-	\end{center}
+	\begin{figure}[H] \centering
+		\caption*{} \label{35} \includegraphics[width=0.2\columnwidth]{pics/35.png}
+	\end{figure}
 
 
 \begin{oneparchoices}
@@ -338,9 +338,9 @@ The expected spin-parity and energy of the next level are given by\hfill\brak{\t
  \end{enumerate}
 \columnbreak
 \begin{itemize}
- \item [i.] $10^6 cm^{-1}$ and above
- \item [ii.] $10^5 - 10^6 cm^{-1}$
- \item [iii.] $10^0 - 10^2 cm^{-1}$
+ \item $10^6 cm^{-1}$ and above
+ \item $10^5 - 10^6 cm^{-1}$
+ \item $10^0 - 10^2 cm^{-1}$
 \end{itemize}
 
 
@@ -365,9 +365,9 @@ The expected spin-parity and energy of the next level are given by\hfill\brak{\t
 \end{choices}
 
 \question Two magnetic dipoles of magnitude m each are placed in a plane as shown. The energy of interaction is given by\hfill\brak{\text{GATE PH 2010}}
-	\begin{center}
-		\includegraphics[width=0.1\textwidth]{pics/38.png}
-	\end{center}
+	\begin{figure}[H] \centering
+		\caption*{} \label{38} \includegraphics[width=0.1\columnwidth]{pics/38.png}
+	\end{figure}
 
 
 \begin{oneparchoices}
@@ -375,9 +375,10 @@ The expected spin-parity and energy of the next level are given by\hfill\brak{\t
 \end{oneparchoices}
 
 \question Consider a conducting loop of radius a and total loop resistance R placed in a region with a magnetic field B thereby enclosing a flux $\phi_0$. The loop is connected to an electronic circuit as shown, the capacitor being initially uncharged.
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{pics/39.png}
-	\end{center}
+	\begin{figure}[H]
+	\centering
+		\caption*{} \label{39} \caption*{} \label{} \includegraphics[width=0.8\columnwidth]{pics/39.png}
+	\end{figure}
 	If the loop is pulled out of the region of the magnetic field at a constant speed u, the final output voltage $V_{out}$ is independent of\hfill\brak{\text{GATE PH 2010}}
 
 
@@ -386,26 +387,28 @@ The expected spin-parity and energy of the next level are given by\hfill\brak{\t
 \end{oneparchoices}
 
 \question The figure shows a constant current source charging a capacitor that is initially uncharged.
-	\begin{center}
-		\includegraphics[width=0.3\textwidth]{pics/40.png}
-	\end{center}
+	\begin{figure}[H] \centering
+		\caption*{} \label{40} \includegraphics[width=0.3\columnwidth]{pics/40.png}
+	\end{figure}
 	If the switch is closed at $t=0$, which of the following plots depicts correctly the output voltage of the circuit as a function of time?\hfill\brak{\text{GATE PH 2010}}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.45\textwidth]{pics/40a.png}
-		\includegraphics[width=0.45\textwidth]{pics/40b.png}
-		\includegraphics[width=0.45\textwidth]{pics/40c.png}
-		\includegraphics[width=0.45\textwidth]{pics/40d.png}
+		\caption*{} \label{40a} \includegraphics[width=0.45\columnwidth]{pics/40a.png}
+		\caption*{} \label{40b} \includegraphics[width=0.45\columnwidth]{pics/40b.png}
+		\caption*{} \label{40c} \includegraphics[width=0.45\columnwidth]{pics/40c.png}
+		\caption*{} \label{40d} \includegraphics[width=0.45\columnwidth]{pics/40d.png}
 	\end{figure}
 
 
 \question For any set of inputs, A and B, the following circuits give the same output, Q, except one. Which one is it?\hfill\brak{\text{GATE PH 2010}}
 
 \begin{oneparchoices}
-	\choice \includegraphics[width=0.51\textwidth]{pics/41a.png}
-	\choice \includegraphics[width=0.51\textwidth]{pics/41b.png}
-	\choice \includegraphics[width=0.51\textwidth]{pics/41c.png}
-	\choice \includegraphics[width=0.51\textwidth]{pics/41d.png}
+\begin{figure}[H]
+	\choice \caption*{} \label{41a} \includegraphics[width=0.51\columnwidth]{pics/41a.png}
+	\choice \caption*{} \label{41b} \includegraphics[width=0.51\columnwidth]{pics/41b.png}
+	\choice \caption*{} \label{41c} \includegraphics[width=0.51\columnwidth]{pics/41c.png}
+	\choice \caption*{} \label{41d} \includegraphics[width=0.51\columnwidth]{pics/41d.png}
+\end{figure}
 \end{oneparchoices}
 
 \question CO$_2$ molecule has the first few energy levels uniformly separated by approximately 2.5 meV. At a temperature of 300 K, the ratio of the number of molecules in the 4\textsuperscript{th} excited state to the number in the 2\textsuperscript{nd} excited state is about\hfill\brak{\text{GATE PH 2010}}
@@ -450,9 +453,9 @@ The expected spin-parity and energy of the next level are given by\hfill\brak{\t
 \end{oneparchoices}
 
 \question A particle of mass m is confined in an infinite potential well: $$V(x) = \begin{cases} 0 & \text{if } 0<x<L, \\ \infty & \text{otherwise} \end{cases}$$. It is subjected to a perturbing potential $V_p(x) = V_0 \sin\left(\frac{2\pi x}{L}\right)$ within the well. Let $E^{(1)}$ and $E^{(2)}$ be the corrections to the ground state energy in the first and second order in $V_0$, respectively. Which of the following are true?\hfill\brak{\text{GATE PH 2010}}
-	\begin{center}
-		\includegraphics[width=0.4\textwidth]{pics/47.png}
-	\end{center}
+	\begin{figure}[H] \centering
+		\caption*{} \label{47} \includegraphics[width=0.4\columnwidth]{pics/47.png}
+	\end{figure}
 
 
 \begin{choices}
@@ -462,8 +465,6 @@ The expected spin-parity and energy of the next level are given by\hfill\brak{\t
 	\end{multicols}
 \end{choices}
 
-\subsection*{Common Data Questions}
-\textbf{Common Data for Questions 48 and 49:}
 \par\noindent In the presence of a weak magnetic field, atomic hydrogen undergoes the transition:
 \[ ^2P_{3/2} \rightarrow ^2S_{1/2} \]
 by emission of radiation.
@@ -489,10 +490,10 @@ by emission of radiation.
 \question The specific heat of the photon gas varies with temperature as\hfill\brak{\text{GATE PH 2010}}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.35\textwidth]{pics/50a.png}
-	\includegraphics[width=0.35\textwidth]{pics/50b.png}
-	\includegraphics[width=0.35\textwidth]{pics/50c.png}
-	\includegraphics[width=0.35\textwidth]{pics/50d.png}
+	\caption*{} \label{50a} \includegraphics[width=0.35\columnwidth]{pics/50a.png}
+	\caption*{} \label{50b} \includegraphics[width=0.35\columnwidth]{pics/50b.png}
+	\caption*{} \label{50c} \includegraphics[width=0.35\columnwidth]{pics/50c.png}
+	\caption*{} \label{50d} \includegraphics[width=0.35\columnwidth]{pics/50d.png}
 \end{figure}
 
 \question The pressure of the photon gas is\hfill\brak{\text{GATE PH 2010}}
@@ -502,8 +503,6 @@ by emission of radiation.
 	\choice $\frac{\pi^2(k_B T)^4}{45 \hbar^3 c^3}$ \choice $\frac{\pi(k_B T)^4}{45 \hbar^3 c^3}$
 \end{oneparchoices}
 
-\subsection*{Linked Answer Questions}
-\textbf{Statement for Linked Answer Questions 52 and 53:}
 \par\noindent Consider the propagation of electromagnetic waves in a linear, homogeneous and isotropic material medium with electric permittivity $\epsilon$ and magnetic permeability $\mu$.
 
 \question For a plane wave of angular frequency $\omega$ and propagation vector $\vec{k}$ propagating in the medium Maxwell's equations reduce to\hfill\brak{\text{GATE PH 2010}}
@@ -523,7 +522,6 @@ by emission of radiation.
 	\choice $\vec{k}$ and $\vec{S}$ make an angle that depends on the magnitude of $|\epsilon|$ and $|\mu|$
 \end{choices}
 
-\textbf{Statement for Linked Answer Questions 54 and 55:}
 \par\noindent The Lagrangian for a simple pendulum is given by:
 \[ L = \frac{1}{2}ml^2\dot{\theta}^2 - mgl(1-\cos\theta) \]
 
@@ -545,8 +543,6 @@ by emission of radiation.
 	\choice $\{\theta, \dot{\theta}\} = \frac{1}{m}$ \choice $\{\theta, \dot{\theta}\} = \frac{g}{l}$
 \end{oneparchoices}
 \newpage
-\section*{General Aptitude (GA) Questions}
-\subsection*{Q.56 - Q.60 carry one mark each.}
 
 \question \textit{Choose the most appropriate word from the options given below to complete the following sentence.}\hfill\brak{\text{GATE PH 2010}}\par
 	\textbf{\noindent His rather casual remarks on politics \rule{2cm}{0.4pt} his lack of seriousness about the subject.}
@@ -580,8 +576,6 @@ by emission of radiation.
 \begin{oneparchoices}
 	\choice fallow : land \choice unaware : sleeper \choice wit : jester \choice renovated : house
 \end{oneparchoices}
-
-\subsection*{Q.61 - Q.65 carry two marks each.}
 
 \question If $137 + 276 = 435$ how much is $731 + 672$?\hfill\brak{\text{GATE PH 2010}}
 
@@ -626,9 +620,9 @@ by emission of radiation.
 \end{oneparchoices}
 \end{questions}
 
-\begin{center}
+\begin{figure}[H] \centering
 	\hrulefill\\
 	\textbf{END OF THE QUESTION PAPER}
-\end{center}
+\end{figure}
 
 \end{document}
