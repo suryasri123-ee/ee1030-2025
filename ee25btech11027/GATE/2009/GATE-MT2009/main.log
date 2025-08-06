@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  6 AUG 2025 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  6 AUG 2025 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1473,31 +1473,31 @@ File: ts1txr.fd 2000/12/15 v3.1
 
 
 ]
-<IMAGES/Q.12.png, id=55, 225.84375pt x 118.19156pt>
-File: IMAGES/Q.12.png Graphic file (type png)
-<use IMAGES/Q.12.png>
-Package pdftex.def Info: IMAGES/Q.12.png  used on input line 196.
+<figs/Q.12.png, id=55, 225.84375pt x 118.19156pt>
+File: figs/Q.12.png Graphic file (type png)
+<use figs/Q.12.png>
+Package pdftex.def Info: figs/Q.12.png  used on input line 196.
 (pdftex.def)             Requested size: 182.09764pt x 95.3036pt.
-<IMAGES/Q.14.png, id=57, 317.68687pt x 153.57375pt>
-File: IMAGES/Q.14.png Graphic file (type png)
-<use IMAGES/Q.14.png>
-Package pdftex.def Info: IMAGES/Q.14.png  used on input line 227.
+<figs/Q.14.png, id=57, 317.68687pt x 153.57375pt>
+File: figs/Q.14.png Graphic file (type png)
+<use figs/Q.14.png>
+Package pdftex.def Info: figs/Q.14.png  used on input line 227.
 (pdftex.def)             Requested size: 182.09764pt x 88.03004pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./IMAGES/Q.12.png>]
-<IMAGES/Q.21.png, id=93, 137.7647pt x 171.64125pt>
-File: IMAGES/Q.21.png Graphic file (type png)
-<use IMAGES/Q.21.png>
-Package pdftex.def Info: IMAGES/Q.21.png  used on input line 304.
+[2 <./figs/Q.12.png>]
+<figs/Q.21.png, id=93, 137.7647pt x 171.64125pt>
+File: figs/Q.21.png Graphic file (type png)
+<use figs/Q.21.png>
+Package pdftex.def Info: figs/Q.21.png  used on input line 304.
 (pdftex.def)             Requested size: 72.83794pt x 90.75203pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./IMAGES/Q.14.png>]
+[3 <./figs/Q.14.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
@@ -1513,7 +1513,7 @@ Underfull \hbox (badness 4156) in paragraph at lines 365--366
 n group 2
  []
 
-[4 <./IMAGES/Q.21.png>]
+[4 <./figs/Q.21.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 407--413
 
  []
@@ -1549,15 +1549,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 707--708
 
  []
 
-<IMAGES/Q.53.png, id=292, 420.82219pt x 260.47313pt>
-File: IMAGES/Q.53.png Graphic file (type png)
-<use IMAGES/Q.53.png>
-Package pdftex.def Info: IMAGES/Q.53.png  used on input line 741.
+<figs/Q.53.png, id=292, 420.82219pt x 260.47313pt>
+File: figs/Q.53.png Graphic file (type png)
+<use figs/Q.53.png>
+Package pdftex.def Info: figs/Q.53.png  used on input line 741.
 (pdftex.def)             Requested size: 182.09764pt x 112.71269pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] [10 <./IMAGES/Q.53.png>] [11] (./main.aux)
+[9] [10 <./figs/Q.53.png>] [11] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1572,7 +1572,7 @@ Package rerunfilecheck Info: Checksums for `main.out':
  ) 
 Here is how much of TeX's memory you used:
  32428 strings out of 476091
- 635837 string characters out of 5794081
+ 635787 string characters out of 5794081
  1872330 words of memory out of 5000000
  51796 multiletter control sequences out of 15000+600000
  576999 words of font info for 159 fonts, out of 8000000 for 9000
