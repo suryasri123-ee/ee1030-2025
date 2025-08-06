@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  6 AUG 2025 00:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  6 AUG 2025 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1771,13 +1771,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 3.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 43.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 43.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1953,8 +1953,6 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 43.
-
-(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -2023,10 +2021,10 @@ Overfull \hbox (48.81866pt too wide) in paragraph at lines 242--244
 [4]
 
 [5]
-<image6.png, id=211, 295.1025pt x 172.645pt>
-File: image6.png Graphic file (type png)
-<use image6.png>
-Package pdftex.def Info: image6.png  used on input line 467.
+<image/image6.png, id=211, 295.1025pt x 172.645pt>
+File: image/image6.png Graphic file (type png)
+<use image/image6.png>
+Package pdftex.def Info: image/image6.png  used on input line 467.
 (pdftex.def)             Requested size: 291.35735pt x 170.45805pt.
 
 
@@ -2038,38 +2036,39 @@ Underfull \vbox (badness 4328) has occurred while \output is active []
 
 
 [6]
-<image7.png, id=231, 567.11874pt x 201.75375pt>
-File: image7.png Graphic file (type png)
-<use image7.png>
-Package pdftex.def Info: image7.png  used on input line 484.
+<image/image7.png, id=231, 567.11874pt x 201.75375pt>
+File: image/image7.png Graphic file (type png)
+<use image/image7.png>
+Package pdftex.def Info: image/image7.png  used on input line 484.
 (pdftex.def)             Requested size: 291.35735pt x 103.65343pt.
-File: image7.png Graphic file (type png)
-<use image7.png>
-Package pdftex.def Info: image7.png  used on input line 508.
-(pdftex.def)             Requested size: 291.35735pt x 103.65343pt.
+<image/image8.png, id=232, 536.0025pt x 147.55125pt>
+File: image/image8.png Graphic file (type png)
+<use image/image8.png>
+Package pdftex.def Info: image/image8.png  used on input line 508.
+(pdftex.def)             Requested size: 291.35735pt x 80.20331pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[7 <./image6.png> <./image7.png>]
+[7 <./image/image6.png> <./image/image7.png>]
 
-[8]
-<image1.png, id=281, 633.36626pt x 134.5025pt>
-File: image1.png Graphic file (type png)
-<use image1.png>
-Package pdftex.def Info: image1.png  used on input line 581.
+[8 <./image/image8.png>]
+<image/image1.png, id=285, 633.36626pt x 134.5025pt>
+File: image/image1.png Graphic file (type png)
+<use image/image1.png>
+Package pdftex.def Info: image/image1.png  used on input line 581.
 (pdftex.def)             Requested size: 291.35735pt x 61.87393pt.
-<image2.png, id=282, 757.83125pt x 187.70125pt>
-File: image2.png Graphic file (type png)
-<use image2.png>
-Package pdftex.def Info: image2.png  used on input line 600.
+<image/image2.png, id=286, 757.83125pt x 187.70125pt>
+File: image/image2.png Graphic file (type png)
+<use image/image2.png>
+Package pdftex.def Info: image/image2.png  used on input line 600.
 (pdftex.def)             Requested size: 291.35735pt x 72.16353pt.
-<image3.png, id=283, 516.93124pt x 122.4575pt>
-File: image3.png Graphic file (type png)
-<use image3.png>
-Package pdftex.def Info: image3.png  used on input line 619.
+<image/image3.png, id=287, 516.93124pt x 122.4575pt>
+File: image/image3.png Graphic file (type png)
+<use image/image3.png>
+Package pdftex.def Info: image/image3.png  used on input line 619.
 (pdftex.def)             Requested size: 291.35735pt x 69.0223pt.
 
 
@@ -2077,17 +2076,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[9 <./image1.png> <./image2.png>]
+[9 <./image/image1.png> <./image/image2.png>]
 
-[10 <./image3.png>]
-<image4.png, id=340, 591.20876pt x 172.645pt>
-File: image4.png Graphic file (type png)
-<use image4.png>
-Package pdftex.def Info: image4.png  used on input line 725.
+[10 <./image/image3.png>]
+<image/image4.png, id=342, 591.20876pt x 172.645pt>
+File: image/image4.png Graphic file (type png)
+<use image/image4.png>
+Package pdftex.def Info: image/image4.png  used on input line 725.
 (pdftex.def)             Requested size: 291.35735pt x 85.08414pt.
 
 
-[11 <./image4.png>]
+[11 <./image/image4.png>]
 Overfull \hbox (6.71535pt too wide) in paragraph at lines 801--807
 [][] 
  []
@@ -2102,14 +2101,14 @@ Underfull \hbox (badness 2600) in paragraph at lines 870--871
 
 
 [13]
-<image5.png, id=424, 648.4225pt x 247.92625pt>
-File: image5.png Graphic file (type png)
-<use image5.png>
-Package pdftex.def Info: image5.png  used on input line 898.
+<image/image5.png, id=426, 648.4225pt x 247.92625pt>
+File: image/image5.png Graphic file (type png)
+<use image/image5.png>
+Package pdftex.def Info: image/image5.png  used on input line 898.
 (pdftex.def)             Requested size: 291.35735pt x 111.4031pt.
 
 
-[14 <./image5.png>]
+[14 <./image/image5.png>]
 
 [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2117,36 +2116,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [16]
-<image9.png, id=475, 379.4175pt x 133.49875pt>
-File: image9.png Graphic file (type png)
-<use image9.png>
-Package pdftex.def Info: image9.png  used on input line 1072.
+<image/image9.png, id=477, 379.4175pt x 133.49875pt>
+File: image/image9.png Graphic file (type png)
+<use image/image9.png>
+Package pdftex.def Info: image/image9.png  used on input line 1072.
 (pdftex.def)             Requested size: 364.1953pt x 128.1451pt.
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1072--1074
 [][]
  []
 
-<image10.png, id=476, 556.0775pt x 160.6pt>
-File: image10.png Graphic file (type png)
-<use image10.png>
-Package pdftex.def Info: image10.png  used on input line 1097.
-(pdftex.def)             Requested size: 364.1953pt x 105.18518pt.
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1097--1099
-[][]
- []
-
+<image/image12.png, id=478, 584.1825pt x 158.5925pt>
+File: image/image12.png Graphic file (type png)
+<use image/image12.png>
+Package pdftex.def Info: image/image12.png  used on input line 1097.
+(pdftex.def)             Requested size: 291.35735pt x 79.10002pt.
 
 Underfull \vbox (badness 1596) has occurred while \output is active []
 
 
 
-[17 <./image9.png>]
-File: image10.png Graphic file (type png)
-<use image10.png>
-Package pdftex.def Info: image10.png  used on input line 1123.
-(pdftex.def)             Requested size: 364.1953pt x 105.18518pt.
+[17 <./image/image9.png>]
+<image/image13.png, id=485, 589.20125pt x 180.675pt>
+File: image/image13.png Graphic file (type png)
+<use image/image13.png>
+Package pdftex.def Info: image/image13.png  used on input line 1123.
+(pdftex.def)             Requested size: 364.1953pt x 111.67824pt.
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1123--1125
 [][]
@@ -2157,21 +2152,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[18 <./image10.png>]
+[18 <./image/image12.png> <./image/image13.png>]
 
 [19] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 55668 strings out of 473190
- 1317906 string characters out of 5715801
- 1915399 words of memory out of 5000000
- 77718 multiletter control sequences out of 15000+600000
+ 55674 strings out of 473190
+ 1318515 string characters out of 5715801
+ 1915409 words of memory out of 5000000
+ 77730 multiletter control sequences out of 15000+600000
  627797 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,9n,109p,1194b,1341s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2183,10 +2185,10 @@ ve/2025/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2025
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 1974090 bytes).
+Output written on main.pdf (19 pages, 2321771 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
+ 611 PDF objects out of 1000 (max. 8388607)
  528 compressed objects within 6 object streams
  369 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
