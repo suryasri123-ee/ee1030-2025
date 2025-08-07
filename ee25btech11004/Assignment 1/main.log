@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  6 AUG 2025 04:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  6 AUG 2025 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -301,7 +301,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box110
 )
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -318,7 +318,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count300
 \scratchdimen=\dimen176
@@ -429,39 +429,783 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<./Images//GateHeader.png, id=11, 133.49875pt x 90.3375pt>
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 92.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
 
-LaTeX Warning: File `GateHeader.png' not found on input line 92.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[2 <./Images//GateHeader.png>]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 116.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
 
 
-! Package pdftex.def Error: File `GateHeader.png' not found: using draft settin
-g.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 \newpage
-             
-? X
- 
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[3]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 151.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[4]
+<./Images//LatexGraph.png, id=26, 521.95pt x 280.04625pt>
+File: ./Images//LatexGraph.png Graphic file (type png)
+<use ./Images//LatexGraph.png>
+Package pdftex.def Info: ./Images//LatexGraph.png  used on input line 164.
+(pdftex.def)             Requested size: 365.3625pt x 196.03102pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 186.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[5 <./Images//LatexGraph.png>]
+<./Images//LatexImage1.png, id=31, 492.84125pt x 206.7725pt>
+File: ./Images//LatexImage1.png Graphic file (type png)
+<use ./Images//LatexImage1.png>
+Package pdftex.def Info: ./Images//LatexImage1.png  used on input line 195.
+(pdftex.def)             Requested size: 394.27351pt x 165.41821pt.
+<./Images//LatexImage2.png, id=32, 187.70125pt x 163.61125pt>
+File: ./Images//LatexImage2.png Graphic file (type png)
+<use ./Images//LatexImage2.png>
+Package pdftex.def Info: ./Images//LatexImage2.png  used on input line 199.
+(pdftex.def)             Requested size: 168.92957pt x 147.24875pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 214.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[6 <./Images//LatexImage1.png> <./Images//LatexImage2.png>]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 235.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 293.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[8]
+Overfull \vbox (6.34024pt too high) has occurred while \output is active []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 293.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[9]
+Overfull \vbox (6.74023pt too high) has occurred while \output is active []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 322.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[10]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 379.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[11]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 410.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[12]
+Overfull \vbox (6.34024pt too high) has occurred while \output is active []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 410.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[13]
+<./Images//LatexImage3.png, id=62, 251.94125pt x 143.53625pt>
+File: ./Images//LatexImage3.png Graphic file (type png)
+<use ./Images//LatexImage3.png>
+Package pdftex.def Info: ./Images//LatexImage3.png  used on input line 419.
+(pdftex.def)             Requested size: 201.55327pt x 114.82915pt.
+
+Overfull \vbox (13.30539pt too high) has occurred while \output is active []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 437.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[14 <./Images//LatexImage3.png>]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 492.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[15]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 493.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[16]
+<./Images//LatexImage4.png, id=75, 377.41pt x 141.52875pt>
+File: ./Images//LatexImage4.png Graphic file (type png)
+<use ./Images//LatexImage4.png>
+Package pdftex.def Info: ./Images//LatexImage4.png  used on input line 505.
+(pdftex.def)             Requested size: 339.66585pt x 127.37468pt.
+
+Overfull \hbox (3.36598pt too wide) in paragraph at lines 505--506
+[]|$\OML/cmm/m/it/12 d[]$ \OT1/cmr/m/n/12 = 100m \TS1/cmr/m/n/12 ± \OT1/cmr/m/n
+/12 1cm []| 
+ []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 520.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[17 <./Images//LatexImage4.png>]
+<./Images//LatexImage5.png, id=80, 152.57pt x 112.42pt>
+File: ./Images//LatexImage5.png Graphic file (type png)
+<use ./Images//LatexImage5.png>
+Package pdftex.def Info: ./Images//LatexImage5.png  used on input line 532.
+(pdftex.def)             Requested size: 137.31172pt x 101.17706pt.
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 559.
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 559.
+
+Missing character: There is no ± in font cmr12!
+<./Images//LatexImage6.png, id=81, 291.0875pt x 169.63374pt>
+File: ./Images//LatexImage6.png Graphic file (type png)
+<use ./Images//LatexImage6.png>
+Package pdftex.def Info: ./Images//LatexImage6.png  used on input line 563.
+(pdftex.def)             Requested size: 291.08678pt x 169.63332pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 575.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[18 <./Images//LatexImage5.png>]
+<./Images//LatexImage14.png, id=86, 469.755pt x 218.8175pt>
+File: ./Images//LatexImage14.png Graphic file (type png)
+<use ./Images//LatexImage14.png>
+Package pdftex.def Info: ./Images//LatexImage14.png  used on input line 588.
+(pdftex.def)             Requested size: 328.82626pt x 153.17119pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 605.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[19 <./Images//LatexImage6.png>]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 606.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[20 <./Images//LatexImage14.png>]
+<./Images//LatexImage15.png, id=96, 458.71375pt x 216.81pt>
+File: ./Images//LatexImage15.png Graphic file (type png)
+<use ./Images//LatexImage15.png>
+Package pdftex.def Info: ./Images//LatexImage15.png  used on input line 629.
+(pdftex.def)             Requested size: 229.35631pt x 108.40472pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 682.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[21 <./Images//LatexImage15.png>]
+Overfull \vbox (6.34029pt too high) has occurred while \output is active []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 682.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[22]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 744.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[23]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 777.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[24]
+Overfull \vbox (6.34029pt too high) has occurred while \output is active []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 777.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[25]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 834.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[26]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 835.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 839--840
+
+ []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 893.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[28]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 921.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[29]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 949.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[30]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 951.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[31]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1016.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[32]
+<./Images//LatexImage7.png, id=137, 421.575pt x 81.30376pt>
+File: ./Images//LatexImage7.png Graphic file (type png)
+<use ./Images//LatexImage7.png>
+Package pdftex.def Info: ./Images//LatexImage7.png  used on input line 1031.
+(pdftex.def)             Requested size: 252.94695pt x 48.78261pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1047.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[33]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1069.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[34 <./Images//LatexImage7.png>]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1071.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[35]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1102.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[36]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1129.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[37]
+<./Images//LatexImage8.png, id=155, 314.17375pt x 263.98625pt>
+File: ./Images//LatexImage8.png Graphic file (type png)
+<use ./Images//LatexImage8.png>
+Package pdftex.def Info: ./Images//LatexImage8.png  used on input line 1138.
+(pdftex.def)             Requested size: 188.50569pt x 158.39296pt.
+
+Overfull \vbox (17.88345pt too high) has occurred while \output is active []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1154.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[38 <./Images//LatexImage8.png>]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1182.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[39]
+<./Images//LatexImage9.png, id=163, 240.9pt x 207.77625pt>
+File: ./Images//LatexImage9.png Graphic file (type png)
+<use ./Images//LatexImage9.png>
+Package pdftex.def Info: ./Images//LatexImage9.png  used on input line 1194.
+(pdftex.def)             Requested size: 240.8994pt x 207.77573pt.
+
+Overfull \vbox (6.86635pt too high) has occurred while \output is active []
+
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1207.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[40 <./Images//LatexImage9.png>]
+<./Images//LatexImage10.png, id=168, 270.00874pt x 123.46124pt>
+File: ./Images//LatexImage10.png Graphic file (type png)
+<use ./Images//LatexImage10.png>
+Package pdftex.def Info: ./Images//LatexImage10.png  used on input line 1219.
+(pdftex.def)             Requested size: 270.00807pt x 123.46092pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1268.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[41 <./Images//LatexImage10.png>]
+<./Images//LatexImage11.png, id=173, 534.99875pt x 343.2825pt>
+File: ./Images//LatexImage11.png Graphic file (type png)
+<use ./Images//LatexImage11.png>
+Package pdftex.def Info: ./Images//LatexImage11.png  used on input line 1278.
+(pdftex.def)             Requested size: 374.49657pt x 240.2961pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1290.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[42]
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1290.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[43 <./Images//LatexImage11.png>]
+File: ./Images//LatexImage10.png Graphic file (type png)
+<use ./Images//LatexImage10.png>
+Package pdftex.def Info: ./Images//LatexImage10.png  used on input line 1300.
+(pdftex.def)             Requested size: 270.00807pt x 123.46092pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1308.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[44]
+<./Images//LatexImage12.png, id=185, 356.33125pt x 278.03876pt>
+File: ./Images//LatexImage12.png Graphic file (type png)
+<use ./Images//LatexImage12.png>
+Package pdftex.def Info: ./Images//LatexImage12.png  used on input line 1318.
+(pdftex.def)             Requested size: 356.33037pt x 278.03807pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1328.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[45 <./Images//LatexImage12.png>]
+<./Images//LatexImage13.png, id=190, 399.4925pt x 137.51375pt>
+File: ./Images//LatexImage13.png Graphic file (type png)
+<use ./Images//LatexImage13.png>
+Package pdftex.def Info: ./Images//LatexImage13.png  used on input line 1338.
+(pdftex.def)             Requested size: 399.49152pt x 137.51341pt.
+File: ./Images//GateHeader.png Graphic file (type png)
+<use ./Images//GateHeader.png>
+Package pdftex.def Info: ./Images//GateHeader.png  used on input line 1361.
+(pdftex.def)             Requested size: 40.04991pt x 27.10144pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 31.45148pt, for example:
+(fancyhdr)                \setlength{\headheight}{31.45148pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.45148pt}.
+
+[46 <./Images//LatexImage13.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 7638 strings out of 476091
- 176337 string characters out of 5794081
- 1856330 words of memory out of 5000000
- 27945 multiletter control sequences out of 15000+600000
- 519449 words of font info for 57 fonts, out of 8000000 for 9000
+ 7760 strings out of 476091
+ 179600 string characters out of 5794081
+ 1865330 words of memory out of 5000000
+ 28058 multiletter control sequences out of 15000+600000
+ 520404 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,13n,77p,286b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm1200.pfb>
-Output written on main.pdf (1 page, 54195 bytes).
+ 73i,16n,77p,353b,762s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvi
+ps/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfrm1200.pfb>
+Output written on main.pdf (46 pages, 754604 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 250 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
