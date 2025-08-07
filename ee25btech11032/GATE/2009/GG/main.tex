@@ -1,15 +1,9 @@
-\let\negmedspace\undefined
-\let\negthickspace\undefined
-\documentclass[journal]{IEEEtran}
-\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
-%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
-\usepackage{tfrupee} % Include tfrupee package
-
-\setlength{\headheight}{1cm} % Set the height of the header box
-\setlength{\headsep}{0mm}  % Set the distance between the header box and the top of the text
-
-\usepackage{gvv-book}
-\usepackage{gvv}
+\documentclass[12pt,fleqn]{article}
+\usepackage{graphicx} 
+\usepackage{geometry}
+\geometry{a4paper,top=1cm , margin=1in}
+\usepackage{enumitem}
+\usepackage{multicol}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
 \usepackage{algorithmic}
@@ -25,22 +19,29 @@
 \usepackage[breaklinks=true]{hyperref}
 \usepackage{tkz-euclide} 
 \usepackage{listings}
-\def\inputGnumericTable{}                                 
-\usepackage[latin1]{inputenc}                                
+\usepackage{gvv}                                        
+\usepackage[latin1]{inputenc}     
+\usepackage{xparse}
 \usepackage{color}                                            
 \usepackage{array}                                            
 \usepackage{longtable}                                       
 \usepackage{calc}                                             
-\usepackage{multirow}                                         
+\usepackage{multirow}
+\usepackage{multicol}
 \usepackage{hhline}                                           
 \usepackage{ifthen}                                           
 \usepackage{lscape}
-\usepackage{tikz}
-\usetikzlibrary{patterns}
-\bibliographystyle{IEEEtran}
-\vspace{3cm}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+
+\theoremstyle{remark}
+
+
 \title{GATE 2009 GG: GEOLOGY AND GEOPHYSICS}
 \author{EE25BTECH11032 -Kartik Lahoti}
+\date{}
+
 \begin{document}
 \maketitle
 \begin{center}
@@ -292,7 +293,7 @@
 
     \item Match the following: \hfill{\brak{\text{GATE GG 2009}}} \\
     
-        \begin{multicols}{2}
+\begin{multicols}{2}
             \hspace{2em}{\textbf{Group $I$}}
             \begin{enumerate}[label=(\Alph*),start=16]
                 \item Pelagic
@@ -317,12 +318,12 @@
 
         \end{multicols}
             \begin {enumerate}
-                %\begin{multicols}{2}
+                \begin{multicols}{2}
                     \item P-$1$, Q-$4$, R-$3$, S-$6$
                     \item P-$6$, Q-$2$, R-$1$, S-$5$
                     \item P-$5$, Q-$6$, R-$1$, S-$3$
                     \item P-$1$, Q-$4$, R-$2$, S-$6$
-                %\end{multicols}
+                \end{multicols}
             \end{enumerate}
 \item Match the following: \hfill{\brak{\text{GATE GG 2009}}} \\
     
@@ -386,11 +387,11 @@
                 \item Undersaturated ultramafic volcanic rock
                 \item Undersaturated mafic plutonic rock
                 \item Undersaturated ultrabasic volcanic rock
-                \item Intermediate alkaline plutonic rock
+                \item Intermediate alkaline plutonic rock\\\\\\\\
             \end{enumerate}
-\item Match the assemblages in Group $I$ with the corresponding metamorphic facies in Group $II$: \hfill{\brak{\text{GATE GG 2009}}} 
+\item Match the assemblages in Group $I$ with the corresponding metamorphic facies in Group $II$: \hfill{\brak{\text{GATE GG 2009}}} \\
     
-        \begin{multicols}{2}
+\begin{multicols}{2}
             \hspace{2em}{\textbf{Group $I$}}
             \begin{enumerate}[label=(\Alph*),start=16]
                 \item Albite-jadeite-glaucophane-lawsonite
@@ -848,9 +849,12 @@ $Pb-Zn$ sulphide deposits can form in different types of host rocks.
                 \end{multicols}
             \end{enumerate}  
     \item The standard form of wave equation for propagation of cubical dilatation $\brak{\theta}$ is \hfill{\brak{\text{GATE GG 2009}}} 
-    $$\rho\frac{\partial^2\theta}{\partial t^2} = \brak{\lambda + 2\mu }\nabla^2\theta$$
+    \begin{flalign*}
+    \rho\frac{\partial^2\theta}{\partial t^2} = \brak{\lambda + 2\mu }\nabla^2\theta
+    \end{flalign*}
     The compressional wave velocity is given by 
-     
+   
+    
             \begin {enumerate}
                 \begin{multicols}{4}
                     \item $$\sqrt{\frac{2\lambda + \mu }{\rho}}$$
@@ -1195,4 +1199,3 @@ Given the wavelets,$a=\cbrak{3,-2} \text{ and } b = \cbrak{1,-2}$
     \centerline{\textbf{END OF THE QUESTION PAPER}}
  \end{enumerate}
 \end{document}
-
