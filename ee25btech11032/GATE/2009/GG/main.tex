@@ -1,10 +1,6 @@
-\documentclass[12pt,fleqn]{article}
-\usepackage{graphicx} 
-\usepackage{geometry}
-\geometry{a4paper,top=1cm , margin=1in}
-\usepackage{enumitem}
-\usepackage{multicol}
+\documentclass[journal,12pt,onecolumn,fleqn]{IEEEtran}
 \usepackage{cite}
+\usepackage{graphicx}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
 \usepackage{algorithmic}
 \usepackage{graphicx}
@@ -20,7 +16,9 @@
 \usepackage{tkz-euclide} 
 \usepackage{listings}
 \usepackage{gvv}                                        
-\usepackage[latin1]{inputenc}     
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc} 
+\usetikzlibrary{arrows.meta, positioning}
 \usepackage{xparse}
 \usepackage{color}                                            
 \usepackage{array}                                            
@@ -34,7 +32,20 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{float}
-
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\usepackage{float}
+%\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\usepackage{circuitikz}
+\usepackage{tikz}
 \theoremstyle{remark}
 
 
@@ -235,7 +246,6 @@
             \end{enumerate}        
             
     \centerline{\textbf{END OF PART A}}
-    \newpage    
  
 \begin{center}
     \subsection*{PART B \brak{\text{SECTION 1}}: FOR GEOLOGY CANDIDATES ONLY}
@@ -521,7 +531,6 @@
                 \end{multicols}
             \end{enumerate}
     \item Match the following economic deposits in Group $I$ with their places of occurrences in Group $II$: \hfill{\brak{\text{GATE GG 2009}}} \\
-\newpage
 \begin{multicols}{2}
             \hspace{2em}{\textbf{Group $I$}}
             \begin{enumerate}[label=(\Alph*),start=16]
@@ -1199,3 +1208,4 @@ Given the wavelets,$a=\cbrak{3,-2} \text{ and } b = \cbrak{1,-2}$
     \centerline{\textbf{END OF THE QUESTION PAPER}}
  \end{enumerate}
 \end{document}
+
