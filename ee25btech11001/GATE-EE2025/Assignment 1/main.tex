@@ -1,4 +1,8 @@
 \documentclass[11pt]{article}
+\title{Assignment 1 Solutions}
+\author{Aarush Dilawri}
+\date{}
+\setlength{\headheight}{13.59999pt}
 
 \usepackage{enumitem}
 \usepackage{fancyhdr}
@@ -8,7 +12,9 @@
 \usepackage{setspace}
 \usepackage{graphicx}
 \usepackage{amsfonts}
-\documentclass{article}
+
+
+
 \usepackage{amsmath}
 
 
@@ -92,11 +98,6 @@
     $N(m, \sigma^2)$ \> : The normal distribution with mean $m$ and variance $\sigma^2$ \\
 \end{tabbing}
 
-\documentclass[a4paper,10pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath, amssymb}
-\usepackage{enumitem}
-\usepackage[margin=1in]{geometry}
 
 \title{\textbf{MAIN PAPER - MA 2008}}
 \date{}
@@ -190,7 +191,7 @@ is
 (A) 0 \hspace{1cm} (B) 1 \hspace{1cm} (C) 2 \hspace{1cm} (D) 3
 \newline
 
-\newline
+
 
 \textbf{Q.9} For $1 \leq p \leq \infty$, let $\| \cdot \|_p$ denote the $p$-norm on $\mathbb{R}^2$. If $\| \cdot \|_p$ satisfies the parallelogram law, then $p$ is equal to
 \\[1ex] \textit{[GATE EE 2025]}
@@ -204,16 +205,14 @@ is
 \newline
 (A) Euler's method \hspace{0.5cm} (B) Improved Euler's method \hspace{0.5cm} (C) Backward Euler's method \hspace{0.5cm} (D) Taylor series method of order 2
 
-\newline
-\newline
+
 
 \textbf{Q.11} The solution of $xu_t + yu_x = 0$ is of the form
 \\[1ex] \textit{[GATE EE 2025]}
 \newline
 (A) $f\left(\frac{y}{x}\right)$ \hspace{1cm} (B) $f(x+y)$ \hspace{1cm} (C) $f(x - y)$ \hspace{1cm} (D) $f(xy)$
 
-\newline
-\newline
+
 \textbf{Q.12} If the partial differential equation $(x - 1)^2 u_{xx} - (y - 2)^2 u_{yy} + 2xu_x + 2yu_y + 2xyu = 0$ is parabolic in $S \subset \mathbb{R}^2$ but not in $\mathbb{R}^2 \setminus S$, then $S$ is
 \\[1ex] \textit{[GATE EE 2025]}
 \newline
@@ -329,7 +328,8 @@ V = \{ Mx : x \in \mathbb{R}^3\}.
 Then an orthonormal basis for \(V\) is  
 \\[1ex] \textit{[GATE EE 2025]}
 
-\begin{enumerate}[(A)]
+\begin{enumerate}[label=(\Alph*)]
+
 \item \(\left\{
 \begin{pmatrix}1\\0\\0\end{pmatrix},
 \begin{pmatrix}0\\\frac{2}{\sqrt{5}}\\\frac{1}{\sqrt{5}}\end{pmatrix},
@@ -353,14 +353,16 @@ Then an orthonormal basis for \(V\) is
 \vspace{0.5cm}
 
 \noindent\textbf{Q.23}  
-For any \(n \in \mathbb{N}\), let \(P_n\) be the vector space of all real polynomials of degree ≤ \(n\). Define  
+For any \(n \in \mathbb{N}\), let \(P_n\) be the vector space of all real polynomials of degree $< n$. Define
+
 \[
 T\bigl(p\bigr)(x) = p(x) - \int_{0}^{x} p(t)\,dt.
 \]
 Then \(\dim(\ker T)\) is  
 \\[1ex] \textit{[GATE EE 2025]}
 
-\begin{enumerate}[(A)]
+\begin{enumerate}[label=(\Alph*)]
+
 \item 0 \item 1 \item \(n\) \item \(n+1\)
 \end{enumerate}
 
@@ -379,7 +381,8 @@ V = \{ u \in \mathbb{R}^3 : Mu = u \}.
 Then \(\dim(V)\) is  
 \\[1ex] \textit{[GATE EE 2025]}
 
-\begin{enumerate}[(A)]
+\begin{enumerate}[label=(\Alph*)]
+
 \item 0 \item 1 \item 2 \item 3
 \end{enumerate}
 
@@ -398,7 +401,8 @@ The number of linearly independent eigenvectors of the matrix
 is  
 \\[1ex] \textit{[GATE EE 2025]}
 
-\begin{enumerate}[(A)]
+\begin{enumerate}[label=(\Alph*)]
+
 \item 1 \item 2 \item 3 \item 4
 \end{enumerate}
 
@@ -408,7 +412,8 @@ is
 Let \(f\) be a bilinear transformation mapping \(-1\mapsto1\), \(i\mapsto 0\), and \(-i\mapsto 0\). Then \(f(i)\) is equal to  
 \\[1ex] \textit{[GATE EE 2025]}
 
-\begin{enumerate}[(A)]
+\begin{enumerate}[label=(\Alph*)]
+
 \item \(-2\) \item \(-1\) \item \(i\) \item \(-i\)
 \end{enumerate}
 
@@ -724,7 +729,7 @@ The following are the values of variables in a feasible solution:
 x_{12} = 6, \quad x_{23} = 2, \quad x_{24} = 6, \quad x_{31} = 4, \quad x_{33} = 6
 \]
 Then which of the following is correct? \\
-\\[1ex] \textit{[GATE EE 2025]}
+ \textit{[GATE EE 2025]}
 
 (A) The solution is degenerate and basic \\
 (B) The solution is non-degenerate and basic \\
@@ -733,7 +738,7 @@ Then which of the following is correct? \\
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.56} The maximum value of $z = 3x_1 - x_2$ subject to $2x_1 - x_2 \leq 1, \, x_1 \leq 3$ and $x_1, x_2 \geq 0$ is \\
+\textbf{Q.56} The maximum value of $z = 3x_1 - x_2$ subject to $2x_1 - x_2 \leq 1, \, x_1 \leq 3$ and $x_1, x_2 \geq 0$ is 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -750,7 +755,7 @@ x_1 - x_2 + x_5 &= 2, \\
 x_1, x_2, x_3, x_4 &\geq 0.
 \end{aligned}
 \]
-Then \\
+Then 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -761,7 +766,7 @@ Then \\
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.58} In the closed system of a simple harmonic motion of a pendulum, let $H$ denote the Hamiltonian and $E$ be the total energy. Then \\
+\textbf{Q.58} In the closed system of a simple harmonic motion of a pendulum, let $H$ denote the Hamiltonian and $E$ be the total energy. Then
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $H$ is a constant and $H = E$ \\
@@ -775,14 +780,14 @@ Then \\
 \[
 J[y(x)] = \int_0^1 \left( 3y^2 + 2x y^2 \right) dx, \quad y(\alpha) = 1
 \]
-has extremals are \\
+has extremals are 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $-1, 0$ \hspace{2em} (B) $0, 1$ \hspace{2em} (C) $-1, 1$ \hspace{2em} (D) $-1, 0, 1$
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.60} The functional $\displaystyle \int_0^1 (y'^2 + x y^4) dx$, given $y(1) = 1$, achieves its \\
+\textbf{Q.60} The functional $\displaystyle \int_0^1 (y'^2 + x y^4) dx$, given $y(1) = 1$, achieves its 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) weak maximum on all its extremals \\
@@ -796,7 +801,7 @@ has extremals are \\
 \[
 x(t) = \sin t + \lambda \int_0^t \left( s^2 + e^{s+t} \right) x(s) \, ds, \quad 0 \leq t \leq 1, \, \lambda \in \mathbb{R}, \, \lambda \neq 0
 \]
-has a solution for \\
+has a solution for
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) all non-zero values of $\lambda$ \\
@@ -810,7 +815,7 @@ has a solution for \\
 \[
 x(t) - \int_0^t \cos t \sec s \, x(s) \, ds = \sinh t, \quad 0 \leq t \leq 1
 \]
-has \\
+has
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) no solution \\
@@ -824,7 +829,7 @@ has \\
 \[
 \varphi(f, x, y, h) = a f(x, y) + b f(x + h, y + h f(x, y))
 \]
-is a second order accurate scheme to solve the initial value problem $\dfrac{dy}{dx} = f(x, y), y(x_0) = y_0$, then $a$ and $b$, respectively, are \\
+is a second order accurate scheme to solve the initial value problem $\dfrac{dy}{dx} = f(x, y), y(x_0) = y_0$, then $a$ and $b$, respectively, are 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $\dfrac{h}{2}, \dfrac{h}{2}$ \hspace{2em}
@@ -838,7 +843,7 @@ is a second order accurate scheme to solve the initial value problem $\dfrac{dy}
 \[
 \frac{3}{2} \left[ \frac{1}{3} f(0) + K f\left( \frac{1}{3} \right) + \frac{1}{3} f(1) \right]
 \]
-that approximates $\int_0^1 f(x) \, dx$, is found to be exact for quadratic polynomials, then the value of $K$ is \\
+that approximates $\int_0^1 f(x) \, dx$, is found to be exact for quadratic polynomials, then the value of $K$ is 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) 2 \hspace{2em} (B) 1 \hspace{2em} (C) 0 \hspace{2em} (D) $-1$
@@ -869,21 +874,21 @@ u_{11} & u_{12} & u_{13} \\
 0 & 0 & u_{33}
 \end{bmatrix}
 \]
-then the value of $a$ is \\
+then the value of $a$ is
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $-2$ \hspace{2em} (B) $-1$ \hspace{2em} (C) 1 \hspace{2em} (D) 2
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.66} Using the least squares method, if a curve $y = ax^2 + bx + c$ is fitted to the collinear data points $(-1, -3)$, $(1, 3)$, $(3, 5)$ and $(7, 13)$, then the triplet $(a, b, c)$ is equal to \\
+\textbf{Q.66} Using the least squares method, if a curve $y = ax^2 + bx + c$ is fitted to the collinear data points $(-1, -3)$, $(1, 3)$, $(3, 5)$ and $(7, 13)$, then the triplet $(a, b, c)$ is equal to
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $(-1, 2, 0)$ \hspace{2em} (B) $(0, 2, -1)$ \hspace{2em} (C) $(2, -1, 0)$ \hspace{2em} (D) $(0, -1, 1)$
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.67} A quadratic polynomial $p(x)$ is constructed by interpolating the data points $(0,1)$, $(1,e)$ and $(2,e^2)$. If $\sqrt{e}$ is approximated by using $p(x)$, then its approximate value is \\
+\textbf{Q.67} A quadratic polynomial $p(x)$ is constructed by interpolating the data points $(0,1)$, $(1,e)$ and $(2,e^2)$. If $\sqrt{e}$ is approximated by using $p(x)$, then its approximate value is 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -894,7 +899,7 @@ then the value of $a$ is \\
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.68} The characteristic curve of $2y u_t + (2x + y^2) u_x = 0$ passing through $(0, 0)$ is \\
+\textbf{Q.68} The characteristic curve of $2y u_t + (2x + y^2) u_x = 0$ passing through $(0, 0)$ is 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $y^2 = 2(e^t + x - 1)$ \hspace{2em}
@@ -904,7 +909,7 @@ then the value of $a$ is \\
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.69} The initial value problem $u_t + u_x = 1$, $u(s,s) = \sin s$, $0 \leq s \leq 1$, has \\
+\textbf{Q.69} The initial value problem $u_t + u_x = 1$, $u(s,s) = \sin s$, $0 \leq s \leq 1$, has 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -916,7 +921,7 @@ then the value of $a$ is \\
 
 \begin{flushleft}
 \textbf{Q.70} Let $u(x,t)$ be the solution of $u_{tt} - u_{xx} = 1$, $x \in \mathbb{R}, t > 0$, with \\
-$u(x,0) = 0, \ u_t(x,0) = 0, \ x \in \mathbb{R}$. Then $u(1/2, 1/2)$ is equal to \\
+$u(x,0) = 0, \ u_t(x,0) = 0, \ x \in \mathbb{R}$. Then $u(1/2, 1/2)$ is equal to 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $\dfrac{1}{8}$ \hspace{2em} 
@@ -933,7 +938,7 @@ Let $X = C([0,1])$ with sup norm $\| \cdot \|$.
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.71} Let $S = \{ x \in X : \|x\| \leq 1 \}$. Then \\
+\textbf{Q.71} Let $S = \{ x \in X : \|x\| \leq 1 \}$. Then 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -944,7 +949,7 @@ Let $X = C([0,1])$ with sup norm $\| \cdot \|$.
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.72} Which one of the following is true? \\
+\textbf{Q.72} Which one of the following is true? 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -955,7 +960,7 @@ Let $X = C([0,1])$ with sup norm $\| \cdot \|$.
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.73} Let $I = \{ x \in X : x(0) = 0 \}$. Then \\
+\textbf{Q.73} Let $I = \{ x \in X : x(0) = 0 \}$. Then 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -972,7 +977,7 @@ and $f(x) = x(1) + x'(1)$ for $x \in X$.
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.74} Then \\
+\textbf{Q.74} Then
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $F$ and $f$ are continuous \hspace{2em}
@@ -982,7 +987,7 @@ and $f(x) = x(1) + x'(1)$ for $x \in X$.
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.75} Then \\
+\textbf{Q.75} Then
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $F$ and $f$ are closed maps \\
@@ -1001,7 +1006,7 @@ and $f(x) = x(1) + x'(1)$ for $x \in X$.
 Let $N = \begin{bmatrix} \frac{3}{5} & -\frac{4}{5} & 0 \\ \frac{4}{5} & \frac{3}{5} & 0 \\ 0 & 0 & 1 \end{bmatrix}$
 
 \begin{flushleft}
-\textbf{Q.76} Then $N$ is \\
+\textbf{Q.76} Then $N$ is 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) non-invertible \hspace{2em}
@@ -1011,7 +1016,7 @@ Let $N = \begin{bmatrix} \frac{3}{5} & -\frac{4}{5} & 0 \\ \frac{4}{5} & \frac{3
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.77} If $M$ is any $3 \times 3$ real matrix, then $\text{trace}(NMN^T)$ is equal to \\
+\textbf{Q.77} If $M$ is any $3 \times 3$ real matrix, then $\text{trace}(NMN^T)$ is equal to 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $\left( \text{trace}(N) \right)^2 \text{trace}(M)$ \\
@@ -1026,14 +1031,14 @@ Let $N = \begin{bmatrix} \frac{3}{5} & -\frac{4}{5} & 0 \\ \frac{4}{5} & \frac{3
 Let $f(z) = \cos z - \dfrac{\sin z}{z}$ for non-zero $z \in \mathbb{C}$ and $f(0) = 0$. Also, let $g(z) = \sinh z$ for $z \in \mathbb{C}$.
 
 \begin{flushleft}
-\textbf{Q.78} Then $f(z)$ has a zero at $z = 0$ of order \\
+\textbf{Q.78} Then $f(z)$ has a zero at $z = 0$ of order 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) 0 \hspace{2em} (B) 1 \hspace{2em} (C) 2 \hspace{2em} (D) greater than 2
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.79} Then $\dfrac{g(z)}{f(z)}$ has a pole at $z = 0$ of order \\
+\textbf{Q.79} Then $\dfrac{g(z)}{f(z)}$ has a pole at $z = 0$ of order 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) 1 \hspace{2em} (B) 2 \hspace{2em} (C) 3 \hspace{2em} (D) greater than 3
@@ -1049,7 +1054,7 @@ Let $n \geq 3$ be an integer. Let $y$ be the polynomial solution of \\
 satisfying $y(1) = 1$.
 
 \begin{flushleft}
-\textbf{Q.80} Then the degree of $y$ is \\
+\textbf{Q.80} Then the degree of $y$ is
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -1057,7 +1062,7 @@ satisfying $y(1) = 1$.
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.81} If $I = \int_{-1}^{1} y(x) x^n \, dx$ and $J = \int_{-1}^{1} y(x) x^2 \, dx$, then \\
+\textbf{Q.81} If $I = \int_{-1}^{1} y(x) x^n \, dx$ and $J = \int_{-1}^{1} y(x) x^2 \, dx$, then 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $I \neq 0$, $J \neq 0$ \hspace{2em}
@@ -1074,7 +1079,7 @@ u(x,0) = u(x,\pi) = u(0,y) = 0.
 \]
 
 \begin{flushleft}
-\textbf{Q.82} Any solution of this boundary value problem is of the form \\
+\textbf{Q.82} Any solution of this boundary value problem is of the form 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -1085,7 +1090,7 @@ u(x,0) = u(x,\pi) = u(0,y) = 0.
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.83} If an additional boundary condition $u_x(\pi, y) = \sin y$ is satisfied, then $u(x, \pi/2)$ is equal to \\
+\textbf{Q.83} If an additional boundary condition $u_x(\pi, y) = \sin y$ is satisfied, then $u(x, \pi/2)$ is equal to 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $\dfrac{\pi}{2} \dfrac{(e^x - e^{-x})(e^x + e^{-x})}{(e^x + e^{-x})}$ \hspace{2em}
@@ -1102,7 +1107,7 @@ Y = \left\lfloor X - 2 \,\middle|\, X > 2 \right\rfloor
 \]
 
 \begin{flushleft}
-\textbf{Q.84} The value of $P(Y \geq 1)$ is \\
+\textbf{Q.84} The value of $P(Y \geq 1)$ is 
 \\[1ex] \textit{[GATE EE 2025]}
 
 
@@ -1110,7 +1115,7 @@ Y = \left\lfloor X - 2 \,\middle|\, X > 2 \right\rfloor
 \end{flushleft}
 
 \begin{flushleft}
-\textbf{Q.85} The value of $E(Y)$ is equal to \\
+\textbf{Q.85} The value of $E(Y)$ is equal to 
 \\[1ex] \textit{[GATE EE 2025]}
 
 (A) $\dfrac{1}{4}$ \hspace{2em} (B) $\dfrac{1}{2}$ \hspace{2em} (C) $1$ \hspace{2em} (D) $2$
