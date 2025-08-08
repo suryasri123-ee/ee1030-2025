@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.2)  6 AUG 2025 12:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.2)  8 AUG 2025 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1405,7 +1405,7 @@ f-dist/fonts/enc/dvips/base/8r.enc}]
 File: ./figs/q10.png Graphic file (type png)
 <use ./figs/q10.png>
 Package pdftex.def Info: ./figs/q10.png  used on input line 192.
-(pdftex.def)             Requested size: 352.31538pt x 150.56212pt.
+(pdftex.def)             Requested size: 361.19843pt x 154.3574pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 187--195
 
@@ -1415,185 +1415,165 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--195
 File: ./figs/q11.png Graphic file (type png)
 <use ./figs/q11.png>
 Package pdftex.def Info: ./figs/q11.png  used on input line 210.
-(pdftex.def)             Requested size: 352.31538pt x 150.56212pt.
+(pdftex.def)             Requested size: 361.19843pt x 154.3574pt.
 [2 <./figs/q10.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
 <./figs/q14.png, id=78, 224.84pt x 175.65625pt>
 File: ./figs/q14.png Graphic file (type png)
 <use ./figs/q14.png>
-Package pdftex.def Info: ./figs/q14.png  used on input line 256.
-(pdftex.def)             Requested size: 168.62958pt x 131.74185pt.
-[3 <./figs/q11.png>]
-<./figs/q15.png, id=100, 339.2675pt x 174.6525pt>
+Package pdftex.def Info: ./figs/q14.png  used on input line 258.
+(pdftex.def)             Requested size: 140.40143pt x 109.69374pt.
+
+Overfull \vbox (17.74924pt too high) has occurred while \output is active []
+
+
+[3 <./figs/q11.png> <./figs/q14.png>]
+<./figs/q15.png, id=103, 339.2675pt x 174.6525pt>
 File: ./figs/q15.png Graphic file (type png)
 <use ./figs/q15.png>
-Package pdftex.def Info: ./figs/q15.png  used on input line 273.
-(pdftex.def)             Requested size: 254.45pt x 130.98904pt.
-<./figs/q18.png, id=101, 337.26pt x 166.6225pt>
+Package pdftex.def Info: ./figs/q15.png  used on input line 279.
+(pdftex.def)             Requested size: 361.19843pt x 185.94891pt.
+<./figs/q18.png, id=104, 337.26pt x 166.6225pt>
 File: ./figs/q18.png Graphic file (type png)
 <use ./figs/q18.png>
-Package pdftex.def Info: ./figs/q18.png  used on input line 315.
-(pdftex.def)             Requested size: 252.94437pt x 124.96655pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./figs/q14.png> <./figs/q15.png>]
+Package pdftex.def Info: ./figs/q18.png  used on input line 321.
+(pdftex.def)             Requested size: 361.19843pt x 178.4521pt.
+ [4 <./figs/q15.png>]
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-340.
+346.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-<./figs/q23.png, id=131, 543.02875pt x 190.7125pt>
+<./figs/q23.png, id=132, 543.02875pt x 190.7125pt>
 File: ./figs/q23.png Graphic file (type png)
 <use ./figs/q23.png>
-Package pdftex.def Info: ./figs/q23.png  used on input line 381.
-(pdftex.def)             Requested size: 407.27055pt x 143.03401pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./figs/q18.png>] [6 <./figs/q23.png>]
-<./figs/q33.png, id=184, 446.66875pt x 223.83624pt>
+Package pdftex.def Info: ./figs/q23.png  used on input line 387.
+(pdftex.def)             Requested size: 361.19843pt x 126.85713pt.
+ [5 <./figs/q18.png>] [6 <./figs/q23.png>]
+<./figs/q33.png, id=185, 446.66875pt x 223.83624pt>
 File: ./figs/q33.png Graphic file (type png)
 <use ./figs/q33.png>
-Package pdftex.def Info: ./figs/q33.png  used on input line 494.
-(pdftex.def)             Requested size: 335.00073pt x 167.87677pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7]
-<./figs/q35.png, id=227, 565.11125pt x 119.44624pt>
+Package pdftex.def Info: ./figs/q33.png  used on input line 500.
+(pdftex.def)             Requested size: 361.19843pt x 181.00922pt.
+ [7]
+<./figs/q35.png, id=228, 565.11125pt x 119.44624pt>
 File: ./figs/q35.png Graphic file (type png)
 <use ./figs/q35.png>
-Package pdftex.def Info: ./figs/q35.png  used on input line 518.
-(pdftex.def)             Requested size: 423.8324pt x 89.58444pt.
+Package pdftex.def Info: ./figs/q35.png  used on input line 524.
+(pdftex.def)             Requested size: 361.19843pt x 76.3469pt.
  [8 <./figs/q33.png> <./figs/q35.png>]
-<./figs/q37.png, id=252, 371.3875pt x 160.6pt>
+<./figs/q37.png, id=254, 371.3875pt x 160.6pt>
 File: ./figs/q37.png Graphic file (type png)
 <use ./figs/q37.png>
-Package pdftex.def Info: ./figs/q37.png  used on input line 561.
-(pdftex.def)             Requested size: 278.53993pt x 120.44969pt.
-<./figs/38aa.png, id=253, 253.94875pt x 189.70876pt>
-File: ./figs/38aa.png Graphic file (type png)
-<use ./figs/38aa.png>
-Package pdftex.def Info: ./figs/38aa.png  used on input line 578.
-(pdftex.def)             Requested size: 152.3704pt x 113.82613pt.
-File: ./figs/38aa.png Graphic file (type png)
-<use ./figs/38aa.png>
-Package pdftex.def Info: ./figs/38aa.png  used on input line 581.
-(pdftex.def)             Requested size: 152.3704pt x 113.82613pt.
+Package pdftex.def Info: ./figs/q37.png  used on input line 567.
+(pdftex.def)             Requested size: 361.19843pt x 156.1984pt.
+<./figs/38aa.png, id=255, 253.94875pt x 189.70876pt>
 File: ./figs/38aa.png Graphic file (type png)
 <use ./figs/38aa.png>
 Package pdftex.def Info: ./figs/38aa.png  used on input line 584.
-(pdftex.def)             Requested size: 152.3704pt x 113.82613pt.
-File: ./figs/38aa.png Graphic file (type png)
-<use ./figs/38aa.png>
-Package pdftex.def Info: ./figs/38aa.png  used on input line 587.
-(pdftex.def)             Requested size: 152.3704pt x 113.82613pt.
- [9 <./figs/q37.png> <./figs/38aa.png>]
-<./figs/q39.png, id=277, 426.59375pt x 127.47626pt>
+(pdftex.def)             Requested size: 126.0pt x 94.12466pt.
+<./figs/38ab.png, id=256, 253.94875pt x 189.70876pt>
+File: ./figs/38ab.png Graphic file (type png)
+<use ./figs/38ab.png>
+Package pdftex.def Info: ./figs/38ab.png  used on input line 587.
+(pdftex.def)             Requested size: 126.0pt x 94.12466pt.
+<./figs/38ac.png, id=257, 253.94875pt x 189.70876pt>
+File: ./figs/38ac.png Graphic file (type png)
+<use ./figs/38ac.png>
+Package pdftex.def Info: ./figs/38ac.png  used on input line 590.
+(pdftex.def)             Requested size: 126.0pt x 94.12466pt.
+<./figs/38ad.png, id=258, 253.94875pt x 189.70876pt>
+File: ./figs/38ad.png Graphic file (type png)
+<use ./figs/38ad.png>
+Package pdftex.def Info: ./figs/38ad.png  used on input line 593.
+(pdftex.def)             Requested size: 126.0pt x 94.12466pt.
+<./figs/q39.png, id=259, 426.59375pt x 127.47626pt>
 File: ./figs/q39.png Graphic file (type png)
 <use ./figs/q39.png>
-Package pdftex.def Info: ./figs/q39.png  used on input line 604.
-(pdftex.def)             Requested size: 319.94452pt x 95.60695pt.
+Package pdftex.def Info: ./figs/q39.png  used on input line 603.
+(pdftex.def)             Requested size: 361.19843pt x 107.94101pt.
+ [9 <./figs/q37.png> <./figs/38aa.png> <./figs/38ab.png> <./figs/38ac.png> <./f
+igs/38ad.png>]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 630--630
+[][] 
+ []
+
+<./figs/41a.png, id=286, 674.52pt x 47.17625pt>
+File: ./figs/41a.png Graphic file (type png)
+<use ./figs/41a.png>
+Package pdftex.def Info: ./figs/41a.png  used on input line 630.
+(pdftex.def)             Requested size: 361.19843pt x 25.26242pt.
 
 Overfull \hbox (12.0pt too wide) in paragraph at lines 631--631
 [][] 
  []
 
-<./figs/41a.png, id=278, 674.52pt x 47.17625pt>
-File: ./figs/41a.png Graphic file (type png)
-<use ./figs/41a.png>
-Package pdftex.def Info: ./figs/41a.png  used on input line 631.
-(pdftex.def)             Requested size: 505.88876pt x 35.38208pt.
-
-Overfull \hbox (1.88876pt too wide) in paragraph at lines 631--632
-[][] 
- []
-
+<./figs/41b.png, id=287, 674.52pt x 47.17625pt>
+File: ./figs/41b.png Graphic file (type png)
+<use ./figs/41b.png>
+Package pdftex.def Info: ./figs/41b.png  used on input line 631.
+(pdftex.def)             Requested size: 361.19843pt x 25.26242pt.
 
 Overfull \hbox (12.0pt too wide) in paragraph at lines 632--632
 [][] 
  []
 
-<./figs/41b.png, id=279, 674.52pt x 47.17625pt>
-File: ./figs/41b.png Graphic file (type png)
-<use ./figs/41b.png>
-Package pdftex.def Info: ./figs/41b.png  used on input line 632.
-(pdftex.def)             Requested size: 505.88876pt x 35.38208pt.
-
-Overfull \hbox (1.88876pt too wide) in paragraph at lines 632--633
-[][] 
- []
-
+<./figs/41c.png, id=288, 674.52pt x 47.17625pt>
+File: ./figs/41c.png Graphic file (type png)
+<use ./figs/41c.png>
+Package pdftex.def Info: ./figs/41c.png  used on input line 632.
+(pdftex.def)             Requested size: 361.19843pt x 25.26242pt.
 
 Overfull \hbox (12.0pt too wide) in paragraph at lines 633--633
 [][] 
  []
 
-<./figs/41c.png, id=280, 674.52pt x 47.17625pt>
-File: ./figs/41c.png Graphic file (type png)
-<use ./figs/41c.png>
-Package pdftex.def Info: ./figs/41c.png  used on input line 633.
-(pdftex.def)             Requested size: 505.88876pt x 35.38208pt.
-
-Overfull \hbox (1.88876pt too wide) in paragraph at lines 633--634
-[][] 
- []
-
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 634--634
-[][] 
- []
-
-<./figs/41d.png, id=281, 674.52pt x 47.17625pt>
+<./figs/41d.png, id=289, 674.52pt x 47.17625pt>
 File: ./figs/41d.png Graphic file (type png)
 <use ./figs/41d.png>
-Package pdftex.def Info: ./figs/41d.png  used on input line 634.
-(pdftex.def)             Requested size: 505.88876pt x 35.38208pt.
-
-Overfull \hbox (1.88876pt too wide) in paragraph at lines 634--635
-[][] 
- []
-
+Package pdftex.def Info: ./figs/41d.png  used on input line 633.
+(pdftex.def)             Requested size: 361.19843pt x 25.26242pt.
 [10 <./figs/q39.png> <./figs/41a.png> <./figs/41b.png> <./figs/41c.png> <./figs
 /41d.png>]
-<./figs/q42.png, id=308, 308.15125pt x 128.48pt>
+<./figs/q42.png, id=315, 308.15125pt x 128.48pt>
 File: ./figs/q42.png Graphic file (type png)
 <use ./figs/q42.png>
-Package pdftex.def Info: ./figs/q42.png  used on input line 645.
-(pdftex.def)             Requested size: 231.11285pt x 96.35976pt.
+Package pdftex.def Info: ./figs/q42.png  used on input line 644.
+(pdftex.def)             Requested size: 361.19843pt x 150.60916pt.
  [11 <./figs/q42.png>]
-<./figs/q47.png, id=335, 409.53pt x 201.75375pt>
+<./figs/q47.png, id=342, 409.53pt x 201.75375pt>
 File: ./figs/q47.png Graphic file (type png)
 <use ./figs/q47.png>
-Package pdftex.def Info: ./figs/q47.png  used on input line 712.
-(pdftex.def)             Requested size: 307.14674pt x 151.31493pt.
-<./figs/q48.png, id=336, 408.52625pt x 217.81375pt>
+Package pdftex.def Info: ./figs/q47.png  used on input line 714.
+(pdftex.def)             Requested size: 361.19843pt x 177.95328pt.
+<./figs/q48.png, id=343, 408.52625pt x 217.81375pt>
 File: ./figs/q48.png Graphic file (type png)
 <use ./figs/q48.png>
-Package pdftex.def Info: ./figs/q48.png  used on input line 731.
-(pdftex.def)             Requested size: 306.39394pt x 163.3599pt.
+Package pdftex.def Info: ./figs/q48.png  used on input line 733.
+(pdftex.def)             Requested size: 361.19843pt x 192.59065pt.
  [12 <./figs/q47.png> <./figs/q48.png>]
-<./figs/q51.png, id=356, 408.52625pt x 217.81375pt>
+<./figs/q51.png, id=363, 408.52625pt x 217.81375pt>
 File: ./figs/q51.png Graphic file (type png)
 <use ./figs/q51.png>
-Package pdftex.def Info: ./figs/q51.png  used on input line 769.
-(pdftex.def)             Requested size: 306.39394pt x 163.3599pt.
-<./figs/q54.png, id=357, 408.52625pt x 217.81375pt>
+Package pdftex.def Info: ./figs/q51.png  used on input line 771.
+(pdftex.def)             Requested size: 361.19843pt x 192.59065pt.
+<./figs/q54.png, id=364, 408.52625pt x 217.81375pt>
 File: ./figs/q54.png Graphic file (type png)
 <use ./figs/q54.png>
-Package pdftex.def Info: ./figs/q54.png  used on input line 802.
-(pdftex.def)             Requested size: 306.39394pt x 163.3599pt.
+Package pdftex.def Info: ./figs/q54.png  used on input line 804.
+(pdftex.def)             Requested size: 361.19843pt x 192.59065pt.
 
 [13 <./figs/q51.png>] [14 <./figs/q54.png>] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 913--915
+Underfull \hbox (badness 10000) in paragraph at lines 915--917
 
  []
 
@@ -1616,25 +1596,26 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32418 strings out of 474222
- 629717 string characters out of 5748734
- 1950975 words of memory out of 5000000
- 53648 multiletter control sequences out of 15000+600000
- 618286 words of font info for 154 fonts, out of 8000000 for 9000
+ 32488 strings out of 474222
+ 630582 string characters out of 5748734
+ 1952975 words of memory out of 5000000
+ 53716 multiletter control sequences out of 15000+600000
+ 622574 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,10n,103p,1172b,690s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
-s/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 200316 bytes).
+ 101i,10n,103p,1172b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
+s/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (16 pages, 226747 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 503 compressed objects within 6 object streams
+ 596 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
  359 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
