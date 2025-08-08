@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  6 AUG 2025 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  8 AUG 2025 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1993,24 +1993,36 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
+Underfull \hbox (badness 5008) in paragraph at lines 119--120
+[]\OT1/txr/m/n/10 The shape of the cross-section, which has the largest shape f
+ac-tor, is
+ []
+
+
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
+Underfull \hbox (badness 4569) in paragraph at lines 133--135
+[]\OT1/txr/m/n/10 Group sym-bols as-signed to silty sand and clayey sand are re
+-spec-tively
+ []
+
+
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
 []\OT1/txr/m/n/10 The ca-pac-i-ties of One-way 1.5 m wide side-walk per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
 \OT1/txr/m/n/10 sons per hour and One-way 2-lane ur-ban road
  []
 
 
-Overfull \hbox (48.81866pt too wide) in paragraph at lines 242--244
+Overfull \hbox (48.81866pt too wide) in paragraph at lines 246--248
 []$
  []
 
@@ -2021,129 +2033,134 @@ Overfull \hbox (48.81866pt too wide) in paragraph at lines 242--244
 [4]
 
 [5]
-<figs/fig6.png, id=211, 295.1025pt x 172.645pt>
+<figs/fig14.png, id=214, 187.70125pt x 83.31125pt>
+File: figs/fig14.png Graphic file (type png)
+<use figs/fig14.png>
+Package pdftex.def Info: figs/fig14.png  used on input line 404.
+(pdftex.def)             Requested size: 291.35735pt x 129.32813pt.
+
+
+[6 <./figs/fig14.png>]
+<figs/fig6.png, id=236, 295.1025pt x 172.645pt>
 File: figs/fig6.png Graphic file (type png)
 <use figs/fig6.png>
-Package pdftex.def Info: figs/fig6.png  used on input line 467.
+Package pdftex.def Info: figs/fig6.png  used on input line 438.
 (pdftex.def)             Requested size: 291.35735pt x 170.45805pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 4328) has occurred while \output is active []
-
-
-
-[6]
-<figs/fig7.png, id=231, 567.11874pt x 201.75375pt>
+<figs/fig7.png, id=237, 567.11874pt x 201.75375pt>
 File: figs/fig7.png Graphic file (type png)
 <use figs/fig7.png>
-Package pdftex.def Info: figs/fig7.png  used on input line 484.
+Package pdftex.def Info: figs/fig7.png  used on input line 455.
 (pdftex.def)             Requested size: 291.35735pt x 103.65343pt.
-<figs/fig8.png, id=232, 536.0025pt x 147.55125pt>
-File: figs/fig8.png Graphic file (type png)
-<use figs/fig8.png>
-Package pdftex.def Info: figs/fig8.png  used on input line 508.
-(pdftex.def)             Requested size: 291.35735pt x 80.20331pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [7 <./figs/fig6.png> <./figs/fig7.png>]
+<figs/fig8.png, id=254, 536.0025pt x 147.55125pt>
+File: figs/fig8.png Graphic file (type png)
+<use figs/fig8.png>
+Package pdftex.def Info: figs/fig8.png  used on input line 479.
+(pdftex.def)             Requested size: 291.35735pt x 80.20331pt.
+
 
 [8 <./figs/fig8.png>]
-<figs/fig1.png, id=285, 633.36626pt x 134.5025pt>
+<figs/fig1.png, id=286, 633.36626pt x 134.5025pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 581.
+Package pdftex.def Info: figs/fig1.png  used on input line 552.
 (pdftex.def)             Requested size: 291.35735pt x 61.87393pt.
-<figs/fig2.png, id=286, 757.83125pt x 187.70125pt>
+<figs/fig2.png, id=287, 757.83125pt x 187.70125pt>
 File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
-Package pdftex.def Info: figs/fig2.png  used on input line 600.
+Package pdftex.def Info: figs/fig2.png  used on input line 571.
 (pdftex.def)             Requested size: 291.35735pt x 72.16353pt.
-<figs/fig3.png, id=287, 516.93124pt x 122.4575pt>
-File: figs/fig3.png Graphic file (type png)
-<use figs/fig3.png>
-Package pdftex.def Info: figs/fig3.png  used on input line 619.
-(pdftex.def)             Requested size: 291.35735pt x 69.0223pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[9 <./figs/fig1.png> <./figs/fig2.png>]
+[9 <./figs/fig1.png>]
+<figs/fig3.png, id=319, 516.93124pt x 122.4575pt>
+File: figs/fig3.png Graphic file (type png)
+<use figs/fig3.png>
+Package pdftex.def Info: figs/fig3.png  used on input line 590.
+(pdftex.def)             Requested size: 291.35735pt x 69.0223pt.
 
-[10 <./figs/fig3.png>]
-<figs/fig4.png, id=342, 591.20876pt x 172.645pt>
+
+[10 <./figs/fig2.png> <./figs/fig3.png>]
+<figs/fig4.png, id=349, 591.20876pt x 172.645pt>
 File: figs/fig4.png Graphic file (type png)
 <use figs/fig4.png>
-Package pdftex.def Info: figs/fig4.png  used on input line 725.
+Package pdftex.def Info: figs/fig4.png  used on input line 696.
 (pdftex.def)             Requested size: 291.35735pt x 85.08414pt.
 
 
 [11 <./figs/fig4.png>]
-Overfull \hbox (6.71535pt too wide) in paragraph at lines 801--807
+Overfull \hbox (6.71535pt too wide) in paragraph at lines 772--778
 [][] 
  []
 
 
 
 [12]
-Underfull \hbox (badness 2600) in paragraph at lines 870--871
+Underfull \hbox (badness 2600) in paragraph at lines 841--842
 []\OT1/txr/m/n/10 Conversion of sol-u-ble or-ganic
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [13]
-<figs/fig5.png, id=426, 648.4225pt x 247.92625pt>
+<figs/fig5.png, id=433, 648.4225pt x 247.92625pt>
 File: figs/fig5.png Graphic file (type png)
 <use figs/fig5.png>
-Package pdftex.def Info: figs/fig5.png  used on input line 898.
+Package pdftex.def Info: figs/fig5.png  used on input line 869.
 (pdftex.def)             Requested size: 291.35735pt x 111.4031pt.
 
 
 [14 <./figs/fig5.png>]
 
 [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 2671) in paragraph at lines 1017--1019
+[]\OT1/txr/bx/n/10 74)   \OT1/txr/m/n/10 The spac-ing (mm) of 2-legged 8 mm sti
+r-rups to be pro-vided is
+ []
 
 
 
 [16]
-<figs/fig9.png, id=477, 379.4175pt x 133.49875pt>
+<figs/fig9.png, id=489, 379.4175pt x 133.49875pt>
 File: figs/fig9.png Graphic file (type png)
 <use figs/fig9.png>
-Package pdftex.def Info: figs/fig9.png  used on input line 1072.
+Package pdftex.def Info: figs/fig9.png  used on input line 1042.
 (pdftex.def)             Requested size: 364.1953pt x 128.1451pt.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1072--1074
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1042--1044
 [][]
  []
 
-<figs/fig12.png, id=478, 584.1825pt x 158.5925pt>
-File: figs/fig12.png Graphic file (type png)
-<use figs/fig12.png>
-Package pdftex.def Info: figs/fig12.png  used on input line 1097.
-(pdftex.def)             Requested size: 291.35735pt x 79.10002pt.
 
-Underfull \vbox (badness 1596) has occurred while \output is active []
+Underfull \hbox (badness 1490) in paragraph at lines 1045--1047
+[]\OT1/txr/bx/n/10 76)   \OT1/txr/m/n/10 When the mid-dle pon-toon is re-moved,
+ the de-flec-tion at H will be
+ []
 
 
 
 [17 <./figs/fig9.png>]
-<figs/fig13.png, id=485, 589.20125pt x 180.675pt>
+<figs/fig12.png, id=496, 584.1825pt x 158.5925pt>
+File: figs/fig12.png Graphic file (type png)
+<use figs/fig12.png>
+Package pdftex.def Info: figs/fig12.png  used on input line 1067.
+(pdftex.def)             Requested size: 291.35735pt x 79.10002pt.
+<figs/fig13.png, id=497, 589.20125pt x 180.675pt>
 File: figs/fig13.png Graphic file (type png)
 <use figs/fig13.png>
-Package pdftex.def Info: figs/fig13.png  used on input line 1123.
+Package pdftex.def Info: figs/fig13.png  used on input line 1093.
 (pdftex.def)             Requested size: 364.1953pt x 111.67824pt.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1123--1125
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1093--1095
 [][]
  []
 
@@ -2170,13 +2187,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 55674 strings out of 473190
- 1318284 string characters out of 5715801
+ 55584 strings out of 473190
+ 1315638 string characters out of 5715801
  1915409 words of memory out of 5000000
- 77730 multiletter control sequences out of 15000+600000
+ 77628 multiletter control sequences out of 15000+600000
  627797 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,9n,109p,1194b,1341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,16n,109p,1194b,1338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -2185,10 +2202,10 @@ ve/2025/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2025
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 2321771 bytes).
+Output written on main.pdf (19 pages, 2375025 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
- 528 compressed objects within 6 object streams
- 369 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 625 PDF objects out of 1000 (max. 8388607)
+ 542 compressed objects within 6 object streams
+ 381 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
