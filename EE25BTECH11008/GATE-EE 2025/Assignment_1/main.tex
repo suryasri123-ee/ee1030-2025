@@ -1,7 +1,36 @@
-\documentclass[12pt,a4paper]{article}
-\usepackage{gvv}
-\usepackage{gvv-book}
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[12pt]{article}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
 \usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                                             
+\usepackage{gvv-book}     
+\usepackage{xparse}
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
 \usepackage{geometry}
 \geometry{left=1in, right=1in, top=1in, bottom=1in}
 
@@ -25,7 +54,7 @@
     \item Questions 1 through 20 are 1-mark questions and questions 21 through 85 are 2-mark questions.
     \item Questions 71 through 73 is one set of common data questions, questions 74 and 75 is another pair of common data questions. The question pairs (76, 77), (78, 79), (80, 81), (82, 83) and (84, 85) are questions with linked answers. The answer to the second question of the above pairs will depend on the answer to the first question of the pair. If the first question in the linked pair is wrongly answered or is un-attempted, then the answer to the second question in the pair will not be evaluated.
     \item Un-attempted questions will carry zero marks.
-    \item \textbf{NEGATIVE MARKING:} For Q.1 to Q.20, \textbf{0.25 mark will be deducted for each wrong answer}. For Q.21 to Q.75, \textbf{0.5 mark will be deducted for each wrong answer}. For the pairs of questions with linked answers, there will be negative marks only for wrong answer to the first question, i.e. for Q.76, Q.78, Q.80, Q.82 and Q.84, \textbf{0.5 mark will be deducted for each wrong answer}. There is no negative marking for Q.77, Q.79, Q.81, Q.83 and Q.85.
+     \large \textbf {NEGATIVE MARKING:} For Q.1 to Q.20, \textbf{0.25 mark will be deducted for each wrong answer}. For Q.21 to Q.75, \textbf{0.5 mark will be deducted for each wrong answer}. For the pairs of questions with linked answers, there will be negative marks only for wrong answer to the first question, i.e. for Q.76, Q.78, Q.80, Q.82 and Q.84, \textbf{0.5 mark will be deducted for each wrong answer}. There is no negative marking for Q.77, Q.79, Q.81, Q.83 and Q.85.
     \item Calculator \textbf{without data connectivity} is allowed in the examination hall.
     \item Charts, graph sheets and tables are NOT allowed in the examination hall.
     \item Rough work can be done on the question paper itself. Additional blank pages are given at the end of the question paper for rough work.
@@ -39,7 +68,7 @@
 
 \begin{enumerate}[leftmargin=2.5em, label=\textbf{Q.\arabic*}., itemsep=2em]
 \item All the four entries of the $2\times2$ matrix $\mathbf{P} = \begin{pmatrix} P_{11} & P_{12}\\ P_{21} & P_{22} \end{pmatrix}$ are nonzero, and one of its eigenvalues is zero. Which of the following statements is true?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
     \begin{enumerate}[label=(\Alph*)]
         \item $P_{11}P_{22} - P_{12}P_{21} = 1$
@@ -54,7 +83,7 @@
 2x + y = 6
 \]
 has
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
     \begin{enumerate}[label=(\Alph*)]
         \item a unique solution
@@ -64,7 +93,7 @@ has
     \end{enumerate}
 
 \item The equation $\sin(z) = 10$ has
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
     \begin{enumerate}[label=(\Alph*)]
         \item no real or complex solution
@@ -75,7 +104,7 @@ stinct complex solutions
     \end{enumerate}
 
 \item For real values of $x$, the minimum value of the function $f(x) = \exp(x) + \exp(-x)$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
     \begin{enumerate}[label=(\Alph*)]
         \item 2
@@ -85,7 +114,7 @@ stinct complex solutions
     \end{enumerate}
 
 \item Which of the following functions would have only odd powers of $x$ in its Taylor series expansion about the point $x = 0$?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
     \begin{enumerate}[label=(\Alph*)]
         \item $\sin(x^3)$
@@ -95,7 +124,7 @@ stinct complex solutions
     \end{enumerate}
 
 \item Which of the following is a solution to the differential equation $\dfrac{dx(t)}{dt} + 3x(t) = 0$?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
     \begin{enumerate}[label=(\Alph*)]
         \item $x(t) = 3e^{-t}$
@@ -106,7 +135,7 @@ stinct complex solutions
 
 \item In the following graph, the number of trees (P) and the number of cut-sets (Q) are
 number of trees (P) and the number of cut-sets (Q) are
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{figs/q7.png}
@@ -119,7 +148,7 @@ number of trees (P) and the number of cut-sets (Q) are
     \end{enumerate}
 
 \item In the following circuit, the switch $S$ is closed at $t = 0$. The rate of change of current $\dfrac{di}{dt}(0^+)$ is given by
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{figs/q8.png}
@@ -132,7 +161,7 @@ number of trees (P) and the number of cut-sets (Q) are
 \end{enumerate}
 
 \item The input and output of a continuous time system are respectively denoted by $x(t)$ and $y(t)$. Which of the following descriptions corresponds to a causal system?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $y(t) = x(t-2) + x(t+4)$
@@ -142,7 +171,7 @@ number of trees (P) and the number of cut-sets (Q) are
 \end{enumerate}
 
 \item The impulse response $h(t)$ of a linear time-invariant continuous time system is described by $h(t) = \exp(\alpha t) u(t) + \exp(\beta t) u(t)$, where $u(t)$ denotes the unit step function, and $\alpha$ and $\beta$ are real constants. This system is stable if
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $\alpha$ is positive and $\beta$ is positive
@@ -152,7 +181,7 @@ number of trees (P) and the number of cut-sets (Q) are
 \end{enumerate}
 
 \item The pole-zero plot given below corresponds to a
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{figs/q11.png}
@@ -165,7 +194,7 @@ number of trees (P) and the number of cut-sets (Q) are
 \end{enumerate}
 
 \item Step responses of a set of three second-order underdamped systems all have the same percentage overshoot. Which of the following diagrams represents the poles of the three systems?\\
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.95\textwidth]{figs/q12.png}
@@ -179,7 +208,7 @@ number of trees (P) and the number of cut-sets (Q) are
 
 \item
 Which of the following is NOT associated with a p-n junction?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item Junction Capacitance
@@ -190,7 +219,7 @@ Which of the following is NOT associated with a p-n junction?
 
 \item
 Which of the following is true?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item A silicon wafer heavily doped with boron is a p$^+$ substrate
@@ -201,7 +230,7 @@ Which of the following is true?
 
 \item
 For a Hertz dipole antenna, the half power beam width (HPBW) in the E-plane is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $360^\circ$
@@ -212,7 +241,7 @@ For a Hertz dipole antenna, the half power beam width (HPBW) in the E-plane is
 
 \item
 For static electric and magnetic fields in an inhomogeneous source-free medium, which of the following represents the correct form of two of Maxwell's equations?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\nabla \cdot E = 0$, \quad $\nabla \times B = 0$
@@ -228,7 +257,7 @@ For static electric and magnetic fields in an inhomogeneous source-free medium, 
 \end{center}
 
 The maximum and minimum values of the output voltage respectively are
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $6.1$ V, $-0.7$ V
@@ -238,7 +267,7 @@ The maximum and minimum values of the output voltage respectively are
 \end{enumerate}
 
 \item A silicon wafer has $100\,\mathrm{nm}$ of oxide on it and is inserted in a furnace at a temperature above $1000^\circ$C for further oxidation in dry oxygen. The oxidation rate
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item is independent of current oxide thickness and temperature
@@ -249,7 +278,7 @@ The maximum and minimum values of the output voltage respectively are
 
 \item The drain current of a MOSFET in saturation is given by $I_D=K(V_{\mathrm{GS}}-V_T)^2$ where $K$ is a constant.
 The magnitude of the transconductance $g_m$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\dfrac{K(V_{\mathrm{GS}}-V_T)^2}{V_{\mathrm{DS}}}$
@@ -259,7 +288,7 @@ The magnitude of the transconductance $g_m$ is
 \end{enumerate}
 
 \item Consider the amplitude modulated (AM) signal $A\cos\omega_1 t+2\cos\omega_2 t\cos\omega_1 t$. For demodulating the signal using envelope detector, the minimum value of $A$ should be
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 2
@@ -271,14 +300,14 @@ The magnitude of the transconductance $g_m$ is
 \end{enumerate}
 
 \vspace{1em}
-\item \textbf{Q.21 – Q.75 carry two marks each.}
+\large \textbf {Q.21 – Q.75 carry two marks each.}
 \vspace{1em}
 
 \begin{enumerate}[leftmargin=*, label=\textbf{Q.\arabic*:}]
 \setcounter{enumi}{20}
 
 \item The Thevenin equivalent impedance $Z_{th}$ between the nodes $P$ and $Q$ in the following circuit is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{figs/q21.png}
@@ -291,7 +320,7 @@ The magnitude of the transconductance $g_m$ is
 \end{enumerate}
 
 \item The driving point impedance of the following network is given by $Z(s)=\frac{0.2s}{s^2+0.1s+2}$. The component values are
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{figs/q22.png}
@@ -312,7 +341,7 @@ The magnitude of the transconductance $g_m$ is
 \includegraphics[width=0.7\textwidth]{figs/q23.png}
 \end{center}
 Assume that the capacitor has zero initial charge. Given that $u(t)$ is a unit step function, the voltage $V_c(t)$ across the capacitor is given by
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\displaystyle\sum_{n=0}^\infty (-1)^n t u(t-nT)$
@@ -331,7 +360,7 @@ The probability density function (PDF) of a random variable $X$ is as shown belo
 \end{center}
 
 The corresponding cumulative distribution function (CDF) has the form
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 
 \begin{center}
@@ -339,7 +368,7 @@ The corresponding cumulative distribution function (CDF) has the form
 \end{center}
 
 \item The recursion relation to solve $x = e^{x}$ using Newton-Raphson method is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $x_{n+1} = e^{-x_n}$
@@ -349,7 +378,7 @@ The corresponding cumulative distribution function (CDF) has the form
 \end{enumerate}
 
 \item The residue of the function $f(z) = \dfrac{1}{(z+2)^2 (z-2)^2}$ at $z = 2$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $\dfrac{1}{32}$
@@ -359,7 +388,7 @@ The corresponding cumulative distribution function (CDF) has the form
 \end{enumerate}
 
 \item Consider the matrix $\mathbf{P} = \begin{bmatrix} 0 & 1 \\ -2 & -3 \end{bmatrix}$. The value of $e^{\mathbf{P}}$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $\begin{bmatrix} 2e^{-2} - 3e^{-1} & e^{-1} - e^{-2} \\ 2e^{-2} - 2e^{-1} & 5e^{-2} - e^{-1}\end{bmatrix}$
@@ -369,7 +398,7 @@ The corresponding cumulative distribution function (CDF) has the form
 \end{enumerate}
 
 \item In the Taylor series expansion of $\exp(x) + \sin(x)$ about the point $x = \pi$, the coefficient of $(x - \pi)^2$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $\exp(\pi)$
@@ -379,7 +408,7 @@ The corresponding cumulative distribution function (CDF) has the form
 \end{enumerate}
 
 \item $P_X(x) = M\exp(-2|x|) + N\exp(-3|x|)$ is the probability density function for the real random variable $X$, over the entire $x$ axis. $M$ and $N$ are both positive real numbers. The equation relating $M$ and $N$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $M + \dfrac{2}{3} N = 1$
@@ -389,7 +418,7 @@ The corresponding cumulative distribution function (CDF) has the form
 \end{enumerate}
 
 \item The value of the integral of the function $g(x, y) = 4x^3 + 10y$ along the straight line segment from the point $(0,0)$ to the point $(1,2)$ in the $x-y$ plane is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $33$
@@ -399,7 +428,7 @@ The corresponding cumulative distribution function (CDF) has the form
 \end{enumerate}
 
 \item A linear, time-invariant, causal continuous time system has a rational transfer function with simple poles at $s=-2$ and $s= -4$, and one simple zero at $s=-1$. A unit step $u(t)$ is applied at the input of the system. At steady state, the output has constant value of $1$. The impulse response of this system is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $\left[\exp(-2t)+\exp(-4t) \right]u(t)$
@@ -416,7 +445,7 @@ x(t) = \begin{cases}
 \end{cases}
 \]
 Two of the angular frequencies at which its Fourier transform becomes zero are
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $\pi,\,2\pi$
@@ -426,7 +455,7 @@ Two of the angular frequencies at which its Fourier transform becomes zero are
 \end{enumerate}
 
 \item A discrete time linear shift-invariant system has an impulse response $h[n]$ with $h[0]=1$, $h[1]=-1$, $h[2]=2$, and zero otherwise. The system is given an input sequence $x[n]$ with $x[0]=x[2]=1$, and zero otherwise. The number of nonzero samples in the output sequence $y[n]$, and the value of $y[2]$ are, respectively
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $5, 2$
@@ -440,7 +469,7 @@ Two of the angular frequencies at which its Fourier transform becomes zero are
 2\int_P^Q (x\,dx + y\,dy)
 \]
 along the semicircle with the line segment $PQ$ as its diameter
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item is $-1$
@@ -459,7 +488,7 @@ along the semicircle with the line segment $PQ$ as its diameter
                                                   & R4: $y(t)=x(t-5)$
   \end{tabular}
 \end{center}
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item (P1, R1), (P2, R3), (P3, R4)
@@ -469,7 +498,7 @@ along the semicircle with the line segment $PQ$ as its diameter
 \end{enumerate}
 
 \item A memoryless source emits $n$ symbols each with a probability $p$. The entropy of the source as a function of $n$
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item increases as $\log n$
@@ -483,7 +512,7 @@ along the semicircle with the line segment $PQ$ as its diameter
 y(n) = x(r) x(n + r)
 \]
 is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $|X(k)|^2 $
@@ -508,7 +537,7 @@ Group I lists a set of four transfer functions. Group II gives a list of possibl
 \begin{center}
 \includegraphics[width=0.9\textwidth]{figs/q38.png}
 \end{center}
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item P-3, Q-1, R-4, S-2
@@ -524,7 +553,7 @@ Group I lists a set of four transfer functions. Group II gives a list of possibl
 \end{center}
 
 Which of the following statements is true?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item The closed loop system is never stable for any value of $a$.
@@ -541,7 +570,7 @@ Which of the following statements is true?
 
 
 The set of equations that correspond to this signal flow graph is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\dfrac{d}{dt}
@@ -639,7 +668,7 @@ The set of equations that correspond to this signal flow graph is
 \end{enumerate}
 
 \item The number of open right half plane poles of $G(s) = \dfrac{10}{s^3 + 2s^4 + 3s^3 + 6s^2 + 5s + 3}$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 0
@@ -649,7 +678,7 @@ The set of equations that correspond to this signal flow graph is
 \end{enumerate}
 
 \item The magnitude of frequency response of an underdamped second order system is 5 at 0 rad/sec and peaks to $\dfrac{10}{\sqrt{3}}$ at $5 \sqrt{2}$ rad/sec. The transfer function of the system is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\dfrac{500}{s^2 + 10s + 100}$
@@ -672,7 +701,7 @@ Group I gives two possible choices for the impedance $Z$ in the diagram. The cir
 1. PID controller\hspace{1em}
 2. Lead compensator\hspace{1em}
 3. Lag compensator
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item Q-1, R-2
@@ -687,7 +716,7 @@ Group I gives two possible choices for the impedance $Z$ in the diagram. The cir
 \end{center}
 
 The current $I_X$ is related to $I_{bias}$ as
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $I_X = I_{bias} + I_S$
@@ -697,7 +726,7 @@ The current $I_X$ is related to $I_{bias}$ as
 \end{enumerate}
 
 \item The measured transconductance $g_m$ of an NMOS transistor operating in the linear region is plotted against the gate voltage $V_G$ at a constant drain voltage $V_D$. Which of the following figures represents the expected dependence of $g_m$ on $V_G$?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.95\textwidth]{figs/q45.png}
@@ -710,7 +739,7 @@ The current $I_X$ is related to $I_{bias}$ as
 \end{center}
 
 For an input voltage $V_i = -1$ V, the output voltage $V_o$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 0 V
@@ -720,7 +749,7 @@ For an input voltage $V_i = -1$ V, the output voltage $V_o$ is
 \end{enumerate}
 
 \item The OPAMP circuit shown above represents a
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{figs/q47.png}
@@ -740,7 +769,7 @@ For an input voltage $V_i = -1$ V, the output voltage $V_o$ is
 \end{center}
 
 The equivalent $g_m$ of the pair is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item the sum of individual $g_m$'s of the transistors
@@ -760,7 +789,7 @@ PCHL
 All addresses and constants are in Hex. Let PC be the contents of the program counter and HL be the contents of the HL register pair just after executing PCHL.
 
 Which of the following statements is correct?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item PC = 2715H,\quad HL = 30A0H
@@ -776,7 +805,7 @@ Which of the following statements is correct?
 \end{center}
 
 The voltage $V_C$ across the capacitor varies between
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $3$ V to $5$ V
@@ -786,7 +815,7 @@ The voltage $V_C$ across the capacitor varies between
 \end{enumerate}
 
 \item Silicon is doped with boron to a concentration of $4 \times 10^{17}$ atoms/cm$^3$. Assume the intrinsic carrier concentration of silicon to be $1.5\times10^{10}$/cm$^3$ and the value of $kT/q$ to be 25 mV at 300 K. Compared to undoped silicon, the Fermi level of doped silicon
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item goes down by $0.13$ eV
@@ -800,7 +829,7 @@ The voltage $V_C$ across the capacitor varies between
 \begin{center}
 \includegraphics[width=0.5\textwidth]{figs/q52.png}
 \end{center}
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item 4
@@ -816,7 +845,7 @@ The voltage $V_C$ across the capacitor varies between
 \end{center}
 
 A triangular wave which goes from $-12$ V to $12$ V is applied to the inverting input of the OPAMP. Assume that the output of the OPAMP swings from $+15$ V to $-15$ V. The voltage at the non-inverting input switches between
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $-12$ V and $+12$ V
@@ -829,7 +858,7 @@ A triangular wave which goes from $-12$ V to $12$ V is applied to the inverting 
 \begin{center}
 \includegraphics[width=0.6\textwidth]{figs/q54.png}
 \end{center}
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item $P$ NOR $Q$
@@ -843,7 +872,7 @@ S1: For Zener effect to occur, a very abrupt junction is required. \\
 S2: For quantum tunneling to occur, a very narrow energy barrier is required.
 
 Which of the following is correct?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item Only S2 is true
@@ -854,7 +883,7 @@ Which of the following is correct?
 
 \item The two numbers represented in signed $2$'s complement form are \\
 $P=11101101$ and $Q=11100110$. If $Q$ is subtracted from $P$, the value obtained in signed $2$'s complement form is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
     \item 100000111
@@ -867,7 +896,7 @@ $P=11101101$ and $Q=11100110$. If $Q$ is subtracted from $P$, the value obtained
 \begin{center}
 \includegraphics[width=0.6\textwidth]{figs/q57.png}
 \end{center}
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $M_1 = (P \text{ OR } Q) \text{ XOR } R$
@@ -880,7 +909,7 @@ $P=11101101$ and $Q=11100110$. If $Q$ is subtracted from $P$, the value obtained
 \begin{center}
 \includegraphics[width=0.6\textwidth]{figs/q58.png}
 \end{center}
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $PQ + P\overline{Q}S + \overline{Q}\, \overline{R}S$
@@ -896,7 +925,7 @@ $P=11101101$ and $Q=11100110$. If $Q$ is subtracted from $P$, the value obtained
 \end{center}
 
 Which of the following waveforms correctly represents the output at $Q_1$?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{figs/q59b.png}
@@ -909,7 +938,7 @@ Which of the following waveforms correctly represents the output at $Q_1$?
 \end{center}
 
 Which of the following statements is true?
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $Q$ goes to 1 at the CLK transition and stays at 1.
@@ -919,7 +948,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item A rectangular waveguide of internal dimensions ($a=4$ cm and $b=3$ cm) is to be operated in $\mathrm{TE}_{11}$ mode. The minimum operating frequency is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 6.25 GHz
@@ -929,7 +958,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item One end of a loss-less transmission line having the characteristic impedance of $75\;\Omega$ and length of 1 cm is short-circuited. At 3 GHz, the input impedance at the other end of the transmission line is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 0
@@ -939,7 +968,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item A uniform plane wave in free space is normally incident on an infinitely thick dielectric slab (dielectric constant $\epsilon_r = 9$). The magnitude of the reflection coefficient is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 0
@@ -949,7 +978,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item In the design of a single mode step index optical fiber close to upper cut-off, the single-mode operation is NOT preserved if
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item radius as well as operating wavelength are halved
@@ -959,7 +988,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item At 20 GHz, the gain of a parabolic dish antenna of 1 meter diameter and 70\% efficiency is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 15 dB
@@ -969,7 +998,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item Noise with double-sided power spectral density $K$ over all frequencies is passed through a RC low pass filter with 3 dB cut-off frequency of $f_c$. The noise power at the filter output is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $K$
@@ -979,7 +1008,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item Consider a Binary Symmetric Channel (BSC) with probability of error being $p$. To transmit a bit, say 1, we transmit a sequence of three 1s. The receiver will interpret the received sequence to represent 1 if at least two bits are 1. The probability that the transmitted bit will be received in error is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $p^3 + 3p^2(1-p)$
@@ -989,7 +1018,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item Four messages band limited to $W, W, 2W$ and $3W$ respectively are to be multiplexed using Time Division Multiplexing (TDM). The minimum bandwidth required for transmission of this TDM signal is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $W$
@@ -999,7 +1028,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item Consider the frequency modulated signal $10\cos[2\pi \times 10^5 t + 5\sin(2\pi \times 1500 t) + 7.5\sin(2\pi \times 1000 t)]$ with carrier frequency of $10^5$ Hz. The modulation index is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 12.5
@@ -1009,7 +1038,7 @@ Which of the following statements is true?
 \end{enumerate}
 
 \item The signal $\cos \omega_1 t + 0.5 \cos \omega_f t \sin \omega_t t$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item FM only
@@ -1021,17 +1050,17 @@ Which of the following statements is true?
 \end{enumerate}
 
 \vspace{1em}
-\item \textbf{Common Data Questions}
-\item \textbf{Common Data for Questions 71, 72, 73}
+ \large \textbf {Common Data Questions}
+ \large \textbf {Common Data for Questions 71, 72, 73}
 \vspace{1em}
-\newline
+ 
 A speech signal, band limited to 4 kHz and peak voltage varying between +5V and -5V, is sampled at the Nyquist rate. Each sample is quantized and represented by 8 bits.
 
 \begin{enumerate}[leftmargin=*, label=\textbf{Q.\arabic*:}]
 \setcounter{enumi}{70}
 
 \item If the bits 0 and 1 are transmitted using bipolar pulses, the minimum bandwidth required for distortion free transmission is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 64 kHz
@@ -1041,7 +1070,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \item Assuming the signal to be uniformly distributed between its peak to peak value, the signal to noise ratio at the quantizer output is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 16 dB
@@ -1051,7 +1080,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \item The number of quantization levels required to reduce the quantization noise by a factor of 4 would be
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 1024
@@ -1063,12 +1092,13 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \vspace{1em}
-\item \textbf{Common Data for Questions 74,75}
+ \large \textbf {Common Data for Questions 74,75}
 \vspace{1em}
 
+\begin{enumerate}
 \item The following series RLC circuit with zero initial conditions is excited by a unit impulse function $\delta(t)$.
-\newline
-\noindent \textbf{[GATE EE 2025]}
+\end{enumerate}
+ 
 \begin{center}
 \includegraphics[width=0.6\textwidth]{figs/q7475.png}
 \end{center}
@@ -1077,7 +1107,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \setcounter{enumi}{73}
 
 \item For $t>0$, the output voltage $V_c(t)$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\dfrac{2}{\sqrt{3}}\left(e^{-\frac{1}{2}t} - e^{-\frac{\sqrt{3}}{2}t}\right)$
@@ -1087,7 +1117,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \item For $t>0$, the voltage across the resistor is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\dfrac{1}{\sqrt{3}} \left( e^{-\frac{\sqrt{3}}{2} t} - e^{-\frac{1}{2} t} \right)$
@@ -1099,14 +1129,14 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \vspace{1em}
-\item \textbf{Linked Answer Questions: Q.76 to Q.85 carry two marks each}
-\item \textbf{Statement for Linked Answer Questions 76 and 77: }
+ \large \textbf {Linked Answer Questions: Q.76 to Q.85 carry two marks each}
+ \large \textbf {Statement for Linked Answer Questions 76 and 77: }
 \vspace{1em}
-\newline
+\begin{enumerate}
 \item A two-port network shown below is excited by external dc sources. The voltages and the currents are measured with voltmeters V1, V2 and ammeters A1, A2 (all assumed to be ideal), as indicated. Under following switch conditions, the readings obtained are: \\
 (i) $S_1$ open, $S_2$ closed: $A_1=0$ A, $V_1=4.5$ V, $V_2=1.5$ V, $A_2=1$ A \\
 (ii) $S_1$ closed, $S_2$ open: $A_1=4$ A, $V_1=6$ V, $V_2=6$ V, $A_2=0$ A
-
+\end{enumerate}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{figs/q7677.png}
 \end{center}
@@ -1115,7 +1145,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \setcounter{enumi}{75}
 
 \item The $z$-parameter matrix for this network is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\begin{bmatrix} 1.5 & 1.5 \\ 4.5 & 1.5 \end{bmatrix}$
@@ -1125,7 +1155,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \item The $h$-parameter matrix for this network is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\begin{bmatrix} -3 & 0.8 \\ -1 & 0.67 \end{bmatrix}$
@@ -1137,12 +1167,12 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \vspace{1em}
-\item \textbf{Linked Answer Questions: Q.76 to Q.85 carry two marks each}
-\item \textbf{Statement for Linked Answer Questions 78 and 79: }
+ \large \textbf {Linked Answer Questions: Q.76 to Q.85 carry two marks each}
+ \large \textbf {Statement for Linked Answer Questions 78 and 79: }
 \vspace{1em}
-\newline
+ \begin{enumerate}
 \item In the following network, the switch is closed at $t=0$ and the sampling starts from $t=0$. The sampling frequency is $10$ Hz.
-
+\end{enumerate}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{figs/q7879.png}
 \end{center}
@@ -1151,7 +1181,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \setcounter{enumi}{77}
 
 \item The samples $x(n)$ ($n=0,1,2,\ldots$) are given by
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $5 \left( 1 - e^{-0.05 n} \right)$
@@ -1161,7 +1191,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \item The expression and the region of convergence of the $z$-transform of the sampled signal are
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\dfrac{5z}{z-e^{5}};~ |z|<e^{5}$
@@ -1173,11 +1203,12 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \vspace{1em}
-\item \textbf{Linked Answer Questions: Q.76 to Q.85 carry two marks each}
-\item \textbf{Statement for Linked Answer Questions 80 and 81: }
+ \large \textbf {Linked Answer Questions: Q.76 to Q.85 carry two marks each}
+ \large \textbf {Statement for Linked Answer Questions 80 and 81: }
 \vspace{1em}
-\newline
+\begin{enumerate}
 \item In the following transistor circuit, $V_{BE}=0.7$ V, $r_e = 25\,\text{mV}/I_E$, and $\beta$ and all the capacitances are very large. Under following switch conditions, the readings obtained are:
+\end{enumerate}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{figs/q8081.png}
 \end{center}
@@ -1186,7 +1217,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \setcounter{enumi}{79}
 
 \item The value of DC current $I_E$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 1 mA
@@ -1196,7 +1227,7 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \item The mid-band voltage gain of the amplifier is approximately
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $-180$
@@ -1208,15 +1239,16 @@ A speech signal, band limited to 4 kHz and peak voltage varying between +5V and 
 \end{enumerate}
 
 \vspace{1em}
-\item \textbf{Linked Answer Questions: Q.76 to Q.85 carry two marks each}
-\item \textbf{Statement for Linked Answer Questions 82 and 83: }
+ \large \textbf {Linked Answer Questions: Q.76 to Q.85 carry two marks each}
+ \large \textbf {Statement for Linked Answer Questions 82 and 83: }
 \vspace{1em}
-\newline
+\begin{enumerate}
 \item In the following circuit, the comparator output is logic “1” if $V_1 > V_2$ and is logic “0” otherwise. The D/A conversion is done as per the relation
 \[
 V_{DAC} = \sum_{n=0}^3 2^{-n} b_n
 \]
 Volts, where $b_3$ (MSB), $b_2$, $b_1$ and $b_0$ (LSB) are the counter outputs.
+\end{enumerate}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{figs/q8283.png}
 \end{center}
@@ -1225,7 +1257,7 @@ Volts, where $b_3$ (MSB), $b_2$, $b_1$ and $b_0$ (LSB) are the counter outputs.
 \setcounter{enumi}{81}
 
 \item The stable reading of the LED displays is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 06
@@ -1235,7 +1267,7 @@ Volts, where $b_3$ (MSB), $b_2$, $b_1$ and $b_0$ (LSB) are the counter outputs.
 \end{enumerate}
 
 \item The magnitude of the error between $V_{DAC}$ and $V_{in}$ at steady state in volts is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item 0.2
@@ -1247,18 +1279,18 @@ Volts, where $b_3$ (MSB), $b_2$, $b_1$ and $b_0$ (LSB) are the counter outputs.
 \end{enumerate}
 
 \vspace{1em}
-\item \textbf{Linked Answer Questions: Q.76 to Q.85 carry two marks each}
-\item \textbf{Statement for Linked Answer Questions 84 and 85: }
+ \large \textbf {Linked Answer Questions: Q.76 to Q.85 carry two marks each}
+ \large \textbf {Statement for Linked Answer Questions 84 and 85: }
 \vspace{1em}
-\newline
+\begin{enumerate}
 \item The impulse response $h(t)$ of a linear time-invariant continuous time system is given by
 $h(t) = \exp(-2 t) u(t)$, where $u(t)$ denotes the unit step function.
-
+\end{enumerate}
 \begin{enumerate}[leftmargin=*, label=\textbf{Q.\arabic*:}]
 \setcounter{enumi}{83}
 
 \item The frequency response $H(\omega)$ of this system in terms of angular frequency $\omega$, is given by $H(\omega) = $
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $\dfrac{1}{1 + j2\omega}$
@@ -1268,7 +1300,7 @@ $h(t) = \exp(-2 t) u(t)$, where $u(t)$ denotes the unit step function.
 \end{enumerate}
 
 \item The output of this system to the sinusoidal input $x(t) = 2 \cos (2t)$ for all time $t$ is
-\newline
+ 
 \noindent \textbf{[GATE EE 2025]}
 \begin{enumerate}[label=(\Alph*)]
   \item $0$
