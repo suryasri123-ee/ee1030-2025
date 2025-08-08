@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  5 AUG 2025 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  8 AUG 2025 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1276,13 +1276,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 52.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 52.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1394,6 +1394,8 @@ LaTeX Info: Redefining \ohm on input line 52.
 Package gensymb Info: Using \textohm for \ohm on input line 52.
 Package gensymb Info: Using \textmu for \micro on input line 52.
 Package hyperref Info: Link coloring OFF on input line 52.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1427,10 +1429,10 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-<images/img_1.jpg, id=7, 2400.97pt x 1423.3175pt>
-File: images/img_1.jpg Graphic file (type jpg)
-<use images/img_1.jpg>
-Package pdftex.def Info: images/img_1.jpg  used on input line 103.
+<figs/img_1.jpg, id=8, 2400.97pt x 1423.3175pt>
+File: figs/img_1.jpg Graphic file (type jpg)
+<use figs/img_1.jpg>
+Package pdftex.def Info: figs/img_1.jpg  used on input line 103.
 (pdftex.def)             Requested size: 258.0pt x 152.93849pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
@@ -1438,16 +1440,16 @@ s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.111 \item
-            220 J <./images/img_1.jpg>]
-<images/img_2.jpg, id=35, 2785.40625pt x 1642.135pt>
-File: images/img_2.jpg Graphic file (type jpg)
-<use images/img_2.jpg>
-Package pdftex.def Info: images/img_2.jpg  used on input line 153.
+            220 J <./figs/img_1.jpg>]
+<figs/img_2.jpg, id=42, 2785.40625pt x 1642.135pt>
+File: figs/img_2.jpg Graphic file (type jpg)
+<use figs/img_2.jpg>
+Package pdftex.def Info: figs/img_2.jpg  used on input line 153.
 (pdftex.def)             Requested size: 258.0pt x 152.09557pt.
-<images/img_3.jpg, id=36, 3446.8775pt x 1329.96875pt>
-File: images/img_3.jpg Graphic file (type jpg)
-<use images/img_3.jpg>
-Package pdftex.def Info: images/img_3.jpg  used on input line 171.
+<figs/img_3.jpg, id=44, 3446.8775pt x 1329.96875pt>
+File: figs/img_3.jpg Graphic file (type jpg)
+<use figs/img_3.jpg>
+Package pdftex.def Info: figs/img_3.jpg  used on input line 171.
 (pdftex.def)             Requested size: 258.0pt x 99.5404pt.
  [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
@@ -1455,21 +1457,21 @@ s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.175 
-       <./images/img_2.jpg>]
-<images/img_4.jpg, id=68, 3667.7025pt x 623.32875pt>
-File: images/img_4.jpg Graphic file (type jpg)
-<use images/img_4.jpg>
-Package pdftex.def Info: images/img_4.jpg  used on input line 191.
+       <./figs/img_2.jpg>]
+<figs/img_4.jpg, id=78, 3667.7025pt x 623.32875pt>
+File: figs/img_4.jpg Graphic file (type jpg)
+<use figs/img_4.jpg>
+Package pdftex.def Info: figs/img_4.jpg  used on input line 191.
 (pdftex.def)             Requested size: 258.0pt x 43.84671pt.
-<images/img_5.jpg, id=69, 4111.36pt x 780.9175pt>
-File: images/img_5.jpg Graphic file (type jpg)
-<use images/img_5.jpg>
-Package pdftex.def Info: images/img_5.jpg  used on input line 222.
+<figs/img_5.jpg, id=80, 4111.36pt x 780.9175pt>
+File: figs/img_5.jpg Graphic file (type jpg)
+<use figs/img_5.jpg>
+Package pdftex.def Info: figs/img_5.jpg  used on input line 222.
 (pdftex.def)             Requested size: 258.0pt x 48.99786pt.
-<images/img_6.jpg, id=70, 2587.6675pt x 1153.30875pt>
-File: images/img_6.jpg Graphic file (type jpg)
-<use images/img_6.jpg>
-Package pdftex.def Info: images/img_6.jpg  used on input line 245.
+<figs/img_6.jpg, id=82, 2587.6675pt x 1153.30875pt>
+File: figs/img_6.jpg Graphic file (type jpg)
+<use figs/img_6.jpg>
+Package pdftex.def Info: figs/img_6.jpg  used on input line 245.
 (pdftex.def)             Requested size: 258.0pt x 114.98567pt.
  [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
@@ -1477,268 +1479,499 @@ s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.249 W
-       hich of the following can the value of current source \textit{I} ?
+       hich of the following can the value of current source ${I}$ ?
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.249 W
-       hich of the following can the value of current source \textit{I} ?
+       hich of the following can the value of current source ${I}$ ?
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.249 W
-       hich of the following can the value of current source \textit{I} ? <./im
-ages/img_3.jpg> <./images/img_4.jpg> <./images/img_5.jpg>]
-<images/img_7.jpg, id=100, 1900.09875pt x 916.42375pt>
-File: images/img_7.jpg Graphic file (type jpg)
-<use images/img_7.jpg>
-Package pdftex.def Info: images/img_7.jpg  used on input line 287.
+       hich of the following can the value of current source ${I}$ ? <./figs/im
+g_3.jpg> <./figs/img_4.jpg> <./figs/img_5.jpg>]
+<figs/img_7.jpg, id=111, 1900.09875pt x 916.42375pt>
+File: figs/img_7.jpg Graphic file (type jpg)
+<use figs/img_7.jpg>
+Package pdftex.def Info: figs/img_7.jpg  used on input line 287.
 (pdftex.def)             Requested size: 258.0pt x 124.42502pt.
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.319 \item F
-             or a message signal $m(t) = cos(2\pi f_m t)$ and the carrier of...
+l.313 \item F
+             or a message signal $m\brak{t} = \cos {\brak{2\pi f_m t}}$ and ...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.319 \item F
-             or a message signal $m(t) = cos(2\pi f_m t)$ and the carrier of...
- <./images/img_6.jpg> <./images/img_7.jpg>]
-<images/img_8.jpg, id=130, 2626.81375pt x 1637.11626pt>
-File: images/img_8.jpg Graphic file (type jpg)
-<use images/img_8.jpg>
-Package pdftex.def Info: images/img_8.jpg  used on input line 332.
+l.313 \item F
+             or a message signal $m\brak{t} = \cos {\brak{2\pi f_m t}}$ and ...
+ <./figs/img_6.jpg> <./figs/img_7.jpg>]
+<figs/img_8.jpg, id=141, 2626.81375pt x 1637.11626pt>
+File: figs/img_8.jpg Graphic file (type jpg)
+<use figs/img_8.jpg>
+Package pdftex.def Info: figs/img_8.jpg  used on input line 326.
 (pdftex.def)             Requested size: 258.0pt x 160.77353pt.
  [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.382 \item
-            $sF(s)-f(0)$ <./images/img_8.jpg>]
-<images/img_9.jpg, id=163, 2458.18375pt x 1021.8175pt>
-File: images/img_9.jpg Graphic file (type jpg)
-<use images/img_9.jpg>
-Package pdftex.def Info: images/img_9.jpg  used on input line 433.
+l.376 \item
+            $sF\brak{s}-f\brak{0}$ <./figs/img_8.jpg>]
+<figs/img_9.jpg, id=175, 2458.18375pt x 1021.8175pt>
+File: figs/img_9.jpg Graphic file (type jpg)
+<use figs/img_9.jpg>
+Package pdftex.def Info: figs/img_9.jpg  used on input line 427.
 (pdftex.def)             Requested size: 258.0pt x 107.23943pt.
-<images/img_10.jpg, id=164, 2374.8725pt x 1115.16624pt>
-File: images/img_10.jpg Graphic file (type jpg)
-<use images/img_10.jpg>
-Package pdftex.def Info: images/img_10.jpg  used on input line 450.
+<figs/img_10.jpg, id=176, 2374.8725pt x 1115.16624pt>
+File: figs/img_10.jpg Graphic file (type jpg)
+<use figs/img_10.jpg>
+Package pdftex.def Info: figs/img_10.jpg  used on input line 444.
 (pdftex.def)             Requested size: 258.0pt x 121.13722pt.
  [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.454 
-       <./images/img_9.jpg>]
-<images/img_11.jpg, id=191, 2006.49625pt x 1311.90125pt>
-File: images/img_11.jpg Graphic file (type jpg)
-<use images/img_11.jpg>
-Package pdftex.def Info: images/img_11.jpg  used on input line 468.
+l.448 
+       <./figs/img_9.jpg>]
+<figs/img_11.jpg, id=205, 2006.49625pt x 1311.90125pt>
+File: figs/img_11.jpg Graphic file (type jpg)
+<use figs/img_11.jpg>
+Package pdftex.def Info: figs/img_11.jpg  used on input line 462.
 (pdftex.def)             Requested size: 258.0pt x 168.67146pt.
-<images/img_12.jpg, id=192, 1831.84375pt x 1011.78pt>
-File: images/img_12.jpg Graphic file (type jpg)
-<use images/img_12.jpg>
-Package pdftex.def Info: images/img_12.jpg  used on input line 502.
+<figs/img_12.jpg, id=207, 1831.84375pt x 1011.78pt>
+File: figs/img_12.jpg Graphic file (type jpg)
+<use figs/img_12.jpg>
+Package pdftex.def Info: figs/img_12.jpg  used on input line 496.
 (pdftex.def)             Requested size: 258.0pt x 142.49734pt.
  [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.508         \item
-                    $min(V_i ,1)$
+l.502         \item
+                    $min\brak{V_i ,1}$
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.508         \item
-                    $min(V_i ,1)$ <./images/img_10.jpg> <./images/img_11.jpg>]
-<images/img_13.jpg, id=215, 1837.86626pt x 1531.7225pt>
-File: images/img_13.jpg Graphic file (type jpg)
-<use images/img_13.jpg>
-Package pdftex.def Info: images/img_13.jpg  used on input line 533.
-(pdftex.def)             Requested size: 258.0pt x 215.02399pt.
+l.502         \item
+                    $min\brak{V_i ,1}$ <./figs/img_10.jpg> <./figs/img_11.jpg>]
+Runaway argument?
+ 
+! Paragraph ended before \align* was complete.
+<to be read again> 
+                   \par 
+l.512 
+      
+? R
+OK, entering \nonstopmode...
+! Missing $ inserted.
+<inserted text> 
+                $
+l.512 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.512 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.512 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.512 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra }, or forgotten \endgroup.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.512 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.516 \end{align*}
+                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.516 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.516 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (168.04678pt too wide) detected at line 516
+[]
+ []
+
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.516 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.516 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.516 \end{align*}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+<figs/img_13.jpg, id=231, 1837.86626pt x 1531.7225pt>
+File: figs/img_13.jpg Graphic file (type jpg)
+<use figs/img_13.jpg>
+Package pdftex.def Info: figs/img_13.jpg  used on input line 529.
+(pdftex.def)             Requested size: 258.0pt x 215.02399pt.
 [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \item I
-             n the circuit shown below, the op-amp is ideal, the transistor ...
-
+l.535         \item O
+                     nly the amplitude
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.545 \item I
-             n the circuit shown below, the op-amp is ideal, the transistor ...
- <./images/img_12.jpg> <./images/img_13.jpg>]
-<images/img_14.jpg, id=235, 2125.9425pt x 1536.74126pt>
-File: images/img_14.jpg Graphic file (type jpg)
-<use images/img_14.jpg>
-Package pdftex.def Info: images/img_14.jpg  used on input line 548.
+l.535         \item O
+                     nly the amplitude <./figs/img_12.jpg> <./figs/img_13.jpg>]
+<figs/img_14.jpg, id=249, 2125.9425pt x 1536.74126pt>
+File: figs/img_14.jpg Graphic file (type jpg)
+<use figs/img_14.jpg>
+Package pdftex.def Info: figs/img_14.jpg  used on input line 544.
 (pdftex.def)             Requested size: 258.0pt x 186.48793pt.
-<images/img_15.jpg, id=236, 2651.9075pt x 1536.74126pt>
-File: images/img_15.jpg Graphic file (type jpg)
-<use images/img_15.jpg>
-Package pdftex.def Info: images/img_15.jpg  used on input line 565.
+<figs/img_15.jpg, id=251, 2651.9075pt x 1536.74126pt>
+File: figs/img_15.jpg Graphic file (type jpg)
+<use figs/img_15.jpg>
+Package pdftex.def Info: figs/img_15.jpg  used on input line 561.
 (pdftex.def)             Requested size: 258.0pt x 149.4858pt.
- [9
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.582         \item
+l.578         \item
                     $Y = Z$
 pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.582         \item
-                    $Y = Z$ <./images/img_14.jpg> <./images/img_15.jpg>]
-<images/img_16.jpg, id=256, 3635.5825pt x 900.36375pt>
-File: images/img_16.jpg Graphic file (type jpg)
-<use images/img_16.jpg>
-Package pdftex.def Info: images/img_16.jpg  used on input line 604.
+l.578         \item
+                    $Y = Z$ <./figs/img_14.jpg> <./figs/img_15.jpg>]
+<figs/img_16.jpg, id=274, 3635.5825pt x 900.36375pt>
+File: figs/img_16.jpg Graphic file (type jpg)
+<use figs/img_16.jpg>
+Package pdftex.def Info: figs/img_16.jpg  used on input line 600.
 (pdftex.def)             Requested size: 258.0pt x 63.88368pt.
-<images/img_17.jpg, id=257, 3289.28876pt x 1537.745pt>
-File: images/img_17.jpg Graphic file (type jpg)
-<use images/img_17.jpg>
-Package pdftex.def Info: images/img_17.jpg  used on input line 619.
+<figs/img_17.jpg, id=275, 3289.28876pt x 1537.745pt>
+File: figs/img_17.jpg Graphic file (type jpg)
+<use figs/img_17.jpg>
+Package pdftex.def Info: figs/img_17.jpg  used on input line 615.
 (pdftex.def)             Requested size: 258.0pt x 120.60532pt.
+
+Runaway argument?
+ S1: H(\brak {z} is a low-pass filter. 
+! Paragraph ended before \align* was complete.
+<to be read again> 
+                   \par 
+l.632 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.632 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.632 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.632 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.632 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra }, or forgotten \endgroup.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.632 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.634 \end{align*}
+                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.634 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.634 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (168.04678pt too wide) detected at line 634
+[]
+ []
+
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.634 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.634 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.634 \end{align*}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.648 \item C
-             onsider a system whose input $x$ and output $y$ are related by ...
-
+l.639         \item B
+                     oth S1 and S2 are true, but S2 is a reason for S1
 pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.648 \item C
-             onsider a system whose input $x$ and output $y$ are related by ...
- <./images/img_16.jpg> <./images/img_17.jpg>]
-<images/img_18.jpg, id=286, 2160.07pt x 1364.09625pt>
-File: images/img_18.jpg Graphic file (type jpg)
-<use images/img_18.jpg>
-Package pdftex.def Info: images/img_18.jpg  used on input line 655.
+l.639         \item B
+                     oth S1 and S2 are true, but S2 is a reason for S1 <./figs/
+img_16.jpg> <./figs/img_17.jpg>]
+<figs/img_18.jpg, id=303, 2160.07pt x 1364.09625pt>
+File: figs/img_18.jpg Graphic file (type jpg)
+<use figs/img_18.jpg>
+Package pdftex.def Info: figs/img_18.jpg  used on input line 651.
 (pdftex.def)             Requested size: 258.0pt x 162.91435pt.
-<images/img_19.jpg, id=287, 3552.27126pt x 1117.17375pt>
-File: images/img_19.jpg Graphic file (type jpg)
-<use images/img_19.jpg>
-Package pdftex.def Info: images/img_19.jpg  used on input line 693.
+<figs/img_19.jpg, id=305, 3552.27126pt x 1117.17375pt>
+File: figs/img_19.jpg Graphic file (type jpg)
+<use figs/img_19.jpg>
+Package pdftex.def Info: figs/img_19.jpg  used on input line 690.
 (pdftex.def)             Requested size: 258.0pt x 81.12512pt.
  [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.699         \item
-                    $\pm \sqrt{2}\quad and \quad  0^{\circ}$
+l.696         \item
+                    $\pm \sqrt{2}\quad and \quad  0^{\degree}$ <./figs/img_18.j
+pg>] [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.699         \item
-                    $\pm \sqrt{2}\quad and \quad  0^{\circ}$ <./images/img_18.j
-pg> <./images/img_19.jpg>]
-<images/img_21.jpg, id=307, 2771.35374pt x 1544.77126pt>
-File: images/img_21.jpg Graphic file (type jpg)
-<use images/img_21.jpg>
-Package pdftex.def Info: images/img_21.jpg  used on input line 782.
+l.765 \item A
+              magnetic field in air is measured to be $\vec{B} = B_0(\frac{x...
+ <./figs/img_19.jpg>]
+<figs/img_21.jpg, id=360, 2771.35374pt x 1544.77126pt>
+File: figs/img_21.jpg Graphic file (type jpg)
+<use figs/img_21.jpg>
+Package pdftex.def Info: figs/img_21.jpg  used on input line 779.
 (pdftex.def)             Requested size: 258.0pt x 143.80838pt.
- [12]
-<images/img_22.jpg, id=347, 3011.25pt x 1262.7175pt>
-File: images/img_22.jpg Graphic file (type jpg)
-<use images/img_22.jpg>
-Package pdftex.def Info: images/img_22.jpg  used on input line 840.
-(pdftex.def)             Requested size: 258.0pt x 108.18697pt.
  [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.844 
-       <./images/img_21.jpg>]
-<images/img_23.jpg, id=370, 1549.79pt x 1647.15375pt>
-File: images/img_23.jpg Graphic file (type jpg)
-<use images/img_23.jpg>
-Package pdftex.def Info: images/img_23.jpg  used on input line 892.
+l.828         \item $
+                     1.80 MV\cdot cm^{-1}$, directed from n-region to p-region 
+<./figs/img_21.jpg>]
+<figs/img_22.jpg, id=389, 3011.25pt x 1262.7175pt>
+File: figs/img_22.jpg Graphic file (type jpg)
+<use figs/img_22.jpg>
+Package pdftex.def Info: figs/img_22.jpg  used on input line 837.
+(pdftex.def)             Requested size: 258.0pt x 108.18697pt.
+<figs/img_23.jpg, id=391, 1549.79pt x 1647.15375pt>
+File: figs/img_23.jpg Graphic file (type jpg)
+<use figs/img_23.jpg>
+Package pdftex.def Info: figs/img_23.jpg  used on input line 889.
 (pdftex.def)             Requested size: 258.0pt x 274.20659pt.
  [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.896 
-       <./images/img_22.jpg>]
-<images/img_24.jpg, id=396, 3323.41624pt x 695.59875pt>
-File: images/img_24.jpg Graphic file (type jpg)
-<use images/img_24.jpg>
-Package pdftex.def Info: images/img_24.jpg  used on input line 932.
+l.893 
+       <./figs/img_22.jpg>]
+<figs/img_24.jpg, id=421, 3323.41624pt x 695.59875pt>
+File: figs/img_24.jpg Graphic file (type jpg)
+<use figs/img_24.jpg>
+Package pdftex.def Info: figs/img_24.jpg  used on input line 930.
 (pdftex.def)             Requested size: 258.0pt x 53.99326pt.
  [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.939 (
-       i)push button pressed/not pressed is equivalent to logic 1/10 respect...
+l.937 \item p
+             ush button pressed/not pressed is equivalent to logic 1/10 resp...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.939 (
-       i)push button pressed/not pressed is equivalent to logic 1/10 respect...
- <./images/img_23.jpg> <./images/img_24.jpg>] [16] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+l.937 \item p
+             ush button pressed/not pressed is equivalent to logic 1/10 resp...
+ <./figs/img_23.jpg> <./figs/img_24.jpg>] [16] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46482 strings out of 476091
- 1076982 string characters out of 5794081
- 1873330 words of memory out of 5000000
- 65788 multiletter control sequences out of 15000+600000
- 573782 words of font info for 152 fonts, out of 8000000 for 9000
+ 46540 strings out of 476091
+ 1077553 string characters out of 5794081
+ 1870330 words of memory out of 5000000
+ 65831 multiletter control sequences out of 15000+600000
+ 581660 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,8n,96p,1172b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,96p,1172b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 58205497 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
+fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on main.pdf (16 pages, 58213219 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 336 named destinations out of 1000 (max. 500000)
+ 566 PDF objects out of 1000 (max. 8388607)
+ 501 compressed objects within 6 object streams
+ 342 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
