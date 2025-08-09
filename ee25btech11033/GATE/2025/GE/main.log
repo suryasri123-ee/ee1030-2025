@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  6 AUG 2025 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  9 AUG 2025 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,76 +1530,127 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--145
 
  []
 
+
+LaTeX Warning: Reference `fig:fig.1' on page 2 undefined on input line 164.
+
 <figs/fig1.png, id=39, 489.83pt x 241.90375pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
 Package pdftex.def Info: figs/fig1.png  used on input line 167.
 (pdftex.def)             Requested size: 412.80157pt x 203.86954pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
 
-[2 <./figs/fig1.png>]
-<figs/fig2.png, id=65, 436.63126pt x 202.7575pt>
+ []
+
+
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.176 \item R
+             S's yearly batting average is consistently higher than that of ...
+ <./figs/fig1.png>]
+
+LaTeX Warning: Reference `figs:fig2' on page 3 undefined on input line 180.
+
+<figs/fig2.png, id=64, 436.63126pt x 202.7575pt>
 File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
-Package pdftex.def Info: figs/fig2.png  used on input line 182.
-(pdftex.def)             Requested size: 206.39685pt x 95.84364pt.
-<figs/fig3.png, id=66, 169.63374pt x 148.555pt>
+Package pdftex.def Info: figs/fig2.png  used on input line 184.
+(pdftex.def)             Requested size: 154.80157pt x 71.88504pt.
+
+LaTeX Warning: Reference `figs:fig3' on page 3 undefined on input line 189.
+
+<figs/fig3.png, id=65, 169.63374pt x 148.555pt>
 File: figs/fig3.png Graphic file (type png)
 <use figs/fig3.png>
-Package pdftex.def Info: figs/fig3.png  used on input line 189.
-(pdftex.def)             Requested size: 87.71906pt x 76.81834pt.
+Package pdftex.def Info: figs/fig3.png  used on input line 193.
+(pdftex.def)             Requested size: 103.19843pt x 90.3736pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--221
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--221
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
 
-[3 <./figs/fig2.png> <./figs/fig3.png>]
+ []
+
+
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.243 \item
+            $1$:$20$
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.243 \item
+            $1$:$20$ <./figs/fig2.png> <./figs/fig3.png>]
 
 [4]
-<figs/fig4.png, id=129, 240.9pt x 148.555pt>
+
+LaTeX Warning: Reference `figs:fig4' on page 5 undefined on input line 355.
+
+<figs/fig4.png, id=132, 240.9pt x 148.555pt>
 File: figs/fig4.png Graphic file (type png)
 <use figs/fig4.png>
-Package pdftex.def Info: figs/fig4.png  used on input line 354.
+Package pdftex.def Info: figs/fig4.png  used on input line 359.
 (pdftex.def)             Requested size: 129.0pt x 79.55206pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--394
+Underfull \hbox (badness 10000) in paragraph at lines 355--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--397
+Underfull \hbox (badness 10000) in paragraph at lines 396--401
 
  []
 
 
 
-[5 <./figs/fig4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 398--403
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.402 \item T
+             he standard error of a unit weight for a set of angle observati...
+ <./figs/fig4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--420
+Underfull \hbox (badness 10000) in paragraph at lines 405--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--420
+LaTeX Warning: Reference `figs:fig5' on page 6 undefined on input line 425.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
 
  []
 
-<figs/fig5.png, id=169, 724.7075pt x 264.99pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
+
+ []
+
+<figs/fig5.png, id=173, 724.7075pt x 264.99pt>
 File: figs/fig5.png Graphic file (type png)
 <use figs/fig5.png>
-Package pdftex.def Info: figs/fig5.png  used on input line 423.
-(pdftex.def)             Requested size: 206.39685pt x 75.46632pt.
+Package pdftex.def Info: figs/fig5.png  used on input line 430.
+(pdftex.def)             Requested size: 258.0pt x 94.33694pt.
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1607,153 +1658,249 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.425 
+l.434 
       
-? H
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-? H
-Sorry, I already gave what help I could...
-Maybe you should try asking a human?
-An error might have occurred before I noticed any problems.
-``If all else fails, read the instructions.''
+? 
 
-? I
-insert>
+LaTeX Warning: Reference `figs:fig6' on page 6 undefined on input line 451.
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--447
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--456
 
  []
 
-<figs/fig6.png, id=170, 178.6675pt x 105.39375pt>
+<figs/fig6.png, id=174, 178.6675pt x 105.39375pt>
 File: figs/fig6.png Graphic file (type png)
 <use figs/fig6.png>
-Package pdftex.def Info: figs/fig6.png  used on input line 450.
+Package pdftex.def Info: figs/fig6.png  used on input line 459.
 (pdftex.def)             Requested size: 206.39685pt x 121.75829pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.464 \item A
+             OB = $30\degree00'15''$, BOC = $30\degree00'00''$, AOC = $60\de...
+ <./figs/fig5.png>]
 
+LaTeX Warning: Reference `figs:fig7' on page 7 undefined on input line 471.
 
-[6 <./figs/fig5.png>]
-<figs/fig7.png, id=189, 513.92pt x 242.9075pt>
+<figs/fig7.png, id=194, 513.92pt x 242.9075pt>
 File: figs/fig7.png Graphic file (type png)
 <use figs/fig7.png>
-Package pdftex.def Info: figs/fig7.png  used on input line 469.
+Package pdftex.def Info: figs/fig7.png  used on input line 480.
 (pdftex.def)             Requested size: 206.39685pt x 97.55415pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--471
+Underfull \hbox (badness 10000) in paragraph at lines 471--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--471
+Underfull \hbox (badness 10000) in paragraph at lines 471--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--471
+Underfull \hbox (badness 10000) in paragraph at lines 471--483
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--483
 
  []
 
 (./tables/table1.tex)
 
-[7 <./figs/fig6.png> <./figs/fig7.png>] (./tables/table2.tex)
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.501 \item
+            P-$1$, Q-$5$, R-$2$, S-$3$
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.501 \item
+            P-$1$, Q-$5$, R-$2$, S-$3$ <./figs/fig6.png> <./figs/fig7.png>]
+(./tables/table2.tex)
 
 [8]
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 630--634
+Underfull \hbox (badness 10000) in paragraph at lines 642--646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--637
+Underfull \hbox (badness 10000) in paragraph at lines 647--649
 
  []
 
 
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 715--721
+Underfull \hbox (badness 10000) in paragraph at lines 727--733
 
  []
 
 
 
 [11]
-<figs/fig8.png, id=345, 833.1125pt x 144.54pt>
+<figs/fig8.png, id=347, 833.1125pt x 144.54pt>
 File: figs/fig8.png Graphic file (type png)
 <use figs/fig8.png>
-Package pdftex.def Info: figs/fig8.png  used on input line 772.
+Package pdftex.def Info: figs/fig8.png  used on input line 784.
 (pdftex.def)             Requested size: 361.19843pt x 62.66486pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--781
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.787 \end{figure}\\.
+                     
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 791--795
 
  []
 
 
 
-[12 <./figs/fig8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 796--801
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.795 \item I
+             n tangential method of tacheometry, two vanes in a staff were f...
+ <./figs/fig8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 810--815
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--801
+Underfull \hbox (badness 10000) in paragraph at lines 810--815
 
  []
-
-<figs/fig9.png, id=366, 584.1825pt x 509.905pt>
-File: figs/fig9.png Graphic file (type png)
-<use figs/fig9.png>
-Package pdftex.def Info: figs/fig9.png  used on input line 843.
-(pdftex.def)             Requested size: 206.39685pt x 180.15001pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
 [13]
-<figs/fig10.png, id=391, 459.7175pt x 367.3725pt>
+
+LaTeX Warning: Reference `figs:fig9' on page 14 undefined on input line 854.
+
+<figs/fig9.png, id=393, 584.1825pt x 509.905pt>
+File: figs/fig9.png Graphic file (type png)
+<use figs/fig9.png>
+Package pdftex.def Info: figs/fig9.png  used on input line 857.
+(pdftex.def)             Requested size: 206.39685pt x 180.15001pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 854--860
+
+ []
+
+
+LaTeX Warning: Reference `figs:fig10' on page 14 undefined on input line 903.
+
+<figs/fig10.png, id=394, 459.7175pt x 367.3725pt>
 File: figs/fig10.png Graphic file (type png)
 <use figs/fig10.png>
-Package pdftex.def Info: figs/fig10.png  used on input line 892.
+Package pdftex.def Info: figs/fig10.png  used on input line 908.
 (pdftex.def)             Requested size: 103.19843pt x 82.46465pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 887--894
+Underfull \hbox (badness 10000) in paragraph at lines 903--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--911
 
  []
 
 
 
-[14 <./figs/fig9.png> <./figs/fig10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 903--909
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.912 
+       <./figs/fig9.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 921--927
 
  []
 
 
 
-[15]
-<figs/fig11.png, id=447, 616.3025pt x 523.9575pt>
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.980 \item F
+             uzzy C-means clustering is a supervised classification method <./f
+igs/fig10.png>]
+
+LaTeX Warning: Reference `figs:fig11' on page 16 undefined on input line 1076.
+
+<figs/fig11.png, id=453, 616.3025pt x 523.9575pt>
 File: figs/fig11.png Graphic file (type png)
 <use figs/fig11.png>
-Package pdftex.def Info: figs/fig11.png  used on input line 1069.
-(pdftex.def)             Requested size: 206.39685pt x 175.46489pt.
+Package pdftex.def Info: figs/fig11.png  used on input line 1080.
+(pdftex.def)             Requested size: 154.80157pt x 131.60466pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1083
+
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1090 \end{enumerate}
+                       <./figs/fig11.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1136
+
+ []
 
 
+! LaTeX Error: There's no line here to end.
 
-[16 <./figs/fig11.png>]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1136 \end{figure}\\.
+                      
+? 
+
 
 [17] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1765,13 +1912,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 48471 strings out of 473190
- 1132298 string characters out of 5715801
- 1751243 words of memory out of 5000000
- 70612 multiletter control sequences out of 15000+600000
+ 48496 strings out of 473190
+ 1132547 string characters out of 5715801
+ 1754245 words of memory out of 5000000
+ 70626 multiletter control sequences out of 15000+600000
  646358 words of font info for 233 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,19n,103p,1172b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,19n,103p,1172b,730s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
@@ -1779,10 +1926,10 @@ e/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2025/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 495196 bytes).
+Output written on main.pdf (17 pages, 497517 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
- 527 compressed objects within 6 object streams
- 382 named destinations out of 1000 (max. 500000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 540 compressed objects within 6 object streams
+ 393 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
