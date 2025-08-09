@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.7)  7 AUG 2025 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.7)  9 AUG 2025 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1740,57 +1740,110 @@ Package hyperref Info: Link coloring OFF on input line 17.
 \openout4 = `main.out'.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+
+
+
+
+
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 3
+8.
+
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
-s/utxsya.fd)
+s/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 3
+8.
+
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
-s/utxsyb.fd)
+s/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 38
+.
+
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/jknapl
-tx/ursfs.fd)
+tx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 3
+8.
+
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
-s/utxmia.fd)
+s/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 3
+8.
+
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
-s/utxsyc.fd)
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 25--30
-[] 
+s/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 33--37
-[] 
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 50--55
-[] 
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 58--62
-[] 
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 65--69
-[] 
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+
  []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 72--76
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 87--91
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 104--108
-[] 
- []
-
-
-Overfull \vbox (185.36395pt too high) has occurred while \output is active []
 
 
 
@@ -1799,392 +1852,720 @@ Overfull \vbox (185.36395pt too high) has occurred while \output is active []
 {/data/data/com.termux/files/usr/share/texlive/2025/texmf-var/fonts/map/pdftex/
 updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
 t/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
 
 
 [2]
-LaTeX Font Info:    Trying to load font information for OML+txr on input line 1
-85.
+LaTeX Font Info:    Trying to load font information for OML+txr on input line 2
+24.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omltxr.fd
 File: omltxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OML/txr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/txmi/m/it' tried instead on input line 185.
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 224.
 
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
-86.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
+25.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 1
-86.
+LaTeX Font Info:    Trying to load font information for OMS+txr on input line 2
+25.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 186.
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 202--206
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 216--221
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 237--242
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 245--250
-[] 
- []
-
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 225.
 
 
 [3]
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 253--268
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 284--285
-[] 
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--287
+
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 288--306
-[] 
- []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 307--312
+
+
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 297--303
 [] 
  []
 
 
 
 [4]
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 321--325
-[] 
- []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 351--355
-[] 
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
-
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--326
 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 382--383
-[] 
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 392--396
-[] 
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--373
+
  []
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
+
+ []
+
+
+
+
+
+
 
 
 
 [5]
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 429--433
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
  []
 
-<figs/q32.png, id=159, 569.12625pt x 233.87375pt>
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--489
+
+ []
+
+
+
+[6]
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--531
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+<figs/q32.png, id=240, 569.12625pt x 233.87375pt>
 File: figs/q32.png Graphic file (type png)
 <use figs/q32.png>
-Package pdftex.def Info: figs/q32.png  used on input line 439.
+Package pdftex.def Info: figs/q32.png  used on input line 544.
 (pdftex.def)             Requested size: 256.08708pt x 142.27022pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--442
+Underfull \hbox (badness 10000) in paragraph at lines 541--547
 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 444--453
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 549--555
+
  []
 
 
 
-[6 <./figs/q32.png>]
+[7 <./figs/q32.png>]
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-456.
+567.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 469--478
+Underfull \hbox (badness 10000) in paragraph at lines 580--587
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--619
+
+ []
+
+
+
+[8]
+
+
+
+
+
+
+
+
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 629--730
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 733--735
 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 501--505
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 508--609
-[] 
- []
 
 
 
-[7]
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 612--616
-[] 
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
  []
 
-<figs/q38.png, id=198, 361.35pt x 173.64874pt>
+<figs/q38.png, id=294, 361.35pt x 173.64874pt>
 File: figs/q38.png Graphic file (type png)
 <use figs/q38.png>
-Package pdftex.def Info: figs/q38.png  used on input line 623.
+Package pdftex.def Info: figs/q38.png  used on input line 750.
 (pdftex.def)             Requested size: 199.16766pt x 142.26836pt.
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 627--632
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 635--639
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 642--650
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 642--650
+Underfull \hbox (badness 10000) in paragraph at lines 754--756
 
  []
 
-<figs/q41.png, id=199, 468.75125pt x 153.57375pt>
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--768
+
+ []
+
+
+
+[9 <./figs/q38.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--782
+
+ []
+
+
+
+
+
+
+
+<figs/q41.png, id=317, 468.75125pt x 153.57375pt>
 File: figs/q41.png Graphic file (type png)
 <use figs/q41.png>
-Package pdftex.def Info: figs/q41.png  used on input line 656.
+Package pdftex.def Info: figs/q41.png  used on input line 797.
 (pdftex.def)             Requested size: 199.163pt x 113.81151pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 802--804
 
-[8 <./figs/q38.png>]
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 661--666
+ []
+
+
+
+
+
+
+
+
+Overfull \hbox (28.19717pt too wide) in paragraph at lines 814--822
 [] 
  []
 
 
-Overfull \hbox (28.19717pt too wide) in paragraph at lines 669--679
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 669--679
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 682--695
-[] 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 698--704
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--716
+Underfull \hbox (badness 10000) in paragraph at lines 814--822
 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 717--721
-[] 
- []
 
 
 
-[9 <./figs/q41.png>]
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 724--737
-[] 
- []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 740--745
-[] 
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--843
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 758--765
-
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 769--770
-[][] 
- []
-
-
-Overfull \hbox (280.28787pt too wide) in paragraph at lines 773--779
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 773--779
-
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 783--784
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
-
- []
-
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 787.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 787.
-! Missing delimiter (. inserted).
+! Missing number, treated as zero.
 <to be read again> 
-                   C
-l.788 ...bf{\big Common Data Questions 51 and 52:}
-                                                   \\
+                   \let 
+l.844             \item
+                        $S_1 and S_2$
 ? 
 
+Package multicol Warning: Using `0' columns doesn't seem a good idea.
+ I therefore use two columns instead on input line 844.
 
-[10]
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 790--794
-[] 
+
+
+[10 <./figs/q41.png>]
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 853--857
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--794
-
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 797--802
-[] 
- []
-
-! Missing delimiter (. inserted).
+! Missing number, treated as zero.
 <to be read again> 
-                   C
-l.805 ...bf{\big Common Data Questions 53 and 54:}
-                                                   \\
+                   \let 
+l.858             \item
+                        2
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--808
+Package multicol Warning: Using `0' columns doesn't seem a good idea.
+ I therefore use two columns instead on input line 858.
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 867--876
 
  []
 
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 836.
 
-Underfull \hbox (badness 10000) in paragraph at lines 836--841
+Underfull \hbox (badness 10000) in paragraph at lines 877--879
+
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \let 
+l.880             \item
+                        I and II
+? 
+
+Package multicol Warning: Using `0' columns doesn't seem a good idea.
+ I therefore use two columns instead on input line 880.
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 889--899
+
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \let 
+l.902             \item
+                        I and II
+? 
+
+Package multicol Warning: Using `0' columns doesn't seem a good idea.
+ I therefore use two columns instead on input line 902.
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--914
 
  []
 
 
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 844--852
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--926
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 869--870
+Underfull \hbox (badness 10000) in paragraph at lines 934--941
 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 873--877
+
+
+
+
+
+
+
+
+
+
+Overfull \hbox (280.28787pt too wide) in paragraph at lines 953--960
 [] 
  []
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 880--884
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 953--960
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--890
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 971.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 971.
+! Missing delimiter (. inserted).
+<to be read again> 
+                   C
+l.972 ...bf{\big Common Data Questions 51 and 52:}
+                                                   \\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--976
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 986--988
 
  []
 
 
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 897--898
+
+
+
+
+
+
+
+
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   C
+l.998 ...f{ \big Common Data Questions 53 and 54:}
+                                                   \\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1029.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1034
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1045
 
  []
 
 
 
-[13] (./main.aux)
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1063
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1081
+
+ []
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1095
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1103
+
+ []
+
+
+
+[14]
+
+[15] (./main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2203,13 +2584,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53899 strings out of 467801
- 1298754 string characters out of 5417843
- 2014220 words of memory out of 5000000
- 81565 multiletter control sequences out of 15000+600000
+ 54067 strings out of 467801
+ 1300142 string characters out of 5417843
+ 1958220 words of memory out of 5000000
+ 81567 multiletter control sequences out of 15000+600000
  658800 words of font info for 114 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,15n,105p,1198b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,105p,1198b,1438s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb></data/data/com.termux/files/usr/share/texlive/2025/
 texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></data/data/com.termux/files/us
@@ -2227,10 +2608,10 @@ les/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/d
 ata/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 307429 bytes).
+Output written on main.pdf (15 pages, 312246 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
- 191 named destinations out of 1000 (max. 500000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 519 compressed objects within 6 object streams
+ 357 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
