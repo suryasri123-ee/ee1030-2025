@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  8 AUG 2025 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  9 AUG 2025 07:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1276,13 +1276,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 52.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 52.
-
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1394,8 +1394,6 @@ LaTeX Info: Redefining \ohm on input line 52.
 Package gensymb Info: Using \textohm for \ohm on input line 52.
 Package gensymb Info: Using \textmu for \micro on input line 52.
 Package hyperref Info: Link coloring OFF on input line 52.
-
-(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1429,51 +1427,75 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-<figs/img_1.jpg, id=8, 2400.97pt x 1423.3175pt>
+
+LaTeX Warning: Reference `fig:placeholder_1' on page 1 undefined on input line 
+100.
+
+<figs/img_1.jpg, id=7, 2400.97pt x 1423.3175pt>
 File: figs/img_1.jpg Graphic file (type jpg)
 <use figs/img_1.jpg>
 Package pdftex.def Info: figs/img_1.jpg  used on input line 103.
 (pdftex.def)             Requested size: 258.0pt x 152.93849pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.111 \item
             220 J <./figs/img_1.jpg>]
-<figs/img_2.jpg, id=42, 2785.40625pt x 1642.135pt>
+
+LaTeX Warning: Reference `fig:placeholder_2' on page 2 undefined on input line 
+149.
+
+<figs/img_2.jpg, id=41, 2785.40625pt x 1642.135pt>
 File: figs/img_2.jpg Graphic file (type jpg)
 <use figs/img_2.jpg>
 Package pdftex.def Info: figs/img_2.jpg  used on input line 153.
 (pdftex.def)             Requested size: 258.0pt x 152.09557pt.
-<figs/img_3.jpg, id=44, 3446.8775pt x 1329.96875pt>
+
+LaTeX Warning: Reference `fig:placeholder_3' on page 2 undefined on input line 
+168.
+
+<figs/img_3.jpg, id=42, 3446.8775pt x 1329.96875pt>
 File: figs/img_3.jpg Graphic file (type jpg)
 <use figs/img_3.jpg>
 Package pdftex.def Info: figs/img_3.jpg  used on input line 171.
 (pdftex.def)             Requested size: 258.0pt x 99.5404pt.
- [2
+[2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.175 
        <./figs/img_2.jpg>]
-<figs/img_4.jpg, id=78, 3667.7025pt x 623.32875pt>
+
+LaTeX Warning: Reference `fig:placeholder_4' on page 3 undefined on input line 
+188.
+
+<figs/img_4.jpg, id=73, 3667.7025pt x 623.32875pt>
 File: figs/img_4.jpg Graphic file (type jpg)
 <use figs/img_4.jpg>
 Package pdftex.def Info: figs/img_4.jpg  used on input line 191.
 (pdftex.def)             Requested size: 258.0pt x 43.84671pt.
-<figs/img_5.jpg, id=80, 4111.36pt x 780.9175pt>
+
+LaTeX Warning: Reference `fig:placeholder_5' on page 3 undefined on input line 
+218.
+
+<figs/img_5.jpg, id=74, 4111.36pt x 780.9175pt>
 File: figs/img_5.jpg Graphic file (type jpg)
 <use figs/img_5.jpg>
 Package pdftex.def Info: figs/img_5.jpg  used on input line 222.
 (pdftex.def)             Requested size: 258.0pt x 48.99786pt.
-<figs/img_6.jpg, id=82, 2587.6675pt x 1153.30875pt>
+
+LaTeX Warning: Reference `fig:placeholder_6' on page 3 undefined on input line 
+242.
+
+<figs/img_6.jpg, id=75, 2587.6675pt x 1153.30875pt>
 File: figs/img_6.jpg Graphic file (type jpg)
 <use figs/img_6.jpg>
 Package pdftex.def Info: figs/img_6.jpg  used on input line 245.
 (pdftex.def)             Requested size: 258.0pt x 114.98567pt.
- [3
+[3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1493,7 +1515,7 @@ s been already used, duplicate ignored
 l.249 W
        hich of the following can the value of current source ${I}$ ? <./figs/im
 g_3.jpg> <./figs/img_4.jpg> <./figs/img_5.jpg>]
-<figs/img_7.jpg, id=111, 1900.09875pt x 916.42375pt>
+<figs/img_7.jpg, id=104, 1900.09875pt x 916.42375pt>
 File: figs/img_7.jpg Graphic file (type jpg)
 <use figs/img_7.jpg>
 Package pdftex.def Info: figs/img_7.jpg  used on input line 287.
@@ -1513,46 +1535,62 @@ s been already used, duplicate ignored
 l.313 \item F
              or a message signal $m\brak{t} = \cos {\brak{2\pi f_m t}}$ and ...
  <./figs/img_6.jpg> <./figs/img_7.jpg>]
-<figs/img_8.jpg, id=141, 2626.81375pt x 1637.11626pt>
+
+LaTeX Warning: Reference `fig:placeholder_8' on page 5 undefined on input line 
+323.
+
+<figs/img_8.jpg, id=134, 2626.81375pt x 1637.11626pt>
 File: figs/img_8.jpg Graphic file (type jpg)
 <use figs/img_8.jpg>
 Package pdftex.def Info: figs/img_8.jpg  used on input line 326.
 (pdftex.def)             Requested size: 258.0pt x 160.77353pt.
- [5
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.376 \item
             $sF\brak{s}-f\brak{0}$ <./figs/img_8.jpg>]
-<figs/img_9.jpg, id=175, 2458.18375pt x 1021.8175pt>
+
+LaTeX Warning: Reference `fig:placeholder_9' on page 6 undefined on input line 
+424.
+
+<figs/img_9.jpg, id=167, 2458.18375pt x 1021.8175pt>
 File: figs/img_9.jpg Graphic file (type jpg)
 <use figs/img_9.jpg>
 Package pdftex.def Info: figs/img_9.jpg  used on input line 427.
 (pdftex.def)             Requested size: 258.0pt x 107.23943pt.
-<figs/img_10.jpg, id=176, 2374.8725pt x 1115.16624pt>
+<figs/img_10.jpg, id=168, 2374.8725pt x 1115.16624pt>
 File: figs/img_10.jpg Graphic file (type jpg)
 <use figs/img_10.jpg>
 Package pdftex.def Info: figs/img_10.jpg  used on input line 444.
 (pdftex.def)             Requested size: 258.0pt x 121.13722pt.
- [6
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.448 
        <./figs/img_9.jpg>]
-<figs/img_11.jpg, id=205, 2006.49625pt x 1311.90125pt>
+
+LaTeX Warning: Reference `fig:placeholder_11' on page 7 undefined on input line
+ 459.
+
+<figs/img_11.jpg, id=196, 2006.49625pt x 1311.90125pt>
 File: figs/img_11.jpg Graphic file (type jpg)
 <use figs/img_11.jpg>
 Package pdftex.def Info: figs/img_11.jpg  used on input line 462.
 (pdftex.def)             Requested size: 258.0pt x 168.67146pt.
-<figs/img_12.jpg, id=207, 1831.84375pt x 1011.78pt>
+
+LaTeX Warning: Reference `fig:placeholder_12' on page 7 undefined on input line
+ 493.
+
+<figs/img_12.jpg, id=197, 1831.84375pt x 1011.78pt>
 File: figs/img_12.jpg Graphic file (type jpg)
 <use figs/img_12.jpg>
 Package pdftex.def Info: figs/img_12.jpg  used on input line 496.
 (pdftex.def)             Requested size: 258.0pt x 142.49734pt.
- [7
+[7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1685,7 +1723,7 @@ l.516 \end{align*}
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-<figs/img_13.jpg, id=231, 1837.86626pt x 1531.7225pt>
+<figs/img_13.jpg, id=220, 1837.86626pt x 1531.7225pt>
 File: figs/img_13.jpg Graphic file (type jpg)
 <use figs/img_13.jpg>
 Package pdftex.def Info: figs/img_13.jpg  used on input line 529.
@@ -1703,12 +1741,20 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.535         \item O
                      nly the amplitude <./figs/img_12.jpg> <./figs/img_13.jpg>]
-<figs/img_14.jpg, id=249, 2125.9425pt x 1536.74126pt>
+
+LaTeX Warning: Reference `fig:placeholder_14' on page 9 undefined on input line
+ 541.
+
+<figs/img_14.jpg, id=237, 2125.9425pt x 1536.74126pt>
 File: figs/img_14.jpg Graphic file (type jpg)
 <use figs/img_14.jpg>
 Package pdftex.def Info: figs/img_14.jpg  used on input line 544.
 (pdftex.def)             Requested size: 258.0pt x 186.48793pt.
-<figs/img_15.jpg, id=251, 2651.9075pt x 1536.74126pt>
+
+LaTeX Warning: Reference `fig:placeholder_15' on page 9 undefined on input line
+ 558.
+
+<figs/img_15.jpg, id=238, 2651.9075pt x 1536.74126pt>
 File: figs/img_15.jpg Graphic file (type jpg)
 <use figs/img_15.jpg>
 Package pdftex.def Info: figs/img_15.jpg  used on input line 561.
@@ -1726,17 +1772,20 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.578         \item
                     $Y = Z$ <./figs/img_14.jpg> <./figs/img_15.jpg>]
-<figs/img_16.jpg, id=274, 3635.5825pt x 900.36375pt>
+
+LaTeX Warning: Reference `fig:placeholder_16' on page 10 undefined on input lin
+e 597.
+
+<figs/img_16.jpg, id=261, 3635.5825pt x 900.36375pt>
 File: figs/img_16.jpg Graphic file (type jpg)
 <use figs/img_16.jpg>
 Package pdftex.def Info: figs/img_16.jpg  used on input line 600.
 (pdftex.def)             Requested size: 258.0pt x 63.88368pt.
-<figs/img_17.jpg, id=275, 3289.28876pt x 1537.745pt>
+<figs/img_17.jpg, id=262, 3289.28876pt x 1537.745pt>
 File: figs/img_17.jpg Graphic file (type jpg)
 <use figs/img_17.jpg>
 Package pdftex.def Info: figs/img_17.jpg  used on input line 615.
 (pdftex.def)             Requested size: 258.0pt x 120.60532pt.
-
 Runaway argument?
  S1: H(\brak {z} is a low-pass filter. 
 ! Paragraph ended before \align* was complete.
@@ -1873,17 +1922,25 @@ as been already used, duplicate ignored
 l.639         \item B
                      oth S1 and S2 are true, but S2 is a reason for S1 <./figs/
 img_16.jpg> <./figs/img_17.jpg>]
-<figs/img_18.jpg, id=303, 2160.07pt x 1364.09625pt>
+
+LaTeX Warning: Reference `fig:placeholder_18' on page 11 undefined on input lin
+e 648.
+
+<figs/img_18.jpg, id=289, 2160.07pt x 1364.09625pt>
 File: figs/img_18.jpg Graphic file (type jpg)
 <use figs/img_18.jpg>
 Package pdftex.def Info: figs/img_18.jpg  used on input line 651.
 (pdftex.def)             Requested size: 258.0pt x 162.91435pt.
-<figs/img_19.jpg, id=305, 3552.27126pt x 1117.17375pt>
+
+LaTeX Warning: Reference `fig:placeholder_19' on page 11 undefined on input lin
+e 687.
+
+<figs/img_19.jpg, id=290, 3552.27126pt x 1117.17375pt>
 File: figs/img_19.jpg Graphic file (type jpg)
 <use figs/img_19.jpg>
 Package pdftex.def Info: figs/img_19.jpg  used on input line 690.
 (pdftex.def)             Requested size: 258.0pt x 81.12512pt.
- [11
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1898,12 +1955,16 @@ as been already used, duplicate ignored
 l.765 \item A
               magnetic field in air is measured to be $\vec{B} = B_0(\frac{x...
  <./figs/img_19.jpg>]
-<figs/img_21.jpg, id=360, 2771.35374pt x 1544.77126pt>
+
+LaTeX Warning: Reference `fig:placeholder_21' on page 13 undefined on input lin
+e 776.
+
+<figs/img_21.jpg, id=343, 2771.35374pt x 1544.77126pt>
 File: figs/img_21.jpg Graphic file (type jpg)
 <use figs/img_21.jpg>
 Package pdftex.def Info: figs/img_21.jpg  used on input line 779.
 (pdftex.def)             Requested size: 258.0pt x 143.80838pt.
- [13
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1911,29 +1972,41 @@ as been already used, duplicate ignored
 l.828         \item $
                      1.80 MV\cdot cm^{-1}$, directed from n-region to p-region 
 <./figs/img_21.jpg>]
-<figs/img_22.jpg, id=389, 3011.25pt x 1262.7175pt>
+
+LaTeX Warning: Reference `fig:placeholder_21' on page 14 undefined on input lin
+e 834.
+
+<figs/img_22.jpg, id=371, 3011.25pt x 1262.7175pt>
 File: figs/img_22.jpg Graphic file (type jpg)
 <use figs/img_22.jpg>
 Package pdftex.def Info: figs/img_22.jpg  used on input line 837.
 (pdftex.def)             Requested size: 258.0pt x 108.18697pt.
-<figs/img_23.jpg, id=391, 1549.79pt x 1647.15375pt>
+
+LaTeX Warning: Reference `fig:placeholder_23' on page 14 undefined on input lin
+e 886.
+
+<figs/img_23.jpg, id=372, 1549.79pt x 1647.15375pt>
 File: figs/img_23.jpg Graphic file (type jpg)
 <use figs/img_23.jpg>
 Package pdftex.def Info: figs/img_23.jpg  used on input line 889.
 (pdftex.def)             Requested size: 258.0pt x 274.20659pt.
- [14
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.893 
        <./figs/img_22.jpg>]
-<figs/img_24.jpg, id=421, 3323.41624pt x 695.59875pt>
+
+LaTeX Warning: Reference `fig:placeholder_23' on page 15 undefined on input lin
+e 927.
+
+<figs/img_24.jpg, id=401, 3323.41624pt x 695.59875pt>
 File: figs/img_24.jpg Graphic file (type jpg)
 <use figs/img_24.jpg>
 Package pdftex.def Info: figs/img_24.jpg  used on input line 930.
 (pdftex.def)             Requested size: 258.0pt x 53.99326pt.
- [15
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1948,12 +2021,24 @@ as been already used, duplicate ignored
 l.937 \item p
              ush button pressed/not pressed is equivalent to logic 1/10 resp...
  <./figs/img_23.jpg> <./figs/img_24.jpg>] [16] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46540 strings out of 476091
- 1077553 string characters out of 5794081
+ 46534 strings out of 476091
+ 1077499 string characters out of 5794081
  1870330 words of memory out of 5000000
  65831 multiletter control sequences out of 15000+600000
  581660 words of font info for 175 fonts, out of 8000000 for 9000
@@ -1968,10 +2053,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 58213219 bytes).
+Output written on main.pdf (16 pages, 58213229 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 501 compressed objects within 6 object streams
+ 546 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
  342 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
