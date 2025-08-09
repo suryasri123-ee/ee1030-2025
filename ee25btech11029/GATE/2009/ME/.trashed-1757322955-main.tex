@@ -2,10 +2,12 @@
 \let\negthickspace\undefined
 \documentclass[journal]{IEEEtran}
 \usepackage[a5paper, margin=10mm, onecolumn]{geometry}
-\usepackage{tfrupee} 
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
 
-\setlength{\headheight}{1cm} 
-\setlength{\headsep}{0mm}  
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}  % Set the distance between the header box and the top of the text
+
 \usepackage{gvv-book}
 \usepackage{gvv}
 \usepackage{cite}
@@ -62,8 +64,8 @@
 % Q1
 \item For a matrix $[M]=\begin{bmatrix} \frac{4}{5} & \frac{3}{5} \\ \frac{3}{5} & x \end{bmatrix}$, the transpose of the matrix is equal to the inverse of the matrix, i.e., $[M]^T=[M]^{-1}$. The value of $x$ is given by:
   \begin{enumerate}[label=(\alph*)]
-    \item $4$
-    \item $5$
+    \item 4
+    \item 5
     \item $-\frac{3}{5}$
     \item $\frac{3}{5}$
     \item $\frac{4}{5}$
@@ -72,12 +74,12 @@
 
 
 % Q2
-\item The divergence of the vector field $3 x z \hat{i} + 2 x y \hat{j} - y z^{2} \hat{k}$ at a point $\brak{1,1,1}$ is equal to:
+\item The divergence of the vector field $3 x z \hat{i} + 2 x y \hat{j} - y z^{2} \hat{k}$ at a point $(1,1,1)$ is equal to:
   \begin{enumerate}[label=(\alph*)]
-    \item $7$
-    \item $4$
-    \item $3$
-    \item $0$
+    \item 7
+    \item 4
+    \item 3
+    \item 0
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
@@ -113,32 +115,32 @@
   \hfill{\textbf{GATE ME 2009}}
 
 % Q6
-\item A coolant fluid at $30^\degree$C flows over a heated flat plate maintained at a constant temperature of $100^\degree$C. The boundary layer temperature distribution at a given location may be approximated as $T = 30 + 70 e^{-y}$ where $y$ \brak{\text{in} m} is the distance normal to the plate and $T$ is in $^\degree$C. If thermal conductivity is $1.0\,\mathrm{W/mK}$, the local convective heat transfer coefficient $\brak{\text{in} W/m^2K}$ at that location will be:
+\item A coolant fluid at $30^\circ$C flows over a heated flat plate maintained at a constant temperature of $100^\circ$C. The boundary layer temperature distribution at a given location may be approximated as $T = 30 + 70 e^{-y}$ where $y$ (in m) is the distance normal to the plate and $T$ is in $^\circ$C. If thermal conductivity is $1.0\,\mathrm{W/mK}$, the local convective heat transfer coefficient (in W/m$^2$K) at that location will be:
   \begin{enumerate}[label=(\alph*)]
-    \item $0.2$
-    \item $1$
-    \item $5$
-    \item $10$
+    \item 0.2
+    \item 1
+    \item 5
+    \item 10
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
 % Q7
-\item A frictionless piston-cylinder device contains a gas initially at $0.8$ MPa and $0.015$ m$^3$. It expands quasi-statically at constant temperature to a final volume of $0.030$ m$^3$. The work output \brak{\text{in} kJ} during this process will be:
+\item A frictionless piston-cylinder device contains a gas initially at $0.8$ MPa and $0.015$ m$^3$. It expands quasi-statically at constant temperature to a final volume of $0.030$ m$^3$. The work output (in kJ) during this process will be:
   \begin{enumerate}[label=(\alph*)]
-    \item $8.32$
-    \item $12.00$
-    \item $554.67$
-    \item $8320.00$
+    \item 8.32
+    \item 12.00
+    \item 554.67
+    \item 8320.00
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
 % Q8
-\item In an ideal vapor compression refrigeration cycle, the specific enthalpy of refrigerant $\brak{\text{in} kJ/kg}$ at the following states is given as: \\inlet of condenser: 283 \\exit of condenser: 116\\ exit of evaporator: 232.\\ The COP of this cycle is:
+\item In an ideal vapor compression refrigeration cycle, the specific enthalpy of refrigerant (in kJ/kg) at the following states is given as: \\inlet of condenser: 283 \\exit of condenser: 116\\ exit of evaporator: 232.\\ The COP of this cycle is:
   \begin{enumerate}[label=(\alph*)]
-    \item $2.27$
-    \item $2.75$
-    \item $3.27$
-    \item $3.75$
+    \item 2.27
+    \item 2.75
+    \item 3.27
+    \item 3.75
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
@@ -147,75 +149,73 @@
   \begin{enumerate}[label=(\alph*)]
     \item $\displaystyle \int_{1}^{2} P \, dv$
     \item $\displaystyle \int_{1}^{2} v \, dP$
-    \item $v_1 \brak{P_2-P_1}$
-    \item $-P_1\brak{v_1 - v_2}$
+    \item $v_1 (P_2-P_1)$
+    \item $-P_1(v_1 - v_2)$
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
 
 % Q10
-\item A block weighing 981 N is resting on a horizontal surface. The coefficient of friction is $\mu=0.2$. A vertical cable provides partial support. A man can pull horizontally with 100 N. What will be the tension $T$ \brak{\text{in} N} in the cable if the man is just able to move the block to the right?
+\item A block weighing 981 N is resting on a horizontal surface. The coefficient of friction is $\mu=0.2$. A vertical cable provides partial support. A man can pull horizontally with 100 N. What will be the tension $T$ (in N) in the cable if the man is just able to move the block to the right?
 
     \begin{figure}[h]
       \centering
       \includegraphics[width=0.5\textwidth]{Figs/image (2).png}
-      \caption{}
     \end{figure}
 
 
 
   \begin{enumerate}[label=(\alph*)]
-    \item $176.2$
-    \item $196.0$
-    \item $481.0$
-    \item $981.0$
+    \item 176.2
+    \item 196.0
+    \item 481.0
+    \item 981.0
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
 % Q11
-\item If the principal stresses in a plane stress problem are $\sigma_1 = 100$ MPa, $\sigma_2 = 40$ MPa, the magnitude of the maximum shear stress $\brak{in MPa}$ will be:
+\item If the principal stresses in a plane stress problem are $\sigma_1 = 100$ MPa, $\sigma_2 = 40$ MPa, the magnitude of the maximum shear stress (in MPa) will be:
   \begin{enumerate}[label=(\alph*)]
-    \item $60$
-    \item $50$
-    \item $30$
-    \item $20$
+    \item 60
+    \item 50
+    \item 30
+    \item 20
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
 % Q12
-\item A simple quick return mechanism is shown. If the forward to return ratio is 2:1, and radius of the crank $O\_1P$ is 125 mm, the distance $d$ \brak{\text{in} mm} between crank center to lever pivot center point should be
+\item A simple quick return mechanism is shown. If the forward to return ratio is 2:1, and radius of the crank $O\_1P$ is 125 mm, the distance $d$ (in mm) between crank center to lever pivot center point should be
     \begin{figure}[h]
       \centering
       \includegraphics[width=0.3\linewidth]{Figs/image (3).png}
-      \caption{}
     \end{figure}
     
   \begin{enumerate}[label=(\alph*)]
-    \item $144.3$
-    \item $216.5$
-    \item $240.0$
-    \item $250.0$
+    \item 144.3
+    \item 216.5
+    \item 240.0
+    \item 250.0
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
 
 % Q13
-\item The rotor shaft of a large electric motor supported between short bearings at both ends shows a deflection of 1.8 mm. The likely critical speed $\brak{\text{in} rpm}$ is:
+\item The rotor shaft of a large electric motor supported between short bearings at both ends shows a deflection of 1.8 mm. The likely critical speed (in rpm) is:
   \begin{enumerate}[label=(\alph*)]
-    \item $350$
-    \item $705$
-    \item $2810$
-    \item $430$
+    \item 350
+    \item 705
+    \item 2810
+    \item 4430
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
 % Q14
 \item A solid circular shaft of diameter $d$ is subjected to a combined bending moment $M$ and torque $T$. The material property to be used for designing the shaft using the relation $\dfrac{16}{\pi d^{3}} \sqrt{M^{2} + T^{2}}$ is:
   \begin{enumerate}[label=(\alph*)]
-    \item ultimate tensile strength $\brak{S_u}$
-    \item tensile yield strength $\brak{S_y}$
-    \item torsional yield strength $\brak{S_{sy}}$
-    \item endurance strength $\brak{S_e}$
+    \item ultimate tensile strength ($S_u$)
+    \item tensile yield strength ($S_y$)
+    \item torsional yield strength ($S_{sy}$)
+    \item endurance strength ($S_e$)
   \end{enumerate}
   \hfill{\textbf{GATE ME 2009}}
 
@@ -253,7 +253,7 @@
 
 
 % Q18
-\item The expected time $\brak{t_e}$ of a PERT activity in terms of optimistic time $\brak{t_o}$, pessimistic time $\brak{t_p}$ and most likely time $\brak{t_m}$ is given by:
+\item The expected time ($t_e$) of a PERT activity in terms of optimistic time ($t_o$), pessimistic time ($t_p$) and most likely time ($t_m$) is given by:
   \begin{enumerate}[label=(\alph*)]
     \item $t_e = \dfrac{t_o + 4 t_m + t_p}{6}$
     \item $t_e = \dfrac{t_o + 4 t + t_p}{6}$
@@ -315,11 +315,10 @@
 
 
 %23
-\item A path AB in the form of one quarter of a circle of unit radius is shown in the figure. Integration of $\brak{x + y}^2$ on path AB traversed in a counter-clockwise sense is
+\item A path AB in the form of one quarter of a circle of unit radius is shown in the figure. Integration of $(x + y)^2$ on path AB traversed in a counter-clockwise sense is
 \begin{figure}[h] 
   \centering
   \includegraphics[width=0.23\textwidth]{Figs/image (4).png}
-  \caption{}
 \end{figure}
 
 \begin{enumerate}[label=(\Alph*)]
@@ -362,7 +361,7 @@
 \end{enumerate}
 
 %27
-\item Consider steady, incompressible and irrotational flow through a reducer in a horizontal pipe where the diameter is reduced from 20 cm to 10 cm. The pressure in the 20 cm pipe just upstream of the reducer is 150 kPa. The fluid has a vapour pressure of 50 kPa and a specific weight of 5 kN/m$^3$. Neglecting frictional effects, the maximum discharge $\brak{\text{in} m^3/s}$ that can pass through the reducer without causing cavitation is
+\item Consider steady, incompressible and irrotational flow through a reducer in a horizontal pipe where the diameter is reduced from 20 cm to 10 cm. The pressure in the 20 cm pipe just upstream of the reducer is 150 kPa. The fluid has a vapour pressure of 50 kPa and a specific weight of 5 kN/m$^3$. Neglecting frictional effects, the maximum discharge (in m$^3$/s) that can pass through the reducer without causing cavitation is
 \begin{enumerate}[label=(\Alph*)]
   \item $0.05$
   \item $0.16$
@@ -372,7 +371,7 @@
 \end{enumerate}
 
 %28
-\item In a parallel flow heat exchanger operating under steady state, the heat capacity rates of the hot and cold fluid are equal. The hot fluid, flowing at 1 kg/s with $C_p = 4$ kJ/kgK, enters at $102^\degree$C while the cold fluid has an inlet temp of $15^\degree$C. The overall heat transfer coefficient is $1$ kW/m$^2$K and area is 5 m$^2$. Neglect ambient heat transfer. The exchanger is characterized by $2\varepsilon = 1 - \exp(-2 NTU)$. The exit temperature (in $^\degree$C) for the cold fluid is
+\item In a parallel flow heat exchanger operating under steady state, the heat capacity rates of the hot and cold fluid are equal. The hot fluid, flowing at 1 kg/s with $C_p = 4$ kJ/kgK, enters at $102^\circ$C while the cold fluid has an inlet temp of $15^\circ$C. The overall heat transfer coefficient is $1$ kW/m$^2$K and area is 5 m$^2$. Neglect ambient heat transfer. The exchanger is characterized by $2\varepsilon = 1 - \exp(-2 NTU)$. The exit temperature (in $^\circ$C) for the cold fluid is
 \begin{enumerate}[label=(\Alph*)]
   \item $45$
   \item $55$
@@ -382,7 +381,7 @@
 \end{enumerate}
 
 %29
-\item In an air-standard Otto cycle, the compression ratio is 10. The condition at the beginning of the compression process is 100 kPa and $27^\degree$C. Heat added at constant volume is $1500$ kJ/kg, while $700$ kJ/kg of heat is rejected during the other constant volume process. Specific gas constant for air = $0.287$ kJ/kgK. The mean effective pressure $\brak{\text{in} kPa}$ is
+\item In an air-standard Otto cycle, the compression ratio is 10. The condition at the beginning of the compression process is 100 kPa and $27^\circ$C. Heat added at constant volume is $1500$ kJ/kg, while $700$ kJ/kg of heat is rejected during the other constant volume process. Specific gas constant for air = $0.287$ kJ/kgK. The mean effective pressure (in kPa) is
 \begin{enumerate}[label=(\Alph*)]
   \item $103$
   \item $310$
@@ -392,7 +391,7 @@
 \end{enumerate}
 
 %30
-\item An irreversible heat engine extracts heat from a high temperature source at 100 kW and rejects heat at 50 kW. The entire work output is used to drive a reversible heat pump operating between 17$^\degree$C and 75$^\degree$C. The rate \brak{\text{in} kW} at which the heat pump delivers heat to its high temp sink is
+\item An irreversible heat engine extracts heat from a high temperature source at 100 kW and rejects heat at 50 kW. The entire work output is used to drive a reversible heat pump operating between 17$^\circ$C and 75$^\circ$C. The rate (in kW) at which the heat pump delivers heat to its high temp sink is
 \begin{enumerate}[label=(\Alph*)]
   \item $50$
   \item $250$
@@ -420,7 +419,7 @@ irrotational?
 \end{enumerate}
 
 %32
-\item Water at 25$^\degree$C flows through a 1.0 km long G.I. pipe of 200 mm diameter at $0.07$ m$^3$/s. Darcy friction factor is 0.02 and water density is 1000 kg/m$^3$. The pumping power $\brak{\text{in} kW}$ required is
+\item Water at 25$^\circ$C flows through a 1.0 km long G.I. pipe of 200 mm diameter at $0.07$ m$^3$/s. Darcy friction factor is 0.02 and water density is 1000 kg/m$^3$. The pumping power (in kW) required is
 \begin{enumerate}[label=(\Alph*)]
   \item $1.8$
   \item $17.4$
@@ -437,11 +436,10 @@ irrotational?
 
 
 %33
-\item Steady-state heat conduction across the thickness in a plane composite wall (see figure) exposed to convection on both sides\\Given: $h_1 = 20$ W/m$^2$K; $h_2 = 50$ W/m$^2$K; $T_{\infty,1}=20^\degree$C; $T_{\infty,2}=-2^\degree$C; $k_1 = 20$ W/mK; $k_2 = 50$ W/mK; $L_1 = 0.30$ m, $L_2 = 0.15$ m. Assuming negligible contact resistance between the wall surfaces, the interface temperature,$T$ \brak{\text{in} ^\degree C}, of the two walls will be 
+\item Steady-state heat conduction across the thickness in a plane composite wall (see figure) exposed to convection on both sides\\Given: $h_1 = 20$ W/m$^2$K; $h_2 = 50$ W/m$^2$K; $T_{\infty,1}=20^\circ$C; $T_{\infty,2}=-2^\circ$C; $k_1 = 20$ W/mK; $k_2 = 50$ W/mK; $L_1 = 0.30$ m, $L_2 = 0.15$ m. Assuming negligible contact resistance between the wall surfaces, the interface temperature,$T$ (in $^\circ$C), of the two walls will be 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.23\textwidth]{Figs/image (5).png}
-  \caption{}
 \end{figure}
 
 
@@ -464,7 +462,6 @@ where is a constant. The average velocity of fluid in the pipe is
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{Figs/image (6).png}
-  \caption{}
 \end{figure}
 
 
@@ -488,7 +485,6 @@ L/4 from the left end as shown in the figure given below.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{Figs/image (7).png}
-  \caption{}
 \end{figure}
 
 The maximum shear stress in the shaft is
@@ -509,7 +505,6 @@ The maximum shear stress in the shaft is
 \begin{figure}[h] 
   \centering
   \includegraphics[width=0.23\textwidth]{Figs/image (8).png}
-  \caption{}
 \end{figure}
 
 \begin{enumerate}[label=(\Alph*)]
@@ -531,7 +526,7 @@ The maximum shear stress in the shaft is
 \end{enumerate}
 
 %38
-\item An automotive engine weighing 240 kg is supported on four springs with linear characteristics. Each of the front two springs have a stiffness of 16 MN/m while the stiffness of each rear spring is 32 MN/m. The engine speed $\brak{\text{in} rpm}$, at which resonance is likely to occur, is
+\item An automotive engine weighing 240 kg is supported on four springs with linear characteristics. Each of the front two springs have a stiffness of 16 MN/m while the stiffness of each rear spring is 32 MN/m. The engine speed (in rpm), at which resonance is likely to occur, is
 \begin{enumerate}[label=(\Alph*)]
   \item 6040
   \item 3020
@@ -555,7 +550,6 @@ The maximum shear stress in the shaft is
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{Figs/image (9).png}
-  \caption{}
 \end{figure}
 
 \begin{enumerate}[label=(\Alph*)]
@@ -575,7 +569,6 @@ The maximum shear stress in the shaft is
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.23\textwidth]{Figs/image (10).png}
-  \caption{}
 \end{figure}
 \begin{enumerate}[label=(\Alph*)]
   \item $-P$
@@ -656,7 +649,7 @@ Average flow time (in days) for the above jobs using Shortest Processing Time ru
     Valency of Iron = 2\\
     Faraday's constant = 96540 C\\
 \end{center}
-The material removal rate $\brak{\text{in} g/s}$ is
+The material removal rate (in g/s) is
 \begin{enumerate}[label=(\Alph*)]
   \item 0.3471
   \item 3.471
@@ -717,11 +710,10 @@ The notations are as usually followed.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{Figs/image (11).png}
-  \caption{}
 \end{figure}
 
 %51
-\item If mass flow rate of steam through the turbine is 20 kg/s, the power output of the turbine $\brak{\text{in} MW}$ is
+\item If mass flow rate of steam through the turbine is 20 kg/s, the power output of the turbine (in MW) is
 \begin{enumerate}[label=(\Alph*)]
   \item 12.157
   \item 12.941
@@ -741,9 +733,9 @@ The notations are as usually followed.
 \end{enumerate}
 
 \textbf{Common Data for Questions 53 and 54:}\\
-Radiative heat transfer is intended between the inner surfaces of two very large isothermal parallel metal plates. The upper plate (plate 1) is a black surface and is the warmer, maintained at $727^{\degree}$C. The lower plate (plate 2) is diffuse and gray with emissivity 0.7 and kept at $227^{\degree}$C. Assume sufficiently large surfaces and steady-state; Stefan-Boltzmann constant is $5.67 \times 10^{-8}$ W/m$^2$K$^4$.
+Radiative heat transfer is intended between the inner surfaces of two very large isothermal parallel metal plates. The upper plate (plate 1) is a black surface and is the warmer, maintained at $727^{\circ}$C. The lower plate (plate 2) is diffuse and gray with emissivity 0.7 and kept at $227^{\circ}$C. Assume sufficiently large surfaces and steady-state; Stefan-Boltzmann constant is $5.67 \times 10^{-8}$ W/m$^2$K$^4$.
 %53
-\item The irradiation $\brak{\text{in} kW/m^2}$ for the upper plate (plate 1) is
+\item The irradiation (in kW/m$^2$) for the upper plate (plate 1) is
 \begin{enumerate}[label=(\Alph*)]
   \item 2.5
   \item 3.6
@@ -752,7 +744,7 @@ Radiative heat transfer is intended between the inner surfaces of two very large
 \hfill{\textbf{GATE ME 2009}}
 \end{enumerate}
 %54
-\item If plate 1 is also diffuse and gray with emissivity 0.8, the net radiation heat exchange \brak{\text{in} kW/m^2} between plates 1 and 2 is
+\item If plate 1 is also diffuse and gray with emissivity 0.8, the net radiation heat exchange (in kW/m$^2$) between plates 1 and 2 is
 \begin{enumerate}[label=(\Alph*)]
   \item 17.0
   \item 19.5
@@ -765,7 +757,6 @@ Consider the following PERT network:
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{Figs/image (12).png}
-  \caption{}
 \end{figure}
 The optimistic time, most likely time and pessimistic time of all the activities are given in the table below:\\
 \begin{table}[h]
