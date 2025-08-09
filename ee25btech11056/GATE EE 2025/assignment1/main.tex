@@ -2,9 +2,11 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath, amssymb}
 \usepackage{titling}
+\usepackage{xparse}
+\usepackage{gvv}
 \usepackage{etoolbox}
 \usepackage{enumitem}
-\usepackage{amsmath}
+
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{fancyhdr}
@@ -30,87 +32,118 @@
 \end{center}
 
 
-\noindent\textbf{Q. 1 – Q. 5 carry one mark each.} \\[0.8em]
+\textbf{Q. 1 – Q. 5 carry one mark each.} \\
 
-\noindent\textbf{Q.1} ``Going by the \_\_\_\_\_\_\_\_ that many hands make light work, the school \_\_\_\_\_\_\_\_ involved all the students in the task.''\hfill (GATE PE 2018) \\[0.3em]
-The words that best fill the blanks in the above sentence are \\
+\begin{enumerate}
+ 
+	\item``Going by the \_\_\_\_\_\_\_\_ that many hands make light work, the school \_\_\_\_\_\_\_\_ involved all the students in the task.''\hfill{\brak{\text{GATE PE 2018}}} \\
+The words that best fill the blanks in the above sentence are 
 
-\begin{tabular}{ll}
+\begin{enumerate}
+\begin{multicols}{2}
+\item principle,principal  \item principal,principle
+\item principle,principle  \item principal,principal
+\end{multicols}
+\end{enumerate}
 
-(A) principle,principal & (B) principal,principle\\
-(C) principle,principle & (D) principal,principal\\\\
-\end{tabular}
+\item ``Her \_\_\_\_\_\_ should not be confused with miserliness; she is ever willing to assist those in need.'' \hfill{\brak{\text{GATE PE 2018}}} \\
+The word that best fills the blank in the above sentence is 
+\begin{enumerate}
+	\begin{multicols}{4}
+\item cleanliness  \item punctuality  \item frugality  \item greatness
+\end{multicols}
+\end{enumerate}
 
-\noindent\textbf{Q.2} ``Her \_\_\_\_\_\_ should not be confused with miserliness; she is ever willing to assist those in need.'' \hfill(GATE PE 2018) \\
-The word that best fills the blank in the above sentence is \\\\
-\begin{tabular}{llll}
-(A) cleanliness & (B) punctuality & (C) frugality & (D) greatness\\\\
-\end{tabular}
+\item Seven machines take 7 minutes to make 7 identical toys. At the same rate, how many minutes would it take for 100 machines to make 100 toys? \hfill{\brak{\text{GATE PE 2018}}}\begin{enumerate}
+	\begin{multicols}{4}
+	\item1  \item7  \item100  \item700 
+\end{multicols}
+\end{enumerate}
 
-\noindent\textbf{Q.3} Seven machines take 7 minutes to make 7 identical toys. At the same rate, how many minutes would it take for 100 machines to make 100 toys? \hfill(GATE PE 2018)\\\\
-\begin{tabular}{llll}(A)1 & (B)7 & (C)100 & (D)700 \\\\
-\end{tabular}
+\item A rectangle becomes a square when its length and breadth are reduced by 10 m and 5 m, respectively. During this process, the rectangle loses $650 \ \mathrm{m}^2$ of area. What is the area of the original rectangle in square meters? \hfill{\brak{\text{GATE PE 2018}}} 
+\begin{enumerate}
+\begin{multicols}{4}
+\item 1125   \item 2250  \item 2924  \item 4500
+\end{multicols}
+\end{enumerate}
 
-\noindent\textbf{Q.4} A rectangle becomes a square when its length and breadth are reduced by 10 m and 5 m, respectively. During this process, the rectangle loses $650 \ \mathrm{m}^2$ of area. What is the area of the original rectangle in square meters? \hfill(GATE PE 2018) \\\\
-\begin{tabular}{llll}
-(A) 1125  & (B) 2250 & (C) 2924 & (D) 4500\\\\
-\end{tabular}
+\item A number consists of two digits. The sum of the digits is 9. If 45 is subtracted from the number, its digits are interchanged. What is the number? \hfill{\brak{\text{GATE PE 2018}}}\begin{enumerate}
+	\begin{multicols}{4}
+\item 63  \item 72  \item 81 \item 90    
+\end{multicols}
+\end{enumerate}
 
-\noindent\textbf{Q.5} A number consists of two digits. The sum of the digits is 9. If 45 is subtracted from the number, its digits are interchanged. What is the number? \hfill(GATE PE 2018)\\\\
-\begin{tabular}{llll}
-(A) 63 & (B) 72 & (C) 81 & (D) 90 \\\\   
-\end{tabular}
+\noindent
+\textbf{Q. 6 – Q. 10 carry two marks each.}
 
-\noindent\textbf{Q. 6 – Q. 10 carry two marks each.} \\[0.8em]
+\item For integers $a, b$ and $c$, what would be the minimum and maximum values respectively of $a + b + c$ if $\log |a| + \log |b| + \log |c| = 0$? \hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+	\begin{multicols}{4}
+\item -3 and 3 \item -1 and 1 \item -1 and 3 \item 1 and 3
+\end{multicols}
+\end{enumerate}
 
-\noindent\textbf{Q.6} For integers $a, b$ and $c$, what would be the minimum and maximum values respectively of $a + b + c$ if $\log |a| + \log |b| + \log |c| = 0$? \hfill(GATE PE 2018)\\\\
-\begin{tabular}{llll}
-(A) -3 and 3 & (B) -1 and 1 & (C) -1 and 3 & (D) 1 and 3\\\\
-\end{tabular}
+\pagebreak
 
-\noindent\textbf{Q.7} Given that $a$ and $b$ are integers and $a + a^2b^3$ is odd, which one of the following statements is correct? \hfill(GATE PE 2018)\\\\
+\item Given that $a$ and $b$ are integers and $a + a^2b^3$ is odd, which one of the following statements is correct? \hfill{\brak{\text{GATE PE 2018}}}
 
-\begin{tabular}{ll}
-(A) $a$ and $b$ are both odd & (B) $a$ and $b$ are both even\\
-(C) $a$ is even and $b$ is odd & (D) $a$ is odd and $b$ is even\\\\
-\end{tabular}
+\begin{enumerate}
+	\begin{multicols}{2}
+\item $a$ and $b$ are both odd \item $a$ and $b$ are both even
+\item $a$ is even and $b$ is odd \item $a$ is odd and $b$ is even
+\end{multicols}
+\end{enumerate}
 
-\noindent\textbf{Q.8} From the time the front of a train enters a platform, it takes 25 seconds for the back of the train to leave the platform, while travelling at a constant speed of 54 km/h. At the same speed, it takes 14 seconds to pass a man running at 9 km/h in the same direction as the
-train. What is the length of the train and that of the platform in meters, respectively? \hfill(GATE PE 2018)\\\\
+\item From the time the front of a train enters a platform, it takes 25 seconds for the back of the train to leave the platform, while travelling at a constant speed of 54 km/h. At the same speed, it takes 14 seconds to pass a man running at 9 km/h in the same direction as the
+train. What is the length of the train and that of the platform in meters, respectively? \hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+	\begin{multicols}{2}
+\item 210 and 140 \item 162.5 and 187.5
+\item 245 and 130 \item 175 and 200
+\end{multicols}
+\end{enumerate}
 
-\begin{tabular}{ll}
-(A) 210 and 140 & (B) 162.5 and 187.5\\
-(C) 245 and 130 & (D) 175 and 200\\\\
-\end{tabular}
-
-\noindent\textbf{Q.9} Which of the following functions describe the graph shown in the below figure?\hfill(GATE PE 2018)\\\\
-
+\item Which of the following functions describe the graph shown in the below figure?\hfill{\brak{\text{GATE PE 2018}}}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.4\textwidth]{pic1.png} 
+  \includegraphics[width=0.4\columnwidth]{figs/pic1.png} 
   \end{figure}
+  
+  \begin{center}
+  \begin{enumerate}
+	\begin{multicols}{2}
 
-\begin{tabular}{ll}
+ \item $y = ||x| + 1| - 2$ \item $y = ||x| - 1| - 1$
+ \item $y = ||x| + 1| - 1$ \item $y = ||x - 1| - 1|$
 
-{\Large (A) $y = ||x| + 1| - 2$} & {\Large (B) $y = ||x| - 1| - 1$}\\
-{\Large (C) $y = ||x| + 1| - 1$} & {\Large (D) $y = ||x - 1| - 1|$}\\\\
+\end{multicols}
+\end{enumerate}
+\end{center}
 
-\end{tabular}
+\pagebreak
 
-\noindent\textbf{Q.10} Consider the following three statements:\\
+\item Consider the following three statements:\\
+
+\noindent	
 (i) Some roses are red.\\
 (ii) All red flowers fade quickly.\\
-(iii) Some roses fade quickly.\\\\
-Which of the following statements can be logically inferred from the above statements?\hfill(GATE PE 2018)\\\\
-(A) If (i) is true and (ii) is false, then (iii) is false.\\
-(B) If (i) is true and (ii) is false, then (iii) is true.\\
-(C) If (i) and (ii) are true, then (iii) is true.\\
-(D) If (i) and (ii) are false, then (iii) is false.\\\\
+(iii) Some roses fade quickly.\\
 
+\noindent
+Which of the following statements can be logically inferred from the above statements?\hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+\item If (i) is true and (ii) is false, then (iii) is false.
+\item If (i) is true and (ii) is false, then (iii) is true.
+\item If (i) and (ii) are true, then (iii) is true.
+\item If (i) and (ii) are false, then (iii) is false.
+\end{enumerate}
+
+\vspace{5cm}
 
 \begin{center}
 	{\LARGE \textbf{END OF THE QUESTION PAPER}}
 \end{center}
+
 
 \clearpage
 \fancyfoot[L]{PE}
@@ -124,61 +157,60 @@ Which of the following statements can be logically inferred from the above state
 \fancyfoot[R]{\thepage/\pageref{LastPage}}
 
 
-\noindent{\Large\textbf{Q.1- Q.25 carry one mark each.}}\\\\
-\noindent
-\textbf{Q.1}\hspace{0.5em}  The Taylor series expansion of the function,\hfill(GATE PE 2018)\\\\
+\noindent{\Large\textbf{Q.11- Q.35 carry one mark each.}}\\
 
-\begin{center}
-	{\Large $f(x)=\frac{-1}{1+x}$}
+\item The Taylor series expansion of the function,\hfill{\brak{\text{GATE PE 2018}}}\begin{center}
+		{\Large $f(x) = \frac{-1}{1+x}$}
 \end{center}
 \noindent
-around $x = 0$ (up to 4th order term) is:\\\\
-(A)$ 1 + x + x^2 + x^3 + x^4$\\
-(B)$ -1 + x - x^2 + x^3 - x^4$\\
-(C)$ -1 - x + x^2 - x^3 + x^4$\\
-(D)$ -1 + x - 2x^2 + 3x^3 - 4x^4$\\
+around $x = 0$ (up to 4th order term) is:
+\begin{enumerate}
+	\item $ 1 + x + x^2 + x^3 + x^4$
+	\item $ -1 + x - x^2 + x^3 - x^4$
+	\item $ -1 - x + x^2 - x^3 + x^4$
+	\item $ -1 + x - 2x^2 + 3x^3 - 4x^4$
+\end{enumerate}
+\item The inverse of the matrix $\myvec{ 1 & 3 \\ 1 & 2}$ is, \hfill{\brak{\text{GATE PE 2018}}}\\	
+\begin{enumerate}\begin{multicols}{4}
+\item $\myvec{ 2 & 3 \\ 1 & 1 }$ 
+\item $\myvec{ -2 & 1 \\ 3 & -1}$ 
+\item $\myvec{ -2 & 3 \\ 1 & -1}$ 
+\item $\myvec{ 2 & -3 \\ -1 & 1 }$
+\end{multicols}
+\end{enumerate}
 
-\noindent
-	\textbf{Q.2} \hspace{0.5em} The inverse of the matrix $\begin{bmatrix} 1 & 3 \\ 1 & 2 \end{bmatrix}$ is, \hfill(GATE PE 2018) \\\\\\\\
-\hspace*{2em} (A) $\begin{bmatrix} 2 & 3 \\ 1 & 1 \end{bmatrix}$ \hspace{2em}
-(B) $\begin{bmatrix} -2 & 1 \\ 3 & -1 \end{bmatrix}$ \hspace{2em}
-(C) $\begin{bmatrix} -2 & 3 \\ 1 & -1 \end{bmatrix}$ \hspace{2em}
-(D) $\begin{bmatrix} 2 & -3 \\ -1 & 1 \end{bmatrix}$\\\\
 
-\noindent
-\textbf{Q.3} \hspace{0.5em} The line integral of a vector function $\vec{F}(\vec{r})$ over a curve $C$ in a simply connected domain $D$ in space, is defined by: \hfill{(GATE PE 2018)} \\
-
+\item The line integral of a vector function $\vec{F}(\vec{r})$ over a curve $C$ in a simply connected domain $D$ in space, is defined by: \hfill{\brak{\text{GATE PE 2018}}}
 \[
 \int_C \vec{F}(\vec{r}) \cdot d\vec{r} = \int_C (F_1 dx + F_2 dy + F_3 dz)
 \]
 
-The line integral is independent of path in $D$. $F_1$, $F_2$, and $F_3$ are continuous, and have continuous first partial derivatives in $D$. $C'$ is a closed curve in $D$.\\\\
+The line integral is independent of path in $D$. $F_1$, $F_2$, and $F_3$ are continuous, and have continuous first partial derivatives in $D$. $C'$ is a closed curve in $D$.\\
 
 \noindent
-Which one of the following is \textbf{NOT ALWAYS} true in domain $D$?\\\\
+Which one of the following is \textbf{NOT ALWAYS} true in domain $D$?
 
-\begin{tabular}{ll}
-(A) $\nabla \times \vec{F} = \vec{0}$ \hspace{2em} & (B) $\nabla \cdot \vec{F} = 0$ \hspace{2em}\\
-(C) $\oint_{C'} \vec{F}(\vec{r}) \cdot d\vec{r} = 0$ \hspace{2em} & (D) $\vec{F} \times \vec{F} = \vec{0}$\\\\
-\end{tabular}
+\begin{enumerate}
+\begin{multicols}{2}
+\item $\nabla \times \vec{F} = \vec{0}$  \item $\nabla \cdot \vec{F} = 0$ \hspace{2em}
+\item $\oint_{C'} \vec{F}(\vec{r}) \cdot d\vec{r} = 0$  \item $\vec{F} \times \vec{F} = \vec{0}$
+\end{multicols}
+\end{enumerate}
 
-\noindent
-\textbf{Q.4} \hspace{0.5em} Which one of the following is the integrating factor (IF) for the differential equation, $(\cos^2 x)\dfrac{dy}{dx} + y = \cos x$ ? \hfill(GATE PE 2018)\\\\
-
-
-\begin{tabular}{ll}
-(A) $e^{\tan x}$ \hspace{2em} & (B) $e^{\cos x}$ \hspace{2em}\\
-(C) $e^{-\tan x}$ \hspace{2em} & (D) $e^{\sin x}$\\\\
-\end{tabular}
+\item Which one of the following is the integrating factor (IF) for the differential equation, $(\cos^2 x)\dfrac{dy}{dx} + y = \cos x$ ? \hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+\begin{multicols}{2}
+\item $e^{\tan x}$  \item $e^{\cos x}$ 
+\item $e^{-\tan x}$  \item $e^{\sin x}$
+\end{multicols}
+\end{enumerate}
 
 \pagebreak
 
-\noindent
-\textbf{Q.5}\hspace{0.5em} A phase diagram of a black oil is shown in the figure (Y is the critical point).\\\hfill(GATE PE 2018)\\\\
-
+\item A phase diagram of a black oil is shown in the figure \brak{\text{Y is the critical point}}.\\\hfill{\brak{\text{GATE PE 2018}}}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.6\textwidth]{pic2.png} 
+  \includegraphics[width=0.6\columnwidth]{figs/pic2.png} 
 \end{figure}
 \noindent
 Match the following:\\\\
@@ -186,225 +218,233 @@ Match the following:\\\\
 	(P) Curve XY & (I) Dew point curve\\
 	(Q) Curve YZ & (II) Single phase liquid\\
 	(R) Phase I  & (III) Bubble point curve\\
-	(S) Phase II &  (IV) Single phase gas\\\\
-	(A) P-I, Q-III, R-II, S-IV & (B) P-III, Q-I, R-II, S-IV\\
-	(C) P-III, Q-I, R-IV, S-II & (D) P-I, Q-II, R-III, S-IV\\\\
+	(S) Phase II &  (IV) Single phase gas
+
 \end{tabular}
+\begin{enumerate}
+	\begin{multicols}{2}
+	\item P-I, Q-III, R-II, S-IV \item P-III, Q-I, R-II, S-IV
+	\item P-III, Q-I, R-IV, S-II \item P-I, Q-II, R-III, S-IV
+\end{multicols}
+\end{enumerate}
 
 
-\noindent
-\textbf{Q.6}\hspace{0.5em} Match the following chemicals to their respective oilfield applications:\\\hfill(GATE PE 2018)\\\\
-\begin{tabular}{ll}
+\item Match the following chemicals to their respective oilfield applications:\\\hfill{\brak{\text{GATE PE 2018}}}\\\\
+
+	\begin{tabular}{ll}
 	(P) Hydrate inhibitor & (I) Formaldehyde\\
 	(Q) Well stimulation & (II) Xanthan gum\\
 	(R) Drilling fluid biocide & (III) Methanol\\
 	(S) Viscosifier & (IV) Hydrochloric acid\\\\
-	(A) P-IV, Q-III, R-II, S-I & (B) P-III, Q-I, R-IV, S-II\\
-	(C) P-I, Q-III R-IV, S-II & (D) P-III, Q-IV, R-I, S-II \\\\
 \end{tabular}
+\begin{enumerate}
+	\begin{multicols}{2}
+	\item P-IV, Q-III, R-II, S-I \item P-III, Q-I, R-IV, S-II
+	\item P-I, Q-III R-IV, S-II \item P-III, Q-IV, R-I, S-II 
+\end{multicols}
+\end{enumerate}
 
 \pagebreak
 
-\noindent
-\textbf{Q.7}\hspace{0.5em} The CH4-hydrate equilibrium curve (dashed) and CO2-hydrate equilibrium curve (solid) on
+\item The CH4-hydrate equilibrium curve \brak{\text{dashed}} and CO2-hydrate equilibrium curve \brak{\text{solid}} on
 a pressure-temperature plane above 0°C are shown in the figure. The two curves divide the
 plane in four non-overlapping regions. In which region are CO2-hydrates stable and CH4-
-hydrates unstable?\hfill(GATE PE 2018)\\\\
+hydrates unstable?\hfill{\brak{\text{GATE PE 2018}}}\\\\
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.4\textwidth]{pic3.png} 
+  \includegraphics[width=0.4\columnwidth]{figs/pic3.png} 
 \end{figure}
-\begin{center}
-\begin{tabular}{llll}
-	(A) I & \hspace{0.5em}(B) II & \hspace{0.5em}(C) III & \hspace{0.5em}(D) IV \\\\
-\end{tabular}
-\end{center}
 
-\noindent
-\textbf{Q.8} \hspace{0.5em} Plot of ratio of pressure to gas compressibility factor (P/Z) vs. cumulative gas production
-(Gp) for a gas reservoir (represented by solid curve in the figure) was shown to a reservoir
-engineering student.\hfill(GATE PE 2018)\\\\
+	\begin{enumerate}
+		\begin{multicols}{4}
+	\item I  \item II  \item III  \item IV 
+\end{multicols}
+\end{enumerate}
 
+
+\item Plot of ratio of pressure to gas compressibility factor (P/Z) vs. cumulative gas production
+	(Gp) for a gas reservoir \brak{\text{represented by solid curve in the figure}} was shown to a reservoir
+engineering student.\hfill{\brak{\text{GATE PE 2018}}}\\\\
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.4\textwidth]{pic4.png} 
+  \includegraphics[width=0.4\columnwidth]{figs/pic4.png} 
 \end{figure}
 \noindent
 The student made the following statements:\\
 (I) A water aquifer is attached to this gas reservoir.\\
 (II) P/Z vs. Gp curve must always be a straight line for water encroachment in a gas
 reservoir.\\
-(III) The ultimate gas recovery is diminished due to water encroachment.\\\\
+(III) The ultimate gas recovery is diminished due to water encroachment.\\
 
 Which of the above statements are \textbf{TRUE}?
 
-\begin{center}
-\begin{tabular}{llll}
-	(A) Only I and II & (B) Only II and III & (C) Only I and III & (D) I, II, and III
-\end{tabular}
-\end{center}
+
+\begin{enumerate}
+	\begin{multicols}{4}
+	\item Only I and II \item Only II and III \item Only I and III \item I, II, and III
+\end{multicols}
+\end{enumerate}
+
 \pagebreak
 
-\noindent
-\textbf{Q.9} \hspace{0.5em} Waste water from oil industry consists of oil in free and emulsified forms. The oil in the
-free form can be recovered by:\hfill(GATE PE 2018)\\\\
-(A) Aerated lagoons\\
-(B) Trickling filters\\
-(C) Gravity separators\\
-(D) Biological oxygen pond\\\\
+\item  Waste water from oil industry consists of oil in free and emulsified forms. The oil in the
+free form can be recovered by:\hfill{\brak{\text{GATE PE 2018}}}\begin{enumerate}
+\begin{multicols}{2}
+\item Aerated lagoons
+\item Trickling filters
+\item Gravity separators
+\item Biological oxygen pond
+\end{multicols}
+\end{enumerate}
 
 \noindent
-\textbf{Q.10}\hspace{0.5em} A reservoir model consisting of two porous matrices M and N, separated by a fracture, is
+\item A reservoir model consisting of two porous matrices M and N, separated by a fracture, is
 shown in the figure. The matrices are strongly water-wet and are saturated with oil of
 specific gravity 0.8. Water is injected only in the fracture at injection well A. If the
 Reynolds number for the flow in the fracture conduit is assumed to be less than unity, which
 one of the following force will dominate oil recovery from the porous matrix M during the
-water-flood operation?\hfill(GATE PE 2018)\\\\
-
-\begin{figure}[h!]
+water-flood operation?\hfill{\brak{\text{GATE PE 2018}}}\begin{figure}[h!]
   \centering
-  \includegraphics[width=0.6\textwidth]{pic5.png} 
+  \includegraphics[width=0.6\columnwidth]{figs/pic5.png} 
 \end{figure}
-\begin{center}
-\begin{tabular}{ll}
 
-	(A) Capillary force & \hspace{0.9em}(B) Gravity force\\
-	(C) Viscous force & \hspace{0.9em}(D) Inertial force\\\\
-\end{tabular}
-\end{center}
+\begin{enumerate}
+	\begin{multicols}{2}
+	\item Capillary force \item Gravity force
+	\item Viscous force \item Inertial force
+\end{multicols}
+\end{enumerate}
 
-\noindent
-\textbf{Q.11}\hspace{0.5em} A fractional flow curve is given for a core for which the irreducible water saturation is 0.2
+\item A fractional flow curve is given for a core for which the irreducible water saturation is 0.2
 and the residual oil saturation is 0.3. The initial water saturation in the core is 0.3. If
 Welge’s method is applied to find the breakthrough saturation and fraction flow of water at
 breakthrough, which point should be used in the figure to draw a tangent line to the
-fractional flow curve.\hfill(GATE PE 2018)\\\\
-
-\begin{figure}[h!]
+fractional flow curve.\hfill{\brak{\text{GATE PE 2018}}}\begin{figure}[h!]
   \centering
-  \includegraphics[width=0.3\textwidth]{pic6.png} 
+  \includegraphics[width=0.4\columnwidth]{figs/pic6.png} 
 \end{figure}
 
-\begin{center}
-\begin{tabular}{llll}
-(A) I & (B) II & (C) III & (D) IV
-\end{tabular}
-\end{center}
+\begin{enumerate}
+\begin{multicols}{4}
+\item I \item II \item III \item IV
+\end{multicols}
+\end{enumerate}
 
 \pagebreak
 
-\noindent
-\textbf{Q.12} \hspace{0.5em} Which one of the following curves represents behavior of oil phase viscosity as a function
-of pressure in the reservoir (where, Pb is the bubble point pressure of oil)?\hfill(GATE PE 2018)\\\\
-
-\begin{figure}[h!]
+\item Which one of the following curves represents behavior of oil phase viscosity as a function
+of pressure in the reservoir (where, Pb is the bubble point pressure of oil)?\hfill{\brak{\text{GATE PE 2018}}}\begin{figure}[h!]
   \centering
-  \includegraphics[width=0.6\textwidth]{pic7.png} 
+  \includegraphics[width=0.6\columnwidth]{figs/pic7.png} 
 \end{figure}
-\begin{center}
-\begin{tabular}{llll}
-	(A) Curve I  & (B) Curve II & (C) Curve III & (D) Curve IV\\\\
-\end{tabular}
-\end{center}
+\begin{enumerate}
+\begin{multicols}{4}
+	\item Curve I  \item Curve II \item Curve III \item Curve IV
+\end{multicols}
+\end{enumerate}
 
-\noindent
-\textbf{Q.13} Pick out the \textbf{INCORRECT} statement.\hfill(GATE PE 2018)\\\\
-(A) Flash point is always lower than fire point.\\
-(B) Pour point of lube oil can be reduced by removing the wax from it.\\
-(C) Fracturing is a well stimulation technique.\\
-(D) Coal bed methane typically contains more than 60\% $CO_2$.\\\\ 
+\item Pick out the \textbf{INCORRECT} statement.\hfill{\brak{\text{GATE PE 2018}}}\begin{enumerate}
+\item Flash point is always lower than fire point.
+\item Pour point of lube oil can be reduced by removing the wax from it.
+\item Fracturing is a well stimulation technique.
+\item Coal bed methane typically contains more than 60\% $CO_2$.
+\end{enumerate}
 
-\noindent
-\textbf{Q.14} Which one of the following phenomena encountered during flooding is desirable for
-increasing oil recovery from a reservoir?\hfill(GATE PE 2018)\\\\
-\begin{tabular}{ll}
-	(A) Viscous fingering  & (B) Formation damage\\
-	(C) Increase in mobility ratio & (D) Decrease in capillary pressure\\\\
-\end{tabular}
+\item Which one of the following phenomena encountered during flooding is desirable for
+increasing oil recovery from a reservoir?\hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+	\begin{multicols}{2}
+	\item Viscous fingering \item Formation damage
+	\item Increase in mobility ratio \item Decrease in capillary pressure
+\end{multicols}
+\end{enumerate}
 
-\noindent
-\textbf{Q.15} \hspace{0.5em}$CO_2$ foams are used for enhanced oil recovery due to which of the following reasons?\hfill(GATE PE 2018)\\\\
+\item $CO_2$ foams are used for enhanced oil recovery due to which of the following reasons?\hfill{\brak{\text{GATE PE 2018}}}\\\\
 (I) It can be used for $CO_2$ sequestration\\
 (II) $CO_2$ can exist in the form of a dense fluid at reservoir conditions\\
 (III) $CO_2$ can convert to hydrocarbon at the reservoir temperature and pressure\\
-(IV) Solubility of $CO_2$ in oil is higher compared to gases like $N_2$\\\\
-\begin{tabular}{ll}
-	(A) Only I, II, and III & (B) Only I, II, and IV\\
-	(C) Only II, III, and IV & (D) Only I, III, and IV\\\\
-\end{tabular}
+(IV) Solubility of $CO_2$ in oil is higher compared to gases like $N_2$
+\begin{enumerate}
+	\begin{multicols}{2}
+	\item Only I, II, and III \item Only I, II, and IV
+	\item Only II, III, and IV \item Only I, III, and IV
+\end{multicols}
+\end{enumerate}
 
 
 \pagebreak
 
-\noindent
-\textbf{Q.16}\hspace{0.5em} Which one of the following is FALSE about a typical offshore deepwater oil spill?\hfill(GATE PE 2018)\\\\
-(A) Using boom boats to prevent spilled oil from spreading\\
-(B) Allowing the spill to reach the shore before clearing\\
-(C) Burning of spilled oil\\
-(D) Using a skimmer to collect the oil\\\\
+\item Which one of the following is FALSE about a typical offshore deepwater oil spill?\hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+\item Using boom boats to prevent spilled oil from spreading
+\item Allowing the spill to reach the shore before clearing
+\item Burning of spilled oil
+\item Using a skimmer to collect the oil
+\end{enumerate}
 
-\noindent
-\textbf{Q.17} \hspace{0.5em} Which one of these methods is NOT commonly used to deal with the problem of soil
-contamination by oil spillage?\hfill(GATE PE 2018)\\\\
-(A) Biodegradation\\
-(B) Leaching out the oil\\
-(C) Soil recycling\\
-(D) Using rain water to wash the contaminants\\\\
+\item Which one of these methods is NOT commonly used to deal with the problem of soil
+contamination by oil spillage?\hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+\item Biodegradation
+\item Leaching out the oil
+\item Soil recycling
+\item Using rain water to wash the contaminants
+\end{enumerate}
 
-\noindent
-\textbf{Q.18} \hspace{0.5em} The factor on which the selection of an offshore platform for the reservoir does \textbf{NOT}
-depend:\hfill(GATE PE 2018)\\\\
-(A) Water depth\\
-(B) Reservoir fluid properties\\
-(C) Sea bed conditions\\
-(D) Best case weather forecast\\\\
+\item The factor on which the selection of an offshore platform for the reservoir does \textbf{NOT}
+depend:\hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+\item Water depth
+\item Reservoir fluid properties
+\item Sea bed conditions
+\item Best case weather forecast
+\end{enumerate}
 
-
-\noindent
-\textbf{Q.19}\hspace{0.5em} Which one of the following options is correct about the effects of steam stimulation in
-increasing the oil production rate?\hfill(GATE PE 2018)\\\\
+\item Which one of the following options is correct about the effects of steam stimulation in
+increasing the oil production rate?\hfill{\brak{\text{GATE PE 2018}}}\\\\
 (I) Reduces the oil viscosity\\
 (II) Increases the formation damage\\
 (III) Reduces the interfacial tension\\
-(IV) Increases the oil viscosity\\\\
-(A) Only I and II\\
-(B) Only II and III\\
-(C) Only III and IV\\
-(D) Only I and III\\\\
-
+(IV) Increases the oil viscosity
+\begin{enumerate}
+\item Only I and II
+\item Only II and III
+\item Only III and IV
+\item Only I and III
+\end{enumerate}
 \pagebreak
 
-\noindent
-\textbf{Q.20}  Which one of the following is \textbf{INCORRECT} about oil based drilling muds?\hfill(GATE PE 2018)\\\\
-(A) Good rheological properties at higher temperatures (as high as $250^\circ\text{C}$.)\\
-(B) Effective against corrosion\\
-(C) Detection of gas kick is difficult\\
-(D) Less inhibitive than water based muds\\\\
+\item  Which one of the following is \textbf{INCORRECT} about oil based drilling muds?\hfill{\brak{\text{GATE PE 2018}}}
+	\begin{enumerate}
+		\item Good rheological properties at higher temperatures \brak{\text{as high as $250^\circ\text{C}$.}}
+\item Effective against corrosion
+\item Detection of gas kick is difficult
+\item Less inhibitive than water based muds
+\end{enumerate}
 
-\noindent
-\textbf{Q.21} Assume that viscous, gravity, and capillary are the only dominant forces for fluid flow in a
-given reservoir, a cone formed around the perforation zone will break into the well, when\hfill(GATE PE 2018)\\\\
-(A) capillary forces are more than viscous and gravity forces.\\
-(B) viscous forces are more than gravity forces.\\
-(C) gravity forces are more than capillary forces.\\
-(D) viscous and gravity forces are equal.\\\\
+\item Assume that viscous, gravity, and capillary are the only dominant forces for fluid flow in a
+given reservoir, a cone formed around the perforation zone will break into the well, when\hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
+\item capillary forces are more than viscous and gravity forces.
+\item viscous forces are more than gravity forces.
+\item gravity forces are more than capillary forces.
+\item viscous and gravity forces are equal.
+\end{enumerate}
 
-\noindent\textbf{Q.22} Two complex numbers, $\vec{k}$ and $\vec{\varepsilon}$ are related as follows:\hfill(GATE PE 2018)
+\item Two complex numbers, $\vec{k}$ and $\vec{\varepsilon}$ are related as follows:\hfill{\brak{\text{GATE PE 2018}}}
 \[
 \vec{k} = \frac{\vec{\varepsilon}}{i\omega}
 \]
-where, $i = \sqrt{-1}$ and $\omega$ is a scalar. Given principal argument of $\vec{\varepsilon}$, $\text{Arg}(\vec{\varepsilon}) = -\frac{2\pi}{3}$, the principal argument of $\vec{k}$, $\text{Arg}(\vec{k}) = \underline{\hspace{3cm}}$. (rounded-off to two decimal places). \\
+where, $i = \sqrt{-1}$ and $\omega$ is a scalar. Given principal argument of $\vec{\varepsilon}$, $\text{Arg}(\vec{\varepsilon}) = -\frac{2\pi}{3}$, the principal argument of $\vec{k}$, $\text{Arg}(\vec{k}) = \underline{\hspace{3cm}}$. \brak{\text{rounded-off to two decimal places}}. \\
 Use $\pi = 3.14$
 
-\vspace{1cm}
 
-\noindent\textbf{Q.23} A cylindrical sandstone core, 7.5 cm long and 3.5 cm diameter has grain density of 3 g/cm$^3$. If the mass of the dry core is 200 g, the porosity of the core is \underline{\hspace{3cm}} \%.\\
-(rounded-off to two decimal places)\hfill(GATE PE 2018)
 
-\vspace{1cm}
+\item A cylindrical sandstone core, 7.5 cm long and 3.5 cm diameter has grain density of 3 g/cm$^3$. If the mass of the dry core is 200 g, the porosity of the core is \underline{\hspace{3cm}} \%.\\
+(rounded-off to two decimal places)\hfill{\brak{\text{GATE PE 2018}}}
 
-\noindent\textbf{Q.24} In an oil reservoir the current average pressure is below bubble point pressure of the oil. The current oil production rate is $10^3$ $m^3$/day and total gas production rate is $10^5$ $m^3$/day at STP conditions ($25^\circ\text{C}$. and 1 atm). The formation volume factor of the oil is
+\item In an oil reservoir the current average pressure is below bubble point pressure of the oil. The current oil production rate is $10^3$ $m^3$/day and total gas production rate is $10^5$ $m^3$/day at STP conditions ($25^\circ\text{C}$. and 1 atm). The formation volume factor of the oil is
 \[
 \frac{1.2 \text{ m}^3 \text{ at reservoir pressure}}{\text{m}^3 \text{ at STP}} \quad \text{and that of gas is} \quad \frac{0.01 \text{ m}^3 \text{ at reservoir pressure}}{\text{m}^3 \text{ at STP}}.
 \]
@@ -415,23 +455,22 @@ The gas flow rate at bottom-hole conditions is \underline{\hspace{1.5cm}} $\time
 
 \pagebreak
 
-\noindent\textbf{Q.25} Exponential decline curve is to be used to estimate the oil reserves of a well. The current oil production rate is 1000 m$^3$ per day and yearly decline rate is 6\% per year. If the minimum inflow rate economically sustainable for the well is 1 m$^3$ per day, the reserves (economically producible) associated with the well are \underline{\hspace{2cm}} $\times 10^6$ m$^3$. (rounded-off to three decimal places). Use 1 year = 365 days.\hfill(GATE PE 2018)\\\\
+\item Exponential decline curve is to be used to estimate the oil reserves of a well. The current oil production rate is 1000 m$^3$ per day and yearly decline rate is 6\% per year. If the minimum inflow rate economically sustainable for the well is 1 m$^3$ per day, the reserves (economically producible) associated with the well are \underline{\hspace{2cm}} $\times 10^6$ m$^3$. (rounded-off to three decimal places). Use 1 year = 365 days.\hfill{\brak{\text{GATE PE 2018}}}\\\\
 
-\noindent
-{\large \textbf{Q.26-Q.55 carry two marks each}}\\\\
 
-\noindent
-\textbf{Q.26} The probability density for three binomial distributions (D1, D2, and D3) is plotted against
-number of successful trials in the given figure.\hfill(GATE PE 2018)\\\\
+{\large \textbf{Q.36-Q.65 carry two marks each}}\\\\
+
+\item The probability density for three binomial distributions (D1, D2, and D3) is plotted against
+number of successful trials in the given figure.\hfill{\brak{\text{GATE PE 2018}}}\\\\
 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.5\textwidth]{pic8.png} 
+  \includegraphics[width=0.5\columnwidth]{figs/pic8.png} 
 \end{figure}
 
 Each of the plotted distributions corresponds to a unique pair of $(n, p)$ values, where, $n$ is the number of trials and $p$ is the probability of success in a trial. Three sets of $(n, p)$ values are provided in the table.
-\hfill (GATE PE 2018)
+\hfill{\brak{\text{GATE PE 2018}}}
 
 \begin{center}
 \begin{tabular}{|c|c|}
@@ -447,28 +486,31 @@ III & (24, 0.5) \\
 
 Pick the correct match between the $(n, p)$ set and the plotted distribution.
 
-\begin{tabular}{ll}
-(A) Set I – D1, Set II – D2, Set III – D3 & (B) Set I – D3, Set II – D1, Set III – D2 \\
-(C) Set I – D2, Set II – D3, Set III – D1 & (D) Set I – D2, Set II – D1, Set III – D3 \\
-\end{tabular}
+\begin{enumerate}
+\begin{multicols}{2}
+\item Set I – D1, Set II – D2, Set III – D3 \item Set I – D3, Set II – D1, Set III – D2 
+\item Set I – D2, Set II – D3, Set III – D1 \item Set I – D2, Set II – D1, Set III – D3
+\end{multicols}
+\end{enumerate}
 
 \pagebreak
 
-\noindent\textbf{Q.27} Which of the following statements are true about Natural Gas Hydrates?
-\hfill (GATE PE 2018)
+\item Which of the following statements are true about Natural Gas Hydrates?
+\hfill{\brak{\text{GATE PE 2018}}}
 
 \vspace{0.2cm}
+\noindent
 Natural gas hydrates:
 
 
 \noindent
-(A) are formed under low temperature and high pressure.\\
-(B) can store approximately 160 m$^3$ of gas per m$^3$ of hydrate at 25 $^\circ$C and 1 atm.\\
-(c) formation is an endothermic process.\\
-(D) are potential sources of methane.\\\\
+(I) are formed under low temperature and high pressure.\\
+(II) can store approximately 160 m$^3$ of gas per m$^3$ of hydrate at 25 $^\circ$C and 1 atm.\\
+(III) formation is an endothermic process.\\
+(IV) are potential sources of methane.
 
 
-\begin{enumerate}[label=(\Alph*)] 
+\begin{enumerate} 
 \begin{multicols}{2}
 
 \item Only II, III \& IV \item Only I, II \& III
@@ -476,28 +518,26 @@ Natural gas hydrates:
 \end{multicols}
 \end{enumerate}
 
-\noindent
-\textbf{Q.28} $P_{wf}$ (bottom-hole well flowing pressure) vs. Q (flow rate) plots show the inflow
+\item $P_{wf}$ (bottom-hole well flowing pressure) vs. Q (flow rate) plots show the inflow
 performance relation (IPR) and vertical lift performance (VLP) curves. Figure I shows
 VLP curves for two well head pressures $P_{hw1}$ and $P_{hw2}$. Figure II shows VLP curves for two
-well diameters $D_1$ and $D_2$. Which one of the following statements is true?\hfill(GATE PE 2018)\\\\
-
+well diameters $D_1$ and $D_2$. Which one of the following statements is true?\hfill{\brak{\text{GATE PE 2018}}}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{pic9.png} 
+  \includegraphics[width=0.8\columnwidth]{figs/pic9.png} 
 \end{figure}
 
-\begin{center}
-	\begin{tabular}{ll}	
-		(A) $P_{hw1} > P_{hw2}$ and $D_1 < D_2$ & (B) $P_{hw1} > P_{hw2}$ and $D_1 > D_2$\\
-		(c) $P_{hw1} < P_{hw2}$ and $D_1<D_2$ & (D)  $P_{hw1} < P_{hw2}$ and $D_1 > D_2$\\\\
-	\end{tabular}
-\end{center}
+\begin{enumerate}
+	\begin{multicols}{2}	
+		\item $P_{hw1} > P_{hw2}$ and $D_1 < D_2$ \item $P_{hw1} > P_{hw2}$ and $D_1 > D_2$
+		\item $P_{hw1} < P_{hw2}$ and $D_1<D_2$ \item  $P_{hw1} < P_{hw2}$ and $D_1 > D_2$
+	\end{multicols}
+\end{enumerate}
 
 
-\pagebreak
 
-\noindent\textbf{Q.29} Match the following: \hfill (GATE PE 2018)\\\\
+
+\item Match the following: \hfill{\brak{\text{GATE PE 2018}}}\\\\
 
 \begin{tabular}{ll}
 (P) Weber Number      & (I) Ratio of inertial force to viscous force \\
@@ -508,7 +548,7 @@ well diameters $D_1$ and $D_2$. Which one of the following statements is true?\h
 
 
 
-\begin{enumerate}[label=(\Alph*)] 
+\begin{enumerate} 
 \begin{multicols}{2}
 
 \item P-III, Q-IV, R-I, S-II \item P-III, Q-II, R-I, S-IV 
@@ -516,69 +556,62 @@ well diameters $D_1$ and $D_2$. Which one of the following statements is true?\h
 \end{multicols}
 \end{enumerate}
 
-\vspace{1cm}
+\pagebreak
 
-\noindent\textbf{Q.30} A dilute mixture of coal and sand particles, both of diameter 100~$\upmu$m and densities 1800~kg/m$^3$ and 2600~kg/m$^3$, respectively, is to be classified by elutriation technique using water (density 1000~kg/m$^3$, viscosity $10^{-3}$~Pa$\cdot$s). Assuming Stokes law is applicable, the minimum settling velocity of the particles in the mixture is (g = 9.81~m/s$^2$): \hfill (GATE PE 2018)
+\item A dilute mixture of coal and sand particles, both of diameter 100~$\upmu$m and densities 1800~kg/m$^3$ and 2600~kg/m$^3$, respectively, is to be classified by elutriation technique using water (density 1000~kg/m$^3$, viscosity $10^{-3}$~Pa$\cdot$s). Assuming Stokes law is applicable, the minimum settling velocity of the particles in the mixture is (g = 9.81~m/s$^2$): \hfill{\brak{\text{GATE PE 2018}}}
 
-\vspace{0.3cm}
 
-\begin{enumerate}[label=(\Alph*)] 
+\begin{enumerate}
 \begin{multicols}{2}
 
 \item 4.36 $\times$ 10$^{-3}$ m/s \item 8.72 $\times$ 10$^{-3}$ m/s 
 \item 2.18 $\times$ 10$^{-3}$ m/s \item 1.29 $\times$ 10$^{-3}$ m/s 
 \end{multicols}
 \end{enumerate}
-\pagebreak
-\noindent
-\textbf{Q.31} Oil flow rate and flowing bottom-hole pressure (FBHP) recorded with time during a multi-
-rate well test are shown.\hfill(GATE PE 2018)\\\\
+
+\item Oil flow rate and flowing bottom-hole pressure (FBHP) recorded with time during a multi-
+rate well test are shown.\hfill{\brak{\text{GATE PE 2018}}}\\\\
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.5\textwidth]{pic10.png} 
+  \includegraphics[width=0.5\columnwidth]{figs/pic10.png} 
 \end{figure}
 
 
 
-Let $k$ is the reservoir permeability, $h$ is the formation thickness and $\mu$ is the viscosity of the oil. $\Delta P_D(t)$ is constant-rate dimensionless pressure drop as a function of time. The total pressure drop till time, $t$, where $t > t_1$, will be: \hfill (GATE PE 2018)
+Let $k$ is the reservoir permeability, $h$ is the formation thickness and $\mu$ is the viscosity of the oil. $\Delta P_D(t)$ is constant-rate dimensionless pressure drop as a function of time. The total pressure drop till time, $t$, where $t > t_1$, will be: \hfill{\brak{\text{GATE PE 2018}}}\begin{enumerate}
+\begin{multicols}{2}
+\item $\dfrac{q_1 \mu}{2 \pi k h} \Delta P_D(t) + \dfrac{(q_2 - q_1) \mu}{2 \pi k h} \Delta P_D(t - t_1)$ 
 
-\vspace{0.3cm}
-\begin{tabular}{ll}
-(A) $\dfrac{q_1 \mu}{2 \pi k h} \Delta P_D(t) + \dfrac{(q_2 - q_1) \mu}{2 \pi k h} \Delta P_D(t - t_1)$ 
-&
-(B) $\dfrac{q_1 \mu}{2 \pi k h} \Delta P_D(t_1) + \dfrac{(q_2 - q_1) \mu}{2 \pi k h} \Delta P_D(t - t_1)$
-\\[1.5ex]
-(C) $\dfrac{q_1 \mu}{2 \pi k h} \Delta P_D(t) + \dfrac{q_2 \mu}{2 \pi k h} \Delta P_D(t - t_1)$
-&
-(D) $\dfrac{q_1 \mu}{2 \pi k h} \Delta P_D(t_1) + \dfrac{q_2 \mu}{2 \pi k h} \Delta P_D(t)$
-\end{tabular}
+\item $\dfrac{q_1 \mu}{2 \pi k h} \Delta P_D(t_1) + \dfrac{(q_2 - q_1) \mu}{2 \pi k h} \Delta P_D(t - t_1)$
 
-\vspace{1cm}
+\item $\dfrac{q_1 \mu}{2 \pi k h} \Delta P_D(t) + \dfrac{q_2 \mu}{2 \pi k h} \Delta P_D(t - t_1)$
 
-\noindent\textbf{Q.32} Which one of the following options presents the correct combination? \hfill (GATE PE 2018)
+\item $\dfrac{q_1 \mu}{2 \pi k h} \Delta P_D(t_1) + \dfrac{q_2 \mu}{2 \pi k h} \Delta P_D(t)$
+\end{multicols}
+\end{enumerate}
 
+\pagebreak
+
+\item Which one of the following options presents the correct combination? \hfill{\brak{\text{GATE PE 2018}}}
 \vspace{0.3cm}
 
 \begin{tabular}{ll}
 (P) Reservoir limit test         & (I) Communication between wells \\
 (Q) Modified isochronal test     & (II) Ideally zero flowing bottom hole pressure \\
 (R) Interference test            & (III) Extended drawdown test \\
-(S) Absolute open flow potential & (IV) Drawdown and build-up test of equal duration \\
+(S) Absolute open flow potential & (IV) Drawdown and build-up test of equal duration\\ 
 \end{tabular}
 
-\vspace{0.3cm}
 
-\begin{enumerate}[label=(\Alph*)] 
+\begin{enumerate}
 \begin{multicols}{2}
 	\item P-II, Q-III, R-I, S-IV \item P-IV, Q-I, R-III, S-II 
 	\item P-III, Q-IV, R-I, S-II \item P-I, Q-III, R-IV, S-II 
 \end{multicols}
 \end{enumerate}
-\pagebreak
-\noindent\textbf{Q.33} Which one of the following options presents the correct combination? \hfill (GATE PE 2018)
 
-\vspace{0.3cm}
+\item Which one of the following options presents the correct combination? \hfill{\brak{\text{GATE PE 2018}}}\vspace{0.3cm}
 
 \begin{tabular}{ll}
 (P) Roller Cone bits    & (I) Long and widely spaced teeth \\
@@ -588,19 +621,18 @@ Let $k$ is the reservoir permeability, $h$ is the formation thickness and $\mu$ 
 (T) Back rake angle     & (V) 1400$^\circ$C and 6$\times$10$^5$ psi \\
 \end{tabular}
 
-\vspace{0.3cm}
 
-\begin{enumerate}[label=(\Alph*)] 
+
+\begin{enumerate} 
 \begin{multicols}{2}
 \item P-II, Q-V, R-I, S-III, T-IV \item P-III, Q-IV, R-I, S-II, T-V \\
 \item P-III, Q-II, R-IV, S-I, T-V \item P-II, Q-V, R-III, S-I, T-IV \\
 \end{multicols}
 \end{enumerate}
 
-\vspace{0.7cm}
 
-\noindent\textbf{Q.34} Primary and secondary indicators of kick in a well where the indicators are: \hfill (GATE PE 2018)
 
+\item Primary and secondary indicators of kick in a well where the indicators are: \hfill{\brak{\text{GATE PE 2018}}}
 \begin{enumerate}
 \item flow rate increase,
 \item gas, oil or water-cut muds,
@@ -609,41 +641,37 @@ Let $k$ is the reservoir permeability, $h$ is the formation thickness and $\mu$ 
 \item reduction in drill-pipe weight,
 \item drilling break.
 \end{enumerate}
-
+\noindent
 Which one of the following presents the correct combination?
 
-\vspace{0.3cm}
 
-\begin{enumerate}[label=(\Alph*)] 
+\begin{enumerate} 
 
-\item Primary(1, 3, 5) and Secondary(2, 4, 6) \\
-\item Primary(1, 2, 3) and Secondary(4, 5, 6) \\
-\item Primary(1, 2, 4) and Secondary(3, 5, 6) \\
-\item Primary(1, 3, 4) and Secondary(2, 5, 6) \\\\
+\item Primary(1, 3, 5) and Secondary(2, 4, 6) 
+\item Primary(1, 2, 3) and Secondary(4, 5, 6) 
+\item Primary(1, 2, 4) and Secondary(3, 5, 6) 
+\item Primary(1, 3, 4) and Secondary(2, 5, 6) 
 
 \end{enumerate}
 \pagebreak
-\noindent
-\textbf{Q.35} Relative permeability curve for the two rock types (X: solid line and Y: dashed line) are
+\item Relative permeability curve for the two rock types (X: solid line and Y: dashed line) are
 shown in the diagram, where Sw is the fractional water saturation. Which one of the
 following statements is correct about wettability and consolidated nature of the two rock
-types?\hfill(GATE PE 2018)\\\\
-
+types?\hfill{\brak{\text{GATE PE 2018}}}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.5\textwidth]{pic11.png} 
+  \includegraphics[width=0.5\columnwidth]{figs/pic11.png} 
 \end{figure}
 
-\begin{enumerate}[label=(\Alph*)] 
+\begin{enumerate} 
 
 	\item X is more consolidated and mixed wet, Y is less consolidated and water wet
 	\item X is more consolidated and water wet, Y is less consolidated and mixed wet
 	\item X is less consolidated and mixed wet, Y is more consolidated and water wet
-	\item X is less consolidated and water wet, Y is more consolidated and mixed wet\\\\
+	\item X is less consolidated and water wet, Y is more consolidated and mixed wet\\
 \end{enumerate}
-\noindent\textbf{Q.36} Which one of the following options presents correct combinations of exploration methods with their respective frequency of operation? \hfill (GATE PE 2018)
 
-\vspace{0.3cm}
+\item Which one of the following options presents correct combinations of exploration methods with their respective frequency of operation? \hfill{\brak{\text{GATE PE 2018}}}\vspace{0.3cm}
 \begin{tabular}{ll}
 (P) Seismic               & (I) ~$10^6$ Hz \\
 (Q) Sonic                 & (II) ~$10^2$ Hz \\
@@ -651,8 +679,8 @@ types?\hfill(GATE PE 2018)\\\\
 (S) Ultrasonic            & (IV) ~1 Hz \\
 \end{tabular}
 
-\vspace{0.3cm}
-\begin{enumerate}[label=(\Alph*)] 
+
+\begin{enumerate} 
 \begin{multicols}{2}
 \item P-IV, Q-II, R-I, S-III \item P-II, Q-III, R-IV, S-I \\
 \item P-II, Q-I, R-IV, S-III \item P-IV, Q-I, R-II, S-III \\
@@ -661,71 +689,63 @@ types?\hfill(GATE PE 2018)\\\\
 
 \pagebreak
 
-\noindent\textbf{Q.37} Which one of the following options presents the correct combinations? \hfill (GATE PE 2018)
-
-\vspace{0.3cm}
+\item Which one of the following options presents the correct combinations? \hfill{\brak{\text{GATE PE 2018}}}\vspace{0.3cm}
 \begin{tabular}{ll}
 (P) Borisov's  & (I) Critical rate correlation in vertical wells with coning \\
 (Q) Schols'    & (II) Horizontal well performance relation \\
 (R) Efros'     & (III) Vertical well performance relation \\
-(S) Wiggins'   & (IV) Critical rate correlation in horizontal wells with coning \\
+(S) Wiggins'   & (IV) Critical rate correlation in horizontal wells with coning 
 \end{tabular}
 
-\vspace{0.3cm}
-\begin{enumerate}[label=(\Alph*)] 
+
+\begin{enumerate} 
 \begin{multicols}{2}
 \item P-II, Q-IV, R-I, S-III \item P-IV, Q-III, R-II, S-I \\
 \item P-IV, Q-II, R-III, S-I \item P-II, Q-I, R-IV, S-III \\
 \end{multicols}
 \end{enumerate}
 
-\vspace{1cm}
 
-\noindent\textbf{Q.38} Which one of the following options represents the typical sequence of applying cut-offs for pay zone identification in a conventional reservoir? \hfill (GATE PE 2018)
 
-\vspace{0.3cm}
-\begin{enumerate}[label=(\Alph*)] 
+\item Which one of the following options represents the typical sequence of applying cut-offs for pay zone identification in a conventional reservoir? \hfill{\brak{\text{GATE PE 2018}}}
+
+\begin{enumerate} 
 \begin{multicols}{2}
 \item porosity, saturation, shale \item porosity, permeability, saturation \\
 \item shale, porosity, saturation \item shale, porosity, permeability \\
 \end{multicols}
 \end{enumerate}
 
-\vspace{1cm}
-
-\noindent\textbf{Q.39} Which one of the following options represents the correct sequence of arrival of acoustic wave energy recorded in a sonic log? \hfill (GATE PE 2018)
-
-\vspace{0.3cm}
-\begin{enumerate}[label=(\Alph*)] 
+\item Which one of the following options represents the correct sequence of arrival of acoustic wave energy recorded in a sonic log? \hfill{\brak{\text{GATE PE 2018}}}
+\begin{enumerate}
 \begin{multicols}{2}
 \item shear, surface, compressional  \item compressional, shear, surface \\ 
 \item surface, shear, compressional  \item compressional, surface, shear \\
 \end{multicols}
 \end{enumerate}
 
-\vspace{1cm}
 
-\noindent\textbf{Q.40} The variation of the amount of salt in a tank with time is given by, \hfill (GATE PE 2018)
+
+\item The variation of the amount of salt in a tank with time is given by, \hfill{\brak{\text{GATE PE 2018}}}
 \[ \frac{dx}{dt} + 0.025x = 20 \]
 where, $x$ is the amount of salt in kg and $t$ is the time in minutes. Given that there is no salt in the tank initially, the time at which the amount of salt increases to 200 kg is \underline{\hspace{2cm}} minutes. (rounded-off to two decimal places)
 
 \pagebreak
 
-\noindent\textbf{Q.41} Solve the given differential equation using the 2\textsuperscript{nd} order Runge-Kutta (RK2) method: \hfill (GATE PE 2018)
-\[ \frac{dy}{dt} = t - \sqrt{y} \quad ; \quad \text{Initial condition: } y(0) = 4 \]
+\item Solve the given differential equation using the 2\textsuperscript{nd} order Runge-Kutta (RK2) method: \hfill{\brak{\text{GATE PE 2018}}}\[ \frac{dy}{dt} = t - \sqrt{y} \quad ; \quad \text{Initial condition: } y(0) = 4 \]
 Use the following form of RK2 method with an integration step-size, $h = 0.5$:
 \[ k_1 = f(t_i, y_i) \quad ; \quad k_2 = f(t_i + 0.5h, y_i + 0.5k_1 h) \]
 \[ y_{i+1} = y_i + k_2 h \]
 The value of $y(t = 0.5) = \underline{\hspace{2cm}}$. (rounded-off to two decimal places)\\\\
 
-\noindent\textbf{Q.42} A box contains 100 balls of same size, of which, 25 are black and 75 are white. Out of 25 black balls, 5 have a red dot. A trial consists of randomly picking a ball and putting it back in the same box, i.e., sampling is done with replacement. Two such trials are done. The conditional probability that \textit{no black ball with a red dot is picked given that at least one black ball is picked}, is \underline{\hspace{2cm}}. (in fraction rounded-off to two decimal places) \hfill (GATE PE 2018)\\\\
+\item A box contains 100 balls of same size, of which, 25 are black and 75 are white. Out of 25 black balls, 5 have a red dot. A trial consists of randomly picking a ball and putting it back in the same box, i.e., sampling is done with replacement. Two such trials are done. The conditional probability that \textit{no black ball with a red dot is picked given that at least one black ball is picked}, is \underline{\hspace{2cm}}. (in fraction rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}\\\\
 
 
 
-\noindent\textbf{Q.43} A cylindrical pipeline of length 30 km is transporting naphtha. Pressure sensors are attached along pipe length to detect leaks. Under steady-state, leak-free operation, there is a linear pressure drop along the length ($z$) of the pipeline. If a leak occurs, the pressure profile develops a kink at the leak point $z_{\text{leak}}$.
+\item A cylindrical pipeline of length 30 km is transporting naphtha. Pressure sensors are attached along pipe length to detect leaks. Under steady-state, leak-free operation, there is a linear pressure drop along the length ($z$) of the pipeline. If a leak occurs, the pressure profile develops a kink at the leak point $z_{\text{leak}}$.
 
 \vspace{0.2cm}
-Assume that there is only one leak-point ($4~\text{km} < z_{\text{leak}} < 27~\text{km}$) and a new steady-state is reached. The steady-state pressure measurements at four locations along the pipe-length are provided in the table. The location of the leak-point using the \textit{gradient intersection method} is \underline{\hspace{2cm}} km. (rounded-off to two decimal places) \hfill (GATE PE 2018)
+Assume that there is only one leak-point ($4~\text{km} < z_{\text{leak}} < 27~\text{km}$) and a new steady-state is reached. The steady-state pressure measurements at four locations along the pipe-length are provided in the table. The location of the leak-point using the \textit{gradient intersection method} is \underline{\hspace{2cm}} km. (rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}
 
 \vspace{0.3cm}
 \begin{tabular}{|c|c|}
@@ -740,7 +760,7 @@ $z$ (km) & Pressure \\
 \end{tabular}
 \pagebreak
 
-\noindent\textbf{Q.44} A dry core was subjected to the mercury injection test in the laboratory. Following are the related details: \\ 
+\item A dry core was subjected to the mercury injection test in the laboratory. Following are the related details: \\ 
 Average formation porosity = 0.2 \\ 
 Formation volume factor, $B_o = 1.2$ reservoir-bbl/STB \\ 
 Oil API$^\circ$ = 32, Specific gravity of water = 1.1 \\ 
@@ -766,23 +786,21 @@ $P_c$ (psia) & Mercury saturation ($S_{Hg}$) \\
 \end{tabular}
 
 \vspace{0.3cm}
-$P_c = \frac{2\sigma \cos \theta}{r}$ and the average water saturation ($S_W$) for the productive column is 0.25. The Original Oil in Place (OOIP) in the productive column where $S_W \leq 0.5$ is \underline{\hspace{2cm}} MMSTB. (rounded-off to one decimal place) \hfill (GATE PE 2018)
+$P_c = \frac{2\sigma \cos \theta}{r}$ and the average water saturation ($S_W$) for the productive column is 0.25. The Original Oil in Place (OOIP) in the productive column where $S_W \leq 0.5$ is \underline{\hspace{2cm}} MMSTB. (rounded-off to one decimal place) \hfill{\brak{\text{GATE PE 2018}}}
 
-\vspace{1cm}
 
-\noindent\textbf{Q.45} A well is drilled with water based mud. The water saturation in the completely flushed zone (no formation fluid residual) is given by, 
+\item A well is drilled with water based mud. The water saturation in the completely flushed zone (no formation fluid residual) is given by, 
 \[ S_{xo} = \left( \frac{a}{\phi^2} \times \frac{R_{mf}}{R_{xo}} \right)^{1/2} \]
 where, $R_{mf}$ and $R_{xo}$ are the mud filtrate resistivity and flushed zone resistivity, respectively. Use, $a = 1.0$ and $R_{xo} = 25 R_{mf}$. 
-The calculated porosity ($\phi$) of the formation is \underline{\hspace{2cm}}. (in fraction rounded-off to two decimal places) \hfill (GATE PE 2018)
+The calculated porosity ($\phi$) of the formation is \underline{\hspace{2cm}}. (in fraction rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}
 
-\vspace{1cm}
 
-\noindent\textbf{Q.46} An oil well is tested at a flow rate ($Q$) of 50 BOPD. The bottom hole flowing pressure ($P_{wf}$) is 500 psia. The shut-in pressure is 1000 psia. If $P_{wf}$ is lowered to 300 psia and assuming the Vogel's correlation holds, the estimated flow rate in the oil well is \underline{\hspace{2cm}} BOPD (rounded-off to two decimal places). The Vogel's correlation is:
-\[ \frac{Q}{Q_{max}} = 1 - 0.2\left(\frac{P_{wf}}{\bar{P}}\right) - 0.8\left(\frac{P_{wf}}{\bar{P}}\right)^2 \] \hfill (GATE PE 2018)
 
+\item An oil well is tested at a flow rate ($Q$) of 50 BOPD. The bottom hole flowing pressure ($P_{wf}$) is 500 psia. The shut-in pressure is 1000 psia. If $P_{wf}$ is lowered to 300 psia and assuming the Vogel's correlation holds, the estimated flow rate in the oil well is \underline{\hspace{2cm}} BOPD (rounded-off to two decimal places). The Vogel's correlation is:
+\[ \frac{Q}{Q_{max}} = 1 - 0.2\left(\frac{P_{wf}}{\bar{P}}\right) - 0.8\left(\frac{P_{wf}}{\bar{P}}\right)^2 \] \hfill{\brak{\text{GATE PE 2018}}}
 \pagebreak
 
-\noindent\textbf{Q.47} Using Miller, Dyes and Hutchinson (MDH) method, the skin factor of an oil well is found to be $s = -3.5$. \\ 
+\item Using Miller, Dyes and Hutchinson (MDH) method, the skin factor of an oil well is found to be $s = -3.5$. \\ 
 
 The reservoir and fluid properties are: 
 \begin{itemize}
@@ -795,54 +813,43 @@ The reservoir and fluid properties are:
   \item Slope of middle time region (MTR) line in MDH plot is 190 psia/cycle
 \end{itemize}
 
-The permeability of the reservoir is \underline{\hspace{2cm}} mD. (rounded-off to two decimal places) \hfill (GATE PE 2018)
+The permeability of the reservoir is \underline{\hspace{2cm}} mD. (rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}
 
-\vspace{1cm}
-
-\noindent\textbf{Q.48} An oil well (producing under expansion drive only) in a reservoir is subjected to two pressure build-up tests. The average formation thickness of the reservoir is 13 ft, the total compressibility is $1\times10^{-5}$ psia$^{-1}$, and porosity is 0.2. The average formation volume factor of oil is 1.3 reservoir-bbl/STB. Average reservoir pressure during the first test and the second test was found to be 3500 psia and 3200 psia, respectively. \\ 
+\item An oil well (producing under expansion drive only) in a reservoir is subjected to two pressure build-up tests. The average formation thickness of the reservoir is 13 ft, the total compressibility is $1\times10^{-5}$ psia$^{-1}$, and porosity is 0.2. The average formation volume factor of oil is 1.3 reservoir-bbl/STB. Average reservoir pressure during the first test and the second test was found to be 3500 psia and 3200 psia, respectively. \\ 
 If the oil produced between the two pressure build-up tests in 180 days is 250 STB/day, the area of the reservoir is \underline{\hspace{2cm}} acres. (rounded-off to two decimal places) \\ 
-(Use: 1 acre = 43560 ft$^2$, 1 bbl = 5.615 ft$^3$) \hfill (GATE PE 2018)
+(Use: 1 acre = 43560 ft$^2$, 1 bbl = 5.615 ft$^3$) \hfill{\brak{\text{GATE PE 2018}}}
 
-\vspace{1cm}
+\item A well in a very large reservoir has a wellbore radius of 10 cm. The sandstone, with a porosity of 0.25 and 12\% (by grain volume) calcite (CaCO$_3$), is to be acidized with a preflush (HCl solution) so as to dissolve all the calcite up to a distance of 1 m from the wellbore. 1 m$^3$ of preflush is able to dissolve 0.082 m$^3$ CaCO$_3$. Assume that the reaction between HCl and CaCO$_3$ is instantaneous. 
 
-\noindent\textbf{Q.49} A well in a very large reservoir has a wellbore radius of 10 cm. The sandstone, with a porosity of 0.25 and 12\% (by grain volume) calcite (CaCO$_3$), is to be acidized with a preflush (HCl solution) so as to dissolve all the calcite up to a distance of 1 m from the wellbore. 1 m$^3$ of preflush is able to dissolve 0.082 m$^3$ CaCO$_3$. Assume that the reaction between HCl and CaCO$_3$ is instantaneous. 
+The minimum preflush volume required per meter of the formation thickness is \underline{\hspace{2cm}} m$^3$. (rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}
 
-The minimum preflush volume required per meter of the formation thickness is \underline{\hspace{2cm}} m$^3$. (rounded-off to two decimal places) \hfill (GATE PE 2018)
 
-\vspace{1cm}
-
-\noindent\textbf{Q.50} At a particular temperature, the vapour pressure of benzene and toluene are 4 atm and 1.2 atm, respectively. The composition of the liquid at equilibrium is 0.5 moles of benzene and 0.5 moles of toluene. Assuming ideal gas and ideal solution, the equilibrium vapour phase mole fraction of benzene is \underline{\hspace{2cm}}. (rounded-off to two decimal places) \hfill (GATE PE 2018)
-
+\item At a particular temperature, the vapour pressure of benzene and toluene are 4 atm and 1.2 atm, respectively. The composition of the liquid at equilibrium is 0.5 moles of benzene and 0.5 moles of toluene. Assuming ideal gas and ideal solution, the equilibrium vapour phase mole fraction of benzene is \underline{\hspace{2cm}}. (rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}
 \pagebreak
 
-\noindent\textbf{Q.51} Saturated steam at 0.7 atm and 90$^\circ$C condenses on a vertical pipe of 2 cm outside diameter and 40 cm length. The average condensation heat transfer coefficient on the tube is 12000 W/m$^2$K. The outside surface temperature of the pipe is maintained constant at 85$^\circ$C. \\ 
-The enthalpy values for saturated steam and condensate are 2660 kJ/kg and 375 kJ/kg, respectively. The rate of steam condensation is \underline{\hspace{2cm}} kg/h. (rounded-off to two decimal places) \hfill (GATE PE 2018)
+\item Saturated steam at 0.7 atm and 90$^\circ$C condenses on a vertical pipe of 2 cm outside diameter and 40 cm length. The average condensation heat transfer coefficient on the tube is 12000 W/m$^2$K. The outside surface temperature of the pipe is maintained constant at 85$^\circ$C. \\ 
+The enthalpy values for saturated steam and condensate are 2660 kJ/kg and 375 kJ/kg, respectively. The rate of steam condensation is \underline{\hspace{2cm}} kg/h. (rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}
 
-\vspace{1cm}
 
-\noindent\textbf{Q.52} Oil is being transported between two reservoirs with the help of three parallel pipes at steady state. The diameters of these pipes are 2 cm, 3 cm and 4 cm, respectively. The pipes are equal in length and the flow is laminar. The discharge through the 4 cm diameter pipe is 50 liters/s. The discharge through the 2 cm diameter pipe is \underline{\hspace{2cm}} liters/s. (rounded-off to two decimal places) \hfill (GATE PE 2018)
 
-\vspace{1cm}
+\item Oil is being transported between two reservoirs with the help of three parallel pipes at steady state. The diameters of these pipes are 2 cm, 3 cm and 4 cm, respectively. The pipes are equal in length and the flow is laminar. The discharge through the 4 cm diameter pipe is 50 liters/s. The discharge through the 2 cm diameter pipe is \underline{\hspace{2cm}} liters/s. (rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}
+\item A driller finds an oil reservoir with a gas cap starting at a depth of 1000 m from the surface. The gas-oil contact was found at 1100 m depth and water-oil contact was found at 1300 m depth. The water pressure in the aquifer below the oil zone varies with depth from the surface ($h$, in meters) as, $P = h \times 10^4$ Pa. The density of the oil is 900 kg/m$^3$ and that of gas is 5 kg/m$^3$ at the reservoir condition. The minimum density of the mud needed to stop the gas kick when the driller reaches at the top of the gas cap is \underline{\hspace{2cm}} kg/m$^3$. (rounded-off to two decimal places. Use $g = 9.81$ m/s$^2$) \hfill{\brak{\text{GATE PE 2018}}}
 
-\noindent\textbf{Q.53} A driller finds an oil reservoir with a gas cap starting at a depth of 1000 m from the surface. The gas-oil contact was found at 1100 m depth and water-oil contact was found at 1300 m depth. The water pressure in the aquifer below the oil zone varies with depth from the surface ($h$, in meters) as, $P = h \times 10^4$ Pa. The density of the oil is 900 kg/m$^3$ and that of gas is 5 kg/m$^3$ at the reservoir condition. The minimum density of the mud needed to stop the gas kick when the driller reaches at the top of the gas cap is \underline{\hspace{2cm}} kg/m$^3$. (rounded-off to two decimal places. Use $g = 9.81$ m/s$^2$) \hfill (GATE PE 2018)
 
-\vspace{0.7cm}
-
-\noindent\textbf{Q.54} The viscosity, $\mu$ (in Pa.s) of a power law fluid as a function of shear rate, $\dot{\gamma}$ (in s$^{-1}$) is given by the following relation: 
+\item The viscosity, $\mu$ (in Pa.s) of a power law fluid as a function of shear rate, $\dot{\gamma}$ (in s$^{-1}$) is given by the following relation: 
 \[ \mu = \frac{1}{2} |\dot{\gamma}| \]
 
-This power law fluid lies between two infinitely large horizontal parallel plates separated by a distance ($h$) of 10$^{-3}$ m. The top plate is moving horizontally at a velocity ($v$) of 10$^{-3}$ m/s and the bottom plate is held stationary. Assuming laminar flow and neglecting gravity, the absolute value of steady-state shear stress acting on the bottom plate is \underline{\hspace{2cm}} Pa. (rounded-off to two decimal places) \hfill (GATE PE 2018)
+This power law fluid lies between two infinitely large horizontal parallel plates separated by a distance ($h$) of 10$^{-3}$ m. The top plate is moving horizontally at a velocity ($v$) of 10$^{-3}$ m/s and the bottom plate is held stationary. Assuming laminar flow and neglecting gravity, the absolute value of steady-state shear stress acting on the bottom plate is \underline{\hspace{2cm}} Pa. (rounded-off to two decimal places) \hfill{\brak{\text{GATE PE 2018}}}
 
 \pagebreak
 
-\noindent
-\textbf{Q.55} A heterogeneous rectangular rock of cross-sectional area 1 m2 perpendicular to the flow is
+\item A heterogeneous rectangular rock of cross-sectional area 1 m2 perpendicular to the flow is
 being flooded by water to measure the effective permeability from cross-section AA’ to
-cross-section CC’.\hfill(GATE PE 2018)\\\\
+cross-section CC’.\hfill{\brak{\text{GATE PE 2018}}}\\\\
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{pic12.png} 
+  \includegraphics[width=0.8\columnwidth]{figs/pic12.png} 
 \end{figure}
 
 The pressure at the cross-sections AA’, BB’, and CC’ is 2 bar, 1.5 bar, and 1 bar,
@@ -854,5 +861,7 @@ the figure. The effective permeability of the rock from AA’ to CC’ is \under
 	{\LARGE \textbf{END OF THE QUESTION PAPER}}
 \end{center}
 
+
+\end{enumerate}
 
 \end{document}
