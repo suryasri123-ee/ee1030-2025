@@ -1,662 +1,1018 @@
-\documentclass{article}
-\usepackage{amsmath}
-\usepackage{enumitem}
-\usepackage{array}
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
 \usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
 \begin{document}
 
-\section*{GATE 2019 General Aptitude (GA) Set-8}
+\title{GATE Petroleum Engineering (PE) 2024}
+\author{Organizing Institute: IISc Bengaluru}
+\date{}
 
-\subsection*{Q. 1 - Q. 5 carry one mark each.}
+\begin{document}
 
-\begin{enumerate}[leftmargin=*]
-    \item[Q.1] The fishermen, \\\\\_ the flood victims owed their lives, were rewarded by the government.
-    
-    \begin{tabular}{llll}
-        (A) whom & (B) to which & (C) to whom & (D) that
-    \end{tabular}
-    
-    GATE EE 2025
-   \vspace{0.5cm} 
-    \item[Q.2] Some students were not involved in the strike. If the above statement is true, which of the following conclusions is/are logically necessary?
-    
-    \begin{enumerate}[label=(\arabic*)]
-        \item Some who were involved in the strike were students.
-        \item No student was involved in the strike.
-        \item At least one student was involved in the strike.
-        \item Some who were not involved in the strike were students.
-    \end{enumerate}
-     \vspace{0.5cm} 
-    \begin{tabular}{llll}
-        (A) 1 and 2 & (B) 3 & (C) 4 & (D) 2 and 3
-    \end{tabular}
-    
-    GATE EE 2025
-    
-    \item[Q.3] The radius as well as the height of a circular cone increases by $10\%$. The percentage increase in its volume is \\\\\_.
-    
-    \begin{tabular}{llll}
-        (A) 17.1 & (B) 21.0 & (C) 33.1 & (D) 72.8
-    \end{tabular}
-    
-    GATE EE 2025
-     \vspace{0.5cm} 
-    \item[Q.4] Five numbers 10, 7, 5, 4 and 2 are to be arranged in a sequence from left to right following the directions given below:
-    
-    \begin{enumerate}[label=(\arabic*)]
-        \item No two odd or even numbers are next to each other.
-        \item The second number from the left is exactly half of the left-most number.
-        \item The middle number is exactly twice the right-most number.
-    \end{enumerate}
-    
-    Which is the second number from the right?
-    
-    \begin{tabular}{llll}
-        (A) 2 & (B) 4 & (C) 7 & (D) 10
-    \end{tabular}
-    
-    GATE EE 2025
-     \vspace{0.5cm} 
-    \item[Q.5] Until Iran came along, India had never been \\\\\_ in kabaddi.
-    
-    \begin{tabular}{llll}
-        (A) defeated & (B) defeating & (C) defeat & (D) defeatist
-    \end{tabular}
-    
-    GATE EE 2025
+\maketitle
+
+\section*{General Aptitude (GA)}
+
+\subsection*{Questions 1 to 5 Carry ONE Mark Each}
+
+\textbf{Q.1} If ‘---’ denotes increasing order of intensity, then the meaning of the words [drizzle $\rightarrow$ rain $\rightarrow$ downpour] is analogous to [\underline{\hspace{1.5cm}} $\rightarrow$ quarrel $\rightarrow$ feud]. Which one of the given options is appropriate to fill the blank?
+\begin{enumerate}[label=(\Alph*)]
+    \item bicker
+    \item bog
+    \item dither
+    \item dodge
 \end{enumerate}
- \vspace{0.5cm} 
-\subsection*{Q. 6 - Q. 10 carry two marks each.}
+\textbf{GATE EE 2025}
 
-\begin{enumerate}[leftmargin=*]
-    \item[Q.6] Since the last one year, after a 125 basis point reduction in repo rate by the Reserve Bank of India, banking institutions have been making a demand to reduce interest rates on small saving schemes. Finally, the government announced yesterday a reduction in interest rates on small saving schemes to bring them on par with fixed deposit interest rates.
-    
-    Which one of the following statements can be inferred from the given passage?
-    
-    \begin{tabular}{ll}
-        (A) Whenever the Reserve Bank of India reduces the repo rate, the interest rates on small saving schemes are also reduced \\
-        (B) Interest rates on small saving schemes are always maintained on par with fixed deposit interest rates \\
-        (C) The government sometimes takes into consideration the demands of banking institutions before reducing the interest rates on small saving schemes \\
-        (D) A reduction in interest rates on small saving schemes follow only after a reduction in repo rate by the Reserve Bank of India
-    \end{tabular}
-    GATE EE 2025
-     \vspace{0.5cm} 
-    \item[Q.7] In a country of 1400 million population, $70\%$ own mobile phones. Among the mobile phone owners, only 294 million access the Internet. Among these Internet users, only half buy goods from e-commerce portals. What is the percentage of these buyers in the country?
-    
-    \begin{tabular}{llll}
-        (A) 10.50 & (B) 14.70 & (C) 15.00 & (D) 50.00
-    \end{tabular}
-    GATE EE 2025
-     \vspace{0.5cm} 
-    \item[Q.8] The nomenclature of Hindustani music has changed over the centuries. Since the medieval period dhrupad styles were identified as baanis. Terms like gayaki and baaj were used to refer to vocal and instrumental styles, respectively. With the institutionalization of music education the term gharana became acceptable. Gharana originally referred to hereditary musicians from a particular lineage, including disciples and grand disciples.
-    
-    Which one of the following pairings is NOT correct?
-    
-    \begin{tabular}{ll}
-        (A) dhrupad, baani \\
-        (B) gayaki, vocal \\
-        (C) baaj, institution \\
-        (D) gharana, lineage
-    \end{tabular}
-    GATE EE 2025
-     \vspace{0.5cm} 
-    \item[Q.9] Two trains started at 7AM from the same point. The first train travelled north at a speed of $80$ km/h and the second train travelled south at a speed of $100$ km/h. The time at which they were $540$ km apart is \\\\\_ AM.
-    
-    \begin{tabular}{llll}
-        (A) 9 & (B) 10 & (C) 11 & (D) 11.30
-    \end{tabular}
-    GATE EE 2025
-     \vspace{0.5cm} 
-    \item[Q.10] "I read somewhere that in ancient times the prestige of a kingdom depended upon the number of taxes that it was able to levy on its people. It was very much like the prestige of a head-hunter in his own community."
-    
-    Based on the paragraph above, the prestige of a head-hunter depended upon \\\\\_
-    
-    \begin{tabular}{ll}
-        (A) the prestige of the kingdom \\
-        (B) the prestige of the heads \\
-        (C) the number of taxes he could levy \\
-        (D) the number of heads he could gather
-    \end{tabular}
-    GATE EE 2025
+\vspace{0.5cm}
+
+\textbf{Q.2} Statements: 
+\begin{enumerate}
+    \item All heroes are winners.
+    \item All winners are lucky people.
 \end{enumerate}
- \vspace{0.5cm} 
-
-\section*{GATE 2019 Petroleum Engineering}
-
-\subsection*{Q.11 - Q.25 carry one mark each.}
-
-\begin{enumerate}[leftmargin=*]
-\setcounter{enumi}{10} % Start from question 11
-
-\item[Q.11] Match the following:
-
-\begin{tabular}{ll}
-P. Bingham plastic & I. $\tau = ky^n$ \\
-Q. Power law & II. $\tau = \tau_y + ky^n$ \\
-R. Power law with yield stress & III. $\tau = \tau_y + \mu_p \dot{\gamma}$ \\
-\end{tabular}
-
-Here: \\
-$\tau$: shear stress \\
-$\tau_y$: yield value or yield stress \\
-$\mu_p$: shear viscosity \\
-$n$: power law index \\
-$k$: consistency index \\
-$\dot{\gamma}$: shear rate \\
-
-\begin{tabular}{llll}
-(A) P-II, Q-I, R-III & (B) P-I, Q-III, R-II & (C) P-III, Q-II, R-I & (D) P-III, Q-I, R-II
-\end{tabular}
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.12] Match the following for drill pipe failure:
-
-\begin{tabular}{ll}
-P. Twist off & I. due to excessive tension \\
-Q. Parting & II. due to excessive torque \\
-R. Collapse & III. due to cyclic loading \\
-S. Fatigue & IV. due to extensive external pressure \\
-\end{tabular}
-
-\begin{tabular}{llll}
-(A) P-III, Q-IV, R-I, S-II & (B) P-II, Q-I, R-IV, S-III \\
-(C) P-I, Q-II, R-III, S-IV & (D) P-IV, Q-III, R-II, S-I
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.13] Which one of the following flow regimes is more favorable for gas lift operation?
-
-\begin{tabular}{llll}
-(A) Bubbly flow & (B) Annular flow & (C) Churn flow & (D) Stratified flow
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.14] H$_2$S gas is
-
-\begin{tabular}{llll}
-(A) acidic. & (B) non-corrosive. & (C) lighter than air. & (D) non-flammable.
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.15] Which one of the following offshore platforms DOES NOT use buoyant columns or pontoons?
-
-\begin{tabular}{ll}
-(A) Tension leg platforms & (B) Jack up platforms \\
-(C) Spar platforms & (D) Semi-submersible platforms
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.16] In which one of the following offshore platforms, the condition of the sea floor is a vital consideration?
-
-\begin{tabular}{ll}
-(A) Drill ship platforms & (B) Tension leg platforms \\
-(C) Concrete gravity platforms & (D) Floating, production, storage and offloading (FPSO) platforms
-\end{tabular}
- \vspace{0.5cm} 
-GATE EE 2025
-
-\item[Q.17] The 'Klinkenberg effect' is related to
-
-\begin{tabular}{ll}
-(A) viscous fingering during water flooding in oil reservoirs. \\
-(B) hysteresis effect in relative permeability during drainage and imbibition process. \\
-(C) oil viscosity dependence on temperature. \\
-(D) slippage of gas phase at the sand grain surface.
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.18] Favorable conditions for formation of gas hydrates are
-
-\begin{tabular}{ll}
-(A) high temperature and high pressure. & (B) high temperature and low pressure. \\
-(C) low temperature and high pressure. & (D) low temperature and low pressure.
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.19] Match the following quantities with their dimensions:
-
-\begin{tabular}{ll}
-P. Viscosity & I. M$^1$ L$^{-1}$ T$^{-2}$ \\
-Q. Permeability & II. M$^0$ L$^2$ T$^0$ \\
-R. Compressibility & III. M$^1$ L$^{-1}$ T$^{-1}$ \\
-S. Pressure & IV. M$^{-1}$ L$^{1}$ T$^{2}$ \\
-\end{tabular}
- \vspace{0.5cm} 
-\begin{tabular}{llll}
-(A) P-III, Q-II, R-IV, S-I & (B) P-II, Q-I, R-IV, S-III \\
-(C) P-III, Q-I, R-IV, S-II & (D) P-I, Q-II, R-III, S-IV
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.20] The plot of dissolved gas oil ratio (R$_s$), defined as the "ratio of STP volume of gas dissolved in the oil at pressure P, to the volume of the oil at STP" is given below.
-\includegraphics[width=0.9\linewidth]{1.1.png}
-\begin{center}
-[Insert Figure: Plot of R$_s$ vs Pressure with Bubble point pressure marked]
-\end{center}
-
-For the same oil, the plot of produced gas oil ratio (R$_p$) defined as the "ratio of STP volume of the gas liberated from the oil at pressure P, to the volume of the oil at STP" is
-\includegraphics[width=0.9\linewidth]{1.1op.png}
-\begin{tabular}{ll}
-(A) [Figure A] & (B) [Figure B] \\
-(C) [Figure C] & (D) [Figure D] \\
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
+Inferences:
+\begin{enumerate}[label=(\Roman*)]
+    \item All lucky people are heroes.
+    \item Some lucky people are heroes.
+    \item Some winners are heroes.
 \end{enumerate}
-
-
-\section*{GATE 2019 Petroleum Engineering}
-
-\subsection*{Q.21 - Q.25 carry one mark each.}
-
-\begin{enumerate}[leftmargin=*,series=q]
-\setcounter{enumi}{20} % Start from question 21
-
-\item[Q.21] Which one of the following denotes a regular four-spot flood pattern?
-
-\noindent A represents injection well \\
-\noindent o represents production well \\
-
-\includegraphics[width=0.5\linewidth]{2019.21op.png}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.22] The value of $\lim\limits_{x \to 0} \frac{(x+1)\sin x}{x^2 + 2x}$ is \\\\\_ (round off to 2 decimal places).
-
-Options: Numerical answer
-
-GATE EE 2025
-
-\item[Q.23] Let $A = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$, $X = \begin{pmatrix} 1 & a \\ b & 0 \end{pmatrix}$ and $Y = \begin{pmatrix} 3 & 1 \\ 3 & 2 \end{pmatrix}$. If $AX = Y$, then $a + b$ equals \\\\\_.
-
-Options: Numerical answer
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.24] Let $\vec{u} = \hat{i} + \hat{j} + a\hat{k}$ and $\vec{v} = a^2\hat{i} + 4\hat{j} - 4\hat{k}$, where $\hat{i}, \hat{j}$ and $\hat{k}$ are cartesian unit vectors. If $\vec{u}$ is perpendicular to $\vec{v}$, then $a$ equals \\\\\_.
-
-Options: Numerical answer
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.25] If the neutron log porosity ($\phi_N$) is 0.09 and density log porosity ($\phi_D$) is 0.24 in the cross-over region, then the average porosity of the gas bearing region is \\\\\_ (round off to 2 decimal places).
-
-Options: Numerical answer
-
-GATE EE 2025
+Which of the above inferences can be logically deduced from statements 1 and 2?
+\begin{enumerate}[label=(\Alph*)]
+    \item Only I and II
+    \item Only II and III
+    \item Only I and III
+    \item Only III
 \end{enumerate}
- \vspace{0.5cm} 
-\subsection*{Q.26 - Q.30 carry two marks each.}
+\textbf{GATE EE 2025}
 
-\begin{enumerate}[resume*=q]
-\item[Q.26] The general solution of the differential equation $\frac{d^2 y}{dx^2} - 2 \frac{dy}{dx} + y = 0$ is (here $C_1$ and $C_2$ are arbitrary constants)
+\vspace{0.5cm}
 
-Options:
-\begin{tabular}{ll}
-(A) $y = C_1 e^x + C_2 e^{-x}$ & (B) $y = C_1 xe^x + C_2 xe^{2x}$ \\
-(C) $y = C_1 e^x + C_2 xe^{-x}$ & (D) $y = C_1 e^x + C_2 xe^x$
-\end{tabular}
+\textbf{Q.3} A student was supposed to multiply a positive real number $p$ with another positive real number $q$. Instead, the student divided $p$ by $q$. If the percentage error in the student's answer is 80\%, the value of $q$ is
+\begin{enumerate}[label=(\Alph*)]
+    \item 5
+    \item $\sqrt{2}$
+    \item 2
+    \item $\sqrt{5}$
+\end{enumerate}
+\textbf{GATE EE 2025}
 
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.27] Consider the following system of linear equations (where $p$ and $q$ are constants)
+\vspace{0.5cm}
 
-\[
-\begin{cases}
-x_1 + x_2 + x_3 = 1 \\
-x_1 - x_2 + 2x_3 = p \\
-3x_1 - x_2 + 5x_3 = q
-\end{cases}
-\]
+\textbf{Q.4} If the sum of the first 20 consecutive positive odd numbers is divided by $20^2$, the result is
+\begin{enumerate}[label=(\Alph*)]
+    \item 1
+    \item 20
+    \item 2
+    \item $\frac{1}{2}$
+\end{enumerate}
+\textbf{GATE EE 2025}
 
-This system has at least one solution for any $p$ and $q$ satisfying
+\vspace{0.5cm}
 
-Options:
-\begin{tabular}{ll}
-(A) $2p - q + 1 = 0$ & (B) $2q + p + 1 = 0$ \\
-(C) $2p + q - 1 = 0$ & (D) $2q + p - 1 = 0$
-\end{tabular}
+\textbf{Q.5} The ratio of the number of girls to boys in class VIII is the same as the ratio of the number of boys to girls in class IX. The total number of students (boys and girls) in classes VIII and IX is 450 and 360, respectively. If the number of girls in classes VIII and IX is the same, then the number of girls in each class is
+\begin{enumerate}[label=(\Alph*)]
+    \item 150
+    \item 200
+    \item 250
+    \item 175
+\end{enumerate}
+\textbf{GATE EE 2025}
 
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.28] Three reservoirs P, Q and R have identical geometry and rock properties. The plot of the height of the transition zone (h) above the free water level (FWL) against the water saturation ($S_w$) is given in the figure. Assume $\sigma \cos \theta$ for all the three fluid combinations remains the same. Which one of the following is the correct match of the reservoir fluids with the reservoir ($\sigma$ is the interfacial tension between the respective fluid phases and $\theta$ is the contact angle).
+\vspace{0.5cm}
+
+\subsection*{Questions 6 to 10 Carry TWO Marks Each}
+
+\textbf{Q.6} In the given text, the blanks are numbered (i)–(iv). Select the best match for all the blanks. \\
+Yoko Roi stands \underline{(i)} as an author for standing \underline{(ii)} as an honorary fellow, after she stood \underline{(iii)} her writings that stand \underline{(iv)} the freedom of speech.
+\begin{enumerate}[label=(\Alph*)]
+    \item (i) out (ii) down (iii) in (iv) for
+    \item (i) down (ii) out (iii) by (iv) in
+    \item (i) down (ii) out (iii) for (iv) in
+    \item (i) out (ii) down (iii) by (iv) for
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.7} Seven identical cylindrical chalk-sticks are fitted tightly in a cylindrical container. The figure below shows the arrangement of the chalk-sticks inside the cylinder.
+\includegraphics[width=0.6\linewidth]{2024.png}
+
+The length of the container is equal to the length of the chalk-sticks. The ratio of the occupied space to the empty space of the container is
+\begin{enumerate}[label=(\Alph*)]
+    \item $\frac{5}{2}$
+    \item $\frac{7}{2}$
+    \item $\frac{9}{2}$
+    \item 3
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.8} The plot below shows the relationship between the mortality risk of cardiovascular disease and the number of steps a person walks per day. Based on the data, which one of the following options is true?
+
+\includegraphics[width=0.6\linewidth]{24.8.png}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item The risk reduction on increasing the steps/day from 0 to 10000 is less than the risk reduction on increasing the steps/day from 10000 to 20000.
+    \item The risk reduction on increasing the steps/day from 0 to 5000 is less than the risk reduction on increasing the steps/day from 15000 to 20000.
+    \item For any 5000 increment in steps/day the largest risk reduction occurs on going from 0 to 5000.
+    \item For any 5000 increment in steps/day the largest risk reduction occurs on going from 15000 to 20000.
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.9} Five cubes of identical size and another smaller cube are assembled as shown in Figure A. If viewed from direction $X$, the planar image of the assembly appears as Figure B.
+\includegraphics[width=0.6\linewidth]{24.9.png}
+
+
+If viewed from direction $Y$, the planar image of the assembly (Figure A) will appear as
+\begin{enumerate}[label=(\Alph*)]
+\includegraphics[width=0.6\linewidth]{24.a.png}
+
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.10} Visualize a cube that is held with one of the four body diagonals aligned to the vertical axis. Rotate the cube about this axis such that its view remains unchanged. The magnitude of the minimum angle of rotation is
+\begin{enumerate}[label=(\Alph*)]
+    \item 120°
+    \item 60°
+    \item 90°
+    \item 180°
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\section*{Petroleum Engineering (PE)}
+
+\subsection*{Questions 11 to 20 Carry ONE Mark Each}
+
+\textbf{Q.11} A complex number is defined as $z = x + iy$ with $i = \sqrt{-1}$. $\bar{z}$ is the complex conjugate of $z$. The imaginary part of $(2z + 4\bar{z} + 4iy)$ is \underline{\hspace{1cm}}.
+\begin{enumerate}[label=(\Alph*)]
+    \item 6
+    \item 2
+    \item 2$y$
+    \item 3$y$
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.12} The solution of the initial value problem given by $y'' + y' - 2y = 0$; $y(0) = 3$, $y'(0) = 6$ is
+\begin{enumerate}[label=(\Alph*)]
+    \item $4e^x + e^{-2x}$
+    \item $4e^x - e^{-2x}$
+    \item $4e^x + 3e^{-2x}$
+    \item $4e^{-2x} - 3e^x$
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.13} Absolute open flow potential of a well is the
+\begin{enumerate}[label=(\Alph*)]
+    \item maximum theoretical flow rate of reservoir fluid that a well can deliver
+    \item minimum theoretical flow rate of reservoir fluid that a well can deliver
+    \item flow rate of reservoir fluid from a well when the sandface pressure is 100 psia
+    \item minimum flow rate of reservoir fluid when a well is stimulated
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.14} A constant composition expansion (CCE) test is conducted on a slightly compressible reservoir fluid sample in a pressure-volume-temperature (PVT) cell at 130°F. The data on the relative fluid volume $\left(\frac{V}{V_{\text{sat}}}\right)$ with pressure is given below:
 
 \begin{center}
-\includegraphics[width=0.5\linewidth]{2019.28op.png}
-\end{center}
-
-Options:
-\begin{tabular}{ll}
-(A) P: low density oil - water, Q: gas - water, R: high density oil - water \\
-(B) P: gas - water, Q: low density oil - water, R: high density oil - water \\
-(C) P: high density oil - water, Q: low density oil - water, R: gas - water \\
-(D) P: gas - water, Q: high density oil - water, R: low density oil - water
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.29] The fractional flow ($f_w$) versus water saturation ($S_w$) curve for an imbibition process (neglecting the capillary forces) in a given core for three different inclinations is shown in the figure.
-
-\begin{center}
-\includegraphics[width=0.5\linewidth]{2019.29op.png}
-\end{center}
-
-Which one of the following is the correct representation of the fractional flow curves?
-
-Options:
-\begin{tabular}{ll}
-(A) P: Down-dip, Q: No-dip, R: Up-dip & (B) P: Down-dip, Q: Up-dip, R: No-dip \\
-(C) P: No-dip, Q: Down-dip, R: Up-dip & (D) P: Up-dip, Q: No-dip, R: Down-dip
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.30] Match the following:
-
-\begin{tabular}{ll}
-P. Dynamic positioning & I. Self-contained drilling rig on a floating barge \\
-Q. Mooring & II. System for automatic position control \\
-R. Jack-up & III. Weight and buoyancy balance \\
-S. Semi-submersible platform & IV. Station keeping system \\
-\end{tabular}
-
-Options:
-\begin{tabular}{llll}
-(A) P-IV, Q-II, R-I, S-III & (B) P-III, Q-I, R-IV, S-II \\
-(C) P-II, Q-IV, R-I, S-III & (D) P-II, Q-IV, R-III, S-I
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\end{enumerate}
-
-
-\section*{GATE 2019 Petroleum Engineering}
-
-\subsection*{Q.31 - Q.40 carry two marks each.}
-
-\begin{enumerate}[leftmargin=*,series=q]
-\setcounter{enumi}{30} % Start from question 31
-
-\item[Q.31] Match the following:
-
-\includegraphics[width=0.9\linewidth]{2019.31.2.png}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.32] An exploratory well encountered three reservoir formations S1 (perfectly cemented), S2 (poorly cemented) and S3 (fractured). The Formation Factor ($F$) is governed by the equation $F = \alpha \phi^{-m}$, where '$\phi$' is the porosity and '$m$' is the cementation factor. The constant '$\alpha$', linked to tortuosity is assumed to be 1 for all formations. The log-log plot between Formation Factor ($F$) and porosity ($\phi$) is shown.
-\begin{center}
-\includegraphics[width=0.5\linewidth]{2019.32.png}
-\end{center}
-
-Which one of the following represents the correct match of the formations with their respective plots?
-
-Options:
-\begin{tabular}{ll}
-(A) S1-P, S2-Q, S3-R & (B) S1-R, S2-P, S3-Q \\
-(C) S1-P, S2-R, S3-Q & (D) S1-R, S2-Q, S3-P
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.33] Typical parameters obtained in the pyrolysis experiment of the source rock materials are shown in the Figure. Which one of the following is NOT true about pyrolysis in source rock analysis?
-
-\begin{center}
-\includegraphics[width=0.5\linewidth]{2019.33.png}
-\end{center}
-
-Options:
-\begin{tabular}{ll}
-(A) Peak S1 represents volatilization of existing hydrocarbons \\
-(B) Peak S2 represents breakdown of kerogen and generation of hydrocarbons \\
-(C) Peak S3 represents $T_{\text{max}}$, the temperature at which most hydrocarbons are generated \\
-(D) S1/(S1+S2) represents the production index
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.34] A single well encounters multiple clean sands of exactly the same thickness, porosity and permeability. $R_w$ is the formation fluid resistivity and $R_{\text{mf}}$ is the mud filtrate resistivity.
-
-\begin{tabular}{ll}
-P. $R_{\text{mf}} > R_w$ & I. No deflection \\
-Q. $R_{\text{mf}} = R_w$ & II. Positive deflection \\
-R. $R_{\text{mf}} < R_w$ & III. Negative deflection \\
-\end{tabular}
-
-Which one of the following matches the relation between $R_w$ and $R_{\text{mf}}$ to that of Self Potential (SP) log deflection?
-
-Options:
-\begin{tabular}{llll}
-(A) P-I, Q-III, R-II & (B) P-III, Q-I, R-II \\
-(C) P-II, Q-I, R-III & (D) P-I, Q-II, R-III
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.35] Which one of the following options is NOT a part of the mudlogs prepared by the drill-site geologist?
-
-Options:
-\begin{tabular}{ll}
-(A) Rate of Penetration (ROP) \\
-(B) Chromatograph showing presence of C$_1$ to C$_5$ concentration \\
-(C) Lithology from drill cutting and its interpretation \\
-(D) Reservoir unit delineation based on volume of shale ($V_{sh}$)
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.36] Match the following:
-
-\begin{tabular}{ll}
-P. Location of storing the kelly on the trip & I. Mousehole \\
-Q. Location of storing the next drill pipe & II. Rathole \\
-R. Location of storing pump pressure gauges & III. Top drive \\
-S. Rotational system that controls a drill string without a kelly & IV. Standpipe \\
-\end{tabular}
-
-Options:
-\begin{tabular}{llll}
-(A) P-II, Q-I, R-IV, S-III & (B) P-IV, Q-II, R-III, S-I \\
-(C) P-II, Q-I, R-III, S-IV & (D) P-IV, Q-III, R-II, S-I
-\end{tabular}
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.37] A box contains 2 red and 3 black balls. Three balls are randomly chosen from the box and are placed in a bag. Then the probability that there are 1 red and 2 black balls in the bag, is \\\\\_.
-
-Options: Numerical answer
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.38] The values of a function $f(x)$ over the interval [0,4] are given in the table below:
-
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|}
 \hline
-$x$ & 0 & 1 & 2 & 3 & 4 \\
+Pressure (psia) & Relative fluid volume $\left(\frac{V}{V_{\text{sat}}}\right)$ \\
 \hline
-$f(x)$ & 1 & 0.5 & 0.2 & 0.1 & 0.06 \\
+2530 & 0.967 \\
+1650 & 0.987 \\
+1425 & 0.992 \\
+1250 & 1.000 \\
+1128 & 1.021 \\
+1095 & 1.038 \\
 \hline
 \end{tabular}
+\end{center}
 
-Then, according to the trapezoidal rule, the value of the integral $\int_{0}^{4} f(x) dx$ is \\\\\_ (round off to 2 decimal places).
+The bubble point pressure (psia) of the reservoir fluid is
+\begin{enumerate}[label=(\Alph*)]
+    \item 2530
+    \item 1650
+    \item 1250
+    \item 1095
+\end{enumerate}
+\textbf{GATE EE 2025}
 
-Options: Numerical answer
+\vspace{0.5cm}
 
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.39] Oil is produced at a constant rate from a well in a bounded reservoir. The variation of the bottom-hole pressure with time is shown in the given Table. The magnitude of the slope of the pressure vs time curve that you would use to find the drainage area is \\\\\_ psi/day (round off to 1 decimal place).
+\textbf{Q.15} Marsh funnel viscosity is reported as number of seconds required for one quart of drilling fluid sample to flow out of a Marsh funnel. The time of efflux of one quart of fresh water from a Marsh funnel at 70±5°F is \underline{\hspace{1cm}} seconds.
+\begin{enumerate}[label=(\Alph*)]
+    \item 21±0.5
+    \item 26±0.5
+    \item 31±0.5
+    \item 36±0.5
+\end{enumerate}
+\textbf{GATE EE 2025}
 
+\vspace{0.5cm}
+
+\textbf{Q.16} From the options given below, identify the process through which coal bed methane is produced.
+\begin{enumerate}[label=(\Alph*)]
+    \item Underground coal gasification
+    \item Open cast mining of coal
+    \item Depressurization, using vertical/horizontal wells
+    \item Underground coal combustion
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.17} Gas-liquid flow regimes for horizontal pipelines are shown below. Identify the correct pair from the list given below.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.6\linewidth]{1.7.png}
+
+\end{figure}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item I - Stratified; II - Slug; III - Annular; IV - Bubbly
+    \item I - Slug; II - Bubbly; III - Annular; IV - Stratified
+    \item I - Annular; II - Slug; III - Stratified; IV - Bubbly
+    \item I - Slug; II - Stratified; III - Bubbly; IV - Annular
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.18} The speed of Tsunami is a function of
+\begin{enumerate}[label=(\Alph*)]
+    \item only water depth
+    \item only wave height
+    \item both water depth and wave height
+    \item both wind speed and wave height
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.19} Which ONE of the following is a POSITIVELY BUOYANT floating structure?
+\begin{enumerate}[label=(\Alph*)]
+    \item Jacket Platform
+    \item Semi-Submersible
+    \item Tension Leg Platform
+    \item Barge
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.20} Which ONE of the following methods makes use of the centrifugal force for measuring the interfacial tension between two immiscible phases?
+\begin{enumerate}[label=(\Alph*)]
+    \item Pendant drop method
+    \item Spinning drop method
+    \item Du Noüy ring method
+    \item Wilhelmy plate method
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\section*{Petroleum Engineering (PE)}
+
+\subsection*{Questions 21 to 30 Carry ONE Mark Each}
+
+\textbf{Q.21} Which ONE of the following can result in a negative value of skin factor near the wellbore?
+\begin{enumerate}[label=(\Alph*)]
+    \item Hydraulic fracturing
+    \item Fines migration
+    \item Asphaltene deposition
+    \item Clay swelling
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.22} For a schematically shown five-spot pattern below, what is the ratio of number of production wells to the number of injection wells?
+
+\includegraphics[width=0.6\linewidth]{2.2.png}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item 2
+    \item 1
+    \item $\frac{1}{4}$
+    \item $\frac{1}{2}$
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.23} Which ONE of the following options represents the waves generated during partitioning of acoustic energy at an interface inside the Earth?
+\begin{enumerate}[label=(\Alph*)]
+    \item Rayleigh waves
+    \item Love waves
+    \item Body waves
+    \item Surface waves
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.24} "Earth is a low-pass filter". This implies it filters out which ONE of the following parameters in the subsurface?
+\begin{enumerate}[label=(\Alph*)]
+    \item Phase
+    \item Amplitude
+    \item Frequency
+    \item Velocity
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.25} Which ONE is the correct formula for calculation of Foldage of a 2D seismic line?
+\begin{enumerate}[label=(\Alph*)]
+    \item $\text{Foldage} = \left(\frac{1}{2}\right) \text{(number of geophones)} \left(\frac{\text{geophone interval spacing}}{\text{shot interval spacing}}\right)$
+    \item $\text{Foldage} = \left(\frac{1}{2}\right) \text{(number of geophones)} \left(\frac{\text{shot interval spacing}}{\text{geophone interval spacing}}\right)$
+    \item $\text{Foldage} = \left(\frac{1}{2}\right) \text{(number of shots)} \left(\frac{\text{shot interval spacing}}{\text{geophone interval spacing}}\right)$
+    \item $\text{Foldage} = \left(\frac{1}{2}\right) \text{(number of shots)} \left(\frac{\text{geophone interval spacing}}{\text{shot interval spacing}}\right)$
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.26} Well tests can be classified as either 'single well productivity test' or 'descriptive reservoir test'. Which ONE of the following CANNOT be determined from a 'single well productivity test'?
+\begin{enumerate}[label=(\Alph*)]
+    \item Characteristics of the formation damage and other source of skin
+    \item Well deliverability
+    \item Characteristics of both vertical and horizontal reservoir heterogeneity
+    \item Identification of produced fluids and their respective volume ratios
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.27} Which mud type will have the highest acoustic velocity from the following options?
+\begin{enumerate}[label=(\Alph*)]
+    \item Mud with live oil at low temperature
+    \item Mud with dead oil at high temperature
+    \item Mud with live oil at high temperature
+    \item Mud with dead oil at low temperature
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.28} For the given matrix $Q = \begin{bmatrix} 
+\frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}} \\ 
+0 & 1 & 0 \\ 
+-\frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}} 
+\end{bmatrix}$, which of the following statements is/are true?
+\begin{enumerate}[label=(\Alph*)]
+    \item $Q$ is an orthogonal matrix
+    \item $Q^T = Q^{-1}$
+    \item $Q$ is a singular matrix
+    \item $Q$ is a symmetric matrix
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.29} Which of the following is/are thermal enhanced oil recovery method(s)?
+\begin{enumerate}[label=(\Alph*)]
+    \item Alkali-surfactant-polymer flooding
+    \item In situ combustion
+    \item Steam assisted gravity drainage
+    \item Low salinity water flooding
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.30} Dilute sodium hydroxide is used in oilfield operations for enhanced oil recovery. For economic reasons, sodium hydroxide is delivered on site as anhydrous solid beads/cakes. This compound must be diluted on site by mixing water. Which of the following precautions must be followed during handling and preparation of dilute sodium hydroxide?
+\begin{enumerate}[label=(\Alph*)]
+    \item Use of Personal Protective Equipment (PPE) while handling and processing sodium hydroxide
+    \item Adequate ventilation to avoid exposure of sodium hydroxide aerosols
+    \item Stable supply of hot utility line as sodium hydroxide dilution is an endothermic reaction
+    \item Stable supply of cold utility line as sodium hydroxide dilution is an exothermic reaction
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\section*{Petroleum Engineering (PE)}
+
+\subsection*{Questions 31 to 35 Carry ONE Mark Each}
+
+\textbf{Q.31} If $P = \begin{bmatrix} 2 & -1 \\ 2 & 2 \end{bmatrix}$, the product of the eigenvalues of $P$ is \underline{\hspace{1cm}}.
+\begin{enumerate}[label=(\Alph*)]
+    \item 2
+    \item 4
+    \item 6
+    \item 8
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.32} The number of ways in which a supervisor can choose four workers out of 10 equally competent workers is \underline{\hspace{1cm}}.
+\begin{enumerate}[label=(\Alph*)]
+    \item 40
+    \item 210
+    \item 5040
+    \item 10000
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.33} A field rotational viscometer containing a drilling fluid gives a dial reading of $12^\circ$ and $20^\circ$ at rotor speeds of 300 rpm and 600 rpm, respectively. The drilling fluid is assumed to obey power law model, $\tau = K \dot{\gamma}^n$, where $\tau$ is the shear stress, $\dot{\gamma}$ is the shear rate, $K$ is the consistency index and $n$ is the power law index. The power law index, $n$, is \underline{\hspace{1cm}} (round off to two decimal places).
+\begin{enumerate}[label=(\Alph*)]
+    \item 0.42
+    \item 0.58
+    \item 0.74
+    \item 0.86
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.34} Shear wave velocity ($V_s$) in a limestone formation is 3600 m/s. Assume that the modulus of incompressibility ($K$) is twice that of the modulus of rigidity ($G$), and the bulk density ($\rho_b$) of the formation is 2700 kg/m$^3$. For this limestone formation, the compressional wave velocity ($V_p$) is \underline{\hspace{1cm}} m/s.
+\begin{enumerate}[label=(\Alph*)]
+    \item 4800
+    \item 5400
+    \item 6000
+    \item 7200
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.35} Two reservoir sands A and B of same thickness are encountered in a well at different depths. The hydrocarbon in the shallow reservoir sand A is 10$^\circ$API whereas, in the deeper reservoir sand B, it is 20$^\circ$API. For single phase incompressible systems, it may be assumed that the permeability in the deeper reservoir sand B is half of that of the shallow reservoir sand A, and the viscosity is directly proportional to the specific gravity of oil in respective sands. The ratio of the mobility in reservoir sand A to that of reservoir sand B is \underline{\hspace{1cm}} (round off to two decimal places).
+\begin{enumerate}[label=(\Alph*)]
+    \item 0.25
+    \item 0.50
+    \item 1.00
+    \item 2.00
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\subsection*{Questions 36 to 40 Carry TWO Marks Each}
+
+\textbf{Q.36} Which ONE of the following is the implicit form of the solution for the differential equation given below?
+\[ \frac{dy}{dx} + \frac{2x+3y}{3x+5y} = 0 \]
+Note: C in the options below is the integration constant.
+\begin{enumerate}[label=(\Alph*)]
+    \item $x^2 - 3xy - \frac{5y^2}{2} - C = 0$
+    \item $x^2 - 3xy + \frac{5y^2}{2} - C = 0$
+    \item $x^2 + 3xy - \frac{5y^2}{2} - C = 0$
+    \item $x^2 + 3xy + \frac{5y^2}{2} - C = 0$
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.37} $r(t) = \frac{\sin 3t}{t} \mathbf{i} + (t + 2)^4 \mathbf{j} + (t + 1)\frac{\sin t}{t} \mathbf{k}$, with $\mathbf{i}, \mathbf{j},$ and $\mathbf{k}$ being the unit vectors along $x, y$ and $z$ directions, respectively. The value of $\lim\limits_{t \to 0} r(t)$ is \underline{\hspace{1cm}}.
+\begin{enumerate}[label=(\Alph*)]
+    \item 0
+    \item $t + 32\mathbf{j} - \mathbf{k}$
+    \item $3\mathbf{i} + 16\mathbf{j} + \mathbf{k}$
+    \item $3\mathbf{i} + 16\mathbf{j}$
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.38} From the following figure, match the CORRECT set of liquid shrinkage curves from GROUP I with various crude oil systems from GROUP II.
+\includegraphics[width=0.6\linewidth]{3.8.png}
+
+\begin{center}
+[Figure showing curves P, Q, R, S]
+\end{center}
+
+\begin{tabular}{|l|l|}
+\hline
+GROUP I & GROUP II \\
+\hline
+(P) Curve P & (I) High shrinkage crude oil \\
+(Q) Curve Q & (II) Low shrinkage crude oil \\
+(R) Curve R & (III) Ordinary black oil \\
+(S) Curve S & (IV) Near-critical crude oil \\
+\hline
+\end{tabular}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item P - I; Q - II; R - III; S - IV
+    \item P - I; Q - III; R - IV; S - II
+    \item P - II; Q - III; R - I; S - IV
+    \item P - II; Q - IV; R - I; S - III
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.39} Match the following pressure-volume-temperature (PVT) studies from GROUP I with their objectives from GROUP II.
+
+\begin{tabular}{|l|l|}
+\hline
+GROUP I & GROUP II \\
+\hline
+(P) Constant composition expansion & (I) to determine the minimum miscibility pressure for gas injection \\
+(Q) Differential liberation & (II) to determine the saturation pressure of the crude oil \\
+(R) Separator test & (III) to mimic the reservoir performance during production \\
+(S) Slim tube experiment & (IV) to design and optimize the separator conditions \\
+\hline
+\end{tabular}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item P - III; Q - II; R - IV; S - I
+    \item P - III; Q - IV; R - I; S - II
+    \item P - II; Q - I; R - IV; S - III
+    \item P - II; Q - III; R - IV; S - I
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.40} Hydrocarbon fluids usually are classified as dry gas, wet gas, gas condensate and black oil. Which ONE of the following combinations is the CORRECT pressure - temperature phase diagram that represents the reservoir fluid type?
+
+\includegraphics[width=0.6\linewidth]{4.0.png}
+
+[Four phase diagrams labeled I, II, III, IV]
+
+\begin{enumerate}[label=(\Alph*)]
+    \item I - dry gas; II - wet gas; III - gas condensate; IV - black oil
+    \item I - dry gas; II - gas condensate; III - wet gas; IV - black oil
+    \item I - black oil; II - wet gas; III - gas condensate; IV - dry gas
+    \item I - gas condensate; II - black oil; III - wet gas; IV - dry gas
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\section*{Petroleum Engineering (PE)}
+
+\subsection*{Questions 41 to 50 Carry TWO Marks Each}
+
+\textbf{Q.41} Which ONE of the following is the CORRECT combination?
+
+\begin{tabular}{|l|l|}
+\hline
+Dimensionless Number & Ratio of the forces \\
+\hline
+(P) Froude Number & (I) Inertia/Gravity \\
+(Q) Capillary Number & (II) Buoyancy/Capillary \\
+(R) Reynolds Number & (III) Inertia/Viscous \\
+(S) Bond Number & (IV) Viscous/Capillary \\
+\hline
+\end{tabular}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item P - I; Q - IV; R - II; S - III
+    \item P - II; Q - IV; R - III; S - I
+    \item P - I; Q - IV; R - III; S - II
+    \item P - I; Q - III; R - II; S - IV
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.42} From the standard flexible riser configurations shown schematically in the figure, choose the CORRECT combination.
+
+\includegraphics[width=0.9\linewidth]{4.2.png}
+
+
+
+\begin{enumerate}[label=(\Alph*)]
+    \item I - Steep Wave; II - Lazy Wave; III - Steep S; IV - Lazy S
+    \item I - Lazy Wave; II - Steep Wave; III - Lazy S; IV - Steep S
+    \item I - Tethered Wave; II - Tethered S; III - Steep S; IV - Lazy S
+    \item I - Steep Wave; II - Lazy Wave; III - Tethered S; IV - Tethered Wave
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.43} The figures below show the typical geometry of the subsurface strata in relation to the boundaries of the depositional sequences.
+
+\includegraphics[width=0.9\linewidth]{4.3.png}
+
+
+Which ONE of the following options CORRECTLY represents the four seismic sequences with their corresponding names?
+
+\begin{enumerate}[label=(\Alph*)]
+    \item I - Onlap; II - Toplap; III - Erosional truncation; IV - Downlap
+    \item I - Onlap; II - Downlap; III - Erosional truncation; IV - Toplap
+    \item I - Erosional truncation; II - Toplap; III - Onlap; IV - Downlap
+    \item I - Erosional truncation; II - Downlap; III - Onlap; IV - Toplap
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.44} Which of the following tests is/are used to obtain reservoir deliverability \(\frac{kh}{\mu}\) information?
+\begin{enumerate}[label=\arabic*.]
+    \item Exploration or appraisal well openhole wireline
+    \item Exploration or appraisal well Drill Stem Test (DST)
+    \item Development well openhole wireline
+    \item Development well Drill Stem Test (DST)
+\end{enumerate}
+\begin{enumerate}[label=(\Alph*)]
+    \item 1 only
+    \item 3 only
+    \item 1 and 3
+    \item 2 and 4
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.45} The decay of Gamma ray energy in the Earth formation goes through three dominant processes represented by regions I, II, and III in the figure below.
+
+\includegraphics[width=0.9\linewidth]{4.4.png}
+
+[Gamma ray energy decay diagram]
+
+Which ONE of the following options is CORRECT?
+
+\begin{enumerate}[label=(\Alph*)]
+    \item I - Photoelectric effect; II - Pair production effect; III - Compton effect
+    \item I - Epithermal effect; II - Pair production effect; III - Photoelectric effect
+    \item I - Photoelectric effect; II - Compton effect; III - Pair production effect
+    \item I - Epithermal effect; II - Photoelectric effect; III - Compton effect
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.46} Consider single-phase radial flow of a fluid with constant viscosity and low compressibility through a homogenous and isotropic reservoir of constant porosity, permeability, and thickness. Match the flow regime with the CORRECT mathematical relation given in the table. P represents pressure, r represents the radial coordinate, and t represents time. f(r,t) is a function of 'r' and 't'.
+
+\begin{tabular}{|l|l|}
+\hline
+Flow regime & Mathematical relation \\
+\hline
+(P) Steady-state flow & (I) $\left(\frac{\partial P}{\partial t}\right)_r = 0$ \\
+(Q) Transient flow & (II) $\left(\frac{\partial P}{\partial t}\right)_r = \text{constant}$ \\
+(R) Pseudosteady-state flow & (III) $\left(\frac{\partial P}{\partial t}\right)_r = f(r,t)$ \\
+\hline
+\end{tabular}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item P - I; Q - II; R - III
+    \item P - I; Q - III; R - II
+    \item P - II; Q - III; R - I
+    \item P - II; Q - I; R - III
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.47} The microbial enhanced oil recovery method helps to recover oil by which one or more of the following phenomena?
+\begin{enumerate}[label=(\Alph*)]
+    \item Reducing the interfacial tension due to production of biosurfactants
+    \item Stimulating the well due to production of acids
+    \item Increasing the mobility ratio due to production of biopolymers
+    \item Reducing the viscosity due to production of gases in situ
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+
+\vspace{0.5cm}
+
+\textbf{Q.48} Fixed roof tank for storage of organic liquids reduces volatile organic compound (VOC) emissions and protects the stored liquid from elements and contamination. Such tanks are generally equipped with a vent at the roof. The objective(s) of such a vent is/are to
+\begin{enumerate}[label=(\Alph*)]
+    \item control pressure build-up in the tank
+    \item control vacuum generation in the tank
+    \item add oil to the tank
+    \item add water to the tank
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.49} A choke is generally installed at the well head and/or downhole. The desired function(s) of the choke is/are to
+\begin{enumerate}[label=(\Alph*)]
+    \item protect surface equipment from damage
+    \item avoid sand ingress problem
+    \item regulate production rate
+    \item ensure oil and water coning
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.50} Which of the following options is/are CORRECT about the below mentioned hydrocarbons? 
+LNG: Liquefied Natural Gas; LPG: Liquefied Petroleum Gas; NGL: Natural Gas Liquid; CNG: Compressed Natural Gas
+\begin{enumerate}[label=(\Alph*)]
+    \item LNG is primarily methane at approximately 110 K temperature
+    \item LPG is primarily propane and butane at standard temperature and pressure
+    \item NGL is primarily methane at standard temperature and pressure
+    \item CNG is primarily pentane at standard temperature and pressure
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\section*{Petroleum Engineering (PE)}
+
+\subsection*{Questions 51 to 65 Carry TWO Marks Each}
+
+\textbf{Q.51} Consider flow of two immiscible viscous fluids inside a thin slit of width $2B$. The flow rates of both the fluids are such that the planar interface is exactly at the center of the slit (corresponding to $X = 0$). The upper and lower fluid-solid boundaries lie at $X = B$ and $X = -B$, respectively. $\tau_{XZ}^I$ and $\tau_{XZ}^{II}$ are the shear stresses in fluids I and II, respectively. $v_Z^I$ and $v_Z^{II}$ are the velocities of fluid I and II, respectively in the $Z$ direction.
+
+Which of the following options represent(s) the CORRECT boundary condition(s)?
+
+\includegraphics[width=0.9\linewidth]{5.1.png}
+
+
+\begin{enumerate}[label=(\Alph*)]
+    \item At $X = 0$, $|\tau_{XZ}^I| = |\tau_{XZ}^{II}|$
+    \item At $X = B$, $\tau_{XZ}^{II} = 0$
+    \item At $X = B$, $v_Z^{II} = 0$
+    \item At $X = -B$, $v_Z^I = 0$
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.52} Given $f(x) = 2 + 20x + 30x^5$. The value of $\int_0^2 f(x) dx$ using Simpson's $\frac{1}{3}$rd rule with only one interior point is \underline{\hspace{1cm}}.
+\begin{enumerate}[label=(\Alph*)]
+    \item 84
+    \item 168
+    \item 252
+    \item 336
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.53} If a weight of $P = 100$ N is supported by two massless strings connected to the walls as shown in the figure, the value of $T_1$ is \underline{\hspace{1cm}} N (round off to one decimal place).
+
+\includegraphics[width=0.9\linewidth]{5.3.png}
+
+\begin{enumerate}[label=(\Alph*)]
+    \item 50.0
+    \item 57.7
+    \item 66.7
+    \item 75.0
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.54} Porosity and oil saturation of various core samples retrieved from a layered reservoir are given below. The thickness of different layers of the reservoir is also mentioned.
+
+\begin{center}
 \begin{tabular}{|c|c|c|c|}
 \hline
-Time (days) & Pressure (psi) & Time (days) & Pressure (psi) \\
+Core sample & Layer thickness (ft) & Porosity (\%) & Oil saturation (\%) \\
 \hline
-0 & 3500 & 6 & 2512 \\
-1 & 2864 & 7 & 2482 \\
-2 & 2725 & 8 & 2452 \\
-3 & 2644 & 9 & 2422 \\
-4 & 2587 & 10 & 2392 \\
-5 & 2542 & 11 & 2362 \\
+1 & 1.0 & 10 & 60 \\
+2 & 1.5 & 15 & 65 \\
+3 & 2.0 & 20 & 70 \\
+4 & 2.5 & 25 & 75 \\
 \hline
 \end{tabular}
-
-Options: Numerical answer
-
-GATE EE 2025
- \vspace{0.5cm} 
-\item[Q.40] In a core flood experiment of immiscible and incompressible displacement of oil ($\mu_0 = 1$ cP) with water ($\mu_w = 1$ cP), only axial flow is observed. The relative permeability of water is given by $k_{rw} = S_w^2$, where $S_w$ is water saturation. The relative permeability of oil is given by $k_{ro} = (1 - S_w)^2$. The gravity and capillary pressure are neglected. From the fractional flow and water saturation relationship, the saturation of water at the flood front is \\\\\_\% (round off to 1 decimal place).
-
-Options: Numerical answer
-
-GATE EE 2025
- \vspace{0.5cm} 
-\end{enumerate}
-
-
-\section*{GATE 2019 Petroleum Engineering}
-
-\subsection*{Q.41 - Q.50 carry two marks each.}
-
-\begin{enumerate}[leftmargin=*,series=q]
-\setcounter{enumi}{40}
-
-\item[Q.41] In an oil well, the pressure at the gas oil contact (GOC) at a depth of 2000 m is 205 bar (gauge),as shown in the figure.
-
-\includegraphics[width=0.9\linewidth]{2019.41.png}
-
-The static oil pressure gradient is 0.08 bar/m in the pay zone. If a constant hydrostatic pressure gradient of 0.1 bar/m prevails throughout the subsurface, then the thickness of the oil column is:
-
-\begin{tabular}{llll}
-\end{tabular}
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.42] Oil is produced at a constant rate of $10 \ \text{m}^3/\text{day}$ from a reservoir for $500$ days.  
-The producing gas oil ratio (GOR) is constant at $10 \ \text{m}^3_{\text{gas}}/\text{m}^3_{\text{oil}}$ for the first $100$ days.  
-Then, the producing gas oil ratio increases linearly and on the $500^{\text{th}}$ day the measured GOR is $50 \ \text{m}^3_{\text{gas}}/\text{m}^3_{\text{oil}}$.  
-The cumulative produced gas oil ratio after $500$ days of production is \\\\ $\text{m}^3_{\text{gas}}/\text{m}^3_{\text{oil}}$ (round off to 1 decimal place).  
-Assume that all volumes are measured at STP.  
-
-GATE EE 2025
-
-\vspace{0.5cm}
-\item[Q.43] A pressure build-up test was conducted in a well after $1000$ days of producing oil at a constant rate of $0.01 \ \text{reservoir-m}^3/\text{s}$.  
-The two shut-in bottom-hole pressure readings taken at $0.5$ day and $1$ day after shut-in are $150 \times 10^5 \ \text{Pa}$ and $151 \times 10^5 \ \text{Pa}$, respectively.  
-These pressure points correspond to the linear region of the Horner's plot.  
-The reservoir thickness is $100 \ \text{m}$ and oil viscosity is $0.001 \ \text{Pa.s}$.  
-The permeability of the reservoir is \\\\ mD (round off to 1 decimal place).  
-[$1 \ \text{mD} = 10^{-15} \ \text{m}^2$]  
-
-
-GATE EE 2025
-
-\vspace{0.5cm}
-\item[Q.44] In an oil reservoir, the residual oil saturation in the volume flooded with polymer solution is $20\%$.  
-The initial water saturation is $20\%$.  
-The volumetric sweep efficiency is $50\%$.  
-The maximum possible recovery factor for the reservoir is \\\\ \% (round off to 1 decimal place).  
-
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.45] An electrical submersible pump (ESP) delivers well fluid with $100\%$ watercut.  
-In the ESP, the impeller diameter is $0.1 \ \text{m}$ and speed is $3600 \ \text{rpm}$.  
-The total head developed by the ESP is $300 \ \text{m}$ (water column height).  
-If the stage efficiency of the ESP is $60\%$, then the minimum number of stages required is \\\\ (round off to nearest integer).  
-[$g = 9.81 \ \text{m/s}^2$]  
-
-GATE EE 2025
-\item[Q.49] 
-\item[Q.46] In a counter flow heat exchanger, hot fluid enters at $100^\circ \text{C}$ and leaves at $50^\circ \text{C}$.  
-Cold fluid enters at $30^\circ \text{C}$ and leaves at $40^\circ \text{C}$.  
-If heat losses are ignored, then the logarithmic mean temperature difference (LMTD) is \\\\ $^\circ \text{C}$ (round off to 1 decimal place).  
-
-GATE EE 2025
-
-\vspace{0.5cm}
-\item[Q.47] A model porous block of cross-sectional area ($A$) and length ($L$) is made up of $N$ independent capillaries of equal radii ($r$) and length ($L$).  
-The porosity of the block is $10\%$, and the permeability for a laminar, incompressible and steady state flow is $0.02 \ \text{mD}$.  
-If the flow is only through the capillaries, then the value of $r$ is \\\\ $\times 10^{-6} \ \text{cm}$ (round off to 1 decimal place).  
-[$1 \ \text{mD} = 10^{-15} \ \text{m}^2$]  
-
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.48] A model porous medium of 5 cylindrical capillaries of radii varying from $60$ to $100 \ \mu\text{m}$ is subjected to Mercury Injection Capillary Pressure (MICP) treatment.  
-The capillaries are being filled in an increasing order of their entry pressure.  
-The magnitude of $(\sigma \cos \theta)_{\text{air-Hg}}$ is $367 \ \text{dyne/cm}$, where $\sigma$ is the interfacial tension and $\theta$ is the contact angle.  
-The minimum applied mercury pressure to achieve $50\%$ mercury saturation in the sample is \\\\ $\times 10^3 \ \text{dyne/cm}^2$ (round off to 1 decimal place).  
-
-
-\includegraphics[width=0.9\linewidth]{2019.48.png}
-
-GATE EE 2025
- \vspace{0.5cm} 
-
-\item[Q.49] The sonic log parameters from an exploratory well in a reservoir are as follows:  
-
-Measured P-wave transit time ($\Delta t_{\text{log}}$) = $85 \ \mu\text{s/ft}$  
-True resistivity ($R_{t}$) = $10 \ \Omega\text{-m}$  
-Matrix transit time ($\Delta t_{\text{mat}}$) = $45 \ \mu\text{s/ft}$  
-Fluid transit time ($\Delta t_{fl}$) = $205 \ \mu\text{s/ft}$  
-Formation water resistivity at reservoir temperature ($R_{w}$) = $0.1 \ \Omega\text{-m}$  
-
-The hydrocarbon saturation (in percentage) in the reservoir is \\\\ (round off to 1 decimal place).  
-
-[Hint: Wyllie time average equation is $\Delta t_{\text{log}} = (1 - \phi)\Delta t_{\text{mat}} + \phi \Delta t_{fl}$ and formation water resistivity has the correlation $R_{w} = \frac{a}{\phi^{m}} R_{t} S_{w}^{n}$, where $S_{w}$ is water saturation, $\phi$ is porosity and $a = 1$]  
-
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.50] A vertical well of $8000 \ \text{ft}$ is producing below bubble point pressure. Oil and water each is produced at the rate of $500 \ \text{bbl/day}$. The indicated bottom hole pressure is $3000 \ \text{psia}$. If the same gas to liquid ratio (GLR) is maintained, using the given figure, the new bottom hole pressure at $5000 \ \text{ft}$ is \\\\ psi.  
-\includegraphics[width=0.5\linewidth]{2019.50.png}
-
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.51] In a drilling rig, the crown block and the traveling block have three and two sheaves, respectively. A single wireline connects the hoisting drum to the deadline anchor as shown in the figure. Neglect the weight of the pulleys and the wireline, and friction between the sheaves and wireline. The ratio of the deadline load to static crown load is \\\\ (round off to 2 decimal places).  
-\includegraphics[width=0.5\linewidth]{2019.51.png}
-
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.52] Cement weighing $100 \ \text{kg}$ is mixed with $50 \ \text{liters}$ of water. The specific gravity of cement is $3.14$ and the density of water is $1000 \ \text{kg/m}^3$. Neglecting volume changes, the resulting density of the slurry is \\\\ $\text{kg/m}^3$ (round off to 1 decimal place).  
-
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.53] In an active water drive during a certain period, the rate of production and reservoir pressure remain constant. The water influx into the reservoir from the aquifer is $6000 \ \text{bbl/day}$. The surface oil and water production rates are $3000 \ \text{STB/day}$ and $1500 \ \text{STB/day}$, respectively. The current production gas to oil ratio is $825 \ \text{SCF/STB}$, and the formation volume factors at the current pressure for oil, water, and gas are $1.375 \ \text{bbl/STB}$, $1.04 \ \text{bbl/STB}$, and $0.007 \ \text{bbl/STB}$, respectively. The solution gas to oil ratio at the current pressure is \\\\ $\text{SCF/STB}$ (round off to 1 decimal place).  
-
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.54] In a water flooding experiment, the pressure gradients in the displacing and displaced phases are $400 \ \text{psi/ft}$ and $350 \ \text{psi/ft}$, respectively. Assume that the displacement front is stable in the absence of capillary and gravity forces. Consider that only water flows upstream and only oil flows downstream of the displacement front. Then, the mobility ratio for this immiscible displacement process is \\\\ (round off to 2 decimal places).  
-
-GATE EE 2025
-\vspace{0.5cm}
-\item[Q.55] In a pressure draw-down testing, the well bore flowing pressure ($P_{wf}$) is given by  
-
-\[
-P_{wf} = P_{i} - \frac{162.6 \, q \, \mu \, B}{k \, h} \left[ \log \left( \frac{k \, t}{\phi \, \mu \, c_{t} \, r_{w}^{2}} \right) - 3.23 + 0.87 \, S \right]
-\]
-
-The following data is given in the oil field units:  
-
-Initial reservoir pressure ($P_{i}$) = $5000 \ \text{psia}$  
-Pressure after 1 hr of production ($P_{1hr}$) = $4000 \ \text{psia}$  
-Oil flow rate ($q$) = $500 \ \text{STB/day}$  
-Porosity ($\phi$) = $0.25$  
-Viscosity of oil ($\mu$) = $2 \ \text{cP}$  
-Formation volume factor of oil ($B$) = $1.2 \ \text{bbl/STB}$  
-Formation thickness ($h$) = $20 \ \text{ft}$  
-Total compressibility ($c_{t}$) = $30 \times 10^{-6} \ \text{psi}^{-1}$  
-Well bore radius ($r_{w}$) = $0.3 \ \text{ft}$  
-
-The slope of $P_{wf}$ versus $\log t$ is $-100 \ \text{psi/cycle}$. Then, the skin factor ($S$) for this well is \\\\ (round off to 1 decimal place).  
-
-GATE EE 2025
-\end{enumerate}
-\vspace{0.5cm}
-\begin{center}
-\textbf{\large --- END OF THE QUESTION PAPER ---}
 \end{center}
+
+Assuming uniform area of cross section for all the layers, the average oil saturation of the reservoir is \underline{\hspace{1cm}} \% (round off to one decimal place).
+\begin{enumerate}[label=(\Alph*)]
+    \item 65.5
+    \item 67.5
+    \item 69.5
+    \item 71.5
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.55} A natural gas has the following composition:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Component (i) & Mole fraction ($y_i$) & Molecular weight ($M_i$) \\
+\hline
+CO$_2$ & 0.02 & 44 \\
+CH$_4$ & 0.93 & 16 \\
+C$_2$H$_6$ & 0.03 & 30 \\
+C$_3$H$_8$ & 0.02 & 44 \\
+\hline
+\end{tabular}
+\end{center}
+
+Assume compressibility factor, $Z = 0.82$, the universal gas constant, $R = 10.73 \frac{\text{psia ft}^3}{\text{lb-mole }^\circ\text{R}}$. Density of the natural gas at 2000 psia and 150 $^\circ$F is \underline{\hspace{1cm}} lb/ft$^3$ (round off to two decimal places).
+\begin{enumerate}[label=(\Alph*)]
+    \item 4.85
+    \item 5.15
+    \item 5.45
+    \item 5.75
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.56} A surfactant enhanced oil recovery process has been employed using a five-spot injection pattern on a sandstone reservoir. The reservoir has the following properties:
+
+\begin{itemize}
+\item Reservoir area, $A = 20$ acres
+\item Reservoir thickness, $h = 25$ ft
+\item Porosity of the reservoir, $\Phi = 0.20$
+\item Residual oil saturation at termination of waterflood, $S_{orw} = 0.30$
+\item Residual oil saturation left by surfactant flood, $S_{orc} = 0.10$
+\item Oil formation volume factor, $B_o = 1.05$ reservoir bbl/STB
+\item Volumetric sweep efficiency, $E_v = 1$
+\item Initial oil saturation of the reservoir = 0.75
+\end{itemize}
+
+The ratio of oil displaced due to surfactant flood to the original oil in place at reservoir condition is \underline{\hspace{1cm}} (round off to two decimal places).
+(Take: 1 acre = 43560 ft$^2$, 1 bbl = 5.615 ft$^3$).
+\begin{enumerate}[label=(\Alph*)]
+    \item 0.15
+    \item 0.25
+    \item 0.35
+    \item 0.45
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.57} An ideal mixture of benzene and toluene is in equilibrium at a pressure of 750 mm Hg, and temperature of 90 $^\circ$C. The concentration of benzene in the vapour phase in mole fraction is \underline{\hspace{1cm}} (round off to two decimal places).
+
+Following data is given:
+\[
+\log_{10} P_i^0 = A_i - \frac{B_i}{T + C_i}
+\]
+\[
+A_b = 7, B_b = 1200, C_b = 210
+\]
+\[
+A_t = 7, B_t = 1300, C_t = 210
+\]
+where $T$ is the temperature in $^\circ$C, $A_i$, $B_i$ and $C_i$ are Antoine constants for component $i$, and $P_i^0$ is the vapour pressure of pure component $i$. The subscripts b and t represent benzene and toluene, respectively.
+\begin{enumerate}[label=(\Alph*)]
+    \item 0.45
+    \item 0.55
+    \item 0.65
+    \item 0.75
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.58} The diameter and draft of a freely floating classical upright spar without moonpool is 30 m and 75 m, respectively. The added mass in heave mode is 1.8 times the mass of the spar. The critical damping of the spar in heave mode is \underline{\hspace{1cm}} $\times 10^6$ kg/s (round off to one decimal place). Take $\pi = 3.14$, density of seawater = 1025 kg/m$^3$, acceleration due to gravity = 10 m/s$^2$.
+\begin{enumerate}[label=(\Alph*)]
+    \item 3.5
+    \item 4.5
+    \item 5.5
+    \item 6.5
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.59} A long vertical hollow steel pipe used as a column in an offshore structure follows Euler's column theory. The length, outer diameter and thickness of the pipe are 30 m, 0.50 m, and 0.03 m, respectively. The Euler buckling load (assuming no environmental loads) of the pipe pinned at both the ends, is \underline{\hspace{1cm}} kN (round off to one decimal place). Take $\pi = 3.14$, Young's modulus of elasticity for steel = 210 GPa.
+\begin{enumerate}[label=(\Alph*)]
+    \item 1250.5
+    \item 1375.5
+    \item 1500.5
+    \item 1625.5
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.60} A core sample from a well-consolidated sand has a length of 10 cm, diameter of 4 cm, and a resistance ($r$) of 100 $\Omega$ at $T_2 = 200^\circ$F when completely saturated with brine. The resistivity $R_w(T_1)$ of brine is 0.5 $\Omega$.m at $T_1 = 75^\circ$F. The cementation factor, $m = 2$ and the tortuosity factor, $a = 1$. Use $R_w(T_2) = R_w(T_1) \frac{T_1 + 6.77}{T_2 + 6.77}$ where $T_1$ and $T_2$ are in $^\circ$F. The porosity (in fraction) of the core sample using generalized Humble's formula at $200^\circ$F is \underline{\hspace{1cm}} (round off to two decimal places).
+\begin{enumerate}[label=(\Alph*)]
+    \item 0.15
+    \item 0.20
+    \item 0.25
+    \item 0.30
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.61} In an exploratory well, both clean and dirty reservoir sand with quartz as major mineralogy is encountered. The clean reservoir sand is completely devoid of shale. The fraction of shale volume ($V_{sh}$) in the dirty reservoir sand is 25\% with grain density ($\rho_{sh}$) of 2.7 g/cc. Quartz ($V_q$) with grain density ($\rho_q$) of 2.65 g/cc. The bulk density ($\rho_b$) of the clean and the dirty reservoir sand is 2 g/cc and 2.25 g/cc, respectively, and the pore fluid density ($\rho_f$) is 1 g/cc for both the sands. The difference of porosity ($\phi_{\text{clean}} - \phi_{\text{Dirty}}$) in fraction between the two reservoir sands is \underline{\hspace{1cm}} (round off three decimal places).
+\begin{enumerate}[label=(\Alph*)]
+    \item 0.075
+    \item 0.100
+    \item 0.125
+    \item 0.150
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.62} The settling velocity ($v_s$) of a spherical particle in a Newtonian fluid using Stokes' law is
+\[
+v_s = \frac{g d_s^2 (\rho_s - \rho_l)}{18 \mu}
+\]
+where $d_s$ is the particle diameter, $\rho_s$ is the particle density, $\rho_l$ is the drilling fluid density, $\mu$ is the drilling fluid viscosity, and $g$ is acceleration due to gravity.
+
+The density of barite and a drilled solid particle are 4200 kg/m$^3$ and 2600 kg/m$^3$, respectively. The density of the drilling fluid is 1300 kg/m$^3$. The diameter of a drilled spherical solid particle that has the same settling velocity as a spherical barite particle of 0.1 mm diameter in the drilling fluid is \underline{\hspace{1cm}} mm (round off to two decimal places).
+\begin{enumerate}[label=(\Alph*)]
+    \item 0.12
+    \item 0.14
+    \item 0.16
+    \item 0.18
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.63} A two-cylinder reciprocating positive-displacement mud pump is used for mud circulation. The pump can deliver fluid on both forward and backward piston strokes. The pump has the following specifications:
+\begin{itemize}
+\item Liner diameter = 15 cm
+\item Piston rod diameter = 6 cm
+\item Stroke length = 40 cm
+\item Volumetric efficiency = 85\%
+\end{itemize}
+Take $\pi = 3.14$. The total volume of fluid displaced per complete pump cycle is \underline{\hspace{1cm}} cm$^3$.
+\begin{enumerate}[label=(\Alph*)]
+    \item 10000
+    \item 12000
+    \item 14000
+    \item 16000
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.64} Consider the displacement of oil by water through a one-dimensional homogeneous isotropic porous medium of uniform porosity, permeability and thickness. Assume oil and water to be incompressible and immiscible. The relative permeabilities of oil ($k_{ro}$) and water ($k_{rw}$) at a given water saturation ($S_w$) are:
+\[
+k_{ro} = k_{ro}^0 (1 - S_w^*)
+\]
+\[
+k_{rw} = k_{rw}^0 S_w^*
+\]
+\[
+S_w^* = \frac{S_w - S_{wr}}{1 - S_{or} - S_{wr}}
+\]
+where $k_{ro}^0$ and $k_{rw}^0$ are the end point relative permeabilities of oil and water, respectively. $S_{or}$ and $S_{wr}$ are the residual saturations of oil and water, respectively. Assume that $k_{ro}^0 = 0.8$, $k_{rw}^0 = 0.3$, $S_{or} = 0.35$, and $S_{wr} = 0.25$. The viscosities of water and oil are 1 cP and 8 cP, respectively. The mobility ratio corresponding to the water saturation ($S_w$) of 0.6 is \underline{\hspace{1cm}} (round off to one decimal place).
+\begin{enumerate}[label=(\Alph*)]
+    \item 0.5
+    \item 1.0
+    \item 1.5
+    \item 2.0
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\vspace{0.5cm}
+
+\textbf{Q.65} The invasion of a drilling fluid to a radius of 3 feet from the center of the well-bore into the formation has resulted in the development of skin. The permeability of the skin zone (region affected by the drilling fluid invasion) is 50 mD. The permeability of the unaffected formation is 400 mD. The well bore radius is 0.25 feet. The value of the skin factor is \underline{\hspace{1cm}} (round off to two decimal places).
+\begin{enumerate}[label=(\Alph*)]
+    \item 2.08
+    \item 3.08
+    \item 4.08
+    \item 5.08
+\end{enumerate}
+\textbf{GATE EE 2025}
+
+\begin{center}
+\textbf{\large --- END OF THE QUESTION PAPER---}
+\end{center}
+
 \end{document}
