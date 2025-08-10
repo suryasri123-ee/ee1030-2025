@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.8.6)  9 AUG 2025 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.8.6)  10 AUG 2025 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1461,153 +1461,95 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-<figs/1.png, id=73, 524.71031pt x 176.91093pt>
+[3]
+<figs/1.png, id=128, 524.71031pt x 176.91093pt>
 File: figs/1.png Graphic file (type png)
 <use figs/1.png>
-Package pdftex.def Info: figs/1.png  used on input line 261.
+Package pdftex.def Info: figs/1.png  used on input line 293.
 (pdftex.def)             Requested size: 234.8775pt x 79.19077pt.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-
- []
-
-[4 <./figs/1.png>]
-<figs/2.png, id=134, 194.52675pt x 155.3805pt>
+ [4 <./figs/1.png>]
+<figs/2.png, id=161, 194.52675pt x 155.3805pt>
 File: figs/2.png Graphic file (type png)
 <use figs/2.png>
-Package pdftex.def Info: figs/2.png  used on input line 322.
+Package pdftex.def Info: figs/2.png  used on input line 365.
 (pdftex.def)             Requested size: 234.8775pt x 187.61975pt.
-<figs/3.png, id=135, 142.131pt x 154.176pt>
+ (./tables/table3.tex) [5 <./figs/2.png>]
+<figs/3.png, id=182, 142.131pt x 154.176pt>
 File: figs/3.png Graphic file (type png)
 <use figs/3.png>
-Package pdftex.def Info: figs/3.png  used on input line 336.
+Package pdftex.def Info: figs/3.png  used on input line 384.
 (pdftex.def)             Requested size: 140.92793pt x 152.877pt.
- (./tables/table3.tex) [5 <./figs/2.png> <./figs/3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
 
-(./tables/table2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 378--1
-
- []
-
-) [6] (./tables/table1.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
-
- []
-
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 543--550
+(./tables/table2.tex) [6 <./figs/3.png>] (./tables/table1.tex) [7] [8]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 617--624
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 543--550
+Overfull \hbox (24.0pt too wide) in paragraph at lines 617--624
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 543--550
+Overfull \hbox (24.0pt too wide) in paragraph at lines 617--624
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 543--550
+Overfull \hbox (24.0pt too wide) in paragraph at lines 617--624
 [] 
  []
 
-[8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 733--734
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--736
+Underfull \hbox (badness 10000) in paragraph at lines 808--810
 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 800--802
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
-
- []
-
-[12] (./main.aux)
+[11] [12] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1621,13 +1563,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 44212 strings out of 478287
- 1015246 string characters out of 5849290
- 1516590 words of memory out of 5000000
+ 44260 strings out of 478287
+ 1015630 string characters out of 5849290
+ 1518590 words of memory out of 5000000
  61375 multiletter control sequences out of 15000+600000
  532204 words of font info for 150 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,8n,96p,480b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,8n,96p,480b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1636,10 +1578,10 @@ onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 302023 bytes).
+Output written on main.pdf (12 pages, 303147 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
- 309 named destinations out of 1000 (max. 500000)
+ 530 PDF objects out of 1000 (max. 8388607)
+ 489 compressed objects within 5 object streams
+ 357 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
