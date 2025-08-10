@@ -191,7 +191,6 @@ IN: INSTRUMENTATION ENGINEERING}
 
 \end{enumerate}
 
-\newpage
 \begin{enumerate}
     \item Let N be a $3$ by $3$ matrix with real number entries. The matrix N is such that $N^{2}=0$. The eigenvalues of N are
     
@@ -250,11 +249,13 @@ IN: INSTRUMENTATION ENGINEERING}
     \begin{figure}[H]
     \centering
         \begin{multicols}{2}
-            \item \includegraphics[width=0.5\columnwidth]{q6a.png} \caption*{} \label{fig:q6a} 
-            \item \includegraphics[width=0.5\columnwidth]{q6b.png} \caption*{} \label{fig:q6b}
-            \item \includegraphics[width=0.5\columnwidth]{q6c.png} \caption*{} \label{fig:q6c}
-            \item \includegraphics[width=0.5\columnwidth]{q6d.png} \caption*{} \label{fig:q6d}
+            \item \includegraphics[width=0.5\columnwidth]{q6a.png}
+            \item \includegraphics[width=0.5\columnwidth]{q6b.png}
+            \item \includegraphics[width=0.5\columnwidth]{q6c.png}
+            \item \includegraphics[width=0.5\columnwidth]{q6d.png}
         \end{multicols}
+        \caption*{} 
+        \label{fig:q6} 
         \end{figure}
     \end{enumerate}
 
@@ -298,7 +299,7 @@ IN: INSTRUMENTATION ENGINEERING}
         \end{multicols}
     \end{enumerate}
 
-    \item Consider signal $x\brak{t}=\begin{cases}1, & |t| \le 2\\ 0, & |t|>2\end{cases}$. Let $\delta\brak{t}$ denote the unit impulse \brak{Dirac-delta} function. The value of the integral $\int_{0}^{5}2x\brak{t-3}\delta\brak{t-4}dt$ is
+    \item Consider signal $x\brak{t}=\begin{cases}1, & \abs{t} \le 2\\ 0, & \abs{t}>2\end{cases}$. Let $\delta\brak{t}$ denote the unit impulse \brak{Dirac-delta} function. The value of the integral $\int_{0}^{5}2x\brak{t-3}\delta\brak{t-4}dt$ is
     
     \hfill{\brak{\text{GATE IN 2018}}}
     \begin{enumerate}
@@ -336,15 +337,15 @@ IN: INSTRUMENTATION ENGINEERING}
     \begin{enumerate}
     \begin{figure}[H]
         \begin{multicols}{2}
-            \item \includegraphics[width=0.9\columnwidth]{q13a.png} \caption*{} \label{fig:q13a} 
-            \item \includegraphics[width=0.9\columnwidth]{q13b.png} \caption*{} \label{fig:q13b} 
-            \item \includegraphics[width=0.9\columnwidth]{q13c.png} \caption*{} \label{fig:q13c} 
-            \item \includegraphics[width=0.9\columnwidth]{q13d.png} \caption*{} \label{fig:q13d}
+            \item \includegraphics[width=0.9\columnwidth]{q13a.png}
+            \item \includegraphics[width=0.9\columnwidth]{q13b.png}
+            \item \includegraphics[width=0.9\columnwidth]{q13c.png}
+            \item \includegraphics[width=0.9\columnwidth]{q13d.png}
         \end{multicols}
+         \caption*{} 
+         \label{fig:q13} 
         \end{figure}
     \end{enumerate}
-
-    \newpage
 
     \item Consider the transfer function $G\brak{s}=\frac{2}{\brak{s+1}\brak{s+2}}$. The phase margin of $G\brak{s}$ in degrees is \underline{\hspace{2cm}}.
     
@@ -488,8 +489,10 @@ IN: INSTRUMENTATION ENGINEERING}
     \end{enumerate}
 
     \item Consider the following system of linear equations:
-    $$3x+2ky=-2$$
-    $$kx+6y=2$$
+    \begin{align*}
+    3x+2ky&=-2\\
+    kx+6y&=2
+    \end{align*}
     Here x and y are the unknowns and k is a real constant. The value of k for which there are infinite number of solutions is
     
     \hfill{\brak{\text{GATE IN 2018}}}
@@ -503,8 +506,10 @@ IN: INSTRUMENTATION ENGINEERING}
     \end{enumerate}
 
     \item Consider the following equations
-    $$ \frac{\partial V\brak{x,y}}{\partial x}=px^{2}+y^{2}+2xy $$
-    $$ \frac{\partial V\brak{x,y}}{\partial y}=x^{2}+qy^{2}+2xy $$
+    \begin{align*}
+     \frac{\partial V\brak{x,y}}{\partial x}&=px^{2}+y^{2}+2xy \\
+     \frac{\partial V\brak{x,y}}{\partial y}&=x^{2}+qy^{2}+2xy 
+    \end{align*}
     where p and q are constants. $V\brak{x,y}$ that satisfies the above equations is
     
     \hfill{\brak{\text{GATE IN 2018}}}
@@ -654,7 +659,9 @@ IN: INSTRUMENTATION ENGINEERING}
     \hfill{\brak{\text{GATE IN 2018}}}
 
     \item The product of sum expression of a Boolean function $F\brak{A, B, C}$ of three variables is given by
-    $$ F\brak{A, B, C} = \brak{ A + B + \bar{C} } \cdot \brak{A + \bar{B} + \bar{C} } \cdot \brak{ \bar{A} + B + C } \cdot \brak{ \bar{A} + \bar{B} + \bar{C} } $$
+    \begin{align*}
+    F\brak{A, B, C} = \brak{ A + B + \bar{C} } \cdot \brak{A + \bar{B} + \bar{C} } \cdot \brak{ \bar{A} + B + C } \cdot \brak{ \bar{A} + \bar{B} + \bar{C} }
+    \end{align*}
     The canonical sum of product expression of $F\brak{A, B, C}$ is given by
     
     \hfill{\brak{\text{GATE IN 2018}}}
@@ -693,7 +700,7 @@ IN: INSTRUMENTATION ENGINEERING}
     \end{verbatim}
     
     \hfill{\brak{\text{GATE IN 2018}}}
-    \newpage
+    
     \item The Boolean function $F\brak{ X, Y}$ realized by the given circuit is
     \begin{figure}[H]
         \centering
@@ -753,7 +760,7 @@ IN: INSTRUMENTATION ENGINEERING}
     \item Assuming ideal opamp, the RMS voltage \brak{\text{in mV}} in the output Vo only due to the 230 V, 50 Hz interference is \brak{\text{up to one decimal place}} \underline{\hspace{2cm}}.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\columnwidth]{q52.png}
+        \includegraphics[width=0.5\columnwidth]{q52.png}
         \caption*{}
         \label{fig:q52}
     \end{figure}

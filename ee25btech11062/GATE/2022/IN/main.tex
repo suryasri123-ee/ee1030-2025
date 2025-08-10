@@ -110,7 +110,7 @@ Based on the above statements, Q is a neighbor of
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q5}
 \caption*{}
-\label{q5}
+\label{fig:q5}
 \end{figure}
 \begin{enumerate}
 \item $4$
@@ -135,7 +135,7 @@ Based on the above statements, Q is a neighbor of
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q7}
 \caption*{}
-\label{q7}
+\label{fig:q7}
 \end{figure}
 \begin{enumerate}
 \item $\frac{1}{16}$
@@ -145,12 +145,10 @@ Based on the above statements, Q is a neighbor of
 \end{enumerate}
 
 \item Consider the following inequalities.
-$$
-\brak{\text{i}} \qquad 3p-q<4
-$$
-$$
-\brak{\text{ii}}\qquad 3q-p<12
-$$
+\begin{align*}
+\brak{\text{i}} \qquad 3p-q&<4\\
+\brak{\text{ii}}\qquad 3q-p&<12
+\end{align*}
 Which one of the following expressions below satisfies the above two inequalities?
 
 \hfill{\brak{\text{GATE IN 2022}}}
@@ -188,25 +186,27 @@ Which one of the following options can be logically inferred?
 \hfill{\brak{\text{GATE IN 2022}}}
 \begin{figure}[H]
 \begin{enumerate}
-\item \includegraphics[width = 0.4\columnwidth]{q10a} \caption*{} \label{q10a}
-\item \includegraphics[width = 0.4\columnwidth]{q10b} \caption*{} \label{q10b}
-\item \includegraphics[width = 0.4\columnwidth]{q10c} \caption*{} \label{q10c}
-\item \includegraphics[width = 0.4\columnwidth]{q10d} \caption*{} \label{q10d}
+\item \includegraphics[width = 0.4\columnwidth]{q10a} 
+\item \includegraphics[width = 0.4\columnwidth]{q10b}
+\item \includegraphics[width = 0.4\columnwidth]{q10c}
+\item \includegraphics[width = 0.4\columnwidth]{q10d}
 \end{enumerate}
+\caption*{}
+\label{fig:q10}
 \end{figure}
 
 \item The input $x\brak{t}$ to a system is related to its output $y\brak{t}$ as
-$$
+\begin{align*}
 \frac{dy\brak{t}}{dt}+y\brak{t}=3x\brak{t-3}u\brak{t-3}
-$$
+\end{align*}
 Here $u\brak{t}$ represents a unit-step function. The transfer function of this system is
 
 \hfill{\brak{\text{GATE IN 2022}}}
 \begin{enumerate}
-\item $$\frac{e^{-3s}}{s+3}$$
-\item $$\frac{3e^{-3s}}{s+1}$$
-\item $$\frac{3e^{-\brak{s/3}}}{s+1}$$
-\item $$\frac{e^{-\brak{s/3}}}{s+3}$$
+\item \begin{align*} \frac{e^{-3s}}{s+3} \end{align*}
+\item \begin{align*} \frac{3e^{-3s}}{s+1} \end{align*}
+\item \begin{align*} \frac{3e^{-\brak{s/3}}}{s+1} \end{align*}
+\item \begin{align*} \frac{e^{-\brak{s/3}}}{s+3} \end{align*}
 \end{enumerate}
 
 \item A pneumatic nozzle-flapper system is conventionally used to convert
@@ -220,9 +220,9 @@ Here $u\brak{t}$ represents a unit-step function. The transfer function of this 
 \end{enumerate}
 
 \item A periodic function $f\brak{x}$, with period $2$, is defined as
-$$
+\begin{align*}
 f\brak{x} = \begin{cases} -1 - x & -1 \le x < 0 \\ 1 - x & 0 < x \le 1 \end{cases}
-$$
+\end{align*}
 The Fourier series of this function contains \underline{\hspace{2cm}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
@@ -234,9 +234,9 @@ The Fourier series of this function contains \underline{\hspace{2cm}}
 \end{enumerate}
 
 \item The output of a system $y\brak{t}$ is related to its input $x\brak{t}$ according to the relation
-$$
+\begin{align*}
 y\brak{t} = x\brak{t} \sin\brak{2\pi t}
-$$
+\end{align*}
 This system is \underline{\hspace{2cm}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
@@ -248,9 +248,9 @@ This system is \underline{\hspace{2cm}}
 \end{enumerate}
 
 \item A unity-gain negative-feedback control system has a loop-gain $L\brak{s}$ given by
-$$
+\begin{align*}
 L\brak{s} = \frac{6}{s\brak{s-5}}
-$$
+\end{align*}
 The closed-loop system is \underline{\hspace{2cm}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
@@ -262,9 +262,9 @@ The closed-loop system is \underline{\hspace{2cm}}
 \end{enumerate}
 
 \item A sinusoidal carrier wave with amplitude $A_c$ and frequency $f_c$ is amplitude modulated with a message signal $m\brak{t}$ having frequency $0 < f_m \ll f_c$ to generate the modulated wave $s\brak{t}$ given by
-$$
-s\brak{t} = A_c\brak{1 + m\brak{t}}\cos \brak{2\pi f_c t}
-$$
+\begin{align*}
+s\brak{t} = A_c\brak{1 + m\brak{t}}\cos \brak{2\pi f_c t} 
+\end{align*}
 The message signal that can be retrieved completely using envelope detection is \underline{\hspace{2cm}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
@@ -286,9 +286,9 @@ The message signal that can be retrieved completely using envelope detection is 
 \end{enumerate}
 
 \item A signal $x\brak{t}$ is band-limited between $100$ Hz and $200$ Hz. A signal $y\brak{t}$ is related to $x\brak{t}$ as follows:
-$$
-y\brak{t} = x\brak{2t - 5}
-$$
+\begin{align*}
+y\brak{t} = x\brak{2t - 5} 
+\end{align*}
 The statement that is always true is \underline{\hspace{2cm}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
@@ -305,7 +305,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.75\columnwidth]{q19}
 \caption*{}
-\label{q19}
+\label{fig:q19}
 \end{figure}
 \begin{enumerate}
 \item $E_1 < E_2$
@@ -330,7 +330,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q21}
 \caption*{}
-\label{q21}
+\label{fig:q21}
 \end{figure}
 \begin{enumerate}
 \item $A + B$
@@ -355,7 +355,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.7\columnwidth]{q23}
 \caption*{}
-\label{q23}
+\label{fig:q23}
 \end{figure}
 \begin{enumerate}
 \item $\overline{\overline{A \cdot B}}$
@@ -404,7 +404,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q31}
 \caption*{}
-\label{q31}
+\label{fig:q31}
 \end{figure}
 
 \item A bag contains six red balls and four blue balls. If three balls are drawn in succession without replacement, the probability that the second and third balls drawn are red is \underline{\hspace{2cm}} \brak{\text{round off to two decimal places}}
@@ -417,7 +417,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.6\columnwidth]{q33}
 \caption*{}
-\label{q33}
+\label{fig:q33}
 \end{figure}
 
 \item The Newton-Raphson method is applied to determine the solution of $f\brak{x} = 0$ where $f\brak{x} = x - \cos \brak{x}$. If the initial guess of the solution is $x_0 = 0$, the value of the next approximation $x_1$ is \underline{\hspace{2cm}} \brak{\text{round off to two decimal places}}
@@ -434,7 +434,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.7\columnwidth]{q36}
 \caption*{}
-\label{q36}
+\label{fig:q36}
 \end{figure}
 \begin{enumerate}
 \item $0.3$ V
@@ -449,23 +449,35 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.7\columnwidth]{q37}
 \caption*{}
-\label{q37}
+\label{fig:q37}
 \end{figure}
 \begin{enumerate}
-\item $$\frac{2G_1\brak{s}G_2\brak{s} + 2G_1\brak{s}G_3\brak{s}}{1+G_2\brak{s}+G_3\brak{s}}$$
-\item $$\frac{2 + G_1\brak{s} + G_3\brak{s} + G_2\brak{s}}{1+G_2\brak{s}}$$
-\item $$\frac{G_1\brak{s} + G_3\brak{s} - G_2\brak{s}}{2 + G_2\brak{s}}$$
-\item $$\frac{2G_1\brak{s}G_2\brak{s} + 2G_1\brak{s}G_3\brak{s} - G_1\brak{s}}{1+G_2\brak{s}+G_3\brak{s}}$$
+\item 
+\begin{align*}
+    \frac{2G_1\brak{s}G_2\brak{s} + 2G_1\brak{s}G_3\brak{s}}{1+G_2\brak{s}+G_3\brak{s}}
+\end{align*}
+\item 
+\begin{align*}
+\frac{2 + G_1\brak{s} + G_3\brak{s} + G_2\brak{s}}{1+G_2\brak{s}}
+\end{align*}
+\item 
+\begin{align*}
+\frac{G_1\brak{s} + G_3\brak{s} - G_2\brak{s}}{2 + G_2\brak{s}} 
+\end{align*}
+\item 
+\begin{align*}
+\frac{2G_1\brak{s}G_2\brak{s} + 2G_1\brak{s}G_3\brak{s} - G_1\brak{s}}{1+G_2\brak{s}+G_3\brak{s}} 
+\end{align*}
 \end{enumerate}
 
 \item Consider the transfer function $H_c\brak{s} = \frac{1}{\brak{s+1}\brak{s+3}}$. Bilinear transformation with a sampling period of $0.1$ s is employed to obtain the discrete-time transfer function $H_d\brak{z}$. Then $H_d\brak{z}$ is \underline{\hspace{2cm}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
 \begin{enumerate}
-\item $$\frac{\brak{1 + z^{-1}}^2}{\brak{19 - 21z^{-1}}\brak{23 - 17z^{-1}}}$$
-\item $$\frac{\brak{1 - z^{-1}}^2}{\brak{21 - 19z^{-1}}\brak{17 - 23z^{-1}}}$$
-\item $$\frac{\brak{1 + z^{-1}}^2}{\brak{21 - 19z^{-1}}\brak{23 - 17z^{-1}}}$$
-\item $$\frac{\brak{1 + z^{-1}}^2}{\brak{21 - 19z^{-1}}\brak{17 - 23z^{-1}}}$$
+\item \begin{align*}\frac{\brak{1 + z^{-1}}^2}{\brak{19 - 21z^{-1}}\brak{23 - 17z^{-1}}}\end{align*}
+\item \begin{align*}\frac{\brak{1 - z^{-1}}^2}{\brak{21 - 19z^{-1}}\brak{17 - 23z^{-1}}}\end{align*}
+\item \begin{align*}\frac{\brak{1 + z^{-1}}^2}{\brak{21 - 19z^{-1}}\brak{23 - 17z^{-1}}}\end{align*}
+\item \begin{align*}\frac{\brak{1 + z^{-1}}^2}{\brak{21 - 19z^{-1}}\brak{17 - 23z^{-1}}}\end{align*}
 \end{enumerate}
 
 \item A car is moving collinearly with a laser beam emitted by a transceiver. A laser pulse emitted at $t = 0$ s is received back by the transceiver $100$ ns \brak{\text{nanoseconds}} later after reflection from the car. A second pulse emitted at $t = 0.1$ s is received back $90$ ns later. Given the speed of light is $3 \times 10^8$ m/s, the average speed of the car in this interval is \underline{\hspace{2cm}}
@@ -498,15 +510,13 @@ The statement that is always true is \underline{\hspace{2cm}}
 \item Decreases by a factor of $5$
 \end{enumerate}
 
-\newpage
-
 \item A resistor ladder digital-to-analog converter \brak{DAC} receives a digital input that results in the circuit having the state as shown in the figure. For this digital input, the Thevenin voltage, $V_{th}$, and Thevenin resistance, $R_{th}$, as seen at the output node are \underline{\hspace{2cm}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q42}
 \caption*{}
-\label{q42}
+\label{fig:q42}
 \end{figure}
 \begin{enumerate}
 \item $V_{th} = 0.5$ V, $R_{th}= 1$ k\ohm
@@ -521,7 +531,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q43}
 \caption*{}
-\label{q43}
+\label{fig:q43}
 \end{figure}
 \begin{enumerate}
 \item PM = $39.7\degree$ and GM = $4.76$
@@ -536,13 +546,13 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q44}
 \caption*{}
-\label{q44}
+\label{fig:q44}
 \end{figure}
 \begin{enumerate}
-\item $$R_S||R_L|| g_m^{-1}$$
-\item $$R_S||g_m^{-1}$$
-\item $$\brak{R_S + R_L}||g_m^{-1}$$
-\item $$\frac{R_L g_m}{1 + R_S g_m\brak{R_L||g_m^{-1}}}$$
+\item \begin{align*}R_S||R_L|| g_m^{-1}\end{align*}
+\item \begin{align*}R_S||g_m^{-1}\end{align*}
+\item \begin{align*}\brak{R_S + R_L}||g_m^{-1}\end{align*}
+\item \begin{align*}\frac{R_L g_m}{1 + R_S g_m\brak{R_L||g_m^{-1}}}\end{align*}
 \end{enumerate}
 
 \item Consider the differential equation $\frac{dy}{dx} + y \ln\brak{y} = 0$. If $y\brak{0} = e$, then $y\brak{1}$ is \underline{\hspace{2cm}}
@@ -555,7 +565,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \item $e^{-\brak{1/e}}$
 \end{enumerate}
 
-\newpage
+
 
 \item The digital circuit shown \underline{\hspace{2cm}}
 
@@ -563,7 +573,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.55\columnwidth]{q46}
 \caption*{}
-\label{q46}
+\label{fig:q46}
 \end{figure}
 \begin{enumerate}
 \item is a divide-by-$5$ counter
@@ -578,13 +588,13 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.3\columnwidth]{q47}
 \caption*{}
-\label{q47}
+\label{fig:q47}
 \end{figure}
 \begin{enumerate}
-\item $$\frac{-g_m R_0}{1 + g_m R_0}$$
-\item $$\brak{g_m R_0 + 1}^{-1}$$
-\item $$\frac{-g_m R_0}{1 + 2g_m R_0}$$
-\item $$\brak{\frac{g_m R_0}{2} + \frac{3}{2}}^{-1}$$
+\item \begin{align*}\frac{-g_m R_0}{1 + g_m R_0}\end{align*}
+\item \begin{align*}\brak{g_m R_0 + 1}^{-1}\end{align*}
+\item \begin{align*}\frac{-g_m R_0}{1 + 2g_m R_0}\end{align*}
+\item \begin{align*}\brak{\frac{g_m R_0}{2} + \frac{3}{2}}^{-1}\end{align*}
 \end{enumerate}
 
 \item $A = a_1 a_0$ and $B = b_1 b_0$ are two $2$-bit unsigned binary numbers. If $F\brak{a_1, a_0, b_1, b_0}$ is a Boolean function such that $F = 1$ only when $A > B$, and $F = 0$ otherwise, then $F$ can be minimized to the form \underline{\hspace{2cm}}
@@ -623,13 +633,20 @@ The statement that is always true is \underline{\hspace{2cm}}
 
 \item In the circuit shown, the load is driven by a sinusoidal ac voltage source $V_1 = 100 \angle 0\degree$ V at $50$ Hz. Given $R_1 = 20$ \ohm, $C_1 = \brak{\frac{1000}{\pi}}$ \textmu F, $L_1 = \brak{\frac{20}{\pi}}$ mH and $R_2 = 4$ \ohm, the power factor is \underline{\hspace{2cm}} \brak{\text{round off to one decimal place}}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\columnwidth]{q52}
+    \caption*{}
+    \label{fig:q52}
+\end{figure}
+
 \hfill{\brak{\text{GATE IN 2022}}}
 
 \item In a unity-gain feedback control system, the plant $P\brak{s} = \frac{0.001}{s\brak{2s+1}\brak{0.01s+1}}$ is controlled by a lag compensator $C\brak{s} = \frac{s+10}{s+0.1}$. The slope \brak{\text{in dB/decade}} of the asymptotic Bode magnitude plot of the loop gain at $\omega = 3$ rad/s is \underline{\hspace{2cm}} \brak{\text{in integer}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
 
-\newpage
+
 
 \item Given Circuit A with currents $I_1$ and $I_2$ as shown, the current $I_3$ in Circuit B \brak{\text{in amperes}}, is \underline{\hspace{2cm}}\brak{\text{round off to one decimal place}}
 
@@ -638,7 +655,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.6\columnwidth]{q54}
 \caption*{}
-\label{q54}
+\label{fig:q54}
 \end{figure}
 
 \item In the balanced three-phase circuit shown, $C_0 = 8.2$ \textmu F and the line-to-line r.m.s. voltage is $440$ V at $50$ Hz. The reading on the wattmeter \brak{\text{in watts}} is \underline{\hspace{2cm}} \brak{\text{round off to two decimal places}}
@@ -647,7 +664,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q55}
 \caption*{}
-\label{q55}
+\label{fig:q55}
 \end{figure}
 
 \item The circuit shown is driven by a sinusoidal input voltage, $V_{in}$, resulting in the output voltage, $V_{out}$. The frequency \brak{\text{in kilohertz}} at which the voltage gain is $0$ dB is \underline{\hspace{2cm}} \brak{\text{round off to two decimal places}}
@@ -656,7 +673,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.7\columnwidth]{q56}
 \caption*{}
-\label{q56}
+\label{fig:q56}
 \end{figure}
 
 \item A conducting semi-circular loop of radius $R = 0.1$ m, with its diameter centered at the origin, rotates in the x-y plane about the origin with a constant angular velocity, $\omega = 20$ rad/s, as shown. A magnetic field of magnitude $B = 2$ T and normal to x-y plane exists in the region $x \ge 0$ as shown. If the loop has a resistance of $2$ \ohm, and negligible inductance, the peak-to-peak current \brak{\text{in milliamperes}} in the loop is \underline{\hspace{2cm}} \brak{\text{round off to one decimal place}}
@@ -665,7 +682,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q57}
 \caption*{}
-\label{q57}
+\label{fig:q57}
 \end{figure}
 
 \item In the circuit shown, $R_1=100$ k\ohm \ and $R_2=1$ k\ohm. If the base-to-emitter voltage of the npn BJT is $0.7$ V and the collector-to-emitter voltage is $5.2$ V, the $\beta$ \brak{\text{current gain}} of the BJT is \underline{\hspace{2cm}} \brak{\text{round off to two decimal places}}
@@ -674,7 +691,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q58}
 \caption*{}
-\label{q58}
+\label{fig:q58}
 \end{figure}
 
 \item A capacitor is constructed using two concentric spheres and air as the dielectric medium \brak{\text{permittivity of air } = 8.854 \times 10^{-12} \text{ F/m}}. The radii of the inner and outer spheres are $a = 10$ cm and $b=15$ cm, respectively. The capacitance \brak{\text{in picofarads}} is \underline{\hspace{2cm}} \brak{\text{round off to } 2 \text{ decimal places}}
@@ -695,7 +712,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q62}
 \caption*{}
-\label{q62}
+\label{fig:q62}
 \end{figure}
 
 \item The bridge shown is balanced when $R_1= 100$ \ohm, $R_2 = 210$ \ohm, $C_2 = 2.9$ \textmu F, and $R_4 = 50$ \ohm. The $2$ kHz sine-wave generator supplies a voltage of $10$ Vp-p. The value of $L_3$ \brak{\text{in millihenry}} is \underline{\hspace{2cm}} \brak{\text{round off to two decimal places}}
@@ -704,7 +721,7 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.5\columnwidth]{q63}
 \caption*{}
-\label{q63}
+\label{fig:q63}
 \end{figure}
 
 \item In the circuit shown, the switch is initially closed. It is opened at $t = 0$ s and remains open thereafter. The time \brak{\text{in milliseconds}} at which the output voltage $V_{out}$ becomes LOW is \underline{\hspace{2cm}} \brak{\text{round off to three decimal places}}
@@ -713,16 +730,16 @@ The statement that is always true is \underline{\hspace{2cm}}
 \begin{figure}[H]
 \includegraphics[width = 0.6\columnwidth]{q64}
 \caption*{}
-\label{q64}
+\label{fig:q64}
 \end{figure}
 
-\item In the Wheatstone bridge circuit shown, $R_1 = 1.5$ k\ohm \ and $R_2 = R_3 = R_4 = 1$ k\ohm. The switch is initially open and the voltage between the points C and D is $V_{CD}$. Upon closing the switch at $t = 0$, the resistance in the arm AD changes by an amount $\delta R_1$, and the voltage between C and D changes by $\delta V_{CD}$. The sensitivity of the bridge \brak{\text{in volt/kiloohm}}, defined as $|\frac{\delta V_{CD}}{\delta R_1}|$, is \underline{\hspace{2cm}} \brak{\text{round off to two decimal places}}
+\item In the Wheatstone bridge circuit shown, $R_1 = 1.5$ k\ohm \ and $R_2 = R_3 = R_4 = 1$ k\ohm. The switch is initially open and the voltage between the points C and D is $V_{CD}$. Upon closing the switch at $t = 0$, the resistance in the arm AD changes by an amount $\delta R_1$, and the voltage between C and D changes by $\delta V_{CD}$. The sensitivity of the bridge \brak{\text{in volt/kiloohm}}, defined as $\abs{\frac{\delta V_{CD}}{\delta R_1}}$, is \underline{\hspace{2cm}} \brak{\text{round off to two decimal places}}
 
 \hfill{\brak{\text{GATE IN 2022}}}
 \begin{figure}[H]
 \includegraphics[width = 0.6\columnwidth]{q65}
 \caption*{}
-\label{q65}
+\label{fig:q65}
 \end{figure}
 \end{enumerate}
 \end{document}
