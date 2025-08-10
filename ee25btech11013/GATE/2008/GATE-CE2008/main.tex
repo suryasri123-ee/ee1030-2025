@@ -2,7 +2,7 @@
 \let\negthickspace\undefined
 \documentclass[journal]{IEEEtran}
 \usepackage[a5paper, margin=10mm, onecolumn]{geometry}
-%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
 \usepackage{tfrupee} % Include tfrupee package
 
 \setlength{\headheight}{1cm} % Set the height of the header box
@@ -38,12 +38,13 @@
 \usepackage{hhline}                                           
 \usepackage{ifthen}                                           
 \usepackage{lscape}
+\usepackage{caption}
 \usepackage{tikz}
 \usetikzlibrary{patterns}
 \begin{document}
 
 \bibliographystyle{IEEEtran}
-\vspace{3cm}
+
 
 
 \title{GATE 2008 CIVIL ENGINEERING}
@@ -73,7 +74,7 @@
 
 \item The general solution of 
 \begin{align} 
-\dfrac{d^2y}{dx^2} + y = 0
+\frac{d^2y}{dx^2} + y = 0
 \end{align}
 is  \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
@@ -198,15 +199,13 @@ Compaction by vibratory roller is the best method of compaction in case of  \hfi
 
 \item The base width of an elementary profile of a gravity dam of height $H$ is $b$. The specific gravity of the material of the dam is $G$ and uplift pressure coefficient is $K$. The correct relationship for no tension at the heel is given by: \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
-\begin{multicols}{2}
-\item $\dfrac{b}{H} = \dfrac{1}{\sqrt{G - K}}$ 
-\vspace{0.5cm}
+\begin{multicols}{4}
+\item $\frac{b}{H} = \frac{1}{\sqrt{G - K}}$ 
+\item $\frac{b}{H} = \sqrt{G - K}$
+\item $\frac{b}{H} = \frac{1}{G - K}$
 
-\item $\dfrac{b}{H} = \sqrt{G - K}$
-\item $\dfrac{b}{H} = \dfrac{1}{G - K}$
-\vspace{0.5cm}
 
-\item $\dfrac{b}{H} = \dfrac{1}{K \sqrt{G - K}}$
+\item $\frac{b}{H} = \frac{1}{K \sqrt{G - K}}$
 \end{multicols}
 \end{enumerate}
 
@@ -266,9 +265,9 @@ Compaction by vibratory roller is the best method of compaction in case of  \hfi
 \item The shape of the STOP sign according to IRC:$67$ -- $2001$ is: \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
 \begin{multicols}{2}
-\item circular \hspace{1.2cm}
+\item circular 
 \item triangular
-\item octagonal \hspace{1cm}
+\item octagonal 
 \item rectangular
 \end{multicols}
 \end{enumerate}
@@ -276,9 +275,9 @@ Compaction by vibratory roller is the best method of compaction in case of  \hfi
 \item The type of surveying in which the curvature of the earth is taken into account is called: \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
 \begin{multicols}{2}
-\item Geodetic surveying \hspace{1.4cm}
+\item Geodetic surveying 
 \item Plane surveying
-\item Preliminary surveying \hspace{1cm}
+\item Preliminary surveying 
 \item Topographical surveying
 \end{multicols}
 \end{enumerate}
@@ -295,10 +294,10 @@ can be transformed to \begin{align}
 by substituting: \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
 \begin{multicols}{2}
-\item $x_t = x \dfrac{k_z}{k_x}$
-\item $x_t = x \dfrac{k_x}{k_z}$
-\item $x_t = x \sqrt{\dfrac{k_x}{k_z}}$
-\item $x_t = x \sqrt{\dfrac{k_z}{k_x}}$
+\item $x_t = x \frac{k_z}{k_x}$
+\item $x_t = x \frac{k_x}{k_z}$
+\item $x_t = x \sqrt{\frac{k_x}{k_z}}$
+\item $x_t = x \sqrt{\frac{k_z}{k_x}}$
 \end{multicols}
 \end{enumerate}
 
@@ -326,7 +325,7 @@ by substituting: \hfill \brak{GATE \ CE \ 2008}
 \end{multicols}
 \end{enumerate}
 
-\item Solution of \begin{align} \dfrac{dy}{dx} = \dfrac{-x}{y} \end{align}at $x = 1$ and $y = \sqrt{3}$ is: \hfill \brak{GATE \ CE \ 2008}
+\item Solution of \begin{align} \frac{dy}{dx} = \frac{-x}{y} \end{align}at $x = 1$ and $y = \sqrt{3}$ is: \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
 \begin{multicols}{2}
 \item $x^2 - y^2 = -2$
@@ -344,7 +343,7 @@ x^2, & \text{for } -1 \leq x \leq 1 \\
 0, & \text{for any other value of } x
 \end{cases}
 \end{align}
-then, the percentage probability $P\left( -\dfrac{1}{3} \leq x \leq \dfrac{1}{3} \right)$ is: \hfill \brak{GATE \ CE \ 2008}
+then, the percentage probability $P\left( -\frac{1}{3} \leq x \leq \frac{1}{3} \right)$ is: \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
 \begin{multicols}{2}
 \item $0.247$
@@ -407,9 +406,13 @@ will NOT have a unique solution for $k$ equal to: \hfill \brak{GATE \ CE \ 2008}
 \end{enumerate}
 
 \item Cross-section of a column consisting of two steel strips, each of thickness $t$ and width $b$ is shown in the figure below. The critical loads of the column with perfect bond and without bond between the strips are $P$ and $P_0$ respectively. The ratio $P/P_0$ is: \hfill \brak{GATE \ CE \ 2008}
-\vspace{0.1cm}
 
-\includegraphics[width=0.6\columnwidth]{figs/fig14.png} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\columnwidth]{figs/fig14.png} 
+    \caption{Cross-section of 2 steel strips}
+    \label{fig:placeholder}
+\end{figure}
 
 \begin{enumerate}
 \begin{multicols}{2}
@@ -422,7 +425,12 @@ will NOT have a unique solution for $k$ equal to: \hfill \brak{GATE \ CE \ 2008}
 
 \item A rigid bar $GH$ of length $L$ is supported by a hinge and a spring of stiffness $K$ as shown in the figure below. The buckling load, $P_Cr$, for the bar will be  \hfill \brak{GATE \ CE \ 2008}
 
-\includegraphics[width=0.3\columnwidth]{figs/fig15.png}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.2\columnwidth]{figs/fig15.png} 
+    \caption{Rigid Bar GH}
+    \label{fig:placeholder}
+\end{figure}
 \begin{enumerate}
 \begin{multicols}{2}
 \item $0.5 KL$
@@ -432,12 +440,17 @@ will NOT have a unique solution for $k$ equal to: \hfill \brak{GATE \ CE \ 2008}
 \end{multicols}
 \end{enumerate}
 
-\vspace{1cm}
+
 
 \item The degree of static indeterminacy of the rigid frame having two internal hinges as shown in the figure below, is \hfill \brak{GATE \ CE \ 2008}
 
 
-\includegraphics[width=0.6\columnwidth]{figs/fig6.png} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig6.png} 
+    \caption{Rigid Frame GHIJEF}
+    \label{fig:placeholder}
+\end{figure}
 
 \begin{enumerate}
 \begin{multicols}{2}
@@ -448,10 +461,15 @@ will NOT have a unique solution for $k$ equal to: \hfill \brak{GATE \ CE \ 2008}
 \end{multicols}
 \end{enumerate}
 
-\vspace{1cm}
 
-\item The members EJ and IJ of a steel truss shown in the figure below are subjected to a temperature rise of $30^\circ\text{C}$. The coefficient of thermal expansion of steel is $0.000012$ per $^\circ\text{C}$ per unit length. The displacement \brak{mm} of joint E relative to joint H along the direction HE of the truss, is \hfill \brak{GATE \ CE \ 2008}
-\includegraphics[width=0.6\columnwidth]{figs/fig7.png} 
+
+\item The members EJ and IJ of a steel truss shown in the figure below are subjected to a temperature rise of $30^\degree\text{C}$. The coefficient of thermal expansion of steel is $0.000012$ per $^\degree\text{C}$ per unit length. The displacement \brak{mm} of joint E relative to joint H along the direction HE of the truss, is \hfill \brak{GATE \ CE \ 2008}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig7.png} 
+    \caption{Steel Truss}
+    \label{fig:placeholder}
+\end{figure}
 \begin{enumerate}
 \begin{multicols}{2}
 \item $0.255$
@@ -472,9 +490,14 @@ will NOT have a unique solution for $k$ equal to: \hfill \brak{GATE \ CE \ 2008}
 \end{enumerate}
 
 \item The span\brak{s} to be loaded uniformly for maximum positive \brak{upward} reaction at support P, as shown in the figure below, is\brak{are} \hfill \brak{GATE \ CE \ 2008}
-\includegraphics[width=0.6\columnwidth]{figs/fig8.png} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig8.png} 
+    \caption{Maximum reaction at P}
+    \label{fig:placeholder}
+\end{figure}
 
-\vspace{0.1cm}
+
 
 \begin{enumerate}
 \begin{multicols}{2}
@@ -534,50 +557,69 @@ ratio as $10$, the stress N/$mm^{2}$ in concrete is \hfill \brak{GATE \ CE \ 200
 does not exceed \hfill \brak{GATE \ CE \ 2008}
 
 \begin{enumerate}
+\begin{multicols}{4}
+
 \item $1.0$
 \item $1.2$
 \item $1.4$
 \item $1.8$
+\end{multicols}
 \end{enumerate}
 
 \item A continuous beam is loaded as shown in the figure below. Assuming a plastic moment capacity equal to $M_p$, the minimum load at which the beam would collapse is \hfill \brak{GATE \ CE \ 2008}
 
-\includegraphics[width=0.6\columnwidth]{figs/fig1.png} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig1.png} 
+    \caption{}
+    \label{fig:placeholder}
+\end{figure} 
+
 \begin{enumerate}
-\begin{multicols}{2}
+\begin{multicols}{4}
 \item $\brak{\frac{4M_p}{L}}$
-\vspace{0.1cm}
+
 \item $\brak{\frac{6M_p}{L}}$
 \item $\brak{\frac{8M_p}{L}}$
-\vspace{0.1cm}
+
 \item $\brak{\frac{10M_p}{L}}$
 \end{multicols}
 \end{enumerate}
 
 \item The maximum tensile stress at the section X-X shown in the figure below is \hfill \brak{GATE \ CE \ 2008}
 
-\includegraphics[width=0.6\columnwidth]{figs/fig2.png} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig2.png} 
+    \caption{Maximum tensile stress}
+    \label{fig:placeholder}
+\end{figure}
 \begin{enumerate}
-\begin{multicols}{2}
+\begin{multicols}{4}
 \item $\brak{\frac{8P}{bd}}$
-\vspace{0.1cm}
+
 \item $\brak{\frac{6P}{bd}}$
 \item $\brak{\frac{4P}{bd}}$
-\vspace{0.1cm}
+
 \item $\brak{\frac{2P}{bd}}$
 \end{multicols}
 \end{enumerate}
 
 \item The stepped cantilever is subjected to moments, M as shown in the figure below. The vertical deflection at the free end \brak{neglecting \ the \ self \ weight} is \hfill \brak{GATE \ CE \ 2008}
 
-\includegraphics[width=0.6\columnwidth]{figs/fig3.png} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig3.png} 
+    \caption{Stepped cantilever}
+    \label{fig:placeholder}
+\end{figure}
 \begin{enumerate}
-\begin{multicols}{2}
+\begin{multicols}{4}
 \item $\brak{\frac{ML^2}{8EI}}$
-\vspace{0.1cm}
+
 \item $\brak{\frac{ML^2}{4EI}}$
 \item $\brak{\frac{ML^2}{2EI}}$
-\vspace{0.1cm}
+
 \item $Zero$
 \end{multicols}
 \end{enumerate}
@@ -587,10 +629,10 @@ does not exceed \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
 \begin{multicols}{2}
 \item $LL > PL < SL$
-\vspace{0.1cm}
+
 \item $LL > PL > SL$
 \item $LL < PL < SL$
-\vspace{0.1cm}
+
 \item $LL < PL > SL$
 \end{multicols}
 \end{enumerate}
@@ -664,7 +706,12 @@ footing is \hfill \brak{GATE \ CE \ 2008}
 \end{enumerate}
 
 \item A weir on a permeable foundation with downstream sheet pile is shown in the figure below. The exit gradient as per Khosla's method is \hfill \brak{GATE \ CE \ 2008}
-\includegraphics[width=0.6\columnwidth]{figs/fig4.png} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig4.png} 
+    \caption{}
+    \label{fig:placeholder}
+\end{figure}
 \begin{enumerate}
 \begin{multicols}{2}
 \item $1$ in $6.0$ 
@@ -718,7 +765,7 @@ footing is \hfill \brak{GATE \ CE \ 2008}
 \end{multicols}
 \end{enumerate}
 
-\item A wastewater sample contains $10^{-5.6}$ mmol/l of $OH^{-}$ ions at $25$ $^\circ\text{C}$ .The $pH$ of this sample is \hfill \brak{GATE \ CE \ 2008}
+\item A wastewater sample contains $10^{-5.6}$ mmol/l of $OH^{-}$ ions at $25$ $^\degree\text{C}$ .The $pH$ of this sample is \hfill \brak{GATE \ CE \ 2008}
 
 \begin{enumerate}
 \begin{multicols}{2}
@@ -731,7 +778,7 @@ footing is \hfill \brak{GATE \ CE \ 2008}
 
 \item Group $I$ lists estimation methods of some of the water and wastewater quality parameters. Group $II$ lists the indicators used in the estimation methods. Match the estimation method (Group $I$) with the corresponding indicator Group $II$). \hfill \brak{GATE \ CE \ 2008}
 
-\vspace{1cm}
+
 \textbf{Group I \hfill Group II}
 
 \begin{tabular}{ll}
@@ -741,7 +788,6 @@ R & EDTA titrimetric method for hardness \hfill 3. Potassium chromate \\
 S & Mohr or Argentometric method for chlorides \hfill 4. Starch \\
 \end{tabular}
 
-\vspace{0.5cm}
 
 \textbf{Options:}
 \begin{enumerate}
@@ -753,11 +799,11 @@ S & Mohr or Argentometric method for chlorides \hfill 4. Starch \\
 
 
 \item Determine the correctness or otherwise of the following Assertion [a] and the Reason [r]
-\vspace{0.1cm}
+
 
 Assertion: The crown of the outgoing larger diameter sewer is always matched with the crown of
 incoming smaller diameter sewer.
-\vspace{0.1cm}
+
 
 Reason: It eliminates backing up of sewage in the incoming smaller diameter sewer. \hfill \brak{GATE \ CE \ 2008}
 
@@ -829,7 +875,12 @@ Reason: It eliminates backing up of sewage in the incoming smaller diameter sewe
 
 \item Design parameters for a signalized intersection are shown in the figure below. The green time calculated for major and minor roads are $34$ s and $18$ s, respectively. \hfill \brak{GATE \ CE \ 2008}
 
-\includegraphics[width=0.6\columnwidth]{figs/fig2.png} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig2.png} 
+    \caption{}
+    \label{fig:placeholder}
+\end{figure}
 
 The critical lane volume on the major road changes to $440$ vehicles per hour per lane and the critical lane volume on the minor road remains unchanged. The green time will
 
@@ -874,28 +925,28 @@ The critical lane volume on the major road changes to $440$ vehicles per hour pe
 
 \item The lengths and bearings of a closed traverse PQRSP are given below.
 
-\vspace{0.3cm}
+
 
 \begin{tabular}{|c|c|c|}
 \hline
 Line & Length (m) & Bearing (WCB) \\
 \hline
-PQ & $200$ & $0^\circ$ \\
-QR & $1000$ & $45^\circ$ \\
-RS & $907$ & $180^\circ$ \\
+PQ & $200$ & $0^\degree$ \\
+QR & $1000$ & $45^\degree$ \\
+RS & $907$ & $180^\degree$ \\
 SP & ? & ? \\
 \hline
 \end{tabular}
 
-\vspace{0.5cm}
+
 
 The missing length and bearing, respectively, of the line SP are \hfill \brak{GATE \ CE \ 2008}
 
 \begin{enumerate}
-\item $207 m$ and $270^\circ$
-\item $707 m$ and $270^\circ$
-\item $707 m$ and $180^\circ$
-\item $907 m$ and $270^\circ$
+\item $207 m$ and $270^\degree$
+\item $707 m$ and $270^\degree$
+\item $707 m$ and $180^\degree$
+\item $907 m$ and $270^\degree$
 \end{enumerate}
 
 \item The focal length of the object glass of a tacheometer is $200$ mm, the distance between the vertical axis of the tacheometer and the optical centre of the object glass is $100$ mm and the spacing between the upper and lower line of the diaphragm axis is $4$ mm. With the line of collimation perfectly horizontal, the staff intercepts are $1$ m \brak{top}, $2$ m \brak{middle}, and $3$ m \brak{bottom}. The horizontal distance \brak{m} between the staff and the instrument station is \hfill \brak{GATE \ CE \ 2008}
@@ -908,7 +959,7 @@ The missing length and bearing, respectively, of the line SP are \hfill \brak{GA
 \end{multicols}
 \end{enumerate}
 
-\item A road is provided with a horizontal circular curve having deflection angle of $55^\circ$ and centre line radius of $250$ m. A transition curve is to be provided at each end of the circular curve of such a length that the rate of gain of radial acceleration is $0.3$ m/s at a speed of $50$ km per hour. Length of the transition curve required at each of the ends is \hfill \brak{GATE \ CE \ 2008}
+\item A road is provided with a horizontal degreeular curve having deflection angle of $55^\degree$ and centre line radius of $250$ m. A transition curve is to be provided at each end of the circular curve of such a length that the rate of gain of radial acceleration is $0.3$ m/s at a speed of $50$ km per hour. Length of the transition curve required at each of the ends is \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
 \begin{multicols}{2}
 \item $2.57$ 
@@ -928,14 +979,14 @@ The missing length and bearing, respectively, of the line SP are \hfill \brak{GA
 \end{multicols}
 \end{enumerate}
 
-\vspace{0.5cm}
+
 
 \textbf{Statement for Linked Answer Questions $71$ and $72$:}
 
 
 A rectangular channel $6.0$ m wide carries a discharge of $16.0$ m$^3$/s under uniform flow condition with normal depth of $1.60$ m. Manning $n$ is $0.015$. 
 
-\vspace{0.5cm}
+
 
 \item The longitudinal slope of the channel is \hfill \brak{GATE \ CE \ 2008}
 
@@ -946,7 +997,7 @@ A rectangular channel $6.0$ m wide carries a discharge of $16.0$ m$^3$/s under u
 \item $0.000285$
 \end{enumerate}
 
-\vspace{0.3cm}
+
 
 \item A hump is to be provided on the channel bed. The maximum height of the hump without affecting the upstream flow condition is \hfill \brak{GATE \ CE \ 2008}
 
@@ -957,7 +1008,7 @@ A rectangular channel $6.0$ m wide carries a discharge of $16.0$ m$^3$/s under u
 \item $0.20$ m
 \end{enumerate}
 
-\vspace{0.3cm}
+
 
 \item The channel width is to be contracted. The minimum width to which the channel can be contracted without affecting the upstream flow condition is \hfill \brak{GATE \ CE \ 2008}
 
@@ -968,13 +1019,13 @@ A rectangular channel $6.0$ m wide carries a discharge of $16.0$ m$^3$/s under u
 \item $4.5$ m
 \end{enumerate}
 
-\vspace{1cm}
+
 
 \textbf{Statement for Linked Answer Questions 74 and 75:}
 
 A reinforced concrete beam of rectangular cross section of breadth $230$ mm and effective depth $400 mm$ is subjected to a maximum factored shear force of $120$ $kN$. The grades of concrete, main steel and stirrup steel are $M20$, $Fe415$ and $Fe250$ respectively. For the area of main steel provided, the design shear strength $\tau_c$ as per IS:$456$ --  $2000$ is $0.48$ N/$mm^{2}$. The beam is designed for collapse limit state.
 
-\vspace{0.5cm}
+
 
 \item The spacing (mm) of 2-legged 8 mm stirrups to be provided is \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
@@ -984,7 +1035,7 @@ A reinforced concrete beam of rectangular cross section of breadth $230$ mm and 
 \item $400$
 \end{enumerate}
 
-\vspace{0.5cm}
+
 
 \item  In addition, the beam is subjected to a torque whose factored value is $10.90$ kNm. The stirrups have to be provided to carry a shear $kN$ equal to \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
@@ -1000,11 +1051,16 @@ A reinforced concrete beam of rectangular cross section of breadth $230$ mm and 
 
 Beam GHI is supported by three pontoons as shown in the figure below. The horizontal cross-sectional area of each pontoon is $8$ $m^{2}$, the flexural rigidity of the beam is $10000$ kN-$m^{2}$ and the unit weight of water is $10$ kN/$m^{3}$.
 
-\vspace{0.3cm}
-\includegraphics[width=0.6\columnwidth]{figs/fig9.png} 
-\vspace{0.3cm}
 
-\item \hspace{0.2cm} When the middle pontoon is removed, the deflection at H will be \hfill \brak{GATE \ CE \ 2008}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig9.png} 
+    \caption{}
+    \label{fig:placeholder}
+\end{figure}
+
+
+\item When the middle pontoon is removed, the deflection at H will be \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
 \item $0.2$ m
 \item $0.4$ m
@@ -1012,22 +1068,27 @@ Beam GHI is supported by three pontoons as shown in the figure below. The horizo
 \item $0.8$ m
 \end{enumerate}
 
-\item \hspace{0.2cm} When the middle pontoon is brought back to its position as shown in the figure above, the reaction at H will be \hfill \brak{GATE \ CE \ 2008}
-\begin{itemize}
+\item When the middle pontoon is brought back to its position as shown in the figure above, the reaction at H will be \hfill \brak{GATE \ CE \ 2008}
+\begin{enumerate}
 \item $8.6$ $kN$
 \item $15.7$ $kN$
 \item $19.2$ $kN$
 \item $24.2$ $kN$
-\end{itemize}
+\end{enumerate}
 
-\vspace{0.5cm}
+
 \textbf{Statement for Linked Answer Questions 78 and 79:}
 
 The ground conditions at a site are shown in the figure below.
 
-\vspace{0.3cm}
-\includegraphics[width=0.6\columnwidth]{figs/fig12.png}
-\vspace{0.3cm}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig12.png} 
+    \caption{}
+    \label{fig:placeholder}
+\end{figure}
+
 
 \item The saturated unit weight of the sand ($kN$/$m^{3}$) is \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
@@ -1051,9 +1112,14 @@ The ground conditions at a site are shown in the figure below.
 
 A column is supported on a footing as shown in the figure below. The water table is at a depth of $10$ m below the base of the footing.
 
-\vspace{0.3cm}
-\includegraphics[width=0.6\columnwidth]{figs/fig13.png} 
-\vspace{0.3cm}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig13.png} 
+    \caption{}
+    \label{fig:placeholder}
+\end{figure}
+
 
 \item The net ultimate bearing capacity (kN/$m^{2}$) of the footing based on Terzaghi's bearing capacity equation is \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
@@ -1071,7 +1137,7 @@ A column is supported on a footing as shown in the figure below. The water table
 \item $1269$
 \end{enumerate}
 
-\vspace{0.5cm}
+
 \textbf{Statement for Linked Answer Questions 82 and 83:}
 
 An automobile with projected area $2.6$ m\textsuperscript{2} is running on a road with a speed of $120$ km per hour. The mass density and the kinematic viscosity of air are $1.2$ kg/$m^{3}$ and $1.5 \times 10^{-5}$ $m^{2}$/s, respectively. The drag coefficient is $0.30$.
@@ -1092,11 +1158,11 @@ An automobile with projected area $2.6$ m\textsuperscript{2} is running on a roa
 \item $20.23$
 \end{enumerate}
 
-\vspace{0.5cm}
+
 \textbf{Statement for Linked Answer Questions 84 and 85:}
 
 A horizontal circular curve with a centre line radius of $200$ m is provided on a $2$-lane, $2$-way SH section. The width of the $2$-lane road is $7.0$ m. Design speed for this section is $80$ km per hour. The brake reaction time is $2.4$ s, and the coefficients of friction in longitudinal and lateral directions are $0.355$ and $0.15$, respectively.
-\vspace{0.1cm}
+
 
 \item The safe stopping sight distance on the section is \hfill \brak{GATE \ CE \ 2008}
 \begin{enumerate}
