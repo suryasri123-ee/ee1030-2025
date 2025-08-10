@@ -330,16 +330,18 @@
 
     \hfill (GATE CS 2009)
 
-    \item Which one of the following is the most appropriate logical formula to represent the statement:\\
+    \item Which one of the following is the most appropriate logical formula to represent the statement:
     \begin{center}
-        \textit{"Gold and silver ornaments are precious"}\\
+        \textit{"Gold and silver ornaments are precious"}
     \end{center}
-    The following notations are used:\\
-        \begin{center}
-            $G(x): x$ is a gold ornament.\\
-            $S(x): x$ is a silver ornament. \\
-            $P(x): x$ is precious.\\
-        \end{center}  
+    The following notations are used:
+
+        \begin{itemize}
+            \item $G(x): x$ is a gold ornament.
+            \item $S(x): x$ is a silver ornament.
+            \item $P(x): x$ is precious.
+        \end{itemize}
+
     \begin{enumerate}
         \begin{multicols}{2}
             \item $\forall x(P(x)\rightarrow (G(X)\land S(x)))$
@@ -762,10 +764,10 @@
     \item In quick sort, for sorting n elements, the (n/4) smallest element is selected as pivot using an O(n) time og algorithm. What is the worst case time complexity of the quick sort?
     \begin{enumerate}
         \begin{multicols}{4}
-            \item \(\Theta(n)\)
-            \item \(\Theta(n \log n)\)
-            \item \(\Theta(n^2)\)
-            \item \(\Theta(n^2 \log n)\)  \\
+            \item $\Theta(n)$
+            \item $\Theta(n \log n)$
+            \item $\Theta(n^2)$
+            \item $\Theta(n^2 \log n)$  \\
         \end{multicols}
     \end{enumerate}
 
@@ -787,7 +789,7 @@
 
     \hfill (GATE CS 2009)
     
-    \item
+    \item The above DFA accepts the set of all strings over (0, 1) that
     \begin{figure}[H]
         \centering
         \includegraphics[width=\columnwidth]{figs/q41.png}
@@ -795,7 +797,7 @@
         \label{fig:placeholder}
     \end{figure}
         
-    The above DFA accepts the set of all strings over {0, 1} that\\
+    
     \begin{enumerate}
         \begin{multicols}{2}
             \item begin either with 0 or 1.
@@ -882,7 +884,7 @@
 
     \hfill (GATE CS 2009)
 
-    \item In the RSA public key cryptosystem, the private and public keys are $(e, n) and (d, n)$respectively, where $n=p\star q and p and q$ are large primes. Besides, n is public and p and q are private. Let M be an integer such that $0<M<n and o(n)=(p-1)(q-1)$. Now consider the following equations.\\
+    \item In the RSA public key cryptosystem, the private and public keys are $(e, n) and (d, n)$respectively, where $n=p\star q and p and q$ are large primes. Besides, n is public and p and q are private. Let M be an integer such that $0<M<n$ and $o(n)=(p-1)(q-1)$. Now consider the following equations.\\
     \begin{tabular}{ll}
         I & $M' = M^e$  mod n\\
          & $M = (M')^d$ mod n\\
@@ -1036,7 +1038,7 @@
     WHERE S.sid NOT IN (SELECT C.sid\\
     \hspace*{4cm}FROM Catalog C\\
     \hspace*{4cm}WHERE C.pid NOT IN (SELECT P.pid\\
-    Assume that relations corresponding to the above schema are not empty. Which one of the following is the correct interpretation of the above query?\\
+    Assume that relations corresponding to the above schema are not empty. Which one of the following is the correct interpretation of the above query?
     \begin{enumerate}
         \item Find the names of all suppliers who have supplied a non-blue part.
         \item  Find the names of all suppliers who have not supplied a non-blue part.
@@ -1059,7 +1061,7 @@
     
     {\Large \textbf{Common Statement for linked answer questions 57 and 58}} \\    
     Frames of 10000 bits are sent over a $10^6$bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to maximally pack them in transit(within the link).
-    \item What is the minimum number of bits (l) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames.\\
+    \item What is the minimum number of bits (l) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames.
 
     \begin{enumerate}
     \begin{multicols}{4}
@@ -1072,7 +1074,7 @@
 
     \hfill (GATE CS 2009)
     
-    \item Suppose that the sliding window protocol is used with the sender window size of 2'.. where l is the number of bits identified in the earlier part and acknowledgement are always piggy backed. After sending 2' frames, what is the minimum time the sender will have to wait before starting transmission of the next frame?(Identify the closet choice ignoring the frame processing time.)\\
+    \item Suppose that the sliding window protocol is used with the sender window size of 2'.. where l is the number of bits identified in the earlier part and acknowledgement are always piggy backed. After sending 2' frames, what is the minimum time the sender will have to wait before starting transmission of the next frame?(Identify the closet choice ignoring the frame processing time.)
     \begin{enumerate}
     \begin{multicols}{4}
             \item 16ms 
@@ -1086,7 +1088,7 @@
     
     {\Large \textbf{Common Statement for linked answer questions 59 and 60}} \\    
     Consider a binary max-heap implemented using an array.
-    \item Which one of the following array represents a binary max-heap?\\
+    \item Which one of the following array represents a binary max-heap?
         \begin{enumerate} 
             \item {25,12,16,13,10,8,14}
             \item {25,14,13,16,10,8,12}
@@ -1094,7 +1096,7 @@
             \item {25,14,12,13,10,8,16}
         \end{enumerate}
     \hfill (GATE CS 2009)
-    \item What is the content of the array after two delete operations on the correct answer to the previous questions?\\
+    \item What is the content of the array after two delete operations on the correct answer to the previous questions?
         \begin{enumerate} 
             \item {14,13,12,10,8}
             \item {14,12,13,8,10}
