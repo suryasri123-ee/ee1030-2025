@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.7)  9 AUG 2025 23:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.7)  10 AUG 2025 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1740,11 +1740,6 @@ Package hyperref Info: Link coloring OFF on input line 17.
 \openout4 = `main.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
-
- []
-
-
 
 
 
@@ -1785,9 +1780,6 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 3
 s/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
-
- []
 
 
 
@@ -1800,20 +1792,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-
- []
-
-
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
-
- []
 
 
 
@@ -1826,9 +1804,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-
- []
 
 
 
@@ -1862,9 +1837,6 @@ t/fonts/enc/dvips/base/8r.enc}]
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
-
- []
 
 
 
@@ -1877,24 +1849,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
-
- []
 
 
 
 
 
 
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
-
- []
 
 
 
@@ -1928,9 +1888,6 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
-
- []
 
 
 
@@ -1943,9 +1900,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--243
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
-
- []
 
 
 
@@ -1954,9 +1908,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--262
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
-
- []
 
 
 
@@ -1965,9 +1916,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--287
 
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 297--303
-[] 
- []
+
+
 
 
 
@@ -1978,11 +1928,12 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 297--303
 
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
 
 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--326
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
@@ -1993,14 +1944,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--326
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
- []
 
 
 
@@ -2009,20 +1952,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--373
-
- []
 
 
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--384
-
- []
 
 
 
@@ -2033,38 +1964,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--384
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
 
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
-
- []
-
-
-
-
-
-
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
 
@@ -2079,29 +1994,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 466--467
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--489
 
- []
+
+
+
+
+
 
 
 
 [6]
-
-
-
-
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--531
+Underfull \hbox (badness 10000) in paragraph at lines 524--526
 
  []
 
@@ -2115,18 +2020,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--531
 
 
 
-<figs/q32.png, id=240, 569.12625pt x 233.87375pt>
+<figs/q32.png, id=247, 569.12625pt x 233.87375pt>
 File: figs/q32.png Graphic file (type png)
 <use figs/q32.png>
-Package pdftex.def Info: figs/q32.png  used on input line 544.
-(pdftex.def)             Requested size: 256.08708pt x 142.27022pt.
+Package pdftex.def Info: figs/q32.png  used on input line 539.
+(pdftex.def)             Requested size: 495.07779pt x 203.45422pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--547
+Underfull \hbox (badness 10000) in paragraph at lines 536--542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--555
+Underfull \hbox (badness 10000) in paragraph at lines 544--550
 
  []
 
@@ -2143,18 +2048,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 549--555
 
 
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-567.
+562.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--587
+Underfull \hbox (badness 10000) in paragraph at lines 575--582
 
  []
 
@@ -2169,12 +2074,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--587
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 607--608
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 617--619
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
 
  []
 
@@ -2191,14 +2091,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 617--619
 
 
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 629--730
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--735
-
- []
 
 
 
@@ -2211,35 +2103,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 733--735
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
- []
 
-<figs/q38.png, id=294, 361.35pt x 173.64874pt>
+
+
+
+
+
+<figs/q38.png, id=296, 361.35pt x 173.64874pt>
 File: figs/q38.png Graphic file (type png)
 <use figs/q38.png>
-Package pdftex.def Info: figs/q38.png  used on input line 750.
-(pdftex.def)             Requested size: 199.16766pt x 142.26836pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 754--756
-
- []
+Package pdftex.def Info: figs/q38.png  used on input line 746.
+(pdftex.def)             Requested size: 495.07779pt x 237.91588pt.
 
 
 
 
 
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 766--768
-
- []
 
 
 
 [9 <./figs/q38.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
+Underfull \hbox (badness 10000) in paragraph at lines 768--769
 
  []
 
@@ -2254,7 +2139,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 772--773
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 778--782
+Underfull \hbox (badness 10000) in paragraph at lines 774--778
 
  []
 
@@ -2264,13 +2149,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 778--782
 
 
 
-<figs/q41.png, id=317, 468.75125pt x 153.57375pt>
+<figs/q41.png, id=322, 468.75125pt x 153.57375pt>
 File: figs/q41.png Graphic file (type png)
 <use figs/q41.png>
-Package pdftex.def Info: figs/q41.png  used on input line 797.
-(pdftex.def)             Requested size: 199.163pt x 113.81151pt.
+Package pdftex.def Info: figs/q41.png  used on input line 793.
+(pdftex.def)             Requested size: 495.07779pt x 162.19685pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 802--804
+Underfull \hbox (badness 10000) in paragraph at lines 798--800
 
  []
 
@@ -2281,12 +2166,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 802--804
 
 
 
-Overfull \hbox (28.19717pt too wide) in paragraph at lines 814--822
+Overfull \hbox (28.19717pt too wide) in paragraph at lines 810--818
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--822
+Underfull \hbox (badness 10000) in paragraph at lines 810--818
 
  []
 
@@ -2299,21 +2184,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 814--822
 
 
 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 832--843
-
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \let 
-l.844             \item
-                        $S_1 and S_2$
-? 
-
-Package multicol Warning: Using `0' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 844.
 
 
 
@@ -2324,19 +2194,6 @@ Package multicol Warning: Using `0' columns doesn't seem a good idea.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--857
-
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \let 
-l.858             \item
-                        2
-? 
-
-Package multicol Warning: Using `0' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 858.
 
 
 
@@ -2345,24 +2202,17 @@ Package multicol Warning: Using `0' columns doesn't seem a good idea.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 867--876
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--872
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--879
-
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \let 
-l.880             \item
-                        I and II
-? 
-
-Package multicol Warning: Using `0' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 880.
 
 
 
@@ -2371,19 +2221,6 @@ Package multicol Warning: Using `0' columns doesn't seem a good idea.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--899
-
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \let 
-l.902             \item
-                        I and II
-? 
-
-Package multicol Warning: Using `0' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 902.
 
 
 
@@ -2392,9 +2229,8 @@ Package multicol Warning: Using `0' columns doesn't seem a good idea.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--914
 
- []
+
 
 
 
@@ -2409,12 +2245,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 911--914
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--926
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 934--941
+Underfull \hbox (badness 10000) in paragraph at lines 930--937
 
  []
 
@@ -2429,13 +2260,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 934--941
 
 
 
-Overfull \hbox (280.28787pt too wide) in paragraph at lines 953--960
+Overfull \hbox (280.28787pt too wide) in paragraph at lines 949--956
 [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 953--960
-
  []
 
 
@@ -2449,19 +2275,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 953--960
 
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 971.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 967.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 971.
-! Missing delimiter (. inserted).
-<to be read again> 
-                   C
-l.972 ...bf{\big Common Data Questions 51 and 52:}
-                                                   \\
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 974--976
-
- []
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 967.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 968.
 
 
 
@@ -2471,12 +2289,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 974--976
 
 
 
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 986--988
-
- []
 
 
 
@@ -2490,39 +2302,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 986--988
 
 
 
-! Missing delimiter (. inserted).
-<to be read again> 
-                   C
-l.998 ...f{ \big Common Data Questions 53 and 54:}
-                                                   \\
-? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1029.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1025.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1030
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1037--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1041
 
  []
 
 
 
 [13]
+Underfull \hbox (badness 10000) in paragraph at lines 1058--1059
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1062--1063
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1077
 
  []
 
@@ -2537,33 +2358,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1079--1081
-
- []
-
-
-
-
-
-
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1095
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1103
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1091
 
  []
 
 
 
 [14]
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1099
+
+ []
+
+
 
 [15] (./main.aux)
  ***********
@@ -2584,13 +2390,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 54067 strings out of 467801
- 1300142 string characters out of 5417843
- 1958220 words of memory out of 5000000
- 81567 multiletter control sequences out of 15000+600000
- 658800 words of font info for 114 fonts, out of 8000000 for 9000
+ 54090 strings out of 467801
+ 1300406 string characters out of 5417843
+ 1960220 words of memory out of 5000000
+ 81582 multiletter control sequences out of 15000+600000
+ 664953 words of font info for 131 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,15n,105p,1198b,1438s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,9n,105p,1198b,1439s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb></data/data/com.termux/files/usr/share/texlive/2025/
 texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></data/data/com.termux/files/us
@@ -2608,10 +2414,10 @@ les/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/d
 ata/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 312246 bytes).
+Output written on main.pdf (15 pages, 312831 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
- 357 named destinations out of 1000 (max. 500000)
+ 598 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
+ 363 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
