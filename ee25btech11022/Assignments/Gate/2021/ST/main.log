@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  10 AUG 2025 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  10 AUG 2025 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1429,52 +1429,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 <figs/3.png, id=9, 266.9975pt x 362.35374pt>
 File: figs/3.png Graphic file (type png)
 <use figs/3.png>
-Package pdftex.def Info: figs/3.png  used on input line 97.
-(pdftex.def)             Requested size: 103.19843pt x 140.05676pt.
+Package pdftex.def Info: figs/3.png  used on input line 96.
+(pdftex.def)             Requested size: 98.3985pt x 133.538pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc} <./figs/0.png> <./figs/3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-<figs/4.png, id=23, 660.4675pt x 478.78876pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+<figs/4.png, id=27, 660.4675pt x 478.78876pt>
 File: figs/4.png Graphic file (type png)
 <use figs/4.png>
-Package pdftex.def Info: figs/4.png  used on input line 197.
-(pdftex.def)             Requested size: 516.0pt x 374.0747pt.
+Package pdftex.def Info: figs/4.png  used on input line 196.
+(pdftex.def)             Requested size: 492.0pt x 356.67249pt.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 [3 <./figs/4.png>]
-<figs/5.png, id=33, 523.9575pt x 312.16624pt>
+<figs/5.png, id=42, 523.9575pt x 312.16624pt>
 File: figs/5.png Graphic file (type png)
 <use figs/5.png>
 Package pdftex.def Info: figs/5.png  used on input line 212.
-(pdftex.def)             Requested size: 206.39685pt x 122.9685pt.
+(pdftex.def)             Requested size: 196.797pt x 117.24782pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
@@ -1525,7 +1530,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
+
+ []
+
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
@@ -1533,6 +1548,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
 Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
+ []
+
+
+Overfull \hbox (11.20714pt too wide) in paragraph at lines 390--398
+[]\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 A$ \OT1/txr/m/n/12 be a $2 \OMS/txsy/m
+/n/12 ^^B \OT1/txr/m/n/12 2$ real ma-trix with eigen-val-ues $1$ and $\OMS/txsy
+/m/n/12 ^^@\OT1/txr/m/n/12 1$, and cor-re-spond-ing eigen-vec-tors: $[]  []  []
+$
  []
 
 
@@ -1561,12 +1584,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 440--441
  []
 
 
+Overfull \hbox (19.44211pt too wide) in paragraph at lines 443--449
+[]\OT1/txr/m/n/12 For $\OML/txmi/m/it/12 a > \OT1/txr/m/n/12 0$, let $[]$ be in
+-de-pen-dent Bernoulli ran-dom vari-ables such that: $\OML/txmi/m/it/12 P [] \O
+T1/txr/m/n/12 = 1) = []\OML/txmi/m/it/12 ;  P [] \OT1/txr/m/n/12 =
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--459
+Underfull \hbox (badness 10000) in paragraph at lines 453--459
 
  []
 
@@ -1575,12 +1605,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 470--471
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 476--477
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
  []
@@ -1591,11 +1621,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 502--503
  []
 
 
-Overfull \hbox (32.74696pt too wide) in paragraph at lines 504--507
-[]\OT1/txr/bx/n/12 Q.24 \OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 X[]; X[]; X[]$ \
-OT1/txr/m/n/12 be from $\OML/txmi/m/it/12 N[] []$ \OT1/txr/m/n/12 with $\OML/tx
-mi/m/it/12 ^^V$ \OT1/txr/m/n/12 and $^^F$ un-known positive-definite. Given sam
--ple $[]$,
+Overfull \hbox (17.89102pt too wide) in paragraph at lines 505--507
+[]\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 X[]; X[]; X[]$ \OT1/txr/m/n/12 be from
+ $\OML/txmi/m/it/12 N[] []$ \OT1/txr/m/n/12 with $\OML/txmi/m/it/12 ^^V$ \OT1/t
+xr/m/n/12 and $^^F$ un-known positive-definite. Given sam-ple $[]$,
  []
 
 (./tables/table2.tex)
@@ -1609,11 +1638,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 535--536
  []
 
 
-Overfull \hbox (18.47862pt too wide) in paragraph at lines 556--564
-\OT1/txr/bx/n/12 Q.29 \OT1/txr/m/n/12 Let $\OMS/txsy/m/n/12 M$ \OT1/txr/m/n/12 
-be the set of $3 \OMS/txsy/m/n/12 ^^B \OT1/txr/m/n/12 3$ real sym-met-ric pos-i
--tive def-i-nite ma-tri-ces. Con-sider $\OML/txmi/m/it/12 S \OT1/txr/m/n/12 = [
-] \OML/txmi/m/it/12 :$
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--558
+
+ []
+
+
+Overfull \hbox (15.62268pt too wide) in paragraph at lines 558--564
+[]\OT1/txr/m/n/12 Let $\OMS/txsy/m/n/12 M$ \OT1/txr/m/n/12 be the set of $3 \OM
+S/txsy/m/n/12 ^^B \OT1/txr/m/n/12 3$ real sym-met-ric pos-i-tive def-i-nite ma-
+tri-ces. Con-sider $\OML/txmi/m/it/12 S \OT1/txr/m/n/12 = [] \OML/txmi/m/it/12 
+:$
  []
 
 [7]
@@ -1622,76 +1661,136 @@ Underfull \hbox (badness 10000) in paragraph at lines 570--571
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--641
+Underfull \hbox (badness 10000) in paragraph at lines 585--587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--618
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--628
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 652--653
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 662--663
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--684
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--703
+Underfull \hbox (badness 10000) in paragraph at lines 684--685
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 694--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--704
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 725--726
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 727--735
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--744
+Underfull \hbox (badness 10000) in paragraph at lines 730--736
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--772
+Underfull \hbox (badness 10000) in paragraph at lines 738--745
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--787
+Underfull \hbox (badness 10000) in paragraph at lines 748--758
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 793--794
+Underfull \hbox (badness 10000) in paragraph at lines 758--765
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 787--788
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--795
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 803--805
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 805--811
 
  []
 
 (./tables/table1.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 814--830
+Underfull \hbox (badness 10000) in paragraph at lines 815--818
 
  []
 
-[10] [11] (./main.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--824
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 824--831
+
+ []
+
+[11] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1707,13 +1806,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46635 strings out of 474222
- 1088589 string characters out of 5748734
+ 46700 strings out of 474222
+ 1089035 string characters out of 5748734
  1945975 words of memory out of 5000000
  68166 multiletter control sequences out of 15000+600000
  619030 words of font info for 160 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,13n,103p,1172b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,13n,103p,1172b,698s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
@@ -1722,10 +1821,10 @@ blic/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
 s/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 323114 bytes).
+Output written on main.pdf (11 pages, 324180 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 77 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
