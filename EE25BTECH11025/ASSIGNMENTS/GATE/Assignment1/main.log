@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.5)  11 AUG 2025 08:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.5)  11 AUG 2025 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1327,91 +1327,91 @@ File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \c@lemma=\count367
 \c@example=\count368
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
-8.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 49.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-48.
+49.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 49.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-48.
+49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 49.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-48.
+49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 49.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 4
-8.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 49.
 
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1438,88 +1438,67 @@ e
 ))
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 48.
-Package gensymb Info: Math companion symbols declared on input line 48.
-LaTeX Info: Redefining \degree on input line 48.
-LaTeX Info: Redefining \celsius on input line 48.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 49.
+Package gensymb Info: Math companion symbols declared on input line 49.
+LaTeX Info: Redefining \degree on input line 49.
+LaTeX Info: Redefining \celsius on input line 49.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 48.
-LaTeX Info: Redefining \ohm on input line 48.
-Package gensymb Info: Using \textohm for \ohm on input line 48.
-Package gensymb Info: Using \textmu for \micro on input line 48.
+erthousand on input line 49.
+LaTeX Info: Redefining \ohm on input line 49.
+Package gensymb Info: Using \textohm for \ohm on input line 49.
+Package gensymb Info: Using \textmu for \micro on input line 49.
 \c@lstlisting=\count375
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 49.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-
-LaTeX Warning: File `GatePYQs/Assignment1/Figs/GraphQ _5.png' not found on inpu
-t line 84.
-
-
-! Package pdftex.def Error: File `GatePYQs/Assignment1/Figs/GraphQ _5.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...]{GatePYQs/Assignment1/Figs/GraphQ _5.png}
-                                                  
-? 
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-84.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
+<Figs//GraphQ _5.png, id=7, 584.78474pt x 337.86224pt>
+File: Figs//GraphQ _5.png Graphic file (type png)
+<use Figs//GraphQ _5.png>
+Package pdftex.def Info: Figs//GraphQ _5.png  used on input line 85.
+(pdftex.def)             Requested size: 258.0pt x 149.0568pt.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figs//GraphQ _5.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
@@ -1529,88 +1508,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
+
+ []
+
+<Figs//GraphQ_29.png, id=151, 342.68025pt x 251.13824pt>
+File: Figs//GraphQ_29.png Graphic file (type png)
+<use Figs//GraphQ_29.png>
+Package pdftex.def Info: Figs//GraphQ_29.png  used on input line 313.
+(pdftex.def)             Requested size: 258.0pt x 189.08897pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--308
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
 
-LaTeX Warning: File `GatePYQs/Assignment1/Figs/GraphQ_29.png' not found on inpu
-t line 312.
-
-
-! Package pdftex.def Error: File `GatePYQs/Assignment1/Figs/GraphQ_29.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 ...{GatePYQs/Assignment1/Figs/GraphQ_29.png}
-                                                  
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
-
- []
-
-[6]
-
-LaTeX Warning: File `GatePYQs/Assignment1/Figs/GraphQ _33.png' not found on inp
-ut line 332.
-
-
-! Package pdftex.def Error: File `GatePYQs/Assignment1/Figs/GraphQ _33.png' not
- found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.332 ...GatePYQs/Assignment1/Figs/GraphQ _33.png}
-                                                  
-? 
-
+<Figs//GraphQ _33.png, id=152, 359.54324pt x 245.11575pt>
+File: Figs//GraphQ _33.png Graphic file (type png)
+<use Figs//GraphQ _33.png>
+Package pdftex.def Info: Figs//GraphQ _33.png  used on input line 333.
+(pdftex.def)             Requested size: 258.0pt x 175.89224pt.
+[6 <./Figs//GraphQ_29.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 336--338
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 353--356
 
  []
@@ -1620,7 +1583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--361
 
  []
 
-
+[7 <./Figs//GraphQ _33.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 364--366
 
  []
@@ -1635,24 +1598,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
-
-LaTeX Warning: File `GatePYQs/Assignment1/Figs/figQ_39.png' not found on input 
-line 384.
-
-
-! Package pdftex.def Error: File `GatePYQs/Assignment1/Figs/figQ_39.png' not fo
-und: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.384 ...h]{GatePYQs/Assignment1/Figs/figQ_39.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+<Figs//figQ_39.png, id=177, 386.04225pt x 146.949pt>
+File: Figs//figQ_39.png Graphic file (type png)
+<use Figs//figQ_39.png>
+Package pdftex.def Info: Figs//figQ_39.png  used on input line 384.
+(pdftex.def)             Requested size: 258.0pt x 98.2109pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
@@ -1663,7 +1613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
@@ -1673,25 +1623,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
+[8 <./Figs//figQ_39.png>]
+<Figs//Graph_Q41.png, id=198, 301.8778pt x 257.46187pt>
+File: Figs//Graph_Q41.png Graphic file (type png)
+<use Figs//Graph_Q41.png>
+Package pdftex.def Info: Figs//Graph_Q41.png  used on input line 415.
+(pdftex.def)             Requested size: 258.0pt x 220.03789pt.
 
-LaTeX Warning: File `GatePYQs/Assignment1/Figs/Graph_Q41.png' not found on inpu
-t line 415.
-
-
-! Package pdftex.def Error: File `GatePYQs/Assignment1/Figs/Graph_Q41.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.415 ...{GatePYQs/Assignment1/Figs/Graph_Q41.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9]
 Underfull \hbox (badness 10000) in paragraph at lines 440--442
 
  []
@@ -1701,7 +1639,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
-
+[9 <./Figs//Graph_Q41.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
@@ -1721,7 +1659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 466--468
 
  []
@@ -1741,12 +1679,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
@@ -1766,40 +1704,30 @@ Overfull \hbox (106.47719pt too wide) in paragraph at lines 520--529
 [][] 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 539--541
 
  []
 
-
-LaTeX Warning: File `GatePYQs/Assignment1/Figs/Graph_Q55.png' not found on inpu
-t line 552.
-
-
-! Package pdftex.def Error: File `GatePYQs/Assignment1/Figs/Graph_Q55.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.552 ...{GatePYQs/Assignment1/Figs/Graph_Q55.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+<Figs//Graph_Q55.png, id=253, 442.0515pt x 490.2315pt>
+File: Figs//Graph_Q55.png Graphic file (type png)
+<use Figs//Graph_Q55.png>
+Package pdftex.def Info: Figs//Graph_Q55.png  used on input line 552.
+(pdftex.def)             Requested size: 258.0pt x 286.12975pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 554--558
 
  []
 
-[12] [13] [14]
-<Figs/Graph_Q65.png, id=298, 457.71pt x 289.08pt>
-File: Figs/Graph_Q65.png Graphic file (type png)
-<use Figs/Graph_Q65.png>
-Package pdftex.def Info: Figs/Graph_Q65.png  used on input line 660.
+[12 <./Figs//Graph_Q55.png>] [13]
+<Figs//Graph_Q65.png, id=296, 457.71pt x 289.08pt>
+File: Figs//Graph_Q65.png Graphic file (type png)
+<use Figs//Graph_Q65.png>
+Package pdftex.def Info: Figs//Graph_Q65.png  used on input line 660.
 (pdftex.def)             Requested size: 258.0pt x 162.95114pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 ! Missing } inserted.
 <inserted text> 
@@ -1807,44 +1735,33 @@ Package pdftex.def Info: Figs/Graph_Q65.png  used on input line 660.
 l.672 \end{enumerate}
                      
 ? 
-[15 <./Figs/Graph_Q65.png>]
+[14] (./tables/key1.tex
+Overfull \vbox (167.93431pt too high) has occurred while \output is active []
 
-! LaTeX Error: File `GatePYQs/Assignment1/tables/key1.tex' not found.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored) (./main.aux)
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+[15 <./Figs//Graph_Q65.png>]) [16] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46965 strings out of 476091
- 1091006 string characters out of 5794082
- 1866330 words of memory out of 5000000
- 66324 multiletter control sequences out of 15000+600000
- 571446 words of font info for 149 fonts, out of 8000000 for 9000
+ 46789 strings out of 476091
+ 1082619 string characters out of 5794082
+ 1882330 words of memory out of 5000000
+ 66164 multiletter control sequences out of 15000+600000
+ 571170 words of font info for 148 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,11n,96p,1193b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,11n,96p,1193b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 325969 bytes).
+onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (16 pages, 711951 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
+ 427 PDF objects out of 1000 (max. 8388607)
  377 compressed objects within 4 object streams
- 257 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
