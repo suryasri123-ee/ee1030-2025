@@ -391,10 +391,12 @@
     \hfill (GATE CS 2009)
 
     \item Consider the following well-formed formulae:\\
-    I. $\neg_ \forall (P(x))x$\\
-    II. $\neg_ \exists (P(x))x$\\
-    III. $\neg_ \exists (\neg_ P(x))x$\\
-    IV. $\forall (\neg_ P(x))x$
+    \begin{enumerate}[label=\Roman*]
+        \item $\neg_ \forall (P(x))x$
+        \item $\neg_ \exists (P(x))x$
+        \item $\neg_ \exists (\neg_ P(x))x$
+        \item $\forall (\neg_ P(x))x$
+    \end{enumerate}
 
     Which of the above are equivalent ?
 
@@ -866,14 +868,12 @@
     \hfill (GATE CS 2009)
 
     \item Let $R and S$ be relational schemes such that $R= {a,b,c} and S = {c}$. Now consider the following queries on the database:\\
-    \begin{tabular}{ll}
-        I & $\pi_{R-S}(r)-\pi_{R-S}(\pi_{R-S}(r)\times s-\pi_{R-S,S}(r))$ \\
-        II & ${t|t \in \pi_{R-S}(r) \land \forall u \in s(\exists v \in r(u=v[s] \land t=v[R-S]))}$\\
-        III & ${t|t \in \pi_{R-S}(r) \land \forall u \in s(\exists v \in s(u=v[r] \land t=v[R-S]))}$\\ \\
-        IV & Select $R.a, R.b$\\
-           & from $R, S$\\
-           & where $R.c=S.c$
-    \end{tabular}\\
+    \begin{enumerate}[label=\Roman*]
+        \item $\pi_{R-S}(r)-\pi_{R-S}(\pi_{R-S}(r)\times s-\pi_{R-S,S}(r))$
+        \item ${t|t \in \pi_{R-S}(r) \land \forall u \in s(\exists v \in r(u=v[s] \land t=v[R-S]))}$
+        \item ${t|t \in \pi_{R-S}(r) \land \forall u \in s(\exists v \in s(u=v[r] \land t=v[R-S]))}$
+        \item Select $R.a, R.b$\\ from $R, S$\\where $R.c=S.c$
+    \end{enumerate}
 
     Which of the above queries are equivalent ?
     \begin{enumerate}
@@ -888,14 +888,12 @@
     \hfill (GATE CS 2009)
 
     \item In the RSA public key cryptosystem, the private and public keys are $(e, n) and (d, n)$respectively, where $n=p\star q and p and q$ are large primes. Besides, n is public and p and q are private. Let M be an integer such that $0<M<n$ and $o(n)=(p-1)(q-1)$. Now consider the following equations.\\
-    \begin{tabular}{ll}
-        I & $M' = M^e$  mod n\\
-         & $M = (M')^d$ mod n\\
-        II & $ed \equiv 1 $ mod n\\
-        III & $ed \equiv 1 $ mod $\phi(n)$\\ \\
-        IV & $M' = M^e$  mod $\phi(n)$\\
-           & $M = (M')^d$  mod $\phi(n)$\\
-    \end{tabular}\\
+    \begin{enumerate}[label=\Roman*]
+        \item $M' = M^e$  mod n\\ $M = (M')^d$ mod n
+        \item $ed \equiv 1 $ mod n
+        \item $ed \equiv 1 $ mod $\phi(n)$
+        \item $M' = M^e$  mod $\phi(n)$\\ $M = (M')^d$  mod $\phi(n)$
+    \end{enumerate}
     Which of the above equations correctly represent RSA cryptosystem?
 
     \begin{enumerate}
