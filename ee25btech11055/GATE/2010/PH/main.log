@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.8.6)  10 AUG 2025 14:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.8.6)  11 AUG 2025 16:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1464,95 +1464,95 @@ File: figs/35.png Graphic file (type png)
 Package pdftex.def Info: figs/35.png  used on input line 368.
 (pdftex.def)             Requested size: 103.19843pt x 109.86024pt.
  [5 <./figs/35.png>]
-Overfull \hbox (20.11162pt too wide) in paragraph at lines 376--377
+Overfull \hbox (22.87157pt too wide) in paragraph at lines 376--378
 []\OT1/txr/m/n/12 Match the typ-i-cal spec-tra of sta-ble molecules with the co
-r-re-spond-ing wave-number range $[]$ 
+r-re-spond-ing wave-number range  $[]$ 
  []
 
-<figs/38.png, id=225, 81.30376pt x 82.05656pt>
+<figs/38.png, id=224, 81.30376pt x 82.05656pt>
 File: figs/38.png Graphic file (type png)
 <use figs/38.png>
-Package pdftex.def Info: figs/38.png  used on input line 414.
+Package pdftex.def Info: figs/38.png  used on input line 415.
 (pdftex.def)             Requested size: 51.60315pt x 52.08153pt.
-<figs/39.png, id=226, 305.64188pt x 101.62968pt>
+<figs/39.png, id=225, 305.64188pt x 101.62968pt>
 File: figs/39.png Graphic file (type png)
 <use figs/39.png>
-Package pdftex.def Info: figs/39.png  used on input line 425.
+Package pdftex.def Info: figs/39.png  used on input line 426.
 (pdftex.def)             Requested size: 412.80157pt x 137.26857pt.
 [6 <./figs/38.png> <./figs/39.png>]
-<figs/40.png, id=259, 103.13531pt x 83.5622pt>
+<figs/40.png, id=258, 103.13531pt x 83.5622pt>
 File: figs/40.png Graphic file (type png)
 <use figs/40.png>
-Package pdftex.def Info: figs/40.png  used on input line 436.
+Package pdftex.def Info: figs/40.png  used on input line 437.
 (pdftex.def)             Requested size: 154.80157pt x 125.43477pt.
-<figs/40a.png, id=260, 151.3153pt x 91.09032pt>
+<figs/40a.png, id=259, 151.3153pt x 91.09032pt>
 File: figs/40a.png Graphic file (type png)
 <use figs/40a.png>
-Package pdftex.def Info: figs/40a.png  used on input line 441.
+Package pdftex.def Info: figs/40a.png  used on input line 442.
 (pdftex.def)             Requested size: 232.19843pt x 139.78328pt.
-<figs/40b.png, id=261, 165.61874pt x 94.10156pt>
+<figs/40b.png, id=260, 165.61874pt x 94.10156pt>
 File: figs/40b.png Graphic file (type png)
 <use figs/40b.png>
-Package pdftex.def Info: figs/40b.png  used on input line 442.
+Package pdftex.def Info: figs/40b.png  used on input line 443.
 (pdftex.def)             Requested size: 232.19843pt x 131.93797pt.
-<figs/40c.png, id=262, 155.07938pt x 97.86563pt>
+<figs/40c.png, id=261, 155.07938pt x 97.86563pt>
 File: figs/40c.png Graphic file (type png)
 <use figs/40c.png>
-Package pdftex.def Info: figs/40c.png  used on input line 443.
+Package pdftex.def Info: figs/40c.png  used on input line 444.
 (pdftex.def)             Requested size: 232.19843pt x 146.53374pt.
-<figs/40d.png, id=263, 163.3603pt x 96.36pt>
+<figs/40d.png, id=262, 163.3603pt x 96.36pt>
 File: figs/40d.png Graphic file (type png)
 <use figs/40d.png>
-Package pdftex.def Info: figs/40d.png  used on input line 444.
+Package pdftex.def Info: figs/40d.png  used on input line 445.
 (pdftex.def)             Requested size: 232.19843pt x 136.96445pt.
  [7 <./figs/40.png>] [8 <./figs/40a.png> <./figs/40b.png> <./figs/40c.png> <./f
 igs/40d.png>]
-<figs/41a.png, id=286, 191.21437pt x 56.46094pt>
+<figs/41a.png, id=285, 191.21437pt x 56.46094pt>
 File: figs/41a.png Graphic file (type png)
 <use figs/41a.png>
-Package pdftex.def Info: figs/41a.png  used on input line 452.
+Package pdftex.def Info: figs/41a.png  used on input line 453.
 (pdftex.def)             Requested size: 119.33871pt x 35.23802pt.
-<figs/41b.png, id=287, 147.55125pt x 37.64063pt>
+<figs/41b.png, id=286, 147.55125pt x 37.64063pt>
 File: figs/41b.png Graphic file (type png)
 <use figs/41b.png>
-Package pdftex.def Info: figs/41b.png  used on input line 453.
+Package pdftex.def Info: figs/41b.png  used on input line 454.
 (pdftex.def)             Requested size: 119.33871pt x 30.44392pt.
-<figs/41c.png, id=288, 207.77625pt x 70.76437pt>
+<figs/41c.png, id=287, 207.77625pt x 70.76437pt>
 File: figs/41c.png Graphic file (type png)
 <use figs/41c.png>
-Package pdftex.def Info: figs/41c.png  used on input line 454.
+Package pdftex.def Info: figs/41c.png  used on input line 455.
 (pdftex.def)             Requested size: 119.33871pt x 40.64383pt.
-<figs/41d.png, id=289, 140.02313pt x 42.1575pt>
+<figs/41d.png, id=288, 140.02313pt x 42.1575pt>
 File: figs/41d.png Graphic file (type png)
 <use figs/41d.png>
-Package pdftex.def Info: figs/41d.png  used on input line 455.
+Package pdftex.def Info: figs/41d.png  used on input line 456.
 (pdftex.def)             Requested size: 119.33871pt x 35.93115pt.
  [9 <./figs/41a.png> <./figs/41b.png> <./figs/41c.png> <./figs/41d.png>]
-<figs/47.png, id=328, 115.93312pt x 134.00063pt>
+<figs/47.png, id=327, 115.93312pt x 134.00063pt>
 File: figs/47.png Graphic file (type png)
 <use figs/47.png>
-Package pdftex.def Info: figs/47.png  used on input line 502.
+Package pdftex.def Info: figs/47.png  used on input line 503.
 (pdftex.def)             Requested size: 206.39685pt x 238.58371pt.
  [10 <./figs/47.png>]
-<figs/50a.png, id=350, 119.69719pt x 76.03406pt>
+<figs/50a.png, id=349, 119.69719pt x 76.03406pt>
 File: figs/50a.png Graphic file (type png)
 <use figs/50a.png>
-Package pdftex.def Info: figs/50a.png  used on input line 538.
+Package pdftex.def Info: figs/50a.png  used on input line 539.
 (pdftex.def)             Requested size: 180.60315pt x 114.73065pt.
-<figs/50b.png, id=351, 118.94438pt x 82.05656pt>
+<figs/50b.png, id=350, 118.94438pt x 82.05656pt>
 File: figs/50b.png Graphic file (type png)
 <use figs/50b.png>
-Package pdftex.def Info: figs/50b.png  used on input line 539.
+Package pdftex.def Info: figs/50b.png  used on input line 540.
 (pdftex.def)             Requested size: 180.60315pt x 124.59953pt.
-<figs/50c.png, id=352, 115.18031pt x 88.83188pt>
+<figs/50c.png, id=351, 115.18031pt x 88.83188pt>
 File: figs/50c.png Graphic file (type png)
 <use figs/50c.png>
-Package pdftex.def Info: figs/50c.png  used on input line 540.
+Package pdftex.def Info: figs/50c.png  used on input line 541.
 (pdftex.def)             Requested size: 180.60315pt x 139.29825pt.
-<figs/50d.png, id=353, 127.22531pt x 85.06781pt>
+<figs/50d.png, id=352, 127.22531pt x 85.06781pt>
 File: figs/50d.png Graphic file (type png)
 <use figs/50d.png>
-Package pdftex.def Info: figs/50d.png  used on input line 541.
+Package pdftex.def Info: figs/50d.png  used on input line 542.
 (pdftex.def)             Requested size: 180.60315pt x 120.76337pt.
  [11 <./figs/50a.png> <./figs/50b.png> <./figs/50c.png> <./figs/50d.png>] [12] 
 [13] [14]
@@ -1561,8 +1561,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32482 strings out of 477985
- 633961 string characters out of 5839381
+ 32480 strings out of 477985
+ 634019 string characters out of 5839381
  1882388 words of memory out of 6000000
  51632 multiletter control sequences out of 15000+600000
  573816 words of font info for 152 fonts, out of 8000000 for 9000
@@ -1577,10 +1577,10 @@ blic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 146441 bytes).
+Output written on main.pdf (14 pages, 146175 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 489 compressed objects within 5 object streams
- 348 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 346 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
