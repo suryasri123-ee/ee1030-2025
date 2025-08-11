@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.5)  11 AUG 2025 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.5)  11 AUG 2025 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1498,15 +1498,8 @@ File: Figs//GraphQ _5.png Graphic file (type png)
 <use Figs//GraphQ _5.png>
 Package pdftex.def Info: Figs//GraphQ _5.png  used on input line 85.
 (pdftex.def)             Requested size: 258.0pt x 149.0568pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figs//GraphQ _5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
@@ -1514,138 +1507,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+[2 <./Figs//GraphQ _5.png>] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
-<Figs//GraphQ_29.png, id=151, 342.68025pt x 251.13824pt>
+<Figs//GraphQ_29.png, id=152, 342.68025pt x 251.13824pt>
 File: Figs//GraphQ_29.png Graphic file (type png)
 <use Figs//GraphQ_29.png>
-Package pdftex.def Info: Figs//GraphQ_29.png  used on input line 313.
+Package pdftex.def Info: Figs//GraphQ_29.png  used on input line 315.
 (pdftex.def)             Requested size: 258.0pt x 189.08897pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--326
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
-<Figs//GraphQ _33.png, id=152, 359.54324pt x 245.11575pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
+
+ []
+
+<Figs//GraphQ _33.png, id=153, 359.54324pt x 245.11575pt>
 File: Figs//GraphQ _33.png Graphic file (type png)
 <use Figs//GraphQ _33.png>
-Package pdftex.def Info: Figs//GraphQ _33.png  used on input line 333.
+Package pdftex.def Info: Figs//GraphQ _33.png  used on input line 337.
 (pdftex.def)             Requested size: 258.0pt x 175.89224pt.
 [6 <./Figs//GraphQ_29.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 336--338
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--356
+Underfull \hbox (badness 10000) in paragraph at lines 359--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
 
  []
 
 [7 <./Figs//GraphQ _33.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 364--366
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-<Figs//figQ_39.png, id=177, 386.04225pt x 146.949pt>
+<Figs//figQ_39.png, id=180, 386.04225pt x 146.949pt>
 File: Figs//figQ_39.png Graphic file (type png)
 <use Figs//figQ_39.png>
-Package pdftex.def Info: Figs//figQ_39.png  used on input line 384.
+Package pdftex.def Info: Figs//figQ_39.png  used on input line 390.
 (pdftex.def)             Requested size: 258.0pt x 98.2109pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 
  []
 
 [8 <./Figs//figQ_39.png>]
-<Figs//Graph_Q41.png, id=198, 301.8778pt x 257.46187pt>
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+<Figs//Graph_Q41.png, id=199, 301.8778pt x 257.46187pt>
 File: Figs//Graph_Q41.png Graphic file (type png)
 <use Figs//Graph_Q41.png>
-Package pdftex.def Info: Figs//Graph_Q41.png  used on input line 415.
+Package pdftex.def Info: Figs//Graph_Q41.png  used on input line 423.
 (pdftex.def)             Requested size: 258.0pt x 220.03789pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 440--442
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 445--447
-
- []
-
 [9 <./Figs//Graph_Q41.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
+Underfull \hbox (badness 10000) in paragraph at lines 450--452
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+Underfull \hbox (badness 10000) in paragraph at lines 455--457
 
  []
 
@@ -1655,12 +1647,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--461
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--468
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
 
  []
 
@@ -1670,85 +1662,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 471--472
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
 
  []
 
 
-Overfull \hbox (23.19707pt too wide) in paragraph at lines 503--511
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+
+ []
+
+
+Overfull \hbox (23.19707pt too wide) in paragraph at lines 513--521
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 
- []
-
-
-Overfull \hbox (106.47719pt too wide) in paragraph at lines 520--529
-[][] 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 539--541
+Overfull \hbox (106.47719pt too wide) in paragraph at lines 530--539
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--551
 
  []
 
-<Figs//Graph_Q55.png, id=253, 442.0515pt x 490.2315pt>
+<Figs//Graph_Q55.png, id=254, 442.0515pt x 490.2315pt>
 File: Figs//Graph_Q55.png Graphic file (type png)
 <use Figs//Graph_Q55.png>
-Package pdftex.def Info: Figs//Graph_Q55.png  used on input line 552.
+Package pdftex.def Info: Figs//Graph_Q55.png  used on input line 562.
 (pdftex.def)             Requested size: 258.0pt x 286.12975pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 554--558
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--570
 
  []
 
-[12 <./Figs//Graph_Q55.png>] [13]
-<Figs//Graph_Q65.png, id=296, 457.71pt x 289.08pt>
+[12] [13 <./Figs//Graph_Q55.png>] [14]
+<Figs//Graph_Q65.png, id=321, 457.71pt x 289.08pt>
 File: Figs//Graph_Q65.png Graphic file (type png)
 <use Figs//Graph_Q65.png>
-Package pdftex.def Info: Figs//Graph_Q65.png  used on input line 660.
+Package pdftex.def Info: Figs//Graph_Q65.png  used on input line 672.
 (pdftex.def)             Requested size: 258.0pt x 162.95114pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.672 \end{enumerate}
+l.686 \end{enumerate}
                      
 ? 
-[14] (./tables/key1.tex
-Overfull \vbox (167.93431pt too high) has occurred while \output is active []
+[15 <./Figs//Graph_Q65.png>] (./tables/key1.tex [16]) [17] (./main.aux)
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-[15 <./Figs//Graph_Q65.png>]) [16] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46789 strings out of 476091
- 1082619 string characters out of 5794082
+ 46802 strings out of 476091
+ 1082736 string characters out of 5794082
  1882330 words of memory out of 5000000
- 66164 multiletter control sequences out of 15000+600000
- 571170 words of font info for 148 fonts, out of 8000000 for 9000
+ 66167 multiletter control sequences out of 15000+600000
+ 572486 words of font info for 150 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,11n,96p,1193b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1758,10 +1759,10 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 711951 bytes).
+Output written on main.pdf (17 pages, 712777 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
- 258 named destinations out of 1000 (max. 500000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 266 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
