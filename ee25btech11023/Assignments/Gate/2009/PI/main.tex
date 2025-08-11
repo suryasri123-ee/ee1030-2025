@@ -293,6 +293,7 @@ x + 2x_2 - 2x_3 = 4 \\
     \centering
     \includegraphics[width=0.5\linewidth]{figs/1.png}
     \caption{}
+    \label{fig:placeholder}
 \end{figure} 
 
 The nature of the displacement curve is:
@@ -365,8 +366,8 @@ with boundary conditions: (i) $\frac{dy}{dx} = 1$ at $x = 0$, (ii) $\frac{dy}{dx
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{figs/2.png}
-    \label{fig:placeholder}
     \caption{}
+    \label{fig:placeholder}
 \end{figure} 
 
 \begin{enumerate}
@@ -381,13 +382,15 @@ with boundary conditions: (i) $\frac{dy}{dx} = 1$ at $x = 0$, (ii) $\frac{dy}{dx
 
 \item The area under the curve shown, between $x=1$ and $x=3$, to be evaluated using the trapezoidal rule. The following points on the curve are given:
 
-$$\input{tables/table3}$$
+\begin{center}
+\input{tables/table3}
+\end{center}
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.3\linewidth]{figs/3.png}
-    \label{fig:placeholder}
     \caption{}
+    \label{fig:placeholder}
 \end{figure} 
 \begin{center}
 
@@ -435,7 +438,9 @@ The evaluated area (in m$^2$) will be
 
 \hfill (GATE PI 2009)
 \item Consider steady flow of water in a situation where two pipe lines (Pipe 1 and Pipe 2) combine into a single pipeline (Pipe 3) as shown in the figure. The cross-sectional areas of all three pipelines are constant. The following data is given : \\
-$$\input{tables/table2}$$
+\begin{center}
+\input{tables/table2}
+\end{center}
 Assuming water properties and velocities to be uniform across the cross sections of the inlets and the outlet, the exit velocity (in m/s) in pipe 3 is
 \begin{enumerate}
 \begin{multicols}{4}
@@ -479,9 +484,9 @@ Assuming water properties and velocities to be uniform across the cross sections
 \hfill (GATE PI 2009)
 \item Consider the joint probability mass function of random variables X and Y as shown in the table below: \\
 For instance, $P\cbrak{X=1, Y=2}$ = 0.3
-$$
+\begin{center}
 \input{tables/table1}
-$$
+\end{center}
 The value of $P\cbrak{X=2|Y=2}$ is
 
 \begin{enumerate}
@@ -774,13 +779,9 @@ x_1, x_2, x_3 \geq 0
 \end{align*}
 The associated simplex tableau at optimality is shown below, where $s_1$ and $s_2$ represent the slacks for constraints 1 and 2 respectively.
 
-$$\begin{array}{c|ccccc|c}
-\text{} & x_1 & x_2 & x_3 & s_1 & s_2 & \text{RHS} \\ \hline
-z\text{-row} & 0 & 0 & 2 & 1 & 2 & 110 \\ \hline
-x_1 & 1 & 0 & 1 & 1 & -1 & 20 \\
-x_2 & 0 & 1 & 0 & -1 & 2 & 10 \\
-\end{array}
-$$
+\begin{center}
+\input{tables/table4}
+\end{center}
 
 \item Basic variables in the optimal solution are
 \begin{enumerate}
@@ -806,8 +807,10 @@ $$
 \textbf{Common Data for Questions 53 and 54:}
 
 
-In acceptance sampling, the probability distribution of the number of defectives X in a sample can be approximated as a Poisson distribution,\\
-$$\text{Prob}\cbrak{X = k}  = \frac{(np)^k e^{-np}}{k!}\ k=0,1,2,...$$
+In acceptance sampling, the probability distribution of the number of defectives X in a sample can be approximated as a Poisson distribution
+\begin{align*} 
+\text{Prob}\cbrak{X = k}  = \frac{(np)^k e^{-np}}{k!}\ k=0,1,2,...
+\end{align*}
 where $n$ is the sample size and $p$ is the actual proportion or percent of defective items in a batch.\\
 
 A company receives a shipment batch of $N = 2000$ items. The sampling plan followed by the company is to sample $n = 50$ items from the batch and accept the batch if the number of defective items is 2 or less. Let the Acceptable Quality Level (AQL) be 0.02 and the Lot Tolerance Percent Defective (LTPD) be 0.05.

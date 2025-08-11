@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.8.6)  11 AUG 2025 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.8.6)  11 AUG 2025 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1543,58 +1543,46 @@ Package pdftex.def Info: figs/1.png  used on input line 294.
 <figs/2.png, id=157, 194.52675pt x 155.3805pt>
 File: figs/2.png Graphic file (type png)
 <use figs/2.png>
-Package pdftex.def Info: figs/2.png  used on input line 367.
+Package pdftex.def Info: figs/2.png  used on input line 368.
 (pdftex.def)             Requested size: 234.8775pt x 187.61975pt.
  (./tables/table3.tex) [5 <./figs/2.png>]
 <figs/3.png, id=184, 142.131pt x 154.176pt>
 File: figs/3.png Graphic file (type png)
 <use figs/3.png>
-Package pdftex.def Info: figs/3.png  used on input line 388.
+Package pdftex.def Info: figs/3.png  used on input line 391.
 (pdftex.def)             Requested size: 140.92793pt x 152.877pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 
  []
 
-[6 <./figs/3.png>] (./tables/table2.tex) (./tables/table1.tex) [7] [8]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 622--629
+(./tables/table2.tex) [6 <./figs/3.png>] (./tables/table1.tex) [7] [8]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 627--634
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 622--629
+Overfull \hbox (24.0pt too wide) in paragraph at lines 627--634
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 622--629
+Overfull \hbox (24.0pt too wide) in paragraph at lines 627--634
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 622--629
+Overfull \hbox (24.0pt too wide) in paragraph at lines 627--634
 [] 
  []
-
-
-Overfull \vbox (6.36992pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (6.36992pt too high) has occurred while \output is active []
-
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 761--762
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 809--810
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
+[10] (./tables/table4.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 813--815
 
  []
 
@@ -1612,10 +1600,10 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 45539 strings out of 478287
- 1041072 string characters out of 5849290
+ 45545 strings out of 478287
+ 1041185 string characters out of 5849290
  1540992 words of memory out of 5000000
- 62637 multiletter control sequences out of 15000+600000
+ 62640 multiletter control sequences out of 15000+600000
  532204 words of font info for 150 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,10n,96p,482b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1627,7 +1615,7 @@ onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 303300 bytes).
+Output written on main.pdf (13 pages, 303316 bytes).
 PDF statistics:
  545 PDF objects out of 1000 (max. 8388607)
  502 compressed objects within 6 object streams
