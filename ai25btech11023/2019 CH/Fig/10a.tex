@@ -1,0 +1,20 @@
+
+\resizebox{0.15\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\huge]
+
+
+\draw (1.5,14.25) to[short] (4.25,14.25);
+\draw (1.5,13.5) to[short] (4.25,13.5);
+\draw [->, >=Stealth] (4.25,14.25) -- (4.25,13);
+\draw  (3,13) rectangle (5.75,10);
+\draw  (4,11.5) ellipse (0.5cm and 0.25cm);
+\draw  (5,11.5) ellipse (0.5cm and 0.25cm);
+\draw [short] (4.5,11.5) -- (5.25,13.25);
+\draw [short] (4.5,10) -- (4.5,9.5);
+\draw [->, >=Stealth] (4.5,9.5) -- (7,9.5);
+\node [font=\normalsize] at (1,14.25) {\textbf{E}};
+\node [font=\normalsize] at (1,13.75) {\textbf{D}};
+\node [font=\large] at (4.5,10.25) {\textbf{CSTR}};
+\end{circuitikz}
+}%
