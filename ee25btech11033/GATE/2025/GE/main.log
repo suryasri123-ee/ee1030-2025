@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  9 AUG 2025 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  12 AUG 2025 01:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,9 +1530,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--145
 
  []
 
-
-LaTeX Warning: Reference `fig:fig.1' on page 2 undefined on input line 164.
-
 <figs/fig1.png, id=39, 489.83pt x 241.90375pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
@@ -1553,17 +1550,11 @@ s been already used, duplicate ignored
 l.176 \item R
              S's yearly batting average is consistently higher than that of ...
  <./figs/fig1.png>]
-
-LaTeX Warning: Reference `figs:fig2' on page 3 undefined on input line 180.
-
 <figs/fig2.png, id=64, 436.63126pt x 202.7575pt>
 File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
 Package pdftex.def Info: figs/fig2.png  used on input line 184.
 (pdftex.def)             Requested size: 154.80157pt x 71.88504pt.
-
-LaTeX Warning: Reference `figs:fig3' on page 3 undefined on input line 189.
-
 <figs/fig3.png, id=65, 169.63374pt x 148.555pt>
 File: figs/fig3.png Graphic file (type png)
 <use figs/fig3.png>
@@ -1596,9 +1587,6 @@ l.243 \item
             $1$:$20$ <./figs/fig2.png> <./figs/fig3.png>]
 
 [4]
-
-LaTeX Warning: Reference `figs:fig4' on page 5 undefined on input line 355.
-
 <figs/fig4.png, id=132, 240.9pt x 148.555pt>
 File: figs/fig4.png Graphic file (type png)
 <use figs/fig4.png>
@@ -1634,9 +1622,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--410
  []
 
 
-LaTeX Warning: Reference `figs:fig5' on page 6 undefined on input line 425.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 425--427
 
  []
@@ -1660,10 +1645,11 @@ Type  H <return>  for immediate help.
                                                   
 l.434 
       
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 ? 
-
-LaTeX Warning: Reference `figs:fig6' on page 6 undefined on input line 451.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 451--456
 
@@ -1684,9 +1670,6 @@ s been already used, duplicate ignored
 l.464 \item A
              OB = $30\degree00'15''$, BOC = $30\degree00'00''$, AOC = $60\de...
  <./figs/fig5.png>]
-
-LaTeX Warning: Reference `figs:fig7' on page 7 undefined on input line 471.
-
 <figs/fig7.png, id=194, 513.92pt x 242.9075pt>
 File: figs/fig7.png Graphic file (type png)
 <use figs/fig7.png>
@@ -1770,6 +1753,10 @@ Type  H <return>  for immediate help.
                                                   
 l.787 \end{figure}\\.
                      
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 ? 
 
 Underfull \hbox (badness 10000) in paragraph at lines 791--795
@@ -1798,9 +1785,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 810--815
 
 
 [13]
-
-LaTeX Warning: Reference `figs:fig9' on page 14 undefined on input line 854.
-
 <figs/fig9.png, id=393, 584.1825pt x 509.905pt>
 File: figs/fig9.png Graphic file (type png)
 <use figs/fig9.png>
@@ -1810,9 +1794,6 @@ Package pdftex.def Info: figs/fig9.png  used on input line 857.
 Underfull \hbox (badness 10000) in paragraph at lines 854--860
 
  []
-
-
-LaTeX Warning: Reference `figs:fig10' on page 14 undefined on input line 903.
 
 <figs/fig10.png, id=394, 459.7175pt x 367.3725pt>
 File: figs/fig10.png Graphic file (type png)
@@ -1852,9 +1833,6 @@ as been already used, duplicate ignored
 l.980 \item F
              uzzy C-means clustering is a supervised classification method <./f
 igs/fig10.png>]
-
-LaTeX Warning: Reference `figs:fig11' on page 16 undefined on input line 1076.
-
 <figs/fig11.png, id=453, 616.3025pt x 523.9575pt>
 File: figs/fig11.png Graphic file (type png)
 <use figs/fig11.png>
@@ -1887,6 +1865,10 @@ Type  H <return>  for immediate help.
                                                   
 l.1136 \end{figure}\\.
                       
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 ? 
 
 
@@ -1895,9 +1877,6 @@ l.1136 \end{figure}\\.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1914,11 +1893,11 @@ Package rerunfilecheck Info: Checksums for `main.out':
 Here is how much of TeX's memory you used:
  48496 strings out of 473190
  1132547 string characters out of 5715801
- 1754245 words of memory out of 5000000
+ 1754244 words of memory out of 5000000
  70626 multiletter control sequences out of 15000+600000
  646358 words of font info for 233 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,19n,103p,1172b,730s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,19n,103p,1172b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
@@ -1926,7 +1905,7 @@ e/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2025/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 497517 bytes).
+Output written on main.pdf (17 pages, 496358 bytes).
 PDF statistics:
  601 PDF objects out of 1000 (max. 8388607)
  540 compressed objects within 6 object streams
