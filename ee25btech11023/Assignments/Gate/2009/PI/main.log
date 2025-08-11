@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.8.6)  11 AUG 2025 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.8.6)  11 AUG 2025 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1476,45 +1476,40 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-4.
+6.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
@@ -1524,12 +1519,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
@@ -1537,51 +1537,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--217
 <figs/1.png, id=128, 524.71031pt x 176.91093pt>
 File: figs/1.png Graphic file (type png)
 <use figs/1.png>
-Package pdftex.def Info: figs/1.png  used on input line 292.
+Package pdftex.def Info: figs/1.png  used on input line 294.
 (pdftex.def)             Requested size: 234.8775pt x 79.19077pt.
  [4 <./figs/1.png>]
-<figs/2.png, id=162, 194.52675pt x 155.3805pt>
+<figs/2.png, id=157, 194.52675pt x 155.3805pt>
 File: figs/2.png Graphic file (type png)
 <use figs/2.png>
-Package pdftex.def Info: figs/2.png  used on input line 365.
+Package pdftex.def Info: figs/2.png  used on input line 367.
 (pdftex.def)             Requested size: 234.8775pt x 187.61975pt.
- (./tables/table3.tex)
-<figs/3.png, id=163, 142.131pt x 154.176pt>
+ (./tables/table3.tex) [5 <./figs/2.png>]
+<figs/3.png, id=184, 142.131pt x 154.176pt>
 File: figs/3.png Graphic file (type png)
 <use figs/3.png>
-Package pdftex.def Info: figs/3.png  used on input line 386.
+Package pdftex.def Info: figs/3.png  used on input line 388.
 (pdftex.def)             Requested size: 140.92793pt x 152.877pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./figs/2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
 
  []
 
-(./tables/table2.tex) [6 <./figs/3.png>] (./tables/table1.tex) [7] [8]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 620--627
+[6 <./figs/3.png>] (./tables/table2.tex) (./tables/table1.tex) [7] [8]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 622--629
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 620--627
+Overfull \hbox (24.0pt too wide) in paragraph at lines 622--629
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 620--627
+Overfull \hbox (24.0pt too wide) in paragraph at lines 622--629
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 620--627
+Overfull \hbox (24.0pt too wide) in paragraph at lines 622--629
 [] 
  []
+
+
+Overfull \vbox (6.36992pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (6.36992pt too high) has occurred while \output is active []
+
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 759--760
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
 
  []
 
@@ -1595,7 +1598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 810--812
 
  []
 
-[11] [12] (./main.aux)
+[11] [12] [13] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1610,12 +1613,12 @@ Package rerunfilecheck Info: Checksums for `main.out':
  ) 
 Here is how much of TeX's memory you used:
  45539 strings out of 478287
- 1041079 string characters out of 5849290
- 1542992 words of memory out of 5000000
- 62638 multiletter control sequences out of 15000+600000
+ 1041072 string characters out of 5849290
+ 1540992 words of memory out of 5000000
+ 62637 multiletter control sequences out of 15000+600000
  532204 words of font info for 150 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,10n,96p,480b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,10n,96p,482b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1624,10 +1627,10 @@ onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 302605 bytes).
+Output written on main.pdf (13 pages, 303300 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 498 compressed objects within 5 object streams
- 364 named destinations out of 1000 (max. 500000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 365 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
