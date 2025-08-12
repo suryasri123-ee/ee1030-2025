@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  11 AUG 2025 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  12 AUG 2025 07:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1686,96 +1686,96 @@ e.tex
 File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 41.
+h' as default language. on input line 42.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
-1.
+2.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 41.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 42.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-41.
+42.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 42.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-41.
+42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 42.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-41.
+42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 42.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 4
-1.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <5> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <5> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <7> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <7> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <11> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <11> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 41.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 42.
 
 -- Lines per column: 45 (approximate, difference = 0.60239pt).
 *geometry* driver: auto-detecting
@@ -1814,15 +1814,15 @@ LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
 
 \symgns@font=\mathgroup15
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 41.
-Package gensymb Info: Math companion symbols declared on input line 41.
-LaTeX Info: Redefining \degree on input line 41.
-LaTeX Info: Redefining \celsius on input line 41.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 42.
+Package gensymb Info: Math companion symbols declared on input line 42.
+LaTeX Info: Redefining \degree on input line 42.
+LaTeX Info: Redefining \celsius on input line 42.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 41.
-LaTeX Info: Redefining \ohm on input line 41.
-Package gensymb Info: Using \textohm for \ohm on input line 41.
-Package gensymb Info: Using \textmu for \micro on input line 41.
+erthousand on input line 42.
+LaTeX Info: Redefining \ohm on input line 42.
+Package gensymb Info: Using \textohm for \ohm on input line 42.
+Package gensymb Info: Using \textmu for \micro on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1830,7 +1830,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 41.
+or `english'. on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1872,43 +1872,43 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 42.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 \c@lstlisting=\count397
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 66
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 67
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-6.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-6.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-6.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
@@ -1916,54 +1916,54 @@ File: ts1txr.fd 2000/12/15 v3.1
 <figs/image_1.png, id=31, 168.63pt x 281.55188pt>
 File: figs/image_1.png Graphic file (type png)
 <use figs/image_1.png>
-Package pdftex.def Info: figs/image_1.png  used on input line 89.
+Package pdftex.def Info: figs/image_1.png  used on input line 91.
 (pdftex.def)             Requested size: 109.25969pt x 182.42656pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./figs/image_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 [2]
-<figs/image(q9).png, id=85, 549.55313pt x 400.49625pt>
-File: figs/image(q9).png Graphic file (type png)
-<use figs/image(q9).png>
-Package pdftex.def Info: figs/image(q9).png  used on input line 183.
+<figs/image_2.png, id=85, 549.55313pt x 400.49625pt>
+File: figs/image_2.png Graphic file (type png)
+<use figs/image_2.png>
+Package pdftex.def Info: figs/image_2.png  used on input line 185.
 (pdftex.def)             Requested size: 182.09764pt x 132.70193pt.
 
 
-LaTeX Warning: Reference `figure2' on page 3 undefined on input line 187.
+LaTeX Warning: Reference `figure2' on page 3 undefined on input line 189.
 
-<figs/image(q10).png, id=86, 336.50719pt x 268.75406pt>
-File: figs/image(q10).png Graphic file (type png)
-<use figs/image(q10).png>
-Package pdftex.def Info: figs/image(q10).png  used on input line 202.
+<figs/image_3.png, id=86, 336.50719pt x 268.75406pt>
+File: figs/image_3.png Graphic file (type png)
+<use figs/image_3.png>
+Package pdftex.def Info: figs/image_3.png  used on input line 204.
 (pdftex.def)             Requested size: 182.09764pt x 145.43259pt.
 
-LaTeX Warning: Reference `figure3' on page 3 undefined on input line 206.
+LaTeX Warning: Reference `figure3' on page 3 undefined on input line 208.
 
-[3 <./figs/image(q9).png> <./figs/image(q10).png>] [4]
-Underfull \hbox (badness 2644) in paragraph at lines 321--324
+[3 <./figs/image_2.png> <./figs/image_3.png>] [4]
+Underfull \hbox (badness 2644) in paragraph at lines 323--326
 []\OT1/txr/m/n/10 Which of the fol-low-ing causes 'Type-I' set-tling in a sed-i
 -men-ta-tion tank?
  []
 
 
-LaTeX Warning: Reference `figure4' on page 5 undefined on input line 339.
+LaTeX Warning: Reference `figure4' on page 5 undefined on input line 341.
 
-<figs/image(q11).png, id=138, 554.07pt x 136.25906pt>
-File: figs/image(q11).png Graphic file (type png)
-<use figs/image(q11).png>
-Package pdftex.def Info: figs/image(q11).png  used on input line 343.
+<figs/image_4.png, id=138, 554.07pt x 136.25906pt>
+File: figs/image_4.png Graphic file (type png)
+<use figs/image_4.png>
+Package pdftex.def Info: figs/image_4.png  used on input line 345.
 (pdftex.def)             Requested size: 273.14647pt x 67.17294pt.
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 354--358
+Underfull \hbox (badness 10000) in paragraph at lines 356--360
 
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 382--385
+Underfull \hbox (badness 1466) in paragraph at lines 384--387
 []\OT1/txr/m/n/10 Chlorine is most ef-fec-tive as a wa-ter dis-in-fec-tant at a
  pH of [][][][][][].
  []
@@ -1971,31 +1971,31 @@ Underfull \hbox (badness 1466) in paragraph at lines 382--385
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./figs/image(q11).png>]
+ [6 <./figs/image_4.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
+Underfull \hbox (badness 10000) in paragraph at lines 459--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--528
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
 
  []
 
@@ -2003,22 +2003,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--528
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 590--591
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 647--648
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--655
+Underfull \hbox (badness 10000) in paragraph at lines 657--659
 
  []
 
@@ -2044,7 +2044,7 @@ Package rerunfilecheck Info: Checksums for `main.out':
  ) 
 Here is how much of TeX's memory you used:
  52637 strings out of 476091
- 1240130 string characters out of 5794081
+ 1240074 string characters out of 5794081
  1870330 words of memory out of 5000000
  71912 multiletter control sequences out of 15000+600000
  582231 words of font info for 174 fonts, out of 8000000 for 9000
@@ -2060,7 +2060,7 @@ share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on main.pdf (13 pages, 459887 bytes).
+Output written on main.pdf (13 pages, 459823 bytes).
 PDF statistics:
  479 PDF objects out of 1000 (max. 8388607)
  415 compressed objects within 5 object streams

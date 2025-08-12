@@ -31,7 +31,8 @@
 \usepackage{color}                                            
 \usepackage{array}                                            
 \usepackage{longtable}                                       
-\usepackage{calc}                                             
+\usepackage{calc}
+\usepackage{caption}
 \usepackage{multirow}                                         
 \usepackage{hhline}                                           
 \usepackage{ifthen}                                           
@@ -52,7 +53,7 @@
 % \bigskip
 {\let\newpage\relax\maketitle}
 
-\renewcommand{\thefigure}{\theenumi}
+% \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 \setlength{\intextsep}{10pt} % Space between text and floats
 
@@ -84,6 +85,7 @@ Q.1 - Q.5 Multiple Choice Question (MCQ), carry ONE mark each (for each wrong an
 \end{multicols}
 \end{enumerate}
 
+\setcounter{figure}{0}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.3\columnwidth]{figs/image_1.png}
@@ -180,7 +182,7 @@ Which of the following can be deduced from the above passage?\\
 \item 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\columnwidth]{figs/image(q9).png}
+    \includegraphics[width=0.5\columnwidth]{figs/image_2.png}
     \caption{Bar Chart for Q.9}
     \label{figure2}
 \end{figure}
@@ -199,7 +201,7 @@ The number of days in the given week in which one of the students spent a minimu
 \item 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\columnwidth]{figs/image(q10).png}
+    \includegraphics[width=0.5\columnwidth]{figs/image_3.png}
     \caption{Figure for Q.10}
     \label{figure3}
 \end{figure}
@@ -340,7 +342,7 @@ Sample number & Mass of sample (kg) & Carbon \% by weight \\ \hline
 \hfill\brak{GATE~ES~2021}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\columnwidth]{figs/image(q11).png}
+    \includegraphics[width=0.75\columnwidth]{figs/image_4.png}
     \caption{Typical Phases of the life cycle of a product}
     \label{figure4}
 \end{figure}
@@ -433,7 +435,9 @@ Which one of the following principles allows the governments to take mitigation 
     \item Second order
 \end{enumerate}
 
-\item Consider the following equation:  \\ $x^3-10x^2+31x-30 = 0$ \\ Which of the following is/are the root(s) of the above equation?
+\item Consider the following equation:
+$$x^3-10x^2+31x-30 = 0$$
+     Which of the following is/are the root(s) of the above equation?
 \hfill\brak{GATE~ES~2021}
 \begin{enumerate}
     \item 1
