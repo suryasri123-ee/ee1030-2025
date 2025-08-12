@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  11 AUG 2025 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.11)  12 AUG 2025 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1495,38 +1495,38 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 252.
  [3] [4]
-<figs/img_01.jpg, id=191, 476.27937pt x 98.3675pt>
-File: figs/img_01.jpg Graphic file (type jpg)
-<use figs/img_01.jpg>
-Package pdftex.def Info: figs/img_01.jpg  used on input line 419.
+<figs/01.jpg, id=191, 476.27937pt x 98.3675pt>
+File: figs/01.jpg Graphic file (type jpg)
+<use figs/01.jpg>
+Package pdftex.def Info: figs/01.jpg  used on input line 419.
 (pdftex.def)             Requested size: 227.62206pt x 47.01172pt.
- [5 <./figs/img_01.jpg>]
-[6]
-<figs/img_02.jpg, id=253, 411.5375pt x 228.855pt>
-File: figs/img_02.jpg Graphic file (type jpg)
-<use figs/img_02.jpg>
-Package pdftex.def Info: figs/img_02.jpg  used on input line 576.
+ [5 <./figs/01.jpg>] [6]
+<figs/02.jpg, id=253, 411.5375pt x 228.855pt>
+File: figs/02.jpg Graphic file (type jpg)
+<use figs/02.jpg>
+Package pdftex.def Info: figs/02.jpg  used on input line 576.
 (pdftex.def)             Requested size: 227.62206pt x 126.57951pt.
- [7 <./figs/img_02.jpg>]
-<figs/img_03.jpg, id=280, 485.31313pt x 215.80624pt>
-File: figs/img_03.jpg Graphic file (type jpg)
-<use figs/img_03.jpg>
-Package pdftex.def Info: figs/img_03.jpg  used on input line 629.
+
+[7 <./figs/02.jpg>]
+<figs/03.jpg, id=280, 485.31313pt x 215.80624pt>
+File: figs/03.jpg Graphic file (type jpg)
+<use figs/03.jpg>
+Package pdftex.def Info: figs/03.jpg  used on input line 629.
 (pdftex.def)             Requested size: 227.62206pt x 101.21819pt.
 
 Overfull \hbox (21.83594pt too wide) in paragraph at lines 623--638
 [] [] 
  []
 
-[8 <./figs/img_03.jpg>]
-<figs/img_04.jpg, id=310, 457.71pt x 282.05376pt>
-File: figs/img_04.jpg Graphic file (type jpg)
-<use figs/img_04.jpg>
-Package pdftex.def Info: figs/img_04.jpg  used on input line 730.
+[8 <./figs/03.jpg>]
+<figs/04.jpg, id=310, 457.71pt x 282.05376pt>
+File: figs/04.jpg Graphic file (type jpg)
+<use figs/04.jpg>
+Package pdftex.def Info: figs/04.jpg  used on input line 730.
 (pdftex.def)             Requested size: 227.62206pt x 140.26476pt.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 748.
- [9 <./figs/img_04.jpg>]
+ [9 <./figs/04.jpg>]
 LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <12> not available
 (Font)              Font shape `TS1/txr/bx/n' tried instead on input line 811.
  [10]
@@ -1541,7 +1541,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  51393 strings out of 476091
- 1212509 string characters out of 5794081
+ 1212397 string characters out of 5794081
  1870330 words of memory out of 5000000
  70659 multiletter control sequences out of 15000+600000
  558188 words of font info for 150 fonts, out of 8000000 for 9000
@@ -1553,7 +1553,7 @@ t/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (11 pages, 300990 bytes).
+Output written on main.pdf (11 pages, 301003 bytes).
 PDF statistics:
  508 PDF objects out of 1000 (max. 8388607)
  458 compressed objects within 5 object streams
