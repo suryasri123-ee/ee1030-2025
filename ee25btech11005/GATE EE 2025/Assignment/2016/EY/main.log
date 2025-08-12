@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  11 AUG 2025 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  12 AUG 2025 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1336,13 +1336,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 3.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 3.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1476,6 +1476,8 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 3.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1483,8 +1485,7 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 7.
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
@@ -1514,7 +1515,7 @@ File: utxsyc.fd 2000/12/15 v3.1
 <figs/imageQ6.png, id=31, 734.745pt x 358.33875pt>
 File: figs/imageQ6.png Graphic file (type png)
 <use figs/imageQ6.png>
-Package pdftex.def Info: figs/imageQ6.png  used on input line 92.
+Package pdftex.def Info: figs/imageQ6.png  used on input line 91.
 (pdftex.def)             Requested size: 407.66833pt x 198.82568pt.
 
 
@@ -1548,9 +1549,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 174.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 173.
 
-Underfull \hbox (badness 5431) in paragraph at lines 240--241
+Underfull \hbox (badness 5431) in paragraph at lines 239--240
 []\OT1/txr/m/n/10.95 very high light lim-i-ta-tion in aquatic
  []
 
@@ -1593,7 +1594,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <figs/imageQ28.png, id=238, 663.47874pt x 353.32pt>
 File: figs/imageQ28.png Graphic file (type png)
 <use figs/imageQ28.png>
-Package pdftex.def Info: figs/imageQ28.png  used on input line 435.
+Package pdftex.def Info: figs/imageQ28.png  used on input line 434.
 (pdftex.def)             Requested size: 407.66833pt x 217.09373pt.
 
 
@@ -1617,13 +1618,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <figs/ImageQ32a.png, id=270, 366.61969pt x 116.68594pt>
 File: figs/ImageQ32a.png Graphic file (type png)
 <use figs/ImageQ32a.png>
-Package pdftex.def Info: figs/ImageQ32a.png  used on input line 486.
-(pdftex.def)             Requested size: 387.87965pt x 123.46036pt.
+Package pdftex.def Info: figs/ImageQ32a.png  used on input line 485.
+(pdftex.def)             Requested size: 407.66833pt x 129.75792pt.
 <figs/ImageQ32b.png, id=271, 349.305pt x 215.30438pt>
 File: figs/ImageQ32b.png Graphic file (type png)
 <use figs/ImageQ32b.png>
-Package pdftex.def Info: figs/ImageQ32b.png  used on input line 487.
-(pdftex.def)             Requested size: 387.87965pt x 239.09581pt.
+Package pdftex.def Info: figs/ImageQ32b.png  used on input line 486.
+(pdftex.def)             Requested size: 407.66833pt x 251.29404pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1633,11 +1634,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10 <./figs/ImageQ32a.png> <./figs/ImageQ32b.png>] (./table1.tex)
+[10 <./figs/ImageQ32a.png> <./figs/ImageQ32b.png>] (./tables/table1.tex)
 <figs/imageQ35.png, id=289, 634.37pt x 599.23875pt>
 File: figs/imageQ35.png Graphic file (type png)
 <use figs/imageQ35.png>
-Package pdftex.def Info: figs/imageQ35.png  used on input line 529.
+Package pdftex.def Info: figs/imageQ35.png  used on input line 528.
 (pdftex.def)             Requested size: 407.66833pt x 385.10248pt.
 
 
@@ -1646,7 +1647,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figs/imageQ36.png, id=290, 619.31375pt x 712.6625pt>
 File: figs/imageQ36.png Graphic file (type png)
 <use figs/imageQ36.png>
-Package pdftex.def Info: figs/imageQ36.png  used on input line 546.
+Package pdftex.def Info: figs/imageQ36.png  used on input line 545.
 (pdftex.def)             Requested size: 407.66833pt x 469.12991pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1672,7 +1673,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <figs/imageQ41.png, id=334, 490.83376pt x 643.40375pt>
 File: figs/imageQ41.png Graphic file (type png)
 <use figs/imageQ41.png>
-Package pdftex.def Info: figs/imageQ41.png  used on input line 596.
+Package pdftex.def Info: figs/imageQ41.png  used on input line 595.
 (pdftex.def)             Requested size: 407.66833pt x 534.40787pt.
 
 
@@ -1696,10 +1697,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14 <./figs/imageQ41.png>]
-<figs/imageQ48.png, id=364, 608.2725pt x 393.47pt>
+<figs/imageQ48.png, id=365, 608.2725pt x 393.47pt>
 File: figs/imageQ48.png Graphic file (type png)
 <use figs/imageQ48.png>
-Package pdftex.def Info: figs/imageQ48.png  used on input line 657.
+Package pdftex.def Info: figs/imageQ48.png  used on input line 656.
 (pdftex.def)             Requested size: 407.66833pt x 263.71358pt.
 
 
@@ -1717,7 +1718,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <figs/imageQ52.png, id=391, 635.37375pt x 424.58624pt>
 File: figs/imageQ52.png Graphic file (type png)
 <use figs/imageQ52.png>
-Package pdftex.def Info: figs/imageQ52.png  used on input line 697.
+Package pdftex.def Info: figs/imageQ52.png  used on input line 696.
 (pdftex.def)             Requested size: 407.66833pt x 272.43396pt.
 
 
@@ -1731,7 +1732,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16 <./figs/imageQ48.png>] (./table2.tex
+[16 <./figs/imageQ48.png>] (./tables/table2.tex
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 20.
 
@@ -1761,31 +1762,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52491 strings out of 474222
- 1240281 string characters out of 5748734
+ 52500 strings out of 474222
+ 1240482 string characters out of 5748734
  1968975 words of memory out of 5000000
- 73647 multiletter control sequences out of 15000+600000
+ 73649 multiletter control sequences out of 15000+600000
  601103 words of font info for 147 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 104i,12n,110p,1216b,1308s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,11n,110p,1216b,1312s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on main.pdf (18 pages, 402823 bytes).
+Output written on main.pdf (18 pages, 402773 bytes).
 PDF statistics:
  521 PDF objects out of 1000 (max. 8388607)
  450 compressed objects within 5 object streams
