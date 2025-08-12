@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  12 AUG 2025 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  12 AUG 2025 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1444,196 +1444,196 @@ i2.jpg>]
 <figs/i3.jpg, id=42, 941.5175pt x 327.2225pt>
 File: figs/i3.jpg Graphic file (type jpg)
 <use figs/i3.jpg>
-Package pdftex.def Info: figs/i3.jpg  used on input line 143.
+Package pdftex.def Info: figs/i3.jpg  used on input line 142.
 (pdftex.def)             Requested size: 258.0pt x 89.66441pt.
 <figs/i4.jpg, id=43, 1084.05pt x 328.22626pt>
 File: figs/i4.jpg Graphic file (type jpg)
 <use figs/i4.jpg>
-Package pdftex.def Info: figs/i4.jpg  used on input line 165.
+Package pdftex.def Info: figs/i4.jpg  used on input line 164.
 (pdftex.def)             Requested size: 258.0pt x 78.1148pt.
  [2 <./figs/i3.jpg>]
 <figs/i5.jpg, id=78, 847.165pt x 307.1475pt>
 File: figs/i5.jpg Graphic file (type jpg)
 <use figs/i5.jpg>
-Package pdftex.def Info: figs/i5.jpg  used on input line 212.
+Package pdftex.def Info: figs/i5.jpg  used on input line 210.
 (pdftex.def)             Requested size: 258.0pt x 93.5369pt.
 <figs/i6.jpg, id=79, 1034.86626pt x 333.245pt>
 File: figs/i6.jpg Graphic file (type jpg)
 <use figs/i6.jpg>
-Package pdftex.def Info: figs/i6.jpg  used on input line 228.
+Package pdftex.def Info: figs/i6.jpg  used on input line 226.
 (pdftex.def)             Requested size: 258.0pt x 83.07713pt.
  [3 <./figs/i4.jpg> <./figs/i5.jpg>] [4 <./figs/i6.jpg>]
-<figs/i7.jpg, id=150, 999.735pt x 314.17375pt>
+<figs/i7.jpg, id=153, 999.735pt x 314.17375pt>
 File: figs/i7.jpg Graphic file (type jpg)
 <use figs/i7.jpg>
-Package pdftex.def Info: figs/i7.jpg  used on input line 329.
+Package pdftex.def Info: figs/i7.jpg  used on input line 327.
 (pdftex.def)             Requested size: 258.0pt x 81.07921pt.
-<figs/i8.jpg, id=151, 461.725pt x 374.39874pt>
+<figs/i8.jpg, id=154, 461.725pt x 374.39874pt>
 File: figs/i8.jpg Graphic file (type jpg)
 <use figs/i8.jpg>
-Package pdftex.def Info: figs/i8.jpg  used on input line 345.
+Package pdftex.def Info: figs/i8.jpg  used on input line 343.
 (pdftex.def)             Requested size: 258.0pt x 209.20483pt.
  [5 <./figs/i7.jpg>]
 <figs/i9.jpg, id=187, 449.68pt x 337.26pt>
 File: figs/i9.jpg Graphic file (type jpg)
 <use figs/i9.jpg>
-Package pdftex.def Info: figs/i9.jpg  used on input line 352.
+Package pdftex.def Info: figs/i9.jpg  used on input line 350.
 (pdftex.def)             Requested size: 258.0pt x 193.50615pt.
 <figs/i10.jpg, id=188, 460.72125pt x 332.24126pt>
 File: figs/i10.jpg Graphic file (type jpg)
 <use figs/i10.jpg>
-Package pdftex.def Info: figs/i10.jpg  used on input line 359.
+Package pdftex.def Info: figs/i10.jpg  used on input line 357.
 (pdftex.def)             Requested size: 258.0pt x 186.04875pt.
 <figs/i11.jpg, id=189, 595.22375pt x 345.29pt>
 File: figs/i11.jpg Graphic file (type jpg)
 <use figs/i11.jpg>
-Package pdftex.def Info: figs/i11.jpg  used on input line 366.
+Package pdftex.def Info: figs/i11.jpg  used on input line 364.
 (pdftex.def)             Requested size: 258.0pt x 149.66252pt.
  [6 <./figs/i8.jpg> <./figs/i9.jpg> <./figs/i10.jpg>]
 <figs/i12.jpg, id=197, 1084.05pt x 388.45125pt>
 File: figs/i12.jpg Graphic file (type jpg)
 <use figs/i12.jpg>
-Package pdftex.def Info: figs/i12.jpg  used on input line 374.
+Package pdftex.def Info: figs/i12.jpg  used on input line 372.
 (pdftex.def)             Requested size: 258.0pt x 92.4478pt.
 <figs/i13.jpg, id=198, 1084.05pt x 357.335pt>
 File: figs/i13.jpg Graphic file (type jpg)
 <use figs/i13.jpg>
-Package pdftex.def Info: figs/i13.jpg  used on input line 388.
+Package pdftex.def Info: figs/i13.jpg  used on input line 386.
 (pdftex.def)             Requested size: 258.0pt x 85.04242pt.
 <figs/i14.jpg, id=199, 933.4875pt x 310.15875pt>
 File: figs/i14.jpg Graphic file (type jpg)
 <use figs/i14.jpg>
-Package pdftex.def Info: figs/i14.jpg  used on input line 403.
+Package pdftex.def Info: figs/i14.jpg  used on input line 401.
 (pdftex.def)             Requested size: 258.0pt x 85.72221pt.
  [7 <./figs/i11.jpg> <./figs/i12.jpg> <./figs/i13.jpg>]
 <figs/i15.jpg, id=217, 1084.05pt x 352.31625pt>
 File: figs/i15.jpg Graphic file (type jpg)
 <use figs/i15.jpg>
-Package pdftex.def Info: figs/i15.jpg  used on input line 417.
+Package pdftex.def Info: figs/i15.jpg  used on input line 415.
 (pdftex.def)             Requested size: 258.0pt x 83.848pt.
 <figs/i16.jpg, id=218, 986.68625pt x 307.1475pt>
 File: figs/i16.jpg Graphic file (type jpg)
 <use figs/i16.jpg>
-Package pdftex.def Info: figs/i16.jpg  used on input line 431.
+Package pdftex.def Info: figs/i16.jpg  used on input line 429.
 (pdftex.def)             Requested size: 258.0pt x 80.31107pt.
  [8 <./figs/i14.jpg> <./figs/i15.jpg> <./figs/i16.jpg>]
 <figs/i17.jpg, id=246, 862.22125pt x 328.22626pt>
 File: figs/i17.jpg Graphic file (type jpg)
 <use figs/i17.jpg>
-Package pdftex.def Info: figs/i17.jpg  used on input line 466.
+Package pdftex.def Info: figs/i17.jpg  used on input line 464.
 (pdftex.def)             Requested size: 258.0pt x 98.21321pt.
 <figs/i18.jpg, id=247, 768.8725pt x 240.9pt>
 File: figs/i18.jpg Graphic file (type jpg)
 <use figs/i18.jpg>
-Package pdftex.def Info: figs/i18.jpg  used on input line 520.
+Package pdftex.def Info: figs/i18.jpg  used on input line 518.
 (pdftex.def)             Requested size: 258.0pt x 80.83524pt.
  [9 <./figs/i17.jpg> <./figs/i18.jpg>]
 <figs/i19.jpg, id=275, 1084.05pt x 362.35374pt>
 File: figs/i19.jpg Graphic file (type jpg)
 <use figs/i19.jpg>
-Package pdftex.def Info: figs/i19.jpg  used on input line 535.
+Package pdftex.def Info: figs/i19.jpg  used on input line 533.
 (pdftex.def)             Requested size: 258.0pt x 86.23683pt.
 <figs/i20.jpg, id=276, 1084.05pt x 351.3125pt>
 File: figs/i20.jpg Graphic file (type jpg)
 <use figs/i20.jpg>
-Package pdftex.def Info: figs/i20.jpg  used on input line 549.
+Package pdftex.def Info: figs/i20.jpg  used on input line 547.
 (pdftex.def)             Requested size: 258.0pt x 83.60912pt.
 <figs/i21.jpg, id=277, 1084.05pt x 515.9275pt>
 File: figs/i21.jpg Graphic file (type jpg)
 <use figs/i21.jpg>
-Package pdftex.def Info: figs/i21.jpg  used on input line 562.
+Package pdftex.def Info: figs/i21.jpg  used on input line 560.
 (pdftex.def)             Requested size: 258.0pt x 122.78596pt.
 <figs/i22.jpg, id=278, 907.39pt x 545.03625pt>
 File: figs/i22.jpg Graphic file (type jpg)
 <use figs/i22.jpg>
-Package pdftex.def Info: figs/i22.jpg  used on input line 576.
+Package pdftex.def Info: figs/i22.jpg  used on input line 574.
 (pdftex.def)             Requested size: 258.0pt x 154.97101pt.
  [10 <./figs/i19.jpg> <./figs/i20.jpg> <./figs/i21.jpg>]
 <figs/i23.jpg, id=302, 965.6075pt x 386.44376pt>
 File: figs/i23.jpg Graphic file (type jpg)
 <use figs/i23.jpg>
-Package pdftex.def Info: figs/i23.jpg  used on input line 597.
+Package pdftex.def Info: figs/i23.jpg  used on input line 595.
 (pdftex.def)             Requested size: 258.0pt x 103.25032pt.
  [11 <./figs/i22.jpg> <./figs/i23.jpg>] [12] [13]
 <figs/i24.jpg, id=398, 937.5025pt x 413.545pt>
 File: figs/i24.jpg Graphic file (type jpg)
 <use figs/i24.jpg>
-Package pdftex.def Info: figs/i24.jpg  used on input line 756.
+Package pdftex.def Info: figs/i24.jpg  used on input line 754.
 (pdftex.def)             Requested size: 258.0pt x 113.8041pt.
 <figs/i25.jpg, id=399, 459.7175pt x 235.88126pt>
 File: figs/i25.jpg Graphic file (type jpg)
 <use figs/i25.jpg>
-Package pdftex.def Info: figs/i25.jpg  used on input line 773.
+Package pdftex.def Info: figs/i25.jpg  used on input line 771.
 (pdftex.def)             Requested size: 258.0pt x 132.38774pt.
 <figs/i26.jpg, id=400, 419.5675pt x 236.885pt>
 File: figs/i26.jpg Graphic file (type jpg)
 <use figs/i26.jpg>
-Package pdftex.def Info: figs/i26.jpg  used on input line 779.
+Package pdftex.def Info: figs/i26.jpg  used on input line 777.
 (pdftex.def)             Requested size: 258.0pt x 145.66353pt.
 
 [14 <./figs/i24.jpg> <./figs/i25.jpg> <./figs/i26.jpg>]
 <figs/i27.jpg, id=417, 443.6575pt x 247.92625pt>
 File: figs/i27.jpg Graphic file (type jpg)
 <use figs/i27.jpg>
-Package pdftex.def Info: figs/i27.jpg  used on input line 785.
+Package pdftex.def Info: figs/i27.jpg  used on input line 783.
 (pdftex.def)             Requested size: 258.0pt x 144.17563pt.
 <figs/i28.jpg, id=418, 420.57124pt x 227.85126pt>
 File: figs/i28.jpg Graphic file (type jpg)
 <use figs/i28.jpg>
-Package pdftex.def Info: figs/i28.jpg  used on input line 791.
+Package pdftex.def Info: figs/i28.jpg  used on input line 789.
 (pdftex.def)             Requested size: 258.0pt x 139.7748pt.
 <figs/i29.jpg, id=419, 1084.05pt x 712.6625pt>
 File: figs/i29.jpg Graphic file (type jpg)
 <use figs/i29.jpg>
-Package pdftex.def Info: figs/i29.jpg  used on input line 807.
+Package pdftex.def Info: figs/i29.jpg  used on input line 805.
 (pdftex.def)             Requested size: 258.0pt x 169.60707pt.
  [15 <./figs/i27.jpg> <./figs/i28.jpg> <./figs/i29.jpg>]
 <figs/i30.jpg, id=432, 1084.05pt x 339.2675pt>
 File: figs/i30.jpg Graphic file (type jpg)
 <use figs/i30.jpg>
-Package pdftex.def Info: figs/i30.jpg  used on input line 845.
+Package pdftex.def Info: figs/i30.jpg  used on input line 843.
 (pdftex.def)             Requested size: 258.0pt x 80.74252pt.
 <figs/i31.jpg, id=433, 919.435pt x 353.32pt>
 File: figs/i31.jpg Graphic file (type jpg)
 <use figs/i31.jpg>
-Package pdftex.def Info: figs/i31.jpg  used on input line 860.
+Package pdftex.def Info: figs/i31.jpg  used on input line 858.
 (pdftex.def)             Requested size: 258.0pt x 99.14456pt.
  [16 <./figs/i30.jpg> <./figs/i31.jpg>]
 <figs/i32.jpg, id=460, 1084.05pt x 412.54124pt>
 File: figs/i32.jpg Graphic file (type jpg)
 <use figs/i32.jpg>
-Package pdftex.def Info: figs/i32.jpg  used on input line 899.
+Package pdftex.def Info: figs/i32.jpg  used on input line 897.
 (pdftex.def)             Requested size: 258.0pt x 98.181pt.
 
 [17 <./figs/i32.jpg>]
 <figs/i33.jpg, id=491, 917.4275pt x 328.22626pt>
 File: figs/i33.jpg Graphic file (type jpg)
 <use figs/i33.jpg>
-Package pdftex.def Info: figs/i33.jpg  used on input line 968.
+Package pdftex.def Info: figs/i33.jpg  used on input line 966.
 (pdftex.def)             Requested size: 258.0pt x 92.30339pt.
 <figs/i34.jpg, id=492, 825.0825pt x 409.53pt>
 File: figs/i34.jpg Graphic file (type jpg)
 <use figs/i34.jpg>
-Package pdftex.def Info: figs/i34.jpg  used on input line 998.
+Package pdftex.def Info: figs/i34.jpg  used on input line 996.
 (pdftex.def)             Requested size: 258.0pt x 128.05904pt.
  [18 <./figs/i33.jpg> <./figs/i34.jpg>]
 <figs/i35.jpg, id=518, 974.64125pt x 685.56125pt>
 File: figs/i35.jpg Graphic file (type jpg)
 <use figs/i35.jpg>
-Package pdftex.def Info: figs/i35.jpg  used on input line 1024.
+Package pdftex.def Info: figs/i35.jpg  used on input line 1022.
 (pdftex.def)             Requested size: 258.0pt x 181.4741pt.
  [19 <./figs/i35.jpg>] [20] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46732 strings out of 476091
- 1079292 string characters out of 5794081
- 1868330 words of memory out of 5000000
- 65906 multiletter control sequences out of 15000+600000
- 577252 words of font info for 163 fonts, out of 8000000 for 9000
+ 46730 strings out of 476091
+ 1079276 string characters out of 5794081
+ 1869330 words of memory out of 5000000
+ 65905 multiletter control sequences out of 15000+600000
+ 576934 words of font info for 162 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,8n,96p,1172b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,8n,96p,1172b,708s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1642,7 +1642,7 @@ fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 1218208 bytes).
+Output written on main.pdf (20 pages, 1217803 bytes).
 PDF statistics:
  698 PDF objects out of 1000 (max. 8388607)
  618 compressed objects within 7 object streams
