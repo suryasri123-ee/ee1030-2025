@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.11)  11 AUG 2025 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.11)  12 AUG 2025 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1404,7 +1404,26 @@ File: ot1txr.fd 2000/12/15 v3.1
 LaTeX Warning: Unused global option(s):
     [journal].
 
-No file paper.aux.
+(./paper.aux
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 51.
@@ -1493,6 +1512,7 @@ LaTeX Info: Redefining \ohm on input line 51.
 Package gensymb Info: Using \textohm for \ohm on input line 51.
 Package gensymb Info: Using \textmu for \micro on input line 51.
 Package hyperref Info: Link coloring OFF on input line 51.
+ (./paper.out) (./paper.out)
 \@outlinefile=\write5
 \openout5 = `paper.out'.
 
@@ -1645,22 +1665,16 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47667 strings out of 467801
- 1132060 string characters out of 5417842
- 1750243 words of memory out of 5000000
- 75273 multiletter control sequences out of 15000+600000
+ 47675 strings out of 467801
+ 1132164 string characters out of 5417842
+ 1750378 words of memory out of 5000000
+ 75275 multiletter control sequences out of 15000+600000
  672760 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,8n,103p,1173b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
