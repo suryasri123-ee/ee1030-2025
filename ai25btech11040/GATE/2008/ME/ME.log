@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.2)  7 AUG 2025 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.2)  12 AUG 2025 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/vivaan/workingfolder/college/matrix/ee1030-2025/ai25btech11040/GATE/2008/ME.tex
-(/home/vivaan/workingfolder/college/matrix/ee1030-2025/ai25btech11040/GATE/2008/ME.tex
+**/home/vivaan/workingfolder/college/matrix/ee1030-2025/ai25btech11040/GATE/2008/ME/ME.tex
+(/home/vivaan/workingfolder/college/matrix/ee1030-2025/ai25btech11040/GATE/2008/ME/ME.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/exam/exam.cls
@@ -823,184 +823,203 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--407
 
  []
 
+<images/q33.png, id=49, 292.09125pt x 188.95593pt>
+File: images/q33.png Graphic file (type png)
+<use images/q33.png>
+Package pdftex.def Info: images/q33.png  used on input line 411.
+(pdftex.def)             Requested size: 204.46246pt x 132.26823pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--416
+Underfull \hbox (badness 10000) in paragraph at lines 415--420
+
+ []
+
+<images/q34.png, id=50, 792.71156pt x 443.40656pt>
+File: images/q34.png Graphic file (type png)
+<use images/q34.png>
+Package pdftex.def Info: images/q34.png  used on input line 425.
+(pdftex.def)             Requested size: 237.81529pt x 133.02298pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--434
+
+ []
+
+<images/q35.png, id=51, 793.96625pt x 269.005pt>
+File: images/q35.png Graphic file (type png)
+<use images/q35.png>
+Package pdftex.def Info: images/q35.png  used on input line 438.
+(pdftex.def)             Requested size: 238.19171pt x 80.70212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--426
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 430--435
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 439--444
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--453
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--462
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 466--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
 
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 475--480
+[8 <./images/q33.png> <./images/q34.png (PNG copy)> <./images/q35.png>]
+<images/q36.png, id=56, 704.6325pt x 570.13pt>
+File: images/q36.png Graphic file (type png)
+<use images/q36.png>
+Package pdftex.def Info: images/q36.png  used on input line 451.
+(pdftex.def)             Requested size: 211.39139pt x 171.04031pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--489
+Underfull \hbox (badness 10000) in paragraph at lines 464--469
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--498
+Underfull \hbox (badness 10000) in paragraph at lines 473--478
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--517
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--524
+Underfull \hbox (badness 10000) in paragraph at lines 482--487
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--533
+Underfull \hbox (badness 10000) in paragraph at lines 491--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--535
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
 
  []
 
 
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 537--542
+[9 <./images/q36.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 500--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--544
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--551
+Underfull \hbox (badness 10000) in paragraph at lines 509--514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 515--533
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--558
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
 
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 583--588
+Underfull \hbox (badness 10000) in paragraph at lines 562--567
 
  []
 
+<images/q47.png, id=63, 1064.97874pt x 523.9575pt>
+File: images/q47.png Graphic file (type png)
+<use images/q47.png>
+Package pdftex.def Info: images/q47.png  used on input line 572.
+(pdftex.def)             Requested size: 319.4961pt x 157.18846pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 592--597
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 601--606
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 607--608
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 610--615
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 619--624
-
- []
+<images/q49.png, id=64, 328.22626pt x 495.8525pt>
+File: images/q49.png Graphic file (type png)
+<use images/q49.png>
+Package pdftex.def Info: images/q49.png  used on input line 594.
+(pdftex.def)             Requested size: 98.46863pt x 148.7569pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
+[11 <./images/q47.png>]
+<images/q50.png, id=68, 549.05125pt x 520.94624pt>
+File: images/q50.png Graphic file (type png)
+<use images/q50.png>
+Package pdftex.def Info: images/q50.png  used on input line 607.
+(pdftex.def)             Requested size: 164.71664pt x 156.28508pt.
 
- []
-
-
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 628--633
+Underfull \hbox (badness 10000) in paragraph at lines 611--616
 
  []
 
+<images/q51.png, id=69, 706.64pt x 501.875pt>
+File: images/q51.png Graphic file (type png)
+<use images/q51.png>
+Package pdftex.def Info: images/q51.png  used on input line 620.
+(pdftex.def)             Requested size: 211.99364pt x 150.56366pt.
+
+
+[12 <./images/q49.png> <./images/q50.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 624--629
+
+ []
+
+<images/q52.png, id=73, 1174.3875pt x 538.01pt>
+File: images/q52.png Graphic file (type png)
+<use images/q52.png>
+Package pdftex.def Info: images/q52.png  used on input line 633.
+(pdftex.def)             Requested size: 352.31897pt x 161.40424pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 637--642
 
@@ -1012,174 +1031,211 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--644
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--653
+Underfull \hbox (badness 10000) in paragraph at lines 646--651
+
+ []
+
+<images/q54.png, id=74, 607.26875pt x 465.74pt>
+File: images/q54.png Graphic file (type png)
+<use images/q54.png>
+Package pdftex.def Info: images/q54.png  used on input line 655.
+(pdftex.def)             Requested size: 182.18202pt x 139.72307pt.
+
+
+[13 <./images/q51.png> <./images/q52.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 659--664
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--660
+Underfull \hbox (badness 10000) in paragraph at lines 665--666
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
+Underfull \hbox (badness 10000) in paragraph at lines 668--673
+
+ []
+
+<images/q56.png, id=79, 755.82375pt x 491.8375pt>
+File: images/q56.png Graphic file (type png)
+<use images/q56.png>
+Package pdftex.def Info: images/q56.png  used on input line 677.
+(pdftex.def)             Requested size: 226.74887pt x 147.55238pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 681--686
 
  []
 
 
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 680--682
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 692--697
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 701--706
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 710--715
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 719--724
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 725--726
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 728--733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 734--735
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 
  []
 
 
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 737--742
+[14 <./images/q54.png> <./images/q56.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--744
+Underfull \hbox (badness 10000) in paragraph at lines 699--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--751
+Underfull \hbox (badness 10000) in paragraph at lines 705--706
 
  []
 
+File: images/q35.png Graphic file (type png)
+<use images/q35.png>
+Package pdftex.def Info: images/q35.png  used on input line 717.
+(pdftex.def)             Requested size: 238.19171pt x 80.70212pt.
+<images/q61.png, id=83, 733.74126pt x 484.81125pt>
+File: images/q61.png Graphic file (type png)
+<use images/q61.png>
+Package pdftex.def Info: images/q61.png  used on input line 731.
+(pdftex.def)             Requested size: 220.12407pt x 145.44449pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 752--753
-
- []
-
-
-
-[14]
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 782--784
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+Underfull \hbox (badness 10000) in paragraph at lines 744--749
+
+ []
+
+<images/q62.png, id=87, 657.45625pt x 232.87pt>
+File: images/q62.png Graphic file (type png)
+<use images/q62.png>
+Package pdftex.def Info: images/q62.png  used on input line 753.
+(pdftex.def)             Requested size: 197.23839pt x 69.86153pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 757--762
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
+Underfull \hbox (badness 10000) in paragraph at lines 763--764
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--814
+Underfull \hbox (badness 10000) in paragraph at lines 766--771
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 815--816
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 818--823
+Underfull \hbox (badness 10000) in paragraph at lines 775--780
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
 
  []
 
 
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 825--832
+[16 <./images/q61.png> <./images/q62.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 784--789
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--834
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--834
+Underfull \hbox (badness 10000) in paragraph at lines 793--798
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--861
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
+Underfull \hbox (badness 10000) in paragraph at lines 802--807
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 887--889
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
 
  []
 
+<images/q69.png, id=91, 1328.965pt x 391.4625pt>
+File: images/q69.png Graphic file (type png)
+<use images/q69.png>
+Package pdftex.def Info: images/q69.png  used on input line 820.
+(pdftex.def)             Requested size: 398.69258pt x 117.43965pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 887--889
-
+Overfull \hbox (0.92764pt too wide) in paragraph at lines 820--821
+ [] 
  []
 
 
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 892--893
+<images/q70.png, id=95, 628.3475pt x 586.19pt>
+File: images/q70.png Graphic file (type png)
+<use images/q70.png>
+Package pdftex.def Info: images/q70.png  used on input line 834.
+(pdftex.def)             Requested size: 188.50569pt x 175.85835pt.
+
+
+[18 <./images/q69.png> <./images/q70.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 846--848
+
+ []
+
+<images/q71.png, id=99, 590.205pt x 451.6875pt>
+File: images/q71.png Graphic file (type png)
+<use images/q71.png>
+Package pdftex.def Info: images/q71.png  used on input line 852.
+(pdftex.def)             Requested size: 177.06287pt x 135.5073pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--900
+Underfull \hbox (badness 10000) in paragraph at lines 874--875
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 877--882
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 886--891
+
+ []
+
+
+
+[19 <./images/q71.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 893--900
 
  []
 
@@ -1189,22 +1245,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 901--902
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 904--909
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--920
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 921--922
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
@@ -1214,65 +1255,151 @@ Underfull \hbox (badness 10000) in paragraph at lines 924--929
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 932--933
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 935--940
+Underfull \hbox (badness 10000) in paragraph at lines 955--957
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 941--942
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 944--949
+Underfull \hbox (badness 10000) in paragraph at lines 955--957
 
  []
 
 
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
+[20]
+<images/q76.png, id=108, 705.63625pt x 512.91624pt>
+File: images/q76.png Graphic file (type png)
+<use images/q76.png>
+Package pdftex.def Info: images/q76.png  used on input line 961.
+(pdftex.def)             Requested size: 211.6925pt x 153.87605pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 964--965
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 955--960
+Underfull \hbox (badness 10000) in paragraph at lines 967--972
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
+Underfull \hbox (badness 10000) in paragraph at lines 973--974
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 964--969
+Underfull \hbox (badness 10000) in paragraph at lines 976--981
+
+ []
+
+<images/q78.png, id=109, 1196.47pt x 496.85625pt>
+File: images/q78.png Graphic file (type png)
+<use images/q78.png>
+Package pdftex.def Info: images/q78.png  used on input line 986.
+(pdftex.def)             Requested size: 358.94377pt x 149.05801pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 988--989
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--973
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 975--980
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 981--982
+Underfull \hbox (badness 10000) in paragraph at lines 991--996
 
  []
 
 
 
-[19]
+[21 <./images/q76.png> <./images/q78.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1005
+
+ []
+
+<images/q80.png, id=113, 992.70876pt x 411.5375pt>
+File: images/q80.png Graphic file (type png)
+<use images/q80.png>
+Package pdftex.def Info: images/q80.png  used on input line 1010.
+(pdftex.def)             Requested size: 297.81493pt x 123.4622pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1024--1029
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1049
+
+ []
+
+
+
+[22 <./images/q80.png>]
+<images/q84.png, id=117, 1489.565pt x 217.81375pt>
+File: images/q84.png Graphic file (type png)
+<use images/q84.png>
+Package pdftex.def Info: images/q84.png  used on input line 1054.
+(pdftex.def)             Requested size: 446.87296pt x 65.34462pt.
+
+Overfull \hbox (49.10802pt too wide) in paragraph at lines 1054--1055
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1064
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
+
+ []
+
+
+
+[23 <./images/q84.png>]
 This exam contains 85 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
@@ -1283,18 +1410,18 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16556 strings out of 475171
- 332936 string characters out of 5767096
- 713169 words of memory out of 5000000
- 39305 multiletter control sequences out of 15000+600000
+ 16794 strings out of 475171
+ 337087 string characters out of 5767096
+ 713200 words of memory out of 5000000
+ 39543 multiletter control sequences out of 15000+600000
  565649 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,14n,91p,1004b,818s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,14n,91p,1002b,818s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on ME.pdf (19 pages, 287543 bytes).
+Output written on ME.pdf (23 pages, 4221546 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 194 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
