@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.11)  12 AUG 2025 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.11)  12 AUG 2025 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1564,7 +1564,7 @@ t/fonts/enc/dvips/base/8r.enc}]
 [2]
 
 [3]
-Overfull \hbox (0.7067pt too wide) in paragraph at lines 168--170
+Overfull \hbox (0.7067pt too wide) in paragraph at lines 172--174
 []\OT1/txr/m/n/12 The re-la-tion-ship among spe-cific yield ($\OML/txmi/m/it/12
  S[]$\OT1/txr/m/n/12 ), spe-cific re-ten-tion ($\OML/txmi/m/it/12 S[]$\OT1/txr/
 m/n/12 ) and poros-
@@ -1577,44 +1577,62 @@ m/n/12 ) and poros-
 [5]
 
 [6]
-<figs/image.jpg, id=163, 891.33pt x 344.28625pt>
+<figs/image.jpg, id=164, 891.33pt x 344.28625pt>
 File: figs/image.jpg Graphic file (type jpg)
 <use figs/image.jpg>
-Package pdftex.def Info: figs/image.jpg  used on input line 296.
+Package pdftex.def Info: figs/image.jpg  used on input line 300.
 (pdftex.def)             Requested size: 272.99881pt x 105.4458pt.
 
 
 [7]
-<figs/image2.jpg, id=184, 646.415pt x 169.63374pt>
+<figs/image2.jpg, id=185, 646.415pt x 169.63374pt>
 File: figs/image2.jpg Graphic file (type jpg)
 <use figs/image2.jpg>
-Package pdftex.def Info: figs/image2.jpg  used on input line 309.
+Package pdftex.def Info: figs/image2.jpg  used on input line 314.
 (pdftex.def)             Requested size: 272.99881pt x 71.6417pt.
 
 
-[8 <./figs/image.jpg> <./figs/image2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.329         \item 2
+                     4.5 kN m
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.329         \item 2
+                     4.5 kN m <./figs/image.jpg> <./figs/image2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
 
  []
 
-<figs/image3.jpg, id=201, 801.99625pt x 1083.04625pt>
+<figs/image3.jpg, id=202, 801.99625pt x 1083.04625pt>
 File: figs/image3.jpg Graphic file (type jpg)
 <use figs/image3.jpg>
-Package pdftex.def Info: figs/image3.jpg  used on input line 347.
+Package pdftex.def Info: figs/image3.jpg  used on input line 353.
 (pdftex.def)             Requested size: 272.99881pt x 368.67705pt.
 
 
 [9]
 
-[10 <./figs/image3.jpg>]
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.367         \item
+                    8.75 <./figs/image3.jpg>]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 370.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 377.
 
 
 [11]
 
 [12]
-Overfull \hbox (85.06673pt too wide) in paragraph at lines 445--455
+Overfull \hbox (85.06673pt too wide) in paragraph at lines 452--462
  [] 
  []
 
@@ -1623,42 +1641,69 @@ Overfull \hbox (85.06673pt too wide) in paragraph at lines 445--455
 [13]
 
 [14]
-<figs/image4.jpg, id=303, 550.055pt x 389.455pt>
+<figs/image4.jpg, id=306, 550.055pt x 389.455pt>
 File: figs/image4.jpg Graphic file (type jpg)
 <use figs/image4.jpg>
-Package pdftex.def Info: figs/image4.jpg  used on input line 539.
+Package pdftex.def Info: figs/image4.jpg  used on input line 546.
 (pdftex.def)             Requested size: 272.99881pt x 193.29485pt.
 
 
 [15]
 
-[16 <./figs/image4.jpg>]
-<figs/image5.jpg, id=336, 812.03375pt x 319.1925pt>
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.578 
+       <./figs/image4.jpg>]
+<figs/image5.jpg, id=341, 812.03375pt x 319.1925pt>
 File: figs/image5.jpg Graphic file (type jpg)
 <use figs/image5.jpg>
-Package pdftex.def Info: figs/image5.jpg  used on input line 585.
+Package pdftex.def Info: figs/image5.jpg  used on input line 593.
 (pdftex.def)             Requested size: 272.99881pt x 107.30638pt.
 
 
-[17 <./figs/image5.jpg>]
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.604     \end{enumerate}
+                          <./figs/image5.jpg>]
 
 [18]
-<figs/image6.jpg, id=372, 727.71875pt x 169.63374pt>
+<figs/image6.jpg, id=378, 727.71875pt x 169.63374pt>
 File: figs/image6.jpg Graphic file (type jpg)
 <use figs/image6.jpg>
-Package pdftex.def Info: figs/image6.jpg  used on input line 666.
+Package pdftex.def Info: figs/image6.jpg  used on input line 675.
 (pdftex.def)             Requested size: 272.99881pt x 63.63837pt.
 
 
-[19 <./figs/image6.jpg>]
-<figs/image7.jpg, id=394, 821.0675pt x 259.97125pt>
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.684         \item $
+                     \frac{WL^3}{2EI}$ and $\frac{WL^2}{EI}$ <./figs/image6.jpg
+>]
+<figs/image7.jpg, id=397, 821.0675pt x 259.97125pt>
 File: figs/image7.jpg Graphic file (type jpg)
 <use figs/image7.jpg>
-Package pdftex.def Info: figs/image7.jpg  used on input line 698.
+Package pdftex.def Info: figs/image7.jpg  used on input line 708.
 (pdftex.def)             Requested size: 272.99881pt x 86.43736pt.
 
 
-[20 <./figs/image7.jpg>] (./paper.aux)
+[20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.715         \item 6
+                     1.75 mm <./figs/image7.jpg>]
+
+[21] (./paper.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1671,10 +1716,10 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47675 strings out of 467801
- 1132164 string characters out of 5417842
- 1750378 words of memory out of 5000000
- 75275 multiletter control sequences out of 15000+600000
+ 47688 strings out of 467801
+ 1132317 string characters out of 5417842
+ 1751378 words of memory out of 5000000
+ 75279 multiletter control sequences out of 15000+600000
  672760 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,8n,103p,1173b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1690,10 +1735,10 @@ hare/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.t
 ermux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on paper.pdf (20 pages, 226062 bytes).
+Output written on paper.pdf (21 pages, 226385 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 325 named destinations out of 1000 (max. 500000)
+ 537 PDF objects out of 1000 (max. 8388607)
+ 484 compressed objects within 5 object streams
+ 334 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
