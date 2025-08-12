@@ -3,11 +3,11 @@
 \usepackage[margin=2cm]{geometry}
 \usepackage{amsmath}
 \usepackage{gensymb}
-\usepackage{gvv-book}
-\usepackage{gvv}
 \usepackage{siunitx}
 \usepackage{array}
-
+\usepackage{float}
+\usepackage{gvv}
+\usepackage{gvv-book}
 
 \title{Geomatics Engineering (2024)}
 \author{Aditya Appana}
@@ -111,8 +111,11 @@ Prof. Q \rule{0.5cm}{0.15mm}(iii)\rule{0.5cm}{0.15mm} a man who hardly narrated 
 2012 to 2022. Considering that 2015 and 2019 are world cup years, which one of
 the following options is true?
 
+\begin{figure}[H]
+\centering
 \includegraphics[width=0.5\linewidth]{Figs/LatexGraph.png}
-    
+\caption{Batting Average vs Calendar Year}
+    \end{figure}
 
 \begin{enumerate}
      \item RS has a higher yearly batting average than that of VK in every world cup year.  
@@ -126,12 +129,19 @@ years.
 
 
 \item A planar rectangular paper has two V-shaped pieces attached as shown below.
-
+\begin{figure}[H]
+\centering
 \includegraphics[width=0.5\linewidth]{Figs/LatexImage1.png}
+\end{figure}
 
 This piece of paper is folded to make the following closed three-dimensional object.
 
-\includegraphics[scale = 0.9]{Figs/LatexImage2.png}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage2.png}
+\end{figure}
+
+
  \begin{enumerate}
     \item 9 
    \item 7 
@@ -266,7 +276,11 @@ and provide uninterrupted service?
 
 \item Identify the type of digitizing error in the following figure.
 
-\includegraphics[scale = 0.8]{Figs/LatexImage3.png} 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage3.png}
+\end{figure}
+
 \begin{enumerate}
      
    \item satellite’s altitude 
@@ -316,7 +330,10 @@ mean for this set of observations to 2\textquotedblright\ is  \rule{2cm}{0.15mm}
 the unknown distances $x$ and $y$. The correlation coefficient between the unknown
 estimates approximately equals to  
 
-\includegraphics[scale = 0.9]{Figs/LatexImage4.png} \\
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage4.png}
+\end{figure} \\
 
   $d_1$ = 100m ± 1cm\\ 
   $d_1$ = 150m ± 2cm \\
@@ -333,7 +350,10 @@ estimates approximately equals to
 standard error of all observations is same. The adjusted values of these angles
 using the least squares adjustment are 
 
-\includegraphics[scale = 0.9]{Figs/LatexImage5.png} 
+ \begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage5.png}
+\end{figure}
 
   $AOB$ = \ang{30;00;20} \\
   $BOC$ = \ang{30;00;05}\\
@@ -351,7 +371,10 @@ using the least squares adjustment are
   The required precision of computed horizontal distance is ± 0.005 m. Assume a “balanced accuracy” where the contribution to precision of the horizontal distance comes equally from the slope distance and angle measurements. The minimum number of angle observations to achieve the desired precision is\\ 
    (Given 1 radian = 206265 seconds) \\
 
-   \includegraphics[]{Figs/LatexImage6.png} 
+   \begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage6.png}
+\end{figure} 
 \begin{enumerate}
    \item 1 
    \item 2 
@@ -364,7 +387,7 @@ characteristics (Column B)
 
 \begin{table}[H]
          \centering
-         
+         \caption{}
          \begin{tabular}{|c|c|c|c|}
          \hline
               \multicolumn{2}{|c}{\textbf{Column A}}&  \multicolumn{2}{|c|}{\textbf{Column B}}\\ \hline
@@ -388,6 +411,7 @@ characteristics (Column B)
 
 \begin{table}[H]
          \centering
+         \caption{}
          \begin{tabular}{|c|c|c|c|}
          \hline
               \multicolumn{2}{|c}{\textbf{Column A}}&  \multicolumn{2}{|c|}{\textbf{Column B}}\\ \hline
@@ -676,7 +700,10 @@ of point A is \rule{2cm}{0.15mm} m (rounded off to one decimal place).
 
 \item The Representative Fraction (RF) of the graphical scale given below is 1/X, where X is \rule{2cm}{0.15mm}($in$ $integer$). //
 
- \includegraphics[scale=0.6]{Figs/LatexImage7.png} 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage7.png}
+\end{figure}
 
 \item The combined correction for curvature of Earth and refraction in levelling for a
 distance of 6 km would be \rule{2cm}{0.15mm}m \textit{(rounded off to two decimal places)}.\\ 
@@ -731,7 +758,10 @@ a truly uniform histogram of the transformed image due to
 
 \item Which type of contrast stretching is represented by the following figure?  \\
 
-\includegraphics[scale = 0.6]{Figs/LatexImage8.png}  \\
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage8.png}
+\end{figure}  \\
 
 \begin{enumerate}
     \item Linear contrast stretch 
@@ -770,8 +800,11 @@ output cell values from the input raster dataset.
 \item The figure given below shows the Fourier spectrum obtained by applying filter on
 a remote sensing image in frequency domain. Zone A represents the location of
 \rule{2cm}{0.15mm} components. \\
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage9.png}
+\end{figure} \\
 
-      \includegraphics[scale = 1]{Figs/LatexImage9.png} \\
  \begin{enumerate}
     \item low frequency 
    \item mid frequency 
@@ -782,7 +815,10 @@ a remote sensing image in frequency domain. Zone A represents the location of
 \item For the following covariance matrix ($\Sigma$) of a multispectral image, which of the
 statements is/are INCORRECT?\\
 
-\includegraphics[scale=1]{Figs/LatexImage10.png} \\
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage10.png}
+\end{figure} \\
 
 \begin{enumerate}
    \item band-1 and band-2 have maximum correlation 
@@ -825,7 +861,10 @@ is/are CORRECT?
 \item Which of the following filters can be used to suppress the low frequency component
 of a raster image? \\
 
-\includegraphics[scale = 0.7]{Figs/LatexImage11.png} \\
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage11.png}
+\end{figure} \\
 
  \begin{enumerate}
      \item(i) 
@@ -847,7 +886,10 @@ of a raster image? \\
 \item Which of the following statistical classification algorithms is/are represented by the
 figure given below?\\
 
-\includegraphics[]{Figs/LatexImage12.png} \\
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage12.png}
+\end{figure} \\
 
 \begin{enumerate}
     \item Minimum distance to mean classification 
@@ -859,7 +901,10 @@ figure given below?\\
 \item Using the given 3 × 3 pixel kernel and original image and applying the concept of
 convolution, the value of central pixel of the output image is \rule{2cm}{0.15mm} \textit{(in integer)}
 
-\includegraphics[]{Figs/LatexImage13.png}\\
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Figs/LatexImage13.png}
+\end{figure}\\
 
 \item A four-band multispectral image with pixel size of 50 m × 50 m covers a ground
 area of 20 km × 20 km. If the radiometric resolution of the satellite data is 8 bits,
