@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  12 AUG 2025 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  12 AUG 2025 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1547,49 +1547,51 @@ File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 22.
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OMS+txr on input line 3
-6.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 37.
  [2]
-<Figs/LatexGraph.png, id=68, 521.95pt x 280.04625pt>
+<Figs/LatexGraph.png, id=67, 521.95pt x 280.04625pt>
 File: Figs/LatexGraph.png Graphic file (type png)
 <use Figs/LatexGraph.png>
-Package pdftex.def Info: Figs/LatexGraph.png  used on input line 115.
+Package pdftex.def Info: Figs/LatexGraph.png  used on input line 116.
 (pdftex.def)             Requested size: 250.24199pt x 134.26683pt.
  [3 <./Figs/LatexGraph.png>]
 <Figs/LatexImage1.png, id=93, 492.84125pt x 206.7725pt>
 File: Figs/LatexImage1.png Graphic file (type png)
 <use Figs/LatexImage1.png>
-Package pdftex.def Info: Figs/LatexImage1.png  used on input line 133.
+Package pdftex.def Info: Figs/LatexImage1.png  used on input line 134.
 (pdftex.def)             Requested size: 250.24199pt x 104.99193pt.
 <Figs/LatexImage2.png, id=94, 187.70125pt x 163.61125pt>
 File: Figs/LatexImage2.png Graphic file (type png)
 <use Figs/LatexImage2.png>
-Package pdftex.def Info: Figs/LatexImage2.png  used on input line 140.
+Package pdftex.def Info: Figs/LatexImage2.png  used on input line 141.
 (pdftex.def)             Requested size: 250.24199pt x 218.13945pt.
  [4 <./Figs/LatexImage1.png> <./Figs/LatexImage2.png>] [5] [6]
 <Figs/LatexImage3.png, id=182, 251.94125pt x 143.53625pt>
 File: Figs/LatexImage3.png Graphic file (type png)
 <use Figs/LatexImage3.png>
-Package pdftex.def Info: Figs/LatexImage3.png  used on input line 280.
+Package pdftex.def Info: Figs/LatexImage3.png  used on input line 281.
 (pdftex.def)             Requested size: 250.24199pt x 142.56783pt.
 
 [7 <./Figs/LatexImage3.png>]
 <Figs/LatexImage4.png, id=211, 377.41pt x 141.52875pt>
 File: Figs/LatexImage4.png Graphic file (type png)
 <use Figs/LatexImage4.png>
-Package pdftex.def Info: Figs/LatexImage4.png  used on input line 334.
+Package pdftex.def Info: Figs/LatexImage4.png  used on input line 335.
 (pdftex.def)             Requested size: 250.24199pt x 93.84116pt.
 
 
@@ -1599,42 +1601,39 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.336 
+l.337 
       
 ? 
 <Figs/LatexImage5.png, id=212, 152.57pt x 112.42pt>
 File: Figs/LatexImage5.png Graphic file (type png)
 <use Figs/LatexImage5.png>
-Package pdftex.def Info: Figs/LatexImage5.png  used on input line 354.
+Package pdftex.def Info: Figs/LatexImage5.png  used on input line 355.
 (pdftex.def)             Requested size: 250.24199pt x 184.39743pt.
 [8 <./Figs/LatexImage4.png> <./Figs/LatexImage5.png>]
 
-LaTeX Warning: Command \textpm invalid in math mode on input line 369.
+LaTeX Warning: Command \textpm invalid in math mode on input line 370.
 
 
-LaTeX Warning: Command \textpm invalid in math mode on input line 369.
+LaTeX Warning: Command \textpm invalid in math mode on input line 370.
 
 Missing character: There is no ± in font txr!
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--372
+Underfull \hbox (badness 10000) in paragraph at lines 369--373
 
  []
 
 <Figs/LatexImage6.png, id=232, 291.0875pt x 169.63374pt>
 File: Figs/LatexImage6.png Graphic file (type png)
 <use Figs/LatexImage6.png>
-Package pdftex.def Info: Figs/LatexImage6.png  used on input line 375.
+Package pdftex.def Info: Figs/LatexImage6.png  used on input line 376.
 (pdftex.def)             Requested size: 250.24199pt x 145.83298pt.
 [9 <./Figs/LatexImage6.png>] [10] [11]
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 565.
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--570
+Underfull \hbox (badness 10000) in paragraph at lines 566--571
 
  []
 
 [12] [13] [14]
-Overfull \hbox (8.92676pt too wide) in paragraph at lines 700--701
+Overfull \hbox (8.92676pt too wide) in paragraph at lines 701--702
 []\OT1/txr/m/n/12 The Rep-re-sen-ta-tive Frac-tion (RF) of the graph-i-cal scal
 e given be-low is 1/X, where X is []($\OML/txmi/m/it/12 in$
  []
@@ -1642,17 +1641,17 @@ e given be-low is 1/X, where X is []($\OML/txmi/m/it/12 in$
 <Figs/LatexImage7.png, id=401, 421.575pt x 81.30376pt>
 File: Figs/LatexImage7.png Graphic file (type png)
 <use Figs/LatexImage7.png>
-Package pdftex.def Info: Figs/LatexImage7.png  used on input line 704.
+Package pdftex.def Info: Figs/LatexImage7.png  used on input line 705.
 (pdftex.def)             Requested size: 250.24199pt x 48.26157pt.
 [15 <./Figs/LatexImage7.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 758--759
+Underfull \hbox (badness 10000) in paragraph at lines 759--760
 
  []
 
 <Figs/LatexImage8.png, id=423, 314.17375pt x 263.98625pt>
 File: Figs/LatexImage8.png Graphic file (type png)
 <use Figs/LatexImage8.png>
-Package pdftex.def Info: Figs/LatexImage8.png  used on input line 762.
+Package pdftex.def Info: Figs/LatexImage8.png  used on input line 763.
 (pdftex.def)             Requested size: 250.24199pt x 210.26685pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -1661,17 +1660,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.764 
+l.765 
       
 ? 
 [16 <./Figs/LatexImage8.png>]
 <Figs/LatexImage9.png, id=447, 240.9pt x 207.77625pt>
 File: Figs/LatexImage9.png Graphic file (type png)
 <use Figs/LatexImage9.png>
-Package pdftex.def Info: Figs/LatexImage9.png  used on input line 804.
+Package pdftex.def Info: Figs/LatexImage9.png  used on input line 805.
 (pdftex.def)             Requested size: 250.24199pt x 215.84123pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--805
+Underfull \hbox (badness 10000) in paragraph at lines 800--806
 
  []
 
@@ -1682,18 +1681,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.806 
+l.807 
       
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--816
+Underfull \hbox (badness 10000) in paragraph at lines 815--817
 
  []
 
 <Figs/LatexImage10.png, id=448, 270.00874pt x 123.46124pt>
 File: Figs/LatexImage10.png Graphic file (type png)
 <use Figs/LatexImage10.png>
-Package pdftex.def Info: Figs/LatexImage10.png  used on input line 819.
+Package pdftex.def Info: Figs/LatexImage10.png  used on input line 820.
 (pdftex.def)             Requested size: 250.24199pt x 114.4259pt.
 [17 <./Figs/LatexImage9.png>]
 
@@ -1703,18 +1702,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.821 
+l.822 
       
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 860--862
+Underfull \hbox (badness 10000) in paragraph at lines 861--863
 
  []
 
 <Figs/LatexImage11.png, id=474, 534.99875pt x 343.2825pt>
 File: Figs/LatexImage11.png Graphic file (type png)
 <use Figs/LatexImage11.png>
-Package pdftex.def Info: Figs/LatexImage11.png  used on input line 865.
+Package pdftex.def Info: Figs/LatexImage11.png  used on input line 866.
 (pdftex.def)             Requested size: 250.24199pt x 160.56755pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -1723,23 +1722,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.867 
+l.868 
       
 ? 
 [18 <./Figs/LatexImage10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 875--876
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 885--887
+Underfull \hbox (badness 10000) in paragraph at lines 886--888
 
  []
 
 <Figs/LatexImage12.png, id=502, 356.33125pt x 278.03876pt>
 File: Figs/LatexImage12.png Graphic file (type png)
 <use Figs/LatexImage12.png>
-Package pdftex.def Info: Figs/LatexImage12.png  used on input line 890.
+Package pdftex.def Info: Figs/LatexImage12.png  used on input line 891.
 (pdftex.def)             Requested size: 250.24199pt x 195.25793pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -1748,14 +1747,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.892 
+l.893 
       
 ? 
 [19 <./Figs/LatexImage11.png> <./Figs/LatexImage12.png>]
 <Figs/LatexImage13.png, id=523, 399.4925pt x 137.51375pt>
 File: Figs/LatexImage13.png Graphic file (type png)
 <use Figs/LatexImage13.png>
-Package pdftex.def Info: Figs/LatexImage13.png  used on input line 905.
+Package pdftex.def Info: Figs/LatexImage13.png  used on input line 906.
 (pdftex.def)             Requested size: 250.24199pt x 86.13892pt.
 
 
@@ -1765,7 +1764,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.907 
+l.908 
       
 ? 
 [20 <./Figs/LatexImage13.png>] (./main.aux)
@@ -1788,7 +1787,7 @@ Here is how much of TeX's memory you used:
  70712 multiletter control sequences out of 15000+600000
  562963 words of font info for 162 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,10n,103p,1178b,1268s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,103p,1178b,1266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts
@@ -1798,7 +1797,7 @@ txr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 510023 bytes).
+Output written on main.pdf (20 pages, 512042 bytes).
 PDF statistics:
  662 PDF objects out of 1000 (max. 8388607)
  572 compressed objects within 6 object streams
