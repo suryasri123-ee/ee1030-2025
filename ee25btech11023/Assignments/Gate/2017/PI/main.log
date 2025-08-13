@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.8.6)  13 AUG 2025 00:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.8.6)  13 AUG 2025 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1542,87 +1542,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
-
- []
-
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
-<figs/fig1.png, id=80, 519.44063pt x 349.305pt>
+<figs/fig1.png, id=81, 519.44063pt x 349.305pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 233.
+Package pdftex.def Info: figs/fig1.png  used on input line 237.
 (pdftex.def)             Requested size: 234.8775pt x 157.94264pt.
 [3 <./figs/fig1.png>]
-<figs//fig2.png, id=110, 925.4575pt x 761.84625pt>
+<figs//fig2.png, id=111, 925.4575pt x 761.84625pt>
 File: figs//fig2.png Graphic file (type png)
 <use figs//fig2.png>
-Package pdftex.def Info: figs//fig2.png  used on input line 290.
+Package pdftex.def Info: figs//fig2.png  used on input line 294.
 (pdftex.def)             Requested size: 469.75502pt x 386.71135pt.
  [4 <./figs//fig2.png>]
-<figs//fig3.png, id=129, 336.50719pt x 149.8097pt>
+<figs//fig3.png, id=130, 336.50719pt x 149.8097pt>
 File: figs//fig3.png Graphic file (type png)
 <use figs//fig3.png>
-Package pdftex.def Info: figs//fig3.png  used on input line 325.
+Package pdftex.def Info: figs//fig3.png  used on input line 329.
 (pdftex.def)             Requested size: 234.8775pt x 104.5666pt.
- [5 <./figs//fig3.png>]
-<figs//fig4.png, id=163, 743.77875pt x 229.85875pt>
+<figs//fig4.png, id=131, 743.77875pt x 229.85875pt>
 File: figs//fig4.png Graphic file (type png)
 <use figs//fig4.png>
-Package pdftex.def Info: figs//fig4.png  used on input line 385.
+Package pdftex.def Info: figs//fig4.png  used on input line 388.
 (pdftex.def)             Requested size: 234.8775pt x 72.58475pt.
-<figs//fig5.png, id=164, 426.59375pt x 456.70625pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./figs//fig3.png>]
+<figs//fig5.png, id=166, 426.59375pt x 456.70625pt>
 File: figs//fig5.png Graphic file (type png)
 <use figs//fig5.png>
-Package pdftex.def Info: figs//fig5.png  used on input line 424.
+Package pdftex.def Info: figs//fig5.png  used on input line 427.
 (pdftex.def)             Requested size: 187.89914pt x 201.16739pt.
  [6 <./figs//fig4.png> <./figs//fig5.png>]
-<figs//fig7.png, id=183, 580.1675pt x 337.26pt>
+<figs//fig7.png, id=184, 580.1675pt x 337.26pt>
 File: figs//fig7.png Graphic file (type png)
 <use figs//fig7.png>
-Package pdftex.def Info: figs//fig7.png  used on input line 439.
+Package pdftex.def Info: figs//fig7.png  used on input line 442.
 (pdftex.def)             Requested size: 187.89914pt x 109.22737pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--451
-
- []
-
-<figs//fig8.png, id=184, 391.4625pt x 383.4325pt>
+<figs//fig8.png, id=185, 391.4625pt x 383.4325pt>
 File: figs//fig8.png Graphic file (type png)
 <use figs//fig8.png>
-Package pdftex.def Info: figs//fig8.png  used on input line 454.
+Package pdftex.def Info: figs//fig8.png  used on input line 457.
 (pdftex.def)             Requested size: 234.8775pt x 230.06126pt.
-[7 <./figs//fig7.png> <./figs//fig8.png>]
-<figs//fig6.png, id=195, 574.145pt x 315.1775pt>
+<figs//fig6.png, id=186, 574.145pt x 315.1775pt>
 File: figs//fig6.png Graphic file (type png)
 <use figs//fig6.png>
-Package pdftex.def Info: figs//fig6.png  used on input line 465.
+Package pdftex.def Info: figs//fig6.png  used on input line 467.
 (pdftex.def)             Requested size: 187.89914pt x 103.14323pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--503
+ [7 <./figs//fig7.png> <./figs//fig8.png> <./figs//fig6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
 
  []
 
 (./tables/table1.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 508--511
+Underfull \hbox (badness 10000) in paragraph at lines 510--513
 
  []
 
 (./tables/table3.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
-(./tables/table2.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 522--526
-
- []
-
-[8 <./figs//fig6.png>] (./tables/table6.tex
+(./tables/table2.tex) (./tables/table6.tex
 Overfull \hbox (6.30954pt too wide) in paragraph at lines 4--4
 []|\OT1/txr/m/n/12 10| 
  []
@@ -1688,66 +1676,48 @@ Overfull \hbox (6.30954pt too wide) in paragraph at lines 5--5
  []
 
 )
-Overfull \hbox (10.45409pt too wide) in paragraph at lines 1--533
+Overfull \hbox (10.45409pt too wide) in paragraph at lines 1--535
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--533
+Underfull \hbox (badness 10000) in paragraph at lines 1--535
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 534--536
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--541
-
- []
-
-<figs//fig10.png, id=214, 497.86pt x 341.275pt>
+[8]
+<figs//fig10.png, id=216, 497.86pt x 341.275pt>
 File: figs//fig10.png Graphic file (type png)
 <use figs//fig10.png>
-Package pdftex.def Info: figs//fig10.png  used on input line 544.
+Package pdftex.def Info: figs//fig10.png  used on input line 545.
 (pdftex.def)             Requested size: 234.8775pt x 161.00853pt.
-[9 <./figs//fig10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 588--591
-
- []
-
-(./tables/table7.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 607--611
-
- []
-
-<figs//fig9.png, id=230, 429.605pt x 470.75874pt>
+ (./tables/table7.tex [9 <./figs//fig10.png>])
+<figs//fig9.png, id=236, 429.605pt x 470.75874pt>
 File: figs//fig9.png Graphic file (type png)
 <use figs//fig9.png>
-Package pdftex.def Info: figs//fig9.png  used on input line 621.
+Package pdftex.def Info: figs//fig9.png  used on input line 622.
 (pdftex.def)             Requested size: 140.92793pt x 154.43141pt.
-[10 <./figs//fig9.png>]
-<figs//fig11.png, id=249, 620.3175pt x 309.155pt>
+ [10 <./figs//fig9.png>]
+<figs//fig11.png, id=254, 620.3175pt x 309.155pt>
 File: figs//fig11.png Graphic file (type png)
 <use figs//fig11.png>
-Package pdftex.def Info: figs//fig11.png  used on input line 643.
+Package pdftex.def Info: figs//fig11.png  used on input line 644.
 (pdftex.def)             Requested size: 234.8775pt x 117.05556pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 675--677
+Underfull \hbox (badness 10000) in paragraph at lines 676--678
 
  []
 
 (./tables/table4.tex) [11 <./figs//fig11.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 743--749
+Underfull \hbox (badness 10000) in paragraph at lines 744--750
 
  []
 
 [12]
-<figs//fig12.png, id=306, 467.7475pt x 251.94125pt>
+<figs//fig12.png, id=311, 467.7475pt x 251.94125pt>
 File: figs//fig12.png Graphic file (type png)
 <use figs//fig12.png>
-Package pdftex.def Info: figs//fig12.png  used on input line 822.
+Package pdftex.def Info: figs//fig12.png  used on input line 823.
 (pdftex.def)             Requested size: 234.8775pt x 126.51236pt.
  [13 <./figs//fig12.png>] (./tables/table5.tex
 
@@ -1769,7 +1739,7 @@ Package rerunfilecheck Info: Checksums for `main.out':
 Here is how much of TeX's memory you used:
  45620 strings out of 478287
  1043621 string characters out of 5849290
- 1562571 words of memory out of 5000000
+ 1562573 words of memory out of 5000000
  62796 multiletter control sequences out of 15000+600000
  536832 words of font info for 168 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1782,7 +1752,7 @@ onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 898267 bytes).
+Output written on main.pdf (14 pages, 898422 bytes).
 PDF statistics:
  431 PDF objects out of 1000 (max. 8388607)
  380 compressed objects within 4 object streams
