@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  12 AUG 2025 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  13 AUG 2025 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1516,211 +1516,477 @@ File: ts1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
- [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/base/8r.enc}]
-<figs/q7.png, id=55, 553.06625pt x 174.6525pt>
-File: figs/q7.png Graphic file (type png)
-<use figs/q7.png>
-Package pdftex.def Info: figs/q7.png  used on input line 99.
-(pdftex.def)             Requested size: 281.85587pt x 89.00496pt.
-<figs/q8.png, id=57, 339.2675pt x 71.26625pt>
+<figs/q7 a.png, id=66, 137.51375pt x 142.5325pt>
+File: figs/q7 a.png Graphic file (type png)
+<use figs/q7 a.png>
+Package pdftex.def Info: figs/q7 a.png  used on input line 113.
+(pdftex.def)             Requested size: 46.97836pt x 48.6931pt.
+<figs/q7 b.png, id=68, 137.51375pt x 142.5325pt>
+File: figs/q7 b.png Graphic file (type png)
+<use figs/q7 b.png>
+Package pdftex.def Info: figs/q7 b.png  used on input line 114.
+(pdftex.def)             Requested size: 46.97836pt x 48.6931pt.
+<figs/q7 c.png, id=69, 137.51375pt x 142.5325pt>
+File: figs/q7 c.png Graphic file (type png)
+<use figs/q7 c.png>
+Package pdftex.def Info: figs/q7 c.png  used on input line 115.
+(pdftex.def)             Requested size: 46.97836pt x 48.6931pt.
+<figs/q7 d.png, id=70, 137.51375pt x 142.5325pt>
+File: figs/q7 d.png Graphic file (type png)
+<use figs/q7 d.png>
+Package pdftex.def Info: figs/q7 d.png  used on input line 116.
+(pdftex.def)             Requested size: 46.97836pt x 48.6931pt.
+<figs/q8.png, id=71, 339.2675pt x 71.26625pt>
 File: figs/q8.png Graphic file (type png)
 <use figs/q8.png>
-Package pdftex.def Info: figs/q8.png  used on input line 109.
+Package pdftex.def Info: figs/q8.png  used on input line 127.
 (pdftex.def)             Requested size: 328.82707pt x 69.07596pt.
-<figs/q9.png, id=58, 588.1975pt x 185.69376pt>
-File: figs/q9.png Graphic file (type png)
-<use figs/q9.png>
-Package pdftex.def Info: figs/q9.png  used on input line 123.
-(pdftex.def)             Requested size: 328.82707pt x 103.80928pt.
-<figs/q10.png, id=59, 588.1975pt x 185.69376pt>
+<figs/q9 a.png, id=72, 164.615pt x 201.75375pt>
+File: figs/q9 a.png Graphic file (type png)
+<use figs/q9 a.png>
+Package pdftex.def Info: figs/q9 a.png  used on input line 141.
+(pdftex.def)             Requested size: 46.97836pt x 57.57738pt.
+ [2 <./figs/q7 a.png> <./figs/q7 b.png> <./figs/q7 c.png> <./figs/q7 d.png> <./
+figs/q8.png>]
+<figs/q9 b.png, id=99, 164.615pt x 201.75375pt>
+File: figs/q9 b.png Graphic file (type png)
+<use figs/q9 b.png>
+Package pdftex.def Info: figs/q9 b.png  used on input line 142.
+(pdftex.def)             Requested size: 46.97836pt x 57.57738pt.
+<figs/q9 c.png, id=100, 164.615pt x 201.75375pt>
+File: figs/q9 c.png Graphic file (type png)
+<use figs/q9 c.png>
+Package pdftex.def Info: figs/q9 c.png  used on input line 143.
+(pdftex.def)             Requested size: 46.97836pt x 57.57738pt.
+<figs/q9 d.png, id=101, 164.615pt x 201.75375pt>
+File: figs/q9 d.png Graphic file (type png)
+<use figs/q9 d.png>
+Package pdftex.def Info: figs/q9 d.png  used on input line 144.
+(pdftex.def)             Requested size: 46.97836pt x 57.57738pt.
+<figs/q10.png, id=102, 771.88374pt x 162.6075pt>
 File: figs/q10.png Graphic file (type png)
 <use figs/q10.png>
-Package pdftex.def Info: figs/q10.png  used on input line 132.
-(pdftex.def)             Requested size: 328.82707pt x 103.80928pt.
- [2 <./figs/q7.png> <./figs/q8.png> <./figs/q9.png>]
-<figs/q12.png, id=73, 460.72125pt x 227.85126pt>
-File: figs/q12.png Graphic file (type png)
-<use figs/q12.png>
-Package pdftex.def Info: figs/q12.png  used on input line 153.
-(pdftex.def)             Requested size: 281.85587pt x 139.39235pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-
- []
-
-[3 <./figs/q10.png> <./figs/q12.png>]
-Overfull \hbox (4.06294pt too wide) in paragraph at lines 219--221
+Package pdftex.def Info: figs/q10.png  used on input line 154.
+(pdftex.def)             Requested size: 328.82707pt x 69.27226pt.
+<figs/q10 a.png, id=103, 338.26375pt x 111.41624pt>
+File: figs/q10 a.png Graphic file (type png)
+<use figs/q10 a.png>
+Package pdftex.def Info: figs/q10 a.png  used on input line 157.
+(pdftex.def)             Requested size: 140.92793pt x 46.41878pt.
+<figs/q10 b.png, id=104, 338.26375pt x 111.41624pt>
+File: figs/q10 b.png Graphic file (type png)
+<use figs/q10 b.png>
+Package pdftex.def Info: figs/q10 b.png  used on input line 158.
+(pdftex.def)             Requested size: 140.92793pt x 46.41878pt.
+<figs/q10 c.png, id=105, 338.26375pt x 111.41624pt>
+File: figs/q10 c.png Graphic file (type png)
+<use figs/q10 c.png>
+Package pdftex.def Info: figs/q10 c.png  used on input line 159.
+(pdftex.def)             Requested size: 140.92793pt x 46.41878pt.
+<figs/q10 d.png, id=106, 338.26375pt x 111.41624pt>
+File: figs/q10 d.png Graphic file (type png)
+<use figs/q10 d.png>
+Package pdftex.def Info: figs/q10 d.png  used on input line 160.
+(pdftex.def)             Requested size: 140.92793pt x 46.41878pt.
+ [3 <./figs/q9 a.png> <./figs/q9 b.png> <./figs/q9 c.png> <./figs/q9 d.png> <./
+figs/q10.png> <./figs/q10 a.png> <./figs/q10 b.png> <./figs/q10 c.png> <./figs/
+q10 d.png>]
+<figs/q12 a.png, id=130, 211.79124pt x 238.8925pt>
+File: figs/q12 a.png Graphic file (type png)
+<use figs/q12 a.png>
+Package pdftex.def Info: figs/q12 a.png  used on input line 181.
+(pdftex.def)             Requested size: 46.97836pt x 52.98663pt.
+<figs/q12 b.png, id=131, 211.79124pt x 238.8925pt>
+File: figs/q12 b.png Graphic file (type png)
+<use figs/q12 b.png>
+Package pdftex.def Info: figs/q12 b.png  used on input line 182.
+(pdftex.def)             Requested size: 46.97836pt x 52.98663pt.
+<figs/q12 c.png, id=132, 211.79124pt x 238.8925pt>
+File: figs/q12 c.png Graphic file (type png)
+<use figs/q12 c.png>
+Package pdftex.def Info: figs/q12 c.png  used on input line 183.
+(pdftex.def)             Requested size: 46.97836pt x 52.98663pt.
+<figs/q12 d.png, id=133, 211.79124pt x 238.8925pt>
+File: figs/q12 d.png Graphic file (type png)
+<use figs/q12 d.png>
+Package pdftex.def Info: figs/q12 d.png  used on input line 184.
+(pdftex.def)             Requested size: 46.97836pt x 52.98663pt.
+ [4 <./figs/q12 a.png> <./figs/q12 b.png> <./figs/q12 c.png> <./figs/q12 d.png>
+]
+Overfull \hbox (4.06294pt too wide) in paragraph at lines 257--258
 []\OT1/txr/m/n/12 The resid-ual en-tropy of the asym-met-ric molecule N$[]$O in
  its crys-talline state is $5\OML/txmi/m/it/12 :\OT1/txr/m/n/12 8 []$
  []
 
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 347--351
-[]\OT1/txr/m/n/12 (A) \OT1/txr/m/it/12 closo \OT1/txr/m/n/12 sys-tem
- []
-
-[6]
-<figs/q37.png, id=146, 328.22626pt x 335.2525pt>
+[5] [6] [7]
+<figs/q37.png, id=267, 328.22626pt x 335.2525pt>
 File: figs/q37.png Graphic file (type png)
 <use figs/q37.png>
-Package pdftex.def Info: figs/q37.png  used on input line 405.
+Package pdftex.def Info: figs/q37.png  used on input line 445.
 (pdftex.def)             Requested size: 375.80544pt x 383.85437pt.
- [7]
-<figs/q38.png, id=163, 444.66125pt x 114.4275pt>
+ [8]
+<figs/q38.png, id=294, 444.66125pt x 114.4275pt>
 File: figs/q38.png Graphic file (type png)
 <use figs/q38.png>
-Package pdftex.def Info: figs/q38.png  used on input line 418.
+Package pdftex.def Info: figs/q38.png  used on input line 458.
 (pdftex.def)             Requested size: 375.80544pt x 96.70859pt.
- [8 <./figs/q37.png> <./figs/q38.png>]
-<figs/q39.png, id=175, 494.84875pt x 386.44376pt>
+ [9 <./figs/q37.png> <./figs/q38.png>]
+<figs/q39.png, id=306, 1037.8775pt x 166.6225pt>
 File: figs/q39.png Graphic file (type png)
 <use figs/q39.png>
-Package pdftex.def Info: figs/q39.png  used on input line 431.
-(pdftex.def)             Requested size: 375.80544pt x 293.47623pt.
-<figs/q40.png, id=176, 506.89375pt x 125.46875pt>
+Package pdftex.def Info: figs/q39.png  used on input line 471.
+(pdftex.def)             Requested size: 234.8775pt x 37.70709pt.
+<figs/q39 a.png, id=307, 608.2725pt x 199.74625pt>
+File: figs/q39 a.png Graphic file (type png)
+<use figs/q39 a.png>
+Package pdftex.def Info: figs/q39 a.png  used on input line 474.
+(pdftex.def)             Requested size: 140.92793pt x 46.27592pt.
+<figs/q39 b.png, id=308, 608.2725pt x 199.74625pt>
+File: figs/q39 b.png Graphic file (type png)
+<use figs/q39 b.png>
+Package pdftex.def Info: figs/q39 b.png  used on input line 475.
+(pdftex.def)             Requested size: 140.92793pt x 46.27592pt.
+<figs/q39 c.png, id=309, 608.2725pt x 199.74625pt>
+File: figs/q39 c.png Graphic file (type png)
+<use figs/q39 c.png>
+Package pdftex.def Info: figs/q39 c.png  used on input line 476.
+(pdftex.def)             Requested size: 140.92793pt x 46.27592pt.
+<figs/q39 d.png, id=310, 620.3175pt x 199.74625pt>
+File: figs/q39 d.png Graphic file (type png)
+<use figs/q39 d.png>
+Package pdftex.def Info: figs/q39 d.png  used on input line 477.
+(pdftex.def)             Requested size: 140.92793pt x 45.37985pt.
+<figs/q40.png, id=311, 506.89375pt x 125.46875pt>
 File: figs/q40.png Graphic file (type png)
 <use figs/q40.png>
-Package pdftex.def Info: figs/q40.png  used on input line 438.
+Package pdftex.def Info: figs/q40.png  used on input line 483.
 (pdftex.def)             Requested size: 375.80544pt x 93.02345pt.
- [9 <./figs/q39.png> <./figs/q40.png>]
-<figs/q42.png, id=185, 431.6125pt x 196.735pt>
+ [10 <./figs/q39.png> <./figs/q39 a.png> <./figs/q39 b.png> <./figs/q39 c.png> 
+<./figs/q39 d.png> <./figs/q40.png>]
+<figs/q42.png, id=336, 761.84625pt x 160.6pt>
 File: figs/q42.png Graphic file (type png)
 <use figs/q42.png>
-Package pdftex.def Info: figs/q42.png  used on input line 461.
-(pdftex.def)             Requested size: 281.85587pt x 128.47661pt.
-<figs/q44.png, id=186, 480.79625pt x 269.005pt>
+Package pdftex.def Info: figs/q42.png  used on input line 506.
+(pdftex.def)             Requested size: 281.85587pt x 59.41615pt.
+<figs/q42 a.png, id=337, 191.71625pt x 132.495pt>
+File: figs/q42 a.png Graphic file (type png)
+<use figs/q42 a.png>
+Package pdftex.def Info: figs/q42 a.png  used on input line 509.
+(pdftex.def)             Requested size: 93.94957pt x 64.92917pt.
+<figs/q42 b.png, id=338, 191.71625pt x 132.495pt>
+File: figs/q42 b.png Graphic file (type png)
+<use figs/q42 b.png>
+Package pdftex.def Info: figs/q42 b.png  used on input line 510.
+(pdftex.def)             Requested size: 93.94957pt x 64.92917pt.
+<figs/q42 c.png, id=339, 191.71625pt x 132.495pt>
+File: figs/q42 c.png Graphic file (type png)
+<use figs/q42 c.png>
+Package pdftex.def Info: figs/q42 c.png  used on input line 511.
+(pdftex.def)             Requested size: 93.94957pt x 64.92917pt.
+<figs/q42 d.png, id=340, 191.71625pt x 132.495pt>
+File: figs/q42 d.png Graphic file (type png)
+<use figs/q42 d.png>
+Package pdftex.def Info: figs/q42 d.png  used on input line 512.
+(pdftex.def)             Requested size: 93.94957pt x 64.92917pt.
+ [11 <./figs/q42.png> <./figs/q42 a.png> <./figs/q42 b.png> <./figs/q42 c.png> 
+<./figs/q42 d.png>]
+<figs/q44.png, id=363, 781.92125pt x 249.93375pt>
 File: figs/q44.png Graphic file (type png)
 <use figs/q44.png>
-Package pdftex.def Info: figs/q44.png  used on input line 478.
-(pdftex.def)             Requested size: 281.85587pt x 157.70181pt.
- [10 <./figs/q42.png>]
-<figs/q45.png, id=196, 519.9425pt x 192.72pt>
+Package pdftex.def Info: figs/q44.png  used on input line 528.
+(pdftex.def)             Requested size: 281.85587pt x 90.09048pt.
+<figs/q44 a.png, id=364, 380.42125pt x 229.85875pt>
+File: figs/q44 a.png Graphic file (type png)
+<use figs/q44 a.png>
+Package pdftex.def Info: figs/q44 a.png  used on input line 531.
+(pdftex.def)             Requested size: 93.94957pt x 56.76657pt.
+<figs/q44 b.png, id=365, 380.42125pt x 229.85875pt>
+File: figs/q44 b.png Graphic file (type png)
+<use figs/q44 b.png>
+Package pdftex.def Info: figs/q44 b.png  used on input line 532.
+(pdftex.def)             Requested size: 93.94957pt x 56.76657pt.
+<figs/q44 c.png, id=366, 380.42125pt x 229.85875pt>
+File: figs/q44 c.png Graphic file (type png)
+<use figs/q44 c.png>
+Package pdftex.def Info: figs/q44 c.png  used on input line 533.
+(pdftex.def)             Requested size: 93.94957pt x 56.76657pt.
+<figs/q44 d.png, id=367, 380.42125pt x 229.85875pt>
+File: figs/q44 d.png Graphic file (type png)
+<use figs/q44 d.png>
+Package pdftex.def Info: figs/q44 d.png  used on input line 534.
+(pdftex.def)             Requested size: 93.94957pt x 56.76657pt.
+<figs/q45.png, id=368, 1220.56pt x 229.85875pt>
 File: figs/q45.png Graphic file (type png)
 <use figs/q45.png>
-Package pdftex.def Info: figs/q45.png  used on input line 485.
-(pdftex.def)             Requested size: 281.85587pt x 104.47011pt.
-<figs/q46.png, id=197, 512.91624pt x 206.7725pt>
+Package pdftex.def Info: figs/q45.png  used on input line 541.
+(pdftex.def)             Requested size: 281.85587pt x 53.08034pt.
+<figs/q45 d.png, id=369, 390.45876pt x 140.525pt>
+File: figs/q45 d.png Graphic file (type png)
+<use figs/q45 d.png>
+Package pdftex.def Info: figs/q45 d.png  used on input line 547.
+(pdftex.def)             Requested size: 140.92793pt x 50.71974pt.
+ [12 <./figs/q44.png> <./figs/q44 a.png> <./figs/q44 b.png> <./figs/q44 c.png> 
+<./figs/q44 d.png> <./figs/q45.png>]
+<figs/q46.png, id=389, 422.57875pt x 140.525pt>
 File: figs/q46.png Graphic file (type png)
 <use figs/q46.png>
-Package pdftex.def Info: figs/q46.png  used on input line 492.
-(pdftex.def)             Requested size: 281.85587pt x 113.62425pt.
-<figs/q47.png, id=198, 515.9275pt x 253.94875pt>
+Package pdftex.def Info: figs/q46.png  used on input line 554.
+(pdftex.def)             Requested size: 281.85587pt x 93.73097pt.
+<figs/q46 a.png, id=390, 274.02374pt x 100.375pt>
+File: figs/q46 a.png Graphic file (type png)
+<use figs/q46 a.png>
+Package pdftex.def Info: figs/q46 a.png  used on input line 557.
+(pdftex.def)             Requested size: 140.92793pt x 51.62247pt.
+<figs/q46 b.png, id=391, 274.02374pt x 100.375pt>
+File: figs/q46 b.png Graphic file (type png)
+<use figs/q46 b.png>
+Package pdftex.def Info: figs/q46 b.png  used on input line 558.
+(pdftex.def)             Requested size: 140.92793pt x 51.62247pt.
+<figs/q46 c.png, id=392, 274.02374pt x 100.375pt>
+File: figs/q46 c.png Graphic file (type png)
+<use figs/q46 c.png>
+Package pdftex.def Info: figs/q46 c.png  used on input line 559.
+(pdftex.def)             Requested size: 140.92793pt x 51.62247pt.
+<figs/q46 d.png, id=393, 226.8475pt x 97.36375pt>
+File: figs/q46 d.png Graphic file (type png)
+<use figs/q46 d.png>
+Package pdftex.def Info: figs/q46 d.png  used on input line 560.
+(pdftex.def)             Requested size: 140.92793pt x 60.48671pt.
+<figs/q47.png, id=394, 397.485pt x 97.36375pt>
 File: figs/q47.png Graphic file (type png)
 <use figs/q47.png>
-Package pdftex.def Info: figs/q47.png  used on input line 499.
-(pdftex.def)             Requested size: 281.85587pt x 138.73837pt.
- [11 <./figs/q44.png> <./figs/q45.png> <./figs/q46.png>]
-<figs/q48.png, id=209, 144.54pt x 112.42pt>
+Package pdftex.def Info: figs/q47.png  used on input line 567.
+(pdftex.def)             Requested size: 281.85587pt x 69.04256pt.
+<figs/q47 a.png, id=395, 152.57pt x 97.36375pt>
+File: figs/q47 a.png Graphic file (type png)
+<use figs/q47 a.png>
+Package pdftex.def Info: figs/q47 a.png  used on input line 570.
+(pdftex.def)             Requested size: 140.92793pt x 89.93822pt.
+ [13 <./figs/q45 d.png> <./figs/q46.png> <./figs/q46 a.png> <./figs/q46 b.png> 
+<./figs/q46 c.png> <./figs/q46 d.png> <./figs/q47.png>]
+<figs/q47 b.png, id=417, 152.57pt x 97.36375pt>
+File: figs/q47 b.png Graphic file (type png)
+<use figs/q47 b.png>
+Package pdftex.def Info: figs/q47 b.png  used on input line 571.
+(pdftex.def)             Requested size: 140.92793pt x 89.93822pt.
+<figs/q47 c.png, id=418, 152.57pt x 97.36375pt>
+File: figs/q47 c.png Graphic file (type png)
+<use figs/q47 c.png>
+Package pdftex.def Info: figs/q47 c.png  used on input line 572.
+(pdftex.def)             Requested size: 140.92793pt x 89.93822pt.
+<figs/q47 d.png, id=419, 152.57pt x 97.36375pt>
+File: figs/q47 d.png Graphic file (type png)
+<use figs/q47 d.png>
+Package pdftex.def Info: figs/q47 d.png  used on input line 573.
+(pdftex.def)             Requested size: 140.92793pt x 89.93822pt.
+<figs/q48.png, id=420, 144.54pt x 112.42pt>
 File: figs/q48.png Graphic file (type png)
 <use figs/q48.png>
-Package pdftex.def Info: figs/q48.png  used on input line 506.
+Package pdftex.def Info: figs/q48.png  used on input line 579.
 (pdftex.def)             Requested size: 211.38832pt x 164.42172pt.
-<figs/q49.png, id=210, 211.79124pt x 49.18375pt>
+ [14 <./figs/q47 a.png> <./figs/q47 b.png> <./figs/q47 c.png> <./figs/q47 d.png
+> <./figs/q48.png>]
+<figs/q49.png, id=435, 211.79124pt x 49.18375pt>
 File: figs/q49.png Graphic file (type png)
 <use figs/q49.png>
-Package pdftex.def Info: figs/q49.png  used on input line 518.
+Package pdftex.def Info: figs/q49.png  used on input line 591.
 (pdftex.def)             Requested size: 211.38832pt x 49.09204pt.
- [12 <./figs/q47.png> <./figs/q48.png> <./figs/q49.png>]
-<figs/q51.png, id=224, 435.6275pt x 255.95625pt>
+<figs/q51.png, id=436, 219.82124pt x 97.36375pt>
 File: figs/q51.png Graphic file (type png)
 <use figs/q51.png>
-Package pdftex.def Info: figs/q51.png  used on input line 542.
-(pdftex.def)             Requested size: 281.85587pt x 165.60408pt.
-<figs/q52.png, id=225, 449.68pt x 87.32625pt>
+Package pdftex.def Info: figs/q51.png  used on input line 615.
+(pdftex.def)             Requested size: 281.85587pt x 124.84354pt.
+<figs/q51 a.png, id=437, 106.3975pt x 93.34875pt>
+File: figs/q51 a.png Graphic file (type png)
+<use figs/q51 a.png>
+Package pdftex.def Info: figs/q51 a.png  used on input line 618.
+(pdftex.def)             Requested size: 93.94957pt x 82.43202pt.
+<figs/q51 b.png, id=438, 106.3975pt x 93.34875pt>
+File: figs/q51 b.png Graphic file (type png)
+<use figs/q51 b.png>
+Package pdftex.def Info: figs/q51 b.png  used on input line 619.
+(pdftex.def)             Requested size: 93.94957pt x 82.43202pt.
+ [15 <./figs/q49.png> <./figs/q51.png> <./figs/q51 a.png>]
+<figs/q51 c.png, id=463, 106.3975pt x 93.34875pt>
+File: figs/q51 c.png Graphic file (type png)
+<use figs/q51 c.png>
+Package pdftex.def Info: figs/q51 c.png  used on input line 620.
+(pdftex.def)             Requested size: 93.94957pt x 82.43202pt.
+<figs/q51 d.png, id=464, 106.3975pt x 93.34875pt>
+File: figs/q51 d.png Graphic file (type png)
+<use figs/q51 d.png>
+Package pdftex.def Info: figs/q51 d.png  used on input line 621.
+(pdftex.def)             Requested size: 93.94957pt x 82.43202pt.
+<figs/q52.png, id=465, 449.68pt x 87.32625pt>
 File: figs/q52.png Graphic file (type png)
 <use figs/q52.png>
-Package pdftex.def Info: figs/q52.png  used on input line 549.
+Package pdftex.def Info: figs/q52.png  used on input line 627.
 (pdftex.def)             Requested size: 281.85587pt x 54.73734pt.
-<figs/q53.png, id=226, 146.5475pt x 94.3525pt>
+<figs/q53.png, id=466, 146.5475pt x 94.3525pt>
 File: figs/q53.png Graphic file (type png)
 <use figs/q53.png>
-Package pdftex.def Info: figs/q53.png  used on input line 565.
+Package pdftex.def Info: figs/q53.png  used on input line 643.
 (pdftex.def)             Requested size: 281.85587pt x 181.48727pt.
- [13 <./figs/q51.png> <./figs/q52.png>] [14 <./figs/q53.png>]
-<figs/q58.png, id=255, 90.3375pt x 52.195pt>
+ [16 <./figs/q51 b.png> <./figs/q51 c.png> <./figs/q51 d.png> <./figs/q52.png>]
+ [17 <./figs/q53.png>]
+<figs/q58.png, id=509, 90.3375pt x 52.195pt>
 File: figs/q58.png Graphic file (type png)
 <use figs/q58.png>
-Package pdftex.def Info: figs/q58.png  used on input line 621.
-(pdftex.def)             Requested size: 281.85587pt x 162.89471pt.
- [15 <./figs/q58.png>]
-Overfull \hbox (3.75166pt too wide) in paragraph at lines 694--695
+Package pdftex.def Info: figs/q58.png  used on input line 703.
+(pdftex.def)             Requested size: 140.92793pt x 81.43262pt.
+ [18 <./figs/q58.png>]
+Overfull \hbox (3.75166pt too wide) in paragraph at lines 776--777
 []\OT1/txr/m/n/12 According to the Debye-H[]uckel lim-it-ing law, the mean ac-t
 iv-ity co-ef-fi-cient of $5 \OMS/txsy/m/n/12 ^^B \OT1/txr/m/n/12 10[] [][]$
  []
 
-[16]
-<figs/q69.png, id=272, 524.96124pt x 59.22125pt>
+[19]
+<figs/q69.png, id=560, 524.96124pt x 59.22125pt>
 File: figs/q69.png Graphic file (type png)
 <use figs/q69.png>
-Package pdftex.def Info: figs/q69.png  used on input line 758.
+Package pdftex.def Info: figs/q69.png  used on input line 840.
 (pdftex.def)             Requested size: 281.85587pt x 31.79735pt.
- [17]
+ [20 <./figs/q69.png>]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 782.
- [18 <./figs/q69.png>]
-<figs/q76 1.png, id=296, 219.82124pt x 59.22125pt>
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 864.
+ [21]
+<figs/q76 1.png, id=611, 219.82124pt x 59.22125pt>
 File: figs/q76 1.png Graphic file (type png)
 <use figs/q76 1.png>
-Package pdftex.def Info: figs/q76 1.png  used on input line 846.
+Package pdftex.def Info: figs/q76 1.png  used on input line 928.
 (pdftex.def)             Requested size: 281.85587pt x 75.93575pt.
- [19 <./figs/q76 1.png>]
-<figs/q76_2.png, id=307, 456.70625pt x 191.71625pt>
-File: figs/q76_2.png Graphic file (type png)
-<use figs/q76_2.png>
-Package pdftex.def Info: figs/q76_2.png  used on input line 852.
-(pdftex.def)             Requested size: 281.85587pt x 118.32164pt.
-<figs/q77.png, id=308, 455.7025pt x 145.54375pt>
-File: figs/q77.png Graphic file (type png)
-<use figs/q77.png>
-Package pdftex.def Info: figs/q77.png  used on input line 859.
-(pdftex.def)             Requested size: 281.85587pt x 90.02075pt.
- [20 <./figs/q76_2.png> <./figs/q77.png>]
+<figs/q76 a.png, id=612, 150.5625pt x 106.3975pt>
+File: figs/q76 a.png Graphic file (type png)
+<use figs/q76 a.png>
+Package pdftex.def Info: figs/q76 a.png  used on input line 935.
+(pdftex.def)             Requested size: 93.94957pt x 66.39273pt.
+ [22 <./figs/q76 1.png>]
+<figs/q76 b.png, id=634, 166.6225pt x 110.4125pt>
+File: figs/q76 b.png Graphic file (type png)
+<use figs/q76 b.png>
+Package pdftex.def Info: figs/q76 b.png  used on input line 936.
+(pdftex.def)             Requested size: 93.94957pt x 62.2568pt.
+<figs/q76 c.png, id=635, 166.6225pt x 124.465pt>
+File: figs/q76 c.png Graphic file (type png)
+<use figs/q76 c.png>
+Package pdftex.def Info: figs/q76 c.png  used on input line 937.
+(pdftex.def)             Requested size: 93.94957pt x 70.1804pt.
+<figs/q76 d.png, id=636, 166.6225pt x 124.465pt>
+File: figs/q76 d.png Graphic file (type png)
+<use figs/q76 d.png>
+Package pdftex.def Info: figs/q76 d.png  used on input line 938.
+(pdftex.def)             Requested size: 93.94957pt x 70.1804pt.
+<figs/q77 b.png, id=637, 166.6225pt x 124.465pt>
+File: figs/q77 b.png Graphic file (type png)
+<use figs/q77 b.png>
+Package pdftex.def Info: figs/q77 b.png  used on input line 946.
+(pdftex.def)             Requested size: 140.92793pt x 105.27916pt.
+<figs/q77 c.png, id=638, 224.84pt x 77.28876pt>
+File: figs/q77 c.png Graphic file (type png)
+<use figs/q77 c.png>
+Package pdftex.def Info: figs/q77 c.png  used on input line 947.
+(pdftex.def)             Requested size: 140.92793pt x 48.44568pt.
+<figs/q77 d.png, id=639, 166.6225pt x 124.465pt>
+File: figs/q77 d.png Graphic file (type png)
+<use figs/q77 d.png>
+Package pdftex.def Info: figs/q77 d.png  used on input line 948.
+(pdftex.def)             Requested size: 140.92793pt x 105.27916pt.
+ [23 <./figs/q76 a.png> <./figs/q76 b.png> <./figs/q76 c.png> <./figs/q76 d.png
+> <./figs/q77 b.png> <./figs/q77 c.png>]
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-891.
+980.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-<figs/q80.png, id=319, 565.11125pt x 147.55125pt>
-File: figs/q80.png Graphic file (type png)
-<use figs/q80.png>
-Package pdftex.def Info: figs/q80.png  used on input line 896.
-(pdftex.def)             Requested size: 281.85587pt x 73.59306pt.
-<figs/q81.png, id=320, 524.96124pt x 139.52126pt>
-File: figs/q81.png Graphic file (type png)
-<use figs/q81.png>
-Package pdftex.def Info: figs/q81.png  used on input line 903.
-(pdftex.def)             Requested size: 281.85587pt x 74.91243pt.
-<figs/q82 1.png, id=321, 317.185pt x 61.22874pt>
+[24 <./figs/q77 d.png>]
+<figs/q80 a.png, id=676, 224.84pt x 77.28876pt>
+File: figs/q80 a.png Graphic file (type png)
+<use figs/q80 a.png>
+Package pdftex.def Info: figs/q80 a.png  used on input line 985.
+(pdftex.def)             Requested size: 140.92793pt x 48.44568pt.
+<figs/q80 b.png, id=677, 224.84pt x 77.28876pt>
+File: figs/q80 b.png Graphic file (type png)
+<use figs/q80 b.png>
+Package pdftex.def Info: figs/q80 b.png  used on input line 986.
+(pdftex.def)             Requested size: 140.92793pt x 48.44568pt.
+<figs/q80 c.png, id=678, 224.84pt x 77.28876pt>
+File: figs/q80 c.png Graphic file (type png)
+<use figs/q80 c.png>
+Package pdftex.def Info: figs/q80 c.png  used on input line 987.
+(pdftex.def)             Requested size: 140.92793pt x 48.44568pt.
+<figs/q80 d.png, id=679, 224.84pt x 77.28876pt>
+File: figs/q80 d.png Graphic file (type png)
+<use figs/q80 d.png>
+Package pdftex.def Info: figs/q80 d.png  used on input line 988.
+(pdftex.def)             Requested size: 140.92793pt x 48.44568pt.
+<figs/q81 a.png, id=680, 224.84pt x 77.28876pt>
+File: figs/q81 a.png Graphic file (type png)
+<use figs/q81 a.png>
+Package pdftex.def Info: figs/q81 a.png  used on input line 995.
+(pdftex.def)             Requested size: 140.92793pt x 48.44568pt.
+<figs/q81 b.png, id=681, 224.84pt x 77.28876pt>
+File: figs/q81 b.png Graphic file (type png)
+<use figs/q81 b.png>
+Package pdftex.def Info: figs/q81 b.png  used on input line 996.
+(pdftex.def)             Requested size: 140.92793pt x 48.44568pt.
+<figs/q81 c.png, id=682, 224.84pt x 77.28876pt>
+File: figs/q81 c.png Graphic file (type png)
+<use figs/q81 c.png>
+Package pdftex.def Info: figs/q81 c.png  used on input line 997.
+(pdftex.def)             Requested size: 140.92793pt x 48.44568pt.
+<figs/q81 d.png, id=683, 309.155pt x 77.28876pt>
+File: figs/q81 d.png Graphic file (type png)
+<use figs/q81 d.png>
+Package pdftex.def Info: figs/q81 d.png  used on input line 998.
+(pdftex.def)             Requested size: 140.92793pt x 35.23247pt.
+<figs/q82 1.png, id=684, 317.185pt x 61.22874pt>
 File: figs/q82 1.png Graphic file (type png)
 <use figs/q82 1.png>
-Package pdftex.def Info: figs/q82 1.png  used on input line 912.
+Package pdftex.def Info: figs/q82 1.png  used on input line 1007.
 (pdftex.def)             Requested size: 281.85587pt x 54.41304pt.
-<figs/q82 2.png, id=322, 547.04375pt x 143.53625pt>
-File: figs/q82 2.png Graphic file (type png)
-<use figs/q82 2.png>
-Package pdftex.def Info: figs/q82 2.png  used on input line 918.
-(pdftex.def)             Requested size: 281.85587pt x 73.95593pt.
-
-[21 <./figs/q80.png> <./figs/q81.png> <./figs/q82 1.png>]
-Overfull \hbox (6.70369pt too wide) in paragraph at lines 935--937
-[]\OT1/txr/m/n/12 The in-frared spec-trum of a di-atomic molecule ex-hibits tra
-n-si-tions at 2144, 4262 and 6354 cm$[]$
- []
-
-[22 <./figs/q82 2.png>] (./main.aux)
+ [25 <./figs/q80 a.png> <./figs/q80 b.png> <./figs/q80 c.png> <./figs/q80 d.png
+> <./figs/q81 a.png> <./figs/q81 b.png> <./figs/q81 c.png> <./figs/q81 d.png>]
+<figs/q82 a.png, id=710, 220.825pt x 89.33376pt>
+File: figs/q82 a.png Graphic file (type png)
+<use figs/q82 a.png>
+Package pdftex.def Info: figs/q82 a.png  used on input line 1013.
+(pdftex.def)             Requested size: 140.92793pt x 57.01392pt.
+<figs/q82 b.png, id=711, 281.05pt x 70.2625pt>
+File: figs/q82 b.png Graphic file (type png)
+<use figs/q82 b.png>
+Package pdftex.def Info: figs/q82 b.png  used on input line 1014.
+(pdftex.def)             Requested size: 140.92793pt x 35.23193pt.
+<figs/q82 c.png, id=712, 281.05pt x 70.2625pt>
+File: figs/q82 c.png Graphic file (type png)
+<use figs/q82 c.png>
+Package pdftex.def Info: figs/q82 c.png  used on input line 1015.
+(pdftex.def)             Requested size: 140.92793pt x 35.23193pt.
+<figs/q82 d.png, id=713, 250.9375pt x 71.26625pt>
+File: figs/q82 d.png Graphic file (type png)
+<use figs/q82 d.png>
+Package pdftex.def Info: figs/q82 d.png  used on input line 1016.
+(pdftex.def)             Requested size: 140.92793pt x 40.02516pt.
+ [26 <./figs/q82 1.png> <./figs/q82 a.png> <./figs/q82 b.png> <./figs/q82 c.png
+> <./figs/q82 d.png>] [27] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1736,13 +2002,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  DFE800FC84A25E256CB24BEB7751A3A4;360.
  ) 
 Here is how much of TeX's memory you used:
- 52432 strings out of 474222
- 1241160 string characters out of 5748734
- 1938975 words of memory out of 5000000
- 73717 multiletter control sequences out of 15000+600000
+ 53077 strings out of 474222
+ 1251037 string characters out of 5748734
+ 1940975 words of memory out of 5000000
+ 74081 multiletter control sequences out of 15000+600000
  605508 words of font info for 157 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,103p,1259b,1158s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,6n,103p,1259b,1176s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
@@ -1751,10 +2017,10 @@ blic/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
 s/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 1247262 bytes).
+Output written on main.pdf (27 pages, 2144922 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 176 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 884 PDF objects out of 1000 (max. 8388607)
+ 654 compressed objects within 7 object streams
+ 457 named destinations out of 1000 (max. 500000)
+ 509 words of extra memory for PDF output out of 10000 (max. 10000000)
 
