@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  12 AUG 2025 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  13 AUG 2025 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,6 +212,14 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks25
+\float@box=\box100
+\@float@everytoks=\toks26
+\@floatcapt=\box101
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -238,30 +246,30 @@ Package: expl3 2024-01-22 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box100
+\l__color_backend_stack_int=\count289
+\l__pdf_internal_box=\box102
 ))
 Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count289
-\lst@gtempboxa=\box101
-\lst@token=\toks25
-\lst@length=\count290
+\lst@mode=\count290
+\lst@gtempboxa=\box103
+\lst@token=\toks27
+\lst@length=\count291
 \lst@currlwidth=\dimen170
-\lst@column=\count291
-\lst@pos=\count292
+\lst@column=\count292
+\lst@pos=\count293
 \lst@lostspace=\dimen171
 \lst@width=\dimen172
-\lst@newlines=\count293
-\lst@lineno=\count294
+\lst@newlines=\count294
+\lst@lineno=\count295
 \lst@maxwidth=\dimen173
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count295
-\lst@skipnumbers=\count296
-\lst@framebox=\box102
+\c@lstnumber=\count296
+\lst@skipnumbers=\count297
+\lst@framebox=\box104
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -274,18 +282,10 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-\c@rem=\count297
-\c@matchleft=\count298
-\c@matchright=\count299
-) (./gvv-book.sty (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count300
-\float@exts=\toks26
-\float@box=\box103
-\@float@everytoks=\toks27
-\@floatcapt=\box104
-)
-(/usr/share/texlive/texmf-dist/tex/latex/gensymb/gensymb.sty
+\c@rem=\count298
+\c@matchleft=\count299
+\c@matchright=\count300
+) (./gvv-book.sty (/usr/share/texlive/texmf-dist/tex/latex/gensymb/gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
@@ -1336,13 +1336,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 3.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 3.
-
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1476,8 +1476,6 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 3.
- (./main.out)
-(./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1485,7 +1483,8 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 7.
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
 .
- (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
@@ -1549,9 +1548,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 173.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 175.
 
-Underfull \hbox (badness 5431) in paragraph at lines 239--240
+Underfull \hbox (badness 5431) in paragraph at lines 241--242
 []\OT1/txr/m/n/10.95 very high light lim-i-ta-tion in aquatic
  []
 
@@ -1594,7 +1593,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <figs/imageQ28.png, id=238, 663.47874pt x 353.32pt>
 File: figs/imageQ28.png Graphic file (type png)
 <use figs/imageQ28.png>
-Package pdftex.def Info: figs/imageQ28.png  used on input line 434.
+Package pdftex.def Info: figs/imageQ28.png  used on input line 436.
 (pdftex.def)             Requested size: 407.66833pt x 217.09373pt.
 
 
@@ -1618,12 +1617,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <figs/ImageQ32a.png, id=270, 366.61969pt x 116.68594pt>
 File: figs/ImageQ32a.png Graphic file (type png)
 <use figs/ImageQ32a.png>
-Package pdftex.def Info: figs/ImageQ32a.png  used on input line 485.
+Package pdftex.def Info: figs/ImageQ32a.png  used on input line 490.
 (pdftex.def)             Requested size: 407.66833pt x 129.75792pt.
 <figs/ImageQ32b.png, id=271, 349.305pt x 215.30438pt>
 File: figs/ImageQ32b.png Graphic file (type png)
 <use figs/ImageQ32b.png>
-Package pdftex.def Info: figs/ImageQ32b.png  used on input line 486.
+Package pdftex.def Info: figs/ImageQ32b.png  used on input line 491.
 (pdftex.def)             Requested size: 407.66833pt x 251.29404pt.
 
 
@@ -1635,22 +1634,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10 <./figs/ImageQ32a.png> <./figs/ImageQ32b.png>] (./tables/table1.tex)
-<figs/imageQ35.png, id=289, 634.37pt x 599.23875pt>
+<figs/imageQ35.png, id=290, 634.37pt x 599.23875pt>
 File: figs/imageQ35.png Graphic file (type png)
 <use figs/imageQ35.png>
-Package pdftex.def Info: figs/imageQ35.png  used on input line 528.
+Package pdftex.def Info: figs/imageQ35.png  used on input line 534.
 (pdftex.def)             Requested size: 407.66833pt x 385.10248pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/imageQ36.png, id=290, 619.31375pt x 712.6625pt>
-File: figs/imageQ36.png Graphic file (type png)
-<use figs/imageQ36.png>
-Package pdftex.def Info: figs/imageQ36.png  used on input line 545.
-(pdftex.def)             Requested size: 407.66833pt x 469.12991pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1661,6 +1649,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
+<figs/imageQ36.png, id=311, 619.31375pt x 712.6625pt>
+File: figs/imageQ36.png Graphic file (type png)
+<use figs/imageQ36.png>
+Package pdftex.def Info: figs/imageQ36.png  used on input line 554.
+(pdftex.def)             Requested size: 407.66833pt x 469.12991pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1670,15 +1664,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12 <./figs/imageQ35.png>]
-<figs/imageQ41.png, id=334, 490.83376pt x 643.40375pt>
-File: figs/imageQ41.png Graphic file (type png)
-<use figs/imageQ41.png>
-Package pdftex.def Info: figs/imageQ41.png  used on input line 595.
-(pdftex.def)             Requested size: 407.66833pt x 534.40787pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1688,6 +1673,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13 <./figs/imageQ36.png>]
+<figs/imageQ41.png, id=335, 490.83376pt x 643.40375pt>
+File: figs/imageQ41.png Graphic file (type png)
+<use figs/imageQ41.png>
+Package pdftex.def Info: figs/imageQ41.png  used on input line 606.
+(pdftex.def)             Requested size: 407.66833pt x 534.40787pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1696,17 +1687,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14 <./figs/imageQ41.png>]
-<figs/imageQ48.png, id=365, 608.2725pt x 393.47pt>
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15 <./figs/imageQ41.png>]
+<figs/imageQ48.png, id=364, 608.2725pt x 393.47pt>
 File: figs/imageQ48.png Graphic file (type png)
 <use figs/imageQ48.png>
-Package pdftex.def Info: figs/imageQ48.png  used on input line 656.
+Package pdftex.def Info: figs/imageQ48.png  used on input line 669.
 (pdftex.def)             Requested size: 407.66833pt x 263.71358pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -1714,15 +1711,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15]
+[16]
 <figs/imageQ52.png, id=391, 635.37375pt x 424.58624pt>
 File: figs/imageQ52.png Graphic file (type png)
 <use figs/imageQ52.png>
-Package pdftex.def Info: figs/imageQ52.png  used on input line 696.
+Package pdftex.def Info: figs/imageQ52.png  used on input line 711.
 (pdftex.def)             Requested size: 407.66833pt x 272.43396pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1732,7 +1726,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16 <./figs/imageQ48.png>] (./tables/table2.tex
+[17 <./figs/imageQ48.png>] (./tables/table2.tex
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 20.
 
@@ -1748,7 +1742,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17 <./figs/imageQ52.png>]
+[18 <./figs/imageQ52.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1757,32 +1751,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18] (./main.aux)
+[19] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52500 strings out of 474222
- 1240482 string characters out of 5748734
+ 52503 strings out of 474222
+ 1240573 string characters out of 5748734
  1968975 words of memory out of 5000000
- 73649 multiletter control sequences out of 15000+600000
- 601103 words of font info for 147 fonts, out of 8000000 for 9000
+ 73657 multiletter control sequences out of 15000+600000
+ 600865 words of font info for 146 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 104i,11n,110p,1216b,1312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,11n,110p,1216b,1180s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on main.pdf (18 pages, 402773 bytes).
+Output written on main.pdf (19 pages, 402209 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 450 compressed objects within 5 object streams
- 312 named destinations out of 1000 (max. 500000)
+ 528 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 314 named destinations out of 1000 (max. 500000)
  154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
