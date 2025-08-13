@@ -1,33 +1,63 @@
-\documentclass[journal]{IEEEtran}
-\usepackage[a5paper, margin=15mm]{geometry}
-\usepackage{tfrupee}
-\usepackage{enumitem}
-\usepackage{xcolor}
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage[margin=2.5cm]{geometry} 
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
 \usepackage{graphicx}
-\usepackage{tikz}
-\usetikzlibrary{arrows.meta}
-
-\setlength{\headheight}{1cm}
-\setlength{\headsep}{0mm}
-
-\usepackage{gvv-book}
+\graphicspath{{./figs/}}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage{caption}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
 \usepackage{gvv}
-\setlength{\intextsep}{15pt}
-
+\usepackage{circuitikz}
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}     
+\usepackage{xparse}
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
 \makeindex
 
 \title{GATE 2019 CH}
 \author{AI25BTECH11023 - Pratik R}
-
 \begin{document}
+
 \bibliographystyle{IEEEtran}
 \onecolumn
 
 \maketitle
-\bigskip
-\renewcommand{\thefigure}{\theenumi}
-\renewcommand{\thetable}{\theenumi}
-\subsection*{\textbf{Q.1 - Q.5 carry one marks each.}}
 
 \begin{enumerate}
     \item The expenditure on the project \rule{1cm}{0.1mm} as follows: equipment Rs.$20$ lakhs, salaries Rs.$12$ lakhs, and contingency Rs.$3$ lakhs.
@@ -50,7 +80,7 @@
     \end{enumerate}
 \end{multicols}
 
-    \item Two cars start at the same time from the location and go in the same direction. The speed of the first car is $50$ km/h and the speed of the second car is $60$ km/h. The number of hours is takes for the distance between the two cars to be $20$ km is \rule{1cm}{0.1mm}.
+    \item Two cars start at the same time from the location and go in the same direction. The speed of the first car is $50km/h$ and the speed of the second car is $60$ km/h. The number of hours is takes for the distance between the two cars to be $20$ km is \rule{1cm}{0.1mm}.
 \begin{multicols}{4}
     \begin{enumerate}
         \item $1$
@@ -80,18 +110,16 @@
     \end{enumerate}
 \end{multicols}
 
-\subsection*{\textbf{Q.6 - Q.10 carry one marks each.}}
-
-\bigskip
     \item The police arrested four criminals - P, Q, R and S. The criminals knew each other. They made the following statement:
+\begin{enumerate}[label = ]
+\item P says "Q committed the crime."
 
-P says "Q committed the crime."
+\item Q says "S committed the crime"
 
-Q says "S committed the crime"
+\item R says "I did not do it"
 
-R says "I did not do it"
-
-S says "What Q said about me is false."
+\item S says "What Q said about me is false."
+\end{enumerate}
 
 Assume only one of the arrested four committed the crime and only one of the statements made above is true. Who committed the crime?
 
@@ -116,7 +144,7 @@ Assume only one of the arrested four committed the crime and only one of the sta
     \end{enumerate}
 \end{multicols}
 
-    \item "A recent High Court judgement has sought to dispel the idea of begging as a disease which leads to its stigmatization and criminalization and to regard it as a symptom. The underlying disease is the failure of the state to protect citizens who fall through the social security net."
+    \item "A recent High Court judgment has sought to dispel the idea of begging as a disease which leads to its stigmatization and criminalization and to regard it as a symptom. The underlying disease is the failure of the state to protect citizens who fall through the social security net."
 
 Which one of the following statements can be inferred from the given passage?
 
@@ -126,7 +154,7 @@ Which one of the following statements can be inferred from the given passage?
         \item Begging is an offence that has to be dealt with firmly
         \item Begging has to be banned because it adversely affects the welfare of the state
     \end{enumerate}
-    \bigskip
+    
     \item In a college, there are three student clubs. Sixty students are only in the Drama club, $80$ students are only in the Dance club, $30$ students are only in the Maths club, $40$ students are in both Drama and Dance clubs, $12$ students are in both Dance and Maths clubs, $7$ students are in both Drama and Maths clubs, and $2$ students are in all the clubs. If $75$\% of the students in the college are not in any of these clubs, then the total number of students in the college is \rule{1cm}{0.1mm}.
 
 \begin{multicols}{4}
@@ -139,14 +167,16 @@ Which one of the following statements can be inferred from the given passage?
 \end{multicols}
 \newpage
     \item Three of the five students allocated to a hostel put in special requests to the warden. Given the floor plan of the vacant rooms, select the allocation plan that will accommodate all their requests.
+\begin{enumerate}[label = ]
+    \item Request by X. Due to pollen allergy, I want to avoid a wing next to the garden. 
 
-Request by X. Due to pollen allergy, I want to avoid a wing next to the garden. 
+    \item Request by Y: I want to live as far from the washrooms as possible, since I am very sensitive to smell.
 
-Request by Y: I want to live as far from the washrooms as possible, since I am very sensitive to smell.
-
-Request by Z: I believe in Vaastu and so want to stay in the South-west wing.
+    \item Request by Z: I believe in Vaastu and so want to stay in the South-west wing
+\end{enumerate}
 
 The shaded rooms are already occupied. WR is washroom.
+
 \begin{multicols}{2}
     \begin{enumerate}
         \item \input{Fig/10ai}
@@ -162,10 +192,8 @@ The shaded rooms are already occupied. WR is washroom.
     
 \newpage
 
-\subsection*{\textbf{Q.1 - Q.25 carry one marks each.}}
-
 \begin{enumerate}
-    \item A system of \textit{n} homogeneous linear equations containing \textit{n} unknowns will have non-trivial solutions if and only if the determinant of the coefficient matrix is
+    \item A system of $n$ homogeneous linear equations containing $n$ unknowns will have non-trivial solutions if and only if the determinant of the coefficient matrix is
 
 \begin{multicols}{4}
     \begin{enumerate}
@@ -186,26 +214,30 @@ The shaded rooms are already occupied. WR is washroom.
         \item $-1$
     \end{enumerate}
 \end{multicols}
-    \item Consider a rigid, perfectly insulated, container partitioned into two unequal parts by a thin membrane (see figure). One part contains one mole of an ideal gas at pressure \textit{$P_i$} and temperature \textit{$T_i$} while the other part is evacuated. The membrane ruptures, the gas fills the entire volume and the equilibrium pressure is \textit{$P_f = P_i/4$}. If \textit{$C_p$}(molar specific heat capacity at constant pressure),\textit{$C_p$}(molar specific heat capacity at constant volume) and R(universal gas constant) have the same units as molar entropy, the change in molar entropy \brak{\textit{$S_f$} - \textit{$S_i$}} is
+    \item Consider a rigid, perfectly insulated, container partitioned into two unequal parts by a thin membrane (see figure). One part contains one mole of an ideal gas at pressure {$P_i$} and temperature $T_i$ while the other part is evacuated. The membrane ruptures, the gas fills the entire volume and the equilibrium pressure is $P_f = P_i/4$. If $C_p$(molar specific heat capacity at constant pressure),$C_p$(molar specific heat capacity at constant volume) and R(universal gas constant) have the same units as molar entropy, the change in molar entropy $\brak{S_f - S_i}$ is
 
     \input{Fig/3}
 
     \begin{enumerate}
-        \item \textit{$C_p$}$\ln{2}$ + R$\ln{4}$
-        \item -\textit{$C_p$}$\ln{2}$ + R$\ln{4}$
+        \item $C_p\ln{2} + R\ln{4}$
+        \item -$C_p \ln{2} + R\ln{4}$
         \item R$\ln{4}$
-        \item \textit{$C_p$}$\ln{2}$
+        \item $C_p \ln{2}$
     \end{enumerate}
-\bigskip
-    \item For a single component system, vapor (subscript \textit{g}) and liquid (subscript \textit{f}) coexist in mechanical, thermal and phase equilibrium when 
+
+    
+
+    \item For a single component system, vapor (subscript $g$) and liquid (subscript $f$) coexist in mechanical, thermal and phase equilibrium when 
+
 \begin{enumerate}
-    \item \textit{$u_g = u_f$} (equality of specific internal energy)
-    \item \textit{$h_g = h_f$} (equality of specific enthalpy)
-    \item \textit{$s_g = s_f$} (equality of specific entropy)
-    \item \textit{$g_g = g_f$} (equality of specific Gibbs free energy)
+    \item $u_g = u_f$ (equality of specific internal energy)
+    \item $h_g = h_f$ (equality of specific enthalpy)
+    \item $s_g = s_f$ (equality of specific entropy)
+    \item $g_g = g_f$ (equality of specific Gibbs free energy)
 \end{enumerate}
-\newpage
-    \item  For a binary nonideal A-B mixture exhibiting a minimum boiling azeotrope, the activity coefficients, $\gamma_i\brak{\textit{i} = A,B}$, must satisfy
+
+    \item  For a binary nonideal A-B mixture exhibiting a minimum boiling azeotrope, the activity coefficients, $\gamma_i\brak{i = A,B}$, must satisfy
+
 \begin{enumerate}
     \item $\gamma_A > 1$, $\gamma_B > 1$
     \item $\gamma_A < 1$, $\gamma_B > 1$
@@ -213,13 +245,13 @@ The shaded rooms are already occupied. WR is washroom.
     \item $\gamma_A < 1$, $\gamma_B < 1$
 \end{enumerate}
 
-    \item For a fully-developed turbulent hydrodynamic boundary layer for flow past a flat plate, the thickness of the boundary layer increases with distance \textit{x} from the leading edge of the plate, along the free-stream flow direction, as
+    \item For a fully-developed turbulent hydrodynamic boundary layer for flow past a flat plate, the thickness of the boundary layer increases with distance $x$ from the leading edge of the plate, along the free-stream flow direction, as
 \begin{multicols}{4}
     \begin{enumerate}
-        \item \textit{$x^{0.5}$}
-        \item \textit{$x^{1.5}$}
-        \item \textit{$x^{0.4}$}
-        \item \textit{$x^{0.8}$}
+        \item $x^{0.5}$
+        \item $x^{1.5}$
+        \item $x^{0.4}$
+        \item $x^{0.8}$
     \end{enumerate}
 \end{multicols}
 
@@ -252,16 +284,19 @@ The shaded rooms are already occupied. WR is washroom.
         \item near the Leidenfrost point
     \end{enumerate}
 \end{multicols}
-\newpage
-    \item The desired liquid-phase reaction
-\begin{align*}
-     D + E \overset{k_1}{\to} F \hspace{8pt} r_F = k_1 {C_D}^{2} {C_E}^{0.3} 
-\end{align*}
+
+
+    \item  The desired liquid-phase reaction
+
+    
+
+     $D + E \overset{k_1}{\to} F \hspace{8pt} r_F = k_1 {C_D}^{2} {C_E}^{0.3}$ 
+
    
     \text{is accompanies by an undesired side reaction} 
-        \begin{align*}
-            D + E \overset{k_2}{\to} G \hspace{8pt} r_G = k_2 {C_D}^{0.4} {C_E}^{1.5}
-        \end{align*}
+        
+            $D + E \overset{k_2}{\to} G \hspace{8pt} r_G = k_2 {C_D}^{0.4} {C_E}^{1.5}$
+    
         
 Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PFR: ideal Plug Flow Reactor) for processing equal molar feed rates of D and E are shown in the figure. Each scheme is designed for the same conversion. The scheme that gives the most favorable product distribution is:
 
@@ -282,8 +317,10 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item fast reaction in a pellet of small diameter
     \item fast reaction in a pellet of large diameter
 \end{enumerate}
-\bigskip
-    \item A thermocouple senses temperature based on the 
+
+      \item  A thermocouple senses temperature based on the 
+
+  
 
 \begin{multicols}{4}
     \begin{enumerate}
@@ -294,7 +331,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \end{enumerate}
 \end{multicols}
 
-    \item The correct expression for the Colburn \textit{j}-factor for mass transfer that relates Sherwood number(Sh), Reynolds number(Re) and Schmidt number(Sc) is
+    \item The correct expression for the Colburn $j$-factor for mass transfer that relates Sherwood number(Sh), Reynolds number(Re) and Schmidt number(Sc) is
 
 \begin{multicols}{4}
     \begin{enumerate}
@@ -304,7 +341,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
         \item $\frac{Sh}{\brak{Re}\brak{Sc}}$
     \end{enumerate}
 \end{multicols}
-\bigskip
+
     \item In the drying of non-dissolving solids at constant drying conditions, the internal movement of moisture in the solid has a dominant effect on the drying rate during
 \begin{enumerate}
     \item the initial adjustment period only
@@ -312,7 +349,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item the falling rate period only
     \item both the initial adjustment and constant rate periods
 \end{enumerate}
-\bigskip
+
     \item Three distillation schemes for separating an equimolar, constant relative volatility ABC mixture into nearly pure components are shown. The usual simplifying assumptions such as constant molal overflow, negligible heat loss, ideal trays are valid. All the schemes are designed for minimum total reboiler duty. Given that the relative volatilities are in the ratio $\alpha_A:\alpha_B:\alpha_C \equiv$ 8:2:1, the correct option that arranges the optimally-designed schemes in ascending order of total reboiler duty is
 \begin{multicols}{3}
  \input{Fig/15a}
@@ -330,7 +367,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \end{enumerate}
 \end{multicols}
 
-    \item Consider the two countercurrent heat exchanger designs for heating a cold stream from \textit{$t_in$} to \textit{$t_out$} as shown in figure. The hot process stream available at \textit{$T_in$} The inlet stream conditions and overall hest transfer coefficients are identical in both the designs. The heat transfer area in Design I and Design II are respectively $A^{I}_{HX}$ and $A^{II}_{HX}$ \\
+    \item Consider the two countercurrent heat exchanger designs for heating a cold stream from $t_in$ to $t_out$ as shown in figure. The hot process stream available at $T_in$ The inlet stream conditions and overall hest transfer coefficients are identical in both the designs. The heat transfer area in Design I and Design II are respectively $A^{I}_{HX}$ and $A^{II}_{HX}$ \\
 
     \text{If heat losses are neglected, and if both the designs are feasible, which of the following statements holds true:}
     
@@ -340,7 +377,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item $A^{I}_{HX} < A^{II}_{HX}$ \hspace{5pt}  $T^{I}_{out} > T^{II}_{out}$
     \item $A^{I}_{HX} < A^{II}_{HX}$  \hspace{5pt}  $T^{I}_{out} = T^{II}_{out}$
 \end{enumerate} 
-\bigskip
+
     \item Producer gas is obtained by
 
 \begin{enumerate}
@@ -349,7 +386,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item passing steam through red hot coke
     \item passing air and steam through red hot coke
 \end{enumerate}
-\bigskip
+\newpage
     \item In Kraft process, the essential chemical reagents used in the digester are
 
 \begin{enumerate}
@@ -358,7 +395,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item quick lime, salt cake and dimethyl sulphide
     \item baking soda, sodium sulphide and mercaptans
 \end{enumerate}
-\bigskip
+
     \item The most common catalyst used for oxidation of 0-xylene to pthalic anhydride is
 
 \begin{enumerate}
@@ -367,7 +404,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item Pt
     \item Ag
 \end{enumerate}
-\bigskip
+
     \item In petroleum refining operations, the process used for converting paraffins and naphthenes to aromatics is
 
 \begin{enumerate}
@@ -377,7 +414,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item isomerization
 \end{enumerate}
 
-\bigskip
+
     \item The combination that correctly matches the polymer in Group-1 with the polymerization reaction type in Group-2 is
 
 \begin{multicols}{2}
@@ -404,28 +441,29 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
         \item A-II, B-III, C-I
     \end{enumerate}
 \end{multicols}
-\bigskip
-    \item The product of the eigenvalues of the matrix  $\myvec{
+
+    \item 
+        The product of the eigenvalues of the matrix  $\myvec{
             2 & 3 \\
             0 & 7
         }$ is \rule{2cm}{0.1mm} (rounded off to one decimal place).
+     
 \newpage
     \item For a hydraulic lift with dimensions shown in figure, assuming g = $10$ m/$s^2$, the maximum diameter $D_left$(in m) that lifts a vehicle of mass $1000$ kg using a force of $100$ N is (rounded off to two decimal places).
-    \begin{figure}[h!]
+
+    \begin{figure}[H]
         \centering
-        \includegraphics[width=0.4\linewidth]{Fig/23.png}
-
+        \includegraphics[width=0.4\columnwidth]{Fig/23.png}
+        \caption*{}
+        \label{fig: 23}
     \end{figure}
-
 \item The liquid flow rate through an equal percentage control valve, when fully open, is $150$ gal/min and the corresponding pressure drop is $50$ psi. If the specific gravity of the liquid is $0.8$, then the valve coefficient, $C_v$, in gal/(min $psi^{0.5}$) is  \rule{1cm}{0.1mm} (rounded off to two decimal places).
-\bigskip
-    \item Consider a sealed rigid bottle containing $CO_2$ and $H_2$O at $10$ bar and ambient temperature. Assume that the gas phase in the bottle is pure $CO_2$ and follows the ideal gas law. The liquid phase in the bottle contains $CO_2$ dissolved in $H_2$O and is an ideal solution. The Henry's constant at the system pressure and temperature is $H_CO_2 = 1000$ bar. The equilibrium mole :fraction of $CO_2$ dissolved in $H_2$O is \rule{1cm}{0.1mm} (rounded off to three decimal places).   
-\newpage
-   \subsection*{\textbf{Q.26 - Q.55 carry one marks each.}}
 
-    \item The solution of the ordinary differential equation
-    
-    $\frac{dy}{dx} + 3y = 1$, subject to the initial condition $y = 1$ at $x = 0$ , is 
+    \item Consider a sealed rigid bottle containing $CO_2$ and $H_2$O at $10$ bar and ambient temperature. Assume that the gas phase in the bottle is pure $CO_2$ and follows the ideal gas law. The liquid phase in the bottle contains $CO_2$ dissolved in $H_2$O and is an ideal solution. The Henry's constant at the system pressure and temperature is $H_CO_2 = 1000$ bar. The equilibrium mole :fraction of $CO_2$ dissolved in $H_2$O is \rule{1cm}{0.1mm} (rounded off to three decimal places).   
+
+    \item 
+        The solution of the ordinary differential equation $\frac{dy}{dx} + 3y = 1$, subject to the initial condition $y = 1$ at $x = 0$ , is 
+     
     
 \begin{multicols}{2}
     \begin{enumerate}
@@ -436,18 +474,20 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \end{enumerate}
 \end{multicols}
 
-    \item the value of the complex number ${i}^{-1/2}$(where ${i} = \sqrt{-1}$) is
+    \item 
+        the value of the complex number ${i}^{-1/2}$(where ${i} = \sqrt{-1}$) is
+    
 
 \begin{multicols}{4}
     \begin{enumerate}
     
-    \item $\frac{1}{\sqrt{2}}\brak{1 -\textit{i}}$
-    \item $-\frac{1}{\sqrt{2}}\textit{i}$
-    \item $\frac{1}{\sqrt{2}}\textit{i}$
-    \item $\frac{1}{\sqrt{2}}\brak{1+\textit{i}}$
+    \item $\frac{1}{\sqrt{2}}\brak{1 -i}$
+    \item $-\frac{1}{\sqrt{2}}i$
+    \item $\frac{1}{\sqrt{2}}i$
+    \item $\frac{1}{\sqrt{2}}\brak{1+i}$
     \end{enumerate}
 \end{multicols}
-
+\newpage
     \item An incompressible Newtonian fluid flows in a pipe of diameter $D_1$ at volumetric flow rate Q. Fluid with same properties flows in another pipe of diameter $D2 = D1 / 2$ at the same flow rate Q. The transition length required for achieving fully-developed flow is $l_1$ for the tube of diameter $D_1$ , while it is $l_2$ for the tube of diameter $D_2$.Assuming steady laminar flow in both cases, the ratio $l_1/l_2$ is: 
     \begin{multicols}{4}
 \begin{enumerate}
@@ -467,16 +507,22 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
         \item $10^6$
         \end{enumerate}
 \end{multicols}
-\newpage
-    \item Consider two non-interacting tanks-in-series as shown in figure. Water enters TANK 1 at $q cm^3/s$ and drains down to TANK 2 by gravity at a rate $k\sqrt{h_1}\brak{cm^3/s}$. Similarly, water drains from TANK 2 by gravity at a rate of $k\sqrt{h_2}\brak{cm^3/s}$ where $h_1$ and $h_2$ represent levels of TANK 1 and TANK 2, respectively (see figure). Drain valve constant $k = 4 cm^{2.5}/s$ and cross sectional areas of the two tanks are $A_1 = A_2 = 28 cm^2$.
 
-\begin{figure}[h!]
+    \item 
+        Consider two non-interacting tanks-in-series as shown in figure. Water enters TANK 1 at $q cm^3/s$ and drains down to TANK 2 by gravity at a rate $k\sqrt{h_1}\brak{cm^3/s}$. Similarly, water drains from TANK 2 by gravity at a rate of $k\sqrt{h_2}\brak{cm^3/s}$ where $h_1$ and $h_2$ represent levels of TANK 1 and TANK 2, respectively (see figure). Drain valve constant $k = 4 cm^{2.5}/s$ and cross sectional areas of the two tanks are $A_1 = A_2 = 28 cm^2$.
+    
+
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\linewidth]{Fig/30.png}
+    \includegraphics[width=0.4\columnwidth]{Fig/30.png}
+    \caption*{}
+    \label{fig: 30}
   
 \end{figure}
 
-    At steady state operation, the water inlet flow rate is $q_{ss} = 16 cm^3/s$. The transfer function relating the deviation variables $\tilde{h_2}\brak{cm}$ to flow rate $\tilde{q}\brak{cm^3/s}$ is,
+       At steady state operation, the water inlet flow rate is $q_{ss} = 16 cm^3/s$. The transfer function relating the deviation variables $\tilde{h_2}\brak{cm}$ to flow rate $\tilde{q}\brak{cm^3/s}$ is,
+
+ 
 
 \begin{multicols}{4}
     \begin{enumerate}
@@ -486,12 +532,15 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
         \item $\frac{2}{\brak{49s + 1}^{2}}$
     \end{enumerate}
 \end{multicols}
-\newpage 
-    \item Choose the option that correctly matches the step response curves on the left with the appropriate transfer functions on the right. The step input change occurs at time $t=O$. 
-\begin{figure}[h!]
+\newpage
+    \item 
+         Choose the option that correctly matches the step response curves on the left with the appropriate transfer functions on the right. The step input change occurs at time $t=O$. 
+    
+\begin{figure}[H]
   \centering
-    \includegraphics[width=0.8\linewidth]{Fig/34.png}
-   
+    \includegraphics[width=0.8\columnwidth]{Fig/34.png}
+   \caption*{}
+    \label{fig: 34}
 \end{figure}
 \begin{multicols}{2}
     \begin{enumerate}
@@ -501,9 +550,11 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
         \item A-III, B-II, C-IV, D-I
     \end{enumerate}
 \end{multicols}
+\newpage
+    \item 
+         100 kg of a feed containing 50 wt.\% of a solute C is contacted with 80 kg of a solvent containing 0.5 wt.\% of C in a mixer-settler unit. From this operation, the resultant extract and raffinate phases contain 40 wt.\% and 20 wt.\% of C, respectively. If E and R denote the mass of the extract and raffinate phases, respectively, the ratio E/R is 
 
-    \item 100 kg of a feed containing 50 wt.\% of a solute C is contacted with 80 kg of a solvent containing 0.5 wt.\% of C in a mixer-settler unit. From this operation, the resultant extract and raffinate phases contain 40 wt.\% and 20 wt.\% of C, respectively. If E and R denote the mass of the extract and raffinate phases, respectively, the ratio E/R is 
-
+    
 \begin{multicols}{4}
     \begin{enumerate}
         \item $1/4$
@@ -513,7 +564,9 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \end{enumerate}
 \end{multicols}
 
-    \item The combination that correctly matches the process in Group-1 with the entries in Group-2 is
+    \item 
+        The combination that correctly matches the process in Group-1 with the entries in Group-2 is
+    
 
 \begin{multicols}{2}
     \begin{enumerate}[label = \Alph*)]
@@ -546,9 +599,9 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item The Newton-Raphson method is used to determine the root of the equation $f\brak{x} = e^{-x} - x$. If the initial guess for the root is $0$, the estimate of the root after two iterations is (rounded off to three decimal places). 
 
     \item Carbon monoxide (CO) reacts with hydrogen sulphide ($H_2S$) at a constant temperature of $800$ K and a constant pressure of $2$ bar as: 
-    \begin{center}
-        $CO + H_2S \rightleftharpoons COS + H_2$
-    \end{center}
+    \begin{align*}
+        CO + H_2S \rightleftharpoons COS + H_2
+    \end{align*}
     The Gibbs free energy of the reaction $\Delta g^{o}_{rxn} = 22972.3$ J/mol and universal gas constant $R = 8.314$ J/(mol K). Both the reactants and products can be assumed to be ideal gases. If initially only $4$ mol of $H_2S$ and $1$ mol of CO are present, the extent of the reaction (in mol) at equilibrium is \rule{1.5cm}{0.1mm}(rounded off to two decimal places).
 
     \item For a given binary system at constant temperature and pressure, the molar volume (in $m^3/mol$) is given by: $v = 30x_A + 20x_B + x_Ax_B\brak{15x_A - 7x_B}$ , where $x_A $and $x_B$ are the mole fractions of components A and B, respectively. The volume change of mixing $\Delta v_{mix}$ (in $m^3/mol$) at $x_A = 0.5$ is \rule{1.5cm}{0.1mm}(rounded off to one decimal place). 
@@ -575,7 +628,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item Stream A with specific heat capacity $C_{PA}= 2000 J/(kg K)$ is cooled from 90°C to 45°C in a concentric double pipe counter current heat exchanger having a heat transfer area of $8m^2$ .The cold stream B of specific heat capacity $C_{PB} = 1000 J/(kg K)$ enters the exchanger at a flow rate 1 kg/s and 40°C The overall heat transfer coefficient $U = 250 W/(m^2 K)$. Assume that the mean driving force is based on the arithmetic mean temperature difference, that is, $\sbrak{\Delta T}_{AMTD} = \brak{\frac{T_{A,in} + T_{A,out}}{2}} - \brak{\frac{T_{B,in} + T_{B,out}}{2}}$ where $T_{i,in}$ and $T_{i,out}$ refer to the temperature of the $i^{th}$ stream $\brak{i = A, B}$ at the inlet and exit, respectively. The mass flow rate of stream A (in kg/s ), is \rule{2cm}{0.1mm}(rounded off to two decimal places).
 
     \item A 20 cm diameter cylindrical solid pellet of a nuclear fuel with density $6000 kg/m^3$ and conductivity of 300 W/(m K) generates heat by nuclear fission at a spatially uniform rate of $10^4 W /kg$. The heat from the fuel pellet is transferred to the surrounding coolant by convection such that the pellet wall temperature remains constant at $300^oC$ Neglecting the axial and azimuthal dependence, the maximum temperature (in °C) in the pellet at steady state is \rule{2cm}{0.1mm} (rounded off to the nearest integer). 
-
+\newpage
     \item The elementary, irreversible, liquid-phase, parallel reactions, $2A \to D$ and $2A\to U$, take place in an isothermal non-ideal reactor. The C-curve measured in a tracer experiment is shown in the figure, where $C\brak{t}$ is the concentration of the tracer in $g/m^3$ at the reactor exit at time t (in min). 
 
 \input{Fig/45a}
@@ -584,10 +637,11 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     The rate constants are $k_1 = 0.2 Liter/(mol min)$ and $k_2 = 0.3 Liter/(mol min)$. Pure A is fed to the reactor at a concentration of 2 mol/Liter. Using the segregated model, the percentage conversion in the reactor is \rule{1.5cm}{0.1mm}(rounded off to the nearest integer).
 
     \item A first-order irreversible liquid phase reaction $A \to B(k = 0.1 min^{-1})$ is carries out under isothermal, steady state conditions in the following reactor arrangement comprising an ideal CSTR(Continuous-Stirred Tank Reactor) and two ideal PFRs(Plug Flow Reactors). From the information in the figure, the volume of the CSTR(in Liters) is \rule{1.5cm}{0.1mm}(rounded off to the nearest integer).
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.6 \linewidth]{Fig/46.png}
-
+    \includegraphics[width=0.6 \columnwidth]{Fig/46.png}
+    \caption*{}
+    \label{fig: 46}
 \end{figure}
     \item The elementary liquid-phase irreversible reactions 
 \begin{align*}
@@ -595,7 +649,7 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
 \end{align*}
 
     take place take place in an isothermal ideal CSTR (Continuous-Stirred Tank Reactor). Pure A is fed to the reactor at a concentration of 2 mol/Liter. For the residence time that maximizes the exit concentration of B, the percentage yield of B, defined as $\brak{\frac{net formation rate of B}{net formation rate of A} \times 100}$, is \rule{1.5cm}{0.1mm}(rounded off to the nearest integer).
-
+\newpage
     \item The elementary irreversible gas-phase reaction $A \to B + C$ is carried out adiabatically in an ideal CSTR (Continuous-Stirred Tank Reactor) operating at 10 atm. Pure A enters the CSTR at a flow rate of 10 moles and a temperature of 450 K. Assume A, B and C to be ideal gases. The specific heat capacity at constant pressure  \brak{C_{pi}} and heat of formation $\brak{H^{o}_{i}}$, of component $i \brak{i = A, B, C}$, are: 
 
     \begin{align*}
@@ -607,9 +661,11 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
 
     \item For the closed loop system shown in figure, the phase margin (in degrees) is \rule{2cm}{0.1mm}(rounded off to one decimal place). 
 
-    \begin{figure}[h!]
+    \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\linewidth]{Fig/49.png}
+        \includegraphics[width=0.5\columnwidth]{Fig/49.png}
+        \caption*{}
+        \label{fig: 49}
      
     \end{figure}
 
@@ -618,15 +674,17 @@ Four isothermal reactor schemes (CSTR: ideal Continuous-Stirred Tank Reactor; PF
     \item A countercurrent absorption tower is designed to remove 95\% of component A from an incoming binary gas mixture using pure solvent B. The mole ratio of A in the inlet gas is 0.02. The carrier gas flow rate is 50 kmol/h. The equilibrium relation is given by Y = 2X, where Y and X are the mole ratios of A in the gas and liquid phases, respectively. If the tower is operated at twice the minimum solvent flow rate, the mole ratio of A in the exit liquid stream is \rule{2cm}{0.1mm} (rounded off to three decimal places). 
 
     \item A binary mixture with components A and B is to be separated in a distillation column to obtain 95 mol\% A as the top product. The binary mixture has a constant relative volatility $\alpha_{AB} = 2$. The column feed is a saturated liquid containing 50 mol\% A. Under the usual simplifying assumptions such as constant molal overflow, negligible heat loss, ideal trays, the minimum reflux ratio for this separation is \rule{2cm}{0.1mm}(rounded off to one decimal place). 
+\newpage
+    \item Consider the reactor-separator-recycle process operating under steady state conditions as shown in the figure. The reactor is an ideal Continuous-Stirred Tank Reactor (CSTR), where the reaction $A + B \to C$ occurs. Assume that there is no impurity in the product and recycle streams. Other relevant information are provided in the figure. The mole fraction of $B\brak{x_{B}}$ in the reactor that minimizes the recycle rate is \rule{2cm}{0.1mm}(rounded off to two decimal places). 
 
-    \item Consider the reactor-separator-recycle process operating under steady state conditions as shown in the figure. The reactor is an ideal Continuous-Stirred Tank Reactor (CSTR), where the reaction$A + B \to C$ occurs. Assume that there is no impurity in the product and recycle streams. Other relevant information are provided in the figure. The mole fraction of $B\brak{x_{B}}$ in the reactor that minimizes the recycle rate is \rule{2cm}{0.1mm}(rounded off to two decimal places). 
-
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{Fig/53.png}
+    \includegraphics[width=0.5\columnwidth]{Fig/53.png}
+    \caption*{}
+    \label{fig:Q15}
 
 \end{figure}
-\newpage
+
     \item Consider two competing equipment A and B. For a compound interest rate of 10\% per annum, in order for equipment B to be the economically cheaper option, its minimum life (in years) is \rule{1cm}{0.1mm}(rounded off to the next higher integer). 
 
     \begin{multicols}{4}
