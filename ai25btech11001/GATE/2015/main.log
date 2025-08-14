@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  13 AUG 2025 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  14 AUG 2025 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1406,23 +1406,22 @@ File: ts1txr.fd 2000/12/15 v3.1
 <./figs//8.png, id=50, 562.1pt x 333.245pt>
 File: ./figs//8.png Graphic file (type png)
 <use ./figs//8.png>
-Package pdftex.def Info: ./figs//8.png  used on input line 132.
+Package pdftex.def Info: ./figs//8.png  used on input line 133.
 (pdftex.def)             Requested size: 284.52756pt x 168.68146pt.
- [2 <./figs//8.png>]
-<./figs//12a.png, id=79, 135.50626pt x 101.37875pt>
+<./figs//12a.png, id=52, 135.50626pt x 101.37875pt>
 File: ./figs//12a.png Graphic file (type png)
 <use ./figs//12a.png>
-Package pdftex.def Info: ./figs//12a.png  used on input line 173.
+Package pdftex.def Info: ./figs//12a.png  used on input line 177.
 (pdftex.def)             Requested size: 135.5059pt x 101.3785pt.
 
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
 environment!.
 
-<./figs//12b.png, id=80, 177.66376pt x 106.3975pt>
+<./figs//12b.png, id=53, 177.66376pt x 106.3975pt>
 File: ./figs//12b.png Graphic file (type png)
 <use ./figs//12b.png>
-Package pdftex.def Info: ./figs//12b.png  used on input line 178.
+Package pdftex.def Info: ./figs//12b.png  used on input line 183.
 (pdftex.def)             Requested size: 177.66331pt x 106.39723pt.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
@@ -1432,10 +1431,10 @@ environment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
 environment!.
 
-<./figs//12c.png, id=81, 162.6075pt x 95.35625pt>
+<./figs//12c.png, id=54, 162.6075pt x 95.35625pt>
 File: ./figs//12c.png Graphic file (type png)
 <use ./figs//12c.png>
-Package pdftex.def Info: ./figs//12c.png  used on input line 183.
+Package pdftex.def Info: ./figs//12c.png  used on input line 189.
 (pdftex.def)             Requested size: 162.6071pt x 95.356pt.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
@@ -1445,10 +1444,10 @@ environment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
 environment!.
 
-<./figs//12d.png, id=82, 172.645pt x 96.36pt>
+<./figs//12d.png, id=55, 172.645pt x 96.36pt>
 File: ./figs//12d.png Graphic file (type png)
 <use ./figs//12d.png>
-Package pdftex.def Info: ./figs//12d.png  used on input line 188.
+Package pdftex.def Info: ./figs//12d.png  used on input line 195.
 (pdftex.def)             Requested size: 172.64456pt x 96.35974pt.
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
@@ -1458,25 +1457,25 @@ environment!.
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
 environment!.
 
-
-Overfull \hbox (142.43504pt too wide) in paragraph at lines 203--205
+[2 <./figs//8.png>]
+Overfull \hbox (142.43504pt too wide) in paragraph at lines 210--212
 []$[]$ 
  []
 
 <./figs//15a.png, id=83, 272.01625pt x 188.705pt>
 File: ./figs//15a.png Graphic file (type png)
 <use ./figs//15a.png>
-Package pdftex.def Info: ./figs//15a.png  used on input line 206.
+Package pdftex.def Info: ./figs//15a.png  used on input line 214.
 (pdftex.def)             Requested size: 272.01558pt x 188.70453pt.
 <./figs//15b.png, id=84, 264.99pt x 186.6975pt>
 File: ./figs//15b.png Graphic file (type png)
 <use ./figs//15b.png>
-Package pdftex.def Info: ./figs//15b.png  used on input line 211.
+Package pdftex.def Info: ./figs//15b.png  used on input line 220.
 (pdftex.def)             Requested size: 264.98935pt x 186.69704pt.
 <./figs//15c.png, id=85, 265.99374pt x 194.7275pt>
 File: ./figs//15c.png Graphic file (type png)
 <use ./figs//15c.png>
-Package pdftex.def Info: ./figs//15c.png  used on input line 216.
+Package pdftex.def Info: ./figs//15c.png  used on input line 226.
 (pdftex.def)             Requested size: 265.99309pt x 194.727pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1484,150 +1483,139 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <./figs//15d.png, id=86, 239.89626pt x 199.74625pt>
 File: ./figs//15d.png Graphic file (type png)
 <use ./figs//15d.png>
-Package pdftex.def Info: ./figs//15d.png  used on input line 221.
+Package pdftex.def Info: ./figs//15d.png  used on input line 232.
 (pdftex.def)             Requested size: 239.89566pt x 199.74576pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 227.
-
-[3 <./figs//15a.png> <./figs//15b.png>]
-
-LaTeX Warning: Command \r invalid in math mode on input line 230.
+LaTeX Warning: Command \r invalid in math mode on input line 238.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 231.
+LaTeX Warning: Command \r invalid in math mode on input line 241.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 232.
+LaTeX Warning: Command \r invalid in math mode on input line 242.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 233.
+LaTeX Warning: Command \r invalid in math mode on input line 243.
 
-[4 <./figs//15c.png> <./figs//15d.png>]
-<./figs//21.png, id=123, 555.07375pt x 309.155pt>
+
+LaTeX Warning: Command \r invalid in math mode on input line 244.
+
+[3 <./figs//15a.png> <./figs//15b.png>] [4 <./figs//15c.png> <./figs//15d.png>]
+<./figs//21.png, id=130, 555.07375pt x 309.155pt>
 File: ./figs//21.png Graphic file (type png)
 <use ./figs//21.png>
-Package pdftex.def Info: ./figs//21.png  used on input line 271.
+Package pdftex.def Info: ./figs//21.png  used on input line 285.
 (pdftex.def)             Requested size: 284.52756pt x 158.47362pt.
-<./figs//22.png, id=124, 840.13875pt x 358.33875pt>
+<./figs//22.png, id=131, 840.13875pt x 358.33875pt>
 File: ./figs//22.png Graphic file (type png)
 <use ./figs//22.png>
-Package pdftex.def Info: ./figs//22.png  used on input line 279.
+Package pdftex.def Info: ./figs//22.png  used on input line 293.
 (pdftex.def)             Requested size: 426.79134pt x 182.03406pt.
-<./figs//23.png, id=125, 420.57124pt x 153.57375pt>
+<./figs//23.png, id=132, 420.57124pt x 153.57375pt>
 File: ./figs//23.png Graphic file (type png)
 <use ./figs//23.png>
-Package pdftex.def Info: ./figs//23.png  used on input line 287.
+Package pdftex.def Info: ./figs//23.png  used on input line 303.
 (pdftex.def)             Requested size: 420.57022pt x 153.57336pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5 <./figs//21.png> <./figs//22.png>] [6 <./figs//23.png>]
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 405--441
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 423--459
 []$[]$ $[]$ 
  []
 
 \openout2 = `tables/37.aux'.
 
-(./tables/37.tex) [7]
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 469--497
-[]$[]$ $[]$ 
- []
-
-<./figs//41.png, id=220, 459.7175pt x 229.85875pt>
-File: ./figs//41.png Graphic file (type png)
-<use ./figs//41.png>
-Package pdftex.def Info: ./figs//41.png  used on input line 512.
-(pdftex.def)             Requested size: 459.71637pt x 229.85817pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8
+(./tables/37.tex) [7
 
 
 
 ]
-<./figs//43.png, id=249, 588.1975pt x 175.65625pt>
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 487--515
+[]$[]$ $[]$ 
+ []
+
+<./figs//41.png, id=226, 459.7175pt x 229.85875pt>
+File: ./figs//41.png Graphic file (type png)
+<use ./figs//41.png>
+Package pdftex.def Info: ./figs//41.png  used on input line 531.
+(pdftex.def)             Requested size: 459.71637pt x 229.85817pt.
+[8 <./figs//41.png>]
+<./figs//43.png, id=246, 588.1975pt x 175.65625pt>
 File: ./figs//43.png Graphic file (type png)
 <use ./figs//43.png>
-Package pdftex.def Info: ./figs//43.png  used on input line 542.
+Package pdftex.def Info: ./figs//43.png  used on input line 562.
 (pdftex.def)             Requested size: 516.0pt x 154.0955pt.
 
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 558--586
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 578--606
 []$ $[]$ 
  []
 
-[9 <./figs//41.png> <./figs//43.png>]
-<./figs//45.png, id=264, 728.7225pt x 235.88126pt>
+<./figs//45.png, id=247, 728.7225pt x 235.88126pt>
 File: ./figs//45.png Graphic file (type png)
 <use ./figs//45.png>
-Package pdftex.def Info: ./figs//45.png  used on input line 595.
+Package pdftex.def Info: ./figs//45.png  used on input line 616.
 (pdftex.def)             Requested size: 516.0pt x 167.03055pt.
-<./figs//45op.png, id=265, 895.345pt x 468.75125pt>
-File: ./figs//45op.png Graphic file (type png)
-<use ./figs//45op.png>
-Package pdftex.def Info: ./figs//45op.png  used on input line 603.
-(pdftex.def)             Requested size: 516.0pt x 270.15213pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./figs//45.png>] [11 <./figs//45op.png>]
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 715--744
+<./figs//45op.png, id=248, 895.345pt x 468.75125pt>
+File: ./figs//45op.png Graphic file (type png)
+<use ./figs//45op.png>
+Package pdftex.def Info: ./figs//45op.png  used on input line 625.
+(pdftex.def)             Requested size: 516.0pt x 270.15213pt.
+[9 <./figs//43.png>] [10 <./figs//45.png> <./figs//45op.png>] [11]
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 739--768
 []$[]$ $[]$ 
  []
 
-[12] [13] [14] [15]
-<./figs//77.png, id=441, 401.5pt x 322.20375pt>
+[12] [13] [14]
+<./figs//77.png, id=418, 401.5pt x 322.20375pt>
 File: ./figs//77.png Graphic file (type png)
 <use ./figs//77.png>
-Package pdftex.def Info: ./figs//77.png  used on input line 1055.
+Package pdftex.def Info: ./figs//77.png  used on input line 1082.
 (pdftex.def)             Requested size: 284.52756pt x 228.34836pt.
- [16 <./figs//77.png>]
-<./figs//85.png, id=468, 959.585pt x 274.02374pt>
+ [15] [16 <./figs//77.png>]
+<./figs//85.png, id=480, 959.585pt x 274.02374pt>
 File: ./figs//85.png Graphic file (type png)
 <use ./figs//85.png>
-Package pdftex.def Info: ./figs//85.png  used on input line 1091.
+Package pdftex.def Info: ./figs//85.png  used on input line 1119.
 (pdftex.def)             Requested size: 426.79134pt x 121.87537pt.
- [17 <./figs//85.png>] [18]
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 1185--1209
+ [17 <./figs//85.png>]
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 1214--1238
 []$[]$ $[]$ 
  []
 
-[19]
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 1247--1269
-[]$ $[]$ 
+[18]
+Overfull \hbox (127.93134pt too wide) in paragraph at lines 1276--1298
+[]\OT1/txr/m/n/12 Choose the cor-rect op-tion that shows pair-ing of the or-gan
+elle to its func-tion $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1247--1269
-
- []
-
-
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 1278--1300
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 1307--1329
 []$[]$ $[]$ 
  []
 
-[20] [21]
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 1417--1442
+[19] [20]
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 1448--1473
+[]$[]$ $[]$ 
+ []
+
+[21]
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 1486--1511
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 1455--1480
+Overfull \hbox (26.75995pt too wide) in paragraph at lines 1534--1559
 []$[]$ $[]$ 
  []
 
-[22]
-Overfull \hbox (26.75995pt too wide) in paragraph at lines 1503--1528
-[]$[]$ $[]$ 
- []
-
-[23] (./main.aux (./tables/37.aux))
+[22] [23] (./main.aux (./tables/37.aux))
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1637,11 +1625,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  32728 strings out of 476091
  636922 string characters out of 5794081
- 1874330 words of memory out of 5000000
+ 1872330 words of memory out of 5000000
  51853 multiletter control sequences out of 15000+600000
  578888 words of font info for 171 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,11n,96p,1172b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,11n,96p,1172b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1651,7 +1639,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (23 pages, 755128 bytes).
+Output written on main.pdf (23 pages, 754961 bytes).
 PDF statistics:
  857 PDF objects out of 1000 (max. 8388607)
  774 compressed objects within 8 object streams
