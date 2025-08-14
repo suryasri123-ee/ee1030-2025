@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  13 AUG 2025 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  15 AUG 2025 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1435,7 +1435,7 @@ t/12 ;  \OT1/txr/m/n/12 7\OML/txmi/m/it/12 ;  \OT1/txr/m/n/12 15\OML/txmi/m/it/
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}]
-<figs/Q8.jpg, id=49, 1284.8pt x 819.06pt>
+<figs/Q8.jpg, id=50, 1284.8pt x 819.06pt>
 File: figs/Q8.jpg Graphic file (type jpg)
 <use figs/Q8.jpg>
 Package pdftex.def Info: figs/Q8.jpg  used on input line 127.
@@ -1451,44 +1451,82 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.160 \item
-            $328$ <./figs/Q8.jpg>] [3]
-Overfull \hbox (19.1634pt too wide) in paragraph at lines 215--218
+l.172     \begin
+                {multicols}{4} <./figs/Q8.jpg>]
+Overfull \hbox (19.1634pt too wide) in paragraph at lines 218--221
 []\OT1/txr/m/n/12 Which of the fol-low-ing op-tions holds sim-i-lar re-la-tion-
 ship as the words, 'Mu-sic: Notes'?  $[]$ 
  []
 
-[4] [5] [6] [7]
-Overfull \hbox (32.82126pt too wide) in paragraph at lines 477--479
+[3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+[6]
+Overfull \hbox (32.82126pt too wide) in paragraph at lines 481--483
 \OT1/txr/m/n/12 spot ex-change rate is 18, then the for-ward pre-mium will be $
 []$. $[]$.
  []
 
-(./tables/Q45.tex)
-<figs/Q47.jpg, id=253, 494.84875pt x 364.36125pt>
+(./tables/Q45.tex) [7]
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+[]$[] \OT1/txr/m/n/12 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+[] \OT1/txr/m/n/12 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+[]$[] \OT1/txr/m/n/12 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+[] \OT1/txr/m/n/12 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+[]$[] \OT1/txr/m/n/12 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+[] \OT1/txr/m/n/12 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+[]$[] \OT1/txr/m/n/12 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+[] \OT1/txr/m/n/12 ;$
+ []
+
+<figs/Q47.jpg, id=264, 494.84875pt x 364.36125pt>
 File: figs/Q47.jpg Graphic file (type jpg)
 <use figs/Q47.jpg>
-Package pdftex.def Info: figs/Q47.jpg  used on input line 501.
+Package pdftex.def Info: figs/Q47.jpg  used on input line 508.
 (pdftex.def)             Requested size: 247.42377pt x 182.18018pt.
- [8] (./tables/Q51.tex) [9
+[8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.553 \end{center}
-                   <./figs/Q47.jpg>] [10] (./tables/Q59.tex) (./tables/Q60.tex)
+l.526 \end{align}
+                  <./figs/Q47.jpg>] (./tables/Q51.tex) [9] (./tables/Q59.tex)
+(./tables/Q60.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 621--625
 
-Overfull \hbox (64.12433pt too wide) in paragraph at lines 614--617
-[]   $[]$ 
  []
 
-(./tables/Q63.tex)
-Overfull \hbox (34.23639pt too wide) in paragraph at lines 633--635
-[]$\OT1/txr/m/n/12 . [] 
- []
-
-[11] (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
-(./tables/Q64.tex) [12] (./main.aux)
+[10] (./tables/Q63.tex) (./tables/Q64.tex) [11] [12] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1507,13 +1545,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46959 strings out of 474222
- 1091516 string characters out of 5748734
- 1951975 words of memory out of 5000000
- 68186 multiletter control sequences out of 15000+600000
- 621900 words of font info for 165 fonts, out of 8000000 for 9000
+ 46973 strings out of 474222
+ 1091580 string characters out of 5748734
+ 1953975 words of memory out of 5000000
+ 68196 multiletter control sequences out of 15000+600000
+ 628394 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,18n,103p,1172b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,18n,103p,1172b,704s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fo
@@ -1523,7 +1561,7 @@ blic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 251868 bytes).
+Output written on main.pdf (12 pages, 251852 bytes).
 PDF statistics:
  460 PDF objects out of 1000 (max. 8388607)
  419 compressed objects within 5 object streams
