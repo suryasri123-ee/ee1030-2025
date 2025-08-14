@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.8.12)  14 AUG 2025 06:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.8.12)  14 AUG 2025 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1529,84 +1529,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
-
- []
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/base/8r.enc}]
-<Figs/Q5.png, id=55, 370.38374pt x 161.85469pt>
-File: Figs/Q5.png Graphic file (type png)
-<use Figs/Q5.png>
-Package pdftex.def Info: Figs/Q5.png  used on input line 88.
-(pdftex.def)             Requested size: 370.38283pt x 161.85428pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
+<Figs/Q5.png, id=56, 370.38374pt x 161.85469pt>
+File: Figs/Q5.png Graphic file (type png)
+<use Figs/Q5.png>
+Package pdftex.def Info: Figs/Q5.png  used on input line 89.
+(pdftex.def)             Requested size: 370.38283pt x 161.85428pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.100 \newpage
+l.101 \newpage
                [2 <./Figs/Q5.png>]
 <Figs/Q7.png, id=71, 338.76563pt x 271.0125pt>
 File: Figs/Q7.png Graphic file (type png)
 <use Figs/Q7.png>
-Package pdftex.def Info: Figs/Q7.png  used on input line 120.
+Package pdftex.def Info: Figs/Q7.png  used on input line 121.
 (pdftex.def)             Requested size: 338.76479pt x 271.01183pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 \item
+l.126 \item
             $f(x)=x^22^{-|x|}$ [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \item   M
+l.140 \item   M
                odern cell biology never uses figurative language, such as me...
 [4 <./Figs/Q7.png>]
-Overfull \hbox (1.53639pt too wide) in paragraph at lines 139--140
+Overfull \hbox (1.53639pt too wide) in paragraph at lines 140--141
 []\OT1/txr/m/n/12 Modern cell bi-ol-ogy never uses fig-u-ra-tive lan-guage, suc
 h as metaphors,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 <Figs/Q10.png, id=96, 132.495pt x 155.83218pt>
 File: Figs/Q10.png Graphic file (type png)
 <use Figs/Q10.png>
-Package pdftex.def Info: Figs/Q10.png  used on input line 155.
+Package pdftex.def Info: Figs/Q10.png  used on input line 156.
 (pdftex.def)             Requested size: 132.49466pt x 155.8318pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.166 \newpage
+l.167 \newpage
                [5 <./Figs/Q10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
@@ -1615,10 +1599,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.206 \item
-             Most obviously, mobility is taken to be a geographical as well ...
+l.209 \item  T
+              he existing sociology of migration is incidentally far too lim...
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 240--243
 
  []
 
@@ -1627,25 +1611,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \item
-              Fat: Plump: Voluptuous [7]
-Underfull \hbox (badness 10000) in paragraph at lines 239--242
-
- []
-
-
+l.243 \item
+              In future, the government can make district administration aut...
+[7]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.248 \newpage
+l.249 \newpage
                [8]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--292
+Underfull \hbox (badness 10000) in paragraph at lines 287--293
 
  []
 
@@ -1654,10 +1629,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.292 \item
+l.293 \item
               The stranger can become an owner of soil through developing al...
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 302--304
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
 
  []
 
@@ -1666,10 +1641,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.313 \item
-           [1.]  Consumed multitudes are jostling and shoving inside me
+l.315 \item[2.]
+                 and guided only by the memory of a large white bedsheet wit...
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 327--331
+Underfull \hbox (badness 10000) in paragraph at lines 328--332
 
  []
 
@@ -1678,10 +1653,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.341 \item  S
-              elect the odd word and write the option number as answer:
+l.344 \item
+            Lek \quad \item Zloty \quad \item Diner \quad \item Drachma \qua...
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
@@ -1690,15 +1665,35 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.346 \newpage
+l.347 \newpage
                [12]
-Overfull \hbox (2.57869pt too wide) in paragraph at lines 368--370
+Overfull \hbox (10.25117pt too wide) in paragraph at lines 353--354
+[]$[]$ 
+ []
+
+
+Overfull \hbox (10.25117pt too wide) in paragraph at lines 354--355
+[]$[]$ 
+ []
+
+
+Overfull \hbox (10.25117pt too wide) in paragraph at lines 355--356
+[]$[]$ 
+ []
+
+
+Overfull \hbox (10.25117pt too wide) in paragraph at lines 356--357
+[]$[]$ 
+ []
+
+
+Overfull \hbox (2.57869pt too wide) in paragraph at lines 369--371
 \OT1/txr/m/n/12 ol-ogy of Com-pi-la-tion (1998) con-sti-tuted by the Re-serve B
 ank of In-dia (RBI),
  []
 
 
-Overfull \hbox (2.44238pt too wide) in paragraph at lines 386--387
+Overfull \hbox (2.44238pt too wide) in paragraph at lines 387--388
 \OT1/txr/m/n/12 ($[]$), and $[]$ is the marginal propen-sity to con-sume ($[]$)
 . Then,
  []
@@ -1708,9 +1703,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.387 \begin{enumerate} \begin
-                              {multicols}{2} [13]
-Overfull \hbox (6.36523pt too wide) in paragraph at lines 395--396
+l.389 \item
+              \brak{ \alpha } [13]
+Overfull \hbox (6.36523pt too wide) in paragraph at lines 396--397
 []\OT1/txr/m/n/12 An an-a-lyst re-gressed $[]$ on $[]$ and $[]$. If she later n
 o-ticed that $[]$,
  []
@@ -1720,9 +1715,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.414 \item
-             N. Gregory Mankiw [14]
-Overfull \hbox (0.4324pt too wide) in paragraph at lines 451--452
+l.428 \end{multicols}
+                      \end{enumerate} [14]
+Overfull \hbox (0.4324pt too wide) in paragraph at lines 452--453
 []\OT1/txr/m/n/12 The Com-mis-sion rec-om-mended achiev-ing 90 per-cent me-ter-
 ing of elec-
  []
@@ -1732,25 +1727,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.457 \item  M
-              any scholars consider the study conducted by Dandekar and Rath...
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
-
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.490 \item T
-             he following table provides population information for differen...
-[16]
+l.463 \item  T
+              he study used the same poverty line for all states. [15]
 \openout2 = `Tables/Q44.aux'.
 
- (./Tables/Q44.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 504--507
+
+(./Tables/Q44.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.499 T
+       he percentage change in old-age dependency ratio from 2010 to 2017 is...
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 505--508
 
  []
 
@@ -1759,23 +1749,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.516 \item
-              rival and excludable [17
+l.532 
+       [17
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 []\OT1/txr/m/n/12 Equilibrium $[]$ re-mains un-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--549
+Underfull \hbox (badness 10000) in paragraph at lines 548--550
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 
  []
 
@@ -1784,15 +1779,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.550 \item
-              Two-Stage Least Squares [18]
-Underfull \hbox (badness 10000) in paragraph at lines 557--559
-
- []
-
+l.561 \item
+              must be positive [18]
 \openout2 = `Tables/Q50.aux'.
 
-(./Tables/Q50.tex
+ (./Tables/Q50.tex
 Underfull \hbox (badness 3428) in paragraph at lines 3--3
 []|\OT1/txr/m/n/12 Demographic Tran-si-
  []
@@ -1801,70 +1792,53 @@ Underfull \hbox (badness 3428) in paragraph at lines 3--3
 \openout2 = `Tables/Q51.aux'.
 
  (./Tables/Q51.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
+
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.593 W
-       hich of the following options is/are correct? \\ [19
+l.598 \item   I
+               ndia has an absolute advantage in Ceramic Plate production an...
+[19
+
+
+
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 593--595
-
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.614 \item   W
-               hen real interest rate is low, there are greater incentives t...
-[20
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 629--632
+l.623 \item
+              Sticky-wage model [20]
+Underfull \hbox (badness 10000) in paragraph at lines 630--633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--636
+Underfull \hbox (badness 10000) in paragraph at lines 633--637
 
  []
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.640 \end{enumerate}
-                      [21]
-Underfull \hbox (badness 10000) in paragraph at lines 643--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--646
 
  []
 
 
-Overfull \hbox (14.98067pt too wide) in paragraph at lines 652--656
+Overfull \hbox (14.98067pt too wide) in paragraph at lines 653--657
 []\OT1/txr/m/n/12 The de-mand and sup-ply func-tions for a com-mod-ity are give
 n by:   $\OML/txmi/m/it/12 D [] \OT1/txr/m/n/12 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--656
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 659--661
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 665--668
+Underfull \hbox (badness 10000) in paragraph at lines 653--657
 
  []
 
@@ -1873,39 +1847,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.668 
+l.657 
+       [21]
+Underfull \hbox (badness 10000) in paragraph at lines 660--662
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--683
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.683 
        [22]
-Underfull \hbox (badness 10000) in paragraph at lines 671--673
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 676--682
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--692
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 696--700
 
  []
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.700 
-       [23]
 Underfull \hbox (badness 10000) in paragraph at lines 703--708
 
  []
 
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.712 \end{enumerate}
+                      [23]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -1928,11 +1913,11 @@ Package rerunfilecheck Info: Checksums for `main.out':
 Here is how much of TeX's memory you used:
  51579 strings out of 476034
  1222129 string characters out of 5792864
- 1868388 words of memory out of 6000000
+ 1869388 words of memory out of 6000000
  70942 multiletter control sequences out of 15000+600000
  560720 words of font info for 161 fonts, out of 8000000 for 9000
  1140 hyphenation exceptions out of 8191
- 101i,13n,96p,1172b,1142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,13n,96p,1172b,1151s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fo
@@ -1940,7 +1925,7 @@ nts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (24 pages, 208476 bytes).
+Output written on main.pdf (24 pages, 208461 bytes).
 PDF statistics:
  509 PDF objects out of 1000 (max. 8388607)
  440 compressed objects within 5 object streams
