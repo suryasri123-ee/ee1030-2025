@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  14 AUG 2025 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  14 AUG 2025 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main.ex
 (./main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1391,174 +1391,323 @@ Package hyperref Info: Link coloring OFF on input line 51.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-1.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-1.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-1.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-1.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-1.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Overfull \hbox (1.51376pt too wide) in paragraph at lines 61--62
-[]\OT1/txr/m/n/12 The num-ber of hy-drous min-er-als in the Moh's scale of hard
--ness is []  $[]$ 
- []
-
-
-Overfull \hbox (19.76157pt too wide) in paragraph at lines 85--86
-[]\OT1/txr/m/n/12 Assuming the Earth to be a per-fect sphere, its equa-to-rial 
-ve-loc-ity is ap-prox-i-mately []$ \OML/txmi/m/it/12 km=hr$
- []
-
-
-Overfull \hbox (8.8074pt too wide) in paragraph at lines 95--97
-[]\OT1/txr/m/n/12 Amongst the fol-low-ing op-tions, the ac-cept-able value of t
-he Pois-son's ra-tio of a rock is  $[]$ 
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (8.27946pt too wide) in paragraph at lines 211--213
-[]\OT1/txr/m/n/12 Which of the fol-low-ing phys-i-cal prop-er-ties of rocks has
- the widest range of vari-a-tion?  $[]$ 
- []
-
-[2] [3]
-Overfull \hbox (14.13556pt too wide) in paragraph at lines 391--393
-[]\OT1/txr/m/n/12 Which one of the fol-low-ing is the cor-rect state-ment re-ga
-rd-ing hy-dro-car-bon gen-er-a-tion?  $[]$ 
- []
-
-<Figs/fig1.png, id=164, 220.57407pt x 198.7425pt>
-File: Figs/fig1.png Graphic file (type png)
-<use Figs/fig1.png>
-Package pdftex.def Info: Figs/fig1.png  used on input line 403.
-(pdftex.def)             Requested size: 258.0pt x 232.47319pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4]
-Overfull \hbox (25.64336pt too wide) in paragraph at lines 416--417
-[]\OT1/txr/m/n/12 Match the min-er-als in \OT1/txr/bx/n/12 Group $\OML/txmi/m/i
-t/12 I$ \OT1/txr/m/n/12 with its cor-re-spond-ing in-dus-trial ap-pli-ca-tion i
-n \OT1/txr/bx/n/12 Group $\OML/txmi/m/it/12 II$\OT1/txr/m/n/12 .  $[]$ 
- []
-
-[5
+<Figs/fig_1.png, id=7, 294.34969pt x 231.86626pt>
+File: Figs/fig_1.png Graphic file (type png)
+<use Figs/fig_1.png>
+Package pdftex.def Info: Figs/fig_1.png  used on input line 70.
+(pdftex.def)             Requested size: 154.80157pt x 121.94034pt.
+<Figs/fig_2.png, id=9, 247.67531pt x 188.20313pt>
+File: Figs/fig_2.png Graphic file (type png)
+<use Figs/fig_2.png>
+Package pdftex.def Info: Figs/fig_2.png  used on input line 85.
+(pdftex.def)             Requested size: 258.0pt x 196.0626pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/base/8r.enc}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.493             \underline
-                            {\textbf{Group $I$}} <./Figs/fig1.png>] [6]
-<Figs/fig2.png, id=307, 422.32782pt x 221.32687pt>
-File: Figs/fig2.png Graphic file (type png)
-<use Figs/fig2.png>
-Package pdftex.def Info: Figs/fig2.png  used on input line 623.
-(pdftex.def)             Requested size: 258.0pt x 135.2118pt.
-
-[7
+l.91                 \item
+                           Normal
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.667 \newpage
-               <./Figs/fig2.png>]
-<Figs/fig3.png, id=350, 208.52907pt x 206.27063pt>
-File: Figs/fig3.png Graphic file (type png)
-<use Figs/fig3.png>
-Package pdftex.def Info: Figs/fig3.png  used on input line 672.
-(pdftex.def)             Requested size: 258.0pt x 255.23785pt.
- [8
+l.91                 \item
+                           Normal <./Figs/fig_1.png> <./Figs/fig_2.png>]
+Overfull \hbox (2.66348pt too wide) in paragraph at lines 116--118
+[]\OT1/txr/m/n/12 Match the fol-low-ing strati-graphic units of In-dia $[]$ wit
+h their age $[]$.  $[]$ 
+ []
+
+
+Overfull \hbox (1.47769pt too wide) in paragraph at lines 164--165
+\OT1/txr/m/n/12 Af-ter the test, the ag-gre-gate weighed $3504[]$. The Los An-g
+e-les abra-sion value is []
+ []
+
+<Figs/fig_3.png, id=32, 370.38374pt x 295.85532pt>
+File: Figs/fig_3.png Graphic file (type png)
+<use Figs/fig_3.png>
+Package pdftex.def Info: Figs/fig_3.png  used on input line 189.
+(pdftex.def)             Requested size: 258.0pt x 206.08607pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.692             \newpage
-                           <./Figs/fig3.png>]
-<Figs/fig4.png, id=367, 451.6875pt x 282.30469pt>
-File: Figs/fig4.png Graphic file (type png)
-<use Figs/fig4.png>
-Package pdftex.def Info: Figs/fig4.png  used on input line 700.
-(pdftex.def)             Requested size: 516.0pt x 322.54143pt.
- [9
+l.249     \newpage
+                   <./Figs/fig_3.png>]
+Overfull \hbox (22.90979pt too wide) in paragraph at lines 324--325
+\OT1/txr/m/n/12 lower crust to the up-per man-tle be-neath a cra-ton is ap-prox
+-i-mately [] $[]$.  $[]$ 
+ []
+
+
+Overfull \hbox (8.99947pt too wide) in paragraph at lines 326--328
+[]\OT1/txr/m/n/12 Which one amongst the fol-low-ing log-ging tools has the larg
+est depth of in-ves-ti-ga-tion?  $[]$ 
+ []
+
+[4]
+Overfull \hbox (1.20157pt too wide) in paragraph at lines 374--375
+\OT1/txr/m/n/12 changes to $45\TS1/txr/m/n/12 °$ \OT1/txr/m/n/12 af-ter de-for-
+ma-tion. The shear strain ob-served in the de-formed fos-sil is [].
+ []
+
+<Figs/fig_4.png, id=173, 341.77687pt x 258.21469pt>
+File: Figs/fig_4.png Graphic file (type png)
+<use Figs/fig_4.png>
+Package pdftex.def Info: Figs/fig_4.png  used on input line 405.
+(pdftex.def)             Requested size: 258.0pt x 194.93317pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+<Figs/fig_5.png, id=222, 297.36093pt x 224.33812pt>
+File: Figs/fig_5.png Graphic file (type png)
+<use Figs/fig_5.png>
+Package pdftex.def Info: Figs/fig_5.png  used on input line 423.
+(pdftex.def)             Requested size: 258.0pt x 194.65227pt.
+<Figs/fig_6.png, id=223, 266.49562pt x 206.27063pt>
+File: Figs/fig_6.png Graphic file (type png)
+<use Figs/fig_6.png>
+Package pdftex.def Info: Figs/fig_6.png  used on input line 433.
+(pdftex.def)             Requested size: 258.0pt x 199.714pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./Tables/table1.tex)
+Overfull \hbox (19.14018pt too wide) in paragraph at lines 444--448
+\OT1/txr/m/n/12 600 \OML/txmi/m/it/12 K$ \OT1/txr/m/n/12 and $1 \OML/txmi/m/it/
+12 bar$ \OT1/txr/m/n/12 is [] $\OML/txmi/m/it/12 J$\OT1/txr/m/n/12 . (As-sume $
+\OML/txmi/m/it/12 C[] \OT1/txr/m/n/12 = 0$ for all min-er-als in the re-ac-tion
+)  $[]$ 
+ []
+
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.724     \newpage
-                   <./Figs/fig4.png>]
-<Figs/fig5.png, id=386, 551.81157pt x 273.27094pt>
-File: Figs/fig5.png Graphic file (type png)
-<use Figs/fig5.png>
-Package pdftex.def Info: Figs/fig5.png  used on input line 730.
-(pdftex.def)             Requested size: 516.0pt x 255.56122pt.
-
-Overfull \hbox (46.47552pt too wide) in paragraph at lines 766--768
-[]\OT1/txr/m/n/12 Which sed-i-men-tary pro-cess is re-spon-si-ble for the gen-e
-r-a-tion of the struc-ture iden-ti-fied above?  $[]$ 
- []
-
-(./Tables/table1.tex) [10
+l.448         \end{table}
+                         
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.781 
-       <./Figs/fig5.png>] [11] [12] [13] [14] [15] (./Tables/table2.tex)
-Overfull \hbox (20.51933pt too wide) in paragraph at lines 1190--1194
-[]\OT1/txr/m/n/12 Following ta-ble pro-vides fig-ures (in ru-pees) on an-nual e
-x-pen-di-ture of a firm for two years - $2010[]2011$.
+l.448         \end{table}
+                          <./Figs/fig_4.png> <./Figs/fig_5.png>]
+(./Tables/table2.tex) [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.489                 \item
+                            Angiosperm pollen <./Figs/fig_6.png>]
+Overfull \hbox (3.1795pt too wide) in paragraph at lines 556--558
+[]\OT1/txr/m/n/12 Which one of the fol-low-ing biopoly-mers is the ma-jor sourc
+e of liq-uid hy-dro-car-bons?  $[]$ 
  []
 
-[16] (./main.aux)
+[8]
+<Figs/fig_7.png, id=314, 353.06906pt x 264.23718pt>
+File: Figs/fig_7.png Graphic file (type png)
+<use Figs/fig_7.png>
+Package pdftex.def Info: Figs/fig_7.png  used on input line 569.
+(pdftex.def)             Requested size: 258.0pt x 193.0891pt.
+<Figs/fig_8.png, id=315, 327.47343pt x 283.0575pt>
+File: Figs/fig_8.png Graphic file (type png)
+<use Figs/fig_8.png>
+Package pdftex.def Info: Figs/fig_8.png  used on input line 581.
+(pdftex.def)             Requested size: 258.0pt x 223.00829pt.
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.587 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.587 
+       <./Figs/fig_7.png> <./Figs/fig_8.png>]
+<Figs/fig_9.png, id=329, 408.77719pt x 302.63063pt>
+File: Figs/fig_9.png Graphic file (type png)
+<use Figs/fig_9.png>
+Package pdftex.def Info: Figs/fig_9.png  used on input line 592.
+(pdftex.def)             Requested size: 258.0pt x 191.01387pt.
+
+Overfull \hbox (6.83945pt too wide) in paragraph at lines 599--601
+[]\OT1/txr/m/n/12 Which one of the fol-low-ing seis-mic phases is ob-serv-able 
+in the P-wave shadow zone?  $[]$ 
+ []
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.632 
+       <./Figs/fig_9.png>]
+<Figs/fig_10.png, id=357, 464.4853pt x 248.42813pt>
+File: Figs/fig_10.png Graphic file (type png)
+<use Figs/fig_10.png>
+Package pdftex.def Info: Figs/fig_10.png  used on input line 635.
+(pdftex.def)             Requested size: 258.0pt x 137.99297pt.
+
+Overfull \hbox (30.07497pt too wide) in paragraph at lines 645--647
+\OT1/txr/m/n/12 The charge-abil-ity af-ter cur-rent cut-off be-tween $\OML/txmi
+/m/it/12 t[] \OT1/txr/m/n/12 = 1\OML/txmi/m/it/12 s[]t[] \OT1/txr/m/n/12 = 4\OM
+L/txmi/m/it/12 s$ \OT1/txr/m/n/12 is [] $\OML/txmi/m/it/12 ms$ \OT1/txr/m/n/12 
+.  $[]$ 
+ []
+
+
+Overfull \hbox (25.37999pt too wide) in paragraph at lines 656--657
+[]\OT1/txr/m/n/12 A dy-namic range of $60\OML/txmi/m/it/12 dB$ \OT1/txr/m/n/12 
+in power cor-re-sponds to an in-crease in am-pli-tude by a fac-tor of [].
+ []
+
+<Figs/fig_11.png, id=358, 238.64156pt x 198.7425pt>
+File: Figs/fig_11.png Graphic file (type png)
+<use Figs/fig_11.png>
+Package pdftex.def Info: Figs/fig_11.png  used on input line 663.
+(pdftex.def)             Requested size: 258.0pt x 214.87827pt.
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.668                         \item A
+                                      thrust fault with strike 45\degree and...
+ <./Figs/fig_10.png>] [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.703                         \item
+                                    Stem function. <./Figs/fig_11.png>]
+<Figs/fig_12.png, id=404, 473.51906pt x 185.94469pt>
+File: Figs/fig_12.png Graphic file (type png)
+<use Figs/fig_12.png>
+Package pdftex.def Info: Figs/fig_12.png  used on input line 739.
+(pdftex.def)             Requested size: 258.0pt x 101.31654pt.
+
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.753 
+       <./Figs/fig_12.png>]
+<Figs/fig_13.png, id=436, 411.03563pt x 250.68657pt>
+File: Figs/fig_13.png Graphic file (type png)
+<use Figs/fig_13.png>
+Package pdftex.def Info: Figs/fig_13.png  used on input line 756.
+(pdftex.def)             Requested size: 258.0pt x 157.35193pt.
+
+Overfull \hbox (18.85138pt too wide) in paragraph at lines 772--773
+[]\OT1/txr/m/n/12 Match the items in Group $\OML/txmi/m/it/12 I$ \OT1/txr/m/n/1
+2 with their cor-re-spond-ing an-a-lyt-i-cal ex-pres-sions in Group $\OML/txmi/
+m/it/12 II$\OT1/txr/m/n/12 :  $[]$ 
+ []
+
+
+Overfull \hbox (29.37965pt too wide) in paragraph at lines 817--819
+[]\OT1/txr/m/n/12 If you choose plan P, you will have to [] plan Q, as these tw
+o are man-u-ally [].
+ []
+
+
+Overfull \hbox (4.47546pt too wide) in paragraph at lines 826--828
+[]\OT1/txr/m/n/12 If $\OML/txmi/m/it/12 a[]b$ \OT1/txr/m/n/12 are in-te-gers an
+d $\OML/txmi/m/it/12 a \OMS/txsy/m/n/12 ^^@ \OML/txmi/m/it/12 b$ \OT1/txr/m/n/1
+2 is even, which of the fol-low-ing must al-ways be even?  $[]$ 
+ []
+
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.829                         \item
+                                    $ab$ <./Figs/fig_13.png>]
+<Figs/fig_14.png, id=476, 386.19281pt x 274.77657pt>
+File: Figs/fig_14.png Graphic file (type png)
+<use Figs/fig_14.png>
+Package pdftex.def Info: Figs/fig_14.png  used on input line 898.
+(pdftex.def)             Requested size: 258.0pt x 183.56685pt.
+ [15] [16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.920 \end{document}
+                     <./Figs/fig_14.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7361623EE54023F531995BCD2AD33F43;244.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47254 strings out of 474222
- 1093853 string characters out of 5748734
- 1955975 words of memory out of 5000000
- 68198 multiletter control sequences out of 15000+600000
- 627018 words of font info for 178 fonts, out of 8000000 for 9000
+ 47183 strings out of 474222
+ 1094268 string characters out of 5748734
+ 1946975 words of memory out of 5000000
+ 68276 multiletter control sequences out of 15000+600000
+ 632109 words of font info for 187 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,9n,103p,1172b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 413473 bytes).
+ 101i,14n,103p,1171b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
+s/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (16 pages, 1202147 bytes).
 PDF statistics:
- 822 PDF objects out of 1000 (max. 8388607)
- 772 compressed objects within 8 object streams
- 584 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 656 PDF objects out of 1000 (max. 8388607)
+ 586 compressed objects within 6 object streams
+ 428 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
