@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.31)  13 AUG 2025 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.31)  15 AUG 2025 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1132,33 +1132,26 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@chunks=\count345
 \LT@p@ftn=\toks48
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip71
-\multirow@cntb=\count346
-\multirow@dima=\skip72
-\bigstrutjot=\dimen335
-)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count347
+\c@tracingmulticols=\count346
 \mult@box=\box83
-\multicol@leftmargin=\dimen336
-\c@unbalance=\count348
-\c@collectmore=\count349
-\doublecol@number=\count350
-\multicoltolerance=\count351
-\multicolpretolerance=\count352
-\full@width=\dimen337
-\page@free=\dimen338
-\premulticols=\dimen339
-\postmulticols=\dimen340
-\multicolsep=\skip73
-\multicolbaselineskip=\skip74
+\multicol@leftmargin=\dimen335
+\c@unbalance=\count347
+\c@collectmore=\count348
+\doublecol@number=\count349
+\multicoltolerance=\count350
+\multicolpretolerance=\count351
+\full@width=\dimen336
+\page@free=\dimen337
+\premulticols=\dimen338
+\postmulticols=\dimen339
+\multicolsep=\skip71
+\multicolbaselineskip=\skip72
 \partial@page=\box84
 \last@line=\box85
 \mc@boxedresult=\box86
-\maxbalancingoverflow=\dimen341
+\maxbalancingoverflow=\dimen340
 \mult@rightbox=\box87
 \mult@grightbox=\box88
 \mult@firstbox=\box89
@@ -1199,15 +1192,22 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box124
 \@tempa=\box125
 \@tempa=\box126
-\c@minrows=\count353
-\c@columnbadness=\count354
-\c@finalcolumnbadness=\count355
-\last@try=\dimen342
-\multicolovershoot=\dimen343
-\multicolundershoot=\dimen344
+\c@minrows=\count352
+\c@columnbadness=\count353
+\c@finalcolumnbadness=\count354
+\last@try=\dimen341
+\multicolovershoot=\dimen342
+\multicolundershoot=\dimen343
 \mult@nat@firstbox=\box127
 \colbreak@box=\box128
-\mc@col@check@num=\count356
+\mc@col@check@num=\count355
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip73
+\multirow@cntb=\count356
+\multirow@dima=\skip74
+\bigstrutjot=\dimen344
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
@@ -1239,91 +1239,91 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@lemma=\count362
 \c@example=\count363
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
-3.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 53.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 55.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-53.
+55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 55.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-53.
+55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 55.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-53.
+55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 55.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 5
-3.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 55.
 
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1351,15 +1351,15 @@ e
 \c@lstlisting=\count370
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 53.
-Package gensymb Info: Math companion symbols declared on input line 53.
-LaTeX Info: Redefining \degree on input line 53.
-LaTeX Info: Redefining \celsius on input line 53.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 55.
+Package gensymb Info: Math companion symbols declared on input line 55.
+LaTeX Info: Redefining \degree on input line 55.
+LaTeX Info: Redefining \celsius on input line 55.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 53.
-LaTeX Info: Redefining \ohm on input line 53.
-Package gensymb Info: Using \textohm for \ohm on input line 53.
-Package gensymb Info: Using \textmu for \micro on input line 53.
+erthousand on input line 55.
+LaTeX Info: Redefining \ohm on input line 55.
+Package gensymb Info: Using \textohm for \ohm on input line 55.
+Package gensymb Info: Using \textmu for \micro on input line 55.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1369,7 +1369,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 55.
  (./main.out)
 (./main.out)
 \@outlinefile=\write5
@@ -1378,455 +1378,446 @@ Package hyperref Info: Link coloring OFF on input line 53.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-1.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-1.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-1.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-1.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-1.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 <figs/screenshot001.png, id=14, 231.86626pt x 244.66406pt>
 File: figs/screenshot001.png Graphic file (type png)
 <use figs/screenshot001.png>
-Package pdftex.def Info: figs/screenshot001.png  used on input line 94.
+Package pdftex.def Info: figs/screenshot001.png  used on input line 103.
 (pdftex.def)             Requested size: 154.80157pt x 163.34914pt.
 <figs/screenshot002.png, id=16, 227.34938pt x 208.52907pt>
 File: figs/screenshot002.png Graphic file (type png)
 <use figs/screenshot002.png>
-Package pdftex.def Info: figs/screenshot002.png  used on input line 110.
+Package pdftex.def Info: figs/screenshot002.png  used on input line 122.
 (pdftex.def)             Requested size: 206.39685pt x 189.3131pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
+Underfull \hbox (badness 10000) in paragraph at lines 116--125
 
  []
 
-[2 <./figs/screenshot001.png>] [3 <./figs/screenshot002.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--126
+[2 <./figs/screenshot001.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--126
+Underfull \hbox (badness 10000) in paragraph at lines 135--142
 
  []
 
-<figs/screenshot003.png, id=50, 190.46156pt x 172.39406pt>
+[3 <./figs/screenshot002.png>] [4]
+<figs/screenshot003.png, id=69, 190.46156pt x 172.39406pt>
 File: figs/screenshot003.png Graphic file (type png)
 <use figs/screenshot003.png>
-Package pdftex.def Info: figs/screenshot003.png  used on input line 185.
+Package pdftex.def Info: figs/screenshot003.png  used on input line 211.
 (pdftex.def)             Requested size: 103.19843pt x 93.40706pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--188
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-
- []
-
-[5 <./figs/screenshot003.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 342--344
+Underfull \hbox (badness 10000) in paragraph at lines 198--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--358
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--384
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--384
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--384
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+[5 <./figs/screenshot003.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+[6]
+Overfull \hbox (10.67703pt too wide) in paragraph at lines 364--369
+[]$[]$ 
+ []
+
+
+Overfull \hbox (10.67703pt too wide) in paragraph at lines 369--374
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--384
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--384
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--384
+Underfull \hbox (badness 10000) in paragraph at lines 402--408
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 396--411
+Underfull \hbox (badness 10000) in paragraph at lines 417--424
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--411
+Underfull \hbox (badness 10000) in paragraph at lines 424--428
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--411
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--411
+Underfull \hbox (badness 10000) in paragraph at lines 452--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--411
+Underfull \hbox (badness 10000) in paragraph at lines 452--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--411
+Underfull \hbox (badness 10000) in paragraph at lines 452--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--424
+Underfull \hbox (badness 10000) in paragraph at lines 463--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--424
+Underfull \hbox (badness 10000) in paragraph at lines 463--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--436
+Underfull \hbox (badness 10000) in paragraph at lines 477--485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--436
+Underfull \hbox (badness 10000) in paragraph at lines 477--485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--436
+Underfull \hbox (badness 10000) in paragraph at lines 477--485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--436
+Underfull \hbox (badness 10000) in paragraph at lines 477--485
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 437--443
+Underfull \hbox (badness 10000) in paragraph at lines 486--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--443
+Underfull \hbox (badness 10000) in paragraph at lines 486--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--466
+Underfull \hbox (badness 10000) in paragraph at lines 503--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--466
+Underfull \hbox (badness 10000) in paragraph at lines 503--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--466
+Underfull \hbox (badness 10000) in paragraph at lines 503--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--466
+Underfull \hbox (badness 10000) in paragraph at lines 503--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--466
+Underfull \hbox (badness 10000) in paragraph at lines 503--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--475
+Underfull \hbox (badness 10000) in paragraph at lines 520--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--475
+Underfull \hbox (badness 10000) in paragraph at lines 520--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--482
+Underfull \hbox (badness 10000) in paragraph at lines 526--531
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--482
+Underfull \hbox (badness 10000) in paragraph at lines 526--531
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 488--497
+Underfull \hbox (badness 10000) in paragraph at lines 537--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--497
+Underfull \hbox (badness 10000) in paragraph at lines 537--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--525
+Underfull \hbox (badness 10000) in paragraph at lines 548--574
 
  []
 
 [10] [11] [12]
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 6
-77.
+LaTeX Font Info:    Trying to load font information for OMS+txr on input line 7
+53.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 677.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 753.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 737--744
+Underfull \hbox (badness 10000) in paragraph at lines 844--849
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--744
+Underfull \hbox (badness 10000) in paragraph at lines 844--849
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--767
+Underfull \hbox (badness 10000) in paragraph at lines 851--856
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--767
+Underfull \hbox (badness 10000) in paragraph at lines 851--856
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 769--774
+Underfull \hbox (badness 10000) in paragraph at lines 861--866
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 769--774
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 779--784
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 779--784
+Underfull \hbox (badness 10000) in paragraph at lines 861--866
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 792--806
+Underfull \hbox (badness 10000) in paragraph at lines 874--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--806
+Underfull \hbox (badness 10000) in paragraph at lines 874--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--806
+Underfull \hbox (badness 10000) in paragraph at lines 874--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--806
+Underfull \hbox (badness 10000) in paragraph at lines 874--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--806
+Underfull \hbox (badness 10000) in paragraph at lines 874--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--806
+Underfull \hbox (badness 10000) in paragraph at lines 874--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--806
+Underfull \hbox (badness 10000) in paragraph at lines 874--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--806
+Underfull \hbox (badness 10000) in paragraph at lines 874--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 812--817
+Underfull \hbox (badness 10000) in paragraph at lines 894--899
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 812--817
+Underfull \hbox (badness 10000) in paragraph at lines 894--899
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--842
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
 
  []
 
@@ -1839,13 +1830,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32111 strings out of 474222
- 626576 string characters out of 5748733
- 1944975 words of memory out of 5000000
- 53534 multiletter control sequences out of 15000+600000
+ 32115 strings out of 474222
+ 626694 string characters out of 5748733
+ 1948975 words of memory out of 5000000
+ 53538 multiletter control sequences out of 15000+600000
  619950 words of font info for 157 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,11n,103p,1172b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,11n,103p,1172b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fo
@@ -1857,7 +1848,7 @@ texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main.pdf (16 pages, 166647 bytes).
+Output written on main.pdf (16 pages, 167203 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  264 compressed objects within 3 object streams
