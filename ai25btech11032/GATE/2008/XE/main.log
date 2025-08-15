@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.14)  15 AUG 2025 00:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.14)  15 AUG 2025 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4380,12 +4380,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  ) 
 Here is how much of TeX's memory you used:
  55337 strings out of 467800
- 1511946 string characters out of 5417814
- 2192483 words of memory out of 5000000
+ 1511883 string characters out of 5417814
+ 2192332 words of memory out of 5000000
  83423 multiletter control sequences out of 15000+600000
  662286 words of font info for 130 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,14n,105p,848b,1328s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,14n,105p,848b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbsy10.pfb></data/data/com.termux/files/usr/share/texlive/202
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></data/data/com.termux/f
@@ -4417,7 +4417,7 @@ sint10.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts
 s/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></data/
 data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/helveti
 c/uhvro8a.pfb>
-Output written on main.pdf (89 pages, 3725670 bytes).
+Output written on main.pdf (89 pages, 3725577 bytes).
 PDF statistics:
  512 PDF objects out of 1000 (max. 8388607)
  272 compressed objects within 3 object streams
