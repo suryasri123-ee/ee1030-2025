@@ -4,6 +4,7 @@
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
 \usepackage{algorithmic}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \graphicspath{{./figs/}}
 \usepackage{textcomp}
@@ -25,7 +26,8 @@
 \usepackage{color}        
 \usepackage[utf8]{inputenc}                                     
 \usepackage{array}                                            
-\usepackage{longtable}                                       
+\usepackage{longtable}         
+\usepackage{multicol}                              
 \usepackage{calc}                                             
 \usepackage{multirow}
 \usepackage{multicol}
@@ -58,34 +60,41 @@
 	\\
 	\\
 	\\
-Q.1 Mr. X speaks \underline{\hspace{2cm}} Japanese \underline{\hspace{2cm}} Chinese.                                       
+Q.1 Mr. X speaks \underline{\hspace{2cm}} Japanese \underline{\hspace{2cm}} Chinese. 
+\begin{multicols}{4}                                     
 \begin{enumerate}[label=(\Alph*)]
 		\item neither / or
 		\item either / or
 		\item neither / nor
 		\item also / but
-		\hfill (GATE ST 2022)
-	\end{enumerate}
+\end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 	Q.2 A sum of money is to be distributed among P, Q, R and S in the proportion 5:2:4:3 respectively.
 	If R gets 1000 more than S, what is the share of Q (in)?
+	\begin{multicols}{4}
 	\begin{enumerate}[label=(\Alph*)]
 		\item 500
 		\item 1000
 		\item 1500
 		\item 2000
-		\hfill (GATE ST 2022)
+	
 	\end{enumerate}
+\end{multicols}
+	\hfill (GATE ST 2022)\\
 		\vspace{2em}
 Q.3 A trapezium has vertices marked as P, Q, R and S (in that order anticlockwise). The side PQ is parallel to side SR. Further, it is given that: PQ = 11 cm, QR = 4 cm, RS = 6 cm and PS = 3 cm. \\
 What is the shortest distance between PQ and SR (in cm)?
+\begin{multicols}{4}
 	\begin{enumerate}[label=(\Alph*)]
 		\item 1.80
 		\item 2.40
 		\item 4.20
 		\item 5.76
-		\hfill (GATE ST 2022)
-	\end{enumerate}
+		\end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)
 		\vspace{2em}
 		
 Q.4 The figure shows a grid formed by a collection of unit squares. The shaded unit square in the grid represents a hole.
@@ -95,13 +104,16 @@ Q.4 The figure shows a grid formed by a collection of unit squares. The shaded u
 		\caption{}
 		\label{fig:screenshot001}
 	\end{figure}
+	\begin{multicols}{4}
 	\begin{enumerate}[label=(\Alph*)]
 		\item 16
 		\item 20
 		\item 21
 		\item 26
-		\hfill (GATE ST 2022)
+		
 	\end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.5 An art gallery engages a security guard so that the items displayed are protected. The diagram below represents the plan of the gallery where the boundary walls are opaque. The location where the security guard is posted is identified such that all the inner space (shaded region in the plan) of the gallery is within the line of sight of the security guard.\\
 If the security guard does not move around the posted location and has a 360° view, which one of the following correctly represents the set of \textbf{ALL} possible locations among the locations P, Q, R and S, where the security guard can be posted to watch over the entire inner space of the gallery?\\
@@ -111,14 +123,18 @@ If the security guard does not move around the posted location and has a 360° v
 		\caption{}
 		\label{fig:screenshot002}
 \end{figure}
+\begin{multicols}{4}
 \begin{enumerate}
 \item P and Q
 \item Q
 \item Q and S
 \item R and S
-\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	 \pagebreak
+	 \\
 	 \fbox{\textbf{ {\LARGE Q.6 - Q.10 Carry two mark each}}}\\
 	 \\
 	 \\
@@ -130,30 +146,37 @@ Which one of the following is the correct logical inference based on the informa
 		\item Using genetically modified mosquitoes is better than using chemicals to kill mosquitoes because they do not have any side effects.
 		\item Both using genetically modified mosquitoes and chemicals have undesired consequences and can be dangerous.
 		\item Using chemicals to kill mosquitoes may have undesired consequences but it is not clear if using genetically modified mosquitoes has any negative consequence.
-		\hfill (GATE ST 2022)
 \end{enumerate} 
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
-Q.7 Consider the following inequalities.\\
-	 (\romannum{1}) $ 2x - 1 > 7 $ \\
-	 (\romannum{2}) $ 2x - 1 < 1 $ \\
-	 Which one of the following expressions below satisfies the above two inequalities?[0.5em]
-	 \begin{enumerate}[label=(\Alph*)]
-	 	\item $ x \leq -4$
-	 	\item $ -4 < x \leq 4 $
-	 	\item $ 4 < x < 5 $
-	 	\item $ x \geq 5 $
-	 	\hfill (GATE ST 2022)
-	 \end{enumerate}
+Q.7 Consider the following inequalities.
+\begin{align*}
+	\text{(\romannumeral 1)} & \quad 2x - 1 > 7 \\
+	\text{(\romannumeral 2)} & \quad 2x - 1 < 1
+\end{align*}
+Which one of the following expressions below satisfies the above two inequalities?
+\begin{multicols}{2} 
+	\begin{enumerate}[label=(\Alph*)]
+		\item $x \leq -4$
+		\item $-4 < x \leq 4$
+		\item $4 < x \leq 5$
+		\item $x \geq 5$
+	\end{enumerate}
+\end{multicols}
+
 	 	\vspace{2em}
 Q.8 Four points P(0, 1), Q(0, -3), R(-2, -1), and S(2, -1) represent the vertices of a quadrilateral.\\
 	 What is the area enclosed by the quadrilateral?[0.5em]
+	 \begin{multicols}{4}
 	 \begin{enumerate}[label=(\Alph*)]
 	 	\item $ 4 $
 	 	\item $ 4\sqrt{2} $
 	 	\item $ 8 $
 	 	\item $ 8\sqrt{2} $
-	 	\hfill (GATE ST 2022)
+	 
 	 \end{enumerate}
+	\end{multicols}
+		\hfill (GATE ST 2022)\\
 	 	\vspace{2em}
 Q.9 In a class of five students P, Q, R, S and T, only one student is known to have copied in the exam. The disciplinary committee has investigated the situation and recorded the statements from the students as given below.[0.3em]
 	 \textbf{Statement of P}: R has copied in the exam. \\
@@ -163,13 +186,16 @@ Q.9 In a class of five students P, Q, R, S and T, only one student is known to h
 	 \textbf{Statement of T}: R is telling the truth. \\
 	 The investigating team had authentic information that S never lies.\\
 	 Based on the information given above, the person who has copied in the exam is
+	 \begin{multicols}{4}
 	 \begin{enumerate}[label=(\Alph*)]
 	 	\item R
 	 	\item P
 	 	\item Q
 	 	\item T
-	 	\hfill (GATE ST 2022)
+	 	
 	 \end{enumerate}
+	\end{multicols}
+	\hfill (GATE ST 2022)\\
 	 	\vspace{2em}
 Q.10 Consider the following square with the four corners and the center marked as P, Q, R, S and T respectively.\\
 Let X, Y and Z represent the following operations: \\
@@ -188,12 +214,14 @@ Consider the following three distinct sequences of operation (which are applied 
 	 	\end{figure}
 	 
 	 Which one of the following statements is correct as per the information provided above?\\[0.5em]
+	  \begin{multicols}{2}
 	 \begin{enumerate}[label=(\Alph*)]
 	 	\item The sequence of operations (1) and (2) are equivalent
 	 	\item The sequence of operations (1) and (3) are equivalent
 	 	\item The sequence of operations (2) and (3) are equivalent
 	 	\item The sequence of operations (1), (2) and (3) are equivalent
 	 \end{enumerate}
+	\end{multicols}
 	 \hfill (GATE ST 2022)
 	 \vspace{2em}
 	 \\
@@ -201,6 +229,7 @@ Q.11 Let $\mathbf{M}$ be a $2 \times 2$ real matrix such that
 $(\mathbf{I} + \mathbf{M})^{-1} = \mathbf{I} - \alpha \mathbf{M}$, 
 where $\alpha$ is a non-zero real number and $\mathbf{I}$ is the $2 \times 2$ identity matrix. 
 If the trace of the matrix $\mathbf{M}$ is $3$, then the value of $\alpha$ is:
+\begin{multicols}{4}
 \begin{enumerate}[label=\alph*.] 
 	\item $\frac{3}{4}$
 	\item $\frac{1}{3}$
@@ -208,27 +237,33 @@ If the trace of the matrix $\mathbf{M}$ is $3$, then the value of $\alpha$ is:
 	\item $\frac{1}{4}$
 	\hfill (GATE ST 2022)
 \end{enumerate}
+\end{multicols}
 	\vspace{2em}
-Q.12 Let $ \{X(t)\}_{t\geq0} $ be a linear pure death process with death rate $\mu_i = 5i$, for $i = 0, 1, \dots , N$, where $N \geq 1$. Suppose that $p_i(t) = P(X(t) = i)$. Then the system of forward Kolmogorov equations is:
-\begin{enumerate}[label=\alph*.] 
-	\item $ \frac{dp_i(t)}{dt} = 5(i + 1)p_{i+1}(t) + 5i p_i(t) \text{ and } \frac{dp_N(t)}{dt} = 5Np_N(t)$ for $i = 0,1, \dots ,N - 1$ with initial conditions $p_i(0) = 0$ for $i \neq N $, and $p_N(0) = 1$.
-	\item $ \frac{dp_i(t)}{dt} = 5(i + 1)p_{i+1}(t) - 5i p_i(t) \text{ and } \frac{dp_N(t)}{dt} = -5Np_N(t)$ for $i = 0,1, \dots ,N - 1$ with initial conditions $p_i(0) = 0$ for $i \neq N $, and $p_N(0) = 1$.
-	\item $ \frac{dp_i(t)}{dt} = 5(i + 1)p_{i+1}(t) + 5i p_i(t) \text{ and } \frac{dp_N(t)}{dt} = 5Np_N(t)$ for $i = 0,1, \dots ,N - 1$ with initial conditions $p_i(0) = 1$ for $i \neq N $, and $p_N(0) = 1$.
-	\item $ \frac{dp_i(t)}{dt} = 5(i + 1)p_{i+1}(t) - 5i p_i(t) \text{ and } \frac{dp_N(t)}{dt} = -5Np_N(t)$ for $i = 0,1, \dots ,N - 1$ with initial conditions $p_i(0) = 0$ for $i \neq N $, and $p_N(0) = 1$.
+Q.12 Let $ \{X(t)\}_{t\geq0} $ be a linear pure death process with death rate $\mu_i = 5i$, for $i = 0, 1, \dots , N$, where $N \geq 1$. Suppose that $p_i(t) = P(X(t) = i)$. Then the system of forward Kolmogorov equations is:\\
+
+ \begin{enumerate}[label=\alph*.] 
+	\item $ \frac{dp_i(t)}{dt} = 5(i + 1)p_{i+1}(t) + 5i p_i(t) \text{ and } \frac{dp_N(t)}{dt} = 5Np_N(t)$ for $i = 0,1, \dots ,N - 1$ with initial conditions $p_i(0) = 0$ for $i \neq N $, and $p_N(0) = 1$.\\
+	\item $ \frac{dp_i(t)}{dt} = 5(i + 1)p_{i+1}(t) - 5i p_i(t) \text{ and } \frac{dp_N(t)}{dt} = -5Np_N(t)$ for $i = 0,1, \dots ,N - 1$ with initial conditions $p_i(0) = 0$ for $i \neq N $, and $p_N(0) = 1$.\\
+	\item $ \frac{dp_i(t)}{dt} = 5(i + 1)p_{i+1}(t) + 5i p_i(t) \text{ and } \frac{dp_N(t)}{dt} = 5Np_N(t)$ for $i = 0,1, \dots ,N - 1$ with initial conditions $p_i(0) = 1$ for $i \neq N $, and $p_N(0) = 1$.\\
+	\item $ \frac{dp_i(t)}{dt} = 5(i + 1)p_{i+1}(t) - 5i p_i(t) \text{ and } \frac{dp_N(t)}{dt} = -5Np_N(t)$ for $i = 0,1, \dots ,N - 1$ with initial conditions $p_i(0) = 0$ for $i \neq N $, and $p_N(0) = 1$.\\
 	\hfill (GATE ST 2022)
 \end{enumerate}
+
 	\vspace{2em}
 Q.13 Let $S^2$ be the variance of a random sample of size $n > 1$ from a normal population with an unknown mean $\mu$ and an unknown finite variance $\sigma^2 > 0$. Consider the following statements:
 (I) $S^2$ is an unbiased estimator of $\sigma^2$, and $S$ is an unbiased estimator of $\sigma$.
 (II) $(\frac{n-1}{n})S^2$ is a maximum likelihood estimator of $\sigma^2$, and $\sqrt{\frac{n-1}{n}}S$ is a maximum likelihood estimator of $\sigma$.
 Which of the above statements is/are true?
+\begin{multicols}{4}
 \begin{enumerate}[label=\alph*.] 
 	\item (I) only
 	\item (II) only
 	\item Both (I) and (II)
 	\item Neither (I) nor (II)
-	\hfill (GATE ST 2022)
+	
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.14 Let $f : \mathbb{R}^2 \to \mathbb{R}$ be a function defined by
 \[
@@ -239,13 +274,16 @@ f(x,y) =
 \end{cases}
 \]
 Then which one of the following statements is true?
+\begin{multicols}{2}
 \begin{enumerate}[label=\alph*.] 
 	\item $f$ is bounded and $\frac{\partial f}{\partial x}$ is unbounded on $\mathbb{R}^2$.
 	\item $f$ is unbounded and $\frac{\partial f}{\partial x}$ is bounded on $\mathbb{R}^2$.
 	\item Both $f$ and $\frac{\partial f}{\partial x}$ are unbounded on $\mathbb{R}^2$.
 	\item Both $f$ and $\frac{\partial f}{\partial x}$ are bounded on $\mathbb{R}^2$.
-	\hfill (GATE ST 2022)
+	
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.15 Let $X_1, X_2, \dots, X_n$ be a random sample from a distribution with cumulative distribution function $F(x)$. Let the empirical distribution function of the sample be $F_n(x)$. The classical Kolmogorov-Smirnov goodness of fit test statistic is given by
 $$ T_n = \sqrt{n}D_n = \sqrt{n} \sup_{-\infty < x < \infty} | F_n(x) - F(x) | $$
@@ -253,13 +291,16 @@ Consider the following statements:
 (I) The distribution of $T_n$ is the same for all continuous underlying distribution functions $F(x)$.
 (II) $D_n$ converges to 0 almost surely, as $n \to \infty$.
 Which of the above statements is/are true?
+\begin{multicols}{4}
 \begin{enumerate}[label=\alph*.] 
 	\item (I) only
 	\item (II) only
 	\item Both (I) and (II)
 	\item Neither (I) nor (II)
-	\hfill (GATE ST 2022)
+	
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.16 Consider the following transition matrices $\textbf{P}_1$ and $\textbf{P}_2$ of two Markov chains:
 \[
@@ -278,13 +319,15 @@ P_2 =
 \end{bmatrix}.
 \]
 Then which one of the following statements is true?
+
 \begin{enumerate}[label=\alph*.] 
 	\item Both $\textbf{P}_1$ and $\textbf{P}_2$ have unique stationary distributions.
 	\item $\textbf{P}_1$ has a unique stationary distribution, but $\textbf{P}_2$ has infinitely many stationary distributions.
 	\item $\textbf{P}_1$ has infinitely many stationary distributions, but $\textbf{P}_2$ has a unique stationary distribution.
 	\item Neither $\textbf{P}_1$ nor $\textbf{P}_2$ has a unique stationary distribution.
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+	\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.17 Let $\textbf{X}_1, \textbf{X}_2, \dots, \textbf{X}_{20}$ be a random sample of size 20 from $N_6(\mathbf{\mu,\Sigma})$ with $\det(\Sigma) \neq 0$, and suppose both $\mu$ and $\Sigma$ are unknown. Let 
 $$
@@ -296,13 +339,16 @@ Consider the following two statements:
 (I) The distribution of $19S$ is $W_6(19,\Sigma)$ (Wishart distribution of order 6 with 19 degrees of freedom).
 (II) The distribution of $(X_3 - \mu)^T S^{-1}(X_3 - \mu)$ is $\chi^2_6$ (Chi-square distribution with 6 degrees of freedom).
 Then which of the above statements is/are true?
+\begin{multicols}{4}
 \begin{enumerate}[label=\alph*.] 
 	\item (I) only
 	\item (II) only
 	\item Both (I) and (II)
 	\item Neither (I) nor (II)
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+	\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.18 Let $X_1, X_2, \dots, X_{18}$ be a random sample from the distribution
 \[
@@ -313,6 +359,7 @@ f(x; \theta) =
 \end{cases}
 \]
 Let $\chi^2_{\alpha,n}$ denote the value of a Chi-square random variable Y with n degrees of freedom such that $P(Y > \chi^2_{\alpha, n}) = \alpha$. If $x_1, x_2, \dots, x_{18}$ is a realization of this random sample, then, based on the sufficient statistic $\sum_{i = 1}^{18} X^2_i$, which one of the following is a 98\% confidence interval for $\theta$?
+ \begin{multicols}{4}
 \begin{enumerate}
 	\item $	\left( 
 	\dfrac{2 \sum_{i=1}^{18} x_i^2}{\chi^2_{0.01,36}},\;
@@ -332,14 +379,17 @@ Let $\chi^2_{\alpha,n}$ denote the value of a Chi-square random variable Y with 
 	\dfrac{\sum_{i=1}^{18} x_i^2}{\chi^2_{0.01,18}},\;
 	\dfrac{\sum_{i=1}^{18} x_i^2}{\chi^2_{0.99,18}} 
 	\right)$
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+	\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.19 Let $X_1,X_2, \dots ,X_n$ be a random sample from a population $f(\chi; \theta)$ , where $\theta$ is a parameter .Then which one of the follwoing statements is NOT true ?\\
 (A) $\sum_{i=1}^{n}$ $X_i$ is a complete and sufficient  statistic for $\theta$, if \[
 f(x; \theta) = 
 \dfrac{e^{-\theta}\,\theta^{x}}{x!} , x = 0,1,2, ..., and \theta > 0
 \]\\
+
 \begin{enumerate}
 	\item[(B)] 
 	$(\sum_{i=1}^n X_i,\; \sum_{i=1}^n X_i^2)$ is a complete and sufficient statistic for $\theta$, if 
@@ -363,23 +413,20 @@ f(x; \theta) =
 	\quad 
 	X_{(n)} = \max\{X_1, X_2, \ldots, X_n\}
 	\]
-	\hfill (GATE ST 2022)
-\end{enumerate}
+	\end{enumerate}
+\hfill (GATE ST 2022)\\
 Q.20 A random sample $X_1,X_2, \dots, X_6$ of size 6 is taken from a Bernoulli distribution with
 the parameter $\theta$. The null hypothesis $H_o$ : $\theta = \frac{1}{2}$ is to be tested against the alternative hypothesis $H_1 : \theta > \frac{1}{2}$ ,based on the statistic Y = $\sum_{i=6}^{6}X_i$.If the value of Y
 corresponding to the observed sample values is 4, then the p-value of the test
-statistic is \hfill (GATE ST 2022)\\
+statistic is 
 \\
+\begin{multicols}{4}
 (A) $\frac{21}{32}$\\
-\\
-(B) $\frac{
-9}{64}$\\
-\\
+(B) $\frac{9}{64}$\\
 (C) $\frac{11}{32}$\\
-\\
 (D) $\frac{7}{64}$\\
-\\
-\\
+\end{multicols}
+\hfill (GATE ST 2022)\\
 Q.21 Let $\{a_n\}_{n=1}^{\infty}$ be a sequence of positive real numbers satisfying 
 \[
 \frac{8}{a_{n+1}} = \frac{7}{a_n} + \frac{a_n^2}{343}, 
@@ -388,20 +435,22 @@ Q.21 Let $\{a_n\}_{n=1}^{\infty}$ be a sequence of positive real numbers satisfy
 with $a_1 = 3$ and $a_n < 7$ for all $n \geq 2$. 
 
 Consider the following statements:
+
 \begin{enumerate}
 	\item[(I)] $\{a_n\}$ is monotonically increasing.
 	\item[(II)] $\{a_n\}$ converges to a value in the interval $[3,7]$.
 \end{enumerate}
 
+
 Then which of the above statements is/are true?\\
-\\
+\begin{multicols}{4}
 (a) (I) only \\
 (b) (II) only \\
 (c) Both (I) and (II)\\
-(d) Neither (I) nor (II) \hfill (GATE ST 2022)\\
-\\
-\\
-\\
+(d) Neither (I) nor (II)
+\end{multicols}
+ \hfill (GATE ST 2022)\\
+ \\
 Q.22 Let \textbf{M} be any squar e matrix of arbitrary order n such that $\textbf{M}^2$  = \textbf{0} AND THE NULLITY OF m IS 6.Then the maximum possible value of n \textbf{(in integer)} is \underline{\hspace{2cm}}.\hfill (GATE ST 2022)\\
 \\
 \\
@@ -526,13 +575,16 @@ Q.36 Let \textbf{M} be a 3 x 3 real symmetric matrix with eigenvalues -1, 1, 2 a
 \mathbf{M} \mathbf{x} = \mathbf{u} + 2(\mathbf{v} + \mathbf{w}) \hspace{1cm} \text{and} \hspace{1cm} \mathbf{M}^2\mathbf{y} = \mathbf{u} -(\mathbf{v} + 2\mathbf{w})
 \]
 Considering the usual inner product in $\mathbb{R}^3$, the value of ${|\mathbf{x} + \mathbf{y}|}^2$, where $|\mathbf{x} + \mathbf{y}|$ is the length of the vector $\mathbf{x + y}$, is
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item 1.25
 	\item 0.25
 	\item 0.75
 	\item 1
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.37 Consider the following infinite series:
 \[
@@ -540,22 +592,28 @@ S_1 := \sum_{n=0}^{\infty} (-1)^n \frac{n}{n^2 + 4} \quad \text{and} \quad
 S_2 := \sum_{n=0}^{\infty} (-1)^n \left(\sqrt{n^2 + 1} - n \right).
 \]
 Which of the above series is/are conditionally convergent?
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item $S_1$ only
 	\item $S_2$ only
 	\item Both $S_1$ and $S_2$
 	\item Neither $S_1$ nor $S_2$
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.38 Let ${(3,6)}^T$, ${(4,4)}^T$, ${(5,7)}^T$ and ${(4,7)}^T$ be four independent observations from a bivariate normal distribution with the mean vector $\mathbf{\mu}$ and the covariance matrix $\mathbf{\Sigma}$. Let $\hat{\mu}$ and $\hat{\Sigma}$ be the maximum likelihood estimates of $\mu$ and $\Sigma$, respectively, based on these observations. Then $\hat{\mu}$ is equal to 
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item $\begin{pmatrix} 3.5\\ 6.0 \end{pmatrix}$
 	\item $\begin{pmatrix} 4.0\\ 6.0 \end{pmatrix}$
 	\item $\begin{pmatrix} 4.0\\ 13.5 \end{pmatrix}$
 	\item $\begin{pmatrix} 16.0\\ 24.0 \end{pmatrix}$
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.39 Let 
 $
@@ -576,26 +634,32 @@ $
 \end{bmatrix},
 $
 where \(a \in \mathbb{R}\). Suppose that the partial correlation coefficient between \(X_2\) and \(X_3\), keeping \(X_1\) fixed, is \(\frac{5}{7}\). Then a is equal to
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item 1
 	\item $\frac{3}{2}$
 	\item 2
 	\item $\frac{1}{2}$
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.40 If the line y = $\alpha$x, $\alpha \geq \sqrt{2}$, divides the area of the region 
 \[
 R:= \{(x,y) \in \mathbb{R}^2|0 \leq x \leq \sqrt{y}, 0 \leq y \leq 2\}
 \]
 into two equal parts, then the value of $\alpha$ is equal to
+\begin{multicols}{4}
 \begin{enumerate}[label=\alph*.] 
 	\item $\frac{3}{\sqrt{2}}$
 	\item $2\sqrt{2}$
 	\item $\sqrt{2}$
 	\item $\frac{5}{2\sqrt{2}}$
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.41 Let (X,Y,Z) be a random vector with the joint probability density function
 \[
@@ -606,29 +670,34 @@ f_{X,Y,Z}(x,y,z) =
 \end{cases}
 \]
 Then which one of the following points is on the regression surface of X on (Y,Z)?
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item $( \frac{4}{7}, \frac{1}{3}, \frac{1}{3} )$
 	\item $( \frac{6}{7}, \frac{2}{3}, \frac{2}{3} )$
 	\item $(\frac{1}{2},\frac{1}{3},\frac{2}{3})$
 	\item $(\frac{1}{2},\frac{2}{3},\frac{1}{3})$
-	\hfill (GATE ST 2022)
+	
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
-Q.42 A random sample X of size one is taken from a distribution with the probability density function 
-\[
+Q.42 A random sample X of size one is taken from a distribution with the probability density function \[
 f(x; \theta) = \begin{cases}
 	\frac{2x}{\theta^2}, & 0 < x < \theta \\
 	0, & \text{elsewhere},
 \end{cases}
 \]
 if $\frac{X}{\theta}$ is used as a pivot for obtaining the confidence interval for $\theta$, then which one of the following is an 80\% confidence interval (confidence limits rounded off to three decimal places) for $\theta$ based on the observed sample value x = 10?
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item (10.541, 31.623)
 	\item (10.987, 31.126)
 	\item (11.345, 30.524)
 	\item (11.267, 30.542)
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.43 Let \(X_1, X_2, \ldots, X_7\) be a random sample from a normal population with mean 0 and variance \(\theta > 0\). Let
 \[
@@ -641,13 +710,16 @@ Consider the following statements:
 	\item[(III)] \(E(K^2) = \frac{8}{63}.\)
 \end{enumerate}
 Then which of the above statements is/are true?
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item (I) and (II) only
 	\item (I) and (III) only
 	\item (II) and (III) only
 	\item (I) only
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.44 Consider the following statements :\\
 (I) Let a random variable X have the probability density function 
@@ -664,22 +736,28 @@ f_Y(y) = \begin{cases}
 \]
 Then there exist i.i.d. random variables $Y_1$ and $Y_2$ such that Y and $Y_1 - Y_2$ have the same distribution.\\
 Then which of the above statements is/are true?
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item (I) only
 	\item (II) only
 	\item both (I) and (II)
 	\item Neither (I) nor (II)
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.45 Suppose \(X_1, X_2, \ldots, X_n, \ldots\) are independent exponential random variables with the mean \(\frac{1}{2}\). Let the notation \emph{i.o.} denote "infinitely often". Then which of the following is/are true?
+\begin{multicols}{2}
 \begin{enumerate}[label=\alph*.] 
 	\item P(\{$x_n > \frac{\epsilon}{2}\log_en$\} i.o.) = 1 for $0 < \epsilon \leq 1$
 	\item P(\{$x_n < \frac{\epsilon}{2}\log_en$\} i.o.) = 1 for $0 < \epsilon \leq 1$
 	\item P(\{$x_n > \frac{\epsilon}{2}\log_en$\} i.o.) = 1 for $\epsilon > 1$
 	\item P(\{$x_n < \frac{\epsilon}{2}\log_en$\} i.o.) = 1 for $\epsilon > 1$
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.46 Let \(\{X_n\}, n \ge 1\), be a sequence of random variables with the probability mass functions
 \[
@@ -691,22 +769,26 @@ p_{X_n}(x) =
 \end{cases}
 \]
 Let \(X\) be a random variable with \(P(X=0)=1\). Then which of the following statements is/are true?
+
 \begin{enumerate}[label=\Alph*.] 
 	\item \(X_n\) converges to \(X\) in distribution.
 	\item \(X_n\) converges to \(X\) in probability.
 	\item \(E(X_n) \longrightarrow E(X)\).
 	\item There exists a subsequence \(\{X_{n_k}\}\) of \(\{X_n\}\) such that \(X_{n_k}\) converges to \(X\) almost surely.
-	\hfill (GATE ST 2022)
 \end{enumerate}
-	\vspace{2em}
+\hfill (GATE ST 2022)\\
+\vspace{2em}
 Q.47 5Let \textbf{M} be any 3 × 3 symmetric matrix with eigenvalues 1, 2 and 3. Let \textbf{N} be any 3 × 3 matrix with real eigenvalues such that \textbf{MN} + \textbf{NM} = 3\textbf{I}, where \textbf{I} is the 3 × 3 identity matrix. Then which of the following cannot be eigenvalue(s) of the matrix \textbf{N}?
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item $\frac{1}{4}$ 
 	\item $\frac{3}{4}$
 	\item $\frac{1}{2}$
 	\item $\frac{7}{4}$
-	\hfill (GATE ST 2022)
+
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.48 Let \(M\) be a \(3 \times 2\) real matrix having a singular value decomposition as $M = USV^T,$ where the matrix $
 S = \begin{bmatrix}
@@ -721,34 +803,34 @@ $
 	\item The trace of the matrix \(M^TM\) is 4.
 	\item The largest singular value of the matrix \((M^TM)^{-1}M^T\) is 1.
 	\item The nullity of the matrix \(M\) is 1.
-	\hfill (GATE ST 2022)
 \end{enumerate}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.49 Let X be a random variable such that 
 \[
 P\left(\frac{a}{2\pi}X \in \mathbb{Z}\right) = 1, \hspace{1cm} a > 0.
 \]
 Then which of the following statements is/are true?
+\begin{multicols}{2}
 \begin{enumerate}[label=\Alph*.] 
 	\item $\phi_X(a) = 1$
 	\item $\phi_X(.)$ is periodic with period a.
 	\item $|\phi_X(t)| < 1$ for all $t \neq a$.
 	\item $\int_{0}^{2\pi} e^{itn} \phi_X(t) dt = \pi P\left(X = \frac{2\pi n}{a}\right), n \in \mathbb{Z}, i = \sqrt{-1}$
-\end{enumerate}(A) $\sin^2x$\\
-(B) x$\sin$x\\
-(C) $\sin$($\sin$x)\\
-(D) $\sin$(x$\sin$x) \hfill (GATE ST 2022)\\
-\\
-\\
+\end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 Q.50 Which of the following real valued functions is/are uniformly continuous on $[0, \infty)$?
-
+\begin{multicols}{4}
 \begin{enumerate}[label=\Alph*.] 
 	\item $\sin^2 x$
 	\item $x \sin x$
 	\item $\sin(\sin x)$
 	\item $\sin(x \sin x)$
-	\hfill (GATE ST 2022)
+	
 \end{enumerate}
+\end{multicols}
+\hfill (GATE ST 2022)\\
 	\vspace{2em}
 Q.51 Two independent random samples, each of size 7, from two populations yield the following values:
 \[
