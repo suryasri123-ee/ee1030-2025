@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.13)  14 AUG 2025 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.13)  15 AUG 2025 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**ass
 (./main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
@@ -1629,41 +1629,36 @@ Package hyperref Info: Link coloring OFF on input line 51.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<figs/latex.jpg, id=7, 1084.05pt x 150.5625pt>
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 54.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
+3.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
+3.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
+3.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
+3.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
+3.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/ts1txr.fd
@@ -1682,278 +1677,153 @@ File: ts1txr.fd 2000/12/15 v3.1
 
 [1{/data/data/com.termux/files/usr/share/texlive/2025/texmf-var/fonts/map/pdfte
 x/updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2025/texmf-d
-ist/fonts/enc/dvips/base/8r.enc} <./figs/latex.jpg>]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 107.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
+ist/fonts/enc/dvips/base/8r.enc}]
 <figs/img 1.jpeg, id=35, 385.44pt x 178.6675pt>
 File: figs/img 1.jpeg Graphic file (type jpg)
 <use figs/img 1.jpeg>
-Package pdftex.def Info: figs/img 1.jpeg  used on input line 111.
+Package pdftex.def Info: figs/img 1.jpeg  used on input line 100.
 (pdftex.def)             Requested size: 206.39685pt x 95.67203pt.
 
 
 [2 <./figs/img 1.jpeg>]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 144.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
 <figs/img 2.jpeg, id=50, 400.49625pt x 271.0125pt>
 File: figs/img 2.jpeg Graphic file (type jpg)
 <use figs/img 2.jpeg>
-Package pdftex.def Info: figs/img 2.jpeg  used on input line 148.
+Package pdftex.def Info: figs/img 2.jpeg  used on input line 127.
 (pdftex.def)             Requested size: 206.39685pt x 139.67017pt.
 
 
 [3 <./figs/img 2.jpeg>]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 178.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
 <figs/img 3.jpeg, id=68, 377.41pt x 283.0575pt>
 File: figs/img 3.jpeg Graphic file (type jpg)
 <use figs/img 3.jpeg>
-Package pdftex.def Info: figs/img 3.jpeg  used on input line 193.
+Package pdftex.def Info: figs/img 3.jpeg  used on input line 162.
 (pdftex.def)             Requested size: 258.0pt x 193.50017pt.
 
 
 [4 <./figs/img 3.jpeg>]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 213.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
 
 [5]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 279.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
 
 [6]
 
 [7]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 347.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
 
 [8]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 407.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
 
 [9]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 468.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
+Overfull \hbox (66.76704pt too wide) in paragraph at lines 481--483
+[]\OT1/txr/m/n/12 The prob-a-bil-ity of de-tect-ing an in-fec-tion for a pos-i-
+tive re-sult through the kit would be [][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (35.78381pt too wide) in paragraph at lines 484--486
+\OT1/txr/m/n/12 of ac-cel-er-a-tion due to grav-ity ($\OML/txmi/m/it/12 g$\OT1/
+txr/m/n/12 ) as 9.81 m/s$[]$ is [][][][][][][][][] $[]$.
+ []
+
+
+Overfull \hbox (1.03589pt too wide) in paragraph at lines 490--492
+[]\OT1/txr/m/n/12 The value of $[] [][] [][] \OML/txmi/m/it/12 x dx$ \OT1/txr/m
+/n/12 is [][][][][][][][] $[]$.  $[]$ 
+ []
+
+
+Overfull \hbox (46.07951pt too wide) in paragraph at lines 493--495
+[]\OT1/txr/m/n/12 An S-hydrograph was pre-pared for a catch-ment of 240 km$[]$ 
+us-ing 3-hour unit hy-dro-graph $[]$.
+ []
+
+
+Overfull \hbox (86.72389pt too wide) in paragraph at lines 493--495
+\OT1/txr/m/n/12 The equi-lib-rium dis-charge for the S-hydrograph would be [][]
+[][][][][][] $[]$.
+ []
+
 
 
 [10]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 531.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
-Overfull \hbox (88.36891pt too wide) in paragraph at lines 573--575
-[]\OT1/txr/m/n/12 The prob-a-bil-ity of de-tect-ing an in-fec-tion for a pos-i-
-tive re-sult through the kit would be [][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.51726pt too wide) in paragraph at lines 576--578
-\OT1/txr/m/n/12 value of ac-cel-er-a-tion due to grav-ity ($\OML/txmi/m/it/12 g
-$\OT1/txr/m/n/12 ) as 9.81 m/s$[]$ is [][][][][][][][][] $[]$. 
- []
-
-
-Overfull \hbox (11.11676pt too wide) in paragraph at lines 582--584
-[]\OT1/txr/m/n/12 The value of $[] [][] [][] \OML/txmi/m/it/12 x dx$ \OT1/txr/m
-/n/12 is [][][][][][][][] $[]$.  $[]$  
- []
-
-
-Overfull \hbox (66.24126pt too wide) in paragraph at lines 585--587
-[]\OT1/txr/m/n/12 An S-hydrograph was pre-pared for a catch-ment of 240 km$[]$ 
-us-ing 3-hour unit hy-dro-graph $[]$. 
- []
-
-
-Overfull \hbox (99.68501pt too wide) in paragraph at lines 585--587
-\OT1/txr/m/n/12 The equi-lib-rium dis-charge for the S-hydrograph would be [][]
-[][][][][][] $[]$. 
- []
-
-
-
-[11]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 597.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
-Overfull \hbox (57.44485pt too wide) in paragraph at lines 600--602
-\OT1/txr/m/n/12 con-di-tions within the sed-i-men-ta-tion tank. The es-ti-mated
- di-am-e-ter of the metal par-ti-cles is [][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 6
-10.
+LaTeX Font Info:    Trying to load font information for OMS+txr on input line 5
+08.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 610.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 508.
 
+
+[11]
 
 [12]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 634.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
 
 [13]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 688.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
 
 [14]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 752.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
+Overfull \hbox (32.96065pt too wide) in paragraph at lines 657--667
+[][] 
+ []
+
+
+Overfull \hbox (32.96065pt too wide) in paragraph at lines 671--681
+[][] 
+ []
+
 
 
 [15]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 792.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
-Overfull \hbox (32.96065pt too wide) in paragraph at lines 799--809
-[][]  
- []
-
-
-Overfull \hbox (32.96065pt too wide) in paragraph at lines 813--823
-[][]  
- []
-
-
-Overfull \hbox (197.09108pt too wide) in paragraph at lines 840--841
-\OT1/txr/m/n/12 value as $0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 0821 []$, the con
--cen-tra-tion of gas A in wa-ter at $25[]$C is $[]$ $[]$. 
- []
-
-
-
-[16]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 851.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-<figs/img 4.jpeg, id=349, 342.27875pt x 254.9525pt>
+<figs/img 4.jpeg, id=344, 342.27875pt x 254.9525pt>
 File: figs/img 4.jpeg Graphic file (type jpg)
 <use figs/img 4.jpeg>
-Package pdftex.def Info: figs/img 4.jpeg  used on input line 857.
+Package pdftex.def Info: figs/img 4.jpeg  used on input line 705.
 (pdftex.def)             Requested size: 309.60315pt x 230.62996pt.
 
-Overfull \hbox (4.8987pt too wide) in paragraph at lines 862--863
-\OT1/txr/m/n/12 canal sec-tion is $2$ (1 ver-ti-cal: 2 hor-i-zon-tal) then the 
-cor-re-spond-ing depth of flow will be $[]$ 
- []
 
-
-
-[17 <./figs/img 4.jpeg>]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 873.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-<figs/img 5 (2).jpeg, id=356, 408.52625pt x 313.17pt>
+[16 <./figs/img 4.jpeg>]
+<figs/img 5 (2).jpeg, id=351, 408.52625pt x 313.17pt>
 File: figs/img 5 (2).jpeg Graphic file (type jpg)
 <use figs/img 5 (2).jpeg>
-Package pdftex.def Info: figs/img 5 (2).jpeg  used on input line 879.
+Package pdftex.def Info: figs/img 5 (2).jpeg  used on input line 717.
 (pdftex.def)             Requested size: 309.60315pt x 237.34743pt.
 
-Overfull \hbox (5.32964pt too wide) in paragraph at lines 884--885
-\OT1/txr/m/n/12 of $3\OML/txmi/m/it/12 :\OT1/txr/m/n/12 5 []$ is ob-served at a
- dis-tance of $75 []$ from the well then the draw-down at a dis-tance of $150 [
-]$ 
+
+[17 <./figs/img 5 (2).jpeg>]
+Overfull \hbox (56.48782pt too wide) in paragraph at lines 736--738
+[]\OT1/txr/m/n/12 A pipeline is de-signed to de-liver 20 L/s of an oil $[]$
  []
 
 
-
-[18 <./figs/img 5 (2).jpeg>]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 895.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
-Overfull \hbox (17.24664pt too wide) in paragraph at lines 901--904
-\OT1/txr/m/n/12 ob-served yield is $[]$ $[]$.  $[]$  
- []
-
-
-Overfull \hbox (72.33063pt too wide) in paragraph at lines 908--910
-[]\OT1/txr/m/n/12 A pipeline is de-signed to de-liver 20 L/s of an oil $[]$ 
- []
-
-
-Overfull \hbox (163.59904pt too wide) in paragraph at lines 908--910
+Overfull \hbox (143.4373pt too wide) in paragraph at lines 736--738
 \OT1/txr/m/n/12 un-der the lam-i-nar flow con-di-tion. The min-i-mum di-am-e-te
-r of the pipe will be $[]$ $[]$. 
+r of the pipe will be $[]$ $[]$.
  []
 
 
 
-[19]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 928.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-<figs/img 6 (2).jpeg, id=375, 398.48875pt x 330.23375pt>
+[18]
+<figs/img 6 (2).jpeg, id=369, 398.48875pt x 330.23375pt>
 File: figs/img 6 (2).jpeg Graphic file (type jpg)
 <use figs/img 6 (2).jpeg>
-Package pdftex.def Info: figs/img 6 (2).jpeg  used on input line 934.
+Package pdftex.def Info: figs/img 6 (2).jpeg  used on input line 752.
 (pdftex.def)             Requested size: 258.0pt x 213.81795pt.
 
-Overfull \hbox (99.66293pt too wide) in paragraph at lines 953--955
-\OT1/txr/m/n/12 dis-tance of 2 km $[]$ from the stack is $[]$ $[]$. 
+Overfull \hbox (71.25769pt too wide) in paragraph at lines 771--773
+\OT1/txr/m/n/12 tance of 2 km $[]$ from the stack is $[]$ $[]$.
  []
 
 
 
-[20 <./figs/img 6 (2).jpeg>]
-File: figs/latex.jpg Graphic file (type jpg)
-<use figs/latex.jpg>
-Package pdftex.def Info: figs/latex.jpg  used on input line 965.
-(pdftex.def)             Requested size: 516.0pt x 71.66954pt.
-
-Overfull \hbox (8.00659pt too wide) in paragraph at lines 985--987
-\OT1/txr/m/n/12 max-i-mum CO$[]$ emit-ted is $[]$ $[]$.  $[]$  
- []
-
-
-Overfull \hbox (102.43492pt too wide) in paragraph at lines 991--993
-\OT1/txr/m/n/12 aer-a-tion tank to sat-isfy the per-mis-si-ble limit of VOC at 
-25$[]$C is $[]$ $[]$. 
+[19 <./figs/img 6 (2).jpeg>]
+Overfull \hbox (6.77858pt too wide) in paragraph at lines 799--801
+\OT1/txr/m/n/12 sat-isfy the per-mis-si-ble limit of VOC at 25$[]$C is $[]$ $[]
+$.
  []
 
 
 
-[21] (./main.aux)
+[20] (./main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1969,13 +1839,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 48495 strings out of 467801
- 1150283 string characters out of 5417842
- 1774000 words of memory out of 5000000
- 76121 multiletter control sequences out of 15000+600000
- 694567 words of font info for 181 fonts, out of 8000000 for 9000
+ 48483 strings out of 467801
+ 1150025 string characters out of 5417842
+ 1773000 words of memory out of 5000000
+ 76110 multiletter control sequences out of 15000+600000
+ 692673 words of font info for 178 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,11n,103p,1172b,731s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,11n,103p,1167b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtxi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf
 -dist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/sha
@@ -1988,10 +1858,10 @@ hare/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.t
 ermux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 291503 bytes).
+Output written on main.pdf (20 pages, 280509 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 441 compressed objects within 5 object streams
- 298 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 438 compressed objects within 5 object streams
+ 297 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
