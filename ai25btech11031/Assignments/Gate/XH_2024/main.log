@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  14 AUG 2025 11:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  15 AUG 2025 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -687,7 +687,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 35.
+ [1
 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
@@ -697,25 +699,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
-<Figures/asg1 fig1.png, id=4, 874.01532pt x 545.03625pt>
+<Figures/asg1 fig1.png, id=48, 874.01532pt x 545.03625pt>
 File: Figures/asg1 fig1.png Graphic file (type png)
 <use Figures/asg1 fig1.png>
 Package pdftex.def Info: Figures/asg1 fig1.png  used on input line 122.
-(pdftex.def)             Requested size: 204.85672pt x 127.74255pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Figures/asg1 fig2.png, id=56, 280.04625pt x 271.0125pt>
+(pdftex.def)             Requested size: 307.2929pt x 191.63046pt.
+<Figures/asg1 fig2.png, id=50, 280.04625pt x 271.0125pt>
 File: Figures/asg1 fig2.png Graphic file (type png)
 <use Figures/asg1 fig2.png>
-Package pdftex.def Info: Figures/asg1 fig2.png  used on input line 139.
+Package pdftex.def Info: Figures/asg1 fig2.png  used on input line 140.
 (pdftex.def)             Requested size: 204.85672pt x 198.25513pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-54.
-
+56.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2
@@ -723,77 +718,84 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.174         \begin
+l.159         \begin
                     {enumerate}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.174         \begin
+l.159         \begin
                     {enumerate} <./Figures/asg1 fig1.png> <./Figures/asg1 fig2.
 png>] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 282--294
+Underfull \hbox (badness 10000) in paragraph at lines 285--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
-[4] [5] [6]
-<Figures/asg1 fig3.png, id=241, 999.735pt x 699.61375pt>
+[4] [5] [6] [7]
+<Figures/asg1 fig3.png, id=251, 999.735pt x 699.61375pt>
 File: Figures/asg1 fig3.png Graphic file (type png)
 <use Figures/asg1 fig3.png>
-Package pdftex.def Info: Figures/asg1 fig3.png  used on input line 563.
-(pdftex.def)             Requested size: 204.85672pt x 143.3577pt.
+Package pdftex.def Info: Figures/asg1 fig3.png  used on input line 569.
+(pdftex.def)             Requested size: 307.2929pt x 215.04189pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7
+[8
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.571         \item T
-                     he wage in the agricultural sector will be $W_1$] [8
+l.578         \item T
+                     he wage in the agricultural sector will be $W_1$]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.639 
-      
+l.646 
+       <./Figures/asg1 fig3.png>] [10
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.639 
-       <./Figures/asg1 fig3.png>] [9
+l.694 
+      ] [11
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.726 
-      ] [10
+l.751 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.771 \end{document}
-                    
+l.751 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.771 \end{document}
-                    
+l.751 
+      ] [12
 pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.771 \end{document}
+l.779 \end{document}
                     ] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -804,13 +806,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12609 strings out of 476091
- 200940 string characters out of 5794081
- 1878330 words of memory out of 5000000
- 32482 multiletter control sequences out of 15000+600000
+ 12614 strings out of 476091
+ 200984 string characters out of 5794081
+ 1876330 words of memory out of 5000000
+ 32485 multiletter control sequences out of 15000+600000
  552962 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,76p,901b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,76p,901b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
@@ -823,10 +825,10 @@ nts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb
 are/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (10 pages, 454766 bytes).
+Output written on main.pdf (12 pages, 456349 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
- 289 named destinations out of 1000 (max. 500000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 291 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
