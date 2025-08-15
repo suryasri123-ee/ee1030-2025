@@ -2,7 +2,7 @@
 \let\negthickspace\undefined
 \documentclass[journal]{IEEEtran}
 \usepackage[a5paper, margin=10mm, onecolumn]{geometry}
-
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
 \usepackage{tfrupee} % Include tfrupee package
 
 \setlength{\headheight}{1cm} % Set the height of the header box
@@ -25,7 +25,8 @@
 \usepackage[breaklinks=true]{hyperref}
 \usepackage{tkz-euclide}
 \usepackage{multicol}
-\usepackage{listings}                                        
+\usepackage{listings}
+% \usepackage{gvv}                                        
 \def\inputGnumericTable{}                                 
 \usepackage[latin1]{inputenc}                                
 \usepackage{color}                                            
@@ -1476,11 +1477,11 @@ and let $\lambda_1 \geq \lambda_2 \geq \lambda_3$ be the eigenvalues of $A$.
 
 \item The matrix $P$ such that   \hfill{\text{GATE MA 2007}}
 \[
-P^{-1} A P = \myvec{
+P^{-1} A P = \begin{bmatrix}
 \lambda_1 & 0 & 0 \\
 0 & \lambda_2 & 0 \\
 0 & 0 & \lambda_3
-}
+\end{bmatrix}
  \]
 is 
 \begin{multicols}{2}
@@ -1519,4 +1520,3 @@ is
 \end{enumerate}
 
 \end{document}
-
