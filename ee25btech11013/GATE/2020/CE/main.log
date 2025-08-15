@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  15 AUG 2025 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.3)  15 AUG 2025 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1828,33 +1828,6 @@ LaTeX Warning: Label `fig:placeholder' multiply defined.
 
 LaTeX Warning: Label `fig:placeholder' multiply defined.
 
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -2042,134 +2015,296 @@ Package hyperref Info: Link coloring OFF on input line 44.
 \openout5 = `main.out'.
 
 \c@lstlisting=\count415
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 66
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 67
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-6.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-6.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-6.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
+Underfull \hbox (badness 2753) in paragraph at lines 128--130
+\OT1/txr/m/n/10 Which of the fol-low-ing state-ments can be in-ferred from the 
+given text?
+ []
+
+
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
-
-[2]
-<figs/Q16.png, id=105, 216.81pt x 226.8475pt>
-File: figs/Q16.png Graphic file (type png)
-<use figs/Q16.png>
-Package pdftex.def Info: figs/Q16.png  used on input line 226.
-(pdftex.def)             Requested size: 218.5194pt x 228.64687pt.
+<figs/Q10.png, id=68, 478.78876pt x 320.19624pt>
+File: figs/Q10.png Graphic file (type png)
+<use figs/Q10.png>
+Package pdftex.def Info: figs/Q10.png  used on input line 175.
+(pdftex.def)             Requested size: 109.25969pt x 73.06705pt.
 
 
-[3 <./figs/Q16.png>]
+[2 <./figs/Q10.png>]
+<figs/Q15.png, id=96, 530.98375pt x 236.885pt>
+File: figs/Q15.png Graphic file (type png)
+<use figs/Q15.png>
+Package pdftex.def Info: figs/Q15.png  used on input line 254.
+(pdftex.def)             Requested size: 109.25969pt x 48.74246pt.
 
-[4]
-<figs/Q24.png, id=170, 376.40625pt x 235.88126pt>
+
+[3 <./figs/Q15.png>]
+<figs/Q16a.png, id=135, 287.0725pt x 117.43875pt>
+File: figs/Q16a.png Graphic file (type png)
+<use figs/Q16a.png>
+Package pdftex.def Info: figs/Q16a.png  used on input line 274.
+(pdftex.def)             Requested size: 109.25969pt x 44.69707pt.
+<figs/Q16b.png, id=136, 273.02pt x 117.43875pt>
+File: figs/Q16b.png Graphic file (type png)
+<use figs/Q16b.png>
+Package pdftex.def Info: figs/Q16b.png  used on input line 275.
+(pdftex.def)             Requested size: 109.25969pt x 46.99796pt.
+<figs/Q16c.png, id=137, 278.03876pt x 118.4425pt>
+File: figs/Q16c.png Graphic file (type png)
+<use figs/Q16c.png>
+Package pdftex.def Info: figs/Q16c.png  used on input line 276.
+(pdftex.def)             Requested size: 109.25969pt x 46.5448pt.
+<figs/Q16d.png, id=138, 273.02pt x 128.48pt>
+File: figs/Q16d.png Graphic file (type png)
+<use figs/Q16d.png>
+Package pdftex.def Info: figs/Q16d.png  used on input line 277.
+(pdftex.def)             Requested size: 109.25969pt x 51.41656pt.
+
+
+[4 <./figs/Q16a.png> <./figs/Q16b.png> <./figs/Q16c.png> <./figs/Q16d.png>]
+<figs/Q24.png, id=175, 323.2075pt x 265.99374pt>
 File: figs/Q24.png Graphic file (type png)
 <use figs/Q24.png>
-Package pdftex.def Info: figs/Q24.png  used on input line 319.
-(pdftex.def)             Requested size: 218.5194pt x 136.9408pt.
+Package pdftex.def Info: figs/Q24.png  used on input line 367.
+(pdftex.def)             Requested size: 109.25969pt x 89.91714pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
 
 
 [5 <./figs/Q24.png>]
-<figs/Q31.png, id=194, 353.32pt x 261.97874pt>
-File: figs/Q31.png Graphic file (type png)
-<use figs/Q31.png>
-Package pdftex.def Info: figs/Q31.png  used on input line 397.
-(pdftex.def)             Requested size: 218.5194pt x 162.02939pt.
+<figs/Q29.png, id=204, 409.53pt x 241.90375pt>
+File: figs/Q29.png Graphic file (type png)
+<use figs/Q29.png>
+Package pdftex.def Info: figs/Q29.png  used on input line 430.
+(pdftex.def)             Requested size: 109.25969pt x 64.53604pt.
 
 
-[6 <./figs/Q31.png>]
+[6 <./figs/Q29.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
+
+ []
+
+<figs/Q38.png, id=233, 361.35pt x 183.68625pt>
+File: figs/Q38.png Graphic file (type png)
+<use figs/Q38.png>
+Package pdftex.def Info: figs/Q38.png  used on input line 480.
+(pdftex.def)             Requested size: 109.25969pt x 55.54073pt.
+
 
 [7]
-<figs/Q39.png, id=259, 152.57pt x 152.57pt>
+<figs/Q39.png, id=256, 328.22626pt x 377.41pt>
 File: figs/Q39.png Graphic file (type png)
 <use figs/Q39.png>
-Package pdftex.def Info: figs/Q39.png  used on input line 496.
-(pdftex.def)             Requested size: 218.5194pt x 218.5273pt.
-<figs/Q41.png, id=260, 379.4175pt x 115.43124pt>
-File: figs/Q41.png Graphic file (type png)
-<use figs/Q41.png>
-Package pdftex.def Info: figs/Q41.png  used on input line 522.
-(pdftex.def)             Requested size: 109.25969pt x 33.23993pt.
-
-Underfull \vbox (badness 4686) has occurred while \output is active []
-
-
-
-[8 <./figs/Q39.png>]
-<figs/Q42.png, id=282, 445.665pt x 316.18124pt>
-File: figs/Q42.png Graphic file (type png)
-<use figs/Q42.png>
-Package pdftex.def Info: figs/Q42.png  used on input line 540.
-(pdftex.def)             Requested size: 109.25969pt x 77.51573pt.
-<figs/Q43.png, id=283, 377.41pt x 159.59625pt>
-File: figs/Q43.png Graphic file (type png)
-<use figs/Q43.png>
-Package pdftex.def Info: figs/Q43.png  used on input line 561.
-(pdftex.def)             Requested size: 109.25969pt x 46.20135pt.
-
-
-[9 <./figs/Q41.png> <./figs/Q42.png> <./figs/Q43.png>]
-<figs/Q44.png, id=310, 206.7725pt x 387.4475pt>
-File: figs/Q44.png Graphic file (type png)
-<use figs/Q44.png>
-Package pdftex.def Info: figs/Q44.png  used on input line 579.
-(pdftex.def)             Requested size: 218.5194pt x 409.46861pt.
-
-
-[10 <./figs/Q44.png>]
-<figs/Q48.png, id=317, 173.64874pt x 228.855pt>
-File: figs/Q48.png Graphic file (type png)
-<use figs/Q48.png>
-Package pdftex.def Info: figs/Q48.png  used on input line 621.
-(pdftex.def)             Requested size: 218.5194pt x 288.00262pt.
+Package pdftex.def Info: figs/Q39.png  used on input line 500.
+(pdftex.def)             Requested size: 109.25969pt x 125.6341pt.
+<figs/Q40.png, id=257, 238.8925pt x 171.64125pt>
+File: figs/Q40.png Graphic file (type png)
+<use figs/Q40.png>
+Package pdftex.def Info: figs/Q40.png  used on input line 520.
+(pdftex.def)             Requested size: 109.25969pt x 78.5002pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[11]
-<figs/Q49.png, id=338, 503.8825pt x 73.27374pt>
-File: figs/Q49.png Graphic file (type png)
-<use figs/Q49.png>
-Package pdftex.def Info: figs/Q49.png  used on input line 637.
-(pdftex.def)             Requested size: 218.5194pt x 31.77654pt.
+[8 <./figs/Q38.png> <./figs/Q39.png>]
+<figs/Q41a.png, id=277, 383.4325pt x 124.465pt>
+File: figs/Q41a.png Graphic file (type png)
+<use figs/Q41a.png>
+Package pdftex.def Info: figs/Q41a.png  used on input line 540.
+(pdftex.def)             Requested size: 109.25969pt x 35.46529pt.
+<figs/Q41b.png, id=278, 389.455pt x 118.4425pt>
+File: figs/Q41b.png Graphic file (type png)
+<use figs/Q41b.png>
+Package pdftex.def Info: figs/Q41b.png  used on input line 541.
+(pdftex.def)             Requested size: 109.25969pt x 33.22691pt.
+<figs/Q41c.png, id=279, 383.4325pt x 112.42pt>
+File: figs/Q41c.png Graphic file (type png)
+<use figs/Q41c.png>
+Package pdftex.def Info: figs/Q41c.png  used on input line 542.
+(pdftex.def)             Requested size: 109.25969pt x 32.03316pt.
+<figs/Q41d.png, id=280, 379.4175pt x 120.45pt>
+File: figs/Q41d.png Graphic file (type png)
+<use figs/Q41d.png>
+Package pdftex.def Info: figs/Q41d.png  used on input line 543.
+(pdftex.def)             Requested size: 109.25969pt x 34.68515pt.
+<figs/Q42.png, id=281, 304.13625pt x 205.76875pt>
+File: figs/Q42.png Graphic file (type png)
+<use figs/Q42.png>
+Package pdftex.def Info: figs/Q42.png  used on input line 551.
+(pdftex.def)             Requested size: 109.25969pt x 73.9197pt.
 
-Underfull \hbox (badness 6978) in paragraph at lines 642--643
-[]\OT1/txr/m/n/10 The ex-pected com-ple-tion time (in days) of the project is [
-][][][][][]
+
+[9 <./figs/Q40.png> <./figs/Q41a.png> <./figs/Q41b.png> <./figs/Q41c.png> <./fi
+gs/Q41d.png> <./figs/Q42.png>]
+<figs/Q43a.png, id=308, 433.62pt x 105.39375pt>
+File: figs/Q43a.png Graphic file (type png)
+<use figs/Q43a.png>
+Package pdftex.def Info: figs/Q43a.png  used on input line 567.
+(pdftex.def)             Requested size: 109.25969pt x 26.55582pt.
+<figs/Q43b.png, id=309, 486.81876pt x 102.3825pt>
+File: figs/Q43b.png Graphic file (type png)
+<use figs/Q43b.png>
+Package pdftex.def Info: figs/Q43b.png  used on input line 568.
+(pdftex.def)             Requested size: 109.25969pt x 22.97726pt.
+<figs/Q43c.png, id=310, 454.69875pt x 96.36pt>
+File: figs/Q43c.png Graphic file (type png)
+<use figs/Q43c.png>
+Package pdftex.def Info: figs/Q43c.png  used on input line 569.
+(pdftex.def)             Requested size: 109.25969pt x 23.15332pt.
+<figs/Q43d.png, id=311, 434.62375pt x 104.39pt>
+File: figs/Q43d.png Graphic file (type png)
+<use figs/Q43d.png>
+Package pdftex.def Info: figs/Q43d.png  used on input line 570.
+(pdftex.def)             Requested size: 109.25969pt x 26.24237pt.
+<figs/Q44.png, id=312, 419.5675pt x 174.6525pt>
+File: figs/Q44.png Graphic file (type png)
+<use figs/Q44.png>
+Package pdftex.def Info: figs/Q44.png  used on input line 577.
+(pdftex.def)             Requested size: 109.25969pt x 45.48053pt.
+ (./tables/table1.tex)
+<figs/Q45.png, id=313, 461.725pt x 210.7875pt>
+File: figs/Q45.png Graphic file (type png)
+<use figs/Q45.png>
+Package pdftex.def Info: figs/Q45.png  used on input line 596.
+(pdftex.def)             Requested size: 109.25969pt x 49.87921pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[10 <./figs/Q43a.png> <./figs/Q43b.png> <./figs/Q43c.png> <./figs/Q43d.png> <./
+figs/Q44.png> <./figs/Q45.png>] (./tables/table2.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
+[]\OT1/txr/m/n/10 The value of $\OML/txmi/m/it/10 x[]$ $[]$\OT1/txr/m/n/10 , is
+ $[]$.
+ []
+
+<figs/Q51.png, id=362, 280.04625pt x 264.99pt>
+File: figs/Q51.png Graphic file (type png)
+<use figs/Q51.png>
+Package pdftex.def Info: figs/Q51.png  used on input line 656.
+(pdftex.def)             Requested size: 109.25969pt x 103.38611pt.
+
+Underfull \hbox (badness 4144) in paragraph at lines 661--662
+[]\OT1/txr/m/n/10 The mag-ni-tude of the load $\OML/txmi/m/it/10 W$ $[]$\OT1/tx
+r/m/n/10 , is
+ []
+
+<figs/Q52.png, id=363, 312.16624pt x 217.81375pt>
+File: figs/Q52.png Graphic file (type png)
+<use figs/Q52.png>
+Package pdftex.def Info: figs/Q52.png  used on input line 667.
+(pdftex.def)             Requested size: 109.25969pt x 76.23595pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[12 <./figs/Q51.png> <./figs/Q52.png>]
+<figs/Q53.png, id=375, 229.85875pt x 227.85126pt>
+File: figs/Q53.png Graphic file (type png)
+<use figs/Q53.png>
+Package pdftex.def Info: figs/Q53.png  used on input line 678.
+(pdftex.def)             Requested size: 109.25969pt x 108.30695pt.
+<figs/Q57.png, id=376, 291.0875pt x 248.93pt>
+File: figs/Q57.png Graphic file (type png)
+<use figs/Q57.png>
+Package pdftex.def Info: figs/Q57.png  used on input line 695.
+(pdftex.def)             Requested size: 109.25969pt x 93.43587pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[13 <./figs/Q53.png>]
+<figs/Q58.png, id=389, 300.12125pt x 214.8025pt>
+File: figs/Q58.png Graphic file (type png)
+<use figs/Q58.png>
+Package pdftex.def Info: figs/Q58.png  used on input line 707.
+(pdftex.def)             Requested size: 109.25969pt x 78.1974pt.
+<figs/Q59.png, id=390, 487.8225pt x 270.00874pt>
+File: figs/Q59.png Graphic file (type png)
+<use figs/Q59.png>
+Package pdftex.def Info: figs/Q59.png  used on input line 719.
+(pdftex.def)             Requested size: 109.25969pt x 60.4733pt.
+
+Underfull \hbox (badness 3364) in paragraph at lines 724--725
+[]\OT1/txr/m/n/10 Considering head loss only due to fric-tion (with fric-tion f
+ac-tor of $0\OML/txmi/m/it/10 :\OT1/txr/m/n/10 03$
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 724--725
+\OT1/txr/m/n/10 for all the pipes), the height of wa-ter level in the low-er-mo
+st reser-
  []
 
 
@@ -2177,74 +2312,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[12 <./figs/Q48.png> <./figs/Q49.png>]
-<figs/Q51.png, id=353, 283.0575pt x 219.82124pt>
-File: figs/Q51.png Graphic file (type png)
-<use figs/Q51.png>
-Package pdftex.def Info: figs/Q51.png  used on input line 650.
-(pdftex.def)             Requested size: 218.5194pt x 169.70563pt.
- (./tables/table1.tex)
-File: figs/Q16.png Graphic file (type png)
-<use figs/Q16.png>
-Package pdftex.def Info: figs/Q16.png  used on input line 667.
-(pdftex.def)             Requested size: 218.5194pt x 228.64687pt.
+[14 <./figs/Q57.png> <./figs/Q58.png> <./figs/Q59.png>]
+Underfull \hbox (badness 1442) in paragraph at lines 731--732
+\OT1/txr/m/n/10 pres-sure and tem-per-a-ture $293 \OML/txmi/m/it/10 K$\OT1/txr/
+m/n/10 . The uni-ver-sal gas con-stant $\OML/txmi/m/it/10 R$ \OT1/txr/m/n/10 is
+ $82\OML/txmi/m/it/10 :\OT1/txr/m/n/10 05 \OMS/txsy/m/n/10 ^^B
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./tables/table3.tex)
 
-
-
-[13 <./figs/Q51.png>]
-<figs/Q53.png, id=367, 207.77625pt x 309.155pt>
-File: figs/Q53.png Graphic file (type png)
-<use figs/Q53.png>
-Package pdftex.def Info: figs/Q53.png  used on input line 680.
-(pdftex.def)             Requested size: 218.5194pt x 325.15538pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[14]
-<figs/Q55.png, id=375, 266.9975pt x 151.56625pt>
-File: figs/Q55.png Graphic file (type png)
-<use figs/Q55.png>
-Package pdftex.def Info: figs/Q55.png  used on input line 691.
-(pdftex.def)             Requested size: 218.5194pt x 124.05153pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[15 <./figs/Q53.png>]
-<figs/Q56.png, id=384, 326.21875pt x 147.55125pt>
-File: figs/Q56.png Graphic file (type png)
-<use figs/Q56.png>
-Package pdftex.def Info: figs/Q56.png  used on input line 700.
-(pdftex.def)             Requested size: 218.5194pt x 98.84079pt.
-<figs/Q58.png, id=385, 196.735pt x 251.94125pt>
-File: figs/Q58.png Graphic file (type png)
-<use figs/Q58.png>
-Package pdftex.def Info: figs/Q58.png  used on input line 728.
-(pdftex.def)             Requested size: 218.5194pt x 279.83878pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[16 <./figs/Q55.png> <./figs/Q56.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[17 <./figs/Q58.png>]
-<figs/Q65.png, id=416, 364.36125pt x 113.42375pt>
-File: figs/Q65.png Graphic file (type png)
-<use figs/Q65.png>
-Package pdftex.def Info: figs/Q65.png  used on input line 755.
-(pdftex.def)             Requested size: 218.5194pt x 68.0236pt.
-
-
-[18 <./figs/Q65.png>] (./main.aux)
+[15] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -2257,25 +2334,27 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 55578 strings out of 473190
- 1316347 string characters out of 5715801
- 1914600 words of memory out of 5000000
- 77691 multiletter control sequences out of 15000+600000
- 627299 words of font info for 175 fonts, out of 8000000 for 9000
+ 55650 strings out of 473190
+ 1318168 string characters out of 5715801
+ 1915606 words of memory out of 5000000
+ 77789 multiletter control sequences out of 15000+600000
+ 626977 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,16n,109p,1194b,1360s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
-/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
-e/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2025/
-texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2025/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 601551 bytes).
+ 109i,14n,109p,1194b,1356s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/
+2025/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2025/texmf-dis
+t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on main.pdf (15 pages, 2295107 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 298 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 516 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 266 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
