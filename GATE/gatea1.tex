@@ -8,8 +8,8 @@
 \setlength{\headheight}{1cm} % Set the height of the header box
 \setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
 
-%\usepackage{gvv-book}
-%\usepackage{gvv}
+\usepackage{gvv-book}
+\usepackage{gvv}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
 \usepackage{algorithmic}
@@ -25,8 +25,7 @@
 \usepackage[breaklinks=true]{hyperref}
 \usepackage{tkz-euclide}
 \usepackage{multicol}
-\usepackage{listings}
-% \usepackage{gvv}                                        
+\usepackage{listings}                                       
 \def\inputGnumericTable{}                                 
 \usepackage[latin1]{inputenc}                                
 \usepackage{color}                                            
@@ -72,7 +71,11 @@
 \begin{enumerate}
    
 
-\item Consider $\mathbb{R}^2$ with the usual topology. Let $S = \{(x, y) \in \mathbb{R}^2 : x \text{ is an integer} \}$. Then $S$ is  
+\item Consider $\mathbb{R}^2$ with the usual topology. Let 
+\begin{align*}
+  S = \{(x, y) \in \mathbb{R}^2 : x \text{ is an integer} \}  
+\end{align*}
+ Then $S$ is  
 
 \hfill{\text{GATE MA 2007}}
 \begin{enumerate} 
@@ -84,9 +87,9 @@
 
 
 \item Suppose $X = \{ \alpha, \beta, \delta \}$. Let
-\[
+\begin{align*}
 \mathcal{T}_1 = \{\emptyset, X, \{\alpha\}, \{\alpha, \beta\} \} \quad \text{and} \quad \mathcal{T}_2 = \{\emptyset, X, \{\alpha\}, \{\beta, \delta\} \}.
-\]
+\end{align*}
 Then
 \hfill{\text{GATE MA 2007}}
 \begin{enumerate}
@@ -97,17 +100,17 @@ Then
 \end{enumerate}
 
 \item For a positive integer $n$, let $f_n : \mathbb{R} \to \mathbb{R}$ be defined by
-\[
+
+\begin{align*}
 f_n(x) = 
 \begin{cases}
 \frac{1}{4n + 5} & \text{if } 0 \leq x \leq n, \\
 0 & \text{otherwise}.
 \end{cases}
-\]
+\end{align*}
 
 Then $\{f_n(x)\}$ converges to zero
 \hfill{\text{GATE MA 2007}}
-
 \begin{enumerate}
     \item uniformly but NOT in $L^1$ norm
     \item uniformly and also in $L^1$ norm
@@ -115,8 +118,10 @@ Then $\{f_n(x)\}$ converges to zero
     \item in $L^1$ norm but NOT pointwise
 \end{enumerate}
 
+
 \item Let $P_1$ and $P_2$ be two projection operators on a vector space. \\ 
-Then           \hfill{\text{GATE MA 2007}}
+Then 
+\hfill{\text{GATE MA 2007}}
 \begin{enumerate}
     \item $P_1 + P_2$ is a projection if $P_1 P_2 = P_2 P_1 = 0$
     \item $P_1 - P_2$ is a projection if $P_1 P_2 = P_2 P_1 = 0$
@@ -127,11 +132,11 @@ Then           \hfill{\text{GATE MA 2007}}
 
 
 \item Consider the system of linear equations         \hfill{\text{GATE MA 2007}}
-\begin{align}
+\begin{align*}
 x + y + z &= 3 ,\\ 
 x - y - z &= 4 , \\
 -5y + kz &= 6
-\end{align}
+\end{align*}
 
 Then the value of $k$ for which this system has an infinite number of solutions is
 
@@ -164,7 +169,11 @@ and let $V = \{(x, y, z) \in \mathbb{R}^3 : \det(A) = 0\}$. Then the dimension o
 
 
  
-\item Let $S = \{0\} \cup \left\{ \frac{1}{4n + 7} : n = 1, 2, \ldots \right\}$. Then the number of analytic functions which vanish only on $S$ is:    \hfill{\text{GATE MA 2007}}
+\item Let  \hfill{\text{GATE MA 2007}}
+\begin{align*}
+ S = \{0\} \cup \left\{ \frac{1}{4n + 7} : n = 1, 2, \ldots \right\}   
+\end{align*} 
+Then the number of analytic functions which vanish only on $S$ is:   
 \begin{multicols}{4}
 \begin{enumerate}
     \item infinite
@@ -211,13 +220,14 @@ and let $V = \{(x, y, z) \in \mathbb{R}^3 : \det(A) = 0\}$. Then the dimension o
 
  
 \item Define $f : \mathbb{R}^2 \to \mathbb{R}$ by
-\[
+\begin{align*}
 f(x, y) =
 \begin{cases}
 1, & \text{if } xy = 0, \\
 2, & \text{otherwise}.
 \end{cases}
-\]
+\end{align*}
+
 If $S = \{(x, y) : f \text{ is continuous at the point } (x, y)\}$, then:
 \hfill{\text{GATE MA 2007}}
 
@@ -232,30 +242,31 @@ If $S = \{(x, y) : f \text{ is continuous at the point } (x, y)\}$, then:
 
 
 \item Consider the linear programming problem
-\[
-\begin{aligned}
+\begin{align*}
 & \text{Maximize } z = c_1 x_1 + c_2 x_2, \quad c_1, c_2 > 0, \\
 & \text{subject to} \\
 & x_1 + x_2 \le 3 \\
 & 2x_1 + 3x_2 \le 4 \\
 & x_i \ge 0
-\end{aligned}
-\]
+\end{align*}
 Then:
 \hfill{\text{GATE MA 2007}}
-
 \begin{enumerate}
-    
 \item  the primal has an optimal solution but the dual does NOT have an optimal solution
 \item  both the primal and the dual have optimal solutions
 \item the dual has an optimal solution but the primal does NOT have an optimal solution
 \item neither the primal nor the dual have optimal solutions
 \end{enumerate}
 
-\item Let $f(x) = x^{10} + x - 1$, $x \in \mathbb{R}$ and let $x_k = k$, $k=0,1,2,\dots,10$. Then the value of the divided difference
-\[
+
+\item Let 
+\begin{align*}
+  f(x) = x^{10} + x - 1, x \in \mathbb{R}  
+\end{align*}
+and let $x_k = k$, $k=0,1,2,\dots,10$. Then the value of the divided difference
+\begin{align*}
 f[x_0, x_1, x_2, \dots, x_{10}]
-\]
+\end{align*}
 is:
 \hfill{GATE MA 2007}
 \begin{multicols}{4}
@@ -269,12 +280,13 @@ is:
  
 
 \item  Let $X, Y$ be jointly distributed random variables having the joint probability density function
-\[
+\begin{align*}
 f(x,y) = \begin{cases}
 1, & \text{if } 0 < x + y < 1, \\
 0, & \text{otherwise.}
 \end{cases}
-\]
+\end{align*}
+
 Then $P(Y \ge \max(X, 1 - X))$ is
 \hfill{\text{GATE MA 2007}}
 
@@ -289,9 +301,9 @@ Then $P(Y \ge \max(X, 1 - X))$ is
 
 
 \item Let $X_1, X_2, \dots$ be a sequence of independent and identically distributed chi-square random variables, each having 4 degrees of freedom. Define
-\[
+\begin{align*}
 S_n = \sum_{i=1}^n X_i
-\]
+\end{align*}
 If $\frac{S_n}{n} \to \mu$ as $n \to \infty$, then $\mu$ =
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
@@ -305,7 +317,9 @@ If $\frac{S_n}{n} \to \mu$ as $n \to \infty$, then $\mu$ =
  
 
 
-\item  Let $\{E_n : n = 1, 2, \dots\}$ be a decreasing sequence of Lebesgue measurable sets on $\mathbb{R}$ and let $F$ be a Lebesgue measurable set on $\mathbb{R}$ such that $E_n \cap F = \emptyset$. Suppose that $F$ has Lebesgue measure 2 and the Lebesgue measure of $E_n$ equals $\dfrac{2n + 2}{3n + 1}$, $n = 1, 2, \dots$\\
+\item  Let $\{E_n : n = 1, 2, \dots\}$ be a decreasing sequence of Lebesgue measurable sets on $\mathbb{R}$ and let $F$ be a Lebesgue measurable set on $\mathbb{R}$ such that $E_n \cap F = \emptyset$. Suppose that $F$ has Lebesgue measure 2 and the Lebesgue measure of $E_n$ equals \begin{align*}
+    \dfrac{2n + 2}{3n + 1}, n = 1, 2, \dots
+\end{align*}
 
 Then the Lebesgue measure of the set $\left(\bigcap_{n=1}^{\infty} E_n\right) \cup F$ equals
 \hfill{\text{GATE MA 2007}}
@@ -320,11 +334,10 @@ Then the Lebesgue measure of the set $\left(\bigcap_{n=1}^{\infty} E_n\right) \c
 \end{multicols}
 
 
-
 \item The extremum for the variational problem
-\[
+\begin{align*}
 \int_0^{\frac{\pi}{8}} ((y')^2 + 2yy' - 16y^2) \, dx, \quad y(0) = 0, \; y\left(\frac{\pi}{8}\right) = 1,
-\]
+\end{align*}
 occurs for the curve
 \hfill{\text{GATE MA 2007}}
 
@@ -337,9 +350,9 @@ occurs for the curve
 
 
 \item Suppose $y_p(x) = x \cos(2x)$ is a particular solution of 
-\[
+\begin{align*}
 y'' + \alpha y = \sin(2x).
-\]
+\end{align*}
 Then the constant $\alpha$ equals \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
 \begin{enumerate}
@@ -362,7 +375,15 @@ Then the constant $\alpha$ equals \hfill{\text{GATE MA 2007}}
 \end{multicols}
  
 
-\item Let $S = \{(0,1,1), (1,0,1), (-1,2,1)\} \subseteq \mathbb{R}^3$. Suppose $\mathbb{R}^3$ is endowed with the standard inner product $\langle \cdot , \cdot \rangle$. Define $M = \{x \in \mathbb{R}^3 : \langle x, y \rangle = 0 \text{ for all } y \in S\}$. Then the dimension of $M$ equals \hfill{\text{GATE MA 2007}}
+\item Let
+\begin{align*}
+S = \{(0,1,1), (1,0,1), (-1,2,1)\} \subseteq \mathbb{R}^3.
+\end{align*}
+Suppose $\mathbb{R}^3$ is endowed with the standard inner product . Define 
+\begin{align*}
+M = \{x \in \mathbb{R}^3 : \langle x, y \rangle = 0 \text{ for all } y \in S\}
+\end{align*}
+Then the dimension of $M$ equals \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
 \begin{enumerate}
     \item $0$
@@ -373,18 +394,17 @@ Then the constant $\alpha$ equals \hfill{\text{GATE MA 2007}}
 \end{multicols}
 
 
-
+\newpage
 \begin{center}
     \textbf{Q.21-Q.75 carry one mark each.}
 \end{center}
 \vspace{1em}
 
 \item Let $X$ be an uncountable set and let
-\[
+\begin{align*}
 \tau = \{U \subseteq X : X \setminus U \text{ is countable or } X \setminus U \text{ is finite} \}.
-\]
+\end{align*}
 Then the topological space $(X, \tau)$        \hfill{\text{GATE MA 2007}}
-
 \begin{enumerate}
     \item is separable
     \item is Hausdorff
@@ -405,9 +425,9 @@ Then the topological space $(X, \tau)$        \hfill{\text{GATE MA 2007}}
 
 
 \item Let $(X, d)$ be a metric space. Consider the metric $\rho$ on $X$ defined by
-\[
+\begin{align*}
 \rho(x,y) = \min(d(x,y), 1), \quad x,y \in X.
-\]
+\end{align*}
 Suppose $\tau$ and $\tau_1$ are topologies on $X$ defined by $d$ and $\rho$ respectively. Then
 \hfill{\text{GATE MA 2007}}
 
@@ -420,7 +440,11 @@ Suppose $\tau$ and $\tau_1$ are topologies on $X$ defined by $d$ and $\rho$ resp
 
 
 
-\item A basis of the vector space $W = \{(x,y,z,w) \in \mathbb{R}^4 : x + y + z = 0, y + z + w = 0, 2x + y - z + w = 0\}$ is  \hfill{\text{GATE MA 2007}}
+\item A basis of the vector space 
+\begin{align*}
+W = \{(x,y,z,w) \in \mathbb{R}^4 : x + y + z = 0, y + z + w = 0, 2x + y - z + w = 0\}
+\end{align*}
+is  \hfill{\text{GATE MA 2007}}
 \begin{enumerate}
     \item $\{(1,1,1,1), (2,1,1,1)\}$
     \item $\{(1,-1,0,1), (0,1,-1,0)\}$
@@ -429,13 +453,13 @@ Suppose $\tau$ and $\tau_1$ are topologies on $X$ defined by $d$ and $\rho$ resp
 \end{enumerate}
 
 
-\item Consider $\mathbb{R}^3$ with the standard inner product. Let\\
-\[
-S = \{(1,1,1), (2,-1,2), (-1,2,1)\}.
-\]
-For a subset $W$ of $\mathbb{R}^3$, let $L(W)$ denote the linear span of $W$ in $\mathbb{R}^3$. Then an orthonormal set $T$ with $L(S) = L(T)$ is  \hfill{\text{GATE MA 2007}}\\
+\item Consider $\mathbb{R}^3$ with the standard inner product. Let
+\begin{align*}
+ S = \{(1,1,1), (2,-1,2), (-1,2,1)\}   
+\end{align*}
 
-\begin{multicols}{2}
+For a subset $W$ of $\mathbb{R}^3$, let $L(W)$ denote the linear span of $W$ in $\mathbb{R}^3$. Then an orthonormal set $T$ with $L(S) = L(T)$ is  \hfill{\text{GATE MA 2007}}
+    \begin{multicols}{2}
     \begin{enumerate}
         \item $\left\{ \frac{1}{\sqrt{3}}(1,1,1), \frac{1}{\sqrt{6}}(1,0,-2), \frac{1}{\sqrt{2}}(1,-1,0) \right\}$ 
         \item $\{(0,0,0), (0,1,0), (0,0,1)\}$
@@ -458,10 +482,15 @@ For a subset $W$ of $\mathbb{R}^3$, let $L(W)$ denote the linear span of $W$ in 
 
 
 \item Let $T:\mathbb{R}^3 \rightarrow \mathbb{R}^3$ be a linear transformation defined by
-\[
+\begin{align*}
 T((x, y, z)) = (x + y - z, x + y + z, y - z).
-\]
-Then the matrix of the linear transformation $T$ with respect to the ordered basis $B = \{(0,1,0), (0,0,1), (1,0,0)\}$ of $\mathbb{R}^3$ is \hfill{\text{GATE MA 2007}}
+\end{align*}
+
+Then the matrix of the linear transformation $T$ with respect to the ordered basis
+\begin{align*}
+    B = \{(0,1,0), (0,0,1), (1,0,0)\} of \mathbb{R}^3
+\end{align*}
+is \hfill{\text{GATE MA 2007}}
 
 \begin{multicols}{2}
     \begin{enumerate}
@@ -474,9 +503,9 @@ Then the matrix of the linear transformation $T$ with respect to the ordered bas
 
 
 \item Let $Y(x) = (y_1(x), y_2(x))^T$ and let
-\[
-A = \begin{bmatrix} -3 & 1 \\ k & -1 \end{bmatrix}.
-\]
+\begin{align*}
+A = \myvec{ -3 & 1 \\ k & -1 }.
+\end{align*}
 Further, let $S$ be the set of values of $k$ for which all the solutions of the system of equations $Y'(x) = A Y(x)$ tend to zero as $x \rightarrow \infty$. 
 \\Then $S$ is given by      \hfill{\text{GATE MA 2007}}
 \begin{multicols}{2}
@@ -490,9 +519,9 @@ Further, let $S$ be the set of values of $k$ for which all the solutions of the 
 
 
 \item Let
-\[
+\begin{align*}
 u(x,y) = f(xe^y) + g(y^2 \cos y),
-\]
+\end{align*}
 where $f$ and $g$ are infinitely differentiable functions. Then the partial differential equation of minimum order satisfied by $u$ is 
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{2}
@@ -507,9 +536,9 @@ where $f$ and $g$ are infinitely differentiable functions. Then the partial diff
 
 \item Let $C$ be the boundary of the triangle formed by the points $(1,0,0)$, $(0,1,0)$, $(0,0,1)$.\\
 Then the value of the line integral    \hfill{\text{GATE MA 2007}}
-\[
+\begin{align*}
 \oint_C -2y\,dx + (3x - 4y^2)\,dy + (z^2 + 3y)\,dz
-\]
+\end{align*}
 is
 \begin{multicols}{4}
 \begin{enumerate}
@@ -544,9 +573,9 @@ Which one of the above statements does \textbf{NOT} imply all the other statemen
 
 
 \item Consider the series
-\[
+\begin{align*}
 \sum_{n=1}^{\infty} \frac{1}{n^2} \sin(nx).
-\]
+\end{align*}
 Then the series   \hfill{\text{GATE MA 2007}}
 
 \begin{enumerate}
@@ -559,9 +588,9 @@ Then the series   \hfill{\text{GATE MA 2007}}
 
 
 \item Let $f(z)$ be an analytic function. Then the value of  \hfill{\text{GATE MA 2007}}
-\[
+\begin{align*}
 \int_0^{2\pi} f(e^{it}) \cos(t)\,dt
-\]
+\end{align*}
 equals  
 \begin{multicols}{4}
 \begin{enumerate}
@@ -574,9 +603,9 @@ equals
 
 
 \item Let $G_1$ and $G_2$ be the images of the disc $\{ z \in \mathbb{C} : |z + 1| < 1 \}$ under the transformations
-\[
+\begin{align*}
 w = \frac{(1 - i)z + 2}{(1 + i)z + 2} \quad \text{and} \quad w = \frac{(1 + i)z + 2}{(1 - i)z + 2}
-\]
+\end{align*}
 respectively. Then     
 
 \begin{enumerate}
@@ -590,7 +619,11 @@ respectively. Then
 
 
 
-\item Let $f(z) = 2^z - 2^{-z}$. Then the maximum value of $|f(z)|$ on the unit disc $D = \{ z \in \mathbb{C} : |z| \leq 1 \}$ equals      \hfill{\text{GATE MA 2007}}
+\item Let $f(z) = 2^z - 2^{-z}$. Then the maximum value of $|f(z)|$ on the unit disc 
+\begin{align*}
+D = \{ z \in \mathbb{C} : |z| \leq 1 \}
+\end{align*}
+equals      \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
 \begin{enumerate}
     \item $1$
@@ -603,9 +636,9 @@ respectively. Then
 
 
 \item Let        \hfill{\text{GATE MA 2007}}
-\[
+\begin{align*}
 f(z) = \frac{1}{z^2 - 3z + 2}
-\]
+\end{align*}
 Then the coefficient of $\frac{1}{z}$ in the Laurent series expansion of $f(z)$ for $|z| > 2$ is  
 \begin{multicols}{4}
 \begin{enumerate}
@@ -620,21 +653,21 @@ Then the coefficient of $\frac{1}{z}$ in the Laurent series expansion of $f(z)$ 
 \item Let $f: \mathbb{C} \rightarrow \mathbb{C}$ be an arbitrary analytic function satisfying $f(0) = 0$ and $f(1) = 2$. Then  \hfill{\text{GATE MA 2007}}
 
 \begin{enumerate}
-\item  there exists a sequence $\{z_n\}$ such that $|z_n| > n$ and $|f(z_n)| > n$\\
-\item there exists a sequence $\{z_n\}$ such that $|z_n| > n$ and $|f(z_n)| < n$\\
-\item there exists a bounded sequence $\{z_n\}$ such that $|f(z_n)| > n$\\
+\item  there exists a sequence $\{z_n\}$ such that $|z_n| > n$ and $|f(z_n)| > n$
+\item there exists a sequence $\{z_n\}$ such that $|z_n| > n$ and $|f(z_n)| < n$
+\item there exists a bounded sequence $\{z_n\}$ such that $|f(z_n)| > n$
 \item there exists a sequence $\{z_n\}$ such that $z_n \rightarrow 0$ and $f(z_n) \rightarrow 2$
 \end{enumerate}
 
 
 \item Define $f : \mathbb{C} \rightarrow \mathbb{C}$ by
-\[
+\begin{align*}
 f(z) =
 \begin{cases}
 0, & \text{if } \text{Re}(z) = 0 \text{ or } \text{Im}(z) = 0,\\
 \frac{1}{z}, & \text{otherwise}.
 \end{cases}
-\]
+\end{align*}
 Then the set of points where $f$ is analytic is    
 \hfill{\text{GATE MA 2007}}
 
@@ -664,9 +697,9 @@ Then the set of points where $f$ is analytic is
 \item Let $\mathbb{R}[x]$ be the polynomial ring in $x$ with real coefficients and let $I = \langle x^2 + 1 \rangle$ be the ideal generated by the polynomial $x^2 + 1$ in $\mathbb{R}[x]$. Then        \hfill{\text{GATE MA 2007}}
 \begin{enumerate}
    
-\item $I$ is a maximal ideal\\
-\item  $I$ is a prime ideal but NOT a maximal ideal\\
-\item $I$ is NOT a prime ideal\\
+\item $I$ is a maximal ideal
+\item  $I$ is a prime ideal but NOT a maximal ideal
+\item $I$ is NOT a prime ideal
 \item  $\mathbb{R}[x]/I$ has zero divisors
 \end{enumerate}
 
@@ -687,9 +720,9 @@ Then the set of points where $f$ is analytic is
 
 
 \item Let $\mathbb{Q}$ be the field of rational numbers and consider $\mathbb{Z}_2$ as a field modulo 2. Let
-    \[
+    \begin{align*}
     f(x) = x^3 - 9x^2 + 9x + 3.
-    \]
+    \end{align*}
     Then $f(x)$ is
   \hfill{\text{GATE MA 2007}} 
 \begin{enumerate}   
@@ -703,9 +736,9 @@ Then the set of points where $f$ is analytic is
 
 
 \item Let $\mathbb{Q}$ be the field of rational numbers and consider $\mathbb{Z}_2$ as a field modulo 2. Let
-    \[
+    \begin{align*}
     f(x) = x^3 - 9x^2 + 9x + 3.
-    \]
+    \end{align*}
     Then $f(x)$ is
    \hfill{\text{GATE MA 2007}}  
     \begin{enumerate}
@@ -718,9 +751,10 @@ Then the set of points where $f$ is analytic is
  
 
 \item Consider $\mathbb{Z}_5$ as a field modulo 5 and let   \hfill{\text{GATE MA 2007}}  
-    \[
+   \begin{align*}
     f(x) = x^4 + 4x^3 + 4x^2 + 4x + 1.
-    \]
+    \end{align*}
+
     Then the zeros of $f(x)$ over $\mathbb{Z}_5$ are 1 and 3 with respective multiplicity
 \begin{multicols}{4}
 \begin{enumerate}
@@ -733,13 +767,14 @@ Then the set of points where $f$ is analytic is
     
  
 \item Consider the Hilbert space   \hfill{\text{GATE MA 2007}}  
-    \[
+    \begin{align*}
     \ell^2 = \left\{ x = \{x_n\};\ x_n \in \mathbb{R},\ \sum x_n^2 < \infty \right\}.
-    \]
+    \end{align*}
+
     Let
-    \[
+    \begin{align*}
     E = \left\{ x = \{x_n\} \mid |x_n| < \frac{1}{n} \text{ for all } n \right\}
-    \]
+    \end{align*}
     be a subset of $\ell^2$. Then
     
     \begin{enumerate}
@@ -753,9 +788,9 @@ Then the set of points where $f$ is analytic is
 
    
 \item Let $X$ be a normed linear space and let $E_1, E_2 \subseteq X$. Define
-    \[
+    \begin{align*}
     E_1 + E_2 = \{x + y : x \in E_1, y \in E_2\}.
-    \]
+    \end{align*}
     Then $E_1 + E_2$ is:      \hfill{\text{GATE MA 2007}}
    
     \begin{enumerate}
@@ -819,7 +854,7 @@ Then the set of points where $f$ is analytic is
     \end{multicols}
 
 
-\item The smallest degree of the polynomial that interpolates the data\\
+\item The smallest degree of the polynomial that interpolates the data
 
 \begin{table}[ht]
 \centering
@@ -860,9 +895,9 @@ $f(x)$  & $-58$ & $-21$ & $-12$ & $-13$ & $-6$ & $27$ \\
 
 
 \item Consider the quadrature formula:
-    \[
+    \begin{align*}
     \int_{x_1}^{x_2} f(x)\, dx \approx \dfrac{1}{2} \left[f(x_1) + f(x_2)\right],
-    \]
+    \end{align*}
     where $x_1$ and $x_2$ are quadrature points. Then the highest degree of the polynomial for which the above formula is exact equals: 
     \hfill{\text{GATE MA 2007}}
    \begin{multicols}{4}
@@ -876,9 +911,9 @@ $f(x)$  & $-58$ & $-21$ & $-12$ & $-13$ & $-6$ & $27$ \\
      
 
 \item Let $A$, $B$ and $C$ be three events such that:
-    \[
+    \begin{align*}
     P(A) = 0.4,\quad P(B) = 0.5,\quad P(A \cup B) = 0.6,\quad P(C) = 0.6,\quad \text{and } P(A \cap B \cap C^c) = 0.1.
-    \]
+    \end{align*}
     Then $P(A \cap B \cap C) =$
     \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
@@ -904,14 +939,14 @@ $f(x)$  & $-58$ & $-21$ & $-12$ & $-13$ & $-6$ & $27$ \\
 
 
 \item Let $X_1, X_2, \ldots$ be a sequence of independent and identically distributed random variables with    
-\[
+\begin{align*}
 P(X_i = 1) = P(X_i = -1) = \frac{1}{2}.
-\]
+\end{align*}
 Suppose for the standard normal random variable $Z$, $P(-0.1 < Z \leq 0.1) = 0.08$. If $S_n = \sum_{i=1}^{n} X_i$, then
 
-\[
+\begin{align*}
 \lim P\left(\frac{S_n}{\sqrt{n}} > \frac{n}{10}\right) =
-\]
+\end{align*}
 \begin{multicols}{4}
 \begin{enumerate}
     \item 0.42
@@ -924,9 +959,9 @@ Suppose for the standard normal random variable $Z$, $P(-0.1 < Z \leq 0.1) = 0.0
 
 
 \item  Let $X_1, X_2, \ldots, X_5$ be a random sample of size 5 from a population having standard normal distribution. Let 
-\[ 
+\begin{align*}
 \bar{X} = \frac{1}{5} \sum_{i=1}^{5} X_i \quad \text{and} \quad T = \sum_{i=1}^{5} (X_i - \bar{X})^2.
-\]
+\end{align*}
 Then $E(T^2 \bar{X}^2) =$ \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
 \begin{enumerate}
@@ -952,9 +987,9 @@ Then $E(T^2 \bar{X}^2) =$ \hfill{\text{GATE MA 2007}}
 
 
 \item The value of 
-\[
+\begin{align*}
 \int_0^1 \int_y^1 x^2 e^{x^2} \, dx \, dy
-\]
+\end{align*}
 equals
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
@@ -969,9 +1004,9 @@ equals
 
 
 \item 
-\[
+\begin{align*}
 \lim_{n \to \infty} \left[ (n+1) \int_0^1 x^n \ln(1+x) \, dx \right] =
-\]
+\end{align*}
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
 \begin{enumerate}
@@ -985,13 +1020,13 @@ equals
 
 
 \item Consider the function $f \colon \mathbb{R} \to \mathbb{R}$ defined by
-\[
+\begin{align*}
 f(x) = 
 \begin{cases}
 x^4, & \text{if } x \text{ is rational}, \\
 2x^4 - 1, & \text{if } x \text{ is irrational}.
 \end{cases}
-\]
+\end{align*}
 Let $S$ be the set of points where $f$ is continuous. Then
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
@@ -1005,20 +1040,20 @@ Let $S$ be the set of points where $f$ is continuous. Then
 
 
 \item For a positive real number $p$, let $\{f_n: n=1,2,\dots\}$ be a sequence of functions defined on $[0,1]$ by
-\[
+\begin{align*}
 f_n(x) =
 \begin{cases}
 n^{p+1} x, & 0 \leq x \leq \frac{1}{n} \\
 \frac{1}{n^p}, & \frac{1}{n} < x \leq 1.
 \end{cases}
-\]
+\end{align*}
 Let $f(x) = \lim\limits_{n \to \infty} f_n(x),\ x \in [0,1]$. Then, on $[0,1]$,
 \hfill{\text{GATE MA 2007}}
 \begin{enumerate}
     
-\item $f$ is Riemann integrable \hspace{2cm}\\ 
-\item the improper integral $\int_0^1 f(x) dx$ converges for $p \geq 1$ \\
-\item the improper integral $\int_0^1 f(x) dx$ converges for $p < 1$ \hspace{2cm}\\
+\item $f$ is Riemann integrable \hspace{2cm}
+\item the improper integral $\int_0^1 f(x) dx$ converges for $p \geq 1$ 
+\item the improper integral $\int_0^1 f(x) dx$ converges for $p < 1$ \hspace{2cm}
 \item $f_n$ converges uniformly
 \end{enumerate}
 
@@ -1035,9 +1070,9 @@ Let $f(x) = \lim\limits_{n \to \infty} f_n(x),\ x \in [0,1]$. Then, on $[0,1]$,
 \end{multicols}
 
 \item Let $u(x,y)$ be the solution to the Cauchy problem
-\[
+\begin{align*}
 x u_x + u_y = 1, \quad u(x,0) = 2 \ln(x),\ x > 1.
-\]
+\end{align*}
 Then $u(e,1) =$
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
@@ -1052,14 +1087,14 @@ Then $u(e,1) =$
 
 
 \item Suppose
-\[
+\begin{align*}
 y(x) = \lambda \int_0^{2\pi} y(t) \sin(x + t)\, dt,\ x \in [0,2\pi]
-\]
+\end{align*}
 has eigenvalues $\lambda = \frac{1}{\pi}$ and $\lambda = -\frac{1}{\pi}$ with corresponding eigenfunctions \\
 $y_1(x) = \sin(x) + \cos(x)$ and $y_2(x) = \sin(x) - \cos(x)$, respectively. Then the integral equation
-\[
+\begin{align*}
 y(x) = f(x) + \frac{1}{\pi} \int_0^{2\pi} y(t) \sin(x + t)\, dt,\ x \in [0,2\pi]
-\]
+\end{align*}
 has a solution when $f(x) =$
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
@@ -1074,15 +1109,15 @@ has a solution when $f(x) =$
 
 
 \item Consider the Neumann problem
-\[
+\begin{align*}
 u_{xx} + u_{yy} = 0,\quad 0 < x < \pi,\ -1 < y < 1,
-\]
-\[
+\end{align*}
+\begin{align*}
 u_y(0, y) = u_y(\pi, y) = 0,
-\]
-\[
+\end{align*}
+\begin{align*}
 u_y(x, -1) = 0,\quad u_y(x, 1) = \alpha + \beta \sin(x).
-\]
+\end{align*}
 The problem admits solution for
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{2}
@@ -1096,9 +1131,9 @@ The problem admits solution for
 
 
 \item The functional
-\[
+\begin{align*}
 \int_0^1 (1+x)(y')^2 \, dx,\quad y(0) = 0,\ y(1) = 1,
-\]
+\end{align*}
 possesses
 \hfill{\text{GATE MA 2007}}
 
@@ -1111,9 +1146,9 @@ possesses
   
 
 \item The value of $\alpha$ for which the integral equation
-\[
+\begin{align*}
 u(x) = \alpha \int_0^1 e^{xt} u(t)\,dt,
-\]
+\end{align*}
 has a non-trivial solution is
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
@@ -1128,9 +1163,9 @@ has a non-trivial solution is
 
 
 \item Let $P_n(x)$ be the Legendre polynomial of degree $n$ and let
-\[
+\begin{align*}
 P_{n+1}(0) = -\frac{m}{m+1} P_{n-1}(0), \quad m = 1, 2, \ldots
-\]
+\end{align*}
 If $P_2(0) = -\dfrac{5}{16}$ then $\int_{-1}^1 \left[P_2^2(x)\right] dx =$
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{4}
@@ -1145,9 +1180,9 @@ If $P_2(0) = -\dfrac{5}{16}$ then $\int_{-1}^1 \left[P_2^2(x)\right] dx =$
 
 
 \item For which of the following pair of functions $y_1(x)$ and $y_2(x)$, continuous functions $p(x)$ and $q(x)$ can be determined on $[-1, 1]$ such that $y_1(x)$ and $y_2(x)$ give two linearly independent solutions of \hfill{\text{GATE MA 2007}}
-\[
+\begin{align*}
 y'' + p(x)y' + q(x)y = 0,\quad x \in [-1, 1].
-\]
+\end{align*}
 \begin{multicols}{2}
     \begin{enumerate}
         \item $y_1(x) = x \sin(x),\ y_2(x) = \cos(x)$
@@ -1161,9 +1196,9 @@ y'' + p(x)y' + q(x)y = 0,\quad x \in [-1, 1].
 
 
 \item Let $J_0(s)$ and $J_1(s)$ be the Bessel functions of the first kind of orders zero and one, respectively. If
-\[
+\begin{align*}
 \mathcal{L}(J_0)(s) = \frac{1}{\sqrt{s^2 + 1}},
-\]
+\end{align*}
 then $\mathcal{L}(J_1)(s) =$
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{2}
@@ -1184,13 +1219,13 @@ then $\mathcal{L}(J_1)(s) =$
 \textbf{Common Data for Questions 71, 72, 73:}
 
 Let $P[0,1] = \{p : p \text{ is a polynomial function on } [0,1]\}$. For $p \in P[0,1]$, define
-\[
+\begin{align*}
 \|p\| = \sup \{|p(x)| : 0 \leq x \leq 1\}.
-\]
+\end{align*}
 Consider the map $T : P[0,1] \rightarrow P[0,1]$ defined by
-\[
+\begin{align*}
 (Tp)(x) = \frac{d}{dx} \left(p(x)\right).
-\]
+\end{align*}
 Then $P[0,1]$ is a normed linear space and $T$ is a linear map. The map $T$ is said to be closed if the set $G = \{(p, Tp) : p \in P[0,1]\}$ is a closed subset of $P[0,1] \times P[0,1]$.
 
 \vspace{1em}
@@ -1236,6 +1271,7 @@ Then $P[0,1]$ is a normed linear space and $T$ is a linear map. The map $T$ is s
 \bigskip
 
 \textbf{Common Data for Questions 74, 75:}
+\bigskip
 
 Let $X$ and $Y$ be jointly distributed random variables such that the conditional distribution of $Y$, given $X = x$, is uniform on the interval $(x - 1, x + 1)$. Suppose $\mathbb{E}(X) = 1$ and $\text{Var}(X) = \dfrac{5}{3}$.
 
@@ -1251,7 +1287,7 @@ Let $X$ and $Y$ be jointly distributed random variables such that the conditiona
         \item 2
     \end{enumerate}
     \end{multicols}
-
+\newpage
 
 \item The variance of the random variable $Y$ is
 \hfill{\text{GATE MA 2007}}
@@ -1274,13 +1310,13 @@ Let $X$ and $Y$ be jointly distributed random variables such that the conditiona
 \textbf{Statement for Linked Answer Questions 76 \& 77:}  
 
 Suppose the equation  
-\[
+\begin{align*}
 x^2 y'' - x y' + (1 + x^2) y = 0
-\]
+\end{align*}
 has a solution of the form  
-\[
+\begin{align*}
 y = x^r \sum_{n=0}^{\infty} c_n x^n,\quad c_0 \neq 0.
-\]
+\end{align*}
 
 \item The indicial equation for $r$ is
 \hfill{\text{GATE MA 2007}}
@@ -1295,7 +1331,7 @@ y = x^r \sum_{n=0}^{\infty} c_n x^n,\quad c_0 \neq 0.
 
 
 
-\newpage
+
 \item For $n \geq 2$, the coefficients $c_n$ will satisfy the relation
 \hfill{\text{GATE MA 2007}}
 \begin{multicols}{2}
@@ -1336,15 +1372,15 @@ A particle of mass $m$ slides down without friction along a curve $z = 1 + \dfra
     
 \end{enumerate}
 
-\bigskip
+\newpage
 
 \textbf{Statement for Linked Answer Questions 80 \& 81:}
 
 Let $u(x,t)$ be the solution of the one dimensional wave equation
-\[
+\begin{align*}
 u_{tt} = 4u_{xx}, \quad -\infty < x < \infty,\ t > 0,
-\]
-\[
+\end{align*}
+\begin{align*}
 u(x,0) =
 \begin{cases}
 16 - x^2, & |x| \leq 4, \\
@@ -1356,7 +1392,7 @@ u_t(x,0) =
 1, & |x| \leq 2, \\
 0, & \text{otherwise}.
 \end{cases}
-\]
+\end{align*}
 
 \item For $1 < t < 3$, $u(2,t) =$   \hfill{\text{GATE MA 2007}}
 \begin{enumerate}
@@ -1376,18 +1412,18 @@ u_t(x,0) =
     \item does NOT exist
 \end{enumerate}
 
-\newpage
+\bigskip
 
 \textbf{Statement for Linked Answer Questions 82 \& 83:}
-
+\bigskip
 Suppose $E = \{(x, y): xy \ne 0\}$. Let $f: \mathbb{R}^2 \rightarrow \mathbb{R}$ be defined by  
-\[
+\begin{align*}
 f(x, y) =
 \begin{cases}
 0, & \text{if } xy = 0, \\
 y \sin\left(\frac{1}{x}\right) + x \sin\left(\frac{1}{y}\right), & \text{otherwise}.
 \end{cases}
-\]
+\end{align*}
 
 Let $S_1$ be the set of points in $\mathbb{R}^2$ where $f_x$ exists and $S_2$ be the set of points in $\mathbb{R}^2$ where $f_y$ exists. Also, let $E_1$ be the set of points where $f_x$ is continuous and $E_2$ be the set of points where $f_y$ is continuous.
 
@@ -1411,21 +1447,21 @@ Let $S_1$ be the set of points in $\mathbb{R}^2$ where $f_x$ exists and $S_2$ be
     \item $E_1 = S_2,\quad E_2 = S_2$
 \end{enumerate}
 
-\bigskip
+\newpage
 
 \textbf{Statement for Linked Answer Questions 84 \& 85:}
 
 Let
-\[
+\begin{align*}
 A = \myvec{
 3 & 0 & 0 \\
 0 & 6 & 2 \\
 0 & 2 & 6
 }
-\]
+\end{align*}
 and let $\lambda_1 \geq \lambda_2 \geq \lambda_3$ be the eigenvalues of $A$.
 
-\item The triple $(\lambda_1, \lambda_2, \lambda_3)$ equals    \hfill{\text{GATE MA 2007}}\\
+\item The triple $(\lambda_1, \lambda_2, \lambda_3)$ equals    \hfill{\text{GATE MA 2007}}
 \begin{multicols}{2}
     \begin{enumerate}
         \item $(9, 4, 2)$
@@ -1437,7 +1473,7 @@ and let $\lambda_1 \geq \lambda_2 \geq \lambda_3$ be the eigenvalues of $A$.
 
 
 
-\newpage
+
 \item The matrix $P$ such that   \hfill{\text{GATE MA 2007}}
 \[
 P^{-1} A P = \begin{bmatrix}
@@ -1445,7 +1481,7 @@ P^{-1} A P = \begin{bmatrix}
 0 & \lambda_2 & 0 \\
 0 & 0 & \lambda_3
 \end{bmatrix}
-\]
+ \]
 is 
 \begin{multicols}{2}
     \begin{enumerate}
