@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.13)  14 AUG 2025 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.13)  15 AUG 2025 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1381,47 +1381,46 @@ Package hyperref Info: Link coloring OFF on input line 50.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 7
-8.
 
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
-8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 7
-8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 7
-8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 7
-8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
-8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
+25.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
+25.
 
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
+25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
+25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
+25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
+25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+)
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -1438,7 +1437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--189
 File: figs/graph.jpeg Graphic file (type jpg)
 <use figs/graph.jpeg>
 Package pdftex.def Info: figs/graph.jpeg  used on input line 193.
-(pdftex.def)             Requested size: 361.19843pt x 257.7615pt.
+(pdftex.def)             Requested size: 309.60315pt x 220.94048pt.
 
 
 [2]
@@ -1459,27 +1458,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 420--421
  []
 
 
-Overfull \hbox (4.80048pt too wide) in paragraph at lines 432--433
-[]\T1/txr/m/n/12 Given that \T1/txr/m/it/12 Z $\OT1/txr/m/n/12 =$ \T1/txr/m/it/
-12 X$[]\OT1/txr/m/n/12 +$ \T1/txr/m/it/12 Y$[]$ \T1/txr/m/n/12 , the value of $
-[]$ for X$\OT1/txr/m/n/12 = 1$ \T1/txr/m/n/12 and Y$\OT1/txr/m/n/12 = 0$ \T1/tx
-r/m/n/12 is $[]$. $[]$ 
- []
-
-
 
 [5]
 Overfull \hbox (28.48373pt too wide) in paragraph at lines 435--438
 \OML/txmi/m/it/12 CH[]N[]S[]P[]$\T1/txr/m/n/12 . The con-tri-bu-tion of car-bon
  to the dry biomass is % $[]$. 
- []
-
-
-Overfull \hbox (8.46826pt too wide) in paragraph at lines 435--438
-\T1/txr/m/n/12 Given: atomic weights of H, C, N, O, P and S are$\OT1/txr/m/n/12
- 1$\T1/txr/m/n/12 , $\OT1/txr/m/n/12 12$\T1/txr/m/n/12 , $\OT1/txr/m/n/12 14$\T
-1/txr/m/n/12 , $\OT1/txr/m/n/12 16$\T1/txr/m/n/12 , $\OT1/txr/m/n/12 31$ \T1/tx
-r/m/n/12 and $\OT1/txr/m/n/12 32$\T1/txr/m/n/12 , re-spec-tively  $[]$ 
  []
 
 
@@ -1516,23 +1499,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 451--452
 <figs/fig_1.jpeg, id=178, 348.30125pt x 268.00125pt>
 File: figs/fig_1.jpeg Graphic file (type jpg)
 <use figs/fig_1.jpeg>
-Package pdftex.def Info: figs/fig_1.jpeg  used on input line 461.
-(pdftex.def)             Requested size: 83.99872pt x 64.6324pt.
+Package pdftex.def Info: figs/fig_1.jpeg  used on input line 462.
+(pdftex.def)             Requested size: 95.99854pt x 73.86618pt.
 <figs/fig_2.jpeg, id=179, 374.39874pt x 255.95625pt>
 File: figs/fig_2.jpeg Graphic file (type jpg)
 <use figs/fig_2.jpeg>
-Package pdftex.def Info: figs/fig_2.jpeg  used on input line 462.
-(pdftex.def)             Requested size: 83.99872pt x 57.42363pt.
+Package pdftex.def Info: figs/fig_2.jpeg  used on input line 463.
+(pdftex.def)             Requested size: 95.99854pt x 65.62924pt.
 <figs/fig_3.jpeg, id=180, 309.155pt x 232.87pt>
 File: figs/fig_3.jpeg Graphic file (type jpg)
 <use figs/fig_3.jpeg>
-Package pdftex.def Info: figs/fig_3.jpeg  used on input line 463.
-(pdftex.def)             Requested size: 83.99872pt x 63.27014pt.
+Package pdftex.def Info: figs/fig_3.jpeg  used on input line 464.
+(pdftex.def)             Requested size: 95.99854pt x 72.30975pt.
 <figs/fig_4.jpeg, id=181, 309.155pt x 218.8175pt>
 File: figs/fig_4.jpeg Graphic file (type jpg)
 <use figs/fig_4.jpeg>
-Package pdftex.def Info: figs/fig_4.jpeg  used on input line 464.
-(pdftex.def)             Requested size: 83.99872pt x 59.45212pt.
+Package pdftex.def Info: figs/fig_4.jpeg  used on input line 465.
+(pdftex.def)             Requested size: 95.99854pt x 67.94624pt.
 
 
 [6 <./figs/fig_1.jpeg> <./figs/fig_2.jpeg> <./figs/fig_3.jpeg> <./figs/fig_4.jp
@@ -1581,7 +1564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 598--599
 
 
 [8]
-<figs/figure.jpeg, id=257, 1028.84375pt x 1043.9pt>
+<figs/figure.jpeg, id=256, 1028.84375pt x 1043.9pt>
 File: figs/figure.jpeg Graphic file (type jpg)
 <use figs/figure.jpeg>
 Package pdftex.def Info: figs/figure.jpeg  used on input line 660.
@@ -1666,9 +1649,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 819--820
  []
 
 
-Overfull \hbox (10.47577pt too wide) in paragraph at lines 824--825
-\T1/txr/m/n/12 which only 65 were globins. The sen-si-tiv-ity of this al-go-rit
-hm is% $[]$
+Overfull \hbox (113.03813pt too wide) in paragraph at lines 821--823
+\T1/txr/m/n/12 tively. Un-der these con-di-tions, free en-ergy change for the s
+yn-the-sis of ATP at $\OT1/txr/m/n/12 37[]C$ \T1/txr/m/n/12 is kJ/mol$[]$ 
  []
 
 
@@ -1685,22 +1668,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 826--827
 
 [11]
 
-[12]
-
-! LaTeX Error: \begin{enumerate} on input line 209 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.836 \end{document}
-                    
-? H
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-? 
-(./main.aux)
+[12] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1717,28 +1685,24 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  DAD3E1B98C0413410CB2FB129838F6A3;385.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 209 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
  32528 strings out of 475102
- 630582 string characters out of 5764877
- 1003884 words of memory out of 5000000
+ 630590 string characters out of 5764877
+ 1004884 words of memory out of 5000000
  54596 multiletter control sequences out of 15000+600000
  665225 words of font info for 159 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 101i,12n,103p,1232b,864s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 184698 bytes).
+ 101i,12n,103p,1232b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
+s/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (12 pages, 184074 bytes).
 PDF statistics:
  419 PDF objects out of 1000 (max. 8388607)
  377 compressed objects within 4 object streams
