@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  16 AUG 2025 05:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  16 AUG 2025 06:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main
+**main.tex
 (./main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16>
@@ -1259,13 +1259,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 51.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 51.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1420,13 +1420,14 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 51.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
 1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
@@ -1453,146 +1454,75 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<Fig/7i.png, id=46, 514.92375pt x 328.22626pt>
+File: Fig/7i.png Graphic file (type png)
+<use Fig/7i.png>
+Package pdftex.def Info: Fig/7i.png  used on input line 150.
+(pdftex.def)             Requested size: 236.01561pt x 150.44pt.
+ [2 <./Fig/7i.png>]
+<Fig/10i.png, id=73, 600.2425pt x 599.23875pt>
+File: Fig/10i.png Graphic file (type png)
+<use Fig/10i.png>
+Package pdftex.def Info: Fig/10i.png  used on input line 203.
+(pdftex.def)             Requested size: 424.82523pt x 424.12752pt.
+ [3 <./Fig/10i.png>]
+<Fig/3.png, id=85, 305.14pt x 225.84375pt>
+File: Fig/3.png Graphic file (type png)
+<use Fig/3.png>
+Package pdftex.def Info: Fig/3.png  used on input line 242.
+(pdftex.def)             Requested size: 141.61081pt x 104.81293pt.
 
-LaTeX Warning: File `2019 CH/Fig/7i.png' not found on input line 150.
-
-
-! Package pdftex.def Error: File `2019 CH/Fig/7i.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 ...[width=0.5\linewidth]{2019 CH/Fig/7i.png}
-                                                  
-? tels
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-150.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-) [2] [3]
-
-LaTeX Warning: File `2019 CH/Fig/10i.png' not found on input line 203.
-
-
-! Package pdftex.def Error: File `2019 CH/Fig/10i.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ...width=0.9\linewidth]{2019 CH/Fig/10i.png}
-                                                  
-? 
-[4]
-
-LaTeX Warning: File `2019 CH/Fig/3.png' not found on input line 242.
-
-
-! Package pdftex.def Error: File `2019 CH/Fig/3.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.242 ...s[width=0.3\linewidth]{2019 CH/Fig/3.png}
-                                                  
-? 
-[5] [6]
-
-LaTeX Warning: File `2019 CH/Fig/10.png' not found on input line 342.
-
-
-! Package pdftex.def Error: File `2019 CH/Fig/10.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 ...cs[width=1\linewidth]{2019 CH/Fig/10.png}
-                                                  
-? 
-[7]
-
-LaTeX Warning: File `2019 CH/Fig/15.png' not found on input line 398.
-
-
-! Package pdftex.def Error: File `2019 CH/Fig/15.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.398 ...width=0.85\linewidth]{2019 CH/Fig/15.png}
-                                                  
-? 
-[8] [9]
-
-LaTeX Warning: File `2019 CH/Fig/16.png' not found on input line 415.
-
-
-! Package pdftex.def Error: File `2019 CH/Fig/16.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.415 ...[width=0.5\linewidth]{2019 CH/Fig/16.png}
-                                                  
-? 
-[10]
-<Fig/23.png, id=204, 295.1025pt x 233.87375pt>
+[4 <./Fig/3.png>] [5]
+<Fig/10.png, id=144, 606.265pt x 283.0575pt>
+File: Fig/10.png Graphic file (type png)
+<use Fig/10.png>
+Package pdftex.def Info: Fig/10.png  used on input line 342.
+(pdftex.def)             Requested size: 472.03123pt x 220.38658pt.
+ [6 <./Fig/10.png>]
+<Fig/15.png, id=163, 1092.08pt x 471.7625pt>
+File: Fig/15.png Graphic file (type png)
+<use Fig/15.png>
+Package pdftex.def Info: Fig/15.png  used on input line 398.
+(pdftex.def)             Requested size: 401.22942pt x 173.32564pt.
+ [7 <./Fig/15.png>]
+<Fig/16.png, id=185, 665.48625pt x 270.00874pt>
+File: Fig/16.png Graphic file (type png)
+<use Fig/16.png>
+Package pdftex.def Info: Fig/16.png  used on input line 415.
+(pdftex.def)             Requested size: 236.01561pt x 95.75694pt.
+ [8 <./Fig/16.png>]
+<Fig/23.png, id=216, 295.1025pt x 233.87375pt>
 File: Fig/23.png Graphic file (type png)
 <use Fig/23.png>
 Package pdftex.def Info: Fig/23.png  used on input line 515.
 (pdftex.def)             Requested size: 188.8096pt x 149.63585pt.
- [11 <./Fig/23.png>] [12]
-<Fig/30.png, id=262, 372.39125pt x 319.1925pt>
+
+[9 <./Fig/23.png>] [10]
+<Fig/30.png, id=265, 372.39125pt x 319.1925pt>
 File: Fig/30.png Graphic file (type png)
 <use Fig/30.png>
 Package pdftex.def Info: Fig/30.png  used on input line 585.
 (pdftex.def)             Requested size: 188.8096pt x 161.84114pt.
- [13 <./Fig/30.png>]
-<Fig/34.png, id=275, 493.845pt x 571.13374pt>
+ [11 <./Fig/30.png>]
+<Fig/34.png, id=277, 493.845pt x 571.13374pt>
 File: Fig/34.png Graphic file (type png)
 <use Fig/34.png>
 Package pdftex.def Info: Fig/34.png  used on input line 611.
 (pdftex.def)             Requested size: 377.62642pt x 436.72417pt.
- [14 <./Fig/34.png>] [15]
-(./tables/40.tex) [16]
-
-LaTeX Warning: File `2019 CH/Fig/45.png' not found on input line 723.
-
-
-! Package pdftex.def Error: File `2019 CH/Fig/45.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.723 ...[width=0.9\linewidth]{2019 CH/Fig/45.png}
-                                                  
-? 
-[17] [18]
-<Fig/46.png, id=336, 1181.41376pt x 496.85625pt>
+ [12 <./Fig/34.png>] [13]
+(./tables/40.tex) [14]
+<Fig/45.png, id=328, 973.6375pt x 460.72125pt>
+File: Fig/45.png Graphic file (type png)
+<use Fig/45.png>
+Package pdftex.def Info: Fig/45.png  used on input line 723.
+(pdftex.def)             Requested size: 424.82523pt x 201.02373pt.
+ [15 <./Fig/45.png>]
+<Fig/46.png, id=337, 1181.41376pt x 496.85625pt>
 File: Fig/46.png Graphic file (type png)
 <use Fig/46.png>
 Package pdftex.def Info: Fig/46.png  used on input line 737.
 (pdftex.def)             Requested size: 283.22162pt x 119.11147pt.
- [19 <./Fig/46.png>]
+ [16 <./Fig/46.png>]
 Overfull \hbox (16.24956pt too wide) in paragraph at lines 763--764
 []\OT1/txr/m/n/12 For the closed loop sys-tem shown in fig-ure, the phase mar-g
 in (in de-grees) is [](rounded
@@ -1603,46 +1533,39 @@ File: Fig/49.png Graphic file (type png)
 <use Fig/49.png>
 Package pdftex.def Info: Fig/49.png  used on input line 768.
 (pdftex.def)             Requested size: 236.01561pt x 76.75139pt.
-[20 <./Fig/49.png>]
-<Fig/53.png, id=359, 642.4pt x 523.9575pt>
+[17 <./Fig/49.png>]
+<Fig/53.png, id=358, 642.4pt x 523.9575pt>
 File: Fig/53.png Graphic file (type png)
 <use Fig/53.png>
 Package pdftex.def Info: Fig/53.png  used on input line 788.
 (pdftex.def)             Requested size: 236.01561pt x 192.50209pt.
- [21 <./Fig/53.png>] (./main.aux)
+ [18 <./Fig/53.png>] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33006 strings out of 476091
- 644578 string characters out of 5794081
+ 32789 strings out of 476091
+ 638757 string characters out of 5794081
  1871330 words of memory out of 5000000
- 52386 multiletter control sequences out of 15000+600000
- 580480 words of font info for 174 fonts, out of 8000000 for 9000
+ 52191 multiletter control sequences out of 15000+600000
+ 580204 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,18n,96p,1168b,682s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,18n,96p,1172b,682s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 909120 bytes).
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (18 pages, 1847864 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 429 compressed objects within 5 object streams
- 288 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 285 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
