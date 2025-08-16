@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1755367078.80514 "/home/vivaan/workingfolder/college/matrix/ee1030-2025/ai25btech11040/GATE/2008/ME/main.tex" "main.pdf" "main" 1755367080.5077 0
+["pdflatex"] 1755368767.90799 "/home/vivaan/workingfolder/college/matrix/ee1030-2025/ai25btech11040/GATE/2008/ME/main.tex" "main.pdf" "main" 1755368769.57079 0
   "/etc/texmf/web2c/texmf.cnf" 1754154256.17489 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/vivaan/workingfolder/college/matrix/ee1030-2025/ai25btech11040/GATE/2008/ME/main.tex" 1755367078.65522 60536 04fc68f8438c7046a86d8e909a309e64 ""
+  "/home/vivaan/workingfolder/college/matrix/ee1030-2025/ai25btech11040/GATE/2008/ME/main.tex" 1755368767.75309 59774 7a117f51f600c685df05ce81c755095d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -335,9 +335,9 @@
   "figs/q80.png" 1755360272.28977 226486 153106a03c01c6e4ac675d3b9c33cd1f ""
   "figs/q84.png" 1755360272.28977 162750 883dcb040bcdf22186dd799e2a26af25 ""
   "gvv.sty" 1755366929.0229 4701 37bd06f55411f9798df5697cb07e3d79 ""
-  "main.aux" 1755367080.41324 4192 35390686edd84f2e5a43580c4ebcecb6 "pdflatex"
-  "main.out" 1755367079.21885 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1755367078.65522 60536 04fc68f8438c7046a86d8e909a309e64 ""
+  "main.aux" 1755368769.48897 4190 f8f11300da06fba49d9acb9c6ddfaa6d "pdflatex"
+  "main.out" 1755368768.31668 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1755368767.75309 59774 7a117f51f600c685df05ce81c755095d ""
   (generated)
   "main.aux"
   "main.log"

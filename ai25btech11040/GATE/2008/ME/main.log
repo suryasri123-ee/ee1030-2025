@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.6)  16 AUG 2025 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.6)  16 AUG 2025 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1057,24 +1057,24 @@ LaTeX Warning: Label `png' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 -- Lines per column: 50 (approximate, difference = 4.50696pt).
 *geometry* driver: auto-detecting
@@ -1100,7 +1100,7 @@ LaTeX Font Info:    ... okay on input line 16.
 * \footskip=26.542pt
 * \marginparwidth=20.0pt
 * \marginparsep=10.0pt
-* \columnsep=12.0pt
+* \columnsep=28.45274pt
 * \skip\footins=12.52791pt plus 5.5679pt minus 2.78395pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -1131,24 +1131,24 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count401
-LaTeX Info: Redefining \celsius on input line 16.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 16.
+LaTeX Info: Redefining \celsius on input line 17.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 17.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 16.
-Package gensymb Info: Using \Omega for \ohm on input line 16.
+LaTeX Info: Redefining \ohm on input line 17.
+Package gensymb Info: Using \Omega for \ohm on input line 17.
 
 Package gensymb Warning: Not defining \micro.
 
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 17.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--28
+Underfull \hbox (badness 10000) in paragraph at lines 23--29
 
  []
 
@@ -1171,800 +1171,293 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 45.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 45.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 46.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 45.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [2]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 140.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 137.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+) [3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 196--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+Underfull \hbox (badness 10000) in paragraph at lines 272--287
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
-
- []
-
-<figs/q30.png, id=204, 488.57532pt x 197.23688pt>
+<figs/q30.png, id=184, 488.57532pt x 197.23688pt>
 File: figs/q30.png Graphic file (type png)
 <use figs/q30.png>
-Package pdftex.def Info: figs/q30.png  used on input line 398.
+Package pdftex.def Info: figs/q30.png  used on input line 381.
 (pdftex.def)             Requested size: 244.28706pt x 98.61818pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
-
- []
-
-<figs/q31.png, id=206, 347.79938pt x 542.025pt>
+<figs/q31.png, id=186, 347.79938pt x 542.025pt>
 File: figs/q31.png Graphic file (type png)
 <use figs/q31.png>
-Package pdftex.def Info: figs/q31.png  used on input line 416.
+Package pdftex.def Info: figs/q31.png  used on input line 398.
 (pdftex.def)             Requested size: 104.3406pt x 162.60875pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
-
- []
-
-<figs/q33.png, id=207, 292.09125pt x 188.95593pt>
+ [7 <./figs/q30.png>]
+<figs/q33.png, id=224, 292.09125pt x 188.95593pt>
 File: figs/q33.png Graphic file (type png)
 <use figs/q33.png>
-Package pdftex.def Info: figs/q33.png  used on input line 445.
+Package pdftex.def Info: figs/q33.png  used on input line 425.
 (pdftex.def)             Requested size: 204.46246pt x 132.26823pt.
-[7 <./figs/q30.png> <./figs/q31.png>]
-<figs/q34.png, id=238, 792.71156pt x 443.40656pt>
+<figs/q34.png, id=225, 792.71156pt x 443.40656pt>
 File: figs/q34.png Graphic file (type png)
 <use figs/q34.png>
-Package pdftex.def Info: figs/q34.png  used on input line 464.
+Package pdftex.def Info: figs/q34.png  used on input line 443.
 (pdftex.def)             Requested size: 237.81529pt x 133.02298pt.
-<figs/q35.png, id=239, 793.96625pt x 269.005pt>
+ [8 <./figs/q31.png> <./figs/q33.png>]
+<figs/q35.png, id=250, 793.96625pt x 269.005pt>
 File: figs/q35.png Graphic file (type png)
 <use figs/q35.png>
-Package pdftex.def Info: figs/q35.png  used on input line 482.
+Package pdftex.def Info: figs/q35.png  used on input line 460.
 (pdftex.def)             Requested size: 238.19171pt x 80.70212pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
-
- []
-
-<figs/q36.png, id=240, 704.6325pt x 570.13pt>
+<figs/q36.png, id=251, 704.6325pt x 570.13pt>
 File: figs/q36.png Graphic file (type png)
 <use figs/q36.png>
-Package pdftex.def Info: figs/q36.png  used on input line 500.
+Package pdftex.def Info: figs/q36.png  used on input line 477.
 (pdftex.def)             Requested size: 211.39139pt x 171.04031pt.
-[8 <./figs/q33.png> <./figs/q34.png (PNG copy)> <./figs/q35.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 514--515
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 547--548
-
- []
-
-[9 <./figs/q36.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 558--559
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--570
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
+ [9 <./figs/q34.png (PNG copy)> <./figs/q35.png> <./figs/q36.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/14 Rack and
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
-
- []
-
-<figs/q47.png, id=313, 1064.97874pt x 523.9575pt>
+[10] [11]
+<figs/q47.png, id=332, 1064.97874pt x 523.9575pt>
 File: figs/q47.png Graphic file (type png)
 <use figs/q47.png>
-Package pdftex.def Info: figs/q47.png  used on input line 648.
+Package pdftex.def Info: figs/q47.png  used on input line 612.
 (pdftex.def)             Requested size: 319.4961pt x 157.18846pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
-[]\OT1/ptm/m/n/14 A re-versible
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 656--657
-[]\OT1/ptm/m/n/14 A re-versible
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 656--657
-\OT1/ptm/m/n/14 a re-versible
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 662--663
-
- []
-
-[11 <./figs/q47.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
-[]\OT1/ptm/m/n/14 The in-ter-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
-\OT1/ptm/m/n/14 gas de-creases
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
-\OT1/ptm/m/n/14 en-thalpy re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 667--668
-[]\OT1/ptm/m/n/14 The in-ter-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 667--668
-\OT1/ptm/m/n/14 gas in-creases
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 667--668
-\OT1/ptm/m/n/14 en-thalpy re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 668--669
-[]\OT1/ptm/m/n/14 Both in-ter-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 668--669
-\OT1/ptm/m/n/14 en-ergy and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 668--669
-\OT1/ptm/m/n/14 en-thalpy of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 669--670
-[]\OT1/ptm/m/n/14 Both in-ter-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 669--670
-\OT1/ptm/m/n/14 en-ergy and
- []
-
-<figs/q49.png, id=339, 328.22626pt x 495.8525pt>
+<figs/q49.png, id=333, 328.22626pt x 495.8525pt>
 File: figs/q49.png Graphic file (type png)
 <use figs/q49.png>
-Package pdftex.def Info: figs/q49.png  used on input line 677.
+Package pdftex.def Info: figs/q49.png  used on input line 636.
 (pdftex.def)             Requested size: 98.46863pt x 148.7569pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--686
-[]\OT1/ptm/m/n/14 is less than
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
-[]\OT1/ptm/m/n/14 is equal to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
-\OT1/ptm/m/n/14 or equal to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
-\OT1/ptm/m/n/14 350$[]$C, de-
- []
-
-<figs/q50.png, id=340, 549.05125pt x 520.94624pt>
+ [12 <./figs/q47.png>]
+<figs/q50.png, id=350, 549.05125pt x 520.94624pt>
 File: figs/q50.png Graphic file (type png)
 <use figs/q50.png>
-Package pdftex.def Info: figs/q50.png  used on input line 695.
+Package pdftex.def Info: figs/q50.png  used on input line 652.
 (pdftex.def)             Requested size: 164.71664pt x 156.28508pt.
-[12 <./figs/q49.png>]
-<figs/q51.png, id=357, 706.64pt x 501.875pt>
+ [13 <./figs/q49.png> <./figs/q50.png>]
+<figs/q51.png, id=368, 706.64pt x 501.875pt>
 File: figs/q51.png Graphic file (type png)
 <use figs/q51.png>
-Package pdftex.def Info: figs/q51.png  used on input line 713.
+Package pdftex.def Info: figs/q51.png  used on input line 670.
 (pdftex.def)             Requested size: 211.99364pt x 150.56366pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
+[]\OT1/ptm/m/n/14 0
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 []\OT1/ptm/m/n/14 1.25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
 []\OT1/ptm/m/n/14 2.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--724
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
 []\OT1/ptm/m/n/14 3.75
  []
 
-<figs/q52.png, id=358, 1174.3875pt x 538.01pt>
+<figs/q52.png, id=369, 1174.3875pt x 538.01pt>
 File: figs/q52.png Graphic file (type png)
 <use figs/q52.png>
-Package pdftex.def Info: figs/q52.png  used on input line 731.
+Package pdftex.def Info: figs/q52.png  used on input line 688.
 (pdftex.def)             Requested size: 352.31897pt x 161.40424pt.
-[13 <./figs/q50.png> <./figs/q51.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 745--746
+
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
 
  []
 
-<figs/q54.png, id=376, 607.26875pt x 465.74pt>
+[14 <./figs/q51.png> <./figs/q52.png>]
+<figs/q54.png, id=386, 607.26875pt x 465.74pt>
 File: figs/q54.png Graphic file (type png)
 <use figs/q54.png>
-Package pdftex.def Info: figs/q54.png  used on input line 760.
+Package pdftex.def Info: figs/q54.png  used on input line 717.
 (pdftex.def)             Requested size: 182.18202pt x 139.72307pt.
-[14 <./figs/q52.png> <./figs/q54.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 774--775
+
+Underfull \hbox (badness 10000) in paragraph at lines 731--732
 
  []
 
 
-Overfull \hbox (2.71211pt too wide) in paragraph at lines 785--786
+Overfull \hbox (2.71211pt too wide) in paragraph at lines 742--743
 []\OT1/ptm/m/n/14 Steady two-dimensional heat con-duc-tion takes place in the body shown
  []
 
-<figs/q56.png, id=393, 755.82375pt x 491.8375pt>
+<figs/q56.png, id=387, 755.82375pt x 491.8375pt>
 File: figs/q56.png Graphic file (type png)
 <use figs/q56.png>
-Package pdftex.def Info: figs/q56.png  used on input line 789.
+Package pdftex.def Info: figs/q56.png  used on input line 746.
 (pdftex.def)             Requested size: 226.74887pt x 147.55238pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 803--804
-
- []
-
-
-Overfull \vbox (21.78416pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (21.78416pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (21.78416pt too high) has occurred while \output is active []
-
- [15 <./figs/q56.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 814--815
+[15 <./figs/q54.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--830
-[]\OT1/ptm/m/n/14 neither $\OML/cmm/m/it/14.4 F[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )$
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 830--831
-\OML/cmm/m/it/14.4 F[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )$ \OT1/ptm/m/n/14 and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 830--831
-\OML/cmm/m/it/14.4 F[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )$ \OT1/ptm/m/n/14 will
- []
-
+[16 <./figs/q56.png>]
 File: figs/q35.png Graphic file (type png)
 <use figs/q35.png>
-Package pdftex.def Info: figs/q35.png  used on input line 840.
+Package pdftex.def Info: figs/q35.png  used on input line 797.
 (pdftex.def)             Requested size: 238.19171pt x 80.70212pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 848--849
-[]$\OML/cmm/m/it/14.4 s[] \OT1/cmr/m/n/14.4 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 849--850
-[]$\OML/cmm/m/it/14.4 s[] \OT1/cmr/m/n/14.4 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 849--850
-[]\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 s[] \OMS/cmsy/m/n/14.4 ^^@
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
-[]$\OML/cmm/m/it/14.4 s[] \OT1/cmr/m/n/14.4 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
-[]\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 s[] \OT1/cmr/m/n/14.4 +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 851--852
-[]$\OML/cmm/m/it/14.4 s[] \OT1/cmr/m/n/14.4 =
- []
-
-
-Overfull \hbox (4.44478pt too wide) in paragraph at lines 851--852
-[]\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 d[]; d[]\OMS/cmsy/m/n/14.4 g$ 
- []
-
-<figs/q61.png, id=416, 733.74126pt x 484.81125pt>
+<figs/q61.png, id=428, 733.74126pt x 484.81125pt>
 File: figs/q61.png Graphic file (type png)
 <use figs/q61.png>
-Package pdftex.def Info: figs/q61.png  used on input line 859.
+Package pdftex.def Info: figs/q61.png  used on input line 816.
 (pdftex.def)             Requested size: 220.12407pt x 145.44449pt.
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 863--872
+
+Underfull \hbox (badness 10000) in paragraph at lines 820--829
 
  []
 
-<figs/q62.png, id=440, 657.45625pt x 232.87pt>
+[17 <./figs/q61.png>]
+<figs/q62.png, id=445, 657.45625pt x 232.87pt>
 File: figs/q62.png Graphic file (type png)
 <use figs/q62.png>
-Package pdftex.def Info: figs/q62.png  used on input line 888.
+Package pdftex.def Info: figs/q62.png  used on input line 845.
 (pdftex.def)             Requested size: 197.23839pt x 69.86153pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--896
-[]\OT1/ptm/m/n/14 6.08 mm, 4
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 902--903
-
- []
-
-[17 <./figs/q61.png> <./figs/q62.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 913--914
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 935--936
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
+
+ []
+
+[18 <./figs/q62.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 892--893
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--947
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 957--958
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
 
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
-[]\OT1/ptm/m/n/14 Buckling due
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
+[]\OT1/ptm/m/n/14 High tem-per-a-ture caus-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
-\OT1/ptm/m/n/14 to cir-cum-fer-
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
+\OT1/ptm/m/n/14 in-crease in cir-cum-fer-en-tial
  []
 
-
-Underfull \hbox (badness 5119) in paragraph at lines 961--962
-\OT1/ptm/m/n/14 sion; In-crease
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
-\OT1/ptm/m/n/14 blank holder
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--963
-[]\OT1/ptm/m/n/14 High blank
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--963
-\OT1/ptm/m/n/14 tion; Re-duce
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--963
-\OT1/ptm/m/n/14 blank holder
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--963
-\OT1/ptm/m/n/14 pres-sure and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-[]\OT1/ptm/m/n/14 High tem-per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-\OT1/ptm/m/n/14 a-ture caus-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-\OT1/ptm/m/n/14 in-crease in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-\OT1/ptm/m/n/14 cir-cum-fer-en-tial
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 963--964
-\OT1/ptm/m/n/14 length; Ap-ply
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-\OT1/ptm/m/n/14 coolant to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-[]\OT1/ptm/m/n/14 Buckling due
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-\OT1/ptm/m/n/14 to cir-cum-fer-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-\OT1/ptm/m/n/14 blank holder
- []
-
-<figs/q69.png, id=487, 1328.965pt x 391.4625pt>
+<figs/q69.png, id=472, 1328.965pt x 391.4625pt>
 File: figs/q69.png Graphic file (type png)
 <use figs/q69.png>
-Package pdftex.def Info: figs/q69.png  used on input line 972.
+Package pdftex.def Info: figs/q69.png  used on input line 929.
 (pdftex.def)             Requested size: 398.69258pt x 117.43965pt.
-
-Underfull \hbox (badness 6575) in paragraph at lines 980--981
-\OT1/ptm/m/n/14 con-neted, $\OML/cmm/m/it/14.4 U[]$
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 981--982
-\OT1/ptm/m/n/14 con-neted, $\OML/cmm/m/it/14.4 U[]$
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 982--983
-\OT1/ptm/m/n/14 con-neted, $\OML/cmm/m/it/14.4 U[]$
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 983--984
-\OT1/ptm/m/n/14 con-neted, $\OML/cmm/m/it/14.4 U[]$
- []
-
-<figs/q70.png, id=488, 628.3475pt x 586.19pt>
+[19]
+<figs/q70.png, id=498, 628.3475pt x 586.19pt>
 File: figs/q70.png Graphic file (type png)
 <use figs/q70.png>
-Package pdftex.def Info: figs/q70.png  used on input line 991.
+Package pdftex.def Info: figs/q70.png  used on input line 947.
 (pdftex.def)             Requested size: 188.50569pt x 175.85835pt.
-[19 <./figs/q69.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 999--1000
-\OT1/ptm/m/n/14 dle ro-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1000
-\OT1/ptm/m/n/14 drill spin-dle
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
-\OT1/ptm/m/n/14 dle ro-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
-\OT1/ptm/m/n/14 dle ro-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
-\OT1/ptm/m/n/14 to the drill
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
-\OT1/ptm/m/n/14 spin-dle ta-per
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
-\OT1/ptm/m/n/14 dle ro-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1006--1008
-
- []
-
-<figs/q71.png, id=505, 590.205pt x 451.6875pt>
+ [20 <./figs/q69.png> <./figs/q70.png>]
+<figs/q71.png, id=510, 590.205pt x 451.6875pt>
 File: figs/q71.png Graphic file (type png)
 <use figs/q71.png>
-Package pdftex.def Info: figs/q71.png  used on input line 1013.
+Package pdftex.def Info: figs/q71.png  used on input line 968.
 (pdftex.def)             Requested size: 177.06287pt x 135.5073pt.
-[20 <./figs/q70.png>]
-Overfull \hbox (16.2677pt too wide) in paragraph at lines 1020--1027
+
+Overfull \hbox (16.2677pt too wide) in paragraph at lines 975--982
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
-[]\OT1/ptm/m/n/12 superheated
- []
-
-
-Underfull \hbox (badness 7433) in paragraph at lines 1033--1034
-\OT1/ptm/m/n/12 vapour will be
- []
-
-
-Underfull \hbox (badness 6284) in paragraph at lines 1036--1037
-\OT1/ptm/m/n/12 ex-ist at a dry
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1069
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1081
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1081
-
  []
 
 [21 <./figs/q71.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
-[]\OT1/ptm/m/n/12 the LP has a
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1020
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
-\OT1/ptm/m/n/12 unique op-ti-mal
- []
-
-
-Underfull \hbox (badness 5908) in paragraph at lines 1099--1100
-\OT1/ptm/m/n/12 op-ti-mal so-lu-tion
- []
-
-
-Underfull \hbox (badness 6125) in paragraph at lines 1101--1102
-[]\OT1/ptm/m/n/12 the LP is un-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1090
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1090
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1134
-
- []
-
-<figs/q76.png, id=538, 705.63625pt x 512.91624pt>
+<figs/q76.png, id=554, 705.63625pt x 512.91624pt>
 File: figs/q76.png Graphic file (type png)
 <use figs/q76.png>
-Package pdftex.def Info: figs/q76.png  used on input line 1139.
+Package pdftex.def Info: figs/q76.png  used on input line 1095.
 (pdftex.def)             Requested size: 211.6925pt x 153.87605pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
-
- []
-
-[22 <./figs/q76.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1155--1156
-
- []
-
-<figs/q78.png, id=554, 1196.47pt x 496.85625pt>
+<figs/q78.png, id=555, 1196.47pt x 496.85625pt>
 File: figs/q78.png Graphic file (type png)
 <use figs/q78.png>
-Package pdftex.def Info: figs/q78.png  used on input line 1171.
+Package pdftex.def Info: figs/q78.png  used on input line 1126.
 (pdftex.def)             Requested size: 358.94377pt x 149.05801pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
-
- []
-
-<figs/q80.png, id=555, 992.70876pt x 411.5375pt>
+[23 <./figs/q76.png>]
+<figs/q80.png, id=572, 992.70876pt x 411.5375pt>
 File: figs/q80.png Graphic file (type png)
 <use figs/q80.png>
-Package pdftex.def Info: figs/q80.png  used on input line 1202.
+Package pdftex.def Info: figs/q80.png  used on input line 1157.
 (pdftex.def)             Requested size: 297.81493pt x 123.4622pt.
-[23 <./figs/q78.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1217--1218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1241--1242
-
- []
-
-<figs/q84.png, id=582, 1489.565pt x 217.81375pt>
+ [24 <./figs/q78.png> <./figs/q80.png>]
+<figs/q84.png, id=602, 1489.565pt x 217.81375pt>
 File: figs/q84.png Graphic file (type png)
 <use figs/q84.png>
-Package pdftex.def Info: figs/q84.png  used on input line 1257.
+Package pdftex.def Info: figs/q84.png  used on input line 1211.
 (pdftex.def)             Requested size: 446.87296pt x 65.34462pt.
 
-Overfull \hbox (28.61928pt too wide) in paragraph at lines 1257--1258
+Overfull \hbox (28.61928pt too wide) in paragraph at lines 1211--1212
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
-
- []
-
-[24 <./figs/q80.png> <./figs/q84.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1273
-
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 1279--1280
-[]\OT1/ptm/m/n/12 keeping $\OML/cmm/m/it/12 U$ \OT1/ptm/m/n/12 un-
- []
-
-[25] (./main.aux)
+[25 <./figs/q84.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1977,18 +1470,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33719 strings out of 474222
- 651409 string characters out of 5748734
- 1944975 words of memory out of 5000000
- 54738 multiletter control sequences out of 15000+600000
+ 33723 strings out of 474222
+ 651474 string characters out of 5748734
+ 1946975 words of memory out of 5000000
+ 54739 multiletter control sequences out of 15000+600000
  603875 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,14n,107p,1257b,940s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,14n,107p,1257b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (25 pages, 4200654 bytes).
+Output written on main.pdf (25 pages, 4200431 bytes).
 PDF statistics:
- 800 PDF objects out of 1000 (max. 8388607)
- 706 compressed objects within 8 object streams
- 491 named destinations out of 1000 (max. 500000)
+ 804 PDF objects out of 1000 (max. 8388607)
+ 710 compressed objects within 8 object streams
+ 494 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
