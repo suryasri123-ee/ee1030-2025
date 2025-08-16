@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.15)  16 AUG 2025 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.15)  16 AUG 2025 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1420,37 +1420,44 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] [4]
-<images/enzyme_plot.png, id=153, 268.50313pt x 167.62625pt>
-File: images/enzyme_plot.png Graphic file (type png)
-<use images/enzyme_plot.png>
-Package pdftex.def Info: images/enzyme_plot.png  used on input line 471.
+<figs/enzyme_plot.png, id=153, 268.50313pt x 167.62625pt>
+File: figs/enzyme_plot.png Graphic file (type png)
+<use figs/enzyme_plot.png>
+Package pdftex.def Info: figs/enzyme_plot.png  used on input line 472.
 (pdftex.def)             Requested size: 516.0pt x 322.14053pt.
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 471--472
- [] 
- []
-
-[5] [6 <./images/enzyme_plot.png>] [7]
-<images/scatchard_plot.png, id=230, 223.33438pt x 146.5475pt>
-File: images/scatchard_plot.png Graphic file (type png)
-<use images/scatchard_plot.png>
-Package pdftex.def Info: images/scatchard_plot.png  used on input line 673.
+ [5] [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.516 \textbf{Assertion (a):}
+                              UPGMA method produces an ultrametric tree. <./fig
+s/enzyme_plot.png>] [7]
+<figs/scatchard_plot.png, id=228, 223.33438pt x 146.5475pt>
+File: figs/scatchard_plot.png Graphic file (type png)
+<use figs/scatchard_plot.png>
+Package pdftex.def Info: figs/scatchard_plot.png  used on input line 678.
 (pdftex.def)             Requested size: 516.0pt x 338.61963pt.
+ [8] [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.718     \item \(
+                  5.9 \times 10^{3}\) <./figs/scatchard_plot.png>] [10]
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 880--882
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 673--674
- [] 
  []
 
-[8] [9 <./images/scatchard_plot.png>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 874--876
-
- []
-
-[11] [12] (./main.aux)
+[12] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1462,13 +1469,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46871 strings out of 474222
- 1090279 string characters out of 5748733
- 1941975 words of memory out of 5000000
- 68137 multiletter control sequences out of 15000+600000
- 618248 words of font info for 154 fonts, out of 8000000 for 9000
+ 46881 strings out of 474222
+ 1090397 string characters out of 5748733
+ 1942975 words of memory out of 5000000
+ 68143 multiletter control sequences out of 15000+600000
+ 619564 words of font info for 156 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,10n,103p,1172b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,10n,103p,1172b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
@@ -1476,10 +1483,10 @@ nts/type1/public/txfonts/txexa.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 103014 bytes).
+Output written on main.pdf (12 pages, 103392 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 396 compressed objects within 4 object streams
- 279 named destinations out of 1000 (max. 500000)
+ 436 PDF objects out of 1000 (max. 8388607)
+ 398 compressed objects within 4 object streams
+ 281 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
