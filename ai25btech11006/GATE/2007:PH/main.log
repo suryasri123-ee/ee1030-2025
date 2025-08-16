@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  16 AUG 2025 21:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  16 AUG 2025 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1851,92 +1851,92 @@ f-dist/fonts/enc/dvips/base/8r.enc}] [2]
 <./figs/fig1.jpeg, id=85, 753.81625pt x 800.9925pt>
 File: ./figs/fig1.jpeg Graphic file (type jpg)
 <use ./figs/fig1.jpeg>
-Package pdftex.def Info: ./figs/fig1.jpeg  used on input line 260.
+Package pdftex.def Info: ./figs/fig1.jpeg  used on input line 264.
 (pdftex.def)             Requested size: 129.0pt x 137.07135pt.
  [3 <./figs/fig1.jpeg>] [4] [5]
 <./figs/fig2.jpeg, id=179, 1529.715pt x 1401.235pt>
 File: ./figs/fig2.jpeg Graphic file (type jpg)
 <use ./figs/fig2.jpeg>
-Package pdftex.def Info: ./figs/fig2.jpeg  used on input line 529.
+Package pdftex.def Info: ./figs/fig2.jpeg  used on input line 533.
 (pdftex.def)             Requested size: 129.0pt x 118.15193pt.
  [6 <./figs/fig2.jpeg>]
 [7]
 <./figs/fig3.jpeg, id=240, 740.7675pt x 474.77374pt>
 File: ./figs/fig3.jpeg Graphic file (type jpg)
 <use ./figs/fig3.jpeg>
-Package pdftex.def Info: ./figs/fig3.jpeg  used on input line 670.
+Package pdftex.def Info: ./figs/fig3.jpeg  used on input line 674.
 (pdftex.def)             Requested size: 129.0pt x 82.6737pt.
  [8 <./figs/fig3.jpeg>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 890--891
+Underfull \hbox (badness 10000) in paragraph at lines 894--895
 
  []
 
 <./figs/fig4.jpeg, id=328, 878.28125pt x 784.9325pt>
 File: ./figs/fig4.jpeg Graphic file (type jpg)
 <use ./figs/fig4.jpeg>
-Package pdftex.def Info: ./figs/fig4.jpeg  used on input line 898.
+Package pdftex.def Info: ./figs/fig4.jpeg  used on input line 902.
 (pdftex.def)             Requested size: 129.0pt x 115.27948pt.
 [10] [11 <./figs/fig4.jpeg>]
 <./figs/fig5.jpeg, id=393, 1606.0pt x 817.0525pt>
 File: ./figs/fig5.jpeg Graphic file (type jpg)
 <use ./figs/fig5.jpeg>
-Package pdftex.def Info: ./figs/fig5.jpeg  used on input line 1023.
+Package pdftex.def Info: ./figs/fig5.jpeg  used on input line 1027.
 (pdftex.def)             Requested size: 258.0pt x 131.25468pt.
 <./figs/fig6.jpeg, id=394, 1006.76125pt x 321.2pt>
 File: ./figs/fig6.jpeg Graphic file (type jpg)
 <use ./figs/fig6.jpeg>
-Package pdftex.def Info: ./figs/fig6.jpeg  used on input line 1043.
+Package pdftex.def Info: ./figs/fig6.jpeg  used on input line 1047.
 (pdftex.def)             Requested size: 258.0pt x 82.30925pt.
 <./figs/fig7.jpeg, id=395, 892.33376pt x 357.335pt>
 File: ./figs/fig7.jpeg Graphic file (type jpg)
 <use ./figs/fig7.jpeg>
-Package pdftex.def Info: ./figs/fig7.jpeg  used on input line 1063.
+Package pdftex.def Info: ./figs/fig7.jpeg  used on input line 1067.
 (pdftex.def)             Requested size: 258.0pt x 103.31369pt.
  [12 <./figs/fig5.jpeg>]
 <./figs/fig8.jpeg, id=426, 1606.0pt x 1054.94125pt>
 File: ./figs/fig8.jpeg Graphic file (type jpg)
 <use ./figs/fig8.jpeg>
-Package pdftex.def Info: ./figs/fig8.jpeg  used on input line 1085.
+Package pdftex.def Info: ./figs/fig8.jpeg  used on input line 1089.
 (pdftex.def)             Requested size: 206.39685pt x 135.56966pt.
 <./figs/fig9.jpeg, id=427, 1606.0pt x 841.1425pt>
 File: ./figs/fig9.jpeg Graphic file (type jpg)
 <use ./figs/fig9.jpeg>
-Package pdftex.def Info: ./figs/fig9.jpeg  used on input line 1106.
+Package pdftex.def Info: ./figs/fig9.jpeg  used on input line 1110.
 (pdftex.def)             Requested size: 206.39685pt x 108.09454pt.
 <./figs/fig10.jpeg, id=428, 1529.715pt x 1224.575pt>
 File: ./figs/fig10.jpeg Graphic file (type jpg)
 <use ./figs/fig10.jpeg>
-Package pdftex.def Info: ./figs/fig10.jpeg  used on input line 1127.
+Package pdftex.def Info: ./figs/fig10.jpeg  used on input line 1131.
 (pdftex.def)             Requested size: 129.0pt x 103.25598pt.
  [13 <./figs/fig6.jpeg> <./figs/fig7.jpeg> <./figs/fig8.jpeg>]
 <./figs/fig11.jpeg, id=453, 1284.8pt x 613.29124pt>
 File: ./figs/fig11.jpeg Graphic file (type jpg)
 <use ./figs/fig11.jpeg>
-Package pdftex.def Info: ./figs/fig11.jpeg  used on input line 1147.
+Package pdftex.def Info: ./figs/fig11.jpeg  used on input line 1151.
 (pdftex.def)             Requested size: 258.0pt x 123.15204pt.
 <./figs/fig12.jpeg, id=454, 1284.8pt x 487.8225pt>
 File: ./figs/fig12.jpeg Graphic file (type jpg)
 <use ./figs/fig12.jpeg>
-Package pdftex.def Info: ./figs/fig12.jpeg  used on input line 1153.
+Package pdftex.def Info: ./figs/fig12.jpeg  used on input line 1157.
 (pdftex.def)             Requested size: 129.0pt x 48.97864pt.
 <./figs/fig13.jpeg, id=455, 1284.8pt x 487.8225pt>
 File: ./figs/fig13.jpeg Graphic file (type jpg)
 <use ./figs/fig13.jpeg>
-Package pdftex.def Info: ./figs/fig13.jpeg  used on input line 1154.
+Package pdftex.def Info: ./figs/fig13.jpeg  used on input line 1158.
 (pdftex.def)             Requested size: 129.0pt x 48.97864pt.
 <./figs/fig14.jpeg, id=456, 1284.8pt x 701.62125pt>
 File: ./figs/fig14.jpeg Graphic file (type jpg)
 <use ./figs/fig14.jpeg>
-Package pdftex.def Info: ./figs/fig14.jpeg  used on input line 1155.
+Package pdftex.def Info: ./figs/fig14.jpeg  used on input line 1159.
 (pdftex.def)             Requested size: 129.0pt x 70.44458pt.
 <./figs/fig15.jpeg, id=457, 1284.8pt x 568.1225pt>
 File: ./figs/fig15.jpeg Graphic file (type jpg)
 <use ./figs/fig15.jpeg>
-Package pdftex.def Info: ./figs/fig15.jpeg  used on input line 1156.
+Package pdftex.def Info: ./figs/fig15.jpeg  used on input line 1160.
 (pdftex.def)             Requested size: 129.0pt x 57.04095pt.
  [14 <./figs/fig9.jpeg> <./figs/fig10.jpeg> <./figs/fig11.jpeg> <./figs/fig12.j
 peg> <./figs/fig13.jpeg> <./figs/fig14.jpeg> <./figs/fig15.jpeg>] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
 
  []
 
@@ -1945,10 +1945,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -1970,7 +1966,7 @@ type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 626674 bytes).
+Output written on main.pdf (17 pages, 626652 bytes).
 PDF statistics:
  706 PDF objects out of 1000 (max. 8388607)
  627 compressed objects within 7 object streams
