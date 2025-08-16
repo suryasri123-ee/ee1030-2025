@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.7)  16 AUG 2025 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.7)  16 AUG 2025 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1246,13 +1246,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 6
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 61.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 61.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1373,13 +1373,14 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 61.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
 9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
@@ -1425,22 +1426,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--128
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc} <./figs2017/q3.png>]
-<./figs2017/q10a.png, id=36, 290.08376pt x 350.30875pt>
+<./figs2017/q10a.png, id=35, 290.08376pt x 350.30875pt>
 File: ./figs2017/q10a.png Graphic file (type png)
 <use ./figs2017/q10a.png>
 Package pdftex.def Info: ./figs2017/q10a.png  used on input line 183.
 (pdftex.def)             Requested size: 46.79929pt x 56.51558pt.
-<./figs2017/q10b.png, id=37, 328.22626pt x 345.29pt>
+<./figs2017/q10b.png, id=36, 328.22626pt x 345.29pt>
 File: ./figs2017/q10b.png Graphic file (type png)
 <use ./figs2017/q10b.png>
 Package pdftex.def Info: ./figs2017/q10b.png  used on input line 184.
 (pdftex.def)             Requested size: 46.79929pt x 49.23067pt.
-<./figs2017/q10c.png, id=38, 289.08pt x 354.32375pt>
+<./figs2017/q10c.png, id=37, 289.08pt x 354.32375pt>
 File: ./figs2017/q10c.png Graphic file (type png)
 <use ./figs2017/q10c.png>
 Package pdftex.def Info: ./figs2017/q10c.png  used on input line 185.
 (pdftex.def)             Requested size: 46.79929pt x 57.35796pt.
-<./figs2017/q10d.png, id=39, 298.11375pt x 326.21875pt>
+<./figs2017/q10d.png, id=38, 298.11375pt x 326.21875pt>
 File: ./figs2017/q10d.png Graphic file (type png)
 <use ./figs2017/q10d.png>
 Package pdftex.def Info: ./figs2017/q10d.png  used on input line 186.
@@ -1449,18 +1450,7 @@ Package pdftex.def Info: ./figs2017/q10d.png  used on input line 186.
 
 [2 <./figs2017/q10a.png> <./figs2017/q10b.png> <./figs2017/q10c.png> <./figs201
 7/q10d.png>]
-Overfull \hbox (20.62732pt too wide) in paragraph at lines 197--199
-[]\OT1/txr/m/n/12 The ter-mi-nal ris-ing ve-loc-ity of the bub-ble (in cm/s), r
-ounded to 2 dec-i-mal places, is cm/s  $[]$ 
- []
-
-
-Overfull \hbox (20.79541pt too wide) in paragraph at lines 249--251
-[]\OT1/txr/m/n/12 The Mur-phree ef-fi-ciency based on the vapour phase. rounded
- to the near-est in-te-ger, is %.  $[]$ 
- []
-
-<./figs2017/q17.png, id=75, 441.65pt x 374.39874pt>
+<./figs2017/q17.png, id=74, 441.65pt x 374.39874pt>
 File: ./figs2017/q17.png Graphic file (type png)
 <use ./figs2017/q17.png>
 Package pdftex.def Info: ./figs2017/q17.png  used on input line 270.
@@ -1472,52 +1462,70 @@ Package pdftex.def Info: ./figs2017/q17.png  used on input line 270.
 [4 <./figs2017/q17.png>]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 376.
+ I therefore use two columns instead on input line 382.
 
 
 
 [5]
-Overfull \hbox (6.3354pt too wide) in paragraph at lines 455--457
-[]\OT1/txr/m/n/12 The fu-gac-ity of the sat-u-rated liq-uid at these con-di-tio
-ns, rounded to 1 dec-i-mal place, is  $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
 
  []
 
 
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 552--561
+Overfull \hbox (29.29291pt too wide) in paragraph at lines 499--501
+[]\OT1/txr/m/n/12 The ro-ta-tion speed of the lab-scale model, to the near-est 
+in-te-ger, should be $[]$ rps  $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 552--561
+Underfull \hbox (badness 10000) in paragraph at lines 559--568
 
  []
 
 
 
 [7]
-<./figs2017/q44.png, id=205, 831.105pt x 522.95375pt>
+<./figs2017/q44.png, id=198, 831.105pt x 522.95375pt>
 File: ./figs2017/q44.png Graphic file (type png)
 <use ./figs2017/q44.png>
-Package pdftex.def Info: ./figs2017/q44.png  used on input line 586.
+Package pdftex.def Info: ./figs2017/q44.png  used on input line 593.
 (pdftex.def)             Requested size: 412.80157pt x 259.74464pt.
-<./figs2017/q46.png, id=206, 412.54124pt x 323.2075pt>
+<./figs2017/q46.png, id=199, 412.54124pt x 323.2075pt>
 File: ./figs2017/q46.png Graphic file (type png)
 <use ./figs2017/q46.png>
-Package pdftex.def Info: ./figs2017/q46.png  used on input line 609.
+Package pdftex.def Info: ./figs2017/q46.png  used on input line 616.
 (pdftex.def)             Requested size: 412.80157pt x 323.41383pt.
 
 
 [8 <./figs2017/q44.png>]
+Overfull \hbox (0.80348pt too wide) in paragraph at lines 620--622
+[]\OT1/txr/m/n/12 The mean res-i-dence time in the re-ac-tor, rounded to 1 dec-
+i-mal place, is $[]$ S  $[]$ 
+ []
+
+
+Overfull \hbox (9.32347pt too wide) in paragraph at lines 652--654
+[]\OT1/txr/m/n/12 The time at which R just starts con-dens-ing, rounded to 1 de
+c-i-mal place, is $[]$  $[]$ 
+ []
+
+
 
 [9 <./figs2017/q46.png>]
-Overfull \hbox (271.92421pt too wide) in paragraph at lines 688--697
+Overfull \hbox (15.90092pt too wide) in paragraph at lines 682--684
+[]\OT1/txr/m/n/12 The ini-tial in-vest-ment to be made, rounded to the near-est
+ in-te-ger, is $[]$ Ru-pees  $[]$ 
+ []
+
+
+Overfull \hbox (271.92421pt too wide) in paragraph at lines 695--704
 []\OT1/txr/m/n/12 Match the equip-ment in Group-1 with the pro-cess in Group-2 
 [] 
  []
@@ -1527,15 +1535,15 @@ Overfull \hbox (271.92421pt too wide) in paragraph at lines 688--697
 [10]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 781.
+ I therefore use two columns instead on input line 788.
 
 
 
 [11]
-<./figs2017/q65.png, id=299, 590.205pt x 392.46625pt>
+<./figs2017/q65.png, id=285, 590.205pt x 392.46625pt>
 File: ./figs2017/q65.png Graphic file (type png)
 <use ./figs2017/q65.png>
-Package pdftex.def Info: ./figs2017/q65.png  used on input line 845.
+Package pdftex.def Info: ./figs2017/q65.png  used on input line 852.
 (pdftex.def)             Requested size: 412.80157pt x 274.50291pt.
 
 
@@ -1544,24 +1552,14 @@ Package pdftex.def Info: ./figs2017/q65.png  used on input line 845.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32303 strings out of 473197
- 628981 string characters out of 5718606
- 1003007 words of memory out of 5000000
- 54640 multiletter control sequences out of 15000+600000
+ 32297 strings out of 473197
+ 628934 string characters out of 5718606
+ 1007292 words of memory out of 5000000
+ 54642 multiletter control sequences out of 15000+600000
  628455 words of font info for 179 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,9n,103p,1172b,717s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1572,10 +1570,10 @@ nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 792203 bytes).
+Output written on main.pdf (12 pages, 792759 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 242 named destinations out of 1000 (max. 500000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 228 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

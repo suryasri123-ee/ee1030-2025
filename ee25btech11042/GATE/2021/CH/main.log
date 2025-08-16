@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.7)  16 AUG 2025 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.7)  16 AUG 2025 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1492,7 +1492,7 @@ Package pdftex.def Info: ./figs/q18.png  used on input line 456.
 <./figs/q28.png, id=222, 636.3775pt x 473.77pt>
 File: ./figs/q28.png Graphic file (type png)
 <use ./figs/q28.png>
-Package pdftex.def Info: ./figs/q28.png  used on input line 552.
+Package pdftex.def Info: ./figs/q28.png  used on input line 548.
 (pdftex.def)             Requested size: 412.80157pt x 307.31792pt.
 
 
@@ -1500,7 +1500,7 @@ Package pdftex.def Info: ./figs/q28.png  used on input line 552.
 <./figs/q30all.png, id=239, 769.87625pt x 178.6675pt>
 File: ./figs/q30all.png Graphic file (type png)
 <use ./figs/q30all.png>
-Package pdftex.def Info: ./figs/q30all.png  used on input line 585.
+Package pdftex.def Info: ./figs/q30all.png  used on input line 581.
 (pdftex.def)             Requested size: 412.80157pt x 95.80289pt.
 
 
@@ -1508,7 +1508,7 @@ Package pdftex.def Info: ./figs/q30all.png  used on input line 585.
 <./figs/q31.png, id=257, 758.835pt x 551.05875pt>
 File: ./figs/q31.png Graphic file (type png)
 <use ./figs/q31.png>
-Package pdftex.def Info: ./figs/q31.png  used on input line 604.
+Package pdftex.def Info: ./figs/q31.png  used on input line 600.
 (pdftex.def)             Requested size: 412.80157pt x 299.77872pt.
 
 
@@ -1516,17 +1516,17 @@ Package pdftex.def Info: ./figs/q31.png  used on input line 604.
 <./figs/q35.png, id=279, 615.29875pt x 275.0275pt>
 File: ./figs/q35.png Graphic file (type png)
 <use ./figs/q35.png>
-Package pdftex.def Info: ./figs/q35.png  used on input line 672.
+Package pdftex.def Info: ./figs/q35.png  used on input line 668.
 (pdftex.def)             Requested size: 258.0pt x 115.32191pt.
 
-Overfull \hbox (30.13321pt too wide) in paragraph at lines 676--678
+Overfull \hbox (30.13321pt too wide) in paragraph at lines 672--674
 \OT1/txr/m/n/12 stan-dard de-vi-a-tion of the prob-a-bil-ity dis-tri-bu-tion of
  $[]\OML/txmi/m/it/12 ;$ \OT1/txr/m/n/12 i.e. $\OML/txmi/m/it/12 ^^[[]$ \OT1/tx
 r/m/n/12 is $[]$ $[]$.
  []
 
 
-Overfull \hbox (86.42085pt too wide) in paragraph at lines 684--687
+Overfull \hbox (86.42085pt too wide) in paragraph at lines 680--683
 \OT1/txr/m/n/12 with ini-tial con-di-tions $\OML/txmi/m/it/12 y [] \OT1/txr/m/n
 /12 = \OML/txmi/m/it/12 y[] [] \OT1/txr/m/n/12 = \OML/txmi/m/it/12 y[] [] \OT1/
 txr/m/n/12 = 0$, the value of $[][] \OML/txmi/m/it/12 y []$ \OT1/txr/m/n/12 is 
@@ -1536,7 +1536,7 @@ $[]$ $[]$.
 
 
 [12 <./figs/q35.png>]
-Overfull \hbox (356.4234pt too wide) in paragraph at lines 710--720
+Overfull \hbox (356.4234pt too wide) in paragraph at lines 706--716
 []\OT1/txr/m/n/12 Seawater is passed through a col-umn con-tain-ing a bed of re
 sin beads. []
  []
@@ -1544,7 +1544,7 @@ sin beads. []
 <./figs/q41.png, id=299, 673.51625pt x 398.48875pt>
 File: ./figs/q41.png Graphic file (type png)
 <use ./figs/q41.png>
-Package pdftex.def Info: ./figs/q41.png  used on input line 731.
+Package pdftex.def Info: ./figs/q41.png  used on input line 727.
 (pdftex.def)             Requested size: 258.0pt x 152.64946pt.
 
 
@@ -1552,7 +1552,7 @@ Package pdftex.def Info: ./figs/q41.png  used on input line 731.
 <./figs/q48.png, id=313, 660.4675pt x 269.005pt>
 File: ./figs/q48.png Graphic file (type png)
 <use ./figs/q48.png>
-Package pdftex.def Info: ./figs/q48.png  used on input line 772.
+Package pdftex.def Info: ./figs/q48.png  used on input line 768.
 (pdftex.def)             Requested size: 258.0pt x 105.08391pt.
 
 
@@ -1585,7 +1585,7 @@ nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
 s/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 669275 bytes).
+Output written on main.pdf (15 pages, 668559 bytes).
 PDF statistics:
  423 PDF objects out of 1000 (max. 8388607)
  352 compressed objects within 4 object streams
