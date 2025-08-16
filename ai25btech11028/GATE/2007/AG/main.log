@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  16 AUG 2025 04:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  16 AUG 2025 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,8 +970,9 @@ ex
 ) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
 2022/09/23 4.25c tkz-obj-eu-triangles.tex
 )) (./gvv.sty
-\c@matchleft=\count325
-\c@matchright=\count326
+\c@rem=\count325
+\c@matchleft=\count326
+\c@matchright=\count327
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen328
@@ -988,36 +989,36 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip67
 \LTpre=\skip68
 \LTpost=\skip69
-\LTchunksize=\count327
+\LTchunksize=\count328
 \LTcapwidth=\dimen330
 \LT@head=\box78
 \LT@firsthead=\box79
 \LT@foot=\box80
 \LT@lastfoot=\box81
 \LT@gbox=\box82
-\LT@cols=\count328
-\LT@rows=\count329
-\c@LT@tables=\count330
-\c@LT@chunks=\count331
+\LT@cols=\count329
+\LT@rows=\count330
+\c@LT@tables=\count331
+\c@LT@chunks=\count332
 \LT@p@ftn=\toks47
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip70
-\multirow@cntb=\count332
+\multirow@cntb=\count333
 \multirow@dima=\skip71
 \bigstrutjot=\dimen331
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count333
+\c@tracingmulticols=\count334
 \mult@box=\box83
 \multicol@leftmargin=\dimen332
-\c@unbalance=\count334
-\c@collectmore=\count335
-\doublecol@number=\count336
-\multicoltolerance=\count337
-\multicolpretolerance=\count338
+\c@unbalance=\count335
+\c@collectmore=\count336
+\doublecol@number=\count337
+\multicoltolerance=\count338
+\multicolpretolerance=\count339
 \full@width=\dimen333
 \page@free=\dimen334
 \premulticols=\dimen335
@@ -1067,15 +1068,15 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box123
 \@tempa=\box124
 \@tempa=\box125
-\c@minrows=\count339
-\c@columnbadness=\count340
-\c@finalcolumnbadness=\count341
+\c@minrows=\count340
+\c@columnbadness=\count341
+\c@finalcolumnbadness=\count342
 \last@try=\dimen338
 \multicolovershoot=\dimen339
 \multicolundershoot=\dimen340
 \mult@nat@firstbox=\box126
 \colbreak@box=\box127
-\mc@col@check@num=\count342
+\mc@col@check@num=\count343
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
@@ -1090,12 +1091,12 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen343
 \TX@target=\dimen344
 \TX@delta=\dimen345
-\TX@cols=\count343
+\TX@cols=\count344
 \TX@ftn=\toks48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count344
+\c@float@type=\count345
 \float@exts=\toks49
 \float@box=\box128
 \@float@everytoks=\toks50
@@ -1151,11 +1152,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count345
+\c@section@level=\count346
 )
 \@linkdim=\dimen346
-\Hy@linkcounter=\count346
-\Hy@pagecounter=\count347
+\Hy@linkcounter=\count347
+\Hy@pagecounter=\count348
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
@@ -1168,7 +1169,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count348
+\Hy@SavedSpaceFactor=\count349
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
@@ -1183,7 +1184,7 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count349
+\c@Hy@tempcnt=\count350
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -1199,7 +1200,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count350
+\Fld@menulength=\count351
 \Field@Width=\dimen348
 \Fld@charsize=\dimen349
 Package hyperref Info: Hyper figures OFF on input line 6027.
@@ -1214,9 +1215,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6057.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count351
-\c@Item=\count352
-\c@Hfootnote=\count353
+\Hy@abspage=\count352
+\c@Item=\count353
+\c@Hfootnote=\count354
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1228,8 +1229,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count354
-\c@bookmark@seq@number=\count355
+\Fld@listcount=\count355
+\c@bookmark@seq@number=\count356
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1242,11 +1243,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip74
 )
-\c@theorem=\count356
-\c@problem=\count357
-\c@proposition=\count358
-\c@lemma=\count359
-\c@example=\count360
+\c@theorem=\count357
+\c@problem=\count358
+\c@proposition=\count359
+\c@lemma=\count360
+\c@example=\count361
 LaTeX Font Info:    Trying to load font information for T1+txr on input line 50
 .
 
@@ -1337,16 +1338,16 @@ LaTeX Font Info:    Font shape `T1/txr/b/it' in size <24> not available
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
+\scratchcounter=\count362
 \scratchdimen=\dimen350
 \scratchbox=\box130
-\nofMPsegments=\count362
-\nofMParguments=\count363
+\nofMPsegments=\count363
+\nofMParguments=\count364
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count364
+\MPscratchCnt=\count365
 \MPscratchDim=\dimen351
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
+\MPnumerator=\count366
+\makeMPintoPDFobject=\count367
 \everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1357,7 +1358,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count367
+\c@lstlisting=\count368
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 50.
@@ -1382,61 +1383,59 @@ Package hyperref Info: Link coloring OFF on input line 50.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <17> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 62.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 7
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 7
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 7
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 7
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7
 ] [8] [9] [10]
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 1153--1154
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
 []\T1/txr/m/n/12 327.56 MJ kg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 []\T1/txr/m/n/12 298.95 MJ kg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1155--1156
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 []\T1/txr/m/n/12 208.35 MJ kg
  []
 
-[13] [14] (./main.aux)
+[12] [13] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -1447,26 +1446,25 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32479 strings out of 476091
- 632923 string characters out of 5794081
- 1871330 words of memory out of 5000000
- 51890 multiletter control sequences out of 15000+600000
- 636333 words of font info for 190 fonts, out of 8000000 for 9000
+ 32641 strings out of 476091
+ 634253 string characters out of 5794081
+ 1872330 words of memory out of 5000000
+ 51902 multiletter control sequences out of 15000+600000
+ 625790 words of font info for 182 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,13n,96p,1232b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,13n,96p,1232b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 111717 bytes).
+onts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (13 pages, 106968 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 412 compressed objects within 5 object streams
- 287 named destinations out of 1000 (max. 500000)
+ 632 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
+ 443 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
