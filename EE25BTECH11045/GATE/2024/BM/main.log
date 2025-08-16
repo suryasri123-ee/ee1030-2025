@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.16)  16 AUG 2025 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.16)  16 AUG 2025 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2283,13 +2283,13 @@ t/fonts/enc/dvips/base/8r.enc}]
 
 
 
-Overfull \hbox (7.46977pt too wide) in paragraph at lines 152--155
+Overfull \hbox (7.46977pt too wide) in paragraph at lines 154--157
 \OT1/txr/m/n/12 From the an-cient Athe-nian arena to the mod-ern Olympic sta-di
 -ums, athletics$[]$
  []
 
 
-Overfull \hbox (6.36578pt too wide) in paragraph at lines 152--155
+Overfull \hbox (6.36578pt too wide) in paragraph at lines 154--157
 \OT1/txr/m/n/12 the po-ten-tial for a spec-ta-cle. The crowd $[]$ with bated br
 eath as the Olympian
  []
@@ -2307,12 +2307,12 @@ eath as the Olympian
 <figs/Q8.png, id=60, 268.6035pt x 183.084pt>
 File: figs/Q8.png Graphic file (type png)
 <use figs/Q8.png>
-Package pdftex.def Info: figs/Q8.png  used on input line 187.
+Package pdftex.def Info: figs/Q8.png  used on input line 189.
 (pdftex.def)             Requested size: 418.25368pt x 285.09584pt.
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
@@ -2334,14 +2334,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 \item In the 4 Ã—
+l.212 \item In the 4 Ã—
                         4 array shown below, each cell of the first three co...
 
 ? 
 <figs/Q9.png, id=86, 109.6095pt x 107.80275pt>
 File: figs/Q9.png Graphic file (type png)
 <use figs/Q9.png>
-Package pdftex.def Info: figs/Q9.png  used on input line 214.
+Package pdftex.def Info: figs/Q9.png  used on input line 216.
 (pdftex.def)             Requested size: 104.56342pt x 102.84628pt.
 
 
@@ -2366,7 +2366,7 @@ Package pdftex.def Info: figs/Q9.png  used on input line 214.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
@@ -2383,7 +2383,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
 
 [4]
-Overfull \hbox (10.20505pt too wide) in paragraph at lines 325--327
+Overfull \hbox (10.20505pt too wide) in paragraph at lines 327--329
 []\OT1/txr/m/n/12 Consider the fol-low-ing lay-ers: sub-cu-ta-neous fat, vi-abl
 e epi-der-mis, stra-tum corneum,
  []
@@ -2394,12 +2394,12 @@ e epi-der-mis, stra-tum corneum,
 <figs/Q20.png, id=153, 160.80075pt x 428.802pt>
 File: figs/Q20.png Graphic file (type png)
 <use figs/Q20.png>
-Package pdftex.def Info: figs/Q20.png  used on input line 365.
+Package pdftex.def Info: figs/Q20.png  used on input line 367.
 (pdftex.def)             Requested size: 83.64944pt x 223.06992pt.
 <figs/Q21.png, id=154, 154.77824pt x 145.7445pt>
 File: figs/Q21.png Graphic file (type png)
 <use figs/Q21.png>
-Package pdftex.def Info: figs/Q21.png  used on input line 374.
+Package pdftex.def Info: figs/Q21.png  used on input line 376.
 (pdftex.def)             Requested size: 104.56342pt x 98.46223pt.
 
 
@@ -2416,10 +2416,10 @@ Package pdftex.def Info: figs/Q21.png  used on input line 374.
 <figs/Q23.png, id=173, 127.07475pt x 107.80275pt>
 File: figs/Q23.png Graphic file (type png)
 <use figs/Q23.png>
-Package pdftex.def Info: figs/Q23.png  used on input line 404.
+Package pdftex.def Info: figs/Q23.png  used on input line 406.
 (pdftex.def)             Requested size: 125.47737pt x 106.45033pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--419
+Underfull \hbox (badness 10000) in paragraph at lines 419--421
 
  []
 
@@ -2428,35 +2428,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--419
 [7 <./figs/Q21.png> <./figs/Q23.png>]
 
 [8]
-<figs/Q30.png, id=217, 234.8775pt x 126.4725pt>
+<figs/Q30.png, id=218, 234.8775pt x 126.4725pt>
 
 ! Undefined control sequence.
 \Gin@@ewidth ->0.5\columwidth 
                               
-l.495 ...phics[width=0.5\columwidth]{figs/Q30.png}
+l.497 ...phics[width=0.5\columwidth]{figs/Q30.png}
                                                   
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.495 ...phics[width=0.5\columwidth]{figs/Q30.png}
+l.497 ...phics[width=0.5\columwidth]{figs/Q30.png}
                                                   
 ? 
 ! Undefined control sequence.
 \Gin@@ewidth ->0.5\columwidth 
                               
-l.495 ...phics[width=0.5\columwidth]{figs/Q30.png}
+l.497 ...phics[width=0.5\columwidth]{figs/Q30.png}
                                                   
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.495 ...phics[width=0.5\columwidth]{figs/Q30.png}
+l.497 ...phics[width=0.5\columwidth]{figs/Q30.png}
                                                   
 ? 
 File: figs/Q30.png Graphic file (type png)
 <use figs/Q30.png>
-Package pdftex.def Info: figs/Q30.png  used on input line 495.
+Package pdftex.def Info: figs/Q30.png  used on input line 497.
 (pdftex.def)             Requested size: 0.5pt x 0.26823pt.
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -2466,7 +2466,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.499 ...ameter of 2 cm, height of 3cm and Youngâ€
+l.501 ...ameter of 2 cm, height of 3cm and Youngâ€
                                                   ™s modulus of 20 MPa. If a...
 
 ? 
@@ -2478,19 +2478,18 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.499 ...meter of 2 cm, height of 3cm and Youngâ€™
+l.501 ...meter of 2 cm, height of 3cm and Youngâ€™
                                                   s modulus of 20 MPa. If an...
 
 ? 
+<figs/Q34.png, id=219, 205.36725pt x 97.5645pt>
+File: figs/Q34.png Graphic file (type png)
+<use figs/Q34.png>
+Package pdftex.def Info: figs/Q34.png  used on input line 520.
+(pdftex.def)             Requested size: 209.12683pt x 99.35367pt.
 
 
 [9 <./figs/Q30.png>]
-<figs/Q34.png, id=235, 205.36725pt x 97.5645pt>
-File: figs/Q34.png Graphic file (type png)
-<use figs/Q34.png>
-Package pdftex.def Info: figs/Q34.png  used on input line 518.
-(pdftex.def)             Requested size: 209.12683pt x 99.35367pt.
-
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -2499,7 +2498,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.524 ...\hspace{1cm}} $\mu$m. The value of Wienâ€
+l.526 ...\hspace{1cm}} $\mu$m. The value of Wienâ€
                                                   ™s displacement  constant ...
 
 ? 
@@ -2511,7 +2510,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.524 ...hspace{1cm}} $\mu$m. The value of Wienâ€™
+l.526 ...hspace{1cm}} $\mu$m. The value of Wienâ€™
                                                   s displacement  constant i...
 
 ? 
@@ -2526,7 +2525,7 @@ l.524 ...hspace{1cm}} $\mu$m. The value of Wienâ€™
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--546
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
@@ -2542,10 +2541,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
 
 
-<figs/Q39.png, id=250, 237.2865pt x 333.04425pt>
+<figs/Q39.png, id=251, 237.2865pt x 333.04425pt>
 File: figs/Q39.png Graphic file (type png)
 <use figs/Q39.png>
-Package pdftex.def Info: figs/Q39.png  used on input line 594.
+Package pdftex.def Info: figs/Q39.png  used on input line 596.
 (pdftex.def)             Requested size: 209.12683pt x 293.52196pt.
 
 
@@ -2553,7 +2552,7 @@ Package pdftex.def Info: figs/Q39.png  used on input line 594.
 <figs/Q41.png, id=269, 188.50426pt x 169.8345pt>
 File: figs/Q41.png Graphic file (type png)
 <use figs/Q41.png>
-Package pdftex.def Info: figs/Q41.png  used on input line 614.
+Package pdftex.def Info: figs/Q41.png  used on input line 616.
 (pdftex.def)             Requested size: 209.12683pt x 188.41745pt.
 
 
@@ -2561,7 +2560,7 @@ Package pdftex.def Info: figs/Q41.png  used on input line 614.
 <figs/Q43.png, id=286, 410.13225pt x 99.9735pt>
 File: figs/Q43.png Graphic file (type png)
 <use figs/Q43.png>
-Package pdftex.def Info: figs/Q43.png  used on input line 642.
+Package pdftex.def Info: figs/Q43.png  used on input line 644.
 (pdftex.def)             Requested size: 250.95476pt x 61.17288pt.
 
 
@@ -2576,15 +2575,15 @@ Package pdftex.def Info: figs/Q43.png  used on input line 642.
 <figs/Q45.png, id=287, 328.22626pt x 71.66776pt>
 File: figs/Q45.png Graphic file (type png)
 <use figs/Q45.png>
-Package pdftex.def Info: figs/Q45.png  used on input line 680.
+Package pdftex.def Info: figs/Q45.png  used on input line 682.
 (pdftex.def)             Requested size: 334.60422pt x 73.06076pt.
 
 
-[13 <./figs/Q43.png>]
-<figs/Q46.png, id=310, 142.73325pt x 99.9735pt>
+[13 <./figs/Q43.png> <./figs/Q45.png>]
+<figs/Q46.png, id=312, 142.73325pt x 99.9735pt>
 File: figs/Q46.png Graphic file (type png)
 <use figs/Q46.png>
-Package pdftex.def Info: figs/Q46.png  used on input line 697.
+Package pdftex.def Info: figs/Q46.png  used on input line 699.
 (pdftex.def)             Requested size: 209.12683pt x 146.49092pt.
 
 
@@ -2596,84 +2595,84 @@ Package pdftex.def Info: figs/Q46.png  used on input line 697.
 
 
 
-
-
-[14 <./figs/Q45.png> <./figs/Q46.png>]
-<figs/Q48.png, id=333, 142.73325pt x 103.587pt>
+<figs/Q48.png, id=313, 142.73325pt x 103.587pt>
 File: figs/Q48.png Graphic file (type png)
 <use figs/Q48.png>
-Package pdftex.def Info: figs/Q48.png  used on input line 728.
+Package pdftex.def Info: figs/Q48.png  used on input line 730.
 (pdftex.def)             Requested size: 209.12683pt x 151.78581pt.
-<figs/Q50.png, id=334, 184.89075pt x 131.2905pt>
+
+
+[14 <./figs/Q46.png>]
+<figs/Q50.png, id=335, 184.89075pt x 131.2905pt>
 File: figs/Q50.png Graphic file (type png)
 <use figs/Q50.png>
-Package pdftex.def Info: figs/Q50.png  used on input line 758.
+Package pdftex.def Info: figs/Q50.png  used on input line 760.
 (pdftex.def)             Requested size: 209.12683pt x 148.51077pt.
 
 
-[15 <./figs/Q48.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 771--771
+[15 <./figs/Q48.png> <./figs/Q50.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
 []|\OT1/txr/m/n/12 Approximation to-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--771
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
 \OT1/txr/m/n/12 cross sec-tional area
  []
 
 
-
-[16 <./figs/Q50.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 806--808
+Underfull \hbox (badness 10000) in paragraph at lines 808--810
 
  []
 
-<figs/Q56.png, id=362, 272.217pt x 143.3355pt>
+
+
+[16]
+<figs/Q56.png, id=364, 272.217pt x 143.3355pt>
 File: figs/Q56.png Graphic file (type png)
 <use figs/Q56.png>
-Package pdftex.def Info: figs/Q56.png  used on input line 822.
+Package pdftex.def Info: figs/Q56.png  used on input line 824.
 (pdftex.def)             Requested size: 250.95476pt x 132.14581pt.
-<figs/Q57.png, id=363, 238.491pt x 154.176pt>
+<figs/Q57.png, id=365, 238.491pt x 154.176pt>
 File: figs/Q57.png Graphic file (type png)
 <use figs/Q57.png>
-Package pdftex.def Info: figs/Q57.png  used on input line 834.
+Package pdftex.def Info: figs/Q57.png  used on input line 836.
 (pdftex.def)             Requested size: 250.95476pt x 162.23537pt.
 
 
-[17 <./figs/Q56.png>]
-<figs/Q60.png, id=374, 245.718pt x 151.16475pt>
+[17 <./figs/Q56.png> <./figs/Q57.png>]
+<figs/Q60.png, id=377, 245.718pt x 151.16475pt>
 File: figs/Q60.png Graphic file (type png)
 <use figs/Q60.png>
-Package pdftex.def Info: figs/Q60.png  used on input line 856.
+Package pdftex.def Info: figs/Q60.png  used on input line 858.
 (pdftex.def)             Requested size: 250.95476pt x 154.39359pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 860--861
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 
  []
 
-<figs/Q61.png, id=375, 147.55125pt x 142.73325pt>
+<figs/Q61.png, id=378, 147.55125pt x 142.73325pt>
 File: figs/Q61.png Graphic file (type png)
 <use figs/Q61.png>
-Package pdftex.def Info: figs/Q61.png  used on input line 868.
+Package pdftex.def Info: figs/Q61.png  used on input line 870.
 (pdftex.def)             Requested size: 209.12683pt x 202.30363pt.
 
-
-[18 <./figs/Q57.png> <./figs/Q60.png>]
-Overfull \hbox (12.55705pt too wide) in paragraph at lines 874--876
+Overfull \hbox (12.55705pt too wide) in paragraph at lines 876--878
 []\OT1/txr/m/n/12 An ar-ti-fi-cial fore-arm has a moment-of-inertia around the 
 cen-ter of mass as 0.3kg.$[][]$.
  []
 
-<figs/Q65.png, id=389, 247.52475pt x 141.52875pt>
+
+
+[18 <./figs/Q60.png> <./figs/Q61.png>]
+<figs/Q65.png, id=391, 247.52475pt x 141.52875pt>
 File: figs/Q65.png Graphic file (type png)
 <use figs/Q65.png>
-Package pdftex.def Info: figs/Q65.png  used on input line 897.
+Package pdftex.def Info: figs/Q65.png  used on input line 899.
 (pdftex.def)             Requested size: 250.95476pt x 143.49358pt.
 
 
-[19 <./figs/Q61.png>]
-
-[20 <./figs/Q65.png>]
+[19 <./figs/Q65.png>]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 
 Class exam Warning: Point totals have changed. Rerun to get point totals right.
@@ -2698,13 +2697,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 55504 strings out of 467801
- 1326624 string characters out of 5417842
+ 55507 strings out of 467801
+ 1326684 string characters out of 5417842
  1931315 words of memory out of 5000000
- 83078 multiletter control sequences out of 15000+600000
- 672461 words of font info for 157 fonts, out of 8000000 for 9000
+ 83080 multiletter control sequences out of 15000+600000
+ 673777 words of font info for 159 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,14n,105p,1194b,1314s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,14n,105p,1194b,1312s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/sha
@@ -2715,10 +2714,10 @@ public/txfonts/txsyc.pfb></data/data/com.termux/files/usr/share/texlive/2025/te
 xmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/shar
 e/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.term
 ux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 286446 bytes).
+Output written on main.pdf (19 pages, 286018 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
- 263 named destinations out of 1000 (max. 500000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 262 named destinations out of 1000 (max. 500000)
  204 words of extra memory for PDF output out of 10000 (max. 10000000)
 
