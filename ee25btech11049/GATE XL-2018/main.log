@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.15)  16 AUG 2025 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.15)  16 AUG 2025 21:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**XL-2018.tex
-(./XL-2018.tex
+**main.tex
+(./main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -1352,57 +1352,57 @@ Package chngcntr Info: \counterwithout already defined.
 \c@lemma=\count391
 \c@example=\count392
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 89.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
-9.
+h' as default language. on input line 90.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-No file XL-2018.aux.
-\openout1 = `XL-2018.aux'.
+No file main.aux.
+\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 89.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 90.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-89.
+90.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 90.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-89.
+90.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 90.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-89.
+90.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 89.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
-9.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 90.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1410,7 +1410,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 89.
+or `english'. on input line 90.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1468,20 +1468,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \celsius on input line 89.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 89.
+LaTeX Info: Redefining \celsius on input line 90.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 90.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 89.
-Package gensymb Info: Using \Omega for \ohm on input line 89.
+LaTeX Info: Redefining \ohm on input line 90.
+Package gensymb Info: Using \Omega for \ohm on input line 90.
 
 Package gensymb Warning: Not defining \micro.
 
 
-Package chemgreek Info: Activating mapping `default' on line 89.
+Package chemgreek Info: Activating mapping `default' on line 90.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1492,49 +1492,49 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 89.
+Package hyperref Info: Link coloring OFF on input line 90.
 \@outlinefile=\write4
-\openout4 = `XL-2018.out'.
+\openout4 = `main.out'.
 
 \c@lstlisting=\count399
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 92.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <35.83> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 92.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 92
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 93.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 93
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
-2.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
-2.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
-2.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-2.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20.74> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 
 
 [1
@@ -1545,157 +1545,162 @@ st/fonts/enc/dvips/base/8r.enc}]
 File: fig1.png Graphic file (type png)
 <use fig1.png>
 Package pdftex.def Info: fig1.png  used on input line 198.
-(pdftex.def)             Requested size: 234.87692pt x 236.38254pt.
+(pdftex.def)             Requested size: 241.84843pt x 243.39798pt.
 
 
 [2]
 
 [3 <./fig1.png>]
-<fig2.png, id=103, 571.38469pt x 96.36pt>
+<fig2.png, id=104, 571.38469pt x 96.36pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 267.
-(pdftex.def)             Requested size: 399.96655pt x 67.45152pt.
+Package pdftex.def Info: fig2.png  used on input line 272.
+(pdftex.def)             Requested size: 483.69687pt x 81.5726pt.
 
 
 [4
 
  <./fig2.png>]
-<fig3.png, id=134, 362.85562pt x 111.41624pt>
+<fig3.png, id=131, 362.85562pt x 111.41624pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 312.
-(pdftex.def)             Requested size: 362.85474pt x 111.41597pt.
-<fig4.png, id=135, 162.6075pt x 104.64093pt>
+Package pdftex.def Info: fig3.png  used on input line 322.
+(pdftex.def)             Requested size: 435.32422pt x 133.67162pt.
+
+
+[5 <./fig3.png>]
+<fig4.png, id=158, 162.6075pt x 104.64093pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 315.
-(pdftex.def)             Requested size: 113.82446pt x 73.24814pt.
-<fig5.png, id=136, 138.5175pt x 93.34875pt>
+Package pdftex.def Info: fig4.png  used on input line 329.
+(pdftex.def)             Requested size: 101.85692pt x 65.54889pt.
+<fig5.png, id=159, 138.5175pt x 93.34875pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 316.
-(pdftex.def)             Requested size: 96.96158pt x 65.34366pt.
-<fig6.png, id=137, 139.27031pt x 97.86563pt>
+Package pdftex.def Info: fig5.png  used on input line 330.
+(pdftex.def)             Requested size: 101.85692pt x 68.64255pt.
+<fig6.png, id=160, 139.27031pt x 97.86563pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 317.
-(pdftex.def)             Requested size: 97.48854pt x 68.50545pt.
-<fig7.png, id=138, 148.30406pt x 91.84312pt>
+Package pdftex.def Info: fig6.png  used on input line 331.
+(pdftex.def)             Requested size: 101.85692pt x 71.57718pt.
+<fig7.png, id=161, 148.30406pt x 91.84312pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 318.
-(pdftex.def)             Requested size: 103.81212pt x 64.28973pt.
-<fig8.png, id=139, 261.97874pt x 80.55093pt>
+Package pdftex.def Info: fig7.png  used on input line 332.
+(pdftex.def)             Requested size: 101.85692pt x 63.08171pt.
+<fig8.png, id=162, 261.97874pt x 80.55093pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 323.
-(pdftex.def)             Requested size: 261.9781pt x 80.55074pt.
-
-
-[5 <./fig3.png> <./fig4.png> <./fig5.png> <./fig6.png> <./fig7.png>]
-<fig9.png, id=169, 204.01219pt x 125.71968pt>
+Package pdftex.def Info: fig8.png  used on input line 339.
+(pdftex.def)             Requested size: 386.95897pt x 118.98244pt.
+<fig9.png, id=163, 204.01219pt x 125.71968pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
-Package pdftex.def Info: fig9.png  used on input line 326.
-(pdftex.def)             Requested size: 163.20996pt x 100.57587pt.
-<fig10.png, id=170, 198.7425pt x 78.2925pt>
+Package pdftex.def Info: fig9.png  used on input line 345.
+(pdftex.def)             Requested size: 96.73788pt x 59.61386pt.
+<fig10.png, id=164, 198.7425pt x 78.2925pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
-Package pdftex.def Info: fig10.png  used on input line 327.
-(pdftex.def)             Requested size: 158.9942pt x 62.63406pt.
-<fig11.png, id=171, 145.29282pt x 60.97781pt>
+Package pdftex.def Info: fig10.png  used on input line 346.
+(pdftex.def)             Requested size: 96.73788pt x 38.10919pt.
+<fig11.png, id=165, 145.29282pt x 60.97781pt>
 File: fig11.png Graphic file (type png)
 <use fig11.png>
-Package pdftex.def Info: fig11.png  used on input line 328.
-(pdftex.def)             Requested size: 145.29245pt x 60.97765pt.
+Package pdftex.def Info: fig11.png  used on input line 347.
+(pdftex.def)             Requested size: 96.73788pt x 40.59996pt.
 File: fig10.png Graphic file (type png)
 <use fig10.png>
-Package pdftex.def Info: fig10.png  used on input line 329.
-(pdftex.def)             Requested size: 158.9942pt x 62.63406pt.
-<fig12.png, id=172, 76.03406pt x 79.79813pt>
+Package pdftex.def Info: fig10.png  used on input line 348.
+(pdftex.def)             Requested size: 96.73788pt x 38.10919pt.
+
+
+[6
+
+ <./fig4.png> <./fig5.png> <./fig6.png> <./fig7.png> <./fig8.png> <./fig9.png> 
+<./fig10.png> <./fig11.png>]
+<fig12.png, id=189, 76.03406pt x 79.79813pt>
 File: fig12.png Graphic file (type png)
 <use fig12.png>
-Package pdftex.def Info: fig12.png  used on input line 336.
-(pdftex.def)             Requested size: 53.22346pt x 55.85829pt.
-<fig13.png, id=173, 58.71938pt x 70.76437pt>
+Package pdftex.def Info: fig12.png  used on input line 356.
+(pdftex.def)             Requested size: 40.74214pt x 42.76036pt.
+<fig13.png, id=190, 58.71938pt x 70.76437pt>
 File: fig13.png Graphic file (type png)
 <use fig13.png>
-Package pdftex.def Info: fig13.png  used on input line 337.
-(pdftex.def)             Requested size: 41.10326pt x 49.53471pt.
-<fig14.png, id=174, 93.34875pt x 71.51718pt>
+Package pdftex.def Info: fig13.png  used on input line 357.
+(pdftex.def)             Requested size: 40.74214pt x 49.09956pt.
+<fig14.png, id=191, 93.34875pt x 71.51718pt>
 File: fig14.png Graphic file (type png)
 <use fig14.png>
-Package pdftex.def Info: fig14.png  used on input line 338.
-(pdftex.def)             Requested size: 65.34366pt x 50.06168pt.
-<fig15.png, id=175, 75.28125pt x 70.01157pt>
+Package pdftex.def Info: fig14.png  used on input line 358.
+(pdftex.def)             Requested size: 40.74214pt x 31.21338pt.
+<fig15.png, id=192, 75.28125pt x 70.01157pt>
 File: fig15.png Graphic file (type png)
 <use fig15.png>
-Package pdftex.def Info: fig15.png  used on input line 339.
-(pdftex.def)             Requested size: 52.6965pt x 49.00775pt.
+Package pdftex.def Info: fig15.png  used on input line 359.
+(pdftex.def)             Requested size: 40.74214pt x 37.89113pt.
 
 
-[6 <./fig8.png> <./fig9.png> <./fig10.png> <./fig11.png> <./fig12.png> <./fig13
-.png> <./fig14.png> <./fig15.png>]
+[7
 
-[7]
-<fig16.png, id=210, 283.0575pt x 202.50656pt>
+ <./fig12.png> <./fig13.png> <./fig14.png> <./fig15.png>]
+<fig16.png, id=214, 283.0575pt x 202.50656pt>
 File: fig16.png Graphic file (type png)
 <use fig16.png>
-Package pdftex.def Info: fig16.png  used on input line 390.
-(pdftex.def)             Requested size: 283.0568pt x 202.50604pt.
+Package pdftex.def Info: fig16.png  used on input line 411.
+(pdftex.def)             Requested size: 290.22107pt x 207.6478pt.
 
 
 [8
 
  <./fig16.png>]
-<fig17.png, id=233, 140.02313pt x 111.41624pt>
+<fig17.png, id=238, 140.02313pt x 111.41624pt>
 File: fig17.png Graphic file (type png)
 <use fig17.png>
-Package pdftex.def Info: fig17.png  used on input line 417.
-(pdftex.def)             Requested size: 98.01552pt x 77.99083pt.
-<fig18.png, id=234, 130.23656pt x 106.14656pt>
+Package pdftex.def Info: fig17.png  used on input line 440.
+(pdftex.def)             Requested size: 84.96417pt x 67.60849pt.
+<fig18.png, id=239, 130.23656pt x 106.14656pt>
 File: fig18.png Graphic file (type png)
 <use fig18.png>
-Package pdftex.def Info: fig18.png  used on input line 418.
-(pdftex.def)             Requested size: 91.16496pt x 74.30208pt.
-<fig19.png, id=235, 116.68594pt x 106.89937pt>
+Package pdftex.def Info: fig18.png  used on input line 441.
+(pdftex.def)             Requested size: 84.96417pt x 69.24873pt.
+<fig19.png, id=240, 116.68594pt x 106.89937pt>
 File: fig19.png Graphic file (type png)
 <use fig19.png>
-Package pdftex.def Info: fig19.png  used on input line 419.
-(pdftex.def)             Requested size: 81.67958pt x 74.82903pt.
-<fig20.png, id=236, 130.23656pt x 111.41624pt>
+Package pdftex.def Info: fig19.png  used on input line 442.
+(pdftex.def)             Requested size: 84.96417pt x 77.84177pt.
+<fig20.png, id=241, 130.23656pt x 111.41624pt>
 File: fig20.png Graphic file (type png)
 <use fig20.png>
-Package pdftex.def Info: fig20.png  used on input line 420.
-(pdftex.def)             Requested size: 91.16496pt x 77.99083pt.
+Package pdftex.def Info: fig20.png  used on input line 443.
+(pdftex.def)             Requested size: 84.96417pt x 72.6866pt.
 
 
 [9 <./fig17.png> <./fig18.png> <./fig19.png> <./fig20.png>]
-Underfull \hbox (badness 5105) in paragraph at lines 503--503
+Underfull \hbox (badness 5105) in paragraph at lines 526--526
 []|\OT1/txr/m/n/14.4 Increasing con-cen-tra-tion of sodium
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 505--505
+Underfull \hbox (badness 3343) in paragraph at lines 528--528
 []|\OT1/txr/m/n/14.4 Decreasing con-cen-tra-tion of am-mo-
  []
 
 
-Overfull \hbox (4.89795pt too wide) in paragraph at lines 499--509
+Overfull \hbox (4.89795pt too wide) in paragraph at lines 522--532
  [] 
  []
 
 
 
 [10]
-<fig21.png, id=295, 559.33969pt x 56.46094pt>
+<fig21.png, id=300, 559.33969pt x 56.46094pt>
 File: fig21.png Graphic file (type png)
 <use fig21.png>
-Package pdftex.def Info: fig21.png  used on input line 561.
-(pdftex.def)             Requested size: 447.47235pt x 45.1688pt.
+Package pdftex.def Info: fig21.png  used on input line 586.
+(pdftex.def)             Requested size: 435.32422pt x 43.94371pt.
 
-Overfull \hbox (52.98752pt too wide) detected at line 589
+Overfull \hbox (52.98752pt too wide) detected at line 618
 [] \OT1/txr/m/n/14.4 + [] + \OML/txmi/m/it/14.4 H[]O  []  [] \OT1/txr/m/n/14.4 
 + [] ^^A\OML/txmi/m/it/14.4 G[] \OT1/txr/m/n/14.4 = \OMS/txsy/m/n/14.4 ^^@\OT1/
 txr/m/n/14.4 8192 []
@@ -1714,36 +1719,36 @@ txr/m/n/14.4 8192 []
 ]
 
 [14]
-Underfull \hbox (badness 4254) in paragraph at lines 756--756
+Underfull \hbox (badness 4254) in paragraph at lines 785--785
 []|\OT1/txr/m/n/14.4 S. An etaerio of
  []
 
 
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 772--772
+Underfull \hbox (badness 10000) in paragraph at lines 801--801
 []|\OT1/txr/bx/n/14.4 Affected
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 773--774
+Underfull \hbox (badness 3668) in paragraph at lines 802--803
 []|\OT1/txr/m/n/14.4 i. \OT1/txr/m/it/14.4 Fusar-ium oxys-po-rum \OT1/txr/m/n/1
 4.4 f.sp.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
 []|\OT1/txr/m/n/14.4 1. Glu-ta-mate $\OMS/txsy/m/n/14.4 !$ \OT1/txr/m/n/14.4 2-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
 []|\OT1/txr/m/n/14.4 3. 2-Oxoglutarate $\OMS/txsy/m/n/14.4 !$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--811
+Underfull \hbox (badness 10000) in paragraph at lines 840--840
 []|\OT1/txr/m/n/14.4 R. Scopo-
  []
 
@@ -1753,14 +1758,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 811--811
 
 [17]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 842.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 871.
 
 
 [18
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 9
-45.
+74.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
@@ -1768,16 +1773,16 @@ File: ts1txr.fd 2000/12/15 v3.1
 [19]
 
 [20]
-<fig22.png, id=515, 158.09062pt x 136.25906pt>
+<fig22.png, id=521, 158.09062pt x 136.25906pt>
 File: fig22.png Graphic file (type png)
 <use fig22.png>
-Package pdftex.def Info: fig22.png  used on input line 1072.
-(pdftex.def)             Requested size: 110.66267pt x 95.38068pt.
+Package pdftex.def Info: fig22.png  used on input line 1103.
+(pdftex.def)             Requested size: 241.84843pt x 208.46526pt.
 
 
-[21 <./fig22.png>]
+[21]
 
-[22]
+[22 <./fig22.png>]
 
 [23
 
@@ -1797,29 +1802,32 @@ Package pdftex.def Info: fig22.png  used on input line 1072.
 
 [29]
 
-[30] (./XL-2018.aux)
+[30] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 
 
-Package rerunfilecheck Warning: File `XL-2018.out' has changed.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `XL-2018.out':
+Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 54764 strings out of 473197
- 1299763 string characters out of 5718605
- 1901366 words of memory out of 5000000
- 76672 multiletter control sequences out of 15000+600000
+ 54786 strings out of 473197
+ 1300073 string characters out of 5718605
+ 1901360 words of memory out of 5000000
+ 76687 multiletter control sequences out of 15000+600000
  601769 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,91p,1180b,1469s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,91p,1177b,1451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fo
@@ -1828,10 +1836,10 @@ ublic/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
 s/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on XL-2018.pdf (30 pages, 285391 bytes).
+Output written on main.pdf (30 pages, 285882 bytes).
 PDF statistics:
- 898 PDF objects out of 1000 (max. 8388607)
- 780 compressed objects within 8 object streams
- 558 named destinations out of 1000 (max. 500000)
+ 907 PDF objects out of 1000 (max. 8388607)
+ 789 compressed objects within 8 object streams
+ 565 named destinations out of 1000 (max. 500000)
  219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
