@@ -1321,4 +1321,104 @@ e
 \c@lstlisting=\count366
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> 
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 46.
+Package gensymb Info: Math companion symbols declared on input line 46.
+LaTeX Info: Redefining \degree on input line 46.
+LaTeX Info: Redefining \celsius on input line 46.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 46.
+LaTeX Info: Redefining \ohm on input line 46.
+Package gensymb Info: Using \textohm for \ohm on input line 46.
+Package gensymb Info: Using \textmu for \micro on input line 46.
+Package hyperref Info: Link coloring OFF on input line 46.
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 295--301
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 371--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--400
+
+ []
+
+[5] [6]
+
+LaTeX Warning: File `figures/gate-pi-2008-40.png' not found on input line 536.
+
+
+! Package pdftex.def Error: File `figures/gate-pi-2008-40.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.536 ...5\linewidth]{figures/gate-pi-2008-40.png}
+                                                  
+? exit
+ 
+Here is how much of TeX's memory you used:
+ 30767 strings out of 476091
+ 604180 string characters out of 5794082
+ 1869330 words of memory out of 5000000
+ 50342 multiletter control sequences out of 15000+600000
+ 572228 words of font info for 149 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 101i,12n,96p,1167b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfon
+ts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 71053 bytes).
+PDF statistics:
+ 230 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
