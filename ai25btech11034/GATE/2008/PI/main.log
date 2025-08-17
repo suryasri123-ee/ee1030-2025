@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.6)  15 AUG 2025 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.6)  17 AUG 2025 07:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1334,157 +1334,203 @@ Package hyperref Info: Link coloring OFF on input line 46.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 278--280
+Underfull \hbox (badness 10000) in paragraph at lines 295--301
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 344--351
+Underfull \hbox (badness 10000) in paragraph at lines 371--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--371
+Underfull \hbox (badness 10000) in paragraph at lines 398--400
 
  []
 
 [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 491--493
-
- []
-
-<figures/gate-pi-2008-40.png, id=132, 241.65282pt x 94.10156pt>
+<figures/gate-pi-2008-40.png, id=169, 241.65282pt x 94.10156pt>
 File: figures/gate-pi-2008-40.png Graphic file (type png)
 <use figures/gate-pi-2008-40.png>
-Package pdftex.def Info: figures/gate-pi-2008-40.png  used on input line 495.
-(pdftex.def)             Requested size: 246.0pt x 95.79851pt.
-[7 <./figures/gate-pi-2008-40.png>] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
+Package pdftex.def Info: figures/gate-pi-2008-40.png  used on input line 536.
+(pdftex.def)             Requested size: 258.0pt x 100.47801pt.
+ [7 <./figures/gate-pi-2008-40.png>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
 
  []
 
-<figures/GATE-pi-2008-51.png, id=173, 572.89032pt x 234.1247pt>
+<figures/GATE-pi-2008-51.png, id=221, 572.89032pt x 234.1247pt>
 File: figures/GATE-pi-2008-51.png Graphic file (type png)
 <use figures/GATE-pi-2008-51.png>
-Package pdftex.def Info: figures/GATE-pi-2008-51.png  used on input line 687.
-(pdftex.def)             Requested size: 361.19843pt x 147.61365pt.
-[9 <./figures/GATE-pi-2008-51.png>]
-File: figures/GATE-pi-2008-51.png Graphic file (type png)
-<use figures/GATE-pi-2008-51.png>
-Package pdftex.def Info: figures/GATE-pi-2008-51.png  used on input line 704.
-(pdftex.def)             Requested size: 180.60315pt x 73.80682pt.
-<figures/GATE-pi-2008-55.png, id=179, 437.38406pt x 75.28125pt>
+Package pdftex.def Info: figures/GATE-pi-2008-51.png  used on input line 737.
+(pdftex.def)             Requested size: 258.0pt x 105.4373pt.
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.744     \begin
+                {enumerate} <./figures/GATE-pi-2008-51.png>]
+<figures/GATE-pi-2008-55.png, id=234, 437.38406pt x 75.28125pt>
 File: figures/GATE-pi-2008-55.png Graphic file (type png)
 <use figures/GATE-pi-2008-55.png>
-Package pdftex.def Info: figures/GATE-pi-2008-55.png  used on input line 728.
-(pdftex.def)             Requested size: 232.19843pt x 39.96548pt.
-<figures/GATE-pi-2008-56.png, id=180, 362.10281pt x 110.66344pt>
+Package pdftex.def Info: figures/GATE-pi-2008-55.png  used on input line 779.
+(pdftex.def)             Requested size: 258.0pt x 44.40634pt.
+<figures/GATE-pi-2008-56.png, id=235, 362.10281pt x 110.66344pt>
 File: figures/GATE-pi-2008-56.png Graphic file (type png)
 <use figures/GATE-pi-2008-56.png>
-Package pdftex.def Info: figures/GATE-pi-2008-56.png  used on input line 747.
-(pdftex.def)             Requested size: 232.19843pt x 70.9645pt.
- [10 <./figures/GATE-pi-2008-55.png> <./figures/GATE-pi-2008-56.png>]
-<figures/GATE-pi-2008-60.png, id=187, 411.03563pt x 258.9675pt>
+Package pdftex.def Info: figures/GATE-pi-2008-56.png  used on input line 801.
+(pdftex.def)             Requested size: 258.0pt x 78.8485pt.
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.818     \begin
+                {enumerate}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.818     \begin
+                {enumerate} <./figures/GATE-pi-2008-55.png> <./figures/GATE-pi-
+2008-56.png>]
+<figures/GATE-pi-2008-60.png, id=248, 411.03563pt x 258.9675pt>
 File: figures/GATE-pi-2008-60.png Graphic file (type png)
 <use figures/GATE-pi-2008-60.png>
-Package pdftex.def Info: figures/GATE-pi-2008-60.png  used on input line 799.
-(pdftex.def)             Requested size: 309.60315pt x 195.06285pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 819--820
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 821--822
-
- []
-
-[11 <./figures/GATE-pi-2008-60.png>]
-<figures/63-a-pi-2008-gate.png, id=198, 250.68657pt x 213.04594pt>
+Package pdftex.def Info: figures/GATE-pi-2008-60.png  used on input line 856.
+(pdftex.def)             Requested size: 258.0pt x 162.54974pt.
+ [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.900     \begin
+                {enumerate} <./figures/GATE-pi-2008-60.png>]
+<figures/63-a-pi-2008-gate.png, id=264, 250.68657pt x 213.04594pt>
 File: figures/63-a-pi-2008-gate.png Graphic file (type png)
 <use figures/63-a-pi-2008-gate.png>
-Package pdftex.def Info: figures/63-a-pi-2008-gate.png  used on input line 854.
+Package pdftex.def Info: figures/63-a-pi-2008-gate.png  used on input line 921.
 
 (pdftex.def)             Requested size: 180.60315pt x 153.49373pt.
-<figures/63-b-pi-2008-gate.png, id=199, 244.66406pt x 200.24812pt>
+<figures/63-b-pi-2008-gate.png, id=265, 244.66406pt x 200.24812pt>
 File: figures/63-b-pi-2008-gate.png Graphic file (type png)
 <use figures/63-b-pi-2008-gate.png>
-Package pdftex.def Info: figures/63-b-pi-2008-gate.png  used on input line 855.
+Package pdftex.def Info: figures/63-b-pi-2008-gate.png  used on input line 925.
 
 (pdftex.def)             Requested size: 180.60315pt x 147.82074pt.
-<figures/63-c-pi-2008-gate.png, id=200, 244.66406pt x 207.77625pt>
+<figures/63-c-pi-2008-gate.png, id=266, 244.66406pt x 207.77625pt>
 File: figures/63-c-pi-2008-gate.png Graphic file (type png)
 <use figures/63-c-pi-2008-gate.png>
-Package pdftex.def Info: figures/63-c-pi-2008-gate.png  used on input line 856.
+Package pdftex.def Info: figures/63-c-pi-2008-gate.png  used on input line 929.
 
 (pdftex.def)             Requested size: 180.60315pt x 153.3779pt.
-<figures/63-d-pi-2008-gate.png, id=201, 280.04625pt x 225.84375pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/63-d-pi-2008-gate.png, id=267, 280.04625pt x 225.84375pt>
 File: figures/63-d-pi-2008-gate.png Graphic file (type png)
 <use figures/63-d-pi-2008-gate.png>
-Package pdftex.def Info: figures/63-d-pi-2008-gate.png  used on input line 857.
+Package pdftex.def Info: figures/63-d-pi-2008-gate.png  used on input line 933.
 
 (pdftex.def)             Requested size: 180.60315pt x 145.65259pt.
- [12 <./figures/63-a-pi-2008-gate.png> <./figures/63-b-pi-2008-gate.png> <./fig
-ures/63-c-pi-2008-gate.png>] [13 <./figures/63-d-pi-2008-gate.png>]
-<figures/71-73-pi-2008-gate.png, id=227, 426.09187pt x 217.5628pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.952 \noindent
+               
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.952 \noindent
+                <./figures/63-a-pi-2008-gate.png> <./figures/63-b-pi-2008-gate.
+png>] [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.981     \begin
+                {enumerate}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.981     \begin
+                {enumerate} <./figures/63-c-pi-2008-gate.png> <./figures/63-d-p
+i-2008-gate.png>] [14]
+<figures/71-73-pi-2008-gate.png, id=322, 426.09187pt x 217.5628pt>
 File: figures/71-73-pi-2008-gate.png Graphic file (type png)
 <use figures/71-73-pi-2008-gate.png>
-Package pdftex.def Info: figures/71-73-pi-2008-gate.png  used on input line 100
-9.
+Package pdftex.def Info: figures/71-73-pi-2008-gate.png  used on input line 109
+0.
 (pdftex.def)             Requested size: 258.0pt x 131.74043pt.
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1086
+ [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1156 \]
+          <./figures/71-73-pi-2008-gate.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1173
 
  []
 
-[15 <./figures/71-73-pi-2008-gate.png>]
-<figures/76-77-pi-2008-gate.png, id=266, 225.09094pt x 168.63pt>
+<figures/76-77-pi-2008-gate.png, id=348, 225.09094pt x 168.63pt>
 File: figures/76-77-pi-2008-gate.png Graphic file (type png)
 <use figures/76-77-pi-2008-gate.png>
-Package pdftex.def Info: figures/76-77-pi-2008-gate.png  used on input line 111
-3.
-(pdftex.def)             Requested size: 206.39685pt x 154.632pt.
- [16 <./figures/76-77-pi-2008-gate.png>] [17] [18] (./main.aux)
+Package pdftex.def Info: figures/76-77-pi-2008-gate.png  used on input line 120
+2.
+(pdftex.def)             Requested size: 258.0pt x 193.30801pt.
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1210     \begin
+                 {enumerate} <./figures/76-77-pi-2008-gate.png>] [17] [18]
+(./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1498,13 +1544,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30903 strings out of 476091
- 606063 string characters out of 5794082
+ 31011 strings out of 476091
+ 606899 string characters out of 5794082
  1871330 words of memory out of 5000000
- 50383 multiletter control sequences out of 15000+600000
- 573600 words of font info for 152 fonts, out of 8000000 for 9000
+ 50395 multiletter control sequences out of 15000+600000
+ 574916 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,96p,1167b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,96p,1167b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1513,10 +1559,10 @@ fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 896906 bytes).
+Output written on main.pdf (18 pages, 898813 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 230 named destinations out of 1000 (max. 500000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 462 compressed objects within 5 object streams
+ 324 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
