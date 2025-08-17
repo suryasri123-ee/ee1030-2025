@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  16 AUG 2025 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  17 AUG 2025 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,7 +22,6 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen143
@@ -1678,13 +1677,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 53.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 53.
-
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1860,15 +1859,14 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 53.
- (./main.out)
-(./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 \c@lstlisting=\count400
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 66
 .
- (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
@@ -1904,95 +1902,95 @@ File: ts1txr.fd 2000/12/15 v3.1
 <figs/fig1.png, id=31, 127.22531pt x 93.34875pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 125.
+Package pdftex.def Info: figs/fig1.png  used on input line 121.
 (pdftex.def)             Requested size: 182.09764pt x 133.61588pt.
+
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf
--dist/fonts/enc/dvips/base/8r.enc}]
-<figs/fig2.png, id=61, 198.7425pt x 87.32625pt>
+-dist/fonts/enc/dvips/base/8r.enc}
+
+]
+<figs/fig2.png, id=65, 198.7425pt x 87.32625pt>
 File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
-Package pdftex.def Info: figs/fig2.png  used on input line 165.
+Package pdftex.def Info: figs/fig2.png  used on input line 160.
 (pdftex.def)             Requested size: 182.09764pt x 80.01466pt.
  [2 <./figs/fig1.png> <./figs/fig2.png>] [3]
-<figs/fig3.png, id=123, 207.77625pt x 91.09032pt>
+<figs/fig3.png, id=127, 207.77625pt x 91.09032pt>
 File: figs/fig3.png Graphic file (type png)
 <use figs/fig3.png>
-Package pdftex.def Info: figs/fig3.png  used on input line 314.
+Package pdftex.def Info: figs/fig3.png  used on input line 301.
 (pdftex.def)             Requested size: 182.09764pt x 79.83585pt.
  [4 <./figs/fig3.png>] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 406--417
+[]\OT1/txr/m/n/10 How many of the fol-low-ing ma-tri-ces have an eigen-value $1
+$?
+ []
+
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-469.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+439.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 469--473
+Underfull \hbox (badness 10000) in paragraph at lines 439--443
 
  []
 
 [6] [7] [8]
-<figs/fig4.png, id=313, 337.26pt x 100.87688pt>
+<figs/fig4.png, id=315, 337.26pt x 100.87688pt>
 File: figs/fig4.png Graphic file (type png)
 <use figs/fig4.png>
-Package pdftex.def Info: figs/fig4.png  used on input line 691.
+Package pdftex.def Info: figs/fig4.png  used on input line 655.
 (pdftex.def)             Requested size: 182.09764pt x 54.46806pt.
  [9 <./figs/fig4.png>]
-<figs/fig5.png, id=340, 303.38344pt x 47.42719pt>
+<figs/fig5.png, id=343, 303.38344pt x 47.42719pt>
 File: figs/fig5.png Graphic file (type png)
 <use figs/fig5.png>
-Package pdftex.def Info: figs/fig5.png  used on input line 744.
+Package pdftex.def Info: figs/fig5.png  used on input line 706.
 (pdftex.def)             Requested size: 182.09764pt x 28.46738pt.
-<figs/fig6.png, id=341, 382.42876pt x 85.82062pt>
+<figs/fig6.png, id=344, 382.42876pt x 85.82062pt>
 File: figs/fig6.png Graphic file (type png)
 <use figs/fig6.png>
-Package pdftex.def Info: figs/fig6.png  used on input line 752.
+Package pdftex.def Info: figs/fig6.png  used on input line 714.
 (pdftex.def)             Requested size: 182.09764pt x 40.86473pt.
  [10 <./figs/fig5.png> <./figs/fig6.png>]
-Underfull \hbox (badness 3281) in paragraph at lines 787--788
+Underfull \hbox (badness 3281) in paragraph at lines 749--750
 []|\OT1/txr/m/n/10 G. Arith-metic ex-pres-sions with
  []
 
 
-Overfull \hbox (22.43774pt too wide) in paragraph at lines 779--794
+Overfull \hbox (22.43774pt too wide) in paragraph at lines 741--756
 [][] 
  []
 
-<figs/fig7.png, id=369, 414.04688pt x 295.1025pt>
+<figs/fig7.png, id=373, 414.04688pt x 295.1025pt>
 File: figs/fig7.png Graphic file (type png)
 <use figs/fig7.png>
-Package pdftex.def Info: figs/fig7.png  used on input line 808.
+Package pdftex.def Info: figs/fig7.png  used on input line 770.
 (pdftex.def)             Requested size: 182.09764pt x 129.78696pt.
 [11 <./figs/fig7.png>] [12] [13]
 LaTeX Font Info:    Trying to load font information for OMS+txtt on input line 
-962.
-LaTeX Font Info:    No file OMStxtt.fd. on input line 962.
+919.
+LaTeX Font Info:    No file OMStxtt.fd. on input line 919.
 
 
 LaTeX Font Warning: Font shape `OMS/txtt/m/n' undefined
 (Font)              using `OMS/txsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 962.
+(Font)              for symbol `textbackslash' on input line 919.
 
 [14] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1189
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1142
 
  []
 
 [17] [18]
-<figs/fig8.png, id=559, 380.92313pt x 80.55093pt>
+<figs/fig8.png, id=563, 380.92313pt x 80.55093pt>
 File: figs/fig8.png Graphic file (type png)
 <use figs/fig8.png>
-Package pdftex.def Info: figs/fig8.png  used on input line 1387.
+Package pdftex.def Info: figs/fig8.png  used on input line 1332.
 (pdftex.def)             Requested size: 182.09764pt x 38.50667pt.
- [19]
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 1
-408.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 1408.
-
-
-[20 <./figs/fig8.png>] (./main.aux)
+ [19] [20 <./figs/fig8.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2001,17 +1999,26 @@ L3 programming layer <2020/03/25>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53579 strings out of 476106
- 1261010 string characters out of 5793933
+ 53551 strings out of 476106
+ 1260532 string characters out of 5793933
  1942975 words of memory out of 5000000
- 74282 multiletter control sequences out of 15000+600000
+ 74259 multiletter control sequences out of 15000+600000
  625487 words of font info for 174 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 109i,9n,109p,1194b,1199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,9n,109p,1194b,1195s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/te
@@ -2021,10 +2028,10 @@ lic/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
 /txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 211978 bytes).
+Output written on main.pdf (20 pages, 211588 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 681 compressed objects within 7 object streams
- 490 named destinations out of 1000 (max. 500000)
+ 767 PDF objects out of 1000 (max. 8388607)
+ 686 compressed objects within 7 object streams
+ 494 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
