@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.17)  17 AUG 2025 02:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.17)  17 AUG 2025 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1535,7 +1535,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 File: Fig/q1.png Graphic file (type png)
 <use Fig/q1.png>
 Package pdftex.def Info: Fig/q1.png  used on input line 56.
-(pdftex.def)             Requested size: 258.0pt x 181.27602pt.
+(pdftex.def)             Requested size: 516.0pt x 362.55205pt.
 
 
 
@@ -1582,6 +1582,9 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
 s/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
+Overfull \vbox (3.38799pt too high) has occurred while \output is active []
+
+
 
 
 
@@ -1591,7 +1594,13 @@ File: ts1txr.fd 2000/12/15 v3.1
 
 [1{/data/data/com.termux/files/usr/share/texlive/2025/texmf-var/fonts/map/pdfte
 x/updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2025/texmf-d
-ist/fonts/enc/dvips/base/8r.enc} <./Fig/q1.png>]
+ist/fonts/enc/dvips/base/8r.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.85 \end{multicols}
+                     <./Fig/q1.png>]
 
 
 
@@ -1611,36 +1620,66 @@ ist/fonts/enc/dvips/base/8r.enc} <./Fig/q1.png>]
 
 
 
-<Fig/q8.png, id=37, 414.54875pt x 81.30376pt>
+
+
+[2]
+<Fig/q8.png, id=58, 414.54875pt x 81.30376pt>
 File: Fig/q8.png Graphic file (type png)
 <use Fig/q8.png>
 Package pdftex.def Info: Fig/q8.png  used on input line 176.
 (pdftex.def)             Requested size: 516.0pt x 101.21259pt.
-
-
-[2]
-<Fig/q8A.png, id=63, 161.10187pt x 92.345pt>
+<Fig/q8A.png, id=59, 161.10187pt x 92.345pt>
 File: Fig/q8A.png Graphic file (type png)
 <use Fig/q8A.png>
 Package pdftex.def Info: Fig/q8A.png  used on input line 184.
-(pdftex.def)             Requested size: 142.26909pt x 142.26526pt.
-<Fig/q8C.png, id=64, 143.03438pt x 115.93312pt>
+(pdftex.def)             Requested size: 516.0pt x 295.84674pt.
+
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.188 \begin
+            {figure}[H]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.188 \begin
+            {figure}[H] <./Fig/q8.png> <./Fig/q8A.png>]
+<Fig/q8C.png, id=74, 143.03438pt x 115.93312pt>
 File: Fig/q8C.png Graphic file (type png)
 <use Fig/q8C.png>
 Package pdftex.def Info: Fig/q8C.png  used on input line 190.
-(pdftex.def)             Requested size: 142.26576pt x 142.27669pt.
+(pdftex.def)             Requested size: 516.0pt x 418.33006pt.
 File: Fig/q8C.png Graphic file (type png)
 <use Fig/q8C.png>
 Package pdftex.def Info: Fig/q8C.png  used on input line 196.
-(pdftex.def)             Requested size: 142.26576pt x 142.27669pt.
+(pdftex.def)             Requested size: 516.0pt x 418.33006pt.
 
 
-[3 <./Fig/q8.png> <./Fig/q8A.png> <./Fig/q8C.png>]
-<Fig/q8D.png, id=74, 165.61874pt x 126.4725pt>
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.200 \begin
+            {figure}[H] <./Fig/q8C.png>]
+<Fig/q8D.png, id=82, 165.61874pt x 126.4725pt>
 File: Fig/q8D.png Graphic file (type png)
 <use Fig/q8D.png>
 Package pdftex.def Info: Fig/q8D.png  used on input line 202.
-(pdftex.def)             Requested size: 142.27013pt x 142.26576pt.
+(pdftex.def)             Requested size: 516.0pt x 394.16803pt.
+
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.205 
+      ]
 
 
 
@@ -1652,15 +1691,19 @@ Package pdftex.def Info: Fig/q8D.png  used on input line 202.
 
 
 
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.238 
+       <./Fig/q8D.png>]
 
 
 
 
 
-
-
-[4 <./Fig/q8D.png>]
-<Fig/q12.png, id=92, 214.30063pt x 84.315pt>
+<Fig/q12.png, id=102, 214.30063pt x 84.315pt>
 File: Fig/q12.png Graphic file (type png)
 <use Fig/q12.png>
 Package pdftex.def Info: Fig/q12.png  used on input line 269.
@@ -1675,14 +1718,23 @@ Package pdftex.def Info: Fig/q12.png  used on input line 269.
 
 
 
-<Fig/q14.png, id=93, 195.73125pt x 59.22125pt>
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.292     \item m
+                 aximum of the static torque with the phase winding unexcited. 
+<./Fig/q12.png>]
+<Fig/q14.png, id=126, 195.73125pt x 59.22125pt>
 File: Fig/q14.png Graphic file (type png)
 <use Fig/q14.png>
 Package pdftex.def Info: Fig/q14.png  used on input line 303.
 (pdftex.def)             Requested size: 516.0pt x 156.15747pt.
 
 
-[5 <./Fig/q12.png>]
 
 
 
@@ -1701,68 +1753,93 @@ Package pdftex.def Info: Fig/q14.png  used on input line 303.
 
 
 
-
-<Fig/q16-1.png, id=115, 167.12437pt x 101.37875pt>
+<Fig/q16-1.png, id=127, 167.12437pt x 101.37875pt>
 File: Fig/q16-1.png Graphic file (type png)
 <use Fig/q16-1.png>
 Package pdftex.def Info: Fig/q16-1.png  used on input line 339.
-(pdftex.def)             Requested size: 387.0pt x 234.79819pt.
+(pdftex.def)             Requested size: 516.0pt x 313.12305pt.
 
 
-[6 <./Fig/q14.png>]
-<Fig/q16-2.png, id=131, 140.525pt x 59.22125pt>
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.342 V
+       oltage drop across the transmission line is given by the following eq...
+ <./Fig/q14.png>]
+<Fig/q16-2.png, id=149, 140.525pt x 59.22125pt>
 File: Fig/q16-2.png Graphic file (type png)
 <use Fig/q16-2.png>
 Package pdftex.def Info: Fig/q16-2.png  used on input line 345.
-(pdftex.def)             Requested size: 387.0pt x 163.12094pt.
+(pdftex.def)             Requested size: 516.0pt x 217.49489pt.
+
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.352     \begin
+                {enumerate}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.352     \begin
+                {enumerate} <./Fig/q16-1.png> <./Fig/q16-2.png>]
 
 
 
 
 
-
-<Fig/q17.png, id=132, 215.30438pt x 93.85063pt>
+<Fig/q17.png, id=158, 215.30438pt x 93.85063pt>
 File: Fig/q17.png Graphic file (type png)
 <use Fig/q17.png>
 Package pdftex.def Info: Fig/q17.png  used on input line 366.
 (pdftex.def)             Requested size: 516.0pt x 224.97829pt.
 
 
-[7 <./Fig/q16-1.png> <./Fig/q16-2.png>]
 
 
 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--397
-
- []
-
-
-
-[8 <./Fig/q17.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 408--416
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--416
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.389 \end{enumerate}
+                      <./Fig/q17.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 393--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 409--417
 
  []
 
-<Fig/q21.png, id=164, 272.51813pt x 87.82813pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--417
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+
+ []
+
+<Fig/q21.png, id=178, 272.51813pt x 87.82813pt>
 File: Fig/q21.png Graphic file (type png)
 <use Fig/q21.png>
-Package pdftex.def Info: Fig/q21.png  used on input line 432.
+Package pdftex.def Info: Fig/q21.png  used on input line 433.
 (pdftex.def)             Requested size: 516.0pt x 166.30826pt.
 
 
+[11]
 
 
 
@@ -1771,14 +1848,14 @@ Package pdftex.def Info: Fig/q21.png  used on input line 432.
 
 
 
-<Fig/q22.png, id=165, 223.33438pt x 117.94063pt>
+
+<Fig/q22.png, id=195, 223.33438pt x 117.94063pt>
 File: Fig/q22.png Graphic file (type png)
 <use Fig/q22.png>
-Package pdftex.def Info: Fig/q22.png  used on input line 450.
+Package pdftex.def Info: Fig/q22.png  used on input line 452.
 (pdftex.def)             Requested size: 516.0pt x 272.51924pt.
 
 
-[9 <./Fig/q21.png>]
 
 
 
@@ -1787,14 +1864,26 @@ Package pdftex.def Info: Fig/q22.png  used on input line 450.
 
 
 
-
-<Fig/q23.png, id=183, 227.34938pt x 106.89937pt>
+<Fig/q23.png, id=196, 227.34938pt x 106.89937pt>
 File: Fig/q23.png Graphic file (type png)
 <use Fig/q23.png>
-Package pdftex.def Info: Fig/q23.png  used on input line 468.
+Package pdftex.def Info: Fig/q23.png  used on input line 471.
 (pdftex.def)             Requested size: 516.0pt x 242.65976pt.
 
 
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.473 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.473 \end{figure}
+                   <./Fig/q21.png> <./Fig/q22.png>]
 
 
 
@@ -1805,7 +1894,6 @@ Package pdftex.def Info: Fig/q23.png  used on input line 468.
 
 
 
-[10 <./Fig/q22.png> <./Fig/q23.png>]
 
 
 
@@ -1817,6 +1905,13 @@ Package pdftex.def Info: Fig/q23.png  used on input line 468.
 
 
 
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.503 \begin
+            {enumerate} <./Fig/q23.png>]
 
 
 
@@ -1825,10 +1920,11 @@ Package pdftex.def Info: Fig/q23.png  used on input line 468.
 
 
 
-<Fig/q26.png, id=199, 350.81062pt x 125.46875pt>
+
+<Fig/q26.png, id=232, 350.81062pt x 125.46875pt>
 File: Fig/q26.png Graphic file (type png)
 <use Fig/q26.png>
-Package pdftex.def Info: Fig/q26.png  used on input line 512.
+Package pdftex.def Info: Fig/q26.png  used on input line 516.
 (pdftex.def)             Requested size: 516.0pt x 184.58041pt.
 
 
@@ -1842,7 +1938,24 @@ Package pdftex.def Info: Fig/q26.png  used on input line 512.
 
 
 
-[11 <./Fig/q26.png>]
+
+
+
+
+
+
+
+
+
+
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.550     \item F
+                 irst pick every fourth sample of $x[n]$ to generate $v_{1}[...
+ <./Fig/q26.png>]
 
 
 
@@ -1854,29 +1967,7 @@ Package pdftex.def Info: Fig/q26.png  used on input line 512.
 
 
 
-[12]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[13]
+[15]
 
 
 
@@ -1904,18 +1995,30 @@ Package pdftex.def Info: Fig/q26.png  used on input line 512.
 
 
 
+[16]
 
 
 
 
-<Fig/q40.png, id=272, 228.855pt x 115.93312pt>
+
+
+
+
+
+
+
+
+
+
+
+<Fig/q40.png, id=308, 228.855pt x 115.93312pt>
 File: Fig/q40.png Graphic file (type png)
 <use Fig/q40.png>
-Package pdftex.def Info: Fig/q40.png  used on input line 689.
+Package pdftex.def Info: Fig/q40.png  used on input line 694.
 (pdftex.def)             Requested size: 516.0pt x 261.44147pt.
 
 
-[14]
+[17]
 
 
 
@@ -1925,58 +2028,93 @@ Package pdftex.def Info: Fig/q40.png  used on input line 689.
 
 
 
-<Fig/q41.png, id=302, 337.76187pt x 115.93312pt>
+<Fig/q41.png, id=329, 337.76187pt x 115.93312pt>
 File: Fig/q41.png Graphic file (type png)
 <use Fig/q41.png>
-Package pdftex.def Info: Fig/q41.png  used on input line 706.
+Package pdftex.def Info: Fig/q41.png  used on input line 712.
 (pdftex.def)             Requested size: 516.0pt x 177.11703pt.
 
 
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.717 \begin
+            {enumerate}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.717 \begin
+            {enumerate} <./Fig/q40.png> <./Fig/q41.png>]
 
 
 
 
-<Fig/q42.png, id=303, 420.57124pt x 104.39pt>
+
+<Fig/q42.png, id=343, 420.57124pt x 104.39pt>
 File: Fig/q42.png Graphic file (type png)
 <use Fig/q42.png>
-Package pdftex.def Info: Fig/q42.png  used on input line 723.
+Package pdftex.def Info: Fig/q42.png  used on input line 730.
 (pdftex.def)             Requested size: 516.0pt x 128.07715pt.
-
-
-[15 <./Fig/q40.png> <./Fig/q41.png>]
-<Fig/q41-A.png, id=319, 194.7275pt x 105.89563pt>
+<Fig/q41-A.png, id=344, 194.7275pt x 105.89563pt>
 File: Fig/q41-A.png Graphic file (type png)
 <use Fig/q41-A.png>
-Package pdftex.def Info: Fig/q41-A.png  used on input line 730.
-(pdftex.def)             Requested size: 284.53746pt x 284.58083pt.
-<Fig/q41-B.png, id=320, 230.36063pt x 97.86563pt>
+Package pdftex.def Info: Fig/q41-A.png  used on input line 737.
+(pdftex.def)             Requested size: 516.0pt x 280.66405pt.
+<Fig/q41-B.png, id=345, 230.36063pt x 97.86563pt>
 File: Fig/q41-B.png Graphic file (type png)
 <use Fig/q41-B.png>
-Package pdftex.def Info: Fig/q41-B.png  used on input line 735.
-(pdftex.def)             Requested size: 284.54752pt x 284.58997pt.
+Package pdftex.def Info: Fig/q41-B.png  used on input line 742.
+(pdftex.def)             Requested size: 516.0pt x 219.26077pt.
 
 
-[16 <./Fig/q42.png> <./Fig/q41-A.png>]
-<Fig/q41-C.png, id=329, 197.73875pt x 95.35625pt>
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.745 \item \begin
+                  {figure}[H]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.745 \item \begin
+                  {figure}[H] <./Fig/q42.png> <./Fig/q41-A.png>]
+<Fig/q41-C.png, id=361, 197.73875pt x 95.35625pt>
 File: Fig/q41-C.png Graphic file (type png)
 <use Fig/q41-C.png>
-Package pdftex.def Info: Fig/q41-C.png  used on input line 740.
-(pdftex.def)             Requested size: 284.5535pt x 284.5635pt.
-<Fig/q41-D.png, id=330, 230.8625pt x 102.88437pt>
+Package pdftex.def Info: Fig/q41-C.png  used on input line 747.
+(pdftex.def)             Requested size: 516.0pt x 248.89522pt.
+<Fig/q41-D.png, id=362, 230.8625pt x 102.88437pt>
 File: Fig/q41-D.png Graphic file (type png)
 <use Fig/q41-D.png>
-Package pdftex.def Info: Fig/q41-D.png  used on input line 746.
-(pdftex.def)             Requested size: 284.54745pt x 284.55142pt.
+Package pdftex.def Info: Fig/q41-D.png  used on input line 753.
+(pdftex.def)             Requested size: 516.0pt x 230.00569pt.
 
 
-[17 <./Fig/q41-B.png> <./Fig/q41-C.png>]
-<Fig/q43.png, id=339, 286.57062pt x 137.01187pt>
+[20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.756 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.756 
+       <./Fig/q41-B.png> <./Fig/q41-C.png>]
+<Fig/q43.png, id=373, 286.57062pt x 137.01187pt>
 File: Fig/q43.png Graphic file (type png)
 <use Fig/q43.png>
-Package pdftex.def Info: Fig/q43.png  used on input line 757.
+Package pdftex.def Info: Fig/q43.png  used on input line 764.
 (pdftex.def)             Requested size: 516.0pt x 246.70898pt.
 
-Overfull \hbox (8.1285pt too wide) in paragraph at lines 760--761
+Overfull \hbox (8.1285pt too wide) in paragraph at lines 767--768
 []\OT1/txr/m/n/17 The sim-pli-fied form of Boolean func-tion $\OML/txmi/m/it/17
  F\OT1/txr/m/n/17 (\OML/txmi/m/it/17 A; B; C\OT1/txr/m/n/17 )$ im-ple-mented in
  'Prod-
@@ -1984,16 +2122,23 @@ Overfull \hbox (8.1285pt too wide) in paragraph at lines 760--761
 
 
 
-[18 <./Fig/q41-D.png> <./Fig/q43.png>]
-<Fig/q44.png, id=348, 346.29375pt x 93.85063pt>
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.772     \item $
+                 (B+\bar{Z}).(X+Y+Z).(\bar{Y}+\bar{Z})$ <./Fig/q41-D.png> <./Fi
+g/q43.png>]
+<Fig/q44.png, id=383, 346.29375pt x 93.85063pt>
 File: Fig/q44.png Graphic file (type png)
 <use Fig/q44.png>
-Package pdftex.def Info: Fig/q44.png  used on input line 774.
+Package pdftex.def Info: Fig/q44.png  used on input line 781.
 (pdftex.def)             Requested size: 516.0pt x 139.8605pt.
-<Fig/q44-2.png, id=349, 413.04312pt x 110.4125pt>
+<Fig/q44-2.png, id=384, 413.04312pt x 110.4125pt>
 File: Fig/q44-2.png Graphic file (type png)
 <use Fig/q44-2.png>
-Package pdftex.def Info: Fig/q44-2.png  used on input line 782.
+Package pdftex.def Info: Fig/q44-2.png  used on input line 789.
 (pdftex.def)             Requested size: 516.0pt x 137.94788pt.
 
 
@@ -2003,9 +2148,21 @@ Package pdftex.def Info: Fig/q44-2.png  used on input line 782.
 
 
 
-[19 <./Fig/q44.png> <./Fig/q44-2.png>]
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.806 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.806 
+       <./Fig/q44.png> <./Fig/q44-2.png>]
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-824.
+831.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/ot1txtt.fd
@@ -2016,47 +2173,96 @@ File: ot1txtt.fd 2000/12/15 v3.1
 
 
 
-<Fig/q46.png, id=367, 310.66063pt x 120.95187pt>
+<Fig/q46.png, id=403, 310.66063pt x 120.95187pt>
 File: Fig/q46.png Graphic file (type png)
 <use Fig/q46.png>
-Package pdftex.def Info: Fig/q46.png  used on input line 846.
+Package pdftex.def Info: Fig/q46.png  used on input line 853.
 (pdftex.def)             Requested size: 516.0pt x 200.9203pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 846--847
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.854     \caption
+                  {}
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.854     \caption
+                  {}
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.854     \caption
+                  {}
+? 
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 853--855
  [] 
  []
 
 
 
-[20 <./Fig/q46.png>]
-<Fig/q46-A.png, id=379, 173.64874pt x 72.77188pt>
+[23 <./Fig/q46.png>]
+<Fig/q46-A.png, id=416, 173.64874pt x 72.77188pt>
 File: Fig/q46-A.png Graphic file (type png)
 <use Fig/q46-A.png>
-Package pdftex.def Info: Fig/q46-A.png  used on input line 853.
-(pdftex.def)             Requested size: 258.0pt x 108.13483pt.
-<Fig/q46-B.png, id=380, 197.73875pt x 75.78313pt>
+Package pdftex.def Info: Fig/q46-A.png  used on input line 861.
+(pdftex.def)             Requested size: 516.0pt x 216.27078pt.
+<Fig/q46-B.png, id=417, 197.73875pt x 75.78313pt>
 File: Fig/q46-B.png Graphic file (type png)
 <use Fig/q46-B.png>
-Package pdftex.def Info: Fig/q46-B.png  used on input line 859.
-(pdftex.def)             Requested size: 258.0pt x 98.8869pt.
-<Fig/q46-C.png, id=381, 167.62625pt x 79.79813pt>
+Package pdftex.def Info: Fig/q46-B.png  used on input line 868.
+(pdftex.def)             Requested size: 516.0pt x 197.8062pt.
+<Fig/q46-C.png, id=418, 167.62625pt x 79.79813pt>
 File: Fig/q46-C.png Graphic file (type png)
 <use Fig/q46-C.png>
-Package pdftex.def Info: Fig/q46-C.png  used on input line 865.
-(pdftex.def)             Requested size: 258.0pt x 122.82005pt.
-<Fig/q46-D.png, id=382, 181.17688pt x 69.76062pt>
+Package pdftex.def Info: Fig/q46-C.png  used on input line 875.
+(pdftex.def)             Requested size: 516.0pt x 245.64134pt.
+
+
+[24
+pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.878 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.878 
+       <./Fig/q46-A.png> <./Fig/q46-B.png>]
+<Fig/q46-D.png, id=429, 181.17688pt x 69.76062pt>
 File: Fig/q46-D.png Graphic file (type png)
 <use Fig/q46-D.png>
-Package pdftex.def Info: Fig/q46-D.png  used on input line 871.
-(pdftex.def)             Requested size: 258.0pt x 99.35135pt.
+Package pdftex.def Info: Fig/q46-D.png  used on input line 882.
+(pdftex.def)             Requested size: 516.0pt x 198.73677pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--879
+Underfull \hbox (badness 10000) in paragraph at lines 890--891
 
  []
 
 
 
-[21 <./Fig/q46-A.png> <./Fig/q46-B.png> <./Fig/q46-C.png> <./Fig/q46-D.png>]
+[25
+pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.895 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.895 
+       <./Fig/q46-C.png> <./Fig/q46-D.png>]
 
 
 
@@ -2076,68 +2282,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 878--879
 
 
 
-<Fig/q49.png, id=395, 386.94562pt x 90.83937pt>
+<Fig/q49.png, id=442, 386.94562pt x 90.83937pt>
 File: Fig/q49.png Graphic file (type png)
 <use Fig/q49.png>
-Package pdftex.def Info: Fig/q49.png  used on input line 912.
+Package pdftex.def Info: Fig/q49.png  used on input line 925.
 (pdftex.def)             Requested size: 516.0pt x 121.13779pt.
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 912--913
- [] 
- []
-
-<Fig/q49-A.png, id=396, 162.6075pt x 90.83937pt>
+<Fig/q49-A.png, id=443, 162.6075pt x 90.83937pt>
 File: Fig/q49-A.png Graphic file (type png)
 <use Fig/q49-A.png>
-Package pdftex.def Info: Fig/q49-A.png  used on input line 919.
-(pdftex.def)             Requested size: 258.0pt x 144.14143pt.
+Package pdftex.def Info: Fig/q49-A.png  used on input line 933.
+(pdftex.def)             Requested size: 516.0pt x 288.33693pt.
 
 
-[22 <./Fig/q49.png> <./Fig/q49-A.png>]
-<Fig/q49-B.png, id=416, 167.62625pt x 78.79437pt>
+[26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.939     \begin
+                {figure}[H] <./Fig/q49.png>]
+<Fig/q49-B.png, id=460, 167.62625pt x 78.79437pt>
 File: Fig/q49-B.png Graphic file (type png)
 <use Fig/q49-B.png>
-Package pdftex.def Info: Fig/q49-B.png  used on input line 925.
-(pdftex.def)             Requested size: 258.0pt x 121.27516pt.
-<Fig/q49-C.png, id=417, 159.59625pt x 69.25874pt>
+Package pdftex.def Info: Fig/q49-B.png  used on input line 940.
+(pdftex.def)             Requested size: 516.0pt x 242.55153pt.
+<Fig/q49-C.png, id=461, 159.59625pt x 69.25874pt>
 File: Fig/q49-C.png Graphic file (type png)
 <use Fig/q49-C.png>
-Package pdftex.def Info: Fig/q49-C.png  used on input line 931.
-(pdftex.def)             Requested size: 258.0pt x 111.96286pt.
-<Fig/q49-D.png, id=418, 169.13188pt x 77.28876pt>
+Package pdftex.def Info: Fig/q49-C.png  used on input line 947.
+(pdftex.def)             Requested size: 516.0pt x 223.97116pt.
+
+
+[27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.950 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.950 
+       <./Fig/q49-A.png> <./Fig/q49-B.png>]
+<Fig/q49-D.png, id=472, 169.13188pt x 77.28876pt>
 File: Fig/q49-D.png Graphic file (type png)
 <use Fig/q49-D.png>
-Package pdftex.def Info: Fig/q49-D.png  used on input line 937.
-(pdftex.def)             Requested size: 258.0pt x 117.90349pt.
+Package pdftex.def Info: Fig/q49-D.png  used on input line 954.
+(pdftex.def)             Requested size: 516.0pt x 235.80699pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 944--945
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
  []
 
 
 
-[23 <./Fig/q49-B.png> <./Fig/q49-C.png> <./Fig/q49-D.png>]
+[28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.968 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.968 
+       <./Fig/q49-C.png> <./Fig/q49-D.png>]
 
 
 
 
 
-<Fig/q53.png, id=430, 149.55875pt x 56.21pt>
+<Fig/q53.png, id=484, 149.55875pt x 56.21pt>
 File: Fig/q53.png Graphic file (type png)
 <use Fig/q53.png>
-Package pdftex.def Info: Fig/q53.png  used on input line 999.
+Package pdftex.def Info: Fig/q53.png  used on input line 1016.
 (pdftex.def)             Requested size: 516.0pt x 194.00787pt.
 
 
-[24]
-<Fig/q54.png, id=450, 202.25563pt x 158.5925pt>
+[29]
+<Fig/q54.png, id=504, 202.25563pt x 158.5925pt>
 File: Fig/q54.png Graphic file (type png)
 <use Fig/q54.png>
-Package pdftex.def Info: Fig/q54.png  used on input line 1017.
+Package pdftex.def Info: Fig/q54.png  used on input line 1035.
 (pdftex.def)             Requested size: 516.0pt x 404.61357pt.
 
 
-[25 <./Fig/q53.png>]
+[30
+pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1037 
+        <./Fig/q53.png>]
 
 
 
@@ -2157,50 +2397,94 @@ Package pdftex.def Info: Fig/q54.png  used on input line 1017.
 
 
 
-<Fig/q56.png, id=462, 177.66376pt x 97.86563pt>
+<Fig/q56.png, id=516, 177.66376pt x 97.86563pt>
 File: Fig/q56.png Graphic file (type png)
 <use Fig/q56.png>
-Package pdftex.def Info: Fig/q56.png  used on input line 1050.
+Package pdftex.def Info: Fig/q56.png  used on input line 1068.
 (pdftex.def)             Requested size: 516.0pt x 284.29729pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 1050--1051
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1069     \caption
+                   {}
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.1069     \caption
+                   {}
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.1069     \caption
+                   {}
+? 
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 1068--1070
  [] 
  []
 
 
 
-[26 <./Fig/q54.png>]
-<Fig/q56-A.png, id=478, 163.10938pt x 93.85063pt>
+[31 <./Fig/q54.png>]
+<Fig/q56-A.png, id=534, 163.10938pt x 93.85063pt>
 File: Fig/q56-A.png Graphic file (type png)
 <use Fig/q56-A.png>
-Package pdftex.def Info: Fig/q56-A.png  used on input line 1058.
-(pdftex.def)             Requested size: 258.0pt x 148.46278pt.
-<Fig/q56-B.png, id=479, 170.13562pt x 102.88437pt>
+Package pdftex.def Info: Fig/q56-A.png  used on input line 1077.
+(pdftex.def)             Requested size: 516.0pt x 296.98285pt.
+
+
+[32
+pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1082     \begin
+                 {figure}[H] <./Fig/q56.png> <./Fig/q56-A.png>]
+<Fig/q56-B.png, id=543, 170.13562pt x 102.88437pt>
 File: Fig/q56-B.png Graphic file (type png)
 <use Fig/q56-B.png>
-Package pdftex.def Info: Fig/q56-B.png  used on input line 1064.
-(pdftex.def)             Requested size: 258.0pt x 156.02634pt.
-
-
-[27 <./Fig/q56.png> <./Fig/q56-A.png>]
-<Fig/q56-C.png, id=487, 163.10938pt x 96.36pt>
+Package pdftex.def Info: Fig/q56-B.png  used on input line 1083.
+(pdftex.def)             Requested size: 516.0pt x 312.05269pt.
+<Fig/q56-C.png, id=544, 163.10938pt x 96.36pt>
 File: Fig/q56-C.png Graphic file (type png)
 <use Fig/q56-C.png>
-Package pdftex.def Info: Fig/q56-C.png  used on input line 1070.
-(pdftex.def)             Requested size: 258.0pt x 152.43236pt.
-<Fig/q56-D.png, id=488, 176.66pt x 104.39pt>
+Package pdftex.def Info: Fig/q56-C.png  used on input line 1089.
+(pdftex.def)             Requested size: 516.0pt x 304.92352pt.
+
+
+[33
+pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1091 
+        <./Fig/q56-B.png>]
+<Fig/q56-D.png, id=552, 176.66pt x 104.39pt>
 File: Fig/q56-D.png Graphic file (type png)
 <use Fig/q56-D.png>
-Package pdftex.def Info: Fig/q56-D.png  used on input line 1076.
-(pdftex.def)             Requested size: 258.0pt x 152.45589pt.
+Package pdftex.def Info: Fig/q56-D.png  used on input line 1095.
+(pdftex.def)             Requested size: 516.0pt x 304.96753pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
+
+[34
+pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1097 
+        <./Fig/q56-C.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 
  []
 
 
 
-[28 <./Fig/q56-B.png> <./Fig/q56-C.png> <./Fig/q56-D.png>]
 
 
 
@@ -2211,6 +2495,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
 
 
 
+[35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1125 \begin
+             {enumerate} <./Fig/q56-D.png>]
 
 
 
@@ -2220,14 +2511,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
 
 
 
-<Fig/q59.png, id=500, 263.98625pt x 126.4725pt>
+<Fig/q59.png, id=573, 263.98625pt x 126.4725pt>
 File: Fig/q59.png Graphic file (type png)
 <use Fig/q59.png>
-Package pdftex.def Info: Fig/q59.png  used on input line 1120.
+Package pdftex.def Info: Fig/q59.png  used on input line 1139.
 (pdftex.def)             Requested size: 516.0pt x 247.25334pt.
 
 
-[29 <./Fig/q59.png>]
 
 
 
@@ -2238,6 +2528,13 @@ Package pdftex.def Info: Fig/q59.png  used on input line 1120.
 
 
 
+[36
+pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1164 \begin
+             {enumerate} <./Fig/q59.png>]
 
 
 
@@ -2247,14 +2544,13 @@ Package pdftex.def Info: Fig/q59.png  used on input line 1120.
 
 
 
-<Fig/q61.png, id=516, 242.9075pt x 131.49126pt>
+<Fig/q61.png, id=590, 242.9075pt x 131.49126pt>
 File: Fig/q61.png Graphic file (type png)
 <use Fig/q61.png>
-Package pdftex.def Info: Fig/q61.png  used on input line 1159.
+Package pdftex.def Info: Fig/q61.png  used on input line 1179.
 (pdftex.def)             Requested size: 516.0pt x 279.358pt.
 
 
-[30 <./Fig/q61.png>]
 
 
 
@@ -2265,6 +2561,13 @@ Package pdftex.def Info: Fig/q61.png  used on input line 1159.
 
 
 
+[37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1200 \begin
+             {enumerate} <./Fig/q61.png>]
 
 
 
@@ -2274,10 +2577,10 @@ Package pdftex.def Info: Fig/q61.png  used on input line 1159.
 
 
 
-<Fig/q64.png, id=532, 333.245pt x 117.43875pt>
+<Fig/q64.png, id=608, 333.245pt x 117.43875pt>
 File: Fig/q64.png Graphic file (type png)
 <use Fig/q64.png>
-Package pdftex.def Info: Fig/q64.png  used on input line 1193.
+Package pdftex.def Info: Fig/q64.png  used on input line 1214.
 (pdftex.def)             Requested size: 516.0pt x 181.87404pt.
 
 
@@ -2291,7 +2594,6 @@ Package pdftex.def Info: Fig/q64.png  used on input line 1193.
 
 
 
-[31 <./Fig/q64.png>]
 
 
 
@@ -2301,10 +2603,19 @@ Package pdftex.def Info: Fig/q64.png  used on input line 1193.
 
 
 
-<Fig/q66.png, id=555, 312.16624pt x 145.04187pt>
+
+[38
+pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1256     \item $
+                  C_1$ is a lag compensator and $C_2$ is a lead compensator <./
+Fig/q64.png>]
+<Fig/q66.png, id=630, 312.16624pt x 145.04187pt>
 File: Fig/q66.png Graphic file (type png)
 <use Fig/q66.png>
-Package pdftex.def Info: Fig/q66.png  used on input line 1245.
+Package pdftex.def Info: Fig/q66.png  used on input line 1267.
 (pdftex.def)             Requested size: 516.0pt x 239.78014pt.
 
 
@@ -2312,14 +2623,20 @@ Package pdftex.def Info: Fig/q66.png  used on input line 1245.
 
 
 
-<Fig/q67.png, id=556, 250.43562pt x 74.2775pt>
+<Fig/q67.png, id=631, 250.43562pt x 74.2775pt>
 File: Fig/q67.png Graphic file (type png)
 <use Fig/q67.png>
-Package pdftex.def Info: Fig/q67.png  used on input line 1265.
+Package pdftex.def Info: Fig/q67.png  used on input line 1288.
 (pdftex.def)             Requested size: 516.0pt x 153.07794pt.
 
 
-[32 <./Fig/q66.png>]
+[39
+pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1291 
+        <./Fig/q66.png>]
 
 
 
@@ -2335,26 +2652,39 @@ Package pdftex.def Info: Fig/q67.png  used on input line 1265.
 
 
 
-<Fig/q69.png, id=577, 152.06813pt x 124.96687pt>
+<Fig/q69.png, id=648, 152.06813pt x 124.96687pt>
 File: Fig/q69.png Graphic file (type png)
 <use Fig/q69.png>
-Package pdftex.def Info: Fig/q69.png  used on input line 1305.
-(pdftex.def)             Requested size: 258.0pt x 212.02708pt.
+Package pdftex.def Info: Fig/q69.png  used on input line 1329.
+(pdftex.def)             Requested size: 516.0pt x 424.05418pt.
 
 
-[33 <./Fig/q67.png> <./Fig/q69.png>]
+[40
+pdfTeX warning (ext4): destination with the same identifier (name{figure.43}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1332 
+        <./Fig/q67.png>]
 
 
 
 
 
-<Fig/q70.png, id=594, 203.76125pt x 122.4575pt>
+<Fig/q70.png, id=666, 203.76125pt x 122.4575pt>
 File: Fig/q70.png Graphic file (type png)
 <use Fig/q70.png>
-Package pdftex.def Info: Fig/q70.png  used on input line 1326.
+Package pdftex.def Info: Fig/q70.png  used on input line 1351.
 (pdftex.def)             Requested size: 516.0pt x 310.12296pt.
 
 
+[41
+pdfTeX warning (ext4): destination with the same identifier (name{figure.44}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1354 
+        <./Fig/q69.png>]
 
 
 
@@ -2363,15 +2693,28 @@ Package pdftex.def Info: Fig/q70.png  used on input line 1326.
 
 
 
-<Fig/comp1.png, id=595, 328.72812pt x 65.24374pt>
+
+<Fig/comp1.png, id=678, 328.72812pt x 65.24374pt>
 File: Fig/comp1.png Graphic file (type png)
 <use Fig/comp1.png>
-Package pdftex.def Info: Fig/comp1.png  used on input line 1352.
+Package pdftex.def Info: Fig/comp1.png  used on input line 1378.
 (pdftex.def)             Requested size: 516.0pt x 102.42392pt.
 
 
-[34 <./Fig/q70.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1367--1368
+[42
+pdfTeX warning (ext4): destination with the same identifier (name{figure.45}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1385 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.46}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1385 
+        <./Fig/q70.png> <./Fig/comp1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1394--1395
 
  []
 
@@ -2382,7 +2725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1367--1368
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
+Underfull \hbox (badness 10000) in paragraph at lines 1407--1408
 
  []
 
@@ -2397,13 +2740,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1391--1392
+Underfull \hbox (badness 10000) in paragraph at lines 1418--1419
 
  []
 
 
 
-[35 <./Fig/comp1.png>]
 
 
 
@@ -2413,59 +2755,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 1391--1392
 
 
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1403
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1430
 
  []
 
-<Fig/comp2.png, id=625, 343.2825pt x 160.09813pt>
+
+
+[43]
+<Fig/comp2.png, id=711, 343.2825pt x 160.09813pt>
 File: Fig/comp2.png Graphic file (type png)
 <use Fig/comp2.png>
-Package pdftex.def Info: Fig/comp2.png  used on input line 1412.
+Package pdftex.def Info: Fig/comp2.png  used on input line 1439.
 (pdftex.def)             Requested size: 516.0pt x 240.66934pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
-
- []
-
-
-
-[36 <./Fig/comp2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
-
- []
-
-
-
-
-
-
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 1448--1449
 
  []
 
 
-Overfull \hbox (0.91489pt too wide) in paragraph at lines 1450--1451
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1461
+
+ []
+
+
+
+[44
+pdfTeX warning (ext4): destination with the same identifier (name{figure.47}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1461 
+        <./Fig/comp2.png>]
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1477--1478
+
+ []
+
+
+Overfull \hbox (0.91489pt too wide) in paragraph at lines 1479--1480
 []\OT1/txr/m/n/17 The cur-rent $\OML/txmi/m/it/17 i\OT1/txr/m/n/17 (\OML/txmi/m
 /it/17 t\OT1/txr/m/n/17 )$ sketched in the fig-ure flows through an ini-tially 
 un-charged
  []
 
-<Fig/comp3.png, id=637, 203.25937pt x 124.96687pt>
+<Fig/comp3.png, id=723, 203.25937pt x 124.96687pt>
 File: Fig/comp3.png Graphic file (type png)
 <use Fig/comp3.png>
-Package pdftex.def Info: Fig/comp3.png  used on input line 1453.
+Package pdftex.def Info: Fig/comp3.png  used on input line 1482.
 (pdftex.def)             Requested size: 516.0pt x 317.25787pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 1453--1454
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1483 \caption
+               {}
+? 
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.1483 \caption
+               {}
+? 
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.1483 \caption
+               {}
+? 
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 1482--1484
  [] 
  []
 
 
 
-[37 <./Fig/comp3.png>]
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1495--1496
+
+ []
+
+
+
+[45 <./Fig/comp3.png>]
 
 
 
@@ -2476,7 +2863,12 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 1453--1454
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1465--1466
+Underfull \hbox (badness 10000) in paragraph at lines 1506--1507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1508--1509
 
  []
 
@@ -2491,43 +2883,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 1465--1466
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1476--1477
+Underfull \hbox (badness 10000) in paragraph at lines 1531--1532
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1479
-
- []
-
-
-
-
-
-
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1501--1502
-
- []
-
-<Fig/q79.png, id=654, 200.75pt x 64.74188pt>
+<Fig/q79.png, id=739, 200.75pt x 64.74188pt>
 File: Fig/q79.png Graphic file (type png)
 <use Fig/q79.png>
-Package pdftex.def Info: Fig/q79.png  used on input line 1506.
+Package pdftex.def Info: Fig/q79.png  used on input line 1537.
 (pdftex.def)             Requested size: 516.0pt x 166.46077pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 1506--1507
- [] 
- []
-
-
-
-[38]
 
 
 
@@ -2538,117 +2903,125 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 1506--1507
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1518--1519
+Underfull \hbox (badness 10000) in paragraph at lines 1550--1551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1521--1522
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1554
 
  []
 
-<Fig/comp4.png, id=676, 164.11313pt x 95.35625pt>
+<Fig/comp4.png, id=740, 164.11313pt x 95.35625pt>
 File: Fig/comp4.png Graphic file (type png)
 <use Fig/comp4.png>
-Package pdftex.def Info: Fig/comp4.png  used on input line 1526.
+Package pdftex.def Info: Fig/comp4.png  used on input line 1559.
 (pdftex.def)             Requested size: 516.0pt x 299.90813pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 1526--1527
- [] 
+
+[46]
+
+[47
+pdfTeX warning (ext4): destination with the same identifier (name{figure.48}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1565 \begin
+             {enumerate}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.49}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1565 \begin
+             {enumerate} <./Fig/q79.png> <./Fig/comp4.png>]
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1572--1573
+
  []
 
-
-
-[39 <./Fig/q79.png> <./Fig/comp4.png>]
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1538--1539
-
- []
-
-<Fig/q81.png, id=688, 170.6375pt x 73.77562pt>
+<Fig/q81.png, id=770, 170.6375pt x 73.77562pt>
 File: Fig/q81.png Graphic file (type png)
 <use Fig/q81.png>
-Package pdftex.def Info: Fig/q81.png  used on input line 1543.
+Package pdftex.def Info: Fig/q81.png  used on input line 1578.
 (pdftex.def)             Requested size: 516.0pt x 223.1094pt.
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 1543--1544
- [] 
- []
-
-<Fig/q81-A.png, id=689, 148.05313pt x 83.31125pt>
+<Fig/q81-A.png, id=771, 148.05313pt x 83.31125pt>
 File: Fig/q81-A.png Graphic file (type png)
 <use Fig/q81-A.png>
-Package pdftex.def Info: Fig/q81-A.png  used on input line 1550.
-(pdftex.def)             Requested size: 142.26717pt x 142.28699pt.
-<Fig/q81-B.png, id=690, 156.585pt x 91.84312pt>
+Package pdftex.def Info: Fig/q81-A.png  used on input line 1586.
+(pdftex.def)             Requested size: 516.0pt x 290.46231pt.
+
+
+[48
+pdfTeX warning (ext4): destination with the same identifier (name{figure.50}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1592     \begin
+                 {figure}[H] <./Fig/q81.png>]
+<Fig/q81-B.png, id=783, 156.585pt x 91.84312pt>
 File: Fig/q81-B.png Graphic file (type png)
 <use Fig/q81-B.png>
-Package pdftex.def Info: Fig/q81-B.png  used on input line 1556.
-(pdftex.def)             Requested size: 142.26797pt x 142.28526pt.
+Package pdftex.def Info: Fig/q81-B.png  used on input line 1593.
+(pdftex.def)             Requested size: 516.0pt x 302.6964pt.
 
 
-[40 <./Fig/q81.png> <./Fig/q81-A.png>]
-<Fig/q81-C.png, id=703, 172.14313pt x 99.37125pt>
+[49
+pdfTeX warning (ext4): destination with the same identifier (name{figure.51}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1595 
+        <./Fig/q81-A.png>]
+<Fig/q81-C.png, id=793, 172.14313pt x 99.37125pt>
 File: Fig/q81-C.png Graphic file (type png)
 <use Fig/q81-C.png>
-Package pdftex.def Info: Fig/q81-C.png  used on input line 1562.
-(pdftex.def)             Requested size: 172.14268pt x 99.371pt.
-<Fig/q81-D.png, id=704, 170.6375pt x 87.82813pt>
+Package pdftex.def Info: Fig/q81-C.png  used on input line 1599.
+(pdftex.def)             Requested size: 516.0pt x 297.89616pt.
+
+
+[50
+pdfTeX warning (ext4): destination with the same identifier (name{figure.52}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1602 
+        <./Fig/q81-B.png>]
+<Fig/q81-D.png, id=801, 170.6375pt x 87.82813pt>
 File: Fig/q81-D.png Graphic file (type png)
 <use Fig/q81-D.png>
-Package pdftex.def Info: Fig/q81-D.png  used on input line 1568.
-(pdftex.def)             Requested size: 142.27219pt x 142.28746pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1575--1576
-
- []
+Package pdftex.def Info: Fig/q81-D.png  used on input line 1606.
+(pdftex.def)             Requested size: 516.0pt x 265.60648pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1578--1579
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1580--1582
-
- []
-
-
-
-[41 <./Fig/q81-B.png> <./Fig/q81-C.png> <./Fig/q81-D.png>]
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1593--1594
+[51
+pdfTeX warning (ext4): destination with the same identifier (name{figure.53}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1612 \end{enumerate}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.54}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1612 \end{enumerate}
+                       <./Fig/q81-C.png> <./Fig/q81-D.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
 
  []
 
 
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1605--1606
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1617
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1607--1608
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1609--1610
+Underfull \hbox (badness 10000) in paragraph at lines 1618--1620
 
  []
 
@@ -2659,20 +3032,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 1609--1610
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1621--1622
+Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
 
  []
 
 
 
-[42] (./main.aux)
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1643--1644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1645--1646
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1647--1648
+
+ []
+
+
+
+[52]
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1659--1660
+
+ []
+
+
+
+[53] (./main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -2684,13 +3088,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31421 strings out of 467800
- 624517 string characters out of 5417814
- 984713 words of memory out of 5000000
- 58946 multiletter control sequences out of 15000+600000
- 691411 words of font info for 166 fonts, out of 8000000 for 9000
+ 31489 strings out of 467800
+ 625091 string characters out of 5417814
+ 981714 words of memory out of 5000000
+ 58947 multiletter control sequences out of 15000+600000
+ 692727 words of font info for 168 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,7n,103p,1172b,794s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,7n,103p,1172b,776s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtxb.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf
 -dist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/sha
@@ -2704,10 +3108,10 @@ m.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (42 pages, 3550204 bytes).
+Output written on main.pdf (53 pages, 3555233 bytes).
 PDF statistics:
- 878 PDF objects out of 1000 (max. 8388607)
- 691 compressed objects within 7 object streams
- 464 named destinations out of 1000 (max. 500000)
+ 992 PDF objects out of 1000 (max. 8388607)
+ 793 compressed objects within 8 object streams
+ 529 named destinations out of 1000 (max. 500000)
  303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
