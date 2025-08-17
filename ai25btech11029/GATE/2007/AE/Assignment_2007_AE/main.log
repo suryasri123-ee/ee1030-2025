@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.1)  16 AUG 2025 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.1)  17 AUG 2025 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1307,6 +1307,9 @@ l.78 \renewcommand\thesubsubsectiondis
                                       {\thesubsectiondis.\arabic{subsubsecti...
 
 ? 
+) (./gvv.sty
+\c@matchleft=\count377
+\c@matchright=\count378
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
@@ -1332,9 +1335,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count377
-\Gm@cntv=\count378
-\c@Gm@tempcnt=\count379
+\Gm@cnth=\count379
+\Gm@cntv=\count380
+\c@Gm@tempcnt=\count381
 \Gm@bindingoffset=\dimen361
 \Gm@wd@mp=\dimen362
 \Gm@odd@mp=\dimen363
@@ -1346,9 +1349,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks52
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 48.
+h' as default language. on input line 47.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
-8.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -1356,56 +1359,56 @@ File: ot1txr.fd 2000/12/15 v3.1
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 47.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-48.
+47.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 47.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-48.
+47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 47.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-48.
+47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 47.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 4
-8.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Info: Redefining \celsius on input line 48.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 48.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Info: Redefining \celsius on input line 47.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 47.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 48.
-Package gensymb Info: Using \Omega for \ohm on input line 48.
+LaTeX Info: Redefining \ohm on input line 47.
+Package gensymb Info: Using \Omega for \ohm on input line 47.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1416,20 +1419,20 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 48.
+or `english'. on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count380
+\scratchcounter=\count382
 \scratchdimen=\dimen369
 \scratchbox=\box139
-\nofMPsegments=\count381
-\nofMParguments=\count382
+\nofMPsegments=\count383
+\nofMParguments=\count384
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count383
+\MPscratchCnt=\count385
 \MPscratchDim=\dimen370
-\MPnumerator=\count384
-\makeMPintoPDFobject=\count385
+\MPnumerator=\count386
+\makeMPintoPDFobject=\count387
 \everyMPtoPDFconversion=\toks54
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1450,11 +1453,11 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 47.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\c@lstlisting=\count386
+\c@lstlisting=\count388
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1490,77 +1493,44 @@ Package hyperref Info: Link coloring OFF on input line 48.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/base/8r.enc}]
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 89
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 53
 .
-
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 8
-9.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 8
-9.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100     \item If $f(\theta)$$ = $\begin{bmatrix}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.103     \end{bmatrix}
-                       $, \space then $f($\alpha$) f($\beta$) =
-? 
-[2] [3] [4] [5]
-<figs/q25.jpg, id=190, 899.36pt x 505.89pt>
-File: figs/q25.jpg Graphic file (type jpg)
-<use figs/q25.jpg>
-Package pdftex.def Info: figs/q25.jpg  used on input line 331.
-(pdftex.def)             Requested size: 199.1693pt x 112.02946pt.
- [6 <./figs/q25.jpg>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.389     \begin{bmatrix}
-                         
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.392     \end{bmatrix}
-                       
-? 
-[7] [8]
-\openout2 = `figs/q44.aux'.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 56.
+ [1
 
- (./figs/q44.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc}] [2] [3] [4] [5]
+\openout2 = `figs/q25.aux'.
+
+ (./figs/q25.tex
 
 ! LaTeX Error: Can be used only in preamble.
 
@@ -1568,17 +1538,35 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \begin{document}
+l.2 \begin{document}
                     
 ? 
-(./main.aux (./figs/q44.aux))
+
+! Package tikz Error: You need to say \usetikzlibrary{patterns}.
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14   \fill[pattern=north east lines]
+                                       (0,\height-\margin) rectangle (\width...
+
+? 
+
+! Package tikz Error: You need to say \usetikzlibrary{patterns}.
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15   \fill[pattern=north east lines]
+                                       (0,0) rectangle (\width,\margin);
+? 
+(./main.aux (./figs/q25.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1591,6 +1579,50 @@ Package rerunfilecheck Info: Checksums for `main.out':
 ! You can't use `\end' in internal vertical mode.
 \enddocument ...cument/end}\deadcycles \z@ \@@end 
                                                   
+l.28 \end{document}
+                   
+? 
+) [6
+
+
+
+
+
+
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:q25}{{\caption@xref {fig:q25}{ on input line 329}}{6}{}{figure.ca
+ption.1}{}}
+] [7]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.500     \end{align}
+                     
+? 
+[8]
+\@input{figs/q44.aux}
+\openout2 = `figs/q44.aux'.
+
+(./figs/q44.tex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{document}
+                    
+? 
+(./main.aux (./figs/q25.aux))
+! You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
 l.53 \end{document}
                    
 ? 
@@ -1600,10 +1632,9 @@ l.53 \end{document}
 
 
 
-
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \relax }}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \relax }}
 {9}{figure.caption.2}\protected@file@percent }
-\newlabel{}{{2}{9}{\relax }{figure.caption.2}{}}
+\newlabel{fig:q44}{{1}{9}{\relax }{figure.caption.2}{}}
 ] (./tables/table1.tex
 
 ! LaTeX Error: Not in outer par mode.
@@ -2025,7 +2056,7 @@ Missing character: There is no 9 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
-(./main.aux (./figs/q44.aux))
+(./main.aux (./figs/q25.aux))
 ! You can't use `\end' in internal vertical mode.
 \enddocument ...cument/end}\deadcycles \z@ \@@end 
                                                   
@@ -2037,9 +2068,9 @@ l.37 \end{document}
 
 
 
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \relax }}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \relax }}
 {12}{figure.caption.5}\protected@file@percent }
-\newlabel{}{{3}{12}{\relax }{figure.caption.5}{}}
+\newlabel{fig:q54}{{2}{12}{\relax }{figure.caption.5}{}}
 ]
 \@input{figs/q60.aux}
 \openout2 = `figs/q60.aux'.
@@ -2061,17 +2092,17 @@ l.1 \begin{figure}[h]
 
 
 
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \relax }}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \relax }}
 {13}{figure.caption.7}\protected@file@percent }
-\newlabel{}{{4}{13}{\relax }{figure.caption.7}{}}
+\newlabel{fig:q57}{{3}{13}{\relax }{figure.caption.7}{}}
 ] [14
 
 
 
 
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \relax }}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \relax }}
 {14}{figure.caption.8}\protected@file@percent }
-\newlabel{}{{5}{14}{\relax }{figure.caption.8}{}}
+\newlabel{fig:q60}{{4}{14}{\relax }{figure.caption.8}{}}
 ]
 \@input{figs/q67.aux}
 \openout2 = `figs/q67.aux'.
@@ -2088,25 +2119,25 @@ l.1 \begin{figure}[h]
                      
 ? 
 )
-<figs/q68.png, id=436, 349.305pt x 327.8649pt>
+<figs/q68.png, id=435, 349.305pt x 327.8649pt>
 File: figs/q68.png Graphic file (type png)
 <use figs/q68.png>
-Package pdftex.def Info: figs/q68.png  used on input line 819.
+Package pdftex.def Info: figs/q68.png  used on input line 812.
 (pdftex.def)             Requested size: 199.1693pt x 186.94496pt.
  [15
 
 
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \relax }}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \relax }}
 {15}{figure.caption.11}\protected@file@percent }
 
 
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \relax }}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \relax }}
 {15}{figure.caption.10}\protected@file@percent }
-\newlabel{}{{7}{15}{\relax }{figure.caption.10}{}}
+\newlabel{fig:q67}{{6}{15}{\relax }{figure.caption.10}{}}
 ] [16
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \relax }}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \relax }}
 {16}{figure.caption.12}\protected@file@percent }
-\newlabel{}{{8}{16}{\relax }{figure.caption.12}{}}
+\newlabel{fig:q68}{{7}{16}{\relax }{figure.caption.12}{}}
  <./figs/q68.png>]
 \@input{figs/q74 75.aux}
 \openout2 = `"figs/q74 75.aux"'.
@@ -2122,7 +2153,7 @@ Type  H <return>  for immediate help.
 l.19 \begin{document}
                      
 ? 
-(./main.aux (./figs/q44.aux))
+(./main.aux (./figs/q25.aux))
 ! You can't use `\end' in internal vertical mode.
 \enddocument ...cument/end}\deadcycles \z@ \@@end 
                                                   
@@ -2130,10 +2161,10 @@ l.53 \end{document}
                    
 ? 
 )
-<figs/q76 77.png, id=486, 665.48625pt x 342.5297pt>
+<figs/q76 77.png, id=485, 665.48625pt x 342.5297pt>
 File: figs/q76 77.png Graphic file (type png)
 <use figs/q76 77.png>
-Package pdftex.def Info: figs/q76 77.png  used on input line 937.
+Package pdftex.def Info: figs/q76 77.png  used on input line 929.
 (pdftex.def)             Requested size: 199.1693pt x 102.50882pt.
  [17
 
@@ -2141,28 +2172,27 @@ Package pdftex.def Info: figs/q76 77.png  used on input line 937.
 
 
 
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \relax }}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \relax }}
 {17}{figure.caption.13}\protected@file@percent }
-\newlabel{}{{9}{17}{\relax }{figure.caption.13}{}}
+\newlabel{fig:q74 75}{{8}{17}{\relax }{figure.caption.13}{}}
 ] [18
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \relax }
-}{18}{figure.caption.14}\protected@file@percent }
-\newlabel{}{{10}{18}{\relax }{figure.caption.14}{}}
+\newlabel{fig:q76 77}{{\caption@xref {fig:q76 77}{ on input line 931}}{18}{}{fi
+gure.caption.14}{}}
  <./figs/q76 77.png>]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1076.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1068.
 
  [19]
 \gdef \@abspage@last{19}
-(./main.aux (./figs/q44.aux)) ) 
+(./main.aux (./figs/q25.aux)) ) 
 Here is how much of TeX's memory you used:
- 52420 strings out of 474222
- 1240515 string characters out of 5748734
+ 52597 strings out of 474222
+ 1243719 string characters out of 5748734
  1943975 words of memory out of 5000000
- 73401 multiletter control sequences out of 15000+600000
- 605956 words of font info for 153 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 109i,13n,109p,1198b,1151s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73563 multiletter control sequences out of 15000+600000
+ 607850 words of font info for 156 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 109i,13n,109p,1194b,1158s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/publi
 c/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/r
 txr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></us
@@ -2171,10 +2201,10 @@ ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on main.pdf (19 pages, 355911 bytes).
+Output written on main.pdf (19 pages, 329398 bytes).
 PDF statistics:
- 711 PDF objects out of 1000 (max. 8388607)
+ 710 PDF objects out of 1000 (max. 8388607)
  646 compressed objects within 7 object streams
  468 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

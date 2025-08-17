@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage{gvv-book}
-%\usepackage{gvv}
+\usepackage{gvv}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{tikz}
@@ -44,15 +44,13 @@
 
 
 
-
 \begin{document}
+\title{
+ASSIGNMENT 1: GATE 2007 \\
+    AE : AEROSPACE ENGINEERING }
+\author{AI25BTECH11029 - Samyak Gondane }
+\maketitle
 
-\begin{center}
-    \textbf{2007}\\
-    \textbf{AE: Aerospace Engineering}\\
-\vspace{0.5cm}
-Duration: Three Hours \hfill Maximum Marks: 150
-\end{center}
 
 \begin{center}
     \textbf{Read the following instructions carefully}
@@ -97,10 +95,8 @@ Duration: Three Hours \hfill Maximum Marks: 150
     \end{multicols}
         
 
-    \item If $f(\theta)$$ = $\begin{bmatrix}
-        \cos\theta & \sin\theta \\
-        -\sin\theta & \cos\theta
-    \end{bmatrix}$, \space then $f($\alpha$) f($\beta$) = 
+    \item If $f(\theta)$$ = \myvec{\cos\theta & \sin\theta \\
+        -\sin\theta & \cos\theta}, \space then $f($\alpha$) f($\beta$) = 
     \begin{multicols}{2}
     \begin{enumerate}
         \item $f(\alpha/\beta)$ 
@@ -209,7 +205,7 @@ Duration: Three Hours \hfill Maximum Marks: 150
     \end{multicols}
         
 
-    \item For an elastic anisotropic solid, the number of independent elastic constants in its constitutive equations is 
+    \item For an elastic anisotropic solid, the number of independent elastic constants in its constitutive equations is
     \begin{multicols}{4}
     \begin{enumerate}
         \item 2 
@@ -328,10 +324,11 @@ Duration: Three Hours \hfill Maximum Marks: 150
     \item Shown in the figure below is a model of an Euler-Bernoulli beam made up of two materials subjected to pure bending moment $M$. The Young's modulus of material A and B are $E_A$ and $E_B$, respectively. The sectional moment of area, about the neutral axis, of the cross-sectional areas made of materials A and B, are $I_A$ and $I_B$, respectively. The radius of curvature $\rho$ of the flexural deflection of this composite beam to the bending moment $M$ is then
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.5\linewidth]{figs/q25.jpg}
-            \caption{}
-            \label{}
+            \include{figs/q25.tex}
+            \caption*{}
+            \label{fig:q25}
         \end{figure}
+
 
 
     \begin{multicols}{2}
@@ -384,12 +381,10 @@ Duration: Three Hours \hfill Maximum Marks: 150
     \end{multicols}
         
 
-    \item30] The eigenvalues of the matrix, 
+    \item The eigenvalues of the matrix, 
     A =
-    \begin{bmatrix}
-        2 & 1 
-        0 & 3
-    \end{bmatrix}
+    \myvec{2 & 1 \\
+        0 & 3}
     are 
     \begin{multicols}{2}
     \begin{enumerate}
@@ -401,10 +396,8 @@ Duration: Three Hours \hfill Maximum Marks: 150
     \end{multicols}
         
 
-    \item The eigenvalues of the matrix, $A^{-1}$, where A = $\begin{bmatrix}
-        2 & 1
-        0 & 3
-    \end{bmatrix}$, are 
+    \item The eigenvalues of the matrix, $A^{-1}$, where A = \myvec{2 & 1 \\
+    0 & 3}, are 
     \begin{multicols}{2}
     \begin{enumerate}
         \item 1 and 1/2 
@@ -500,11 +493,11 @@ Duration: Three Hours \hfill Maximum Marks: 150
 
     \item Let a system of linear equations be as follows:
     \[
-    \begin{aligned}
+    \begin{align}
         x - y + 2z &= 0 \\
         2x + 3y - z &= 0 \\
         2x - 2y + 4z &= 0
-    \end{aligned}
+    \end{align}
     \]
     This system of equations has
     \begin{enumerate}
@@ -549,7 +542,7 @@ Duration: Three Hours \hfill Maximum Marks: 150
             \centering
             \include{figs/q44.tex}
             \caption{}
-            \label{}
+            \label{fig:q44}
         \end{figure}
 
     \begin{enumerate}
@@ -658,7 +651,7 @@ Duration: Three Hours \hfill Maximum Marks: 150
         \centering
         \include{figs/q54.tex}
         \caption{}
-        \label{}
+        \label{fig:q54}
     \end{figure}
     \begin{enumerate}
         \item $\tau_{xz} = \frac{V_t}{2 I_y} \frac{z}{(h/2)}$
@@ -693,7 +686,7 @@ Duration: Three Hours \hfill Maximum Marks: 150
         \centering
         \include{figs/q57.tex}
         \caption{}
-        \label{}
+        \label{fig:q57}
     \end{figure}
     \begin{enumerate}
         \item $\frac{\rho U^2 h}{3}$
@@ -729,7 +722,7 @@ Duration: Three Hours \hfill Maximum Marks: 150
         \centering
         \include{figs/q60.tex}
         \caption{}
-        \label{}
+        \label{fig:q60}
     \end{figure}
     With regards to this biplane, which of the following statements is true?
     \begin{enumerate}
@@ -802,7 +795,7 @@ Duration: Three Hours \hfill Maximum Marks: 150
         \centering
         \include{figs/q67.tex}
         \caption{}
-        \label{}
+        \label{fig:q67}
     \end{figure}
     
     For $p_1 > p_e$ which of the following statements is NOT true?
@@ -816,11 +809,10 @@ Duration: Three Hours \hfill Maximum Marks: 150
     \item The span-wise lift distribution for three wings is shown in the following figure:
     \begin{figure}
         \centering
-        \includegraphics[width=0.5\linewidth]{figs/q68.png}
+        \includegraphics[width=0.5\columnwidth]{figs/q68.png}
         \caption{}
-        \label{}
+        \label{fig:q68}
     \end{figure}
-    
     In the above figure, $c_l$ refers to the section lift coefficient, $C_L$ refers to the lift coefficient of the wing, $y$ is the coordinate along the span and $s$ is the span of the wing. A designer prefers to use a wing for which the stall begins at the root. Which of the wings will he choose?
     \begin{multicols}{4}
     \begin{enumerate}
@@ -900,7 +892,7 @@ Duration: Three Hours \hfill Maximum Marks: 150
     \centering
     \include{figs/q74 75.tex}
     \caption{}
-    \label{}
+    \label{fig:q74 75}
 \end{figure}
 
 \begin{enumerate}
@@ -934,9 +926,9 @@ Duration: Three Hours \hfill Maximum Marks: 150
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{figs/q76 77.png}
-    \caption{}
-    \label{}
+    \includegraphics[width=0.5\columnwidth]{figs/q76 77.png}
+    \caption*{}
+    \label{fig:q76 77}
 \end{figure}
 
 \begin{enumerate}
