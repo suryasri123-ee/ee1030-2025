@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.18)  18 AUG 2025 12:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.18)  18 AUG 2025 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1503,12 +1503,12 @@ Overfull \vbox (15.59991pt too high) has occurred while \output is active []
 <figs/14.png, id=138, 453.94594pt x 214.55156pt>
 File: figs/14.png Graphic file (type png)
 <use figs/14.png>
-Package pdftex.def Info: figs/14.png  used on input line 370.
+Package pdftex.def Info: figs/14.png  used on input line 369.
 (pdftex.def)             Requested size: 453.94482pt x 214.55103pt.
 <figs/15.png, id=140, 359.09157pt x 295.1025pt>
 File: figs/15.png Graphic file (type png)
 <use figs/15.png>
-Package pdftex.def Info: figs/15.png  used on input line 393.
+Package pdftex.def Info: figs/15.png  used on input line 394.
 (pdftex.def)             Requested size: 359.09068pt x 295.10176pt.
 
 
@@ -1517,103 +1517,115 @@ Package pdftex.def Info: figs/15.png  used on input line 393.
 [6 <./figs/15.png>]
 
 [7]
-<figs/26.png, id=210, 483.30562pt x 210.7875pt>
+<figs/26.png, id=212, 483.30562pt x 210.7875pt>
 File: figs/26.png Graphic file (type png)
 <use figs/26.png>
-Package pdftex.def Info: figs/26.png  used on input line 545.
+Package pdftex.def Info: figs/26.png  used on input line 548.
 (pdftex.def)             Requested size: 483.30444pt x 210.78699pt.
 
 
 [8 <./figs/26.png>]
-<figs/28.png, id=228, 298.86656pt x 161.85469pt>
+<figs/28.png, id=231, 298.86656pt x 161.85469pt>
 File: figs/28.png Graphic file (type png)
 <use figs/28.png>
-Package pdftex.def Info: figs/28.png  used on input line 587.
+Package pdftex.def Info: figs/28.png  used on input line 592.
 (pdftex.def)             Requested size: 298.86581pt x 161.85428pt.
 
-Overfull \hbox (46.62636pt too wide) in paragraph at lines 605--607
+Overfull \hbox (46.62636pt too wide) in paragraph at lines 612--614
 []\OT1/txr/m/n/12 Highly repet-i-tive se-quences are most likely to be preva-le
 nt in re-gions of the genome with $[]$recombination
  []
 
-<figs/30.png, id=229, 257.46187pt x 234.8775pt>
+<figs/30.png, id=232, 257.46187pt x 234.8775pt>
 File: figs/30.png Graphic file (type png)
 <use figs/30.png>
-Package pdftex.def Info: figs/30.png  used on input line 625.
+Package pdftex.def Info: figs/30.png  used on input line 632.
 (pdftex.def)             Requested size: 257.46123pt x 234.87692pt.
 
 
 [9 <./figs/28.png>]
-<figs/33.png, id=251, 441.90094pt x 417.81094pt>
+<figs/33.png, id=254, 441.90094pt x 417.81094pt>
 File: figs/33.png Graphic file (type png)
 <use figs/33.png>
-Package pdftex.def Info: figs/33.png  used on input line 676.
+Package pdftex.def Info: figs/33.png  used on input line 685.
 (pdftex.def)             Requested size: 441.89986pt x 417.80992pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
 [10 <./figs/30.png>]
-<figs/34.png, id=273, 267.24844pt x 197.23688pt>
+<figs/34.png, id=277, 267.24844pt x 197.23688pt>
 File: figs/34.png Graphic file (type png)
 <use figs/34.png>
-Package pdftex.def Info: figs/34.png  used on input line 694.
+Package pdftex.def Info: figs/34.png  used on input line 705.
 (pdftex.def)             Requested size: 267.24779pt x 197.23637pt.
 
 
 [11 <./figs/33.png>]
-<figs/35.png, id=284, 289.83281pt x 274.02374pt>
+<figs/35.png, id=290, 289.83281pt x 274.02374pt>
 File: figs/35.png Graphic file (type png)
 <use figs/35.png>
-Package pdftex.def Info: figs/35.png  used on input line 711.
+Package pdftex.def Info: figs/35.png  used on input line 724.
 (pdftex.def)             Requested size: 289.83209pt x 274.02307pt.
 
 
 [12 <./figs/34.png> <./figs/35.png>]
-<figs/37.png, id=296, 341.02406pt x 209.28188pt>
+<figs/37.png, id=304, 341.02406pt x 209.28188pt>
 File: figs/37.png Graphic file (type png)
 <use figs/37.png>
-Package pdftex.def Info: figs/37.png  used on input line 741.
+Package pdftex.def Info: figs/37.png  used on input line 756.
 (pdftex.def)             Requested size: 341.02322pt x 209.28134pt.
 
 
 [13 <./figs/37.png>]
-<figs/41.png, id=317, 331.99031pt x 233.37187pt>
+<figs/41.png, id=325, 331.99031pt x 233.37187pt>
 File: figs/41.png Graphic file (type png)
 <use figs/41.png>
-Package pdftex.def Info: figs/41.png  used on input line 805.
+Package pdftex.def Info: figs/41.png  used on input line 822.
 (pdftex.def)             Requested size: 331.98949pt x 233.37129pt.
 
 
 [14]
-<figs/44.png, id=342, 454.69875pt x 157.33781pt>
+<figs/44.png, id=352, 454.69875pt x 157.33781pt>
 File: figs/44.png Graphic file (type png)
 <use figs/44.png>
-Package pdftex.def Info: figs/44.png  used on input line 848.
+Package pdftex.def Info: figs/44.png  used on input line 866.
 (pdftex.def)             Requested size: 454.69763pt x 157.33742pt.
 
 
 [15 <./figs/41.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 865--871
+Underfull \hbox (badness 10000) in paragraph at lines 885--891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--880
+Underfull \hbox (badness 10000) in paragraph at lines 894--900
 
  []
 
 
 
 [16 <./figs/44.png>]
+<figs/48.png, id=395, 295.1025pt x 210.7875pt>
+File: figs/48.png Graphic file (type png)
+<use figs/48.png>
+Package pdftex.def Info: figs/48.png  used on input line 946.
+(pdftex.def)             Requested size: 295.10176pt x 210.78699pt.
+<figs/53.png, id=396, 243.91125pt x 255.95625pt>
+File: figs/53.png Graphic file (type png)
+<use figs/53.png>
+Package pdftex.def Info: figs/53.png  used on input line 973.
+(pdftex.def)             Requested size: 243.91064pt x 255.95561pt.
 
-[17] (./main.aux)
+
+[17 <./figs/48.png>]
+
+[18 <./figs/53.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1625,11 +1637,11 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 48838 strings out of 473197
- 1136132 string characters out of 5718605
+ 48882 strings out of 473197
+ 1136616 string characters out of 5718605
  1761996 words of memory out of 5000000
- 71045 multiletter control sequences out of 15000+600000
- 617640 words of font info for 152 fonts, out of 8000000 for 9000
+ 71073 multiletter control sequences out of 15000+600000
+ 618956 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,7n,103p,1193b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
@@ -1638,10 +1650,10 @@ exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 435459 bytes).
+Output written on main.pdf (18 pages, 468322 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 438 compressed objects within 5 object streams
- 307 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 321 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
