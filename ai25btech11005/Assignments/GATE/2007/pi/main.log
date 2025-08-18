@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.6)  16 AUG 2025 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.6)  18 AUG 2025 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,110 +7,114 @@ entering extended mode
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
 
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/exam/e
-xam.cls
-Document Class: exam 2023/07/09 Version 2.704 by Philip Hirschhorn
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/ieeetr
+an/IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen148
+\@IEEEtrantmpdimenB=\dimen149
+\@IEEEtrantmpdimenC=\dimen150
+\@IEEEtrantmpcountA=\count275
+\@IEEEtrantmpcountB=\count276
+\@IEEEtrantmpcountC=\count277
+\@IEEEtrantmptoksA=\toks17
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
 
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/i
-fthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/psnfss
+/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/a
-rticle.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+** ATTENTION: Single column mode is not typically used with IEEE publications.
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen151
+-- This is a 12 point document.
+LaTeX Encoding Info:    Redeclaring text command \textunderscore (encoding ?) o
+n input line 937.
+\CLASSINFOnormalsizebaselineskip=\dimen152
+\CLASSINFOnormalsizeunitybaselineskip=\dimen153
+\IEEEnormaljot=\dimen154
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/s
-ize12.clo
-File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen148
-)
-\@extrawidth=\skip51
-\@rightmargin=\skip52
-\@extrahead=\skip53
-\@extrafoot=\skip54
-\run@exhd=\skip55
-\fp@exhd=\skip56
-\run@exft=\skip57
-\fp@exft=\skip58
-\covrun@exhd=\skip59
-\covfp@exhd=\skip60
-\covrun@exft=\skip61
-\covfp@exft=\skip62
-\c@num@coverpages=\count283
-\c@latest@ques=\count284
-\c@ques@end=\count285
-\c@last@object=\count286
-\c@incmp@ques=\count287
-\c@next@ques=\count288
-\c@next@page=\count289
-\c@tmp@hlfcntr=\count290
-\c@ifpos@cntr=\count291
-\c@question=\count292
-\c@partno=\count293
-\c@subpart=\count294
-\c@subsubpart=\count295
-\c@choice=\count296
-\c@numpoints=\count297
-\c@numbonuspoints=\count298
-\c@pointsof@thisquestion=\count299
-\c@bonuspointsof@thisquestion=\count300
-\c@numquestions=\count301
-\c@numparts=\count302
-\c@numsubparts=\count303
-\c@numsubsubparts=\count304
-\c@Curr@Page=\count305
-\c@@pagepoints=\count306
-\c@@pagebonuspoints=\count307
-\c@pageof@pagepoints=\count308
-\c@pageof@pagebonuspoints=\count309
-\c@latest@points=\count310
-\c@latest@bonuspoints=\count311
-\pageinfo@commands=\toks17
-\temp@toks=\toks18
-\pagepoint@commands=\toks19
-\point@toks=\toks20
-\c@ques@object=\count312
-\marginpointssep=\skip63
-\rightpointsmargin=\skip64
-\choice@toks=\toks21
-\answerlinelength=\skip65
-\answerskip=\skip66
-\answerclearance=\skip67
-\fillinlinelength=\skip68
-\linefillheight=\skip69
-\linefillthickness=\skip70
-\dottedlinefillheight=\skip71
-\gridsize=\skip72
-\gridlinewidth=\skip73
-\minboxheight=\skip74
-\c@@iterator=\count313
-\@cellwidth=\skip75
-\c@tbl@points=\count314
-\c@tbl@bonuspoints=\count315
-\c@pq@index=\count316
-\c@pq@index@pts=\count317
-\c@pq@index@bpts=\count318
-\c@num@cols=\count319
-\c@num@rows=\count320
-\c@current@row=\count321
-\c@cols@done=\count322
-\c@exam@saved@eqnum=\count323
-\exam@box=\box53
-\saved@totalleftmargin=\dimen149
-\@sollistdepth=\count324
-\exam@FrameRule=\dimen150
-\exam@FrameSep=\dimen151
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen155
+\IEEEquantizedlengthdiff=\dimen156
+\IEEEquantizedtextheightdiff=\dimen157
+\IEEEilabelindentA=\dimen158
+\IEEEilabelindentB=\dimen159
+\IEEEilabelindent=\dimen160
+\IEEEelabelindent=\dimen161
+\IEEEdlabelindent=\dimen162
+\IEEElabelindent=\dimen163
+\IEEEiednormlabelsep=\dimen164
+\IEEEiedmathlabelsep=\dimen165
+\IEEEiedtopsep=\skip49
+\c@section=\count278
+\c@subsection=\count279
+\c@subsubsection=\count280
+\c@paragraph=\count281
+\c@IEEEsubequation=\count282
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\c@figure=\count283
+\c@table=\count284
+\@IEEEeqnnumcols=\count285
+\@IEEEeqncolcnt=\count286
+\@IEEEsubeqnnumrollback=\count287
+\@IEEEquantizeheightA=\dimen166
+\@IEEEquantizeheightB=\dimen167
+\@IEEEquantizeheightC=\dimen168
+\@IEEEquantizeprevdepth=\dimen169
+\@IEEEquantizemultiple=\count288
+\@IEEEquantizeboxA=\box53
+\@IEEEtmpitemindent=\dimen170
+\IEEEPARstartletwidth=\dimen171
+\c@IEEEbiography=\count289
+\@IEEEtranrubishbin=\box54
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/mhchem
 /mhchem.sty
@@ -123,7 +127,7 @@ Package: expl3 2025-07-20 L3 programming layer (loader)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/l3back
 end/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count325
+\l__color_backend_stack_int=\count290
 ))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/l3pack
 ages/l3keys2e/l3keys2e.sty
@@ -132,21 +136,21 @@ Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count326
-\calc@Bcount=\count327
-\calc@Adimen=\dimen152
-\calc@Bdimen=\dimen153
-\calc@Askip=\skip76
-\calc@Bskip=\skip77
+\calc@Acount=\count291
+\calc@Bcount=\count292
+\calc@Adimen=\dimen172
+\calc@Bdimen=\dimen173
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count328
-\calc@Cskip=\skip78
+\calc@Ccount=\count293
+\calc@Cskip=\skip54
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
 h/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
-\@mathmargin=\skip79
+\@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 
@@ -157,63 +161,63 @@ Package: amstext 2024/11/17 v2.01 AMS text
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
 h/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen154
+\@emptytoks=\toks18
+\ex@=\dimen174
 ))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
 h/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen155
+\pmbraise@=\dimen175
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
 h/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count329
+\inf@bad=\count294
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count330
-\leftroot@=\count331
+\uproot@=\count295
+\leftroot@=\count296
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count332
-\DOTSCASE@=\count333
+\classnum@=\count297
+\DOTSCASE@=\count298
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
+\Mathstrutbox@=\box55
+\strutbox@=\box56
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen156
+\big@size=\dimen176
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count334
+\macc@depth=\count299
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count335
+\c@MaxMatrixCols=\count300
 \dotsspace@=\muskip17
-\c@parentequation=\count336
-\dspbrk@lvl=\count337
-\tag@help=\toks23
-\row@=\count338
-\column@=\count339
-\maxfields@=\count340
-\andhelp@=\toks24
-\eqnshift@=\dimen157
-\alignsep@=\dimen158
-\tagshift@=\dimen159
-\tagwidth@=\dimen160
-\totwidth@=\dimen161
-\lineht@=\dimen162
-\@envbody=\toks25
-\multlinegap=\skip80
-\multlinetaggap=\skip81
-\mathdisplay@stack=\toks26
+\c@parentequation=\count301
+\dspbrk@lvl=\count302
+\tag@help=\toks19
+\row@=\count303
+\column@=\count304
+\maxfields@=\count305
+\andhelp@=\toks20
+\eqnshift@=\dimen177
+\alignsep@=\dimen178
+\tagshift@=\dimen179
+\tagwidth@=\dimen180
+\totwidth@=\dimen181
+\lineht@=\dimen182
+\@envbody=\toks21
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 )
@@ -225,8 +229,8 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count341
-\g__chemgreek_tmpa_int=\count342
+\l__chemgreek_tmpa_int=\count306
+\g__chemgreek_tmpa_int=\count307
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
 cs/graphics.sty
@@ -246,22 +250,22 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 cs-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\l__mhchem_ce_distanceFromLastComma_int=\count343
-\__mhchem_arrow_extPgfLength_skip=\skip82
-\mhchem@minispace@tmp=\skip83
-\mhchem@minibackspace@tmp=\skip84
-\mhchem@bondwidth=\skip85
-\mhchem@bondheight=\skip86
-\mhchem@smallbondwidth@tmpA=\skip87
-\mhchem@smallbondwidth@tmpB=\skip88
-\mhchem@smallbondwidth=\skip89
-\mhchem@bondtmp@minussidebearingleft=\skip90
-\mhchem@bondtmp@minussidebearingright=\skip91
-\l__mhchem_option_version_int=\count344
-\mhchem@option@minusmathsidebearingleft=\dimen163
-\mhchem@option@minusmathsidebearingright=\dimen164
-\mhchem@option@minustextsidebearingleft=\dimen165
-\mhchem@option@minustextsidebearingright=\dimen166
+\l__mhchem_ce_distanceFromLastComma_int=\count308
+\__mhchem_arrow_extPgfLength_skip=\skip58
+\mhchem@minispace@tmp=\skip59
+\mhchem@minibackspace@tmp=\skip60
+\mhchem@bondwidth=\skip61
+\mhchem@bondheight=\skip62
+\mhchem@smallbondwidth@tmpA=\skip63
+\mhchem@smallbondwidth@tmpB=\skip64
+\mhchem@smallbondwidth=\skip65
+\mhchem@bondtmp@minussidebearingleft=\skip66
+\mhchem@bondtmp@minussidebearingright=\skip67
+\l__mhchem_option_version_int=\count309
+\mhchem@option@minusmathsidebearingleft=\dimen183
+\mhchem@option@minusmathsidebearingright=\dimen184
+\mhchem@option@minustextsidebearingleft=\dimen185
+\mhchem@option@minustextsidebearingright=\dimen186
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/chemfo
 rmula/chemformula.sty
@@ -273,13 +277,13 @@ siclayer/pgf.sty
 ilities/pgfrcs.sty
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen167
-\pgfutil@tempdimb=\dimen168
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen187
+\pgfutil@tempdimb=\dimen188
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgfutil-latex.def
-\pgfutil@abb=\box56
+\pgfutil@abb=\box57
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgfrcs.code.tex
@@ -298,10 +302,10 @@ Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
 cs/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks28
+\KV@toks@=\toks24
 )
-\Gin@req@height=\dimen169
-\Gin@req@width=\dimen170
+\Gin@req@height=\dimen189
+\Gin@req@width=\dimen190
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/pgf/sy
 stemlayer/pgfsys.sty
@@ -311,33 +315,33 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks27
 ))
-\pgf@x=\dimen171
-\pgf@y=\dimen172
-\pgf@xa=\dimen173
-\pgf@ya=\dimen174
-\pgf@xb=\dimen175
-\pgf@yb=\dimen176
-\pgf@xc=\dimen177
-\pgf@yc=\dimen178
-\pgf@xd=\dimen179
-\pgf@yd=\dimen180
+\pgf@x=\dimen191
+\pgf@y=\dimen192
+\pgf@xa=\dimen193
+\pgf@ya=\dimen194
+\pgf@xb=\dimen195
+\pgf@yb=\dimen196
+\pgf@xc=\dimen197
+\pgf@yc=\dimen198
+\pgf@xd=\dimen199
+\pgf@yd=\dimen256
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count345
-\c@pgf@countb=\count346
-\c@pgf@countc=\count347
-\c@pgf@countd=\count348
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count349
+\c@pgf@counta=\count310
+\c@pgf@countb=\count311
+\c@pgf@countc=\count312
+\c@pgf@countd=\count313
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count314
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 systemlayer/pgf.cfg
@@ -356,8 +360,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count350
-\pgfsyssoftpath@bigbuffer@items=\count351
+\pgfsyssoftpath@smallbuffer@items=\count315
+\pgfsyssoftpath@bigbuffer@items=\count316
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 systemlayer/pgfsysprotocol.code.tex
@@ -395,12 +399,12 @@ math/pgfmath.code.tex
 math/pgfmathutil.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen181
-\pgfmath@count=\count352
-\pgfmath@box=\box57
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@dimen=\dimen257
+\pgfmath@count=\count317
+\pgfmath@box=\box58
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 math/pgfmathfunctions.code.tex)
@@ -424,59 +428,59 @@ math/pgfmathfunctions.integerarithmetics.code.tex)
 math/pgfmathcalc.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count353
+\c@pgfmathroundto@lastzeros=\count318
 ))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 math/pgfint.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen182
-\pgf@picmaxx=\dimen183
-\pgf@picminy=\dimen184
-\pgf@picmaxy=\dimen185
-\pgf@pathminx=\dimen186
-\pgf@pathmaxx=\dimen187
-\pgf@pathminy=\dimen188
-\pgf@pathmaxy=\dimen189
-\pgf@xx=\dimen190
-\pgf@xy=\dimen191
-\pgf@yx=\dimen192
-\pgf@yy=\dimen193
-\pgf@zx=\dimen194
-\pgf@zy=\dimen195
+\pgf@picminx=\dimen258
+\pgf@picmaxx=\dimen259
+\pgf@picminy=\dimen260
+\pgf@picmaxy=\dimen261
+\pgf@pathminx=\dimen262
+\pgf@pathmaxx=\dimen263
+\pgf@pathminy=\dimen264
+\pgf@pathmaxy=\dimen265
+\pgf@xx=\dimen266
+\pgf@xy=\dimen267
+\pgf@yx=\dimen268
+\pgf@yy=\dimen269
+\pgf@zx=\dimen270
+\pgf@zy=\dimen271
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen196
-\pgf@path@lasty=\dimen197
+\pgf@path@lastx=\dimen272
+\pgf@path@lasty=\dimen273
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen198
-\pgf@shorten@start@additional=\dimen199
+\pgf@shorten@end@additional=\dimen274
+\pgf@shorten@start@additional=\dimen275
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box58
-\pgf@hbox=\box59
-\pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count354
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count319
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen256
+\pgflinewidth=\dimen276
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen257
-\pgf@pt@y=\dimen258
-\pgf@pt@temp=\dimen259
+\pgf@pt@x=\dimen277
+\pgf@pt@y=\dimen278
+\pgf@pt@temp=\dimen279
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorequick.code.tex
@@ -493,14 +497,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen260
+\pgfarrowsep=\dimen280
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen261
-\pgf@sys@shading@range@num=\count355
-\pgf@shadingcount=\count356
+\pgf@max=\dimen281
+\pgf@sys@shading@range@num=\count320
+\pgf@shadingcount=\count321
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcoreimage.code.tex
@@ -509,7 +513,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box61
+\pgfexternal@startupbox=\box62
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorelayers.code.tex
@@ -530,7 +534,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box62
+\pgfnodeparttextbox=\box63
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 modules/pgfmoduleplot.code.tex
@@ -539,8 +543,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/pgf/co
 mpatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen262
-\pgf@nodesepend=\dimen263
+\pgf@nodesepstart=\dimen282
+\pgf@nodesepend=\dimen283
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/pgf/co
 mpatibility/pgfcomp-version-1-18.sty
@@ -559,10 +563,10 @@ math/pgfmath.code.tex))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen264
-\pgffor@skip=\dimen265
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+\pgffor@iter=\dimen284
+\pgffor@skip=\dimen285
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
 ))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/tikz.code.tex
@@ -571,34 +575,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count357
-\pgfplotmarksize=\dimen266
+\pgf@plot@mark@count=\count322
+\pgfplotmarksize=\dimen286
 )
-\tikz@lastx=\dimen267
-\tikz@lasty=\dimen268
-\tikz@lastxsaved=\dimen269
-\tikz@lastysaved=\dimen270
-\tikz@lastmovetox=\dimen271
-\tikz@lastmovetoy=\dimen272
-\tikzleveldistance=\dimen273
-\tikzsiblingdistance=\dimen274
-\tikz@figbox=\box63
-\tikz@figbox@bg=\box64
-\tikz@tempbox=\box65
-\tikz@tempbox@bg=\box66
-\tikztreelevel=\count358
-\tikznumberofchildren=\count359
-\tikznumberofcurrentchild=\count360
-\tikz@fig@count=\count361
+\tikz@lastx=\dimen287
+\tikz@lasty=\dimen288
+\tikz@lastxsaved=\dimen289
+\tikz@lastysaved=\dimen290
+\tikz@lastmovetox=\dimen291
+\tikz@lastmovetoy=\dimen292
+\tikzleveldistance=\dimen293
+\tikzsiblingdistance=\dimen294
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count323
+\tikznumberofchildren=\count324
+\tikznumberofcurrentchild=\count325
+\tikz@fig@count=\count326
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count362
-\pgfmatrixcurrentcolumn=\count363
-\pgf@matrix@numberofcolumns=\count364
+\pgfmatrixcurrentrow=\count327
+\pgfmatrixcurrentcolumn=\count328
+\pgf@matrix@numberofcolumns=\count329
 )
-\tikz@expandcount=\count365
+\tikz@expandcount=\count330
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
@@ -607,13 +611,13 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/xfrac/
 xfrac.sty
 Package: xfrac 2024-06-04 Split-level fractions
-\l__xfrac_slash_box=\box67
-\l__xfrac_tmp_box=\box68
-\l__xfrac_denominator_bot_sep_dim=\dimen275
-\l__xfrac_numerator_bot_sep_dim=\dimen276
-\l__xfrac_numerator_top_sep_dim=\dimen277
-\l__xfrac_slash_left_sep_dim=\dimen278
-\l__xfrac_slash_right_sep_dim=\dimen279
+\l__xfrac_slash_box=\box68
+\l__xfrac_tmp_box=\box69
+\l__xfrac_denominator_bot_sep_dim=\dimen295
+\l__xfrac_numerator_bot_sep_dim=\dimen296
+\l__xfrac_numerator_top_sep_dim=\dimen297
+\l__xfrac_slash_left_sep_dim=\dimen298
+\l__xfrac_slash_right_sep_dim=\dimen299
 \l__xfrac_slash_left_muskip=\muskip18
 \l__xfrac_slash_right_muskip=\muskip19
 
@@ -633,67 +637,71 @@ LaTeX template Info: Declaring instance 'cmtt' of type xfrac on line 392.
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/units/
 nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip92
-\L@UnitsRaiseTextstyle=\skip93
-\L@UnitsRaiseScriptstyle=\skip94
-)
+\L@UnitsRaiseDisplaystyle=\skip68
+\L@UnitsRaiseTextstyle=\skip69
+\L@UnitsRaiseScriptstyle=\skip70
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/i
+fthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen280
-\pgfarrowlength=\dimen281
-\pgfarrowwidth=\dimen282
-\pgfarrowlinewidth=\dimen283
+\pgfarrowinset=\dimen300
+\pgfarrowlength=\dimen301
+\pgfarrowwidth=\dimen302
+\pgfarrowlinewidth=\dimen303
 )
 Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions 
 (CN)
-\l__chemformula_tmpa_dim=\dimen284
-\l__chemformula_tmpb_dim=\dimen285
-\l__chemformula_tmpc_dim=\dimen286
-\l__chemformula_tmpa_int=\count366
-\l__chemformula_tmpb_int=\count367
-\l__chemformula_tmpc_int=\count368
-\l__chemformula_tmpa_box=\box69
-\l__chemformula_tmpb_box=\box70
-\l__chemformula_arrow_length_dim=\dimen287
-\l__chemformula_arrow_label_height_dim=\dimen288
-\l__chemformula_arrow_label_offset_dim=\dimen289
-\l__chemformula_arrow_minimum_length_dim=\dimen290
-\l__chemformula_arrow_shortage_dim=\dimen291
-\l__chemformula_arrow_offset_dim=\dimen292
-\l__chemformula_arrow_yshift_dim=\dimen293
-\l__chemformula_radical_radius_dim=\dimen294
-\l__chemformula_radical_hshift_dim=\dimen295
-\l__chemformula_radical_vshift_dim=\dimen296
-\l__chemformula_radical_space_dim=\dimen297
-\l__chemformula_arrow_head_dim=\dimen298
-\l__chemformula_name_dim=\dimen299
-\l__chemformula_adduct_space_dim=\dimen300
-\l__chemformula_charge_shift_dim=\dimen301
-\l__chemformula_subscript_shift_dim=\dimen302
-\l__chemformula_superscript_shift_dim=\dimen303
-\l__chemformula_subscript_dim=\dimen304
-\l__chemformula_superscript_dim=\dimen305
-\l__chemformula_bond_dim=\dimen306
-\l__chemformula_bond_space_dim=\dimen307
-\l__chemformula_elspec_pair_distance_dim=\dimen308
-\l__chemformula_elspec_pair_line_length_dim=\dimen309
-\l__chemformula_elspec_pair_width_dim=\dimen310
-\l__chemformula_kroegervink_positive_radius_dim=\dimen311
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen312
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen313
-\l__chemformula_kroegervink_positive_space_dim=\dimen314
-\l__chemformula_stoich_space_skip=\skip95
-\l__chemformula_math_space_skip=\skip96
-\l__chemformula_additions_symbol_space_skip=\skip97
-\l__chemformula_count_tokens_int=\count369
-\g__chemformula_lewis_int=\count370
-\l__chemformula_arrow_arg_i_box=\box71
-\l__chemformula_arrow_arg_ii_box=\box72
-\l__chemformula_superscript_box=\box73
-\l__chemformula_subscript_box=\box74
-\l__chemformula_plus_space_skip=\skip98
-\l__chemformula_minus_space_skip=\skip99
+\l__chemformula_tmpa_dim=\dimen304
+\l__chemformula_tmpb_dim=\dimen305
+\l__chemformula_tmpc_dim=\dimen306
+\l__chemformula_tmpa_int=\count331
+\l__chemformula_tmpb_int=\count332
+\l__chemformula_tmpc_int=\count333
+\l__chemformula_tmpa_box=\box70
+\l__chemformula_tmpb_box=\box71
+\l__chemformula_arrow_length_dim=\dimen307
+\l__chemformula_arrow_label_height_dim=\dimen308
+\l__chemformula_arrow_label_offset_dim=\dimen309
+\l__chemformula_arrow_minimum_length_dim=\dimen310
+\l__chemformula_arrow_shortage_dim=\dimen311
+\l__chemformula_arrow_offset_dim=\dimen312
+\l__chemformula_arrow_yshift_dim=\dimen313
+\l__chemformula_radical_radius_dim=\dimen314
+\l__chemformula_radical_hshift_dim=\dimen315
+\l__chemformula_radical_vshift_dim=\dimen316
+\l__chemformula_radical_space_dim=\dimen317
+\l__chemformula_arrow_head_dim=\dimen318
+\l__chemformula_name_dim=\dimen319
+\l__chemformula_adduct_space_dim=\dimen320
+\l__chemformula_charge_shift_dim=\dimen321
+\l__chemformula_subscript_shift_dim=\dimen322
+\l__chemformula_superscript_shift_dim=\dimen323
+\l__chemformula_subscript_dim=\dimen324
+\l__chemformula_superscript_dim=\dimen325
+\l__chemformula_bond_dim=\dimen326
+\l__chemformula_bond_space_dim=\dimen327
+\l__chemformula_elspec_pair_distance_dim=\dimen328
+\l__chemformula_elspec_pair_line_length_dim=\dimen329
+\l__chemformula_elspec_pair_width_dim=\dimen330
+\l__chemformula_kroegervink_positive_radius_dim=\dimen331
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen332
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen333
+\l__chemformula_kroegervink_positive_space_dim=\dimen334
+\l__chemformula_stoich_space_skip=\skip71
+\l__chemformula_math_space_skip=\skip72
+\l__chemformula_additions_symbol_space_skip=\skip73
+\l__chemformula_count_tokens_int=\count334
+\g__chemformula_lewis_int=\count335
+\l__chemformula_arrow_arg_i_box=\box72
+\l__chemformula_arrow_arg_ii_box=\box73
+\l__chemformula_superscript_box=\box74
+\l__chemformula_subscript_box=\box75
+\l__chemformula_plus_space_skip=\skip74
+\l__chemformula_minus_space_skip=\skip75
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/chem
 fig/chemfig.sty
@@ -703,21 +711,21 @@ fig/chemfig.tex
 lekv/simplekv.tex
 Package: simplekv 2025/06/15 v0.32 Simple keyval package (CT)
 )
-\CF_cnt_atomgroup=\count371
-\CF_cnt_group=\count372
-\CF_cnt_atom=\count373
-\CF_cnt_cycle=\count374
-\CF_cnt_cyclebonds=\count375
-\CF_cnt_compound=\count376
-\CF_dim=\dimen315
-\CF_turnangle=\dimen316
-\CF_arrowsize=\dimen317
-\CF_zero=\dimen318
-\CF_box=\box75
-\CF_boxstuff=\box76
-\CF_testbox=\box77
-\CF_chargebox=\box78
-\CF_substtoks=\toks40
+\CF_cnt_atomgroup=\count336
+\CF_cnt_group=\count337
+\CF_cnt_atom=\count338
+\CF_cnt_cycle=\count339
+\CF_cnt_cyclebonds=\count340
+\CF_cnt_compound=\count341
+\CF_dim=\dimen335
+\CF_turnangle=\dimen336
+\CF_arrowsize=\dimen337
+\CF_zero=\dimen338
+\CF_box=\box76
+\CF_boxstuff=\box77
+\CF_testbox=\box78
+\CF_chargebox=\box79
+\CF_substtoks=\toks36
 )
 Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
 )
@@ -725,15 +733,15 @@ Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
 cros/chemmacros.sty
 Package: chemmacros 2022/03/11 v6.2a comprehensive support for typesetting chem
 istry documents (CN & SK)
-\l__chemmacros_tmpa_dim=\dimen319
-\l__chemmacros_tmpb_dim=\dimen320
-\l__chemmacros_tmpc_dim=\dimen321
-\l__chemmacros_tmpa_int=\count377
-\l__chemmacros_tmpb_int=\count378
-\l__chemmacros_tmpc_int=\count379
-\l__chemmacros_tmpa_box=\box79
-\l__chemmacros_tmpb_box=\box80
-\l__chemmacros_tmpc_box=\box81
+\l__chemmacros_tmpa_dim=\dimen339
+\l__chemmacros_tmpb_dim=\dimen340
+\l__chemmacros_tmpc_dim=\dimen341
+\l__chemmacros_tmpa_int=\count342
+\l__chemmacros_tmpb_int=\count343
+\l__chemmacros_tmpc_int=\count344
+\l__chemmacros_tmpa_box=\box80
+\l__chemmacros_tmpb_box=\box81
+\l__chemmacros_tmpc_box=\box82
 Loading the chemmacros module `base' ...
 
 Loading the chemmacros module `base' ...
@@ -761,7 +769,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/etoolb
 ox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count380
+\etb@tempcnta=\count345
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pdft
 excmds/pdftexcmds.sty
@@ -797,17 +805,17 @@ Loading the chemmacros module `symbols' ...
 Loading the chemmacros module `symbols' ...
 Loading the chemmacros module `particles' ...
 Loading the chemmacros module `particles' ...
-\l__chemmacros_nucleophile_dim=\dimen322
+\l__chemmacros_nucleophile_dim=\dimen342
 Loading the chemmacros module `phases' ...
 Loading the chemmacros module `phases' ...
-\l__chemmacros_phases_space_dim=\dimen323
+\l__chemmacros_phases_space_dim=\dimen343
 Loading the chemmacros module `nomenclature' ...
 Loading the chemmacros module `nomenclature' ...
-\l__chemmacros_cip_kern_dim=\dimen324
-\l__chemmacros_iupac_hyphen_pre_dim=\dimen325
-\l__chemmacros_iupac_hyphen_post_dim=\dimen326
-\l__chemmacros_iupac_break_dim=\dimen327
-\l__chemmacros_iupac_break_skip=\skip100
+\l__chemmacros_cip_kern_dim=\dimen344
+\l__chemmacros_iupac_hyphen_pre_dim=\dimen345
+\l__chemmacros_iupac_hyphen_post_dim=\dimen346
+\l__chemmacros_iupac_break_dim=\dimen347
+\l__chemmacros_iupac_break_skip=\skip76
 Loading the chemmacros module `tikz' ...
 Loading the chemmacros module `tikz' ...
 
@@ -821,20 +829,20 @@ frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
 frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen328
-\pgfdecoratedremainingdistance=\dimen329
-\pgfdecoratedinputsegmentcompleteddistance=\dimen330
-\pgfdecoratedinputsegmentremainingdistance=\dimen331
-\pgf@decorate@distancetomove=\dimen332
-\pgf@decorate@repeatstate=\count381
-\pgfdecorationsegmentamplitude=\dimen333
-\pgfdecorationsegmentlength=\dimen334
+\pgfdecoratedcompleteddistance=\dimen348
+\pgfdecoratedremainingdistance=\dimen349
+\pgfdecoratedinputsegmentcompleteddistance=\dimen350
+\pgfdecoratedinputsegmentremainingdistance=\dimen351
+\pgf@decorate@distancetomove=\dimen352
+\pgf@decorate@repeatstate=\count346
+\pgfdecorationsegmentamplitude=\dimen353
+\pgfdecorationsegmentlength=\dimen354
 )
-\tikz@lib@dec@box=\box82
+\tikz@lib@dec@box=\box83
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex))
-\l__chemmacros_el_length_dim=\dimen335
+\l__chemmacros_el_length_dim=\dimen355
 Loading the chemmacros module `isotopes' ...
 
 Loading the chemmacros module `isotopes' ...
@@ -842,8 +850,8 @@ Loading the chemmacros module `isotopes' ...
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/elemen
 ts/elements.sty
 Package: elements 2022/01/29 v0.4 properties of chemical elements
-\c@@elements@orbital@type=\count382
-\c@@elements@shell@number=\count383
+\c@@elements@orbital@type=\count347
+\c@@elements@shell@number=\count348
 )
 Loading the chemmacros module `mechanisms' ...
 
@@ -854,11 +862,11 @@ Loading the chemmacros module `orbital' ...
 Loading the chemmacros module `orbital' ...
 Loading the chemmacros module `polymers' ...
 Loading the chemmacros module `polymers' ...
-\l__chemmacros_polymer_delimiter_height_dim=\dimen336
-\l__chemmacros_polymer_delimiter_depth_dim=\dimen337
+\l__chemmacros_polymer_delimiter_height_dim=\dimen356
+\l__chemmacros_polymer_delimiter_depth_dim=\dimen357
 Loading the chemmacros module `reactions' ...
 Loading the chemmacros module `reactions' ...
-\c@reaction=\count384
+\c@reaction=\count349
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/mathto
 ols/mathtools.sty
@@ -868,17 +876,17 @@ Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
 ols/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count385
-\l_MT_multwidth_dim=\dimen338
-\origjot=\skip101
-\l_MT_shortvdotswithinadjustabove_dim=\dimen339
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen340
-\l_MT_above_intertext_sep=\dimen341
-\l_MT_below_intertext_sep=\dimen342
-\l_MT_above_shortintertext_sep=\dimen343
-\l_MT_below_shortintertext_sep=\dimen344
-\xmathstrut@box=\box83
-\xmathstrut@dim=\dimen345
+\g_MT_multlinerow_int=\count350
+\l_MT_multwidth_dim=\dimen358
+\origjot=\skip77
+\l_MT_shortvdotswithinadjustabove_dim=\dimen359
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen360
+\l_MT_above_intertext_sep=\dimen361
+\l_MT_below_intertext_sep=\dimen362
+\l_MT_above_shortintertext_sep=\dimen363
+\l_MT_below_shortintertext_sep=\dimen364
+\xmathstrut@box=\box84
+\xmathstrut@dim=\dimen365
 )
 Loading the chemmacros module `redox' ...
 
@@ -888,10 +896,10 @@ Loading the chemmacros module `redox' ...
 e/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__chemmacros_ox_number_int=\count386
-\l__chemmacros_redox_sep_dim=\dimen346
-\l__chemmacros_redox_sep_default_dim=\dimen347
-\l__chemmacros_redox_dist_dim=\dimen348
+\l__chemmacros_ox_number_int=\count351
+\l__chemmacros_redox_sep_dim=\dimen366
+\l__chemmacros_redox_sep_default_dim=\dimen367
+\l__chemmacros_redox_dist_dim=\dimen368
 Loading the chemmacros module `xfrac' ...
 
 Loading the chemmacros module `xfrac' ...
@@ -914,16 +922,16 @@ Package: chemnum 2021/01/21 v1.3a a comprehensive approach for the numbering of
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/psfrag
 /psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count387
-\pfg@scount=\count388
+\pfg@pcount=\count352
+\pfg@scount=\count353
 \pfg@temp=\write4
 )
-\l__chemnum_tmpa_int=\count389
-\l__chemnum_tmpb_int=\count390
-\l__chemnum_tmpc_int=\count391
-\c@cmpdmain=\count392
-\g__chemnum_main_int=\count393
-\l__chemnum_compound_replace_int=\count394
+\l__chemnum_tmpa_int=\count354
+\l__chemnum_tmpb_int=\count355
+\l__chemnum_tmpc_int=\count356
+\c@cmpdmain=\count357
+\g__chemnum_main_int=\count358
+\l__chemnum_compound_replace_int=\count359
 )
 ==> First Aid for chemnum.sty applied!
 Loading the chemmacros module `spectroscopy' ...
@@ -932,46 +940,46 @@ Loading the chemmacros module `spectroscopy' ...
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/siunit
 x/siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count395
-\l__siunitx_number_exponent_fixed_int=\count396
-\l__siunitx_number_min_decimal_int=\count397
-\l__siunitx_number_min_integer_int=\count398
-\l__siunitx_number_round_precision_int=\count399
-\l__siunitx_number_lower_threshold_int=\count400
-\l__siunitx_number_upper_threshold_int=\count401
-\l__siunitx_number_group_first_int=\count402
-\l__siunitx_number_group_size_int=\count403
-\l__siunitx_number_group_minimum_int=\count404
-\l__siunitx_angle_tmp_dim=\dimen349
-\l__siunitx_angle_marker_box=\box84
-\l__siunitx_angle_unit_box=\box85
-\l__siunitx_compound_count_int=\count405
-\l__siunitx_table_tmp_box=\box86
-\l__siunitx_table_tmp_dim=\dimen350
-\l__siunitx_table_column_width_dim=\dimen351
-\l__siunitx_table_integer_box=\box87
-\l__siunitx_table_decimal_box=\box88
-\l__siunitx_table_uncert_box=\box89
-\l__siunitx_table_before_box=\box90
-\l__siunitx_table_after_box=\box91
-\l__siunitx_table_before_dim=\dimen352
-\l__siunitx_table_carry_dim=\dimen353
-\l__siunitx_unit_tmp_int=\count406
-\l__siunitx_unit_position_int=\count407
-\l__siunitx_unit_total_int=\count408
+\l__siunitx_number_uncert_offset_int=\count360
+\l__siunitx_number_exponent_fixed_int=\count361
+\l__siunitx_number_min_decimal_int=\count362
+\l__siunitx_number_min_integer_int=\count363
+\l__siunitx_number_round_precision_int=\count364
+\l__siunitx_number_lower_threshold_int=\count365
+\l__siunitx_number_upper_threshold_int=\count366
+\l__siunitx_number_group_first_int=\count367
+\l__siunitx_number_group_size_int=\count368
+\l__siunitx_number_group_minimum_int=\count369
+\l__siunitx_angle_tmp_dim=\dimen369
+\l__siunitx_angle_marker_box=\box85
+\l__siunitx_angle_unit_box=\box86
+\l__siunitx_compound_count_int=\count370
+\l__siunitx_table_tmp_box=\box87
+\l__siunitx_table_tmp_dim=\dimen370
+\l__siunitx_table_column_width_dim=\dimen371
+\l__siunitx_table_integer_box=\box88
+\l__siunitx_table_decimal_box=\box89
+\l__siunitx_table_uncert_box=\box90
+\l__siunitx_table_before_box=\box91
+\l__siunitx_table_after_box=\box92
+\l__siunitx_table_before_dim=\dimen372
+\l__siunitx_table_carry_dim=\dimen373
+\l__siunitx_unit_tmp_int=\count371
+\l__siunitx_unit_position_int=\count372
+\l__siunitx_unit_total_int=\count373
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
-\col@sep=\dimen354
-\ar@mcellbox=\box92
-\extrarowheight=\dimen355
-\NC@list=\toks41
-\extratabsurround=\skip102
-\backup@length=\skip103
-\ar@cellbox=\box93
+\col@sep=\dimen374
+\ar@mcellbox=\box93
+\extrarowheight=\dimen375
+\NC@list=\toks37
+\extratabsurround=\skip78
+\backup@length=\skip79
+\ar@cellbox=\box94
 ))
-\l__chemmacros_nmr_space_skip=\skip104
+\l__chemmacros_nmr_space_skip=\skip80
 Loading the chemmacros module `thermodynamics' ...
 
 Loading the chemmacros module `thermodynamics' ...
@@ -998,115 +1006,6 @@ Package chemmacros Warning: `modules' is a load-time option!
 (chemmacros)                You need to use \usepackage[modules]{chemmacros}.
 
 
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/fancyh
-dr/fancyhdr.sty
-Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
-
-
-! LaTeX Error: Command \lhead already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 ...ef\f@nch@olh{#2}\f@nch@def\f@nch@elh{#1}}
-                                                  
-? <return>
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? R
-OK, entering \nonstopmode...
-
-! LaTeX Error: Command \chead already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.273 ...ef\f@nch@och{#2}\f@nch@def\f@nch@ech{#1}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \rhead already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.275 ...ef\f@nch@orh{#2}\f@nch@def\f@nch@erh{#1}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \lfoot already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.277 ...ef\f@nch@olf{#2}\f@nch@def\f@nch@elf{#1}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cfoot already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...ef\f@nch@ocf{#2}\f@nch@def\f@nch@ecf{#1}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \rfoot already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 ...ef\f@nch@orf{#2}\f@nch@def\f@nch@erf{#1}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\f@nch@headwidth=\skip105
-\f@nch@offset@elh=\skip106
-\f@nch@offset@erh=\skip107
-\f@nch@offset@olh=\skip108
-\f@nch@offset@orh=\skip109
-\f@nch@offset@elf=\skip110
-\f@nch@offset@erf=\skip111
-\f@nch@offset@olf=\skip112
-\f@nch@offset@orf=\skip113
-\f@nch@height=\skip114
-\f@nch@footalignment=\skip115
-\f@nch@widthL=\skip116
-\f@nch@widthC=\skip117
-\f@nch@widthR=\skip118
-\@temptokenb=\toks42
-)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/geomet
 ry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1115,18 +1014,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 x/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count409
-\Gm@cntv=\count410
-\c@Gm@tempcnt=\count411
-\Gm@bindingoffset=\dimen356
-\Gm@wd@mp=\dimen357
-\Gm@odd@mp=\dimen358
-\Gm@even@mp=\dimen359
-\Gm@layoutwidth=\dimen360
-\Gm@layoutheight=\dimen361
-\Gm@layouthoffset=\dimen362
-\Gm@layoutvoffset=\dimen363
-\Gm@dimlist=\toks43
+\Gm@cnth=\count374
+\Gm@cntv=\count375
+\c@Gm@tempcnt=\count376
+\Gm@bindingoffset=\dimen376
+\Gm@wd@mp=\dimen377
+\Gm@odd@mp=\dimen378
+\Gm@even@mp=\dimen379
+\Gm@layoutwidth=\dimen380
+\Gm@layoutheight=\dimen381
+\Gm@layouthoffset=\dimen382
+\Gm@layoutvoffset=\dimen383
+\Gm@dimlist=\toks38
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/lastpa
 ge/lastpage.sty
@@ -1140,7 +1039,7 @@ MM)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/lastpa
 ge/lastpagemodern.sty
 Package: lastpagemodern 2025-06-06 v2.1g Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count412
+\c@lastpagecount=\count377
 ) 
 ))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/cite/c
@@ -1165,52 +1064,51 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amscls
 /amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks44
-\thm@bodyfont=\toks45
-\thm@headfont=\toks46
-\thm@notefont=\toks47
-\thm@headpunct=\toks48
-\thm@preskip=\skip119
-\thm@postskip=\skip120
-\thm@headsep=\skip121
-\dth@everypar=\toks49
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip81
+\thm@postskip=\skip82
+\thm@headsep=\skip83
+\dth@everypar=\toks44
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/enumit
 em/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip122
-\enit@outerparindent=\dimen364
-\enit@toks=\toks50
-\enit@inbox=\box94
-\enit@count@id=\count413
-\enitdp@description=\count414
+\labelindent=\skip84
+\enit@outerparindent=\dimen384
+\enit@toks=\toks45
+\enit@inbox=\box95
+\enit@count@id=\count378
+\enitdp@description=\count379
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 multicol.sty
 Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
-\c@tracingmulticols=\count415
-\mult@box=\box95
-\multicol@leftmargin=\dimen365
-\c@unbalance=\count416
-\c@collectmore=\count417
-\doublecol@number=\count418
-\multicoltolerance=\count419
-\multicolpretolerance=\count420
-\full@width=\dimen366
-\page@free=\dimen367
-\premulticols=\dimen368
-\postmulticols=\dimen369
-\multicolsep=\skip123
-\multicolbaselineskip=\skip124
-\partial@page=\box96
-\last@line=\box97
-\mc@boxedresult=\box98
-\maxbalancingoverflow=\dimen370
-\mult@rightbox=\box99
-\mult@grightbox=\box100
-\mult@firstbox=\box101
-\mult@gfirstbox=\box102
-\@tempa=\box103
+\c@tracingmulticols=\count380
+\mult@box=\box96
+\multicol@leftmargin=\dimen385
+\c@unbalance=\count381
+\c@collectmore=\count382
+\doublecol@number=\count383
+\multicoltolerance=\count384
+\multicolpretolerance=\count385
+\full@width=\dimen386
+\page@free=\dimen387
+\premulticols=\dimen388
+\postmulticols=\dimen389
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box97
+\last@line=\box98
+\mc@boxedresult=\box99
+\maxbalancingoverflow=\dimen390
+\mult@rightbox=\box100
+\mult@grightbox=\box101
+\mult@firstbox=\box102
+\mult@gfirstbox=\box103
 \@tempa=\box104
 \@tempa=\box105
 \@tempa=\box106
@@ -1246,26 +1144,27 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \@tempa=\box136
 \@tempa=\box137
 \@tempa=\box138
-\c@minrows=\count421
-\c@columnbadness=\count422
-\c@finalcolumnbadness=\count423
-\last@try=\dimen371
-\multicolovershoot=\dimen372
-\multicolundershoot=\dimen373
-\mult@nat@firstbox=\box139
-\colbreak@box=\box140
-\mc@col@check@num=\count424
-\g__mc_curr_col_int=\count425
+\@tempa=\box139
+\c@minrows=\count386
+\c@columnbadness=\count387
+\c@finalcolumnbadness=\count388
+\last@try=\dimen391
+\multicolovershoot=\dimen392
+\multicolundershoot=\dimen393
+\mult@nat@firstbox=\box140
+\colbreak@box=\box141
+\mc@col@check@num=\count389
+\g__mc_curr_col_int=\count390
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/algori
 thms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count426
-\c@ALC@line=\count427
-\c@ALC@rem=\count428
-\c@ALC@depth=\count429
-\ALC@tlm=\skip125
-\algorithmicindent=\skip126
+\c@ALC@unique=\count391
+\c@ALC@line=\count392
+\c@ALC@rem=\count393
+\c@ALC@depth=\count394
+\ALC@tlm=\skip87
+\algorithmicindent=\skip88
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/t
 extcomp.sty
@@ -1362,18 +1261,18 @@ LaTeX Info: Redefining \openbox on input line 1064.
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/listings.sty
-\lst@mode=\count430
-\lst@gtempboxa=\box141
-\lst@token=\toks51
-\lst@length=\count431
-\lst@currlwidth=\dimen374
-\lst@column=\count432
-\lst@pos=\count433
-\lst@lostspace=\dimen375
-\lst@width=\dimen376
-\lst@newlines=\count434
-\lst@lineno=\count435
-\lst@maxwidth=\dimen377
+\lst@mode=\count395
+\lst@gtempboxa=\box142
+\lst@token=\toks46
+\lst@length=\count396
+\lst@currlwidth=\dimen394
+\lst@column=\count397
+\lst@pos=\count398
+\lst@lostspace=\dimen395
+\lst@width=\dimen396
+\lst@newlines=\count399
+\lst@lineno=\count400
+\lst@maxwidth=\dimen397
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/lstpatch.sty
@@ -1382,9 +1281,9 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count436
-\lst@skipnumbers=\count437
-\lst@framebox=\box142
+\c@lstnumber=\count401
+\lst@skipnumbers=\count402
+\lst@framebox=\box143
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/listings.cfg
@@ -1436,16 +1335,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 ons/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count438
+\c@section@level=\count403
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/stri
 ngenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen378
-\Hy@linkcounter=\count439
-\Hy@pagecounter=\count440
+\@linkdim=\dimen398
+\Hy@linkcounter=\count404
+\Hy@pagecounter=\count405
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/hyperr
 ef/pd1enc.def
@@ -1457,7 +1356,7 @@ Now handling font encoding PD1 ...
 alc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count441
+\Hy@SavedSpaceFactor=\count406
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/hyperr
 ef/puenc.def
@@ -1473,7 +1372,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count442
+\c@Hy@tempcnt=\count407
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/url/ur
 l.sty
@@ -1481,7 +1380,7 @@ l.sty
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen379
+\XeTeXLinkMargin=\dimen399
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/bits
 et/bitset.sty
@@ -1492,9 +1391,9 @@ ntcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count443
-\Field@Width=\dimen380
-\Fld@charsize=\dimen381
+\Fld@menulength=\count408
+\Field@Width=\dimen400
+\Fld@charsize=\dimen401
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -1502,17 +1401,17 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count444
-\c@Item=\count445
-\c@Hfootnote=\count446
+\Hy@abspage=\count409
+\c@Item=\count410
+\c@Hfootnote=\count411
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/hyperr
 ef/hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count447
-\c@bookmark@seq@number=\count448
+\Fld@listcount=\count412
+\c@bookmark@seq@number=\count413
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/rerunf
 ilecheck/rerunfilecheck.sty
@@ -1525,7 +1424,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip127
+\Hy@SectionHShift=\skip89
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tkz-eu
 clide/tkz-euclide.sty
@@ -1543,13 +1442,13 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen382
+\arrowsize=\dimen402
 ))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box143
-\pgf@layerboxsaved@background=\box144
+\pgf@layerbox@background=\box144
+\pgf@layerboxsaved@background=\box145
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
@@ -1567,9 +1466,9 @@ libraries/decorations/pgflibrarydecorations.shapes.code.tex))
 frontendlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 libraries/decorations/pgflibrarydecorations.text.code.tex
-\pgf@lib@dec@text@box=\box145
+\pgf@lib@dec@text@box=\box146
 )
-\tikz@lib@dec@te@box=\box146
+\tikz@lib@dec@te@box=\box147
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex
@@ -1577,15 +1476,15 @@ frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex
 libraries/pgflibraryintersections.code.tex
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count449
+\pgf@intersect@solutions=\count414
 ))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibrarymath.code.tex
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibraryfpu.code.tex)
-\tikz@math@for@depth=\count450
-\tikz@math@dimen=\dimen383
-\tikz@math@toks=\toks52
+\tikz@math@for@depth=\count415
+\tikz@math@dimen=\dimen403
+\tikz@math@toks=\toks47
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
@@ -1623,18 +1522,18 @@ Package: xfp 2024-08-16 L3 Floating point unit
 /xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )
-\tkzRadius=\dimen384
-\tkzLength=\dimen385
-\tkz@radi=\dimen386
-\tkz@ax=\dimen387
-\tkz@ay=\dimen388
-\tkz@bx=\dimen389
-\tkz@by=\dimen390
-\tkz@cx=\dimen391
-\tkz@cy=\dimen392
-\tkz@dx=\dimen393
-\tkz@dy=\dimen394
-\tkz@cntmk=\count451
+\tkzRadius=\dimen404
+\tkzLength=\dimen405
+\tkz@radi=\dimen406
+\tkz@ax=\dimen407
+\tkz@ay=\dimen408
+\tkz@bx=\dimen409
+\tkz@by=\dimen410
+\tkz@cx=\dimen411
+\tkz@cy=\dimen412
+\tkz@dx=\dimen413
+\tkz@dy=\dimen414
+\tkz@cntmk=\count416
 
 Local configuration file tkz-euclide.cfg found and used
 
@@ -1777,27 +1676,12 @@ clide/tkz-draw-eu-show.tex
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tkz-eu
 clide/tkz-draw-eu-protractor.tex
 2024/04/19 5.10c tkz-obj-eu-protractor.tex
-)) (./gvv.sty
-
-! LaTeX Error: Command \solution already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ...{\solution}{\noindent \textbf{Solution: }}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
+)) (./gvv.sty)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/i
 nputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks53
-\inpenc@posthook=\toks54
+\inpenc@prehook=\toks48
+\inpenc@posthook=\toks49
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/l
 atin1.def
@@ -1822,30 +1706,30 @@ ncoding ?) on input line 57.
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 longtable.sty
 Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
-\LTleft=\skip128
-\LTright=\skip129
-\LTpre=\skip130
-\LTpost=\skip131
-\LTchunksize=\count452
-\LTcapwidth=\dimen395
-\LT@head=\box147
-\LT@firsthead=\box148
-\LT@foot=\box149
-\LT@lastfoot=\box150
-\LT@gbox=\box151
-\LT@cols=\count453
-\LT@rows=\count454
-\c@LT@tables=\count455
-\c@LT@chunks=\count456
-\LT@p@ftn=\toks55
+\LTleft=\skip90
+\LTright=\skip91
+\LTpre=\skip92
+\LTpost=\skip93
+\LTchunksize=\count417
+\LTcapwidth=\dimen415
+\LT@head=\box148
+\LT@firsthead=\box149
+\LT@foot=\box150
+\LT@lastfoot=\box151
+\LT@gbox=\box152
+\LT@cols=\count418
+\LT@rows=\count419
+\c@LT@tables=\count420
+\c@LT@chunks=\count421
+\LT@p@ftn=\toks50
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/multir
 ow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip132
-\multirow@cntb=\count457
-\multirow@dima=\skip133
-\bigstrutjot=\dimen396
+\multirow@colwidth=\skip94
+\multirow@cntb=\count422
+\multirow@dima=\skip95
+\bigstrutjot=\dimen416
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 hhline.sty
@@ -1858,30 +1742,30 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen397
-\TX@old@table=\dimen398
-\TX@old@col=\dimen399
-\TX@target=\dimen400
-\TX@delta=\dimen401
-\TX@cols=\count458
-\TX@ftn=\toks56
+\TX@col@width=\dimen417
+\TX@old@table=\dimen418
+\TX@old@col=\dimen419
+\TX@target=\dimen420
+\TX@delta=\dimen421
+\TX@cols=\count423
+\TX@ftn=\toks51
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/float/
 float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count459
-\float@exts=\toks57
-\float@box=\box152
-\@float@everytoks=\toks58
-\@floatcapt=\box153
+\c@float@type=\count424
+\float@exts=\toks52
+\float@box=\box153
+\@float@everytoks=\toks53
+\@floatcapt=\box154
 )
-\c@theorem=\count460
-\c@problem=\count461
-\c@proposition=\count462
-\c@lemma=\count463
-\c@example=\count464
+\c@theorem=\count425
+\c@problem=\count426
+\c@proposition=\count427
+\c@lemma=\count428
+\c@example=\count429
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 81.
+h' as default language. on input line 68.
 
 
 Package chemmacros Warning: You have loaded both `chemformula' and `mhchem' as
@@ -1894,86 +1778,120 @@ Package chemmacros Warning: You have loaded both `chemformula' and `mhchem' as
 
 Package chemmacros Info: Using float defining method `float'.
 
-\@float@every@scheme=\toks59
-\c@scheme=\count465
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
-1.
+\@float@every@scheme=\toks54
+\c@scheme=\count430
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 6
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-
-LaTeX Warning: Unused global option(s):
-    [journal].
-
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 81.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 68.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-81.
+68.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 68.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-81.
+68.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 68.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-81.
+68.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 81.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
-1.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 68.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 6
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 68.
 
-Package chemgreek Info: Activating mapping `default' on line 81.
+-- Lines per column: 46 (approximate, difference = 10.11009pt).
+
+Package chemgreek Info: Activating mapping `default' on line 68.
 
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/context/base
 /mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count466
-\scratchdimen=\dimen402
-\scratchbox=\box154
-\nofMPsegments=\count467
-\nofMParguments=\count468
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count469
-\MPscratchDim=\dimen403
-\MPnumerator=\count470
-\makeMPintoPDFobject=\count471
-\everyMPtoPDFconversion=\toks61
+\scratchcounter=\count431
+\scratchdimen=\dimen422
+\scratchbox=\box155
+\nofMPsegments=\count432
+\nofMParguments=\count433
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count434
+\MPscratchDim=\dimen423
+\MPnumerator=\count435
+\makeMPintoPDFobject=\count436
+\everyMPtoPDFconversion=\toks56
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/epstop
 df-pkg/epstopdf-base.sty
@@ -1992,7 +1910,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 81.
+or `english'. on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2010,15 +1928,15 @@ or `english'. on input line 81.
 * \textheight=650.43001pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-30.0pt
+* \topmargin=-32.42401pt
 * \headheight=14.0pt
 * \headsep=5.0pt
-* \topskip=12.0pt
+* \topskip=13.92pt
 * \footskip=20.0pt
-* \marginparwidth=36.135pt
-* \marginparsep=5.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \marginparwidth=20.0pt
+* \marginparsep=10.0pt
+* \columnsep=12.0pt
+* \skip\footins=12.52791pt plus 5.5679pt minus 2.78395pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -2028,20 +1946,20 @@ or `english'. on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count472
+\c@lstlisting=\count437
 \symgns@font=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 81.
-Package gensymb Info: Math companion symbols declared on input line 81.
-LaTeX Info: Redefining \degree on input line 81.
-LaTeX Info: Redefining \celsius on input line 81.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 68.
+Package gensymb Info: Math companion symbols declared on input line 68.
+LaTeX Info: Redefining \degree on input line 68.
+LaTeX Info: Redefining \celsius on input line 68.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 81.
-LaTeX Info: Redefining \ohm on input line 81.
-Package gensymb Info: Using \textohm for \ohm on input line 81.
-LaTeX Info: Redefining \micro on input line 81.
-Package gensymb Info: Using \textmu for \micro on input line 81.
-Package hyperref Info: Link coloring OFF on input line 81.
+erthousand on input line 68.
+LaTeX Info: Redefining \ohm on input line 68.
+Package gensymb Info: Using \textohm for \ohm on input line 68.
+LaTeX Info: Redefining \micro on input line 68.
+Package gensymb Info: Using \textmu for \micro on input line 68.
+Package hyperref Info: Link coloring OFF on input line 68.
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -2054,92 +1972,97 @@ Package chemmacros Warning: You haven't loaded any package for upright Greek
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/elemen
 ts/elements_names_english.def)
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 84.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 8
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
 6.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 8
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 7
 6.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 8
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 7
 6.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 8
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 7
 6.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 8
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
 6.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    Freeze math alphabet allocation in version normal.
-(Font)              Allocated math groups: 14 (local: 2) on input line 116.
+(Font)              Allocated math groups: 14 (local: 2) on input line 110.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 116.
+rmal on input line 110.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 116.
+rmal on input line 110.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 116.
+rmal on input line 110.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 116.
+rmal on input line 110.
 LaTeX Font Info:    Undo math alphabet allocation in version normal on input li
-ne 116.
+ne 110.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 117.
+rmal on input line 111.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 117.
+rmal on input line 111.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 117.
+rmal on input line 111.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 117.
+rmal on input line 111.
 LaTeX Font Info:    Undo math alphabet allocation in version normal on input li
-ne 117.
+ne 111.
+
+
+
+
+
+
+
+
+
+
 <figs/Q.4.png, id=7, 112.62074pt x 61.4295pt>
 File: figs/Q.4.png Graphic file (type png)
 <use figs/Q.4.png>
-Package pdftex.def Info: figs/Q.4.png  used on input line 130.
-(pdftex.def)             Requested size: 93.94957pt x 51.2461pt.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 133.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 133.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 133.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 133.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 133.
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
+Package pdftex.def Info: figs/Q.4.png  used on input line 128.
+(pdftex.def)             Requested size: 117.43875pt x 64.05856pt.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
 rmal on input line 135.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
@@ -2150,27 +2073,69 @@ LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
 rmal on input line 135.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
 ine 135.
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-<figs/Q.5.png, id=9, 62.03175pt x 55.407pt>
-File: figs/Q.5.png Graphic file (type png)
-<use figs/Q.5.png>
-Package pdftex.def Info: figs/Q.5.png  used on input line 141.
-(pdftex.def)             Requested size: 93.94957pt x 83.91597pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 137.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 137.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 137.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 137.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 137.
 
 
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 145.
+
+
+
+
+
+
+
+
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 146.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 146.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 146.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 147.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 147.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 147.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 148.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 148.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 149.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 150.
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 164.
+
+
+
+
+
+
+
+
+
+
+
 
 [1
 Non-PDF special ignored!
@@ -2178,536 +2143,765 @@ Non-PDF special ignored!
 {/data/data/com.termux/files/usr/share/texlive/2025/texmf-var/fonts/map/pdftex/
 updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
 t/fonts/enc/dvips/base/8r.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+       <./figs/Q.4.png>]
 
- <./figs/Q.4.png>]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 152.
+ine 203.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 183.
+ine 203.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 183.
+ine 331.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 332.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 333.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 334.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 190.
-
-[2 <./figs/Q.5.png>]
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 246.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+[]\OT1/txr/m/n/12 Quality plan-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+[]\OT1/txr/m/n/12 Product in-spec-tion
+ []
+
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 361.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 361.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 361.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 361.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 361.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 362.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 362.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 362.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 362.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 363.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 363.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 364.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 408.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 408.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 408.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 408.
+
+Overfull \hbox (3.44016pt too wide) in paragraph at lines 408--409
+[]\OT1/txr/m/n/12 The func-tion $\OML/txmi/m/it/12 e[]$ \OT1/txr/m/n/12 over th
+e in-ter-val [0,1] is to be eval-u-ated us-ing the Tay-lor se-ries 1+x+$[]$+$[]
+$+...
+ []
+
+
 
 [3]
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 288.
+ine 414.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 289.
+ine 414.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 290.
+ine 415.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 291.
+ine 415.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 415.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 416.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 416.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 417.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 292.
-
-[4]
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 316.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 316.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 316.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 316.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 316.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 317.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 317.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 317.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 317.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 318.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 318.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 319.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 354.
-
-[5]
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 357.
+ine 422.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 357.
+ine 422.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 357.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 357.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 362.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 362.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 363.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 363.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 363.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 364.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 364.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 365.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 369.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 369.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 369.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 379.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 379.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 379.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 379.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 379.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 398.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 408.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 408.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 408.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 408.
+ine 422.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 409.
 
-[6]
-<figs/Q.28.png, id=152, 124.66576pt x 61.4295pt>
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 434.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 434.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 434.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 434.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 434.
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 455.
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 467.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 467.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 467.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 467.
+<figs/Q.28.png, id=148, 124.66576pt x 61.4295pt>
 File: figs/Q.28.png Graphic file (type png)
 <use figs/Q.28.png>
-Package pdftex.def Info: figs/Q.28.png  used on input line 411.
-(pdftex.def)             Requested size: 93.94957pt x 46.29414pt.
-<figs/Q.30.png, id=153, 304.13625pt x 48.78226pt>
+Package pdftex.def Info: figs/Q.28.png  used on input line 472.
+(pdftex.def)             Requested size: 140.92793pt x 69.44731pt.
+
+
+
+
+
+
+
+
+
+
+
+
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.492                         \item
+                                    0.8 <./figs/Q.28.png>]
+
+
+
+
+
+
+
+
+
+<figs/Q.30.png, id=180, 304.13625pt x 48.78226pt>
 File: figs/Q.30.png Graphic file (type png)
 <use figs/Q.30.png>
-Package pdftex.def Info: figs/Q.30.png  used on input line 434.
-(pdftex.def)             Requested size: 187.89914pt x 30.13898pt.
-<figs/Q.31.png, id=154, 307.74976pt x 121.05225pt>
+Package pdftex.def Info: figs/Q.30.png  used on input line 504.
+(pdftex.def)             Requested size: 234.8775pt x 37.67409pt.
+
+
+
+
+
+
+
+
+
+
+<figs/Q.31.png, id=181, 307.74976pt x 121.05225pt>
 File: figs/Q.31.png Graphic file (type png)
 <use figs/Q.31.png>
-Package pdftex.def Info: figs/Q.31.png  used on input line 447.
+Package pdftex.def Info: figs/Q.31.png  used on input line 523.
 (pdftex.def)             Requested size: 234.8775pt x 92.39224pt.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 450.
-
-[7 <./figs/Q.28.png> <./figs/Q.30.png>]
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 459.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 460.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 471.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 482.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 483.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 499.
 
-[8 <./figs/Q.31.png>]
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 508.
+ine 540.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 510.
+ine 541.
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 511.
+ine 554.
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 525.
+ine 567.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 544.
-<figs/Q.39.png, id=197, 377.61075pt x 181.8795pt>
+ine 568.
+
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.573      \item
+                 0.16 mm
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.573      \item
+                 0.16 mm <./figs/Q.30.png> <./figs/Q.31.png>]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 598.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 600.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 601.
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 615.
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 638.
+
+
+
+
+
+
+
+
+
+
+<figs/Q.39.png, id=215, 377.61075pt x 181.8795pt>
 File: figs/Q.39.png Graphic file (type png)
 <use figs/Q.39.png>
-Package pdftex.def Info: figs/Q.39.png  used on input line 557.
+Package pdftex.def Info: figs/Q.39.png  used on input line 655.
 (pdftex.def)             Requested size: 234.8775pt x 113.13045pt.
 
 
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.663        \item
+                   $\pm$ 0.025 <./figs/Q.39.png>]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 663.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 664.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 665.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 666.
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 559.
 
-[9]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 561.
+ine 689.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 562.
+ine 689.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 563.
+ine 690.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 564.
+ine 690.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 583.
+ine 691.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 583.
+ine 691.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 584.
+ine 692.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 584.
+ine 692.
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 585.
+ine 697.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 585.
+ine 697.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 586.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 586.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 590.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 590.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 590.
+ine 697.
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 602.
+rmal on input line 711.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 602.
+rmal on input line 711.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 602.
+rmal on input line 711.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 603.
+rmal on input line 712.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 603.
+rmal on input line 712.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 603.
+rmal on input line 712.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 604.
+rmal on input line 713.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 604.
+rmal on input line 713.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 605.
+rmal on input line 714.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 605.
+ine 714.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 606.
 
-[10 <./figs/Q.39.png>]
-<figs/Q.44.png, id=237, 356.532pt x 150.5625pt>
+<figs/Q.44.png, id=248, 356.532pt x 150.5625pt>
 File: figs/Q.44.png Graphic file (type png)
 <use figs/Q.44.png>
-Package pdftex.def Info: figs/Q.44.png  used on input line 619.
+Package pdftex.def Info: figs/Q.44.png  used on input line 731.
 (pdftex.def)             Requested size: 234.8775pt x 99.19235pt.
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 629.
+rmal on input line 745.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 629.
+ine 745.
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.751     \item
+                $30^{+0.070}_{+0.030} \ \text{mm}$ <./figs/Q.44.png>]
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 634.
+rmal on input line 751.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 634.
+ine 751.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 635.
+rmal on input line 752.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 635.
+ine 752.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 636.
+rmal on input line 753.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 636.
+ine 753.
 LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 637.
+rmal on input line 754.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 637.
+ine 754.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 646.
 
-[11 <./figs/Q.44.png>]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 653.
+ine 772.
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--677
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--801
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--679
+Underfull \hbox (badness 10000) in paragraph at lines 802--803
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--681
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 691--694
+Underfull \hbox (badness 10000) in paragraph at lines 804--805
 
  []
 
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 695.
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 695--696
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+Underfull \hbox (badness 10000) in paragraph at lines 820--821
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 699--700
+Underfull \hbox (badness 10000) in paragraph at lines 822--823
 
  []
 
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 712.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 712.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 713.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 713.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 713.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 713.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 717.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 717.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 718.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 718.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 718.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 719.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 719.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 720.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 723.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 723.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 724.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 724.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 724.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 725.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 725.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 726.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 727.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 729.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 729.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 735.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 735.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 736.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 737.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 737.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 738.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 738.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 742.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 743.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 743.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 743.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 743.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 744.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 744.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 746.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 746.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 748.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 748.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 757.
-
-[13]
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 766.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 767.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 768.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 769.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 785.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 785.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 790.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 791.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 814.
 
-[14]
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 828.
+ine 837.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 829.
+ine 837.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 830.
+ine 838.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 831.
+ine 838.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 844.
+ine 838.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 855.
+ine 838.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 842.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 842.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 843.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 843.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 843.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 844.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 844.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 845.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 848.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 848.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 849.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 849.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 849.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 850.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 850.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 851.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 856.
+ine 852.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 854.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 854.
+
+
+[8]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 861.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
 ine 861.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
@@ -2715,364 +2909,593 @@ ine 862.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
 ine 863.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 863.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 864.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
 ine 864.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 869.
 
-[15]
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 879.
+ine 869.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 882.
+ine 870.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 886.
+ine 870.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 887.
+ine 870.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 888.
+ine 870.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 889.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 896.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 896.
+ine 871.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 871.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 872.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 872.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 874.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 874.
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 894.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 895.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 896.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
 ine 897.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 910.
-
-
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 927.
-
-[16]
+ine 916.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 942.
-
-Underfull \hbox (badness 10000) in paragraph at lines 968--973
-
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 977.
-
-[17]
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 989.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 989.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 989.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 989.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 989.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 989.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 990.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 990.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 990.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 990.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 990.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 991.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 991.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 991.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
-rmal on input line 992.
+ine 916.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 993.
+ine 920.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 921.
+
+
+
+
+
+
+
+
+
+
+
+
+[9]
+
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 965.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 966.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 967.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 968.
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 981.
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 994.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
 ine 995.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1011.
+ine 1001.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1012.
+ine 1002.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1013.
+ine 1003.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1014.
+ine 1004.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1029.
+ine 1022.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1025.
+
+
+[10]
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1030.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1031.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1032.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1033.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 1033.
-
-[18]
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1043.
 
 
 
-LaTeX Warning: File `71.png' not found on input line 1048.
 
 
-! Package pdftex.def Error: File `71.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1048 ...udegraphics[width=0.8\linewidth]{71.png}
-                                                  \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-1048.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1041.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1041.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1042.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1055.
 
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
-s/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1090.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1125
 
  []
 
 
 
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+[11]
 
 
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 1049.
 
-[19]
+
+
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1143.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1143.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1143.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1143.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1143.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1143.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1144.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1144.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1144.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1144.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1144.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1145.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1145.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1145.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version no
+rmal on input line 1146.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1062.
+ine 1147.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1062.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1062.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1066.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1067.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1068.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1069.
+ine 1149.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 1076.
 
-[20]
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1092.
+ine 1168.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1169.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1170.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1171.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1093
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1187.
+
+
+
+
+
+
+
+
+
+
+<figs/Q.71.png, id=412, 329.43076pt x 115.632pt>
+File: figs/Q.71.png Graphic file (type png)
+<use figs/Q.71.png>
+Package pdftex.def Info: figs/Q.71.png  used on input line 1210.
+(pdftex.def)             Requested size: 469.75502pt x 164.89728pt.
+
+
+[12]
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1229.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1229.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1229.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1234.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1235.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1236.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1237.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1262.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1252--1263
 
  []
 
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1102.
+ine 1273.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1103.
+ine 1274.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1104.
+ine 1275.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1105.
+ine 1276.
 
-! LaTeX Error: There's no line here to end.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1118 
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+
+
+
+
+
+
+
+
+
+
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1285     \item
+                 0.83 m/s <./figs/Q.71.png>]
+
+
+
+
+
+
+
+
 
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1121.
+ine 1295.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1121.
-<figs/Q.76.png, id=406, 325.215pt x 129.48375pt>
+ine 1295.
+<figs/Q.76.png, id=464, 325.215pt x 129.48375pt>
 File: figs/Q.76.png Graphic file (type png)
 <use figs/Q.76.png>
-Package pdftex.def Info: figs/Q.76.png  used on input line 1123.
-(pdftex.def)             Requested size: 375.80544pt x 149.63814pt.
+Package pdftex.def Info: figs/Q.76.png  used on input line 1299.
+(pdftex.def)             Requested size: 234.8775pt x 93.51865pt.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 1127.
 
-[21]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1158.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1160 
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ine 1340.
 
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 1178.
 
-[22 <./figs/Q.76.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
 
  []
 
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1185.
+ine 1371.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1185--1186
-
- []
-
-LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1200.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
+Underfull \hbox (badness 10000) in paragraph at lines 1371--1372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1380     \item
+                 0.08 <./figs/Q.76.png>]
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    No math alphabet change to frozen version normal on input l
+ine 1388.
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
 
  []
 
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1215.
+ine 1405.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 1222.
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 1235--1236
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1430
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1237--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
 
  []
 
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1241.
+ine 1435.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1245.
+ine 1440.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1246.
+ine 1441.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1247.
+ine 1442.
 LaTeX Font Info:    No math alphabet change to frozen version normal on input l
-ine 1248.
+ine 1443.
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 1270.
-
-[24]
-This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
-
-Class exam Warning: Point totals have changed. Rerun to get point totals right.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[15] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -3084,34 +3507,33 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0C44095D4D0B9EA33846BD9AB10EACBB;980.
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
-Package lastpage Warning: Rerun to get the references right on input line 1270.
+Package lastpage Warning: Rerun to get the references right on input line 1469.
 
 
  ) 
 Here is how much of TeX's memory you used:
- 41947 strings out of 467801
- 915058 string characters out of 5417843
- 1284874 words of memory out of 5000000
- 69467 multiletter control sequences out of 15000+600000
- 657351 words of font info for 109 fonts, out of 8000000 for 9000
+ 41406 strings out of 467801
+ 910176 string characters out of 5417843
+ 1275688 words of memory out of 5000000
+ 68855 multiletter control sequences out of 15000+600000
+ 688219 words of font info for 164 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 102i,12n,107p,1172b,1259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,9n,107p,1172b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/sha
 re/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txex.pfb></data/data/com.
 termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.
 pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/
-public/txfonts/txtt.pfb></data/data/com.termux/files/usr/share/texlive/2025/tex
-mf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share
-/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termu
-x/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (24 pages, 561805 bytes).
+urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/te
+xlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (15 pages, 606810 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 528 compressed objects within 6 object streams
- 367 named destinations out of 1000 (max. 500000)
+ 656 PDF objects out of 1000 (max. 8388607)
+ 602 compressed objects within 7 object streams
+ 447 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
