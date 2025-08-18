@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  18 AUG 2025 08:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  18 AUG 2025 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1676,14 +1676,23 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
+) (./main.aux
+
+LaTeX Warning: Label `fig:question74' multiply defined.
+
+
+LaTeX Warning: Label `fig:question74' multiply defined.
+
+
+LaTeX Warning: Label `fig:question74' multiply defined.
+
 )
-No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 32.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 32.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 32.
@@ -1850,14 +1859,15 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 32.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 \c@lstlisting=\count397
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 45
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 4
@@ -1905,7 +1915,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <./figs//Fig 2.png, id=260, 811.53188pt x 252.19218pt>
 File: ./figs//Fig 2.png Graphic file (type png)
 <use ./figs//Fig 2.png>
-Package pdftex.def Info: ./figs//Fig 2.png  used on input line 548.
+Package pdftex.def Info: ./figs//Fig 2.png  used on input line 547.
 (pdftex.def)             Requested size: 291.35735pt x 90.54283pt.
 
 Underfull \vbox (badness 2913) has occurred while \output is active []
@@ -1914,42 +1924,42 @@ Underfull \vbox (badness 2913) has occurred while \output is active []
 <./figs//Fig 3.png, id=285, 453.19313pt x 300.3722pt>
 File: ./figs//Fig 3.png Graphic file (type png)
 <use ./figs//Fig 3.png>
-Package pdftex.def Info: ./figs//Fig 3.png  used on input line 567.
+Package pdftex.def Info: ./figs//Fig 3.png  used on input line 566.
 (pdftex.def)             Requested size: 291.35735pt x 193.10837pt.
 
 [9 <./figs//Fig 2.png> <./figs//Fig 3.png>]
 <./figs//Fig 4.png, id=305, 522.45187pt x 233.37187pt>
 File: ./figs//Fig 4.png Graphic file (type png)
 <use ./figs//Fig 4.png>
-Package pdftex.def Info: ./figs//Fig 4.png  used on input line 597.
+Package pdftex.def Info: ./figs//Fig 4.png  used on input line 596.
 (pdftex.def)             Requested size: 291.35735pt x 130.14607pt.
 <./figs//Fig 5.png, id=306, 514.92375pt x 309.40594pt>
 File: ./figs//Fig 5.png Graphic file (type png)
 <use ./figs//Fig 5.png>
-Package pdftex.def Info: ./figs//Fig 5.png  used on input line 638.
+Package pdftex.def Info: ./figs//Fig 5.png  used on input line 637.
 (pdftex.def)             Requested size: 291.35735pt x 175.07434pt.
  [10 <./figs//Fig 4.png>]
 <./figs//Fig 6.png, id=333, 654.19406pt x 362.85562pt>
 File: ./figs//Fig 6.png Graphic file (type png)
 <use ./figs//Fig 6.png>
-Package pdftex.def Info: ./figs//Fig 6.png  used on input line 657.
+Package pdftex.def Info: ./figs//Fig 6.png  used on input line 656.
 (pdftex.def)             Requested size: 291.35735pt x 161.60036pt.
 <./figs//Fig 7.png, id=334, 670.00313pt x 327.47343pt>
 File: ./figs//Fig 7.png Graphic file (type png)
 <use ./figs//Fig 7.png>
-Package pdftex.def Info: ./figs//Fig 7.png  used on input line 676.
+Package pdftex.def Info: ./figs//Fig 7.png  used on input line 675.
 (pdftex.def)             Requested size: 291.35735pt x 142.40482pt.
  [11 <./figs//Fig 5.png> <./figs//Fig 6.png>]
 <./figs//Fig 8.png, id=352, 651.18282pt x 198.7425pt>
 File: ./figs//Fig 8.png Graphic file (type png)
 <use ./figs//Fig 8.png>
-Package pdftex.def Info: ./figs//Fig 8.png  used on input line 706.
+Package pdftex.def Info: ./figs//Fig 8.png  used on input line 705.
 (pdftex.def)             Requested size: 291.35735pt x 88.92381pt.
  [12 <./figs//Fig 7.png> <./figs//Fig 8.png>] [13] [14]
 <./figs//Fig 9.png, id=433, 756.57657pt x 532.99126pt>
 File: ./figs//Fig 9.png Graphic file (type png)
 <use ./figs//Fig 9.png>
-Package pdftex.def Info: ./figs//Fig 9.png  used on input line 887.
+Package pdftex.def Info: ./figs//Fig 9.png  used on input line 886.
 (pdftex.def)             Requested size: 291.35735pt x 205.25513pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1959,64 +1969,58 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <./figs//Fig 10.png, id=475, 502.87875pt x 302.63063pt>
 File: ./figs//Fig 10.png Graphic file (type png)
 <use ./figs//Fig 10.png>
-Package pdftex.def Info: ./figs//Fig 10.png  used on input line 1012.
+Package pdftex.def Info: ./figs//Fig 10.png  used on input line 1011.
 (pdftex.def)             Requested size: 291.35735pt x 175.33655pt.
  [17]
 <./figs//Fig 11.png, id=509, 238.64156pt x 188.20313pt>
 File: ./figs//Fig 11.png Graphic file (type png)
 <use ./figs//Fig 11.png>
-Package pdftex.def Info: ./figs//Fig 11.png  used on input line 1024.
+Package pdftex.def Info: ./figs//Fig 11.png  used on input line 1023.
 (pdftex.def)             Requested size: 109.25969pt x 86.16669pt.
 <./figs//Fig 12.png, id=510, 222.07968pt x 173.14688pt>
 File: ./figs//Fig 12.png Graphic file (type png)
 <use ./figs//Fig 12.png>
-Package pdftex.def Info: ./figs//Fig 12.png  used on input line 1032.
+Package pdftex.def Info: ./figs//Fig 12.png  used on input line 1031.
 (pdftex.def)             Requested size: 109.25969pt x 85.18352pt.
 <./figs//Fig 13.png, id=511, 255.20343pt x 179.16937pt>
 File: ./figs//Fig 13.png Graphic file (type png)
 <use ./figs//Fig 13.png>
-Package pdftex.def Info: ./figs//Fig 13.png  used on input line 1040.
+Package pdftex.def Info: ./figs//Fig 13.png  used on input line 1039.
 (pdftex.def)             Requested size: 109.25969pt x 76.70778pt.
 <./figs//Fig 14.png, id=512, 242.40562pt x 189.70876pt>
 File: ./figs//Fig 14.png Graphic file (type png)
 <use ./figs//Fig 14.png>
-Package pdftex.def Info: ./figs//Fig 14.png  used on input line 1048.
+Package pdftex.def Info: ./figs//Fig 14.png  used on input line 1047.
 (pdftex.def)             Requested size: 109.25969pt x 85.50708pt.
  [18 <./figs//Fig 10.png> <./figs//Fig 11.png> <./figs//Fig 12.png> <./figs//Fi
 g 13.png> <./figs//Fig 14.png>]
 <./figs//Fig 15.png, id=533, 642.90187pt x 285.31593pt>
 File: ./figs//Fig 15.png Graphic file (type png)
 <use ./figs//Fig 15.png>
-Package pdftex.def Info: ./figs//Fig 15.png  used on input line 1077.
+Package pdftex.def Info: ./figs//Fig 15.png  used on input line 1076.
 (pdftex.def)             Requested size: 291.35735pt x 129.30522pt.
  [19 <./figs//Fig 15.png>]
 <./figs//Fig 16.png, id=556, 649.67719pt x 435.87843pt>
 File: ./figs//Fig 16.png Graphic file (type png)
 <use ./figs//Fig 16.png>
-Package pdftex.def Info: ./figs//Fig 16.png  used on input line 1147.
+Package pdftex.def Info: ./figs//Fig 16.png  used on input line 1146.
 (pdftex.def)             Requested size: 291.35735pt x 195.47838pt.
 <./figs//Fig 17.png, id=557, 526.96875pt x 401.24907pt>
 File: ./figs//Fig 17.png Graphic file (type png)
 <use ./figs//Fig 17.png>
-Package pdftex.def Info: ./figs//Fig 17.png  used on input line 1180.
+Package pdftex.def Info: ./figs//Fig 17.png  used on input line 1179.
 (pdftex.def)             Requested size: 291.35735pt x 221.85707pt.
  [20 <./figs//Fig 16.png>] [21 <./figs//Fig 17.png>] [22] (./main.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52748 strings out of 476091
- 1238432 string characters out of 5794081
- 1872330 words of memory out of 5000000
+ 52754 strings out of 476091
+ 1238486 string characters out of 5794081
+ 1873330 words of memory out of 5000000
  71845 multiletter control sequences out of 15000+600000
  580511 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2030,7 +2034,7 @@ onts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 2365750 bytes).
+Output written on main.pdf (22 pages, 2365549 bytes).
 PDF statistics:
  751 PDF objects out of 1000 (max. 8388607)
  652 compressed objects within 7 object streams
