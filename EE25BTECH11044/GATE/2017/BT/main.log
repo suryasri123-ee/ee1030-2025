@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.15)  16 AUG 2025 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.15)  19 AUG 2025 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1268,13 +1268,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 51.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 51.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1386,107 +1386,183 @@ LaTeX Info: Redefining \ohm on input line 51.
 Package gensymb Info: Using \textohm for \ohm on input line 51.
 Package gensymb Info: Using \textmu for \micro on input line 51.
 Package hyperref Info: Link coloring OFF on input line 51.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-32.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-32.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 7
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-32.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 7
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-32.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 7
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
-32.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] [4]
-<figs/enzyme_plot.png, id=153, 268.50313pt x 167.62625pt>
-File: figs/enzyme_plot.png Graphic file (type png)
-<use figs/enzyme_plot.png>
-Package pdftex.def Info: figs/enzyme_plot.png  used on input line 472.
-(pdftex.def)             Requested size: 516.0pt x 322.14053pt.
- [5] [6
+f-dist/fonts/enc/dvips/base/8r.enc}] [2]
+<figs/table.png, id=85, 577.15625pt x 103.88812pt>
+File: figs/table.png Graphic file (type png)
+<use figs/table.png>
+Package pdftex.def Info: figs/table.png  used on input line 237.
+(pdftex.def)             Requested size: 516.0pt x 92.88338pt.
+ [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 \textbf{Assertion (a):}
-                              UPGMA method produces an ultrametric tree. <./fig
-s/enzyme_plot.png>] [7]
-<figs/scatchard_plot.png, id=228, 223.33438pt x 146.5475pt>
-File: figs/scatchard_plot.png Graphic file (type png)
-<use figs/scatchard_plot.png>
-Package pdftex.def Info: figs/scatchard_plot.png  used on input line 678.
-(pdftex.def)             Requested size: 516.0pt x 338.61963pt.
- [8] [9
+l.255 \item A
+             t the transcription start site of a gene, any of the four nucle...
+ <./figs/table.png>]
+<figs/oA.png, id=115, 117.94063pt x 103.88812pt>
+File: figs/oA.png Graphic file (type png)
+<use figs/oA.png>
+Package pdftex.def Info: figs/oA.png  used on input line 270.
+(pdftex.def)             Requested size: 206.39685pt x 181.8085pt.
+<figs/oB.png, id=116, 131.49126pt x 102.88437pt>
+File: figs/oB.png Graphic file (type png)
+<use figs/oB.png>
+Package pdftex.def Info: figs/oB.png  used on input line 271.
+(pdftex.def)             Requested size: 206.39685pt x 161.50053pt.
+<figs/oC.png, id=117, 137.51375pt x 105.89563pt>
+File: figs/oC.png Graphic file (type png)
+<use figs/oC.png>
+Package pdftex.def Info: figs/oC.png  used on input line 272.
+(pdftex.def)             Requested size: 206.39685pt x 158.95451pt.
+ [4 <./figs/Oa.png> <./figs/Ob.png>]
+<figs/oD.png, id=134, 136.00812pt x 96.86188pt>
+File: figs/oD.png Graphic file (type png)
+<use figs/oD.png>
+Package pdftex.def Info: figs/oD.png  used on input line 273.
+(pdftex.def)             Requested size: 206.39685pt x 146.9995pt.
+ [5 <./figs/Oc.png> <./figs/Od.png>]
+<figs/cd_spectra.png, id=156, 556.0775pt x 166.12062pt>
+File: figs/cd_spectra.png Graphic file (type png)
+<use figs/cd_spectra.png>
+Package pdftex.def Info: figs/cd_spectra.png  used on input line 334.
+(pdftex.def)             Requested size: 516.0pt x 154.15091pt.
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.718     \item \(
-                  5.9 \times 10^{3}\) <./figs/scatchard_plot.png>] [10]
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 880--882
-
- []
-
-[12] (./main.aux)
+l.384 \item I
+             n eukaryotes, cytokinesis is inhibited by <./figs/cd_spectra.png>]
+<figs/A.png, id=185, 124.96687pt x 107.40125pt>
+File: figs/A.png Graphic file (type png)
+<use figs/A.png>
+Package pdftex.def Info: figs/A.png  used on input line 430.
+(pdftex.def)             Requested size: 113.52063pt x 97.56812pt.
+<figs/B.png, id=186, 149.55875pt x 114.92938pt>
+File: figs/B.png Graphic file (type png)
+<use figs/B.png>
+Package pdftex.def Info: figs/B.png  used on input line 431.
+(pdftex.def)             Requested size: 113.52063pt x 87.23674pt.
+<figs/C.png, id=187, 149.05687pt x 110.4125pt>
+File: figs/C.png Graphic file (type png)
+<use figs/C.png>
+Package pdftex.def Info: figs/C.png  used on input line 432.
+(pdftex.def)             Requested size: 113.52063pt x 84.08957pt.
+[7 <./figs/A.png> <./figs/B.png>]
+<figs/D.png, id=210, 143.53625pt x 111.91812pt>
+File: figs/D.png Graphic file (type png)
+<use figs/D.png>
+Package pdftex.def Info: figs/D.png  used on input line 433.
+(pdftex.def)             Requested size: 113.52063pt x 88.5168pt.
+<figs/bacteria_load.png, id=211, 545.53813pt x 124.96687pt>
+File: figs/bacteria_load.png Graphic file (type png)
+<use figs/bacteria_load.png>
+Package pdftex.def Info: figs/bacteria_load.png  used on input line 451.
+(pdftex.def)             Requested size: 516.0pt x 118.20682pt.
+<figs/vector_question.png, id=212, 538.01pt x 211.28937pt>
+File: figs/vector_question.png Graphic file (type png)
+<use figs/vector_question.png>
+Package pdftex.def Info: figs/vector_question.png  used on input line 470.
+(pdftex.def)             Requested size: 516.0pt x 202.64848pt.
+ [8 <./figs/bacteria_load.png> <./figs/C.png> <./figs/D.png>]
+<figs/disease.png, id=238, 476.27937pt x 146.5475pt>
+File: figs/disease.png Graphic file (type png)
+<use figs/disease.png>
+Package pdftex.def Info: figs/disease.png  used on input line 507.
+(pdftex.def)             Requested size: 516.0pt x 158.77652pt.
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.523 \item I
+             f the chemical composition of proteins in an organism is $CH_{1...
+ <./figs/vector_question.png> <./figs/disease.png>]
+<figs/fragment .png, id=263, 271.51437pt x 71.76813pt>
+File: figs/fragment .png Graphic file (type png)
+<use figs/fragment .png>
+Package pdftex.def Info: figs/fragment .png  used on input line 540.
+(pdftex.def)             Requested size: 516.0pt x 136.39804pt.
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.585   \item (
+               B) Q, S <./figs/fragment .png>] [11]
+<figs/contourplot.png, id=316, 388.95313pt x 191.71625pt>
+File: figs/contourplot.png Graphic file (type png)
+<use figs/contourplot.png>
+Package pdftex.def Info: figs/contourplot.png  used on input line 695.
+(pdftex.def)             Requested size: 412.80157pt x 203.4786pt.
+ [12] [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.709 \end{document}
+                     <./figs/contourplot.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46881 strings out of 474222
- 1090397 string characters out of 5748733
- 1942975 words of memory out of 5000000
- 68143 multiletter control sequences out of 15000+600000
- 619564 words of font info for 156 fonts, out of 8000000 for 9000
+ 46955 strings out of 474222
+ 1092009 string characters out of 5748733
+ 1941975 words of memory out of 5000000
+ 68231 multiletter control sequences out of 15000+600000
+ 618246 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,10n,103p,1172b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,7n,103p,1172b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/txfonts/txexa.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
-b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 103392 bytes).
+nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (13 pages, 1091340 bytes).
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 281 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 378 compressed objects within 4 object streams
+ 263 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
