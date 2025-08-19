@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.13)  17 AUG 2025 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.13)  17 AUG 2025 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2013,167 +2013,133 @@ Package hyperref Info: Link coloring OFF on input line 77.
 
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.0pt on input line 80.
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 87.
-
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
-ot1minntx.fd
-File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
-)
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.1pt on input line 87.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 10.95pt on input line 87.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.1pt on input line 87.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.1pt on input line 87.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.1pt on input line 87.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-87.
-
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
-untxmia.fd
-File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
-)
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.95pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.1pt on input line 87.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-87.
-
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
-untxsym.fd
-File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.1pt on input line 87.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-87.
-
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
-untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.1pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.1pt on input line 87.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
-
-
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
-ts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
-
-
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
-ts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 87.
+e 88.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
 ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
+(Font)              scaled to size 11.0pt on input line 88.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
+e 108.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
+ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
+)
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 10.95pt on input line 108.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 10.95pt on input line 108.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.95pt on input line 108.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.95pt on input line 108.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+108.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
+untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.95pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+108.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
+untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.95pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+108.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/newtx/
+untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.95pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.95pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 108
+.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
+ts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 108
+.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
+ts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
+(Font)              scaled to size 10.95pt on input line 108.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 87.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+(Font)              scaled to size 8.0pt on input line 108.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.0pt on input line 131.
-
-
-
-
-
-
-
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
+(Font)              scaled to size 6.1pt on input line 108.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 110.
 
 
 
@@ -2206,7 +2172,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
 
 
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 195.
+
+
+
+
+
+
+
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 173.
 
 [1{/data/data/com.termux/files/usr/share/texlive/2025/texmf-var/fonts/map/pdfte
 x/updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2025/texmf-d
@@ -2217,318 +2192,62 @@ e/texlive/2025/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 302.
-
-[2]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 ...res aligned in one direction. The Youngâ€
-                                                  ™s moduli of the matrix an...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 ...es aligned in one direction. The Youngâ€™
-                                                  s moduli of the matrix and...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 ...). Assuming iso-stress condition, Youngâ€
-                                                  ™s modulus of the composit...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 .... Assuming iso-stress condition, Youngâ€™
-                                                  s modulus of the composite...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 398.
-
-[3]
-
-
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.407 \item G
-             iven that $\mathbf{v}$ is a vector field and $f$ is a scalar fi...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 10.95pt on input line 407.
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 8.0pt on input line 407.
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 6.1pt on input line 407.
-
-
-
-
-
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.436 \item T
-             he temperature field of a slab is given by $T = 400 - 50z \exp(...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.449 \item W
-             hat does the solution of the following ordinary differential eq...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.465 \item A
-              thin layer of material B (of total amount $m$) is plated on th...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<figs/image1.png, id=156, 425.79076pt x 73.4745pt>
-File: figs/image1.png Graphic file (type png)
-<use figs/image1.png>
-Package pdftex.def Info: figs/image1.png  used on input line 469.
-(pdftex.def)             Requested size: 226.48395pt x 39.08255pt.
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.484 \item M
-             atch the principles given in \textbf{Group I} with correspondin...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 487.
-
-[4
+<figs/image1''.png, id=54, 187.902pt x 166.82326pt>
+File: figs/image1''.png Graphic file (type png)
+<use figs/image1''.png>
+Package pdftex.def Info: figs/image1''.png  used on input line 186.
+(pdftex.def)             Requested size: 113.24197pt x 100.54018pt.
+<figs/image2''.png, id=56, 181.8795pt x 164.41425pt>
+File: figs/image2''.png Graphic file (type png)
+<use figs/image2''.png>
+Package pdftex.def Info: figs/image2''.png  used on input line 192.
+(pdftex.def)             Requested size: 113.24197pt x 102.36978pt.
+<figs/image3''.png, id=57, 185.493pt x 166.82326pt>
+File: figs/image3''.png Graphic file (type png)
+<use figs/image3''.png>
+Package pdftex.def Info: figs/image3''.png  used on input line 198.
+(pdftex.def)             Requested size: 113.24197pt x 101.84349pt.
+<figs/image4''.png, id=58, 227.04825pt x 178.266pt>
+File: figs/image4''.png Graphic file (type png)
+<use figs/image4''.png>
+Package pdftex.def Info: figs/image4''.png  used on input line 204.
+(pdftex.def)             Requested size: 113.24197pt x 88.90971pt.
+
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 208.
+
+[2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.487 \underline
-                {Group 1} <./figs/image1.png>]
+l.208 \end{enumerate}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.208 \end{enumerate}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.208 \end{enumerate}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.208 \end{enumerate}
+                      <./figs/image1''.png> <./figs/image2''.png> <./figs/image
+3''.png> <./figs/image4''.png>]
+<figs/image5''.png, id=82, 452.892pt x 254.1495pt>
+File: figs/image5''.png Graphic file (type png)
+<use figs/image5''.png>
+Package pdftex.def Info: figs/image5''.png  used on input line 214.
+(pdftex.def)             Requested size: 452.9679pt x 254.19928pt.
 
 
 
@@ -2541,16 +2260,7 @@ l.487 \underline
 
 
 
-! LaTeX Error: Counter too large.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.515 \item I
-             dentify the correct combination of the following statements
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 
@@ -2559,36 +2269,26 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-! LaTeX Error: Counter too large.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.533 \item C
-             onsider a reaction with activation energy of 8.314 kJ/mol that ...
 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 267.
 
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.267 \begin
+            {enumerate} <./figs/image5''.png>]
 
 
 
 
 
-! LaTeX Error: Counter too large.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.546 \item M
-             atch the processes in \textbf{Group I} with the objectives in \...
 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 
@@ -2603,25 +2303,12 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-! LaTeX Error: Counter too large.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.575 \item T
-             he reduction of FeO with CO gas in co-current flow is given by ...
 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
 
- []
 
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 577.
 
 
 
@@ -2629,27 +2316,22 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 
 
 
-! LaTeX Error: Counter too large.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.591 \item T
-             he sulphide capacity ($C_S$) of liquid slag of composition 55 w...
 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--592
 
- []
 
 
 
 
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 598.
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 362.
+
+[4]
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 434.
 
 [5]
 
@@ -2658,246 +2340,31 @@ LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 598.
 
 
 
-! LaTeX Error: Counter too large.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.607 \item M
-             atch the processes given in \textbf{Group I} with the correspon...
 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
+<figs/image6''.png, id=193, 292.09125pt x 228.855pt>
+File: figs/image6''.png Graphic file (type png)
+<use figs/image6''.png>
+Package pdftex.def Info: figs/image6''.png  used on input line 468.
+(pdftex.def)             Requested size: 226.48395pt x 177.45856pt.
 
 
 
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 498.
 
-
-
-
-! Package enumitem Error: (A) undefined.
-
-See the enumitem package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.628 \begin{enumerate}[(A)]
-                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.637 \item I
-             dentify the correct combination of the following statements
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.654 \item M
-             atch the phases of steel in \textbf{Group I} with the crystal s...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.683 \item A
-             rrange the following in terms of increasing severity of quench
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.700 \item R
-             egarding recrystallization, which one of the following statemen...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 705.
-
-[6]
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.710 \item A
-              liquid droplet ($\beta$) is on a substrate ($\delta$) and is s...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<figs/image2.png, id=288, 302.3295pt x 88.53075pt>
-File: figs/image2.png Graphic file (type png)
-<use figs/image2.png>
-Package pdftex.def Info: figs/image2.png  used on input line 714.
-(pdftex.def)             Requested size: 226.48395pt x 66.32088pt.
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.729 \item M
-             atch the phenomena listed in \textbf{Group I} with the possible...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.759 \item F
-             racture stress for a brittle material having a crack length of ...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.771 \item T
-             he flow stress ($\overline{\sigma}$) of an alloy varies with st...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.783 \item D
-             etermine the correctness or otherwise of the following \textbf{...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 787.
-
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.787 \item A
-              is false but R is true <./figs/image2.png>]
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.795 \item M
-             atch the defects listed in \textbf{Group I} with the processes ...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.498 
+       <./figs/image6''.png>]
+<figs/image7''.png, id=216, 305.34074pt x 121.6545pt>
+File: figs/image7''.png Graphic file (type png)
+<use figs/image7''.png>
+Package pdftex.def Info: figs/image7''.png  used on input line 503.
+(pdftex.def)             Requested size: 226.48395pt x 90.23824pt.
 
 
 
@@ -2911,390 +2378,69 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 573.
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--827
-
- []
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.832 \item T
-             he force exerted on the steel ball is
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.573 \end{enumerate}
+                      <./figs/image7''.png>]
 
 
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.844 \item T
-             he terminal velocity of a fine spherical steel particle having ...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-<figs/image3.png, id=332, 274.02374pt x 130.68825pt>
-File: figs/image3.png Graphic file (type png)
-<use figs/image3.png>
-Package pdftex.def Info: figs/image3.png  used on input line 859.
-(pdftex.def)             Requested size: 226.48395pt x 108.01654pt.
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.866 \item S
-             tress ratio is
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.877 \item A
-             mplitude ratio is
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 879.
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 677.
 
 [8]
 
 
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.891 \item G
-             rain size of the material is approximately
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.902 \item Y
-             ield strength of the material is approximately
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.916 \item F
-             low stress after $50\%$ reduction in area of the annealed rod o...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.927 \item I
-             f a wire of 5 mm diameter is drawn from the above cold rolled r...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.938 \item W
-             hich one of the following options is the closest in meaning to ...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 947.
-
-[9 <./figs/image3.png>]
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.950 \item C
-             hoose the most appropriate word from the options given below to...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.962 \item C
-             hoose the most appropriate alternative from the options given b...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.974 \item I
-             f $(1.001)^{1259} = 3.52$ and $ (1.001)^{2062} = 7.85 $, then $...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.985 \item O
-             ne of the parts (A, B, C, D) in the sentence given below contai...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.997 \item T
-             he data given in the following table summarizes the monthly bud...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1022 \item T
-              here are eight bags of rice looking alike, seven of which have...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 1030.
-
-[10]
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1033 \item R
-              aju has 14 currency notes in his pocket consisting of only Rs....
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1044 \item \textbf
-                    {One of the legacies of the Roman legions was discipline...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1056 \item A
-               and B are friends. They decide to meet between 1 PM and 2 PM ...
-
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-
-
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 1075.
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 761.
+
+[9]
+<figs/image8''.png, id=307, 351.11176pt x 227.04825pt>
+File: figs/image8''.png Graphic file (type png)
+<use figs/image8''.png>
+Package pdftex.def Info: figs/image8''.png  used on input line 771.
+(pdftex.def)             Requested size: 226.48395pt x 146.4571pt.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 10.95pt on input line 783.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 8.0pt on input line 783.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 6.1pt on input line 783.
+<figs/image9''.png, id=308, 153.57375pt x 154.77824pt>
+File: figs/image9''.png Graphic file (type png)
+<use figs/image9''.png>
+Package pdftex.def Info: figs/image9''.png  used on input line 790.
+(pdftex.def)             Requested size: 226.48395pt x 228.27467pt.
+
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 798.
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.798 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.798 
+       <./figs/image8''.png> <./figs/image9''.png>]
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 867.
 
 [11]
 
-! LaTeX Error: \begin{enumerate} on input line 83 ended by \end{document}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1075 \end{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 884.
 
-
+[12] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./main.aux)
  ***********
@@ -3317,39 +2463,33 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
-Package lastpage Warning: Rerun to get the references right on input line 1075.
+Package lastpage Warning: Rerun to get the references right on input line 884.
 
-
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 83 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 34219 strings out of 467801
- 666807 string characters out of 5417842
+ 34131 strings out of 467801
+ 666705 string characters out of 5417842
  1045597 words of memory out of 5000000
- 61722 multiletter control sequences out of 15000+600000
- 702443 words of font info for 178 fonts, out of 8000000 for 9000
+ 61759 multiletter control sequences out of 15000+600000
+ 701146 words of font info for 176 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,11n,103p,1167b,816s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/
-fonts/type1/public/newtx/NewTXMI.pfb></data/data/com.termux/files/usr/share/tex
-live/2025/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></data/data/com.term
-ux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pf
-b></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
-blic/tex-gyre/qtmr.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
-f-dist/fonts/type1/public/newtx/txexs.pfb></data/data/com.termux/files/usr/shar
-e/texlive/2025/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></data/data/com.t
-ermux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pf
-b></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
-blic/newtx/ztmb.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-d
-ist/fonts/type1/public/newtx/ztmr.pfb></data/data/com.termux/files/usr/share/te
-xlive/2025/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (11 pages, 231571 bytes).
+ 101i,12n,103p,1167b,751s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
+blic/newtx/NewTXMI.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
+f-dist/fonts/type1/public/newtx/NewTXMI7.pfb></data/data/com.termux/files/usr/s
+hare/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></d
+ata/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/
+tex-gyre/qtmr.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
+t/fonts/type1/public/newtx/txexs.pfb></data/data/com.termux/files/usr/share/tex
+live/2025/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></data/data/com.termux
+/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb></d
+ata/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/
+newtx/ztmb.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/f
+onts/type1/public/newtx/ztmr.pfb>
+Output written on main.pdf (12 pages, 613658 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
- 544 compressed objects within 6 object streams
- 398 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 275 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
