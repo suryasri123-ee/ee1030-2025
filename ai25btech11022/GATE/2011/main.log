@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  19 AUG 2025 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  19 AUG 2025 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1412,13 +1412,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 50.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 50.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1530,6 +1530,8 @@ LaTeX Info: Redefining \ohm on input line 50.
 Package gensymb Info: Using \textohm for \ohm on input line 50.
 Package gensymb Info: Using \textmu for \micro on input line 50.
 Package hyperref Info: Link coloring OFF on input line 50.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1564,192 +1566,112 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 9
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/base/8r.enc}] [2]
-
-LaTeX Warning: File `figs/fig1.png' not found on input line 222.
-
-
-! Package pdftex.def Error: File `figs/fig1.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.222 ...phics[width=0.9\linewidth]{figs/fig1.png}
-                                                  
-? 
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-222.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-) [3
+<figs/fig1.png, id=77, 731.73375pt x 290.08376pt>
+File: figs/fig1.png Graphic file (type png)
+<use figs/fig1.png>
+Package pdftex.def Info: figs/fig1.png  used on input line 222.
+(pdftex.def)             Requested size: 464.39685pt x 184.10374pt.
+<figs/fig2.png, id=79, 462.72874pt x 201.75375pt>
+File: figs/fig2.png Graphic file (type png)
+<use figs/fig2.png>
+Package pdftex.def Info: figs/fig2.png  used on input line 271.
+(pdftex.def)             Requested size: 258.0pt x 112.49184pt.
+ [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.231 \]
-        ]
+l.278   \item Q
+               3 is planar while K3 is not <./figs/fig1.png>]
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
+317.
 
-LaTeX Warning: File `figs/fig2.png' not found on input line 271.
-
-
-! Package pdftex.def Error: File `figs/fig2.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 ...phics[width=0.5\linewidth]{figs/fig2.png}
-                                                  
-? 
-[4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.289   \item $
-                R > 0 $]
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-)
-
-LaTeX Warning: File `figs/fig3.png' not found on input line 344.
-
-
-! Package pdftex.def Error: File `figs/fig3.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.344 ...phics[width=0.5\linewidth]{figs/fig3.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5]
-
-LaTeX Warning: File `figs/fig4.png' not found on input line 433.
-
-
-! Package pdftex.def Error: File `figs/fig4.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.433 ...phics[width=0.5\linewidth]{figs/fig4.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6
+) [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.336   \item G
+               ATE2011 <./figs/fig2.png>]
+<figs/fig3.png, id=146, 319.1925pt x 262.9825pt>
+File: figs/fig3.png Graphic file (type png)
+<use figs/fig3.png>
+Package pdftex.def Info: figs/fig3.png  used on input line 344.
+(pdftex.def)             Requested size: 258.0pt x 212.56522pt.
+ [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.439 
-      ] [7
+l.396 \]
+         <./figs/fig3.png>]
+<figs/fig4.png, id=171, 452.69125pt x 344.28625pt>
+File: figs/fig4.png Graphic file (type png)
+<use figs/fig4.png>
+Package pdftex.def Info: figs/fig4.png  used on input line 433.
+(pdftex.def)             Requested size: 258.0pt x 196.21367pt.
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.471 \item
-             0] [8]
-
-LaTeX Warning: File `figs/fig5.png' not found on input line 592.
-
-
-! Package pdftex.def Error: File `figs/fig5.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.592 ...phics[width=0.5\linewidth]{figs/fig5.png}
-                                                  
-? 
-[9
+l.455 
+       <./figs/fig4.png>] [7]
+<figs/fig5.png, id=218, 596.2275pt x 331.2375pt>
+File: figs/fig5.png Graphic file (type png)
+<use figs/fig5.png>
+Package pdftex.def Info: figs/fig5.png  used on input line 592.
+(pdftex.def)             Requested size: 258.0pt x 143.33405pt.
+ [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.615     \item
-                $f_3, f_2, f_4, f_1$]
-
-LaTeX Warning: File `figs/fig6.png' not found on input line 678.
-
-
-! Package pdftex.def Error: File `figs/fig6.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.678 ...phics[width=0.5\linewidth]{figs/fig6.png}
-                                                  
-? 
-[10]
-
-LaTeX Warning: File `figs/fig7.png' not found on input line 742.
-
-
-! Package pdftex.def Error: File `figs/fig7.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.742 ...phics[width=0.5\linewidth]{figs/fig7.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: File `figs/fig8.png' not found on input line 750.
-
-
-! Package pdftex.def Error: File `figs/fig8.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.750 ...phics[width=0.5\linewidth]{figs/fig8.png}
-                                                  
-? 
-[11
+                $f_3, f_2, f_4, f_1$ <./figs/fig5.png>]
+<figs/fig6.png, id=243, 973.6375pt x 355.3275pt>
+File: figs/fig6.png Graphic file (type png)
+<use figs/fig6.png>
+Package pdftex.def Info: figs/fig6.png  used on input line 678.
+(pdftex.def)             Requested size: 258.0pt x 94.1559pt.
+ [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.754 
-      ] [12
+l.688 \item
+            4.0 <./figs/fig6.png>]
+<figs/fig7.png, id=271, 530.98375pt x 217.81375pt>
+File: figs/fig7.png Graphic file (type png)
+<use figs/fig7.png>
+Package pdftex.def Info: figs/fig7.png  used on input line 742.
+(pdftex.def)             Requested size: 258.0pt x 105.83562pt.
+<figs/fig8.png, id=272, 960.58875pt x 529.98pt>
+File: figs/fig8.png Graphic file (type png)
+<use figs/fig8.png>
+Package pdftex.def Info: figs/fig8.png  used on input line 750.
+(pdftex.def)             Requested size: 258.0pt x 142.34442pt.
+ [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.778 \end{verbatim}
-                    
+l.754 
+       <./figs/fig7.png>] [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.778 \end{verbatim}
-                    ]
+l.826 \]
+         <./figs/fig8.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 835--836
 
  []
@@ -1774,97 +1696,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 841--844
 
  []
 
-[13]
-
-LaTeX Warning: File `figs/fig9.png' not found on input line 877.
-
-
-! Package pdftex.def Error: File `figs/fig9.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.877 ...phics[width=0.3\linewidth]{figs/fig9.png}
-                                                  
-? 
-
-LaTeX Warning: File `figs/fig10.png' not found on input line 913.
-
-
-! Package pdftex.def Error: File `figs/fig10.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.913 ...hics[width=0.5\linewidth]{figs/fig10.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14
+<figs/fig9.png, id=311, 319.1925pt x 399.4925pt>
+File: figs/fig9.png Graphic file (type png)
+<use figs/fig9.png>
+Package pdftex.def Info: figs/fig9.png  used on input line 877.
+(pdftex.def)             Requested size: 154.80157pt x 193.74753pt.
+[12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.935     \item
-                $\brak{3, 2, 0, 2, 5}$]
-
-LaTeX Warning: File `figs/fig11.png' not found on input line 957.
-
-
-! Package pdftex.def Error: File `figs/fig11.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.957 ...hics[width=0.5\linewidth]{figs/fig11.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15
+l.882 
+       <./figs/fig9.png>]
+<figs/fig10.png, id=332, 316.18124pt x 260.975pt>
+File: figs/fig10.png Graphic file (type png)
+<use figs/fig10.png>
+Package pdftex.def Info: figs/fig10.png  used on input line 913.
+(pdftex.def)             Requested size: 258.0pt x 212.96553pt.
+ [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.994         \item
-                    $p^2=Q^3 R^2$] [16
+l.935     \item
+                $\brak{3, 2, 0, 2, 5}$ <./figs/fig10.png>]
+<figs/fig11.png, id=351, 241.90375pt x 135.50626pt>
+File: figs/fig11.png Graphic file (type png)
+<use figs/fig11.png>
+Package pdftex.def Info: figs/fig11.png  used on input line 957.
+(pdftex.def)             Requested size: 258.0pt x 144.53949pt.
+ [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1029 B
-        ased on the above passage, which topic would not be included in a un...
-]
-
-LaTeX Warning: File `figs/fig12.png' not found on input line 1039.
-
-
-! Package pdftex.def Error: File `figs/fig12.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1039 ...ics[width=0.6\linewidth]{figs/fig12.png}
-                                                  
-? 
-[17
+l.1009 \end{enumerate}
+                       <./figs/fig11.png>]
+<figs/fig12.png, id=390, 721.69624pt x 393.47pt>
+File: figs/fig12.png Graphic file (type png)
+<use figs/fig12.png>
+Package pdftex.def Info: figs/fig12.png  used on input line 1039.
+(pdftex.def)             Requested size: 309.60315pt x 168.79254pt.
+ [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1053     \item
-                 5] [18] (./main.aux)
+l.1046     \item Q
+                   <./figs/fig12.png>] [16] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1873,20 +1752,14 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31577 strings out of 474222
- 611349 string characters out of 5748733
- 1964975 words of memory out of 5000000
- 52819 multiletter control sequences out of 15000+600000
+ 31307 strings out of 474222
+ 604702 string characters out of 5748733
+ 1961975 words of memory out of 5000000
+ 52545 multiletter control sequences out of 15000+600000
  625160 words of font info for 171 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,13n,103p,1167b,1314s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1901,10 +1774,10 @@ s/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb>
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main.pdf (18 pages, 130488 bytes).
+Output written on main.pdf (16 pages, 435379 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
- 499 compressed objects within 5 object streams
- 345 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 565 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
+ 343 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
