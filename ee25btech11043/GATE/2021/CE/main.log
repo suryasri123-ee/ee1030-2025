@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.11)  19 AUG 2025 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.11)  19 AUG 2025 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1698,7 +1698,7 @@ gs/1q2d.jpg>]
 
 
 
-<figs/1q8.jpg, id=54, 624.3325pt x 529.98pt>
+<figs/1q8.jpg, id=55, 624.3325pt x 529.98pt>
 File: figs/1q8.jpg Graphic file (type jpg)
 <use figs/1q8.jpg>
 Package pdftex.def Info: figs/1q8.jpg  used on input line 194.
@@ -1744,17 +1744,17 @@ l.231 \hfill
 
 
 [5]
-<figs/1q4.jpg, id=113, 745.78625pt x 528.97626pt>
+<figs/1q4.jpg, id=115, 745.78625pt x 528.97626pt>
 File: figs/1q4.jpg Graphic file (type jpg)
 <use figs/1q4.jpg>
 Package pdftex.def Info: figs/1q4.jpg  used on input line 280.
 (pdftex.def)             Requested size: 272.99881pt x 193.62762pt.
-<figs/1q4a.jpg, id=114, 684.5575pt x 185.69376pt>
+<figs/1q4a.jpg, id=116, 684.5575pt x 185.69376pt>
 File: figs/1q4a.jpg Graphic file (type jpg)
 <use figs/1q4a.jpg>
 Package pdftex.def Info: figs/1q4a.jpg  used on input line 290.
 (pdftex.def)             Requested size: 272.99881pt x 74.05518pt.
-<figs/1q4b.jpg, id=115, 621.32124pt x 184.69pt>
+<figs/1q4b.jpg, id=117, 621.32124pt x 184.69pt>
 File: figs/1q4b.jpg Graphic file (type jpg)
 <use figs/1q4b.jpg>
 Package pdftex.def Info: figs/1q4b.jpg  used on input line 296.
@@ -1774,12 +1774,12 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.300   \item \begin
                     {figure}[H] <./figs/1q4.jpg> <./figs/1q4a.jpg>]
-<figs/1q4c.jpg, id=127, 624.3325pt x 183.68625pt>
+<figs/1q4c.jpg, id=131, 624.3325pt x 183.68625pt>
 File: figs/1q4c.jpg Graphic file (type jpg)
 <use figs/1q4c.jpg>
 Package pdftex.def Info: figs/1q4c.jpg  used on input line 302.
 (pdftex.def)             Requested size: 272.99881pt x 80.32048pt.
-<figs/1q4d.jpg, id=128, 628.3475pt x 196.735pt>
+<figs/1q4d.jpg, id=132, 628.3475pt x 196.735pt>
 File: figs/1q4d.jpg Graphic file (type jpg)
 <use figs/1q4d.jpg>
 Package pdftex.def Info: figs/1q4d.jpg  used on input line 308.
@@ -1876,7 +1876,7 @@ a-tio $[][]$
 
 
 [10]
-<figs/1q20.jpg, id=217, 934.49126pt x 643.40375pt>
+<figs/1q20.jpg, id=220, 934.49126pt x 643.40375pt>
 File: figs/1q20.jpg Graphic file (type jpg)
 <use figs/1q20.jpg>
 Package pdftex.def Info: figs/1q20.jpg  used on input line 478.
@@ -1897,7 +1897,7 @@ as been already used, duplicate ignored
 l.486 \item T
              he equation of deformation is derived to be $y = x^2-xL$ for a ...
  <./figs/1q20.jpg>]
-<figs/1q21.jpg, id=230, 871.255pt x 307.1475pt>
+<figs/1q21.jpg, id=234, 871.255pt x 307.1475pt>
 File: figs/1q21.jpg Graphic file (type jpg)
 <use figs/1q21.jpg>
 Package pdftex.def Info: figs/1q21.jpg  used on input line 489.
@@ -1908,7 +1908,7 @@ Overfull \hbox (29.0642pt too wide) in paragraph at lines 493--494
  
  []
 
-<figs/1q22.jpg, id=232, 583.17876pt x 385.44pt>
+<figs/1q22.jpg, id=236, 583.17876pt x 385.44pt>
 File: figs/1q22.jpg Graphic file (type jpg)
 <use figs/1q22.jpg>
 Package pdftex.def Info: figs/1q22.jpg  used on input line 500.
@@ -1928,7 +1928,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.505 
        <./figs/1q21.jpg> <./figs/1q22.jpg>]
-<figs/1q24.jpg, id=242, 837.1275pt x 542.025pt>
+<figs/1q24.jpg, id=247, 837.1275pt x 542.025pt>
 File: figs/1q24.jpg Graphic file (type jpg)
 <use figs/1q24.jpg>
 Package pdftex.def Info: figs/1q24.jpg  used on input line 515.
@@ -1964,7 +1964,7 @@ l.525 ...tbf{Q.26 - Q.35 Multiple Choice Question}
 
 
 
-<figs/1q29.jpg, id=254, 753.81625pt x 450.68375pt>
+<figs/1q29.jpg, id=258, 753.81625pt x 450.68375pt>
 File: figs/1q29.jpg Graphic file (type jpg)
 <use figs/1q29.jpg>
 Package pdftex.def Info: figs/1q29.jpg  used on input line 564.
@@ -1996,7 +1996,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
                                                   \__shipout_drop_firstpage_...
 l.603 
        <./figs/1q29.jpg>]
-<figs/1q31.jpg, id=288, 707.64375pt x 491.8375pt>
+<figs/1q31.jpg, id=292, 707.64375pt x 491.8375pt>
 File: figs/1q31.jpg Graphic file (type jpg)
 <use figs/1q31.jpg>
 Package pdftex.def Info: figs/1q31.jpg  used on input line 615.
@@ -2062,12 +2062,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
 l.740 \item V
              ehicular arrival at an isolated intersection follows the Poisso...
 ]
-<figs/1q38.jpg, id=336, 849.1725pt x 466.74374pt>
+<figs/1q38.jpg, id=340, 849.1725pt x 466.74374pt>
 File: figs/1q38.jpg Graphic file (type jpg)
 <use figs/1q38.jpg>
 Package pdftex.def Info: figs/1q38.jpg  used on input line 747.
 (pdftex.def)             Requested size: 272.99881pt x 150.05186pt.
-<figs/1q39.jpg, id=338, 836.12375pt x 395.4775pt>
+<figs/1q39.jpg, id=342, 836.12375pt x 395.4775pt>
 File: figs/1q39.jpg Graphic file (type jpg)
 <use figs/1q39.jpg>
 Package pdftex.def Info: figs/1q39.jpg  used on input line 758.
@@ -2082,7 +2082,7 @@ as been already used, duplicate ignored
 l.762 I
        f the concentrated load, $P = 5$ kN, the resultant stress \brak{\text...
  <./figs/1q38.jpg>]
-<figs/1q40.jpg, id=351, 690.58pt x 599.23875pt>
+<figs/1q40.jpg, id=355, 690.58pt x 599.23875pt>
 File: figs/1q40.jpg Graphic file (type jpg)
 <use figs/1q40.jpg>
 Package pdftex.def Info: figs/1q40.jpg  used on input line 769.
@@ -2107,12 +2107,12 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.775 \hfill
             {\brak{\text{GATE CE 2021}}} <./figs/1q39.jpg> <./figs/1q40.jpg>]
-<figs/1q41.jpg, id=360, 807.015pt x 359.3425pt>
+<figs/1q41.jpg, id=364, 807.015pt x 359.3425pt>
 File: figs/1q41.jpg Graphic file (type jpg)
 <use figs/1q41.jpg>
 Package pdftex.def Info: figs/1q41.jpg  used on input line 780.
 (pdftex.def)             Requested size: 272.99881pt x 121.56071pt.
-<figs/1q42.jpg, id=362, 558.085pt x 387.4475pt>
+<figs/1q42.jpg, id=366, 558.085pt x 387.4475pt>
 File: figs/1q42.jpg Graphic file (type jpg)
 <use figs/1q42.jpg>
 Package pdftex.def Info: figs/1q42.jpg  used on input line 791.
@@ -2136,7 +2136,7 @@ as been already used, duplicate ignored
 l.835 T
        he total float of the activity "V" \brak{\text{in weeks, in integer}}...
  <./figs/1q42.jpg>]
-<figs/1q44.jpg, id=379, 603.25375pt x 475.7775pt>
+<figs/1q44.jpg, id=383, 603.25375pt x 475.7775pt>
 File: figs/1q44.jpg Graphic file (type jpg)
 <use figs/1q44.jpg>
 Package pdftex.def Info: figs/1q44.jpg  used on input line 842.
@@ -2151,7 +2151,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
 l.846 T
        he overconsolidation ratio \brak{OCR} \brak{\text{round off to two de...
 ]
-<figs/1q45.jpg, id=388, 724.7075pt x 618.31pt>
+<figs/1q45.jpg, id=392, 724.7075pt x 618.31pt>
 File: figs/1q45.jpg Graphic file (type jpg)
 <use figs/1q45.jpg>
 Package pdftex.def Info: figs/1q45.jpg  used on input line 853.
@@ -2166,7 +2166,7 @@ as been already used, duplicate ignored
 l.857 T
        he factor of safety \brak{\text{round off to two decimal places}} aga...
  <./figs/1q44.jpg>]
-<figs/1q46.jpg, id=397, 712.6625pt x 520.94624pt>
+<figs/1q46.jpg, id=401, 712.6625pt x 520.94624pt>
 File: figs/1q46.jpg Graphic file (type jpg)
 <use figs/1q46.jpg>
 Package pdftex.def Info: figs/1q46.jpg  used on input line 864.
@@ -2181,7 +2181,7 @@ as been already used, duplicate ignored
 l.868 I
        f the stress beneath the footing is uniform, the length of the combin...
  <./figs/1q45.jpg>]
-<figs/1q47.jpg, id=406, 638.385pt x 435.6275pt>
+<figs/1q47.jpg, id=410, 638.385pt x 435.6275pt>
 File: figs/1q47.jpg Graphic file (type jpg)
 <use figs/1q47.jpg>
 Package pdftex.def Info: figs/1q47.jpg  used on input line 875.
@@ -2200,7 +2200,7 @@ Overfull \hbox (1.30669pt too wide) in paragraph at lines 883--884
 \OT1/txr/m/n/12 cor-re-spond-ing av-er-age depth of flow $[]$
  []
 
-<figs/1q49.jpg, id=415, 608.2725pt x 367.3725pt>
+<figs/1q49.jpg, id=419, 608.2725pt x 367.3725pt>
 File: figs/1q49.jpg Graphic file (type jpg)
 <use figs/1q49.jpg>
 Package pdftex.def Info: figs/1q49.jpg  used on input line 890.
@@ -2252,22 +2252,22 @@ l.956     \item[\brak{iii}]
 
 
 
-<figs/2q2.jpg, id=441, 481.8pt x 397.485pt>
+<figs/2q2.jpg, id=445, 481.8pt x 397.485pt>
 File: figs/2q2.jpg Graphic file (type jpg)
 <use figs/2q2.jpg>
 Package pdftex.def Info: figs/2q2.jpg  used on input line 975.
 (pdftex.def)             Requested size: 272.99881pt x 225.22841pt.
-<figs/2q2a.jpg, id=442, 291.0875pt x 76.285pt>
+<figs/2q2a.jpg, id=446, 291.0875pt x 76.285pt>
 File: figs/2q2a.jpg Graphic file (type jpg)
 <use figs/2q2a.jpg>
 Package pdftex.def Info: figs/2q2a.jpg  used on input line 983.
 (pdftex.def)             Requested size: 87.65633pt x 22.9718pt.
-<figs/2q2b.jpg, id=443, 308.15125pt x 88.33pt>
+<figs/2q2b.jpg, id=447, 308.15125pt x 88.33pt>
 File: figs/2q2b.jpg Graphic file (type jpg)
 <use figs/2q2b.jpg>
 Package pdftex.def Info: figs/2q2b.jpg  used on input line 989.
 (pdftex.def)             Requested size: 87.65633pt x 25.12578pt.
-<figs/2q2c.jpg, id=444, 291.0875pt x 89.33376pt>
+<figs/2q2c.jpg, id=448, 291.0875pt x 89.33376pt>
 File: figs/2q2c.jpg Graphic file (type jpg)
 <use figs/2q2c.jpg>
 Package pdftex.def Info: figs/2q2c.jpg  used on input line 995.
@@ -2298,7 +2298,7 @@ as been already used, duplicate ignored
 l.999 \item \begin
                   {figure}[H] <./figs/2q2.jpg> <./figs/2q2a.jpg> <./figs/2q2b.j
 pg>]
-<figs/2q2d.jpg, id=459, 304.13625pt x 107.40125pt>
+<figs/2q2d.jpg, id=463, 304.13625pt x 107.40125pt>
 File: figs/2q2d.jpg Graphic file (type jpg)
 <use figs/2q2d.jpg>
 Package pdftex.def Info: figs/2q2d.jpg  used on input line 1001.
@@ -2351,7 +2351,7 @@ l.1056 \hfill
 
 
 
-<figs/2q9.jpg, id=486, 471.7625pt x 372.39125pt>
+<figs/2q9.jpg, id=490, 471.7625pt x 372.39125pt>
 File: figs/2q9.jpg Graphic file (type jpg)
 <use figs/2q9.jpg>
 Package pdftex.def Info: figs/2q9.jpg  used on input line 1099.
@@ -2398,7 +2398,7 @@ l.1121 \begin
 
 
 
-<figs/2q7.jpg, id=542, 738.76pt x 365.365pt>
+<figs/2q7.jpg, id=546, 738.76pt x 365.365pt>
 File: figs/2q7.jpg Graphic file (type jpg)
 <use figs/2q7.jpg>
 Package pdftex.def Info: figs/2q7.jpg  used on input line 1208.
@@ -2436,7 +2436,7 @@ l.1242     \item E
 
 
 
-<figs/2q19.jpg, id=624, 740.7675pt x 389.455pt>
+<figs/2q19.jpg, id=628, 740.7675pt x 389.455pt>
 File: figs/2q19.jpg Graphic file (type jpg)
 <use figs/2q19.jpg>
 Package pdftex.def Info: figs/2q19.jpg  used on input line 1352.
@@ -2448,7 +2448,7 @@ Overfull \hbox (75.4787pt too wide) in paragraph at lines 1356--1357
 []\OT1/txr/m/n/12 The ab-so-lute max-i-mum shear stress in the mem-ber $[]$
  []
 
-<figs/2q20.jpg, id=642, 560.0925pt x 222.8325pt>
+<figs/2q20.jpg, id=646, 560.0925pt x 222.8325pt>
 File: figs/2q20.jpg Graphic file (type jpg)
 <use figs/2q20.jpg>
 Package pdftex.def Info: figs/2q20.jpg  used on input line 1363.
@@ -2495,7 +2495,7 @@ l.1411 \begin
 
 
 
-<figs/2q28.jpg, id=661, 790.955pt x 339.2675pt>
+<figs/2q28.jpg, id=664, 790.955pt x 339.2675pt>
 File: figs/2q28.jpg Graphic file (type jpg)
 <use figs/2q28.jpg>
 Package pdftex.def Info: figs/2q28.jpg  used on input line 1433.
@@ -2509,7 +2509,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1446 \end{enumerate}
                        <./figs/2q28.jpg>]
-<figs/2q29.jpg, id=679, 453.695pt x 391.4625pt>
+<figs/2q29.jpg, id=682, 453.695pt x 391.4625pt>
 File: figs/2q29.jpg Graphic file (type jpg)
 <use figs/2q29.jpg>
 Package pdftex.def Info: figs/2q29.jpg  used on input line 1451.
@@ -2557,7 +2557,7 @@ l.1469
 
 
 [45]
-<figs/2q37.jpg, id=734, 450.68375pt x 623.32875pt>
+<figs/2q37.jpg, id=737, 450.68375pt x 623.32875pt>
 File: figs/2q37.jpg Graphic file (type jpg)
 <use figs/2q37.jpg>
 Package pdftex.def Info: figs/2q37.jpg  used on input line 1557.
@@ -2565,7 +2565,7 @@ Package pdftex.def Info: figs/2q37.jpg  used on input line 1557.
 
 
 [46]
-<figs/2q38.jpg, id=743, 766.865pt x 345.29pt>
+<figs/2q38.jpg, id=746, 766.865pt x 345.29pt>
 File: figs/2q38.jpg Graphic file (type jpg)
 <use figs/2q38.jpg>
 Package pdftex.def Info: figs/2q38.jpg  used on input line 1568.
@@ -2580,7 +2580,7 @@ as been already used, duplicate ignored
 l.1572 I
         f the flexural stiffness of the beam is $4\pi^2$ kN/m, its natural f...
  <./figs/2q37.jpg>]
-<figs/2q39.jpg, id=750, 716.6775pt x 512.91624pt>
+<figs/2q39.jpg, id=753, 716.6775pt x 512.91624pt>
 File: figs/2q39.jpg Graphic file (type jpg)
 <use figs/2q39.jpg>
 Package pdftex.def Info: figs/2q39.jpg  used on input line 1579.
@@ -2610,7 +2610,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1588 
         <./figs/2q38.jpg> <./figs/2q39.jpg>]
-<figs/2q41.jpg, id=757, 655.44875pt x 458.71375pt>
+<figs/2q41.jpg, id=760, 655.44875pt x 458.71375pt>
 File: figs/2q41.jpg Graphic file (type jpg)
 <use figs/2q41.jpg>
 Package pdftex.def Info: figs/2q41.jpg  used on input line 1594.
@@ -2625,7 +2625,7 @@ as been already used, duplicate ignored
 l.1622 T
         he total time $\brak{\text{in days, in integer}}$ for project comple...
  <./figs/2q41.jpg>]
-<figs/2q44.jpg, id=766, 680.5425pt x 412.54124pt>
+<figs/2q44.jpg, id=769, 680.5425pt x 412.54124pt>
 File: figs/2q44.jpg Graphic file (type jpg)
 <use figs/2q44.jpg>
 Package pdftex.def Info: figs/2q44.jpg  used on input line 1633.
@@ -2644,7 +2644,7 @@ Overfull \hbox (5.5427pt too wide) in paragraph at lines 1637--1638
 []\OT1/txr/m/n/12 Using Mey-er-hoff's method, the load $[]$
  []
 
-<figs/2q45.jpg, id=776, 567.11874pt x 547.04375pt>
+<figs/2q45.jpg, id=779, 567.11874pt x 547.04375pt>
 File: figs/2q45.jpg Graphic file (type jpg)
 <use figs/2q45.jpg>
 Package pdftex.def Info: figs/2q45.jpg  used on input line 1644.
@@ -2663,7 +2663,7 @@ Overfull \hbox (6.44269pt too wide) in paragraph at lines 1648--1649
 []\OT1/txr/m/n/12 The pri-mary con-sol-i-da-tion set-tle-ment $[]$
  []
 
-<figs/2q48.jpg, id=783, 634.37pt x 764.8575pt>
+<figs/2q48.jpg, id=786, 634.37pt x 764.8575pt>
 File: figs/2q48.jpg Graphic file (type jpg)
 <use figs/2q48.jpg>
 Package pdftex.def Info: figs/2q48.jpg  used on input line 1663.
@@ -2677,7 +2677,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1666 \end{figure}
                     <./figs/2q45.jpg>]
-<figs/2q49.jpg, id=791, 600.2425pt x 540.0175pt>
+<figs/2q49.jpg, id=794, 600.2425pt x 540.0175pt>
 File: figs/2q49.jpg Graphic file (type jpg)
 <use figs/2q49.jpg>
 Package pdftex.def Info: figs/2q49.jpg  used on input line 1674.
@@ -2692,7 +2692,7 @@ as been already used, duplicate ignored
 l.1678 A
         ssume $g = 9.8$ m/s$^2$. When the deflection in the mercury manomete...
  <./figs/2q48.jpg>]
-<figs/2q51.jpg, id=800, 708.6475pt x 396.48125pt>
+<figs/2q51.jpg, id=803, 708.6475pt x 396.48125pt>
 File: figs/2q51.jpg Graphic file (type jpg)
 <use figs/2q51.jpg>
 Package pdftex.def Info: figs/2q51.jpg  used on input line 1691.
@@ -2752,10 +2752,10 @@ share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.
 termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on main.pdf (56 pages, 830908 bytes).
+Output written on main.pdf (56 pages, 831139 bytes).
 PDF statistics:
- 977 PDF objects out of 1000 (max. 8388607)
- 845 compressed objects within 9 object streams
+ 980 PDF objects out of 1000 (max. 8388607)
+ 848 compressed objects within 9 object streams
  544 named destinations out of 1000 (max. 500000)
  248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
