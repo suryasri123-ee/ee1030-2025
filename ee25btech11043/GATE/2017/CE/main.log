@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.11)  19 AUG 2025 20:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.11)  19 AUG 2025 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1404,7 +1404,26 @@ File: ot1txr.fd 2000/12/15 v3.1
 LaTeX Warning: Unused global option(s):
     [journal].
 
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig:7' multiply defined.
+
+
+LaTeX Warning: Label `fig:9' multiply defined.
+
+
+LaTeX Warning: Label `fig:11' multiply defined.
+
+
+LaTeX Warning: Label `fig:12' multiply defined.
+
+
+LaTeX Warning: Label `fig:13' multiply defined.
+
+
+LaTeX Warning: Label `fig:14' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 51.
@@ -1572,10 +1591,7 @@ t/fonts/enc/dvips/base/8r.enc}]
 
 
 
-
-LaTeX Warning: Reference `fig:7' on page 2 undefined on input line 123.
-
-<figs/imageq7.jpg, id=36, 718.685pt x 294.09875pt>
+<figs/imageq7.jpg, id=37, 718.685pt x 294.09875pt>
 File: figs/imageq7.jpg Graphic file (type jpg)
 <use figs/imageq7.jpg>
 Package pdftex.def Info: figs/imageq7.jpg  used on input line 126.
@@ -1674,18 +1690,12 @@ by $\OMS/txsy/m/n/12 ^^@\OML/txmi/m/it/12 k\OT1/txr/m/n/12 [\OML/txmi/m/it/12 A
 
 
 [5]
-
-LaTeX Warning: Reference `fig:22' on page 6 undefined on input line 277.
-
-<figs/imageq22.jpg, id=136, 605.26125pt x 258.9675pt>
+<figs/imageq22.jpg, id=139, 605.26125pt x 258.9675pt>
 File: figs/imageq22.jpg Graphic file (type jpg)
 <use figs/imageq22.jpg>
 Package pdftex.def Info: figs/imageq22.jpg  used on input line 280.
 (pdftex.def)             Requested size: 272.99881pt x 116.80693pt.
-
-LaTeX Warning: Reference `fig:23' on page 6 undefined on input line 286.
-
-<figs/imageq23.jpg, id=137, 612.2875pt x 234.8775pt>
+<figs/imageq23.jpg, id=141, 612.2875pt x 234.8775pt>
 File: figs/imageq23.jpg Graphic file (type jpg)
 <use figs/imageq23.jpg>
 Package pdftex.def Info: figs/imageq23.jpg  used on input line 289.
@@ -1719,10 +1729,7 @@ l.294
 
 
 [7]
-
-LaTeX Warning: Reference `fig:29' on page 8 undefined on input line 338.
-
-<figs/imageq29.jpg, id=166, 538.01pt x 380.42125pt>
+<figs/imageq29.jpg, id=171, 538.01pt x 380.42125pt>
 File: figs/imageq29.jpg Graphic file (type jpg)
 <use figs/imageq29.jpg>
 Package pdftex.def Info: figs/imageq29.jpg  used on input line 341.
@@ -1760,10 +1767,7 @@ Overfull \hbox (93.04802pt too wide) in paragraph at lines 366--375
 
 
 [9]
-
-LaTeX Warning: Reference `fig:33' on page 10 undefined on input line 409.
-
-<figs/imageq33.jpg, id=203, 507.8975pt x 265.99374pt>
+<figs/imageq33.jpg, id=209, 507.8975pt x 265.99374pt>
 File: figs/imageq33.jpg Graphic file (type jpg)
 <use figs/imageq33.jpg>
 Package pdftex.def Info: figs/imageq33.jpg  used on input line 412.
@@ -1801,10 +1805,7 @@ l.421         \item $
 
 
 
-
-LaTeX Warning: Reference `fig:39' on page 12 undefined on input line 472.
-
-<figs/imageq39.jpg, id=236, 548.0475pt x 474.77374pt>
+<figs/imageq39.jpg, id=243, 548.0475pt x 474.77374pt>
 File: figs/imageq39.jpg Graphic file (type jpg)
 <use figs/imageq39.jpg>
 Package pdftex.def Info: figs/imageq39.jpg  used on input line 475.
@@ -1818,10 +1819,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.480 
        <./figs/imageq39.jpg>]
-
-LaTeX Warning: Reference `fig:40' on page 13 undefined on input line 481.
-
-<figs/imageq40.jpg, id=249, 521.95pt x 185.69376pt>
+<figs/imageq40.jpg, id=257, 521.95pt x 185.69376pt>
 File: figs/imageq40.jpg Graphic file (type jpg)
 <use figs/imageq40.jpg>
 Package pdftex.def Info: figs/imageq40.jpg  used on input line 484.
@@ -1832,10 +1830,7 @@ Overfull \hbox (10.69153pt too wide) in paragraph at lines 488--489
  to $[]$
  []
 
-
-LaTeX Warning: Reference `fig:41' on page 13 undefined on input line 490.
-
-<figs/imageq41.jpg, id=250, 654.445pt x 144.54pt>
+<figs/imageq41.jpg, id=259, 654.445pt x 144.54pt>
 File: figs/imageq41.jpg Graphic file (type jpg)
 <use figs/imageq41.jpg>
 Package pdftex.def Info: figs/imageq41.jpg  used on input line 493.
@@ -1857,10 +1852,7 @@ s been already used, duplicate ignored
 l.501     \item A
                   column is subjected to a load through a bracket as shown i...
  <./figs/imageq40.jpg> <./figs/imageq41.jpg>]
-
-LaTeX Warning: Reference `fig:43' on page 14 undefined on input line 501.
-
-<figs/imageq43.jpg, id=261, 610.28pt x 477.785pt>
+<figs/imageq43.jpg, id=271, 610.28pt x 477.785pt>
 File: figs/imageq43.jpg Graphic file (type jpg)
 <use figs/imageq43.jpg>
 Package pdftex.def Info: figs/imageq43.jpg  used on input line 504.
@@ -1881,10 +1873,7 @@ s been already used, duplicate ignored
 l.529     T
            he estimated minimum time (in days) for the completion of the pro...
  <./figs/imageq43.jpg>]
-
-LaTeX Warning: Reference `fig:47' on page 15 undefined on input line 533.
-
-<figs/imageq47.jpg, id=270, 575.14874pt x 379.4175pt>
+<figs/imageq47.jpg, id=281, 575.14874pt x 379.4175pt>
 File: figs/imageq47.jpg Graphic file (type jpg)
 <use figs/imageq47.jpg>
 Package pdftex.def Info: figs/imageq47.jpg  used on input line 536.
@@ -1892,10 +1881,7 @@ Package pdftex.def Info: figs/imageq47.jpg  used on input line 536.
 
 
 [15]
-
-LaTeX Warning: Reference `fig:48' on page 16 undefined on input line 542.
-
-<figs/imageq48.jpg, id=277, 648.4225pt x 329.23pt>
+<figs/imageq48.jpg, id=290, 648.4225pt x 329.23pt>
 File: figs/imageq48.jpg Graphic file (type jpg)
 <use figs/imageq48.jpg>
 Package pdftex.def Info: figs/imageq48.jpg  used on input line 545.
@@ -1917,10 +1903,7 @@ as been already used, duplicate ignored
 l.551     \item W
                  ater flows through a 90$\degree$ bend in a horizontal plane...
  <./figs/imageq47.jpg> <./figs/imageq48.jpg>]
-
-LaTeX Warning: Reference `fig:49' on page 17 undefined on input line 551.
-
-<figs/imageq49.jpg, id=285, 619.31375pt x 481.8pt>
+<figs/imageq49.jpg, id=298, 619.31375pt x 481.8pt>
 File: figs/imageq49.jpg Graphic file (type jpg)
 <use figs/imageq49.jpg>
 Package pdftex.def Info: figs/imageq49.jpg  used on input line 554.
@@ -2013,7 +1996,7 @@ l.571
 
 
 
-<figs/imageq65.jpg, id=339, 640.3925pt x 463.7325pt>
+<figs/imageq65.jpg, id=353, 640.3925pt x 463.7325pt>
 File: figs/imageq65.jpg Graphic file (type jpg)
 <use figs/imageq65.jpg>
 Package pdftex.def Info: figs/imageq65.jpg  used on input line 700.
@@ -2074,22 +2057,22 @@ l.736     \begin
 
 
 
-<figs/image7a.jpg, id=404, 155.58125pt x 257.96375pt>
+<figs/image7a.jpg, id=417, 155.58125pt x 257.96375pt>
 File: figs/image7a.jpg Graphic file (type jpg)
 <use figs/image7a.jpg>
 Package pdftex.def Info: figs/image7a.jpg  used on input line 802.
 (pdftex.def)             Requested size: 57.85916pt x 95.93317pt.
-<figs/image7b.jpg, id=405, 153.57375pt x 249.93375pt>
+<figs/image7b.jpg, id=418, 153.57375pt x 249.93375pt>
 File: figs/image7b.jpg Graphic file (type jpg)
 <use figs/image7b.jpg>
 Package pdftex.def Info: figs/image7b.jpg  used on input line 809.
 (pdftex.def)             Requested size: 57.85916pt x 94.1635pt.
-<figs/image7c.jpg, id=406, 150.5625pt x 261.97874pt>
+<figs/image7c.jpg, id=419, 150.5625pt x 261.97874pt>
 File: figs/image7c.jpg Graphic file (type jpg)
 <use figs/image7c.jpg>
 Package pdftex.def Info: figs/image7c.jpg  used on input line 816.
 (pdftex.def)             Requested size: 57.85916pt x 100.67624pt.
-<figs/image7d.jpg, id=407, 155.58125pt x 269.005pt>
+<figs/image7d.jpg, id=420, 155.58125pt x 269.005pt>
 File: figs/image7d.jpg Graphic file (type jpg)
 <use figs/image7d.jpg>
 Package pdftex.def Info: figs/image7d.jpg  used on input line 823.
@@ -2185,10 +2168,7 @@ jpg> <./figs/image7c.jpg> <./figs/image7d.jpg>]
 
 
 
-
-LaTeX Warning: Reference `fig:5' on page 25 undefined on input line 920.
-
-<figs/q14.jpg, id=458, 392.46625pt x 308.15125pt>
+<figs/q14.jpg, id=473, 392.46625pt x 308.15125pt>
 File: figs/q14.jpg Graphic file (type jpg)
 <use figs/q14.jpg>
 Package pdftex.def Info: figs/q14.jpg  used on input line 923.
@@ -2221,10 +2201,7 @@ l.940     \begin
 
 
 
-
-LaTeX Warning: Reference `fig:6' on page 26 undefined on input line 949.
-
-<figs/q16.jpg, id=477, 827.09pt x 570.13pt>
+<figs/q16.jpg, id=492, 827.09pt x 570.13pt>
 File: figs/q16.jpg Graphic file (type jpg)
 <use figs/q16.jpg>
 Package pdftex.def Info: figs/q16.jpg  used on input line 952.
@@ -2307,10 +2284,7 @@ Overfull \hbox (3.31064pt too wide) in paragraph at lines 988--989
 
 
 
-
-LaTeX Warning: Reference `fig:7' on page 29 undefined on input line 1069.
-
-<figs/q31.jpg, id=532, 919.435pt x 485.815pt>
+<figs/q31.jpg, id=548, 919.435pt x 485.815pt>
 File: figs/q31.jpg Graphic file (type jpg)
 <use figs/q31.jpg>
 Package pdftex.def Info: figs/q31.jpg  used on input line 1072.
@@ -2333,10 +2307,7 @@ l.1078     \begin
 
 
 
-
-LaTeX Warning: Reference `fig:8' on page 30 undefined on input line 1087.
-
-<figs/q32.jpg, id=548, 932.48375pt x 176.66pt>
+<figs/q32.jpg, id=564, 932.48375pt x 176.66pt>
 File: figs/q32.jpg Graphic file (type jpg)
 <use figs/q32.jpg>
 Package pdftex.def Info: figs/q32.jpg  used on input line 1090.
@@ -2350,7 +2321,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1114         \item P
                        - True; Q - False; R - True; S - False <./figs/q32.jpg>]
-<figs/q34.jpg, id=568, 801.99625pt x 260.975pt>
+<figs/q34.jpg, id=585, 801.99625pt x 260.975pt>
 File: figs/q34.jpg Graphic file (type jpg)
 <use figs/q34.jpg>
 Package pdftex.def Info: figs/q34.jpg  used on input line 1122.
@@ -2369,10 +2340,7 @@ l.1144         \item P
 
 
 
-
-LaTeX Warning: Reference `fig:9' on page 32 undefined on input line 1168.
-
-<figs/q37.jpg, id=587, 822.07124pt x 401.5pt>
+<figs/q37.jpg, id=604, 822.07124pt x 401.5pt>
 File: figs/q37.jpg Graphic file (type jpg)
 <use figs/q37.jpg>
 Package pdftex.def Info: figs/q37.jpg  used on input line 1171.
@@ -2395,10 +2363,7 @@ l.1177     \begin
 
 
 
-
-LaTeX Warning: Reference `fig:10' on page 33 undefined on input line 1186.
-
-<figs/q38.jpg, id=605, 364.36125pt x 238.8925pt>
+<figs/q38.jpg, id=623, 364.36125pt x 238.8925pt>
 File: figs/q38.jpg Graphic file (type jpg)
 <use figs/q38.jpg>
 Package pdftex.def Info: figs/q38.jpg  used on input line 1189.
@@ -2412,18 +2377,12 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1198 
         <./figs/q38.jpg>]
-
-LaTeX Warning: Reference `fig:11' on page 34 undefined on input line 1199.
-
-<figs/q41.jpg, id=617, 766.865pt x 324.21124pt>
+<figs/q41.jpg, id=636, 766.865pt x 324.21124pt>
 File: figs/q41.jpg Graphic file (type jpg)
 <use figs/q41.jpg>
 Package pdftex.def Info: figs/q41.jpg  used on input line 1202.
 (pdftex.def)             Requested size: 272.99881pt x 115.41982pt.
-
-LaTeX Warning: Reference `fig:11' on page 34 undefined on input line 1208.
-
-<figs/q42.jpg, id=618, 463.7325pt x 355.3275pt>
+<figs/q42.jpg, id=638, 463.7325pt x 355.3275pt>
 File: figs/q42.jpg Graphic file (type jpg)
 <use figs/q42.jpg>
 Package pdftex.def Info: figs/q42.jpg  used on input line 1211.
@@ -2438,10 +2397,7 @@ as been already used, duplicate ignored
 l.1215     T
             he rotation (in degrees, up to one decimal place) at the rigid j...
  <./figs/q41.jpg>]
-
-LaTeX Warning: Reference `fig:12' on page 35 undefined on input line 1217.
-
-<figs/q43.jpg, id=627, 782.925pt x 449.68pt>
+<figs/q43.jpg, id=649, 782.925pt x 449.68pt>
 File: figs/q43.jpg Graphic file (type jpg)
 <use figs/q43.jpg>
 Package pdftex.def Info: figs/q43.jpg  used on input line 1220.
@@ -2461,18 +2417,12 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1225 
         <./figs/q42.jpg> <./figs/q43.jpg>]
-
-LaTeX Warning: Reference `fig:13' on page 36 undefined on input line 1226.
-
-<figs/q44.jpg, id=635, 407.5225pt x 356.33125pt>
+<figs/q44.jpg, id=657, 407.5225pt x 356.33125pt>
 File: figs/q44.jpg Graphic file (type jpg)
 <use figs/q44.jpg>
 Package pdftex.def Info: figs/q44.jpg  used on input line 1229.
 (pdftex.def)             Requested size: 272.99881pt x 238.7135pt.
-
-LaTeX Warning: Reference `fig:13' on page 36 undefined on input line 1235.
-
-<figs/q45.jpg, id=636, 487.8225pt x 249.93375pt>
+<figs/q45.jpg, id=659, 487.8225pt x 249.93375pt>
 File: figs/q45.jpg Graphic file (type jpg)
 <use figs/q45.jpg>
 Package pdftex.def Info: figs/q45.jpg  used on input line 1238.
@@ -2487,10 +2437,7 @@ as been already used, duplicate ignored
 l.1242     I
             f 5 cm$^3$ of water is added to the right limb, the new height (...
  <./figs/q44.jpg>]
-
-LaTeX Warning: Reference `fig:14' on page 37 undefined on input line 1246.
-
-<figs/q47.jpg, id=644, 434.62375pt x 260.975pt>
+<figs/q47.jpg, id=669, 434.62375pt x 260.975pt>
 File: figs/q47.jpg Graphic file (type jpg)
 <use figs/q47.jpg>
 Package pdftex.def Info: figs/q47.jpg  used on input line 1249.
@@ -2608,10 +2555,7 @@ e para-graph above?
 
 
 
-
-LaTeX Warning: Reference `fig:14' on page 42 undefined on input line 1433.
-
-<figs/q65.jpg, id=715, 792.9625pt x 420.57124pt>
+<figs/q65.jpg, id=741, 792.9625pt x 420.57124pt>
 File: figs/q65.jpg Graphic file (type jpg)
 <use figs/q65.jpg>
 Package pdftex.def Info: figs/q65.jpg  used on input line 1436.
@@ -2640,10 +2584,7 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -2651,11 +2592,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  48100 strings out of 467801
  1137878 string characters out of 5417842
- 1753294 words of memory out of 5000000
+ 1753936 words of memory out of 5000000
  75473 multiletter control sequences out of 15000+600000
  671937 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,103p,1172b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,103p,1172b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtxb.pfb></data/data/com.termux/files/usr/sha
@@ -2669,10 +2610,10 @@ om.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (43 pages, 557460 bytes).
+Output written on main.pdf (43 pages, 558531 bytes).
 PDF statistics:
- 901 PDF objects out of 1000 (max. 8388607)
- 797 compressed objects within 8 object streams
+ 927 PDF objects out of 1000 (max. 8388607)
+ 822 compressed objects within 9 object streams
  551 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
