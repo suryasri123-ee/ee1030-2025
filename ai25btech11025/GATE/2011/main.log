@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.1)  19 AUG 2025 08:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.1)  20 AUG 2025 06:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,13 +1261,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 35.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 35.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1379,6 +1379,8 @@ Package gensymb Info: Using \textohm for \ohm on input line 35.
 Package gensymb Info: Using \textmu for \micro on input line 35.
 \c@lstlisting=\count366
 Package hyperref Info: Link coloring OFF on input line 35.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1417,23 +1419,20 @@ File: ts1txr.fd 2000/12/15 v3.1
 <Figs//fig 1.png, id=377, 331.83975pt x 160.1985pt>
 File: Figs//fig 1.png Graphic file (type png)
 <use Figs//fig 1.png>
-Package pdftex.def Info: Figs//fig 1.png  used on input line 1006.
+Package pdftex.def Info: Figs//fig 1.png  used on input line 1007.
 (pdftex.def)             Requested size: 335.39685pt x 161.92632pt.
  [14] [15 <./Figs//fig 1.png>] (./main.aux)
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31408 strings out of 476091
- 612587 string characters out of 5794082
+ 31419 strings out of 476091
+ 612701 string characters out of 5794082
  1867330 words of memory out of 5000000
- 50763 multiletter control sequences out of 15000+600000
+ 50767 multiletter control sequences out of 15000+600000
  579598 words of font info for 172 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,11n,96p,1193b,682s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1446,10 +1445,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 131935 bytes).
+Output written on main.pdf (15 pages, 131872 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
- 349 named destinations out of 1000 (max. 500000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 491 compressed objects within 5 object streams
+ 350 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
