@@ -24,6 +24,10 @@ AC = line_gen(A,C)
 plt.plot(AC[0,:],AC[1,:])
 plt.scatter(coords[0,:],coords[1,:])
 
+
+plt.text(A[0],A[1],"A(3,4)")
+plt.text(B[0],B[1],"B(6,7)")
+plt.text(C[0],C[1],"C(9,10)")
 plt.xlabel('$x$')
 plt.ylabel('$y$')
 plt.legend(loc='best')
