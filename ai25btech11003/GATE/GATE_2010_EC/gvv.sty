@@ -1,19 +1,8 @@
-% correct bad hyphenation here
+\usepackage{listings}
+
 \usepackage{xparse}
 \hyphenation{op-tical net-works semi-conduc-tor}
-\def\inputGnumericTable{}                                 %%
-
-\lstset{
-%language=C,
-frame=single, 
-breaklines=true,
-columns=fullflexible
-}
-%\lstset{
-%language=tex,
-%frame=single, 
-%breaklines=true
-%}
+\def\inputGnumericTable{}   
 
 
 
@@ -30,14 +19,14 @@ columns=fullflexible
 \providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
-\providecommand{\abs}[1]{\left\vert#1\right\vert}
+\providecommand{\abs}[1]{\ensuremath{\left\vert#1\right\vert}}
 \providecommand{\res}[1]{\Res\displaylimits_{#1}} 
-\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\providecommand{\norm}[1]{\ensuremath{\left\lVert#1\right\rVert}}
 \providecommand{\mtx}[1]{\mathbf{#1}}
-\providecommand{\mean}[1]{E\left[ #1 \right]}
+\providecommand{\mean}[1]{E\ensuremath{\left[ #1 \right]}}
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
 %\numberwithin{equation}{subsection}
-\providecommand{\prt}[2]{\ensuremath{p_{#1}^{\left(#2\right)} }}        % own macro for this question
+\providecommand{\prt}[2]{\ensuremath{p_{#1}^{\left(#2\right)} }}
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
 \providecommand{\cond}[2]{#1\middle|#2}
 
@@ -86,13 +75,6 @@ columns=fullflexible
 \let\vec\mathbf
 \let\define\triangleq
 
-
-\lstset{
-%language=C,
-frame=single, 
-breaklines=true,
-columns=fullflexible
-}
 
 
 \NewDocumentEnvironment{amatrix}{>{\SplitArgument{1}{|}}m}

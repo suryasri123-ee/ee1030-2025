@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.6)  16 AUG 2025 15:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.6)  21 AUG 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -407,32 +407,42 @@ See the caption package documentation for explanation.
 \c@caption@flags=\count294
 \c@continuedfloat=\count295
 Package caption Info: hyperref package is loaded.
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen188
+\ar@mcellbox=\box56
+\extrarowheight=\dimen189
+\NC@list=\toks31
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box57
+)
+\c@problem=\count296
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count296
-\mult@box=\box56
-\multicol@leftmargin=\dimen188
-\c@unbalance=\count297
-\c@collectmore=\count298
-\doublecol@number=\count299
-\multicoltolerance=\count300
-\multicolpretolerance=\count301
-\full@width=\dimen189
-\page@free=\dimen190
-\premulticols=\dimen191
-\postmulticols=\dimen192
-\multicolsep=\skip59
-\multicolbaselineskip=\skip60
-\partial@page=\box57
-\last@line=\box58
-\mc@boxedresult=\box59
-\maxbalancingoverflow=\dimen193
-\mult@rightbox=\box60
-\mult@grightbox=\box61
-\mult@firstbox=\box62
-\mult@gfirstbox=\box63
-\@tempa=\box64
-\@tempa=\box65
+\c@tracingmulticols=\count297
+\mult@box=\box58
+\multicol@leftmargin=\dimen190
+\c@unbalance=\count298
+\c@collectmore=\count299
+\doublecol@number=\count300
+\multicoltolerance=\count301
+\multicolpretolerance=\count302
+\full@width=\dimen191
+\page@free=\dimen192
+\premulticols=\dimen193
+\postmulticols=\dimen194
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box59
+\last@line=\box60
+\mc@boxedresult=\box61
+\maxbalancingoverflow=\dimen195
+\mult@rightbox=\box62
+\mult@grightbox=\box63
+\mult@firstbox=\box64
+\mult@gfirstbox=\box65
 \@tempa=\box66
 \@tempa=\box67
 \@tempa=\box68
@@ -467,58 +477,93 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box97
 \@tempa=\box98
 \@tempa=\box99
-\c@minrows=\count302
-\c@columnbadness=\count303
-\c@finalcolumnbadness=\count304
-\last@try=\dimen194
-\multicolovershoot=\dimen195
-\multicolundershoot=\dimen196
-\mult@nat@firstbox=\box100
-\colbreak@box=\box101
-\mc@col@check@num=\count305
+\@tempa=\box100
+\@tempa=\box101
+\c@minrows=\count303
+\c@columnbadness=\count304
+\c@finalcolumnbadness=\count305
+\last@try=\dimen196
+\multicolovershoot=\dimen197
+\multicolundershoot=\dimen198
+\mult@nat@firstbox=\box102
+\colbreak@box=\box103
+\mc@col@check@num=\count306
+) (./gvv.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count307
+\lst@gtempboxa=\box104
+\lst@token=\toks32
+\lst@length=\count308
+\lst@currlwidth=\dimen199
+\lst@column=\count309
+\lst@pos=\count310
+\lst@lostspace=\dimen256
+\lst@width=\dimen257
+\lst@newlines=\count311
+\lst@lineno=\count312
+\lst@maxwidth=\dimen258
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count313
+\lst@skipnumbers=\count314
+\lst@framebox=\box105
 )
-\c@problem=\count306
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
-\l__pdf_internal_box=\box102
+\l__color_backend_stack_int=\count315
+\l__pdf_internal_box=\box106
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+\c@rem=\count316
+\c@matchleft=\count317
+\c@matchright=\count318
 )
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen197
-\scratchbox=\box103
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen198
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count319
+\scratchdimen=\dimen259
+\scratchbox=\box107
+\nofMPsegments=\count320
+\nofMParguments=\count321
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen260
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -528,473 +573,52 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 16.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+\c@lstlisting=\count325
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+<figs/fig1.png, id=4, 532.23843pt x 254.45062pt>
+File: figs/fig1.png Graphic file (type png)
+<use figs/fig1.png>
+Package pdftex.def Info: figs/fig1.png  used on input line 39.
+(pdftex.def)             Requested size: 154.80157pt x 74.00621pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/12 At res-o-nance, the mag-ni-tude of in-put
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
-
- []
-
-<figs/GA/fig1.png, id=51, 523.9575pt x 313.9228pt>
-File: figs/GA/fig1.png Graphic file (type png)
-<use figs/GA/fig1.png>
-Package pdftex.def Info: figs/GA/fig1.png  used on input line 128.
-(pdftex.def)             Requested size: 309.60315pt x 185.50024pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-[2 <./figs/GA/fig1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--208
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 276--280
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
-
- []
-
-[4]
-<figs/B/fig1.png, id=132, 337.26pt x 311.66437pt>
-File: figs/B/fig1.png Graphic file (type png)
-<use figs/B/fig1.png>
-Package pdftex.def Info: figs/B/fig1.png  used on input line 327.
-(pdftex.def)             Requested size: 309.60315pt x 286.11171pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--348
-
- []
-
-[5 <./figs/B/fig1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 362--364
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
-
- []
-
-<figs/B/fig2.png, id=155, 338.01282pt x 258.9675pt>
-File: figs/B/fig2.png Graphic file (type png)
-<use figs/B/fig2.png>
-Package pdftex.def Info: figs/B/fig2.png  used on input line 385.
-(pdftex.def)             Requested size: 196.08252pt x 150.23285pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--397
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--409
-
- []
-
-[6 <./figs/B/fig2.png>]
-<figs/B/fig3.png, id=179, 398.99063pt x 182.93344pt>
-File: figs/B/fig3.png Graphic file (type png)
-<use figs/B/fig3.png>
-Package pdftex.def Info: figs/B/fig3.png  used on input line 437.
-(pdftex.def)             Requested size: 283.80157pt x 130.12648pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
-
- []
-
-[7 <./figs/B/fig3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-
- []
-
-<figs/B/fig4.png, id=207, 547.2947pt x 222.8325pt>
-File: figs/B/fig4.png Graphic file (type png)
-<use figs/B/fig4.png>
-Package pdftex.def Info: figs/B/fig4.png  used on input line 485.
-(pdftex.def)             Requested size: 350.87622pt x 142.86052pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
-
- []
-
-<figs/B/fig5.png, id=208, 488.57532pt x 294.34969pt>
-File: figs/B/fig5.png Graphic file (type png)
-<use figs/B/fig5.png>
-Package pdftex.def Info: figs/B/fig5.png  used on input line 497.
-(pdftex.def)             Requested size: 350.87622pt x 211.39262pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-05.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<figs/B/fig6.png, id=209, 398.23781pt x 187.45032pt>
-File: figs/B/fig6.png Graphic file (type png)
-<use figs/B/fig6.png>
-Package pdftex.def Info: figs/B/fig6.png  used on input line 509.
-(pdftex.def)             Requested size: 258.0pt x 121.44366pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
-
- []
-
-[8 <./figs/B/fig4.png> <./figs/B/fig5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 518--521
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 530--532
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--545
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--565
-
- []
-
-[9 <./figs/B/fig6.png>]
-<figs/B/fig7.png, id=246, 473.51906pt x 425.33907pt>
-File: figs/B/fig7.png Graphic file (type png)
-<use figs/B/fig7.png>
-Package pdftex.def Info: figs/B/fig7.png  used on input line 573.
-(pdftex.def)             Requested size: 258.0pt x 231.75652pt.
-<figs/B/fig8.png, id=247, 377.91188pt x 280.79906pt>
-File: figs/B/fig8.png Graphic file (type png)
-<use figs/B/fig8.png>
-Package pdftex.def Info: figs/B/fig8.png  used on input line 586.
-(pdftex.def)             Requested size: 258.0pt x 191.70349pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 590--591
-
- []
-
-[10 <./figs/B/fig7.png> <./figs/B/fig8.png>]
-Underfull \hbox (badness 5533) in paragraph at lines 664--665
-[]\OT1/ptm/m/n/12 above re-crys-tal-liza-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 814--815
-[]\OT1/ptm/m/n/12 cryogenic tem-per-a-
- []
-
-[12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 897--900
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 908--910
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 959--961
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 964--967
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 977--979
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 988--991
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1001
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1006
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1021
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1026
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1061
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1065
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1068
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1085
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1096
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1117--1119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1125--1128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1153--1156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1167
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
-
- []
-
-(./tables/table1.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
-
- []
-
-(./tables/table2.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1208--1209
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
-
- []
-
-(./tables/table3.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1242--1243
-
- []
-
-(./tables/table4.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1258--1260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1262--1264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1265--1267
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1268--1270
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
-
- []
-
-(./tables/table5.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1287--1288
-
- []
-
-(./tables/table6.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1301--1303
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 1320--1323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
-[]\OT1/ptm/m/it/12 Clostridium sporo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
-[]\OT1/ptm/m/it/12 Clostridium bo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1327--1328
-[]\OT1/ptm/m/it/12 Listeria mono-cy-to-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
-
- []
-
-(./tables/table7.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1447--1448
-
- []
-
-(./tables/table8.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1454--1456
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 1488--1491
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1499--1501
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1510--1512
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1515
-
- []
-
-(./tables/table9.tex) [23] [24] (./main.aux)
+dist/fonts/enc/dvips/base/8r.enc} <./figs/fig1.png>] (./tables/table.tex)
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+[]$\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) = \OM
+L/cmm/m/it/12 A []\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 ^^Yf[]t\OT1/cmr/m/n/12 ) [
+](2\OML/cmm/m/it/12 ^^Yf[]t\OT1/cmr/m/n/12 ) +
+ []
+
+[3] [4]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
+28.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [5] [6]
+[7] [8] [9] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1013,31 +637,30 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12961 strings out of 474222
- 203224 string characters out of 5748734
- 1943975 words of memory out of 5000000
- 34484 multiletter control sequences out of 15000+600000
- 596190 words of font info for 115 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,10n,79p,541b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 14223 strings out of 474222
+ 222582 string characters out of 5748734
+ 1948975 words of memory out of 5000000
+ 35975 multiletter control sequences out of 15000+600000
+ 593531 words of font info for 112 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 79i,11n,93p,689b,743s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (24 pages, 922845 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (9 pages, 197537 bytes).
 PDF statistics:
- 861 PDF objects out of 1000 (max. 8388607)
- 779 compressed objects within 8 object streams
- 562 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
+ 338 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
