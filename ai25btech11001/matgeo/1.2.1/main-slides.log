@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  22 AUG 2025 05:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.30)  22 AUG 2025 06:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**main-slides.tex
+(./main-slides.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -931,8 +931,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count366
 \l__pdf_internal_box=\box127
 )
-(./main.aux)
-\openout1 = `main.aux'.
+No file main-slides.aux.
+\openout1 = `main-slides.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
@@ -952,7 +952,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1010,10 +1009,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 74.
-
-(./main.out) (./main.out)
 \@outlinefile=\write5
-\openout5 = `main.out'.
+\openout5 = `main-slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 74.
@@ -1096,7 +1093,9 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count373
- (./main.nav) [1
+
+No file main-slides.nav.
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1124,26 +1123,32 @@ thkerncmss.
 )
 [2]
 \tf@nav=\write6
-\openout6 = `main.nav'.
+\openout6 = `main-slides.nav'.
 
 \tf@toc=\write7
-\openout7 = `main.toc'.
+\openout7 = `main-slides.toc'.
 
 \tf@snm=\write8
-\openout8 = `main.snm'.
+\openout8 = `main-slides.snm'.
 
- (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ (./main-slides.aux)
+
+Package rerunfilecheck Warning: File `main-slides.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main-slides.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26685 strings out of 476091
- 512317 string characters out of 5794081
+ 26670 strings out of 476091
+ 512287 string characters out of 5794081
  1858330 words of memory out of 5000000
- 46532 multiletter control sequences out of 15000+600000
+ 46525 multiletter control sequences out of 15000+600000
  519331 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,131p,398b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,131p,405b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
@@ -1152,7 +1157,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (2 pages, 73890 bytes).
+Output written on main-slides.pdf (2 pages, 73890 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
