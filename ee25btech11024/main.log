@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.17)  19 AUG 2025 03:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.17)  22 AUG 2025 02:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1843,10 +1843,6 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 
 
 
-
-
-
-
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 17.0pt, for example:
 (fancyhdr)                \setlength{\headheight}{17.0pt}.
@@ -1902,26 +1898,42 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 
-<figs/graphA.png, id=89, 208.98074pt x 133.6995pt>
+
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[3]
+<figs/graphA.png, id=108, 208.98074pt x 133.6995pt>
 File: figs/graphA.png Graphic file (type png)
 <use figs/graphA.png>
-Package pdftex.def Info: figs/graphA.png  used on input line 177.
+Package pdftex.def Info: figs/graphA.png  used on input line 189.
 (pdftex.def)             Requested size: 169.51326pt x 108.45511pt.
-<figs/graphB.png, id=91, 293.29575pt x 142.73325pt>
+<figs/graphB.png, id=110, 293.29575pt x 142.73325pt>
 File: figs/graphB.png Graphic file (type png)
 <use figs/graphB.png>
-Package pdftex.def Info: figs/graphB.png  used on input line 178.
+Package pdftex.def Info: figs/graphB.png  used on input line 190.
 (pdftex.def)             Requested size: 169.51326pt x 82.49783pt.
-<figs/graphC.png, id=92, 251.7405pt x 148.75575pt>
+<figs/graphC.png, id=111, 251.7405pt x 148.75575pt>
 File: figs/graphC.png Graphic file (type png)
 <use figs/graphC.png>
-Package pdftex.def Info: figs/graphC.png  used on input line 179.
+Package pdftex.def Info: figs/graphC.png  used on input line 191.
 (pdftex.def)             Requested size: 169.51326pt x 100.16745pt.
-<figs/graphD.png, id=93, 271.61475pt x 129.48375pt>
+<figs/graphD.png, id=112, 271.61475pt x 129.48375pt>
 File: figs/graphD.png Graphic file (type png)
 <use figs/graphD.png>
-Package pdftex.def Info: figs/graphD.png  used on input line 180.
+Package pdftex.def Info: figs/graphD.png  used on input line 192.
 (pdftex.def)             Requested size: 169.51326pt x 80.81056pt.
+
+
+
+
+
+
 
 
 
@@ -1937,7 +1949,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[3 <./figs/graphA.png> <./figs/graphB.png> <./figs/graphC.png> <./figs/graphD.p
+[4 <./figs/graphA.png> <./figs/graphB.png> <./figs/graphC.png> <./figs/graphD.p
 ng>]
 
 
@@ -1957,19 +1969,13 @@ ng>]
 
 
 
-
-
-
-
-
-
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 17.0pt, for example:
 (fancyhdr)                \setlength{\headheight}{17.0pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[4]
+[5]
 
 
 
@@ -1979,10 +1985,10 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 
-<figs/Q19fig.png, id=148, 317.988pt x 227.6505pt>
+<figs/Q19fig.png, id=157, 317.988pt x 227.6505pt>
 File: figs/Q19fig.png Graphic file (type png)
 <use figs/Q19fig.png>
-Package pdftex.def Info: figs/Q19fig.png  used on input line 261.
+Package pdftex.def Info: figs/Q19fig.png  used on input line 280.
 (pdftex.def)             Requested size: 271.7835pt x 194.58066pt.
 
 
@@ -1991,7 +1997,6 @@ Package pdftex.def Info: figs/Q19fig.png  used on input line 261.
 
 
 
-Overfull \vbox (12.09259pt too high) has occurred while \output is active []
 
 
 
@@ -2006,7 +2011,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[5 <./figs/Q19fig.png>]
+[6 <./figs/Q19fig.png>]
 
 
 
@@ -2032,16 +2037,10 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 
-
-
-
-
-
-
-<figs/Q25fig.png, id=173, 263.18324pt x 131.2905pt>
+<figs/Q25fig.png, id=178, 263.18324pt x 131.2905pt>
 File: figs/Q25fig.png Graphic file (type png)
 <use figs/Q25fig.png>
-Package pdftex.def Info: figs/Q25fig.png  used on input line 338.
+Package pdftex.def Info: figs/Q25fig.png  used on input line 363.
 (pdftex.def)             Requested size: 181.18439pt x 90.38818pt.
 
 
@@ -2052,7 +2051,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[6]
+[7]
 
 
 
@@ -2072,10 +2071,10 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 
-<figs/Q27figs.png, id=200, 289.68225pt x 222.8325pt>
+<figs/Q27figs.png, id=205, 289.68225pt x 222.8325pt>
 File: figs/Q27figs.png Graphic file (type png)
 <use figs/Q27figs.png>
-Package pdftex.def Info: figs/Q27figs.png  used on input line 367.
+Package pdftex.def Info: figs/Q27figs.png  used on input line 394.
 (pdftex.def)             Requested size: 226.48395pt x 174.22346pt.
 
 
@@ -2086,17 +2085,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[7 <./figs/Q25fig.png> <./figs/Q27figs.png>]
+[8 <./figs/Q25fig.png> <./figs/Q27figs.png>]
 
 
 
 
 
-<figs/Q30fig1.png, id=222, 144.54pt x 227.6505pt>
-File: figs/Q30fig1.png Graphic file (type png)
-<use figs/Q30fig1.png>
-Package pdftex.def Info: figs/Q30fig1.png  used on input line 402.
-(pdftex.def)             Requested size: 181.18439pt x 285.37872pt.
 
 
 
@@ -2106,26 +2100,31 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[8]
-<figs/Q30fig2.png, id=239, 169.8345pt x 78.89474pt>
+[9]
+<figs/Q30fig1.png, id=242, 144.54pt x 227.6505pt>
+File: figs/Q30fig1.png Graphic file (type png)
+<use figs/Q30fig1.png>
+Package pdftex.def Info: figs/Q30fig1.png  used on input line 432.
+(pdftex.def)             Requested size: 181.18439pt x 285.37872pt.
+<figs/Q30fig2.png, id=243, 169.8345pt x 78.89474pt>
 File: figs/Q30fig2.png Graphic file (type png)
 <use figs/Q30fig2.png>
-Package pdftex.def Info: figs/Q30fig2.png  used on input line 408.
+Package pdftex.def Info: figs/Q30fig2.png  used on input line 438.
 (pdftex.def)             Requested size: 181.18439pt x 84.16972pt.
-<figs/Q30fig3.png, id=240, 160.80075pt x 80.09924pt>
+<figs/Q30fig3.png, id=244, 160.80075pt x 80.09924pt>
 File: figs/Q30fig3.png Graphic file (type png)
 <use figs/Q30fig3.png>
-Package pdftex.def Info: figs/Q30fig3.png  used on input line 410.
+Package pdftex.def Info: figs/Q30fig3.png  used on input line 440.
 (pdftex.def)             Requested size: 181.18439pt x 90.2544pt.
-<figs/Q30fig4.png, id=241, 171.64125pt x 81.30376pt>
+<figs/Q30fig4.png, id=245, 171.64125pt x 81.30376pt>
 File: figs/Q30fig4.png Graphic file (type png)
 <use figs/Q30fig4.png>
-Package pdftex.def Info: figs/Q30fig4.png  used on input line 412.
+Package pdftex.def Info: figs/Q30fig4.png  used on input line 442.
 (pdftex.def)             Requested size: 181.18439pt x 85.82426pt.
-<figs/Q30fig5.png, id=242, 168.63pt x 75.8835pt>
+<figs/Q30fig5.png, id=246, 168.63pt x 75.8835pt>
 File: figs/Q30fig5.png Graphic file (type png)
 <use figs/Q30fig5.png>
-Package pdftex.def Info: figs/Q30fig5.png  used on input line 414.
+Package pdftex.def Info: figs/Q30fig5.png  used on input line 444.
 (pdftex.def)             Requested size: 181.18439pt x 81.53494pt.
 
 
@@ -2142,12 +2141,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[9 <./figs/Q30fig1.png> <./figs/Q30fig2.png> <./figs/Q30fig3.png> <./figs/Q30fi
-g4.png> <./figs/Q30fig5.png>]
-<figs/Q31fig.png, id=258, 491.436pt x 239.09325pt>
+[10 <./figs/Q30fig1.png> <./figs/Q30fig2.png> <./figs/Q30fig3.png> <./figs/Q30f
+ig4.png> <./figs/Q30fig5.png>]
+<figs/Q31fig.png, id=262, 491.436pt x 239.09325pt>
 File: figs/Q31fig.png Graphic file (type png)
 <use figs/Q31fig.png>
-Package pdftex.def Info: figs/Q31fig.png  used on input line 425.
+Package pdftex.def Info: figs/Q31fig.png  used on input line 456.
 (pdftex.def)             Requested size: 271.7835pt x 132.23499pt.
 
 
@@ -2178,6 +2177,21 @@ Package pdftex.def Info: figs/Q31fig.png  used on input line 425.
 
 
 
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[11 <./figs/Q31fig.png>]
+
+
+
+
+
+
+
+
 
 
 
@@ -2190,27 +2204,35 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[10 <./figs/Q31fig.png>]
-
-
-
-
-
-
-
-
-
-
-
-<figs/Q37fig.png, id=287, 347.49825pt x 196.93575pt>
+[12]
+<figs/Q37fig.png, id=304, 347.49825pt x 196.93575pt>
 File: figs/Q37fig.png Graphic file (type png)
 <use figs/Q37fig.png>
-Package pdftex.def Info: figs/Q37fig.png  used on input line 501.
+Package pdftex.def Info: figs/Q37fig.png  used on input line 536.
 (pdftex.def)             Requested size: 271.7835pt x 154.03896pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 502.
+(caption)                particular \caption on input line 537.
 See the caption package documentation for explanation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2221,44 +2243,21 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[11 <./figs/Q37fig.png>]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figs/Q40fig.png, id=304, 353.52075pt x 213.79875pt>
+[13 <./figs/Q37fig.png>]
+<figs/Q40fig.png, id=327, 353.52075pt x 213.79875pt>
 File: figs/Q40fig.png Graphic file (type png)
 <use figs/Q40fig.png>
-Package pdftex.def Info: figs/Q40fig.png  used on input line 537.
+Package pdftex.def Info: figs/Q40fig.png  used on input line 575.
 (pdftex.def)             Requested size: 271.7835pt x 164.37434pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 538.
+(caption)                particular \caption on input line 576.
 See the caption package documentation for explanation.
 
 
 
 
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 17.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{17.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
-
-[12 <./figs/Q40fig.png>]
 
 
 
@@ -2267,9 +2266,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 
-
-
-Overfull \hbox (0.95067pt too wide) in paragraph at lines 563--564
+Overfull \hbox (0.95067pt too wide) in paragraph at lines 603--604
 []\OT1/txr/m/n/14.4 A clas-si-cal par-ti-cle is mov-ing in an ex-ter-nal po-ten
 -tial field $\OML/txmi/m/it/14.4 V\OT1/txr/m/n/14.4 (\OML/txmi/m/it/14.4 x; y; 
 z\OT1/txr/m/n/14.4 )$ which
@@ -2278,68 +2275,15 @@ z\OT1/txr/m/n/14.4 )$ which
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 17.0pt, for example:
 (fancyhdr)                \setlength{\headheight}{17.0pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[13]
+[14 <./figs/Q40fig.png>]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 17.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{17.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
-
-[14]
 
 
 
@@ -2395,14 +2339,6 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 
-
-
-
-
-
-
-
-
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 17.0pt, for example:
 (fancyhdr)                \setlength{\headheight}{17.0pt}.
@@ -2419,41 +2355,120 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 
-<figs/Q59-60fig.png, id=434, 199.947pt x 170.43675pt>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[17]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[18]
+
+
+
+
+
+
+
+
+
+<figs/Q59-60fig.png, id=436, 199.947pt x 170.43675pt>
 File: figs/Q59-60fig.png Graphic file (type png)
 <use figs/Q59-60fig.png>
-Package pdftex.def Info: figs/Q59-60fig.png  used on input line 791.
+Package pdftex.def Info: figs/Q59-60fig.png  used on input line 848.
 (pdftex.def)             Requested size: 135.89174pt x 115.83823pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 792.
+(caption)                particular \caption on input line 849.
 See the caption package documentation for explanation.
 
 
 
 
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 17.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{17.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
+
+[19 <./figs/Q59-60fig.png>]
 
 
 
-<figs/Q60fig1.png, id=435, 251.13824pt x 87.9285pt>
+
+
+<figs/Q60fig1.png, id=455, 251.13824pt x 87.9285pt>
 File: figs/Q60fig1.png Graphic file (type png)
 <use figs/Q60fig1.png>
-Package pdftex.def Info: figs/Q60fig1.png  used on input line 811.
+Package pdftex.def Info: figs/Q60fig1.png  used on input line 869.
 (pdftex.def)             Requested size: 169.51326pt x 59.35184pt.
-<figs/Q60fig2.png, id=436, 264.99pt x 83.1105pt>
+<figs/Q60fig2.png, id=456, 264.99pt x 83.1105pt>
 File: figs/Q60fig2.png Graphic file (type png)
 <use figs/Q60fig2.png>
-Package pdftex.def Info: figs/Q60fig2.png  used on input line 812.
+Package pdftex.def Info: figs/Q60fig2.png  used on input line 870.
 (pdftex.def)             Requested size: 169.51326pt x 53.16643pt.
-<figs/Q60fig3.png, id=437, 254.1495pt x 63.8385pt>
+<figs/Q60fig3.png, id=457, 254.1495pt x 63.8385pt>
 File: figs/Q60fig3.png Graphic file (type png)
 <use figs/Q60fig3.png>
-Package pdftex.def Info: figs/Q60fig3.png  used on input line 813.
+Package pdftex.def Info: figs/Q60fig3.png  used on input line 871.
 (pdftex.def)             Requested size: 169.51326pt x 42.57967pt.
-<figs/Q60fig4.png, id=438, 281.25075pt x 66.84975pt>
+<figs/Q60fig4.png, id=458, 281.25075pt x 66.84975pt>
 File: figs/Q60fig4.png Graphic file (type png)
 <use figs/Q60fig4.png>
-Package pdftex.def Info: figs/Q60fig4.png  used on input line 814.
+Package pdftex.def Info: figs/Q60fig4.png  used on input line 872.
 (pdftex.def)             Requested size: 169.51326pt x 40.29068pt.
 
 
@@ -2470,8 +2485,8 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.0pt}.
 
-[17 <./figs/Q59-60fig.png> <./figs/Q60fig1.png> <./figs/Q60fig2.png> <./figs/Q6
-0fig3.png> <./figs/Q60fig4.png>] (./main.aux)
+[20 <./figs/Q60fig1.png> <./figs/Q60fig2.png> <./figs/Q60fig3.png> <./figs/Q60f
+ig4.png>] (./main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2490,13 +2505,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 54248 strings out of 467800
- 1309034 string characters out of 5417814
- 1902366 words of memory out of 5000000
+ 54251 strings out of 467800
+ 1309055 string characters out of 5417814
+ 1901366 words of memory out of 5000000
  81788 multiletter control sequences out of 15000+600000
  661979 words of font info for 130 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,14n,105p,1178b,1449s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,14n,105p,1178b,1334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/sha
@@ -2509,10 +2524,10 @@ share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.
 termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 1169733 bytes).
+Output written on main.pdf (20 pages, 1172053 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 326 named destinations out of 1000 (max. 500000)
+ 586 PDF objects out of 1000 (max. 8388607)
+ 485 compressed objects within 5 object streams
+ 329 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
