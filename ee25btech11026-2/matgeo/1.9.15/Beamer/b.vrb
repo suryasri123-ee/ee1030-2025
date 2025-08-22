@@ -1,0 +1,12 @@
+\frametitle{Python Code}
+    \begin{lstlisting}
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+ax.set_title('3D Vectors and their Sum')
+ax.legend()
+
+plt.savefig("/home/user/Matrix/Matgeo_assignments/1.9.15/figs/Figure_1.png", dpi=300, bbox_inches='tight')
+plt.show()
+
+    \end{lstlisting}
