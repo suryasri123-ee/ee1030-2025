@@ -2,7 +2,6 @@
 
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
-\usepackage{amsmath}
 \usepackage{enumitem}
 \usepackage{multicol}
 \usepackage{fancyhdr}
@@ -12,8 +11,8 @@
 \usepackage{float}
 \usepackage{wrapfig}
 
-\usepackage{gvv}
 \usepackage{gvv-book}
+\usepackage{gvv}
 
 \graphicspath{ {figs/} }
 
@@ -24,7 +23,12 @@
 \fancyfoot[L]{PH}
 \fancyfoot[R]{\thepage/20}
 \renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt}
+
+\let\oldvec\vec
+\renewcommand{\vec}[1]{\overrightarrow{#1}}
+\newcommand{\myvec}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+
 
 
 \begin{document}
@@ -108,7 +112,7 @@ $B_o$ is a positive constant of suitable dimensions. The emf induced, $V_{\text{
 \end{multicols}
 \hfill \textbf{(GATE PH 2009)}
 
-\item The eigenvalues of the matrix $A = \begin{pmatrix} 0 & i \\ i & 0 \end{pmatrix}$ are
+\item The eigenvalues of the matrix $\vec{A} = \myvec{0 & i \\ i & 0}$ are
     \begin{multicols}{2}
     \begin{enumerate}
         \item real and distinct
