@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  22 AUG 2025 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  22 AUG 2025 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1933,50 +1933,29 @@ File: figs/q49a.png Graphic file (type png)
 <use figs/q49a.png>
 Package pdftex.def Info: figs/q49a.png  used on input line 807.
 (pdftex.def)             Requested size: 117.43875pt x 114.0906pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 808.
-See the caption package documentation for explanation.
-
 <figs/q49b.png, id=460, 70.2625pt x 59.22125pt>
 File: figs/q49b.png Graphic file (type png)
 <use figs/q49b.png>
-Package pdftex.def Info: figs/q49b.png  used on input line 811.
+Package pdftex.def Info: figs/q49b.png  used on input line 812.
 (pdftex.def)             Requested size: 117.43875pt x 98.99036pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 812.
-See the caption package documentation for explanation.
-
 <figs/q49c.png, id=461, 70.2625pt x 59.22125pt>
 File: figs/q49c.png Graphic file (type png)
 <use figs/q49c.png>
-Package pdftex.def Info: figs/q49c.png  used on input line 815.
+Package pdftex.def Info: figs/q49c.png  used on input line 816.
 (pdftex.def)             Requested size: 117.43875pt x 98.99036pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 816.
-See the caption package documentation for explanation.
-
 <figs/q49d.png, id=462, 70.2625pt x 73.27374pt>
 File: figs/q49d.png Graphic file (type png)
 <use figs/q49d.png>
-Package pdftex.def Info: figs/q49d.png  used on input line 819.
+Package pdftex.def Info: figs/q49d.png  used on input line 820.
 (pdftex.def)             Requested size: 117.43875pt x 122.4796pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 820.
-See the caption package documentation for explanation.
-
-[19 <./figs/q49a.png> <./figs/q49b.png> <./figs/q49c.png> <./figs/q49d.png>]
+ [19 <./figs/q49a.png> <./figs/q49b.png> <./figs/q49c.png> <./figs/q49d.png>]
 <figs/q50.png, id=485, 459.7175pt x 402.50375pt>
 File: figs/q50.png Graphic file (type png)
 <use figs/q50.png>
-Package pdftex.def Info: figs/q50.png  used on input line 830.
+Package pdftex.def Info: figs/q50.png  used on input line 831.
 (pdftex.def)             Requested size: 305.33789pt x 267.3484pt.
-
-[20 <./figs/q50.png>] [21] [22] (./tables/table1.tex) [23] [24] (./main.aux)
+ [20 <./figs/q50.png>] [21] [22] (./tables/table1.tex)
+[23] [24] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
