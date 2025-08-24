@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  24 AUG 2025 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  24 AUG 2025 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,13 +1205,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 48.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1323,6 +1323,8 @@ LaTeX Info: Redefining \ohm on input line 48.
 Package gensymb Info: Using \textohm for \ohm on input line 48.
 Package gensymb Info: Using \textmu for \micro on input line 48.
 Package hyperref Info: Link coloring OFF on input line 48.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1362,31 +1364,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--75
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}] [2] [3]
+<figs/fig1.png, id=137, 742.775pt x 169.63374pt>
+File: figs/fig1.png Graphic file (type png)
+<use figs/fig1.png>
+Package pdftex.def Info: figs/fig1.png  used on input line 304.
+(pdftex.def)             Requested size: 258.0pt x 58.9223pt.
 
-LaTeX Warning: File `figs/fig1.png' not found on input line 304.
-
-
-! Package pdftex.def Error: File `figs/fig1.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.304 ...phics[width=0.5\linewidth]{figs/fig1.png}
-                                                  
-? 
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-304.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-) [4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.311         \item
-                    Fertilizer]
 Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
@@ -1401,7 +1384,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
-
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.329 \item I
+             f the purchase price of 2BHK flat rises by $10\%$, the demand f...
+ <./figs/fig1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
@@ -1411,59 +1401,44 @@ Overfull \hbox (19.83278pt too wide) in paragraph at lines 415--425
 [] 
  []
 
-
-LaTeX Warning: File `figs/fig2.png' not found on input line 435.
-
-
-! Package pdftex.def Error: File `figs/fig2.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.435 ...phics[width=0.5\linewidth]{figs/fig2.png}
-                                                  
-? 
+<figs/fig2.png, id=206, 656.4525pt x 489.83pt>
+File: figs/fig2.png Graphic file (type png)
+<use figs/fig2.png>
+Package pdftex.def Info: figs/fig2.png  used on input line 435.
+(pdftex.def)             Requested size: 258.0pt x 192.51282pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 432--438
 
  []
 
-[6] [7
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.492          \item
-                     P-4,Q-5,R-4,S-1]
+l.458          \item
+                     P-2,Q-4,R-1,S-3 <./figs/fig2.png>] [7]
 Overfull \hbox (267.35722pt too wide) in paragraph at lines 532--542
 [] 
  []
 
+<figs/fig3.png, id=259, 346.29375pt x 309.155pt>
+File: figs/fig3.png Graphic file (type png)
+<use figs/fig3.png>
+Package pdftex.def Info: figs/fig3.png  used on input line 552.
+(pdftex.def)             Requested size: 258.0pt x 230.33727pt.
 
-LaTeX Warning: File `figs/fig3.png' not found on input line 552.
-
-
-! Package pdftex.def Error: File `figs/fig3.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.552 ...phics[width=0.5\linewidth]{figs/fig3.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8]
 Underfull \hbox (badness 10000) in paragraph at lines 564--566
 
  []
 
-
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.567          \item
+                     P-3,Q-4,R-1,S-2 <./figs/fig3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 573--578
 
  []
@@ -1478,29 +1453,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 579--580
 
  []
 
-[9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.581  \item I
-              n a single lane road, traffic volume of 1000 $vehicle/h$ movin...
-]
-
-LaTeX Warning: File `figs/fig4.png' not found on input line 594.
-
-
-! Package pdftex.def Error: File `figs/fig4.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.594 ...phics[width=0.5\linewidth]{figs/fig4.png}
-                                                  
-? 
-
+<figs/fig4.png, id=281, 342.27875pt x 200.75pt>
+File: figs/fig4.png Graphic file (type png)
+<use figs/fig4.png>
+Package pdftex.def Info: figs/fig4.png  used on input line 594.
+(pdftex.def)             Requested size: 258.0pt x 151.33098pt.
+[9]
 Overfull \hbox (17.02473pt too wide) in paragraph at lines 599--611
 []
  []
@@ -1510,14 +1468,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 599--611
 
  []
 
-[10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.611 \item A
-              power shovel is having $1.8 \, \text{m}^3$ excavation output p...
-]
+
 Underfull \hbox (badness 10000) in paragraph at lines 611--615
 
  []
@@ -1527,26 +1478,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 616--617
 
  []
 
-
-LaTeX Warning: File `figs/fig5.png' not found on input line 620.
-
-
-! Package pdftex.def Error: File `figs/fig5.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.620 ...phics[width=0.5\linewidth]{figs/fig5.png}
-                                                  
-? 
+<figs/fig5.png, id=298, 243.91125pt x 140.525pt>
+File: figs/fig5.png Graphic file (type png)
+<use figs/fig5.png>
+Package pdftex.def Info: figs/fig5.png  used on input line 620.
+(pdftex.def)             Requested size: 258.0pt x 148.64272pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 617--623
 
  []
 
-
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.624 T
+       he magnitude of the concentrated load in kN is \underline{\makebox[2c...
+ <./figs/fig4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 624--625
 
  []
@@ -1566,43 +1515,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 635--636
 
  []
 
-[11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.636 
-      ]
+
 Underfull \hbox (badness 10000) in paragraph at lines 638--639
 
  []
 
-
-LaTeX Warning: File `figs/fig6.png' not found on input line 642.
-
-
-! Package pdftex.def Error: File `figs/fig6.png' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.642 ...phics[width=0.5\linewidth]{figs/fig6.png}
-                                                  
-? 
+<figs/fig6.png, id=309, 332.24126pt x 262.9825pt>
+File: figs/fig6.png Graphic file (type png)
+<use figs/fig6.png>
+Package pdftex.def Info: figs/fig6.png  used on input line 642.
+(pdftex.def)             Requested size: 258.0pt x 204.23065pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 639--645
 
  []
 
-[12
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.646 \end{enumerate}
+                      <./figs/fig5.png>] [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.647 \end{document}
-                    ] (./main.aux)
+                     <./figs/fig6.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1611,34 +1551,27 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30908 strings out of 476064
- 602246 string characters out of 5792853
- 1945975 words of memory out of 5000000
- 52010 multiletter control sequences out of 15000+600000
- 617122 words of font info for 153 fonts, out of 8000000 for 9000
+ 30745 strings out of 476064
+ 598500 string characters out of 5792853
+ 1946975 words of memory out of 5000000
+ 51845 multiletter control sequences out of 15000+600000
+ 616846 words of font info for 152 fonts, out of 8000000 for 9000
  84 hyphenation exceptions out of 8191
- 101i,10n,103p,1167b,695s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,10n,103p,1167b,688s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 92899 bytes).
+nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (12 pages, 248548 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 373 compressed objects within 4 object streams
+ 415 PDF objects out of 1000 (max. 8388607)
+ 371 compressed objects within 4 object streams
  260 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
