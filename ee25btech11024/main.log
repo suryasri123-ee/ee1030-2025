@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.17)  22 AUG 2025 02:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.17)  22 AUG 2025 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -92,115 +92,43 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
 )
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
-h/amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
-\@mathmargin=\skip51
-
-For additional information on amsmath, use the `?' option.
-
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
-h/amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
-
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
-h/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen160
-))
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
-h/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen161
-)
-(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
-h/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count286
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count287
-\leftroot@=\count288
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count289
-\DOTSCASE@=\count290
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen162
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count291
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count292
-\dotsspace@=\muskip17
-\c@parentequation=\count293
-\dspbrk@lvl=\count294
-\tag@help=\toks20
-\row@=\count295
-\column@=\count296
-\maxfields@=\count297
-\andhelp@=\toks21
-\eqnshift@=\dimen163
-\alignsep@=\dimen164
-\tagshift@=\dimen165
-\tagwidth@=\dimen166
-\totwidth@=\dimen167
-\lineht@=\dimen168
-\@envbody=\toks22
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
-)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/enumit
 em/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip54
-\enit@outerparindent=\dimen169
-\enit@toks=\toks24
-\enit@inbox=\box55
-\enit@count@id=\count298
-\enitdp@description=\count299
+\labelindent=\skip51
+\enit@outerparindent=\dimen160
+\enit@toks=\toks19
+\enit@inbox=\box53
+\enit@count@id=\count286
+\enitdp@description=\count287
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 multicol.sty
 Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
-\c@tracingmulticols=\count300
-\mult@box=\box56
-\multicol@leftmargin=\dimen170
-\c@unbalance=\count301
-\c@collectmore=\count302
-\doublecol@number=\count303
-\multicoltolerance=\count304
-\multicolpretolerance=\count305
-\full@width=\dimen171
-\page@free=\dimen172
-\premulticols=\dimen173
-\postmulticols=\dimen174
-\multicolsep=\skip55
-\multicolbaselineskip=\skip56
-\partial@page=\box57
-\last@line=\box58
-\mc@boxedresult=\box59
-\maxbalancingoverflow=\dimen175
-\mult@rightbox=\box60
-\mult@grightbox=\box61
-\mult@firstbox=\box62
-\mult@gfirstbox=\box63
+\c@tracingmulticols=\count288
+\mult@box=\box54
+\multicol@leftmargin=\dimen161
+\c@unbalance=\count289
+\c@collectmore=\count290
+\doublecol@number=\count291
+\multicoltolerance=\count292
+\multicolpretolerance=\count293
+\full@width=\dimen162
+\page@free=\dimen163
+\premulticols=\dimen164
+\postmulticols=\dimen165
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box55
+\last@line=\box56
+\mc@boxedresult=\box57
+\maxbalancingoverflow=\dimen166
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@firstbox=\box60
+\mult@gfirstbox=\box61
+\@tempa=\box62
+\@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
 \@tempa=\box66
@@ -235,42 +163,41 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \@tempa=\box95
 \@tempa=\box96
 \@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\c@minrows=\count306
-\c@columnbadness=\count307
-\c@finalcolumnbadness=\count308
-\last@try=\dimen176
-\multicolovershoot=\dimen177
-\multicolundershoot=\dimen178
-\mult@nat@firstbox=\box100
-\colbreak@box=\box101
-\mc@col@check@num=\count309
-\g__mc_curr_col_int=\count310
+\c@minrows=\count294
+\c@columnbadness=\count295
+\c@finalcolumnbadness=\count296
+\last@try=\dimen167
+\multicolovershoot=\dimen168
+\multicolundershoot=\dimen169
+\mult@nat@firstbox=\box98
+\colbreak@box=\box99
+\mc@col@check@num=\count297
+\g__mc_curr_col_int=\count298
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/fancyh
 dr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip57
-\f@nch@offset@elh=\skip58
-\f@nch@offset@erh=\skip59
-\f@nch@offset@olh=\skip60
-\f@nch@offset@orh=\skip61
-\f@nch@offset@elf=\skip62
-\f@nch@offset@erf=\skip63
-\f@nch@offset@olf=\skip64
-\f@nch@offset@orf=\skip65
-\f@nch@height=\skip66
-\f@nch@footalignment=\skip67
-\f@nch@widthL=\skip68
-\f@nch@widthC=\skip69
-\f@nch@widthR=\skip70
-\@temptokenb=\toks25
+\f@nch@headwidth=\skip54
+\f@nch@offset@elh=\skip55
+\f@nch@offset@erh=\skip56
+\f@nch@offset@olh=\skip57
+\f@nch@offset@orh=\skip58
+\f@nch@offset@elf=\skip59
+\f@nch@offset@erf=\skip60
+\f@nch@offset@olf=\skip61
+\f@nch@offset@orf=\skip62
+\f@nch@height=\skip63
+\f@nch@footalignment=\skip64
+\f@nch@widthL=\skip65
+\f@nch@widthC=\skip66
+\f@nch@widthR=\skip67
+\@temptokenb=\toks20
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
 ts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks21
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -283,18 +210,18 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/listings.sty
-\lst@mode=\count311
-\lst@gtempboxa=\box102
-\lst@token=\toks26
-\lst@length=\count312
-\lst@currlwidth=\dimen179
-\lst@column=\count313
-\lst@pos=\count314
-\lst@lostspace=\dimen180
-\lst@width=\dimen181
-\lst@newlines=\count315
-\lst@lineno=\count316
-\lst@maxwidth=\dimen182
+\lst@mode=\count299
+\lst@gtempboxa=\box100
+\lst@token=\toks22
+\lst@length=\count300
+\lst@currlwidth=\dimen170
+\lst@column=\count301
+\lst@pos=\count302
+\lst@lostspace=\dimen171
+\lst@width=\dimen172
+\lst@newlines=\count303
+\lst@lineno=\count304
+\lst@maxwidth=\dimen173
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/lstpatch.sty
@@ -303,9 +230,9 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count317
-\lst@skipnumbers=\count318
-\lst@framebox=\box103
+\c@lstnumber=\count305
+\lst@skipnumbers=\count306
+\lst@framebox=\box101
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/listings.cfg
@@ -316,38 +243,20 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/float/
 float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count319
-\float@exts=\toks27
-\float@box=\box104
-\@float@everytoks=\toks28
-\@floatcapt=\box105
+\c@float@type=\count307
+\float@exts=\toks23
+\float@box=\box102
+\@float@everytoks=\toks24
+\@floatcapt=\box103
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/wrapfi
 g/wrapfig.sty
-\wrapoverhang=\dimen183
-\WF@size=\dimen184
-\c@WF@wrappedlines=\count320
-\WF@box=\box106
-\WF@everypar=\toks29
+\wrapoverhang=\dimen174
+\WF@size=\dimen175
+\c@WF@wrappedlines=\count308
+\WF@box=\box104
+\WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
-) (./gvv.sty
-
-! LaTeX cmd Error: Invalid argument type 'g' in command '\system' (requires
-(cmd)              xparse).
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.106 }
-       
-? g
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? R
-OK, entering \nonstopmode...
 ) (./gvv-book.sty
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/setspa
 ce/setspace.sty
@@ -357,25 +266,80 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 b/gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
 )
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip68
 
-! LaTeX Error: Option clash for package amsmath.
+For additional information on amsmath, use the `?' option.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \usepackage
-                {siunitx}
-The package amsmath has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [cmex10]
-Adding the global options:
-  ,cmex10
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
 
-
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen176
+))
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen177
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count309
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count310
+\leftroot@=\count311
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count312
+\DOTSCASE@=\count313
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box105
+\strutbox@=\box106
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count314
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count315
+\dotsspace@=\muskip17
+\c@parentequation=\count316
+\dspbrk@lvl=\count317
+\tag@help=\toks27
+\row@=\count318
+\column@=\count319
+\maxfields@=\count320
+\andhelp@=\toks28
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
+\@envbody=\toks29
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/siunit
 x/siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
@@ -441,7 +405,7 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen190
 \ar@mcellbox=\box115
 \extrarowheight=\dimen191
-\NC@list=\toks30
+\NC@list=\toks31
 \extratabsurround=\skip71
 \backup@length=\skip72
 \ar@cellbox=\box116
@@ -449,15 +413,15 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amscls
 /amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks31
-\thm@bodyfont=\toks32
-\thm@headfont=\toks33
-\thm@notefont=\toks34
-\thm@headpunct=\toks35
+\thm@style=\toks32
+\thm@bodyfont=\toks33
+\thm@headfont=\toks34
+\thm@notefont=\toks35
+\thm@headpunct=\toks36
 \thm@preskip=\skip73
 \thm@postskip=\skip74
 \thm@headsep=\skip75
-\dth@everypar=\toks36
+\dth@everypar=\toks37
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/jknapl
 tx/mathrsfs.sty
@@ -583,7 +547,7 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
 /p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks37
+\pIIe@GRAPH=\toks38
 \@arclen=\dimen192
 \@arcrad=\dimen193
 \pIIe@tempdima=\dimen194
@@ -679,7 +643,7 @@ Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \LT@rows=\count349
 \c@LT@tables=\count350
 \c@LT@chunks=\count351
-\LT@p@ftn=\toks38
+\LT@p@ftn=\toks39
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 tabularx.sty
@@ -690,7 +654,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@target=\dimen270
 \TX@delta=\dimen271
 \TX@cols=\count352
-\TX@ftn=\toks39
+\TX@ftn=\toks40
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/multir
 ow/multirow.sty
@@ -742,7 +706,7 @@ siclayer/pgf.sty
 ilities/pgfrcs.sty
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks40
+\pgfutil@everybye=\toks41
 \pgfutil@tempdima=\dimen283
 \pgfutil@tempdimb=\dimen284
 )
@@ -768,12 +732,12 @@ Package: pgfsys 2025-08-14 v3.1.11 (3.1.11)
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks41
-\pgfkeys@temptoks=\toks42
+\pgfkeys@pathtoks=\toks42
+\pgfkeys@temptoks=\toks43
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks43
+\pgfkeys@tmptoks=\toks44
 ))
 \pgf@x=\dimen285
 \pgf@y=\dimen286
@@ -791,9 +755,9 @@ utilities/pgfkeyslibraryfiltered.code.tex
 \c@pgf@countb=\count359
 \c@pgf@countc=\count360
 \c@pgf@countd=\count361
-\t@pgf@toka=\toks44
-\t@pgf@tokb=\toks45
-\t@pgf@tokc=\toks46
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
 \pgf@sys@id@count=\count362
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
@@ -855,9 +819,9 @@ math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen295
 \pgfmath@count=\count365
 \pgfmath@box=\box125
-\pgfmath@toks=\toks47
-\pgfmath@stack@operand=\toks48
-\pgfmath@stack@operation=\toks49
+\pgfmath@toks=\toks48
+\pgfmath@stack@operand=\toks49
+\pgfmath@stack@operation=\toks50
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 math/pgfmathfunctions.code.tex)
@@ -1018,8 +982,8 @@ utilities/pgffor.code.tex
 Package: pgffor 2025-08-14 v3.1.11 (3.1.11)
 \pgffor@iter=\dimen322
 \pgffor@skip=\dimen323
-\pgffor@stack=\toks50
-\pgffor@toks=\toks51
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
 ))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/tikz.code.tex
@@ -1156,8 +1120,8 @@ uitikz/pgfcircflow.tex))
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
 verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks52
-\verbatim@line=\toks53
+\every@verbatim=\toks53
+\verbatim@line=\toks54
 \verbatim@in@stream=\read3
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/hyperr
@@ -1360,7 +1324,7 @@ libraries/pgflibraryintersections.code.tex
 frontendlayer/tikz/libraries/tikzlibrarymath.code.tex
 \tikz@math@for@depth=\count396
 \tikz@math@dimen=\dimen368
-\tikz@math@toks=\toks54
+\tikz@math@toks=\toks55
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
@@ -1607,9 +1571,14 @@ Type  H <return>  for immediate help.
                                                   
 l.76 \renewcommand\thesectiondis
                                 {\arabic{section}}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? g
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? R
+OK, entering \nonstopmode...
 
 ! LaTeX Error: Command \thesubsectiondis undefined.
 
@@ -1635,11 +1604,25 @@ l.78 \renewcommand\thesubsubsectiondis
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-)
+) (./gvv.sty)
+
+! LaTeX Error: Command \myvec already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...yvec}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 30.
+h' as default language. on input line 34.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
-0.
+4.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/ot1txr.fd
@@ -1648,52 +1631,52 @@ File: ot1txr.fd 2000/12/15 v3.1
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 30.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 34.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-30.
+34.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-30.
+34.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-30.
+34.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 3
-0.
+4.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1738,12 +1721,12 @@ LaTeX Font Info:    ... okay on input line 30.
 \scratchbox=\box141
 \nofMPsegments=\count405
 \nofMParguments=\count406
-\everyMPshowfont=\toks55
+\everyMPshowfont=\toks56
 \MPscratchCnt=\count407
 \MPscratchDim=\dimen381
 \MPnumerator=\count408
 \makeMPintoPDFobject=\count409
-\everyMPtoPDFconversion=\toks56
+\everyMPtoPDFconversion=\toks57
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/epstop
 df-pkg/epstopdf-base.sty
@@ -1757,15 +1740,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count410
-LaTeX Info: Redefining \celsius on input line 30.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 30.
+LaTeX Info: Redefining \celsius on input line 34.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 34.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 30.
-Package gensymb Info: Using \Omega for \ohm on input line 30.
+LaTeX Info: Redefining \ohm on input line 34.
+Package gensymb Info: Using \Omega for \ohm on input line 34.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1776,7 +1759,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 30.
+or `english'. on input line 34.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1787,25 +1770,25 @@ n/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 34.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 3
-4.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 3
-4.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 34
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 38
 .
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/jknapl
@@ -1813,23 +1796,23 @@ tx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 3
-4.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 3
-4.
+8.
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20.74> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 34.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 56.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 60.
 
 
 
@@ -1911,22 +1894,22 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/graphA.png, id=108, 208.98074pt x 133.6995pt>
 File: figs/graphA.png Graphic file (type png)
 <use figs/graphA.png>
-Package pdftex.def Info: figs/graphA.png  used on input line 189.
+Package pdftex.def Info: figs/graphA.png  used on input line 193.
 (pdftex.def)             Requested size: 169.51326pt x 108.45511pt.
 <figs/graphB.png, id=110, 293.29575pt x 142.73325pt>
 File: figs/graphB.png Graphic file (type png)
 <use figs/graphB.png>
-Package pdftex.def Info: figs/graphB.png  used on input line 190.
+Package pdftex.def Info: figs/graphB.png  used on input line 194.
 (pdftex.def)             Requested size: 169.51326pt x 82.49783pt.
 <figs/graphC.png, id=111, 251.7405pt x 148.75575pt>
 File: figs/graphC.png Graphic file (type png)
 <use figs/graphC.png>
-Package pdftex.def Info: figs/graphC.png  used on input line 191.
+Package pdftex.def Info: figs/graphC.png  used on input line 195.
 (pdftex.def)             Requested size: 169.51326pt x 100.16745pt.
 <figs/graphD.png, id=112, 271.61475pt x 129.48375pt>
 File: figs/graphD.png Graphic file (type png)
 <use figs/graphD.png>
-Package pdftex.def Info: figs/graphD.png  used on input line 192.
+Package pdftex.def Info: figs/graphD.png  used on input line 196.
 (pdftex.def)             Requested size: 169.51326pt x 80.81056pt.
 
 
@@ -1988,7 +1971,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/Q19fig.png, id=157, 317.988pt x 227.6505pt>
 File: figs/Q19fig.png Graphic file (type png)
 <use figs/Q19fig.png>
-Package pdftex.def Info: figs/Q19fig.png  used on input line 280.
+Package pdftex.def Info: figs/Q19fig.png  used on input line 284.
 (pdftex.def)             Requested size: 271.7835pt x 194.58066pt.
 
 
@@ -2040,7 +2023,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/Q25fig.png, id=178, 263.18324pt x 131.2905pt>
 File: figs/Q25fig.png Graphic file (type png)
 <use figs/Q25fig.png>
-Package pdftex.def Info: figs/Q25fig.png  used on input line 363.
+Package pdftex.def Info: figs/Q25fig.png  used on input line 367.
 (pdftex.def)             Requested size: 181.18439pt x 90.38818pt.
 
 
@@ -2074,7 +2057,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/Q27figs.png, id=205, 289.68225pt x 222.8325pt>
 File: figs/Q27figs.png Graphic file (type png)
 <use figs/Q27figs.png>
-Package pdftex.def Info: figs/Q27figs.png  used on input line 394.
+Package pdftex.def Info: figs/Q27figs.png  used on input line 398.
 (pdftex.def)             Requested size: 226.48395pt x 174.22346pt.
 
 
@@ -2104,27 +2087,27 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/Q30fig1.png, id=242, 144.54pt x 227.6505pt>
 File: figs/Q30fig1.png Graphic file (type png)
 <use figs/Q30fig1.png>
-Package pdftex.def Info: figs/Q30fig1.png  used on input line 432.
+Package pdftex.def Info: figs/Q30fig1.png  used on input line 436.
 (pdftex.def)             Requested size: 181.18439pt x 285.37872pt.
 <figs/Q30fig2.png, id=243, 169.8345pt x 78.89474pt>
 File: figs/Q30fig2.png Graphic file (type png)
 <use figs/Q30fig2.png>
-Package pdftex.def Info: figs/Q30fig2.png  used on input line 438.
+Package pdftex.def Info: figs/Q30fig2.png  used on input line 442.
 (pdftex.def)             Requested size: 181.18439pt x 84.16972pt.
 <figs/Q30fig3.png, id=244, 160.80075pt x 80.09924pt>
 File: figs/Q30fig3.png Graphic file (type png)
 <use figs/Q30fig3.png>
-Package pdftex.def Info: figs/Q30fig3.png  used on input line 440.
+Package pdftex.def Info: figs/Q30fig3.png  used on input line 444.
 (pdftex.def)             Requested size: 181.18439pt x 90.2544pt.
 <figs/Q30fig4.png, id=245, 171.64125pt x 81.30376pt>
 File: figs/Q30fig4.png Graphic file (type png)
 <use figs/Q30fig4.png>
-Package pdftex.def Info: figs/Q30fig4.png  used on input line 442.
+Package pdftex.def Info: figs/Q30fig4.png  used on input line 446.
 (pdftex.def)             Requested size: 181.18439pt x 85.82426pt.
 <figs/Q30fig5.png, id=246, 168.63pt x 75.8835pt>
 File: figs/Q30fig5.png Graphic file (type png)
 <use figs/Q30fig5.png>
-Package pdftex.def Info: figs/Q30fig5.png  used on input line 444.
+Package pdftex.def Info: figs/Q30fig5.png  used on input line 448.
 (pdftex.def)             Requested size: 181.18439pt x 81.53494pt.
 
 
@@ -2146,7 +2129,7 @@ ig4.png> <./figs/Q30fig5.png>]
 <figs/Q31fig.png, id=262, 491.436pt x 239.09325pt>
 File: figs/Q31fig.png Graphic file (type png)
 <use figs/Q31fig.png>
-Package pdftex.def Info: figs/Q31fig.png  used on input line 456.
+Package pdftex.def Info: figs/Q31fig.png  used on input line 460.
 (pdftex.def)             Requested size: 271.7835pt x 132.23499pt.
 
 
@@ -2208,12 +2191,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/Q37fig.png, id=304, 347.49825pt x 196.93575pt>
 File: figs/Q37fig.png Graphic file (type png)
 <use figs/Q37fig.png>
-Package pdftex.def Info: figs/Q37fig.png  used on input line 536.
+Package pdftex.def Info: figs/Q37fig.png  used on input line 540.
 (pdftex.def)             Requested size: 271.7835pt x 154.03896pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 537.
+(caption)                particular \caption on input line 541.
 See the caption package documentation for explanation.
 
 
@@ -2247,12 +2230,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/Q40fig.png, id=327, 353.52075pt x 213.79875pt>
 File: figs/Q40fig.png Graphic file (type png)
 <use figs/Q40fig.png>
-Package pdftex.def Info: figs/Q40fig.png  used on input line 575.
+Package pdftex.def Info: figs/Q40fig.png  used on input line 579.
 (pdftex.def)             Requested size: 271.7835pt x 164.37434pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 576.
+(caption)                particular \caption on input line 580.
 See the caption package documentation for explanation.
 
 
@@ -2266,7 +2249,7 @@ See the caption package documentation for explanation.
 
 
 
-Overfull \hbox (0.95067pt too wide) in paragraph at lines 603--604
+Overfull \hbox (0.95067pt too wide) in paragraph at lines 607--608
 []\OT1/txr/m/n/14.4 A clas-si-cal par-ti-cle is mov-ing in an ex-ter-nal po-ten
 -tial field $\OML/txmi/m/it/14.4 V\OT1/txr/m/n/14.4 (\OML/txmi/m/it/14.4 x; y; 
 z\OT1/txr/m/n/14.4 )$ which
@@ -2428,11 +2411,11 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/Q59-60fig.png, id=436, 199.947pt x 170.43675pt>
 File: figs/Q59-60fig.png Graphic file (type png)
 <use figs/Q59-60fig.png>
-Package pdftex.def Info: figs/Q59-60fig.png  used on input line 848.
+Package pdftex.def Info: figs/Q59-60fig.png  used on input line 852.
 (pdftex.def)             Requested size: 135.89174pt x 115.83823pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 849.
+(caption)                particular \caption on input line 853.
 See the caption package documentation for explanation.
 
 
@@ -2453,22 +2436,22 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 <figs/Q60fig1.png, id=455, 251.13824pt x 87.9285pt>
 File: figs/Q60fig1.png Graphic file (type png)
 <use figs/Q60fig1.png>
-Package pdftex.def Info: figs/Q60fig1.png  used on input line 869.
+Package pdftex.def Info: figs/Q60fig1.png  used on input line 873.
 (pdftex.def)             Requested size: 169.51326pt x 59.35184pt.
 <figs/Q60fig2.png, id=456, 264.99pt x 83.1105pt>
 File: figs/Q60fig2.png Graphic file (type png)
 <use figs/Q60fig2.png>
-Package pdftex.def Info: figs/Q60fig2.png  used on input line 870.
+Package pdftex.def Info: figs/Q60fig2.png  used on input line 874.
 (pdftex.def)             Requested size: 169.51326pt x 53.16643pt.
 <figs/Q60fig3.png, id=457, 254.1495pt x 63.8385pt>
 File: figs/Q60fig3.png Graphic file (type png)
 <use figs/Q60fig3.png>
-Package pdftex.def Info: figs/Q60fig3.png  used on input line 871.
+Package pdftex.def Info: figs/Q60fig3.png  used on input line 875.
 (pdftex.def)             Requested size: 169.51326pt x 42.57967pt.
 <figs/Q60fig4.png, id=458, 281.25075pt x 66.84975pt>
 File: figs/Q60fig4.png Graphic file (type png)
 <use figs/Q60fig4.png>
-Package pdftex.def Info: figs/Q60fig4.png  used on input line 872.
+Package pdftex.def Info: figs/Q60fig4.png  used on input line 876.
 (pdftex.def)             Requested size: 169.51326pt x 40.29068pt.
 
 
@@ -2505,13 +2488,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 54251 strings out of 467800
- 1309055 string characters out of 5417814
- 1901366 words of memory out of 5000000
- 81788 multiletter control sequences out of 15000+600000
+ 54253 strings out of 467800
+ 1309006 string characters out of 5417814
+ 1905178 words of memory out of 5000000
+ 81790 multiletter control sequences out of 15000+600000
  661979 words of font info for 130 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,14n,105p,1178b,1334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,16n,105p,1194b,1334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/sha
@@ -2524,7 +2507,7 @@ share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.
 termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 1172053 bytes).
+Output written on main.pdf (20 pages, 1172166 bytes).
 PDF statistics:
  586 PDF objects out of 1000 (max. 8388607)
  485 compressed objects within 5 object streams
