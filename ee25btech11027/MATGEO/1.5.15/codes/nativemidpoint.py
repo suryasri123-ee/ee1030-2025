@@ -126,6 +126,6 @@ plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 
 # give an absolute path
-plt.savefig("/media/indhiresh-s/New Volume/Matrix/ee1030-2025/ee25btech11027/MATGEO/1.5.15/figs/figure1.png")
+plt.savefig("/media/indhiresh-s/New Volume/Matrix/ee1030-2025/ee25btech11027/MATGEO/1.5.15/figs/figure2.png")
 # Show plot
 plt.show()
