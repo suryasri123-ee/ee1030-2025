@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  24 AUG 2025 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  22 AUG 2025 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1747,101 +1747,101 @@ e.tex
 File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 
-Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 53.
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 52.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 53.
+h' as default language. on input line 52.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
-3.
+2.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 53.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 52.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-53.
+52.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-53.
+52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-53.
+52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 5
-3.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <5> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <5> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <7> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <7> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <11> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <11> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 53.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 
 -- Lines per column: 45 (approximate, difference = 0.60239pt).
 *geometry* driver: auto-detecting
@@ -1880,15 +1880,15 @@ LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
 
 \symgns@font=\mathgroup15
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 53.
-Package gensymb Info: Math companion symbols declared on input line 53.
-LaTeX Info: Redefining \degree on input line 53.
-LaTeX Info: Redefining \celsius on input line 53.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 52.
+Package gensymb Info: Math companion symbols declared on input line 52.
+LaTeX Info: Redefining \degree on input line 52.
+LaTeX Info: Redefining \celsius on input line 52.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 53.
-LaTeX Info: Redefining \ohm on input line 53.
-Package gensymb Info: Using \textohm for \ohm on input line 53.
-Package gensymb Info: Using \textmu for \micro on input line 53.
+erthousand on input line 52.
+LaTeX Info: Redefining \ohm on input line 52.
+Package gensymb Info: Using \textohm for \ohm on input line 52.
+Package gensymb Info: Using \textmu for \micro on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1896,7 +1896,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 53.
+or `english'. on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1938,7 +1938,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 52.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1978,247 +1978,298 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)
-<figs/q4.png, id=31, 274.77657pt x 216.05719pt>
-File: figs/q4.png Graphic file (type png)
-<use figs/q4.png>
-Package pdftex.def Info: figs/q4.png  used on input line 102.
-(pdftex.def)             Requested size: 291.35735pt x 229.11511pt.
-
-Underfull \vbox (badness 3803) has occurred while \output is active []
-
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<figs/a38a.png, id=59, 333.49594pt x 196.48407pt>
-File: figs/a38a.png Graphic file (type png)
-<use figs/a38a.png>
-Package pdftex.def Info: figs/a38a.png  used on input line 129.
-(pdftex.def)             Requested size: 163.88676pt x 96.55685pt.
-<figs/a38b.png, id=60, 237.13594pt x 196.48407pt>
-File: figs/a38b.png Graphic file (type png)
-<use figs/a38b.png>
-Package pdftex.def Info: figs/a38b.png  used on input line 130.
-(pdftex.def)             Requested size: 163.88676pt x 135.796pt.
-<figs/a38c.png, id=61, 283.81032pt x 198.7425pt>
-File: figs/a38c.png Graphic file (type png)
-<use figs/a38c.png>
-Package pdftex.def Info: figs/a38c.png  used on input line 131.
-(pdftex.def)             Requested size: 163.88676pt x 114.76732pt.
-<figs/a38d.png, id=62, 305.64188pt x 213.04594pt>
-File: figs/a38d.png Graphic file (type png)
-<use figs/a38d.png>
-Package pdftex.def Info: figs/a38d.png  used on input line 132.
-(pdftex.def)             Requested size: 163.88676pt x 114.23363pt.
+<figs/xl2024_q8_que.png, id=67, 461.47406pt x 238.64156pt>
+File: figs/xl2024_q8_que.png Graphic file (type png)
+<use figs/xl2024_q8_que.png>
+Package pdftex.def Info: figs/xl2024_q8_que.png  used on input line 138.
+(pdftex.def)             Requested size: 291.35735pt x 150.66905pt.
+ [2 <./figs/xl2024_q8_que.png>]
+<figs/xl2024_q10_que.png, id=96, 106.14656pt x 106.14656pt>
+File: figs/xl2024_q10_que.png Graphic file (type png)
+<use figs/xl2024_q10_que.png>
+Package pdftex.def Info: figs/xl2024_q10_que.png  used on input line 167.
+(pdftex.def)             Requested size: 182.09764pt x 182.10692pt.
+<figs/xl2024_q12_op_A.png, id=97, 122.70844pt x 118.94438pt>
+File: figs/xl2024_q12_op_A.png Graphic file (type png)
+<use figs/xl2024_q12_op_A.png>
+Package pdftex.def Info: figs/xl2024_q12_op_A.png  used on input line 199.
+(pdftex.def)             Requested size: 72.83794pt x 70.60489pt.
+<figs/xl2024_q12_op_B.png, id=98, 124.21407pt x 111.41624pt>
+File: figs/xl2024_q12_op_B.png Graphic file (type png)
+<use figs/xl2024_q12_op_B.png>
+Package pdftex.def Info: figs/xl2024_q12_op_B.png  used on input line 200.
+(pdftex.def)             Requested size: 72.83794pt x 65.33379pt.
+ [3 <./figs/xl2024_q10_que.png> <./figs/xl2024_q12_op_A.png>]
+<figs/xl2024_q12_op_C.png, id=124, 100.87688pt x 111.41624pt>
+File: figs/xl2024_q12_op_C.png Graphic file (type png)
+<use figs/xl2024_q12_op_C.png>
+Package pdftex.def Info: figs/xl2024_q12_op_C.png  used on input line 201.
+(pdftex.def)             Requested size: 72.83794pt x 80.44914pt.
+<figs/xl2024_q12_op_D.png, id=125, 105.39375pt x 121.20282pt>
+File: figs/xl2024_q12_op_D.png Graphic file (type png)
+<use figs/xl2024_q12_op_D.png>
+Package pdftex.def Info: figs/xl2024_q12_op_D.png  used on input line 202.
+(pdftex.def)             Requested size: 72.83794pt x 83.76503pt.
+<figs/xl2024_q13_op_A.png, id=126, 103.13531pt x 77.53969pt>
+File: figs/xl2024_q13_op_A.png Graphic file (type png)
+<use figs/xl2024_q13_op_A.png>
+Package pdftex.def Info: figs/xl2024_q13_op_A.png  used on input line 209.
+(pdftex.def)             Requested size: 72.83794pt x 54.76248pt.
+<figs/xl2024_q13_op_B.png, id=127, 91.09032pt x 73.02281pt>
+File: figs/xl2024_q13_op_B.png Graphic file (type png)
+<use figs/xl2024_q13_op_B.png>
+Package pdftex.def Info: figs/xl2024_q13_op_B.png  used on input line 210.
+(pdftex.def)             Requested size: 72.83794pt x 58.39268pt.
+<figs/xl2024_q13_op_C.png, id=128, 91.09032pt x 61.73062pt>
+File: figs/xl2024_q13_op_C.png Graphic file (type png)
+<use figs/xl2024_q13_op_C.png>
+Package pdftex.def Info: figs/xl2024_q13_op_C.png  used on input line 211.
+(pdftex.def)             Requested size: 72.83794pt x 49.36288pt.
+<figs/xl2024_q13_op_D.png, id=129, 91.84312pt x 74.52844pt>
+File: figs/xl2024_q13_op_D.png Graphic file (type png)
+<use figs/xl2024_q13_op_D.png>
+Package pdftex.def Info: figs/xl2024_q13_op_D.png  used on input line 212.
+(pdftex.def)             Requested size: 72.83794pt x 59.10994pt.
+<figs/xl2024_q14_que.png, id=130, 191.21437pt x 65.49469pt>
+File: figs/xl2024_q14_que.png Graphic file (type png)
+<use figs/xl2024_q14_que.png>
+Package pdftex.def Info: figs/xl2024_q14_que.png  used on input line 219.
+(pdftex.def)             Requested size: 182.09764pt x 62.37547pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./figs/q4.png>]
-<figs/q7.png, id=74, 182.93344pt x 193.47281pt>
-File: figs/q7.png Graphic file (type png)
-<use figs/q7.png>
-Package pdftex.def Info: figs/q7.png  used on input line 152.
-(pdftex.def)             Requested size: 291.35735pt x 308.18712pt.
+ [4 <./figs/xl2024_q12_op_B.png> <./figs/xl2024_q12_op_C.png> <./figs/xl2024_q1
+2_op_D.png> <./figs/xl2024_q13_op_A.png> <./figs/xl2024_q13_op_B.png> <./figs/x
+l2024_q13_op_C.png> <./figs/xl2024_q13_op_D.png>]
+<figs/xl2024_q15_que.png, id=151, 271.76532pt x 114.4275pt>
+File: figs/xl2024_q15_que.png Graphic file (type png)
+<use figs/xl2024_q15_que.png>
+Package pdftex.def Info: figs/xl2024_q15_que.png  used on input line 234.
+(pdftex.def)             Requested size: 182.09764pt x 76.6765pt.
+<figs/xl2024_q16_que.png, id=152, 414.79968pt x 343.2825pt>
+File: figs/xl2024_q16_que.png Graphic file (type png)
+<use figs/xl2024_q16_que.png>
+Package pdftex.def Info: figs/xl2024_q16_que.png  used on input line 247.
+(pdftex.def)             Requested size: 291.35735pt x 241.12895pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./figs/a38a.png> <./figs/a38b.png> <./figs/a38c.png> <./figs/a38d.png>] [4
- <./figs/q7.png>]
-<figs/q10.png, id=109, 277.035pt x 187.45032pt>
-File: figs/q10.png Graphic file (type png)
-<use figs/q10.png>
-Package pdftex.def Info: figs/q10.png  used on input line 198.
-(pdftex.def)             Requested size: 291.35735pt x 197.14325pt.
-<figs/xl2025_q11_que.png, id=110, 201.75375pt x 103.88812pt>
-File: figs/xl2025_q11_que.png Graphic file (type png)
-<use figs/xl2025_q11_que.png>
-Package pdftex.def Info: figs/xl2025_q11_que.png  used on input line 220.
-(pdftex.def)             Requested size: 291.35735pt x 150.02837pt.
+ [5 <./figs/xl2024_q14_que.png> <./figs/xl2024_q15_que.png>]
+<figs/xl2024_q20_que.png, id=172, 215.30438pt x 78.2925pt>
+File: figs/xl2024_q20_que.png Graphic file (type png)
+<use figs/xl2024_q20_que.png>
+Package pdftex.def Info: figs/xl2024_q20_que.png  used on input line 262.
+(pdftex.def)             Requested size: 327.77354pt x 119.20174pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./figs/q10.png>] [6 <./figs/xl2025_q11_que.png>]
-<figs/xl2025_q17_que.png, id=156, 393.72093pt x 126.4725pt>
-File: figs/xl2025_q17_que.png Graphic file (type png)
-<use figs/xl2025_q17_que.png>
-Package pdftex.def Info: figs/xl2025_q17_que.png  used on input line 308.
-(pdftex.def)             Requested size: 291.35735pt x 93.5901pt.
- [7 <./figs/xl2025_q17_que.png>]
-<figs/xl2025_q22_que.png, id=182, 280.04625pt x 475.7775pt>
-File: figs/xl2025_q22_que.png Graphic file (type png)
-<use figs/xl2025_q22_que.png>
-Package pdftex.def Info: figs/xl2025_q22_que.png  used on input line 368.
-(pdftex.def)             Requested size: 291.35735pt x 495.01471pt.
+ [6 <./figs/xl2024_q16_que.png>]
+<figs/xl2024_q22_op_A.png, id=184, 71.51718pt x 59.47218pt>
+File: figs/xl2024_q22_op_A.png Graphic file (type png)
+<use figs/xl2024_q22_op_A.png>
+Package pdftex.def Info: figs/xl2024_q22_op_A.png  used on input line 284.
+(pdftex.def)             Requested size: 72.83794pt x 60.57097pt.
+<figs/xl2024_q22_op_B.png, id=185, 60.97781pt x 64.74188pt>
+File: figs/xl2024_q22_op_B.png Graphic file (type png)
+<use figs/xl2024_q22_op_B.png>
+Package pdftex.def Info: figs/xl2024_q22_op_B.png  used on input line 285.
+(pdftex.def)             Requested size: 72.83794pt x 77.3352pt.
+<figs/xl2024_q22_op_C.png, id=186, 85.82062pt x 51.19125pt>
+File: figs/xl2024_q22_op_C.png Graphic file (type png)
+<use figs/xl2024_q22_op_C.png>
+Package pdftex.def Info: figs/xl2024_q22_op_C.png  used on input line 286.
+(pdftex.def)             Requested size: 72.83794pt x 43.44714pt.
+<figs/xl2024_q22_op_D.png, id=187, 66.2475pt x 60.225pt>
+File: figs/xl2024_q22_op_D.png Graphic file (type png)
+<use figs/xl2024_q22_op_D.png>
+Package pdftex.def Info: figs/xl2024_q22_op_D.png  used on input line 287.
+(pdftex.def)             Requested size: 72.83794pt x 66.22104pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-[9 <./figs/xl2025_q22_que.png>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
-[]\OT1/txr/m/n/10 Nucleotide-
+ [7 <./figs/xl2024_q20_que.png> <./figs/xl2024_q22_op_A.png> <./figs/xl2024_q22
+_op_B.png> <./figs/xl2024_q22_op_C.png>] [8 <./figs/xl2024_q22_op_D.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 389--394
+
  []
 
-[11] [12]
-Overfull \hbox (5.0554pt too wide) in paragraph at lines 646--653
- [][] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--402
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 406--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--419
+
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 461--463
+[]\OT1/txr/m/n/10 Factor H, a com-ple-ment reg-u-la-tory pro-tein in plasma, bi
+nds C3b and
+ []
+
+[10]
+<figs/xl2024_q46_que.png, id=303, 279.29344pt x 240.9pt>
+File: figs/xl2024_q46_que.png Graphic file (type png)
+<use figs/xl2024_q46_que.png>
+Package pdftex.def Info: figs/xl2024_q46_que.png  used on input line 478.
+(pdftex.def)             Requested size: 182.09764pt x 157.06834pt.
+ [11 <./figs/xl2024_q46_que.png>] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 552--556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--563
+
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 565--567
+[]\OT1/txr/m/n/10 Match the in-hibitors in Group I with their re-spec-tive tar-
+gets in Group II.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--572
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--614
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--640
+
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
-[]\OT1/txr/m/n/10 Phloem
- []
+Underfull \hbox (badness 10000) in paragraph at lines 644--649
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 769--770
-[]\OT1/txr/m/n/10 Consider a diploid plant species where the cells in the epi-d
-er-mis
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 769--770
-[]$ \OT1/txr/m/n/10 al-ways di-vide in the an-ti-cli-nal ori-en-ta-tion. If
- []
+Underfull \hbox (badness 10000) in paragraph at lines 652--657
 
-[15]
-Overfull \hbox (47.29486pt too wide) in paragraph at lines 809--816
- [][] 
- []
-
-[16]
-<figs/xl2025_q63.png, id=413, 496.85625pt x 425.33907pt>
-File: figs/xl2025_q63.png Graphic file (type png)
-<use figs/xl2025_q63.png>
-Package pdftex.def Info: figs/xl2025_q63.png  used on input line 917.
-(pdftex.def)             Requested size: 291.35735pt x 249.42268pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-[18 <./figs/xl2025_q63.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 962--963
-\OT1/txr/m/n/10 ther-apy short-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-[]\OT1/txr/m/n/10 District op-er-ated
+Underfull \hbox (badness 10000) in paragraph at lines 679--684
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 965--966
-\OT1/txr/m/n/10 ther-apy short-
+Underfull \hbox (badness 10000) in paragraph at lines 687--692
+
+ []
+
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 780--785
+
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 1000--1001
-\OT1/txr/m/n/10 caus-ing mi-croor-
+Underfull \hbox (badness 10000) in paragraph at lines 788--793
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
-[]\OT1/txr/m/n/10 To demon-strate
+Underfull \hbox (badness 1755) in paragraph at lines 805--807
+[]\OT1/txr/m/n/10 Which of the fol-low-ing is/are ac-tive trans-port mech-a-nis
+m(s) in prokary-otes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
-\OT1/txr/m/n/10 pres-ence of
+Underfull \hbox (badness 2922) in paragraph at lines 815--817
+[]\OT1/txr/m/n/10 Which of the fol-low-ing cocci is/are ex-am-ples of di-vi-sio
+n in one plane?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
-\OT1/txr/m/n/10 mi-croor-gan-isms
+Underfull \hbox (badness 1668) in paragraph at lines 825--827
+[]\OT1/txr/m/n/10 Which of the fol-low-ing event(s) oc-cur(s) dur-ing trans-la-
+tion in prokary-otes?
+ []
+
+[16] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 952--956
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
-[]\OT1/txr/m/n/10 To demon-strate
+Underfull \hbox (badness 10000) in paragraph at lines 959--963
+
+ []
+
+<figs/xl2024_q97_que.png, id=535, 468.24937pt x 257.46187pt>
+File: figs/xl2024_q97_que.png Graphic file (type png)
+<use figs/xl2024_q97_que.png>
+Package pdftex.def Info: figs/xl2024_q97_que.png  used on input line 988.
+(pdftex.def)             Requested size: 291.35735pt x 160.20612pt.
+[19 <./figs/xl2024_q97_que.png>] [20]
+Underfull \hbox (badness 3735) in paragraph at lines 1101--1103
+[]\OT1/txr/m/n/10 The prod-uct of cab-bage fer-men-ta-tion by *Leu-conos-toc me
+sen-teroides* is:
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 1139--1144
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
-\OT1/txr/m/n/10 an-timi-cro-bial
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1152
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
-\OT1/txr/m/n/10 ac-tiv-ity of soil
+Underfull \hbox (badness 4531) in paragraph at lines 1192--1194
+[]\OT1/txr/m/n/10 Which of the fol-low-ing is/are typ-i-cal char-ac-ter-is-tic(
+s) of a fun-gal cell?
  []
 
-[19]
-<figs/xl2025_q72_que.png, id=480, 301.8778pt x 279.29344pt>
-File: figs/xl2025_q72_que.png Graphic file (type png)
-<use figs/xl2025_q72_que.png>
-Package pdftex.def Info: figs/xl2025_q72_que.png  used on input line 1035.
-(pdftex.def)             Requested size: 291.35735pt x 269.5591pt.
- [20 <./figs/xl2025_q72_que.png>]
-<figs/xl2025_q74_que.png, id=502, 316.18124pt x 205.5178pt>
-File: figs/xl2025_q74_que.png Graphic file (type png)
-<use figs/xl2025_q74_que.png>
-Package pdftex.def Info: figs/xl2025_q74_que.png  used on input line 1067.
-(pdftex.def)             Requested size: 254.9356pt x 165.70961pt.
-<figs/xl2025_q75_que.png, id=503, 469.00218pt x 203.25937pt>
-File: figs/xl2025_q75_que.png Graphic file (type png)
-<use figs/xl2025_q75_que.png>
-Package pdftex.def Info: figs/xl2025_q75_que.png  used on input line 1087.
-(pdftex.def)             Requested size: 254.9356pt x 110.48416pt.
-
-Underfull \vbox (badness 4266) has occurred while \output is active []
-
- [21 <./figs/xl2025_q74_que.png>]
-<figs/xl2025_q77_que.png, id=521, 453.19313pt x 356.0803pt>
-File: figs/xl2025_q77_que.png Graphic file (type png)
-<use figs/xl2025_q77_que.png>
-Package pdftex.def Info: figs/xl2025_q77_que.png  used on input line 1133.
-(pdftex.def)             Requested size: 327.77354pt x 257.53493pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22 <./figs/xl2025_q75_que.png>] [23 <./figs/xl2025_q77_que.png>]
-Underfull \hbox (badness 3780) in paragraph at lines 1205--1206
-[]\OT1/txr/m/n/10 Glyceraldehyde-3-phosphate + Erythrose-4-phosphate $\OMS/txsy
-/m/n/10 !$ \OT1/txr/m/n/10 Sedoheptulose-1,7-
- []
-
-[24]
-Overfull \hbox (5.86118pt too wide) in paragraph at lines 1263--1264
-[]\OT1/txr/m/n/10 Syncytiotrophoblast 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1264--1265
-[]\OT1/txr/m/n/10 Primitive en-do-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
-[]\OT1/txr/m/n/10 Amniotic ec-to-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1266--1267
-[]\OT1/txr/m/n/10 Embryonic
- []
-
-[25] [26] [27] [28]
-Underfull \hbox (badness 8094) in paragraph at lines 1559--1561
-[]\OT1/txr/m/n/10 The true den-sity and bulk den-sity of wheat grains are $1280
- [][]$
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 1559--1561
-\OT1/txr/m/n/10 and $740 [][]$, re-spec-tively. The poros-ity of the grains is 
-$[]$
- []
-
-[29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-[31] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+[22] [23] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -2229,26 +2280,26 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53798 strings out of 476091
- 1258041 string characters out of 5794081
- 1868330 words of memory out of 5000000
- 72715 multiletter control sequences out of 15000+600000
- 579539 words of font info for 170 fonts, out of 8000000 for 9000
+ 53714 strings out of 476091
+ 1258275 string characters out of 5794081
+ 1871330 words of memory out of 5000000
+ 72714 multiletter control sequences out of 15000+600000
+ 578555 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,18n,107p,1194b,1201s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,10n,107p,1194b,1195s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tf
-rupee/tfrupee.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txe
-x.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (31 pages, 624134 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on main.pdf (23 pages, 287866 bytes).
 PDF statistics:
- 953 PDF objects out of 1000 (max. 8388607)
- 847 compressed objects within 9 object streams
- 612 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 834 PDF objects out of 1000 (max. 8388607)
+ 727 compressed objects within 8 object streams
+ 526 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
