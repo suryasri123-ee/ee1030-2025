@@ -54,45 +54,44 @@
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 
-\item In each of the following, find the value of $k$ for which the points are collinear:
+In each of the following, find the value of $k$ for which the points are collinear:
 \begin{enumerate}
 \item $\brak{7,-2},\ \brak{5,1},\ \brak{3,k}$
 \item $\brak{8,1},\ \brak{k,-4},\ \brak{2,-5}$
 \end{enumerate}
 
-\textbf{Solution:} Three points $A, B, C$ are collinear iff the vectors $\vec{B}-\vec{A}$ and $\vec{C}-\vec{A}$ are linearly dependent, i.e., the collinearity matrix
-\(
+\textbf{Solution:} Three points $A, B, C$ are collinear iff the collinearity matrix
+\begin{align*}
 M=\myvec{ \vec{B}-\vec{A} & \vec{C}-\vec{A} }^\top
-\)
-has $\operatorname{rank}\brak{M}=1$.
-
-\textbf{(a)} Let $A=\myvec{7\\-2},\ B=\myvec{5\\1},\ C=\myvec{3\\k}$.
-\begin{align*}
-\vec{B}-\vec{A}&=\myvec{5-7\\1-\brak{-2}}=\myvec{-2\\3},\qquad
-\vec{C}-\vec{A}=\myvec{3-7\\k-\brak{-2}}=\myvec{-4\\k+2}\\[4pt]
-M&=\myvec{-2 & 3\\ -4 & k+2}
 \end{align*}
-Apply row transformations:
+has $rank\brak{M}=1$.
+
+\textbf{(a)} 
+
 \begin{align*}
-R_2 = R_2 - 2R_1
-\;\;\implies\;\;
+\myvec{ \vec{B}-\vec{A} & \vec{C}-\vec{A} }^\top = \myvec{-2 & 3\\ -4 & k+2}
+\end{align*}
+
+\begin{align*}
+\myvec{-2 & 3\\ -4 & k+2}
+&\xleftrightarrow{R_2 = R_2 - 2R_1}
 \myvec{-2 & 3\\ 0 & k-4}
 \end{align*}
-For collinearity, $\operatorname{rank}\brak{M}=1 \iff k-4=0 \implies \boxed{k=4}$.
 
-\textbf{(b)} Let $A=\myvec{8\\1},\ B=\myvec{k\\-4},\ C=\myvec{2\\-5}$.
+For collinearity, $rank\brak{M}=1 \iff k-4=0 \implies \boxed{k=4}$.
+
+\textbf{(b)} 
+
 \begin{align*}
-\vec{B}-\vec{A}&=\myvec{k-8\\-5},\qquad
-\vec{C}-\vec{A}=\myvec{2-8\\-5-1}=\myvec{-6\\-6}\\[4pt]
-M&=\myvec{k-8 & -5\\ -6 & -6}
+\myvec{ \vec{B}-\vec{A} & \vec{C}-\vec{A} }^\top = \myvec{k-8 & -5\\ -6 & -6}
 \end{align*}
-Use a combination of scaling and addition to eliminate the first entry of $R_2$:
+
 \begin{align*}
-R_2 = \brak{k-8}\,R_2 + 6\,R_1
-\;\;\implies\;\;
+\myvec{k-8 & -5\\ -6 & -6}
+&\xleftrightarrow{R_2 = (k-8)R_2 + 6R_1}
 \myvec{k-8 & -5\\[2pt] 0 & 18-6k}
 \end{align*}
-For collinearity, $\operatorname{rank}\brak{M}=1 \iff 18-6k=0 \implies \boxed{k=3}$.
+For collinearity, $rank\brak{M}=1 \iff 18-6k=0 \implies \boxed{k=3}$.
 
 \pagebreak
 

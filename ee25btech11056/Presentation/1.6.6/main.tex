@@ -74,90 +74,90 @@
 
 % Problem Statement
 \begin{frame}{Problem Statement}
-\begin{itemize}
-  \item In each of the following, find the value of $k$ for which the points are collinear:
-  \begin{itemize}
-  \item $(7,-2),\ (5,1),\ (3,k)$
-  \item $(8,1),\ (k,-4),\ (2,-5)$
-  \end{itemize}
-\end{itemize}
+
+ In each of the following, find the value of $k$ for which the points are collinear:
+  
+    (a) $(7,-2),\ (5,1),\ (3,k)$ \\
+    (b) $(8,1),\ (k,-4),\ (2,-5)$
+  
+
 \end{frame}
 
 % Method
 \begin{frame}{Method}
 \textbf{Condition for Collinearity:}
-\begin{itemize}
-\item Three points $A,B,C$ are collinear iff vectors $\vec{B}-\vec{A},\ \vec{C}-\vec{A}$ are linearly dependent.
-\item Equivalently, the collinearity matrix
-\[
-  M = \myvec{ \vec{B}-\vec{A} & \vec{C}-\vec{A} }^\top
-\]
-must satisfy $\operatorname{rank}(M)=1$.
-\end{itemize}
+
+Three points $A, B, C$ are collinear iff the collinearity matrix
+
+\begin{align*}
+M=\myvec{ \vec{B}-\vec{A} & \vec{C}-\vec{A} }^\top
+\end{align*}
+
+has $rank\brak{M}=1$.
+
 \end{frame}
 
 % Part (a)
-\begin{frame}{Part (a) Setup}
-Let
-\[
-A=\myvec{7\\-2}, \quad B=\myvec{5\\1}, \quad C=\myvec{3\\k}.
-\]
-\[
-\vec{B}-\vec{A} = \myvec{5-7\\ 1-(-2)} = \myvec{-2\\3},\quad
-\vec{C}-\vec{A} = \myvec{3-7\\ k-(-2)} = \myvec{-4\\k+2}.
-\]
-Thus,
-\[
-M = \myvec{-2 & 3\\ -4 & k+2}.
-\]
-\end{frame}
+\begin{frame}{Part (a) Matrix}
 
-\begin{frame}{Part (a) Row Reduction}
-Apply row transformation:
-\[
-R_2 = R_2 - 2R_1 \ \Rightarrow\
-\myvec{-2 & 3\\ 0 & k-4}.
-\]
-For collinearity: $k-4=0 \Rightarrow k=\boxed{4}$.
+\begin{align*}
+\myvec{ \vec{B}-\vec{A} & \vec{C}-\vec{A} }^\top = \myvec{-2 & 3\\ -4 & k+2}
+\end{align*}
+
+\begin{align*}
+\myvec{-2 & 3\\ -4 & k+2}
+&\xleftrightarrow{R_2 = R_2 - 2R_1}
+\myvec{-2 & 3\\ 0 & k-4}
+\end{align*}
+
+For collinearity, $rank\brak{M}=1 \iff k-4=0 \implies \boxed{k=4}$.
+
 \end{frame}
 
 % Part (b)
-\begin{frame}{Part (b) Setup}
-Let
-\[
-A=\myvec{8\\1}, \quad B=\myvec{k\\-4}, \quad C=\myvec{2\\-5}.
-\]
-\[
-\vec{B}-\vec{A} = \myvec{k-8\\ -5}, \quad
-\vec{C}-\vec{A} = \myvec{-6\\ -6}.
-\]
-Thus,
-\[
-M = \myvec{k-8 & -5\\ -6 & -6}.
-\]
-\end{frame}
+\begin{frame}{Part (b) Matrix}
 
-\begin{frame}{Part (b) Row Reduction}
-Row operation:
-\[
-R_2 = (k-8)R_2 + 6R_1 \ \Rightarrow\
-\myvec{k-8 & -5\\ 0 & 18-6k}.
-\]
-For collinearity: $18-6k=0 \Rightarrow k=\boxed{3}$.
+\begin{align*}
+\myvec{ \vec{B}-\vec{A} & \vec{C}-\vec{A} }^\top = \myvec{k-8 & -5\\ -6 & -6}
+\end{align*}
+
+\begin{align*}
+\myvec{k-8 & -5\\ -6 & -6}
+&\xleftrightarrow{R_2 = (k-8)R_2 + 6R_1}
+\myvec{k-8 & -5\\[2pt] 0 & 18-6k}
+\end{align*}
+For collinearity, $rank\brak{M}=1 \iff 18-6k=0 \implies \boxed{k=3}$.
+
 \end{frame}
 
 \begin{frame}{Final Answer}
-\begin{itemize}
-\item (a) $k=4$
-\item (b) $k=3$
-\end{itemize}
+
+ (a) $k=4$ \\
+ (b) $k=3$
+
 \end{frame}
 
 % Plots
 \begin{frame}{Plots}
+
+\begin{figure}[h!]
 \centering
-\includegraphics[width=0.45\textwidth]{figs/fig_a.png}\hfill
-\includegraphics[width=0.45\textwidth]{figs/fig_b.png}
+\includegraphics[width=0.7\textwidth]{figs/fig_a.png}\hfill
+\caption*{Fig 1 : Line through the given points}
+\label{Fig 1}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Plots}
+
+\begin{figure}[h!]
+ \centering
+  \includegraphics[width=0.7\textwidth]{figs/fig_b.png}
+  \caption*{Fig 2 : Line through the given points}
+  \label{Fig 2}
+\end{figure}
+
 \end{frame}
 
 % --------- CODE APPENDIX ---------
