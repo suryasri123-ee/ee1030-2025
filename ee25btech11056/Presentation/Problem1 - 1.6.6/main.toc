@@ -1,2 +1,0 @@
-\beamer@sectionintoc {1}{Plot of line1}{9}{0}{1}
-\beamer@sectionintoc {2}{Plot of line2}{10}{0}{2}
