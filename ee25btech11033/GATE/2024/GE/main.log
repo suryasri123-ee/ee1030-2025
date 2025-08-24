@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  24 AUG 2025 14:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  24 AUG 2025 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1271,7 +1271,7 @@ File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \c@lemma=\count362
 \c@example=\count363
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
-1.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -1279,83 +1279,83 @@ File: ot1txr.fd 2000/12/15 v3.1
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 51.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 52.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-51.
+52.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-51.
+52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-51.
+52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 5
-1.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 51.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 52.
 
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1383,114 +1383,103 @@ e
 \c@lstlisting=\count370
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 51.
-Package gensymb Info: Math companion symbols declared on input line 51.
-LaTeX Info: Redefining \degree on input line 51.
-LaTeX Info: Redefining \celsius on input line 51.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 52.
+Package gensymb Info: Math companion symbols declared on input line 52.
+LaTeX Info: Redefining \degree on input line 52.
+LaTeX Info: Redefining \celsius on input line 52.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 51.
-LaTeX Info: Redefining \ohm on input line 51.
-Package gensymb Info: Using \textohm for \ohm on input line 51.
-Package gensymb Info: Using \textmu for \micro on input line 51.
-Package hyperref Info: Link coloring OFF on input line 51.
+erthousand on input line 52.
+LaTeX Info: Redefining \ohm on input line 52.
+Package gensymb Info: Using \textohm for \ohm on input line 52.
+Package gensymb Info: Using \textmu for \micro on input line 52.
+Package hyperref Info: Link coloring OFF on input line 52.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 55.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 56.
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 55.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 56.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
-
- []
-
-<figs/fig1.png, id=7, 863.225pt x 533.995pt>
-File: figs/fig1.png Graphic file (type png)
-<use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 107.
-(pdftex.def)             Requested size: 309.60315pt x 191.52101pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--110
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--110
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
+
+ []
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 103--108
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figs/figA.png, id=34, 291.0875pt x 260.975pt>
-File: figs/figA.png Graphic file (type png)
-<use figs/figA.png>
-Package pdftex.def Info: figs/figA.png  used on input line 125.
-(pdftex.def)             Requested size: 77.69966pt x 69.65979pt.
-<figs/figB.png, id=35, 279.0425pt x 252.945pt>
-File: figs/figB.png Graphic file (type png)
-<use figs/figB.png>
-Package pdftex.def Info: figs/figB.png  used on input line 126.
-(pdftex.def)             Requested size: 77.69966pt x 70.43044pt.
-<figs/figC.png, id=37, 252.945pt x 240.9pt>
-File: figs/figC.png Graphic file (type png)
-<use figs/figC.png>
-Package pdftex.def Info: figs/figC.png  used on input line 127.
-(pdftex.def)             Requested size: 77.69966pt x 73.99818pt.
-<figs/figD.png, id=38, 252.945pt x 240.9pt>
-File: figs/figD.png Graphic file (type png)
-<use figs/figD.png>
-Package pdftex.def Info: figs/figD.png  used on input line 128.
-(pdftex.def)             Requested size: 77.69966pt x 73.99818pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-
- []
-
-<figs/fig2.png, id=39, 564.1075pt x 81.30376pt>
-File: figs/fig2.png Graphic file (type png)
-<use figs/fig2.png>
-Package pdftex.def Info: figs/fig2.png  used on input line 156.
-(pdftex.def)             Requested size: 361.19843pt x 52.05902pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--159
+Underfull \hbox (badness 10000) in paragraph at lines 131--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--159
+Underfull \hbox (badness 10000) in paragraph at lines 137--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--145
+
+ []
+
+<figs/fig1.png, id=39, 489.83pt x 241.90375pt>
+File: figs/fig1.png Graphic file (type png)
+<use figs/fig1.png>
+Package pdftex.def Info: figs/fig1.png  used on input line 167.
+(pdftex.def)             Requested size: 412.80157pt x 203.86954pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
 
  []
 
@@ -1499,486 +1488,302 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.159 \end{figure}
-                   <./figs/fig1.png> <./figs/figA.png> <./figs/figB.png> <./fig
-s/figC.png> <./figs/figD.png>]
-<figs/fig3.png, id=64, 245.91875pt x 238.8925pt>
+l.176 \item R
+             S's yearly batting average is consistently higher than that of ...
+ <./figs/fig1.png>]
+<figs/fig2.png, id=64, 436.63126pt x 202.7575pt>
+File: figs/fig2.png Graphic file (type png)
+<use figs/fig2.png>
+Package pdftex.def Info: figs/fig2.png  used on input line 184.
+(pdftex.def)             Requested size: 154.80157pt x 71.88504pt.
+<figs/fig3.png, id=65, 169.63374pt x 148.555pt>
 File: figs/fig3.png Graphic file (type png)
 <use figs/fig3.png>
-Package pdftex.def Info: figs/fig3.png  used on input line 177.
-(pdftex.def)             Requested size: 206.39685pt x 200.50793pt.
+Package pdftex.def Info: figs/fig3.png  used on input line 193.
+(pdftex.def)             Requested size: 103.19843pt x 90.3736pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--180
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--180
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.208 \item T
-             he order of the top two nations will not change even if the lis...
-
+l.243 \item
+            $1$:$20$
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.208 \item T
-             he order of the top two nations will not change even if the lis...
- <./figs/fig2.png> <./figs/fig3.png>]
-! Undefined control sequence.
-l.215 \rupee
-            500000. For higher fees, the overhead is \rupee1,00,000 plus 10\...
-
-? H
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-? 
-! Undefined control sequence.
-l.215 .... For higher fees, the overhead is \rupee
-                                                  1,00,000 plus 10\% of the ...
-
-? 
-! Undefined control sequence.
-l.215 ...he amount by which the fee exceeds \rupee
-                                                  5,00,000. The government c...
-
-? 
-! Undefined control sequence.
-l.215 ...If the client cannot pay more than \rupee
-                                                  10,00,000, what is the max...
-
-? 
-! Undefined control sequence.
-<recently read> \rupee 
-                       
-l.218 \item \rupee
-                  7,01,438
-? 
-! Undefined control sequence.
-<recently read> \rupee 
-                       
-l.219 \item \rupee
-                  7,24,961
-? 
-! Undefined control sequence.
-<recently read> \rupee 
-                       
-l.220 \item \rupee
-                  7,51,232
-? 
-! Undefined control sequence.
-<recently read> \rupee 
-                       
-l.221 \item \rupee
-                  7,75,784
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--231
-
- []
-
-[4] [5]
-<figs/fig4.png, id=146, 141.52875pt x 74.2775pt>
+l.243 \item
+            $1$:$20$ <./figs/fig2.png> <./figs/fig3.png>] [4]
+<figs/fig4.png, id=132, 240.9pt x 148.555pt>
 File: figs/fig4.png Graphic file (type png)
 <use figs/fig4.png>
-Package pdftex.def Info: figs/fig4.png  used on input line 363.
-(pdftex.def)             Requested size: 103.19843pt x 54.16205pt.
-<figs/fig5.png, id=147, 247.92625pt x 205.76875pt>
-File: figs/fig5.png Graphic file (type png)
-<use figs/fig5.png>
-Package pdftex.def Info: figs/fig5.png  used on input line 369.
-(pdftex.def)             Requested size: 206.39685pt x 171.30293pt.
- [6
+Package pdftex.def Info: figs/fig4.png  used on input line 359.
+(pdftex.def)             Requested size: 129.0pt x 79.55206pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--401
+
+ []
+
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.387 \item R
-             edundancy of observations is maximized
+l.402 \item T
+             he standard error of a unit weight for a set of angle observati...
+ <./figs/fig4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
+
+ []
+
+<figs/fig5.png, id=173, 724.7075pt x 264.99pt>
+File: figs/fig5.png Graphic file (type png)
+<use figs/fig5.png>
+Package pdftex.def Info: figs/fig5.png  used on input line 430.
+(pdftex.def)             Requested size: 258.0pt x 94.33694pt.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.434 
+      
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--456
+
+ []
+
+<figs/fig6.png, id=174, 178.6675pt x 105.39375pt>
+File: figs/fig6.png Graphic file (type png)
+<use figs/fig6.png>
+Package pdftex.def Info: figs/fig6.png  used on input line 459.
+(pdftex.def)             Requested size: 206.39685pt x 121.75829pt.
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.387 \item R
-             edundancy of observations is maximized <./figs/fig4.png> <./figs/f
-ig5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 401--406
+l.464 \item A
+             OB = $30\degree00'15''$, BOC = $30\degree00'00''$, AOC = $60\de...
+ <./figs/fig5.png>]
+<figs/fig7.png, id=194, 513.92pt x 242.9075pt>
+File: figs/fig7.png Graphic file (type png)
+<use figs/fig7.png>
+Package pdftex.def Info: figs/fig7.png  used on input line 480.
+(pdftex.def)             Requested size: 206.39685pt x 97.55415pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--411
+Underfull \hbox (badness 10000) in paragraph at lines 471--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--424
+Underfull \hbox (badness 10000) in paragraph at lines 471--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--428
+Underfull \hbox (badness 10000) in paragraph at lines 471--483
 
  []
 
-[7]
-<figs/fig6.png, id=195, 312.16624pt x 323.2075pt>
-File: figs/fig6.png Graphic file (type png)
-<use figs/fig6.png>
-Package pdftex.def Info: figs/fig6.png  used on input line 478.
-(pdftex.def)             Requested size: 206.39685pt x 213.70229pt.
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-493.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-)
+(./tables/table1.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/fig10.png, id=196, 398.48875pt x 313.17pt>
-File: figs/fig10.png Graphic file (type png)
-<use figs/fig10.png>
-Package pdftex.def Info: figs/fig10.png  used on input line 523.
-(pdftex.def)             Requested size: 206.39685pt x 162.20422pt.
-[8
+[7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.526 \end{figure}
-                   <./figs/fig6.png>]
-<figs/fig7.png, id=223, 158.5925pt x 136.51pt>
-File: figs/fig7.png Graphic file (type png)
-<use figs/fig7.png>
-Package pdftex.def Info: figs/fig7.png  used on input line 556.
-(pdftex.def)             Requested size: 206.39685pt x 177.67334pt.
- [9
+l.501 \item
+            P-$1$, Q-$5$, R-$2$, S-$3$
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.562 \item
-            100 <./figs/fig10.png>] [10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.612 \]
-         <./figs/fig7.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 612--618
+l.501 \item
+            P-$1$, Q-$5$, R-$2$, S-$3$ <./figs/fig6.png> <./figs/fig7.png>]
+(./tables/table2.tex) [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 642--646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--627
+Underfull \hbox (badness 10000) in paragraph at lines 647--649
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 633--638
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 638--645
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 645--650
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--657
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 663--669
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 669--676
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 727--733
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 678--679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 680--682
-
- []
-
-<figs/fig8.png, id=278, 327.2225pt x 135.50626pt>
+<figs/fig8.png, id=347, 833.1125pt x 144.54pt>
 File: figs/fig8.png Graphic file (type png)
 <use figs/fig8.png>
-Package pdftex.def Info: figs/fig8.png  used on input line 719.
-(pdftex.def)             Requested size: 206.39685pt x 85.47069pt.
+Package pdftex.def Info: figs/fig8.png  used on input line 784.
+(pdftex.def)             Requested size: 361.19843pt x 62.66486pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.787 \end{figure}\\.
+                     
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 791--795
+
+ []
+
 [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.795 \item I
+             n tangential method of tacheometry, two vanes in a staff were f...
+ <./figs/fig8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 810--815
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--815
+
+ []
+
+[13]
+<figs/fig9.png, id=393, 584.1825pt x 509.905pt>
+File: figs/fig9.png Graphic file (type png)
+<use figs/fig9.png>
+Package pdftex.def Info: figs/fig9.png  used on input line 857.
+(pdftex.def)             Requested size: 206.39685pt x 180.15001pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 854--860
+
+ []
+
+<figs/fig10.png, id=394, 459.7175pt x 367.3725pt>
+File: figs/fig10.png Graphic file (type png)
+<use figs/fig10.png>
+Package pdftex.def Info: figs/fig10.png  used on input line 908.
+(pdftex.def)             Requested size: 103.19843pt x 82.46465pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--911
+
+ []
+
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.734 \item
-            $264^\degree13'56''$ <./figs/fig8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 790--791
+l.912 
+       <./figs/fig9.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 921--927
 
  []
 
-<figs/fig9.png, id=308, 614.295pt x 230.36063pt>
-File: figs/fig9.png Graphic file (type png)
-<use figs/fig9.png>
-Package pdftex.def Info: figs/fig9.png  used on input line 815.
-(pdftex.def)             Requested size: 361.19843pt x 135.45111pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 803--818
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 803--818
-
- []
-
-[13] [14
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.858 \item C
-             onsider an infinitely sized square grid pattern (as shown in th...
- <./figs/fig9.png>]
-<figs/fig11.png, id=365, 196.48407pt x 292.09125pt>
+l.980 \item F
+             uzzy C-means clustering is a supervised classification method <./f
+igs/fig10.png>]
+<figs/fig11.png, id=453, 616.3025pt x 523.9575pt>
 File: figs/fig11.png Graphic file (type png)
 <use figs/fig11.png>
-Package pdftex.def Info: figs/fig11.png  used on input line 861.
-(pdftex.def)             Requested size: 103.19843pt x 153.41704pt.
- [15
+Package pdftex.def Info: figs/fig11.png  used on input line 1080.
+(pdftex.def)             Requested size: 154.80157pt x 131.60466pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1083
+
+ []
+
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.885 \item A
-              $23$ cm square format camera with a focal length of $152.4$ mm...
- <./figs/fig11.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 889--893
+l.1090 \end{enumerate}
+                       <./figs/fig11.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--893
+! LaTeX Error: There's no line here to end.
 
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 947--949
-
- []
-
-<figs/fig12.png, id=407, 202.7575pt x 94.3525pt>
-File: figs/fig12.png Graphic file (type png)
-<use figs/fig12.png>
-Package pdftex.def Info: figs/fig12.png  used on input line 953.
-(pdftex.def)             Requested size: 206.39685pt x 96.0482pt.
-<figs/fig15.png, id=408, 199.74625pt x 45.16875pt>
-File: figs/fig15.png Graphic file (type png)
-<use figs/fig15.png>
-Package pdftex.def Info: figs/fig15.png  used on input line 958.
-(pdftex.def)             Requested size: 206.39685pt x 46.67525pt.
-<figs/fig16.png, id=409, 199.74625pt x 45.16875pt>
-File: figs/fig16.png Graphic file (type png)
-<use figs/fig16.png>
-Package pdftex.def Info: figs/fig16.png  used on input line 959.
-(pdftex.def)             Requested size: 206.39685pt x 46.67525pt.
-<figs/fig17.png, id=410, 199.74625pt x 45.16875pt>
-File: figs/fig17.png Graphic file (type png)
-<use figs/fig17.png>
-Package pdftex.def Info: figs/fig17.png  used on input line 960.
-(pdftex.def)             Requested size: 206.39685pt x 46.67525pt.
-<figs/fig18.png, id=411, 204.765pt x 45.16875pt>
-File: figs/fig18.png Graphic file (type png)
-<use figs/fig18.png>
-Package pdftex.def Info: figs/fig18.png  used on input line 961.
-(pdftex.def)             Requested size: 206.39685pt x 45.53183pt.
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.965 ...commercial (c) in bands 1 and 2. Pixel â€
-                                                  ˜Aâ€™ having digital numbe...
-
+l.1136 \end{figure}\\.
+                      
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 ? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.965 ...ommercial (c) in bands 1 and 2. Pixel â€˜
-                                                  Aâ€™ having digital number...
-
-? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.965 ...ercial (c) in bands 1 and 2. Pixel â€˜Aâ€
-                                                  ™ having digital number 4 ...
-
-? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.965 ...rcial (c) in bands 1 and 2. Pixel â€˜Aâ€™
-                                                   having digital number 4 a...
-
-? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.965 ...to 5. The assigned class for the pixel â€
-                                                  ˜Aâ€™ is \rule{2cm}{0.5mm}.
-? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.965 ...o 5. The assigned class for the pixel â€˜
-                                                  Aâ€™ is \rule{2cm}{0.5mm}.
-? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.965 .... The assigned class for the pixel â€˜Aâ€
-                                                  ™ is \rule{2cm}{0.5mm}.
-? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.965 ... The assigned class for the pixel â€˜Aâ€™
-                                                   is \rule{2cm}{0.5mm}.
-? 
-<figs/fig13.png, id=412, 494.59781pt x 358.33875pt>
-File: figs/fig13.png Graphic file (type png)
-<use figs/fig13.png>
-Package pdftex.def Info: figs/fig13.png  used on input line 968.
-(pdftex.def)             Requested size: 309.60315pt x 224.30563pt.
-[17
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.971 \end{figure}
-                   <./figs/fig12.png> <./figs/fig15.png> <./figs/fig16.png> <./
-figs/fig17.png> <./figs/fig18.png>] [18
-pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1015 \item B
-              and 3 provides some unique information not found in other bands <
-./figs/fig13.png>]
-<figs/fig14.png, id=453, 449.42906pt x 265.74281pt>
-File: figs/fig14.png Graphic file (type png)
-<use figs/fig14.png>
-Package pdftex.def Info: figs/fig14.png  used on input line 1025.
-(pdftex.def)             Requested size: 309.60315pt x 183.07077pt.
- [19
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1055 \item T
-              he hue, intensity and saturation values for a pixel are $H = 0...
- <./figs/fig14.png>]
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1073 ...ied image is given below. The Producerâ€
-                                                  ™s accuracy of class 1 is ...
-
-? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1073 ...ed image is given below. The Producerâ€™
-                                                  s accuracy of class 1 is \...
-
-? 
-[20] (./main.aux)
+[17] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1992,26 +1797,24 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46624 strings out of 476091
- 1078352 string characters out of 5794081
- 1868330 words of memory out of 5000000
- 65898 multiletter control sequences out of 15000+600000
- 596712 words of font info for 226 fonts, out of 8000000 for 9000
+ 46554 strings out of 476091
+ 1076910 string characters out of 5794081
+ 1874330 words of memory out of 5000000
+ 65802 multiletter control sequences out of 15000+600000
+ 599808 words of font info for 229 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,17n,96p,1172b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,19n,96p,1172b,688s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 475170 bytes).
+onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (17 pages, 497396 bytes).
 PDF statistics:
- 605 PDF objects out of 1000 (max. 8388607)
- 518 compressed objects within 6 object streams
- 363 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 540 compressed objects within 6 object streams
+ 393 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
