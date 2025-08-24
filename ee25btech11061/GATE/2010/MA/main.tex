@@ -34,7 +34,6 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{float}
-\usepackage{booktabs}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{problem}{Problem}
 \newtheorem{proposition}{Proposition}[section]
@@ -48,815 +47,994 @@
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
 
+
+
+\title{\LARGE \textbf{MA - 2010}}
+\author{\Large EE25BTECH11061 Vankudoth Sainadh}
+\date{}
+
 \begin{document}
-\title{
-ASSIGNMENT 1: GATE 2013 \\
-AG : Agricultural Engineering}
-\author{EE25BTECH11047 - Ravula Shashank Reddy}
+
 \maketitle
-\renewcommand{\thefigure}{\theenumi}
-\renewcommand{\thetable}{\theenumi}
+\begin{flushleft}
+\begin{enumerate}
+\item Let $E$ and $F$ be any two events with $P(E \cup F) = 0.8$, $P(E)=0.4$ and $P(E|F)=0.3$. Then $P(F)$ is \underline{\hspace{2cm}}.
 
-
+\hfill (GATE MA 2010)
 
 \begin{enumerate}
-
-\item If $\mathbf P = \mathbf A\,\mathbf B$, where $\displaystyle \mathbf A = \myvec{2 & 1 \\ 3 & 0}$ and $\displaystyle \mathbf B = \myvec{1 & 3 & 0 \\ 2 & 1 & 2}$; then $\mathbf P$ is\
-
-\hfill(GATE EE 2025)
-
 \begin{multicols}{4}
-\begin{enumerate}
-    \item $\myvec{7 & 2\\ 9 & 0}$
-    \item $\myvec{4 & 7 & 2\\ 3 & 9 & 0}$ 
-    \item $\myvec{2 & 4\\ 3 & 9}$ 
-    \item $\myvec{2 & 4 & 7\\ 0 & 3 & 9}$
-\end{enumerate}
+\item $\dfrac{3}{7}$
+\item $\dfrac{4}{7}$
+\item $\dfrac{1}{5}$
+\item $\dfrac{2}{5}$
 \end{multicols}
+\end{enumerate}
 
-\item If $\mathbf C = \mathbf A \times \mathbf B$, where $\mathbf A = 2\,\mathbf i - \mathbf j + 3\,\mathbf k$ and $\mathbf B = \mathbf i + 2\,\mathbf j$; then $\mathbf C$ is\
+\item Let $X$ have a binomial distribution with parameters $n$ and $p$, where $n$ is an integer greater than $1$ and $0<p<1$. If $P(X=0)=P(X=1)$, then the value of $p$ is \underline{\hspace{2cm}}.
 
-\hfill(GATE EE 2025)
+\hfill (GATE MA 2010)
 
+\begin{enumerate}
 \begin{multicols}{4}
-\begin{enumerate}
-    \item  $-6\,\mathbf i + 3\,\mathbf j + 5\,\mathbf k$ 
-    \item  $6\,\mathbf i + 3\,\mathbf j - 5\,\mathbf k$ 
-    \item $-6\,\mathbf i + 2\,\mathbf j + 3\,\mathbf k$ 
-    \item $6\,\mathbf i + 2\,\mathbf j + 5\,\mathbf k$
-\end{enumerate}
+\item $\dfrac{1}{n-1}$
+\item $\dfrac{n}{n+1}$
+\item $\dfrac{1}{n+1}$
+\item $\dfrac{1}{1+n\sqrt{n}}$
 \end{multicols}
+\end{enumerate}
 
-\item The general solution of the differential equation is
+\item Let $u(x,y)=2x(1-y)$ for all real $x$ and $y$. Then a function $v(x,y)$, so that $f(z)=u(x,y)+iv(x,y)$ is analytic, is \underline{\hspace{2cm}}.
+
+\hfill (GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $(x^{2}-(y-1)^{2})$
+\item $(x-1)^{2}-y^{2}$
+\item $(x-1)^{2}+y^{2}$
+\item $x^{2}+(y-1)^{2}$
+\end{multicols}
+\end{enumerate}
+
+\item Let $f(z)$ be analytic on $D=\{z\in \mathbb{C}:|z-1|<1\}$ such that $f(1)=1$. If $f(z)=f(z^{2})$ for all $z\in D$, then which one of the following statements is NOT correct? \underline{\hspace{2cm}}
+
+\hfill (GATE MA 2010)
+
+\begin{enumerate}
+\item $f(z)=[f(z)]^{2}$ for all $z \in D$
+\item $f\left(\dfrac{z}{2}\right)=\dfrac{1}{2}f(z)$ for all $z \in D$
+\item $f(z^{2})=[f(z)]^{2}$ for all $z \in D$
+\item $f'(1)=0$
+\end{enumerate}
+
+\item The maximum number of linearly independent solutions of the differential equation
 \begin{align*}
-\dfrac{d^2 y}{dx^2} - 3\dfrac{dy}{dx} - 4y = 0
+\dfrac{d^{4}y}{dx^{4}}=0,
+\end{align*}
+with the condition $y(0)=1$, is \underline{\hspace{2cm}}.
+
+\hfill (GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item 4
+\item 3
+\item 2
+\item 1
+\end{multicols}
+\end{enumerate}
+
+\item Which one of the following sets of functions is NOT orthogonal (with respect to the $L^{2}$ inner product) over the given interval? \underline{\hspace{2cm}}
+
+\hfill (GATE MA 2010)
+
+\begin{enumerate}
+\item $\{\sin ax: a \in \mathbb{N}\}, \quad -\pi < x < \pi$
+\item $\{\cos ax: a \in \mathbb{N}\}, \quad -\pi < x < \pi$
+\item $\{x^{2n}: n \in \mathbb{N}\}, \quad -1 < x < 1$
+\item $\{x^{2n+1}: n \in \mathbb{N}\}, \quad -1 < x < 1$
+\end{enumerate}
+
+\item If $f:[1,2]\to \mathbb{R}$ is a non-negative Riemann-integrable function such that
+\begin{align*}
+\int_{1}^{2}\sqrt{x}f(x)\,dx = k \int_{1}^{2}f(x)\,dx \neq 0,
+\end{align*}
+then $k$ belongs to the interval \underline{\hspace{2cm}}.
+
+\hfill (GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $\left[0,\dfrac{1}{\sqrt{2}}\right]$
+\item $\left(\dfrac{1}{\sqrt{2}},\dfrac{2}{\sqrt{3}}\right]$
+\item $\left(\dfrac{2}{\sqrt{3}},1\right]$
+\item $\left(1,\dfrac{4}{3}\right]$
+\end{multicols}
+\end{enumerate}
+
+\item The set $X=\mathbb{R}$ with the metric $d(x,y)=\dfrac{|x-y|}{1+|x-y|}$ is \underline{\hspace{2cm}}. 
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item bounded but not compact
+\item bounded but not complete
+\item complete but not bounded
+\item compact but not complete
+\end{multicols}
+\end{enumerate}
+
+\item Let 
+\begin{align*}
+f(x,y)=
+\begin{cases}
+\dfrac{xy}{(x^2+y^2)^{k/2}}\left[1-\cos(x^2+y^2)\right], & (x,y)\neq(0,0), \\[8pt]
+0, & (x,y)=(0,0).
+\end{cases}
+\end{align*}
+Then the value of $k$ for which $f(x,y)$ is continuous at $(0,0)$ is \underline{\hspace{2cm}}.
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $0$
+\item $\dfrac{1}{2}$
+\item $1$
+\item $\dfrac{3}{2}$
+\end{multicols}
+\end{enumerate}
+
+\item Let $A$ and $B$ be disjoint subsets of $\mathbb{R}$ and let $m^*$ denote the Lebesgue outer measure on $\mathbb{R}$.  
+Consider the statements:  
+$P$: $m^*(A\cup B)=m^*(A)+m^*(B)$  
+$Q$: Both $A$ and $B$ are Lebesgue measurable  
+$R$: One of $A$ and $B$ is Lebesgue measurable  
+
+Which one of the following is correct? \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\item If $P$ is true, then $Q$ is true
+\item If $P$ is NOT true, then $R$ is true
+\item If $R$ is true, then $P$ is NOT true
+\item If $R$ is true, then $P$ is true
+\end{enumerate}
+
+\item Let $f:\mathbb{R}\to [0,\infty)$ be a Lebesgue measurable function and $E$ be a Lebesgue measurable subset of $\mathbb{R}$ such that 
+\[
+\int_E f\,dm=0,
+\]
+where $m$ is the Lebesgue measure on $\mathbb{R}$. Then \underline{\hspace{2cm}}.
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\item $m(E)=0$
+\item $\{x\in E:f(x)=0\}=E$
+\item $m(\{x\in E:f(x)\neq 0\})=0$
+\item $m(\{x\in E:f(x)=0\})=0$
+\end{enumerate}
+\newpage
+\item If the nullity of the matrix 
+\[
+\myvec{ k & 1 & 2 \\ 1 & -1 & -2 \\ 1 & 1 & 4 }
+\]
+is $1$, then the value of $k$ is \underline{\hspace{2cm}}.
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $-1$
+\item $0$
+\item $1$
+\item $2$
+\end{multicols}
+\end{enumerate}
+
+\item If a $3\times 3$ real skew-symmetric matrix has an eigenvalue $2i$, then one of the remaining eigenvalues is \underline{\hspace{2cm}}.
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $\dfrac{1}{2i}$
+\item $-\dfrac{1}{2i}$
+\item $0$
+\item $1$
+\end{multicols}
+\end{enumerate}
+\item For the linear programming problem  
+Minimize $z = x-y$, subject to $2x+3y\leq 6, \; 0\leq x \leq 3,\; 0\leq y \leq 3$,  
+the number of extreme points of its feasible region and the number of basic feasible solutions respectively, are \underline{\hspace{2cm}}.  
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item 3 and 3
+\item 4 and 4
+\item 3 and 5
+\item 4 and 5
+\end{multicols}
+\end{enumerate}
+
+\item Which one of the following statements is correct? \underline{\hspace{2cm}}  
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\item If a Linear Programming Problem (LPP) is infeasible, then its dual is also infeasible  
+\item If an LPP is infeasible, then its dual always has unbounded solution  
+\item If an LPP has unbounded solution, then its dual also has unbounded solution  
+\item If an LPP has unbounded solution, then its dual is infeasible  
+\end{enumerate}
+
+\item Which one of the following groups is simple? \underline{\hspace{2cm}}  
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $S_3$
+\item $GL(2,\mathbb{R})$
+\item $\mathbb{Z}_2 \times \mathbb{Z}_2$
+\item $A_5$
+\end{multicols}
+\end{enumerate}
+
+\item Consider the algebraic extension $E=\mathbb{Q}(\sqrt{2},\sqrt{3},\sqrt{5})$ of the field $\mathbb{Q}$ of rational numbers.  
+Then $[E:\mathbb{Q}]$, the degree of $E$ over $\mathbb{Q}$, is \underline{\hspace{2cm}}.  
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item 3
+\item 4
+\item 7
+\item 8
+\end{multicols}
+\end{enumerate}
+
+\item The general solution of the partial differential equation  
+\[
+\frac{\partial^2 z}{\partial x \partial y} = x+y
+\]  
+is of the form \underline{\hspace{2cm}}.  
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\item $\dfrac{1}{2}xy(x+y)+F(x)+G(y)$  
+\item $\dfrac{1}{2}xy(x-y)+F(x)+G(y)$  
+\item $\dfrac{1}{2}xy(x-y)+F(x)G(y)$  
+\item $\dfrac{1}{2}xy(x+y)+F(x)G(y)$  
+\end{enumerate}
+
+\item The numerical value obtained by applying the two-point trapezoidal rule to the integral  
+\begin{align*}
+\int_0^1 \frac{\ln(1+x)}{x} dx
+\end{align*}
+is \underline{\hspace{2cm}}.  
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $\dfrac{1}{2}(\ln 2+1)$  
+\item $\dfrac{1}{2}$  
+\item $\dfrac{1}{2}(\ln 2-1)$  
+\item $\dfrac{1}{2}\ln 2$  
+\end{multicols}
+\end{enumerate}
+
+\item Let $\ell_k(x), k=0,1,\dots,n$ denote the Lagrange's fundamental polynomials of degree $n$ for the nodes $x_0,x_1,\dots,x_n$.  
+Then the value of $\sum_{k=0}^n \ell_k(x)$ is \underline{\hspace{2cm}}.  
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item 0
+\item $n$
+\item $x+1$
+\item $x-1$
+\end{multicols}
+\end{enumerate}
+\item Let $X$ and $Y$ be normed linear spaces and $\{T_n\}$ be a sequence of bounded linear operators from $X$ to $Y$. Consider the statements: \\
+$P\colon \{\lVert T_n x\rVert \colon n\in\mathbb{N}\}$ is bounded for each $x\in X$. \\
+$Q\colon \{\lVert T_n\rVert \colon n\in\mathbb{N}\}$ is bounded. \\
+Which one of the following is correct? \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item If $P$ implies $Q$, then both $X$ and $Y$ are Banach spaces
+\item If $P$ implies $Q$, then only one of $X$ and $Y$ is a Banach space
+\item If $X$ is a Banach space, then $P$ implies $Q$
+\item If $Y$ is a Banach space, then $P$ implies $Q$
+\end{multicols}
+\end{enumerate}
+
+\item Let $X=C[0,1]$ with the norm $\lVert x\rVert_1=\displaystyle\int_{0}^{1}\lvert x(t)\rvert\,dt$, $x\in C[0,1]$, and $\Omega=\{f\in X' \colon \lVert f\rVert=1\}$, where $X'$ denotes the dual space of $X$. Let $C(\Omega)$ be the linear space of continuous functions on $\Omega$ with the norm $\lVert u\rVert_\infty=\sup_{f\in\Omega}\lvert u(f)\rvert$, $u\in C(\Omega)$. Then \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\item $X$ is linearly isometric with $C(\Omega)$
+\item $X$ is linearly isometric with a proper subspace of $C(\Omega)$
+\item there does not exist a linear isometry from $X$ into $C(\Omega)$
+\item every linear isometry from $X$ to $C(\Omega)$ is onto
+\end{enumerate}
+
+\item Let $X=\mathbb{R}$ equipped with the topology generated by open intervals of the form $(a,b)$ and sets of the form $(a,b)\setminus\mathbb{Q}$. Which one of the following statements is correct? \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $X$ is regular
+\item $X$ is normal
+\item $X\setminus\mathbb{Q}$ is dense in $X$
+\item $\mathbb{Q}$ is dense in $X$
+\end{multicols}
+\end{enumerate}
+
+\item Let $H,T$ and $V$ denote the Hamiltonian, the kinetic energy and the potential energy respectively of a mechanical system at time $t$. If $H$ contains $t$ explicitly, then $\dfrac{dH}{dt}$ is equal to \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $\dfrac{\partial T}{\partial t}$
+\item $\dfrac{\partial T}{\partial t}-\dfrac{\partial V}{\partial t}$
+\item $\dfrac{\partial T}{\partial t}+\dfrac{\partial V}{\partial t}$
+\item $-\dfrac{\partial V}{\partial t}$
+\end{multicols}
+\end{enumerate}
+
+\item The Euler's equation for the variational problem  
+\begin{align*}
+\text{Minimize}\quad I(y(x))=\int_{a}^{b}\big(x^{2}-xy-y'^{2}\big)\,dx
+\end{align*}
+is \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $2y''-y=2$
+\item $2y'+y=2$
+\item $2y''-y=0$
+\item $2y'-y=0$
+\end{multicols}
+\end{enumerate}
+\item Let $X$ have a binomial distribution with parameters $n$ and $p$, $n=3$. For testing the hypothesis $H_0\colon p=\tfrac{2}{3}$ against $H_1\colon p=\tfrac{1}{3}$, let a test be: "Reject $H_0$ if $X\geq 2$ and accept $H_0$ if $X\leq 1$." Then the probabilities of Type I and Type II errors respectively are \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $\dfrac{20}{27}$ and $\dfrac{20}{27}$
+\item $\dfrac{7}{27}$ and $\dfrac{20}{27}$
+\item $\dfrac{20}{27}$ and $\dfrac{7}{27}$
+\item $\dfrac{7}{27}$ and $\dfrac{7}{27}$
+\end{multicols}
+\end{enumerate}
+
+\item Let $I=\int\limits_{C}\dfrac{f(z)}{z(z-1)(z-2)}\,dz$, where $f(z)=\sin\dfrac{\pi z}{2}+\cos\dfrac{\pi z}{2}$ and $C$ is the curve $\lvert z\rvert=3$ oriented anti-clockwise. Then the value of $I$ is \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $4\pi i$
+\item $0$
+\item $-2\pi i$
+\item $-4\pi i$
+\end{multicols}
+\end{enumerate}
+
+\item Let $\sum\limits_{n=-\infty}^{\infty} b_n z^n$ be the Laurent series expansion of the function $\dfrac{1}{z\sinh z}$, $0<\lvert z\rvert<\pi$. Then which one of the following is correct? \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\item $b_{-2}=1,\; b_0=-\dfrac{1}{6},\; b_2=\dfrac{7}{360}$
+\item $b_{-1}=1,\; b_1=-\dfrac{1}{6},\; b_3=\dfrac{7}{360}$
+\item $b_2=0,\; b_0=-\dfrac{1}{6},\; b_2=\dfrac{7}{360}$
+\item $b_0=1,\; b_2=-\dfrac{1}{6},\; b_4=\dfrac{7}{360}$
+\end{enumerate}
+
+\item Under the transformation $w=\dfrac{1-iz}{z-i}$, the region $D=\{z\in\mathbb{C}\colon\lvert z\rvert<1\}$ is transformed to \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $\{z\in\mathbb{C}\colon 0<\arg z<\pi\}$
+\item $\{z\in\mathbb{C}\colon -\pi<\arg z<0\}$
+\item $\{z\in\mathbb{C}\colon 0<\arg z<\tfrac{\pi}{2}\;\;\text{or}\;\;\pi<\arg z<\tfrac{3\pi}{2}\}$
+\item $\{z\in\mathbb{C}\colon \tfrac{\pi}{2}<\arg z<\pi\;\;\text{or}\;\; \tfrac{3\pi}{2}<\arg z<2\pi\}$
+\end{multicols}
+\end{enumerate}
+\newpage
+\item Let $y(x)$ be the solution of the initial value problem
+\begin{align*}
+y'''-y''+4y'-4y=0,\quad y(0)=y'(0)=2,\; y''(0)=0.
+\end{align*}
+Then the value of $y\left(\tfrac{\pi}{2}\right)$ is \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $\dfrac{1}{5}\left(4e^{\tfrac{\pi}{2}}-6\right)$
+\item $\dfrac{1}{5}\left(e^{\tfrac{\pi}{2}}-4\right)$
+\item $\dfrac{1}{5}\left(8e^{\tfrac{\pi}{2}}-2\right)$
+\item $\dfrac{1}{5}\left(8e^{\tfrac{\pi}{2}}+2\right)$
+\end{multicols}
+\end{enumerate}
+\item Let $y(x)$ be the solution of the initial value problem
+\begin{align*}
+x^2y''+xy'+y=x,\quad y(0)=y'(0)=1.
+\end{align*}
+Then the value of $y(e^{\tfrac{\pi i}{2}})$ is \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $\dfrac{1}{2}(1-e^{\tfrac{\pi i}{2}})$
+\item $\dfrac{1}{2}(1+e^{\tfrac{\pi i}{2}})$
+\item $\dfrac{1}{2}+\dfrac{\pi i}{4}$
+\item $\dfrac{1}{2}-\dfrac{\pi i}{4}$
+\end{multicols}
+\end{enumerate}
+
+\item Let $T:\mathbb{R}^3\to\mathbb{R}^3$ be a linear transformation defined by $T(x,y,z)=(x+y,\,y+z,\,z-x)$. Then, an orthonormal basis for the range of $T$ is \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+    \item $\left\{\myvec{\tfrac{1}{\sqrt{2}},\tfrac{1}{\sqrt{2}},0},\;\myvec{\tfrac{1}{\sqrt{3}},-\tfrac{1}{\sqrt{3}},\tfrac{1}{\sqrt{3}}}\right\}$
+
+\item $\left\{\myvec{\tfrac{1}{\sqrt{2}},-\tfrac{1}{\sqrt{2}},0},\;\myvec{\tfrac{1}{\sqrt{6}},\tfrac{1}{\sqrt{6}},\tfrac{2}{\sqrt{6}}}\right\}$
+
+\item $\left\{\myvec{\tfrac{1}{\sqrt{2}},\tfrac{1}{\sqrt{2}},0},\;\myvec{\tfrac{1}{\sqrt{6}},-\tfrac{1}{\sqrt{6}},-\tfrac{2}{\sqrt{6}}}\right\}$
+
+\item $\left\{\myvec{\tfrac{1}{\sqrt{2}},-\tfrac{1}{\sqrt{2}},0},\;\myvec{\tfrac{1}{\sqrt{3}},\tfrac{1}{\sqrt{3}},\tfrac{1}{\sqrt{3}}}\right\}$
+\end{multicols}
+
+\end{enumerate}
+
+\item Let $T:P_3[0,1]\to P_3[0,1]$ be defined by $(Tp)(x)=p''(x)+p'(x)$. Then the matrix representation of $T$ with respect to the bases $\{1,x,x^2,x^3\}$ and $\{1,x,x^2,x^3\}$ of $P_3[0,1]$ and $P_2[0,1]$ respectively is \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $\myvec{0&0&0\\1&0&0\\2&2&0\\0&6&3}$
+\item $\myvec{0&1&2&0\\0&0&2&6\\0&0&0&3}$
+\item $\myvec{0&2&1&0\\6&2&0&0\\3&0&0&0}$
+\item $\myvec{0&0&0\\0&0&1\\0&2&2\\3&6&0}$
+\end{multicols}
+\end{enumerate}
+
+\item Consider the basis $\{u_1,u_2,u_3\}$ of $\mathbb{R}^3$, where $u_1=(1,0,0)$, $u_2=(1,1,0)$, $u_3=(1,1,1)$. Let $\{f_1,f_2,f_3\}$ be the dual basis of $\{u_1,u_2,u_3\}$ and $f$ be a linear functional defined by $f(a,b,c)=a+b+c$, $(a,b,c)\in\mathbb{R}^3$. If $f=\alpha_1f_1+\alpha_2f_2+\alpha_3f_3$, then $(\alpha_1,\alpha_2,\alpha_3)$ is \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $(1,2,3)$
+\item $(1,3,2)$
+\item $(2,3,1)$
+\item $(3,2,1)$
+\end{multicols}
+\end{enumerate}
+
+\item The following table gives the cost matrix of a transportation problem. 
+
+\begin{align*}
+\begin{array}{|c|c|c|c|}
+4 & 5 & 6 \\
+\hline
+3 & 2 & 2 \\
+\hline
+1 & 1 & 2
+\end{array}
+\end{align*}
+.
+The basic feasible solution given by $x_{11}=3,\;x_{12}=1,\;x_{13}=6,\;x_{21}=2,\;x_{22}=5$ is \underline{\hspace{2cm}}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item degenerate and optimal
+\item optimal but not degenerate
+\item degenerate but not optimal
+\item neither degenerate nor optimal
+\end{multicols}
+\end{enumerate}
+\item If $z^*$ is the optimal value of the linear programming problem
+\begin{align*}
+&\text{Maximize } z=5x_1+9x_2+4x_3,\\
+&\text{subject to } x_1+x_2+x_3\le 5,\\
+&\phantom{\text{subject to }} 4x_1+3x_2+2x_3=12,\\
+& x_1,x_2,x_3\ge 0,
+\end{align*}
+then
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $0\le z^*<10$
+\item $10\le z^*<20$
+\item $20\le z^*<30$
+\item $30\le z^*<40$
+\end{multicols}
+\end{enumerate}
+
+\item Let $G_1$ be an abelian group of order $6$ and $G_2=S_5$. For $j=1,2$, let $P_j$ be the statement: $G_j$ has a unique subgroup of order $2$. Then
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item both $P_1$ and $P_2$ hold
+\item neither $P_1$ nor $P_2$ holds
+\item $P_1$ holds but not $P_2$
+\item $P_2$ holds but not $P_1$
+\end{multicols}
+\end{enumerate}
+
+\item Let $G$ be the group of all symmetries of the square. Then the number of conjugate classes in $G$ is
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $4$
+\item $5$
+\item $6$
+\item $7$
+\end{multicols}
+\end{enumerate}
+
+\item Consider the polynomial ring $\mathbb{Q}[x]$. The ideal of $\mathbb{Q}[x]$ generated by $x^2-3$ is
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item maximal but not prime
+\item prime but not maximal
+\item both maximal and prime
+\item neither maximal nor prime
+\end{multicols}
+\end{enumerate}
+
+\item Consider the wave equation
+\begin{align*}
+\frac{\partial^2 u}{\partial t^2}=4\,\frac{\partial^2 u}{\partial x^2},\quad 0<x<\pi,\ t>0,\\
+u(0,t)=u(\pi,t)=0,\qquad u(x,0)=\sin x,\qquad \frac{\partial u}{\partial t}(x,0)=0.
+\end{align*}
+Then $u\!\left(\frac{\pi}{2},\frac{\pi}{2}\right)$ is
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $2$
+\item $1$
+\item $0$
+\item $-1$
+\end{multicols}
+\end{enumerate}
+
+\item Let $I=\displaystyle\int_C \frac{e^x}{x}\,dx+\left(e^y\ln x+x\right)\,dy$, where $C$ is the positively oriented boundary of the region enclosed by $y=1+x^2$, $y=2x$, $x=\tfrac12$. Then the value of $I$ is
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $\dfrac{1}{8}$
+\item $\dfrac{5}{24}$
+\item $\dfrac{7}{24}$
+\item $\dfrac{3}{8}$
+\end{multicols}
+\end{enumerate}
+\item Let $\{f_n\}$ be a sequence of real valued differentiable functions on $[a,b]$ such that $f_n(x)\to f(x)$ as $n\to\infty$ for every $x\in[a,b]$ and for some Riemann-integrable function $f:[a,b]\to\mathbb{R}$. Consider the statements
+\begin{align*}
+P_1&:\ \{f_n\}\ \text{converges uniformly},\\
+P_2&:\ \{f_n'\}\ \text{converges uniformly},\\
+P_3&:\ \int_a^b f_n(x)\,dx\ \to\ \int_a^b f(x)\,dx,\\
+P_4&:\ f\ \text{is differentiable}.
+\end{align*}
+Then which one of the following need NOT be true
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $P_3$ implies $P_1$
+\item $P_2$ implies $P_1$
+\item $P_2$ implies $P_4$
+\item $P_3$ implies $P_4$
+\end{multicols}
+\end{enumerate}
+\item Let $f_n(x)=\dfrac{x^n}{1+x}$ and $g_n(x)=\dfrac{x^n}{1+n x}$ for $x\in[0,1]$ and $n\in\mathbb{N}$. Then on the interval $[0,1]$,
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item both $\{f_n\}$ and $\{g_n\}$ converge uniformly
+\item neither $\{f_n\}$ nor $\{g_n\}$ converge uniformly
+\item $\{f_n\}$ converges uniformly but $\{g_n\}$ does not converge uniformly
+\item $\{g_n\}$ converges uniformly but $\{f_n\}$ does not converge uniformly
+\end{multicols}
+\end{enumerate}
+
+\item Consider the power series $\sum_{n=1}^{\infty} \dfrac{x^n}{\sqrt{n}}$ and $\sum_{n=1}^{\infty} \dfrac{x^n}{n}$. Then
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item both converge on $(-1,1)$
+\item both converge on $[-1,1)$
+\item exactly one of them converges on $(-1,1)$
+\item none of them converges on $[-1,1)$
+\end{multicols}
+\end{enumerate}
+
+\item Let $X=\mathbb{N}$ be equipped with the topology generated by the basis consisting of sets $A_n=\{n,n+1,n+2,\ldots\}, n\in\mathbb{N}$. Then $X$ is
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item Compact and connected
+\item Hausdorff and connected
+\item Hausdorff and compact
+\item Neither compact nor connected
+\end{multicols}
+\end{enumerate}
+
+\item Four weightless rods form a rhombus $PQRS$ with smooth hinges at the joints. Another weightless rod joins the midpoints $E$ and $F$ of $PQ$ and $PS$ respectively. The system is suspended from $P$ and a weight $2W$ is attached to $R$. If the angle between the rods $PQ$ and $PS$ is $2\theta$, then the thrust in the rod $EF$ is
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item $W \tan\theta$
+\item $2W \tan\theta$
+\item $2W \cot\theta$
+\item $4W \tan\theta$
+\end{multicols}
+\end{enumerate}
+\newpage
+\item For a continuous function $f(t)$, $0\leq t\leq 1$, the integral equation 
+\begin{align*}
+y(t)=f(t)+\int_0^1 ts\,y(s)\,ds
+\end{align*}
+has
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item a unique solution if $\int_0^1 s f(s)\,ds \neq 0$
+\item no solution if $\int_0^1 s f(s)\,ds = 0$
+\item infinitely many solutions if $\int_0^1 s f(s)\,ds = 0$
+\item infinitely many solutions if $\int_0^1 s f(s)\,ds \neq 0$
+\end{multicols}
+\end{enumerate}
+\textbf{Common Data for Q.48 and Q.49: }
+
+Let $X$ and $Y$ be continuous random variables with the joint probability density function
+\begin{align*}
+f(x,y)=
+\begin{cases}
+a\,x^{2}e^{-y}, & 0<x<y<\infty,\\
+0, & \text{otherwise}.
+\end{cases}
 \end{align*}
 
-\hfill(GATE EE 2025)
+\hfill(GATE MA 2010)
 
-\begin{multicols}{4}
+\item The value of $a$ is
+\hfill(GATE MA 2010)
 \begin{enumerate}
-  \item  $Ae^{x} + Be^{-4x}$
-  \item $Ae^{-x} + Be^{4x}$ 
-  \item $Ae^{x} + Be^{4x}$ 
-  \item $Ae^{-x} + Be^{-4x}$
-\end{enumerate}
-\end{multicols}
-
-\item Eigenvalues of the matrix $\myvec{2 & 1\\[2pt] 3 & 2}$ are\
-
-\hfill(GATE EE 2025)
-
 \begin{multicols}{4}
- \begin{enumerate}
-     \item  $\pm 2i$ 
-     \item  $2i\pm \sqrt{3}\,$
-     \item  $2 \pm i\sqrt3$
-     \item  $2 \pm \sqrt3$.
- \end{enumerate}   
+\item $4$
+\item $2$
+\item $1$
+\item $0.5$
 \end{multicols}
+\end{enumerate}
 
-\item Poisson distribution having a mean of $5$ will have $\sqrt{5}$ as\
+\item The value of $E[X\,|\,Y=2]$ is
 
-\hfill(GATE EE 2025)
+\hfill(GATE MA 2010)
 
+\begin{enumerate}
+\begin{multicols}{4}
+\item $4$
+\item $3$
+\item $2$
+\item $1$
+\end{multicols}
+\end{enumerate}
+
+\textbf{Common Data for Q.50 and Q.51:} 
+
+Let $X=\mathbb{N}\times\mathbb{Q}$ with the subspace topology of the usual topology on $\mathbb{R}^{2}$ and $P=\{(n,\tfrac{1}{n}):n\in\mathbb{N}\}$.
+
+
+
+\item In the space $X$,
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
 \begin{multicols}{2}
-\begin{enumerate}
-    \item  median 
-    \item mode
-    \item standard deviation
-    \item variance
-\end{enumerate}
+\item $P$ is closed but not open
+\item $P$ is open but not closed
+\item $P$ is both open and closed
+\item $P$ is neither open nor closed
 \end{multicols}
-
-\item During the testing of a spike-tooth type thresher for wheat crop, the throughput and the thresher capacity were found to be $750\,\mathrm{kg\,h^{-1}}$ and $445\,\mathrm{kg\,h^{-1}}$, respectively. The grain--straw ratio (grain:straw) of the crop is $1.5:1$. Material other than grain (MOG) collected at the main grain outlet is $0.5\%$. The total grain loss in percentage from all the sources will be\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 0.33
-    \item 0.50
-    \item 1.11
-    \item 1.61
-\end{enumerate}
-\end{multicols}
-
-\item The rear furrow wheel in a tractor mounted disc plough is provided to\
-
-\hfill(GATE EE 2025)
-
-\begin{enumerate}
-    \item reduce the frictional power loss 
-    \item maintain the uniform depth of cut
-    \item reduce the side draft 
-    \item improve the penetration of the plough.
-\end{enumerate}
-\item The cumulative discharge of a tractor mounted hydraulic sprayer having 7 nozzles is $2.0\,\mathrm{L\,min^{-1}}$ when the tractor is operated at $4\,\mathrm{km\,h^{-1}}$. If the nozzle spacing is $0.3\,\mathrm{m}$, the discharge in $\mathrm{L\,ha^{-1}}$ is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 1000.02
-    \item 285.72
-    \item 166.67
-    \item 142.86
-\end{enumerate}
-\end{multicols}
-
-\item A two-wheel drive tractor, while negotiating a terrain, indicates 100\% slip of one of the rear wheels. Under such a condition, the use of differential lock causes\
-
-\hfill(GATE EE 2025)
-
-\begin{enumerate}
-    \item equal speed and equal power distribution to both the drive wheels  
-    \item equal speed and equal torque distribution to both the drive wheels 
-    \item equal power and equal torque distribution to both the drive wheels 
-    \item equal speed and unequal power distribution to both the drive wheels.
-\end{enumerate}
-\vspace{0.3cm}
-\item A double acting hydraulic cylinder has a rod diameter equal to one-half the piston diameter. If the system pressure is maintained constant, the ratio of load carrying capacity of extension stroke to that of retraction stroke is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 0.75
-    \item 1.00
-    \item 1.33
-    \item 4.00
-\end{enumerate}
-\end{multicols}
-
-\item During a test, sound level was measured as $90\,\mathrm{dB}$ in the operator's cabin on a tractor. Taking reference sound pressure as $5\times10^{-2}\,\mathrm{N\,m^{-2}}$, the measured RMS sound pressure in $\mathrm{N\,m^{-2}}$ is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item $6.32$
-        \item $6.32\times10^{-1}$
-        \item $1.8\times10^{-3}$
-        \item $6.32\times10^{-10}$
-    \end{enumerate}
-\end{multicols}
-
-\item During land leveling of agricultural land for irrigation and drainage purposes, the acceptable deviation in elevation from the design value in metre is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 0.015
-    \item 0.025
-    \item 0.055
-    \item 0.150
-\end{enumerate}
-\end{multicols}
-
-\item The gridiron pipe drainage system is more economical than the herringbone pipe drainage system because\
-
-\hfill(GATE EE 2025)
-
-\begin{enumerate}
-     \item it is adopted in the fields which do not require complete drainage 
-     \item the number of main or sub-main lines is reduced 
-     \item the number of junctions and the double-drained area are reduced 
-     \item it has only main or sub-main lines.
 \end{enumerate}
 
-\item If the drainable porosity of a command area is 5\% and the design rate of drop of the water table is $0.25\,\mathrm{m\,day^{-1}}$, the drainage coefficient of the command area in $\mathrm{mm\,day^{-1}}$ will be 
+\item The boundary of $P$ in $X$ is
 
- \hfill(GATE EE 2025)
- 
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 250
-        \item 12.5
-        \item 1.25
-        \item 0.0125
-    \end{enumerate}
-\end{multicols}
-\vspace{3cm}
-\item A soil has a void ratio of $0.75$ and a specific gravity of $2.66$. The value of critical hydraulic gradient at which quick sand condition will occur is\
+\hfill(GATE MA 2010)
 
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 0.95
-        \item 1.05
-        \item 2.09
-        \item 6.64
-    \end{enumerate}
-\end{multicols}
-
-\item The pressure that does not have any measurable influence on the void ratio or shearing resistance of the soil mass is\
-
-\hfill(GATE EE 2025)
-
+\begin{enumerate}
 \begin{multicols}{2}
-\begin{enumerate}
-    \item pore water pressure
-    \item intergranular pressure 
-    \item capillary pressure 
-    \item  surcharge pressure.
-\end{enumerate}
+\item an empty set
+\item a singleton set
+\item $P$
+\item $X$
 \end{multicols}
+\end{enumerate}
 
-\item The Rational method is used to estimate\
+\textbf{Linked Answer Questions (Q.52-Q.53):}
 
-\hfill(GATE EE 2025)
+For a differentiable function $f(x)$, the integral
+\begin{align*}
+\int_{0}^{1} f(x)\,dx
+\end{align*}
+is approximated by the formula
+\begin{align*}
+h\big[a_{0}f(0)+a_{1}f(1)\big]+h^{2}\big[b_{0}f'(0)+b_{1}f'(1)\big],
+\end{align*}
+which is exact for all polynomials of degree at most $3$.
+\newpage
 
+
+\item The values of $a_{0}$ and $a_{1}$ respectively are
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $\dfrac12$ and $-\dfrac12$
+\item $\dfrac12$ and $\dfrac12$
+\item $2$ and $\dfrac12$
+\item $-\dfrac12$ and $\dfrac12$
+\end{multicols}
+\end{enumerate}
+
+\item The values of $b_{0}$ and $b_{1}$ respectively are
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item $\dfrac{1}{12}$ and $-\dfrac{1}{12}$
+\item $-\dfrac{1}{12}$ and $\dfrac{1}{12}$
+\item $\dfrac{1}{12}$ and $\dfrac{1}{12}$
+\item $-\dfrac{1}{12}$ and $-\dfrac{1}{12}$
+\end{multicols}
+\end{enumerate}
+
+\textbf{Statement for Linked Answer Questions 54 and 55}
+
+Let $X=C[0,1]$ with the inner product
+\begin{align*}
+\langle x,y\rangle=\int_{0}^{1} x(t)\,y(t)\,dt,\qquad x,y\in C[0,1].
+\end{align*}
+Let
+\begin{align*}
+X_{0}=\Big\{x\in X:\int_{0}^{1} t^{2}x(t)\,dt=0\Big\},\qquad
+X_{0}^{\perp}\ \text{be the orthogonal complement of}\ X_{0}.
+\end{align*}
+
+\item Which one of the following statements is correct?
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
 \begin{multicols}{2}
-\begin{enumerate}
-    \item runoff volume
-    \item peak runoff rate
-    \item runoff depth
-    \item direct surface runoff.
+\item Both $X_{0}$ and $X_{0}^{\perp}$ are complete
+\item Neither $X_{0}$ nor $X_{0}^{\perp}$ is complete
+\item $X_{0}$ is complete but $(X_{0})^{\perp}$ is not complete
+\item $X_{0}^{\perp}$ is complete but $X_{0}$ is not complete
+\end{multicols}
 \end{enumerate}
-\end{multicols} 
 
-\item Pan evaporation data recorded at a certain location over a period of one week are $4.0,\, 4.3,\, 4.6,\, 4.9,\, 5.12,\, 5.18,\, 6.21\,\mathrm{mm}$. If irrigation scheduling based on ratio of irrigation water (IW) to cumulative pan evaporation (CPE) is practiced, the depth of irrigation at an interval of a week for $\mathrm{IW/CPE}=0.9$ is\
+\item Let $y(t)=t^{r}$, $r\in[0,1]$, and let $x_{0}\in X_{0}^{\perp}$ be the best approximation of $y$. Then $x_{0}(t)$, $t\in[0,1]$, is
 
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 3.60
-    \item 4.41
-    \item 5.59
-    \item 30.88
-\end{enumerate}
-\end{multicols}
-
-\item A $16\,\mathrm{m}$ high wind break is constructed to protect soil from wind erosion due to wind velocity of $18\,\mathrm{m\,s^{-1}}$ at $15\,\mathrm{m}$ height. The minimum wind velocity at $15\,\mathrm{m}$ height capable of moving the soil fraction is $8\,\mathrm{m\,s^{-1}}$. The angle of deviation of prevailing wind direction from the perpendicular to the wind break is $30^{\circ}$. The distance of full protection from the wind break in m is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 60.44
-    \item 104.69
-    \item 306.00
-    \item 530.01
-\end{enumerate}
-\end{multicols}
-
-\item Milk enters into the heating section of a high temperature short time (HTST) pasteurization plant at a temperature of $45^{\circ}\mathrm{C}$ and leaves at $72^{\circ}\mathrm{C}$. Hot water at temperature of $95^{\circ}\mathrm{C}$ enters counter-currently into the heat exchanger and leaves at $77^{\circ}\mathrm{C}$. The effectiveness of the heat exchanger is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 0.18
-    \item 0.36
-    \item 0.54
-    \item 0.84
-\end{enumerate}
-\end{multicols}
-
-\item The equation representing the heat of respiration ($q$) of fruits and vegetables as a function of temperature ($\theta$) with positive constants $a$ and $b$ is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{2}
-\begin{enumerate}
-    \item $q = a e^{b\theta}$
-    \item $q = a e^{-b\theta}$
-    \item $q = aln(b\theta)$
-    \item $q = a + b\theta$.
-\end{enumerate}
-\end{multicols}
-
-\item For an initial spore load equal to 25 spores per container inoculated with \emph{Clostridium botulinum} having $D_{121}=0.25\,\mathrm{min}$, the spoilage probability of the container subjected to $F_{121}=1.5\,\mathrm{min}$ is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item $10^{-5}$ 
-    \item $10^{-6}$ 
-    \item $10^{-8}$ 
-    \item $10^{-9}$
-\end{enumerate}
-\end{multicols}
-
-\item Slope and intercept of the BET equation relating $[a_w/(1-a_w)]$ and $a_w$, where $a_w$ is water activity and $x$ is the moisture content on dry basis, are 18 and 2, respectively. The values of thermodynamic constant $C$ and BET monolayer moisture content $x_m$ (\%) are respectively\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 40 and 20 
-    \item 30 and 15 
-    \item 20 and 10 
-    \item 10 and 5
-\end{enumerate}
-\end{multicols}
-
-\item A cold storage chamber is constructed with 10 mm mortar, 200 mm brick, 100 mm insulation and 5 mm wood-board having thermal conductivities of 0.8, 1.5, 0.025 and $0.2\,\mathrm{W\,m^{-1}\,K^{-1}}$, respectively. The resistance of $4\,\mathrm{K\,m^2\,W^{-1}}$ is offered by\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item mortar 
-    \item brick 
-    \item insulation 
-    \item wood-board
-\end{enumerate}
-\end{multicols}
-
-\item The horse power of the motor running the compressor of a refrigerator having COP of 4.5 and extracting $200\,\mathrm{kJ\,kg^{-1}}$ of evaporating heat with $1.5\,\mathrm{kg\,min^{-1}}$ refrigerant flow rate is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 0.5
-    \item 1.0
-    \item 1.5
-    \item 2.0
-\end{enumerate}
-\end{multicols}
-
-
-\vspace{0.35em}
-\hrule
-\vspace{0.75cm}
-
-\item Given $f(x)= e^{-x^2}$ for $x=1.1,\,1.2,\,1.3,\,1.4,\ and\ 1.5$, evaluate $\displaystyle \int_{1.1}^{1.5} f(x)\,dx$ by Simpson's $\ 1/3$rd rule is \underline{\hspace{2.5cm}}
-
-\hfill(GATE EE 2025)
-
-\item A tractor operated single acting trailing type disc harrow has 8 discs on each gang. The gang angle of both the gangs is maintained at $35^{\circ}$. The horizontal component of resultant soil reaction force on each disc is $600\,\mathrm{N}$ and it makes an angle of $30^{\circ}$ with the gang axis. If the speed of operation is $6\,\mathrm{km\,h^{-1}}$, the required drawbar power in kW to operate the harrow will be \underline{\hspace{2.5cm}}. 
-
-\hfill(GATE EE 2025)
-
-\item A two-wheel drive tractor pulls an implement that has a draft force of $11.5\,\mathrm{kN}$. The total motion resistance of the tractor is $2.5\,\mathrm{kN}$. Under these circumstances, the slip of the drive wheels is 20\%. If the power loss in transmission is 20\%, the percentage of power lost in converting engine power into drawbar power is \underline{\hspace{2.5cm}}.
-
-\hfill(GATE EE 2025)
-
-\item An unconfined aquifer extends over an area of $1\,\mathrm{km^2}$ and has hydraulic conductivity, total porosity and specific retention of 20 m per day, 30\% and 10\%, respectively. After pumping some groundwater from this aquifer, the water table dropped to a depth of 20 m from the ground level. If the water table was initially at 14.5 m below the ground level, the change in groundwater storage in million cubic meters would be \underline{\hspace{2.5cm}}. 
-
-\hfill(GATE EE 2025)
-
-\item Two parallel canals 50 m apart fully penetrate a homogeneous unconfined aquifer resting on a horizontal impermeable layer. The aquifer has a hydraulic conductivity of $3\,\mathrm{m\,day^{-1}}$ and an effective porosity of $0.25$. One-dimensional steady groundwater flow occurs from the upper canal to the lower canal with the height of water levels in the canals 10 m and 8.5 m from the aquifer bottom, respectively. If a sediment layer of 4 cm thick with hydraulic conductivity of $1.2\times10^{-2}\,\mathrm{m\,day^{-1}}$ is ultimately deposited on the inflow face, the groundwater discharge per 1000 m width between the two canals in $\mathrm{m^{3}\,day^{-1}}$ will be \underline{\hspace{2.5cm}}. 
-
-\hfill(GATE EE 2025)
-
-\item The overall heat transfer coefficient based on the outside surface area of a tubular heat exchanger decreased due to fouling during operation from $1000\,\mathrm{W\,m^{-2}\,K^{-1}}$ to $800\,\mathrm{W\,m^{-2}\,K^{-1}}$. The fouling film coefficient of the heat exchanger in $\mathrm{W\,m^{-2}\,K^{-1}}$ is \underline{\hspace{2.5cm}}. 
-
-\hfill(GATE EE 2025)
-
-\item A high pressure dairy homogenizer operates under upstream and downstream pressures of 200 and 40 bar respectively homogenizing 30 L of whole milk per hour. Density and specific heat capacity of whole milk are $1030\,\mathrm{kg\,m^{-3}}$ and $3.8\,\mathrm{kJ\,kg^{-1}\,K^{-1}}$, respectively. Assuming complete energy conservation, the temperature rise of whole milk in $^{\circ}\mathrm{C}$ is \underline{\hspace{2.5cm}}.
-
-\hfill(GATE EE 2025)
-
-\item A fish fillet of 5 mm thickness having 85\% moisture (wet basis) is to be frozen using a plate freezer. The plates are at $-35^{\circ}\mathrm{C}$ and the heat transfer coefficient between the fillet and the freezer plates can be assumed to be $2.0\,\mathrm{W\,m^{-2}\,K^{-1}}$. The initial freezing temperature of fish is $-2.5^{\circ}\mathrm{C}$, latent heat of fusion is $330\,\mathrm{kJ\,kg^{-1}}$, density of fish is $1100\,\mathrm{kg\,m^{-3}}$ and thermal conductivity of frozen fish is $1.5\,\mathrm{W\,m^{-1}\,K^{-1}}$. The time required to freeze the fillet from the initial freezing temperature in hour(s) is \underline{\hspace{2.5cm}}.
-
-\hfill(GATE EE 2025)
-
-\vspace{0.75cm}
-\item Box 1 contains 15 balls out of which 3 are red. Box 2 contains 12 balls out of which 4 are red. If one ball is drawn at random from each box simultaneously, the probability of getting at least one red ball is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 0.07
-    \item 0.47
-    \item 0.53
-    \item 0.75
-\end{enumerate}
-\end{multicols}
-
-\item A hemispherical vessel of 300 mm diameter is completely filled with oil and water. If the oil layer is 50 mm deep on the top, the volume of water in the vessel in litres is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 1.27
-    \item 3.73
-    \item 7.07
-    \item 14.14
-\end{enumerate}
-\end{multicols}
-
-\item A tractor mounted off-set type reciprocating mower is driven by the PTO shaft. The maximum inertia force of $3.2\,\mathrm{kN}$ occurs along the pitman at $32^{\circ}$ crank angle and $27^{\circ}$ pitman angle with the horizontal plane. The knives of the cutterbar are riveted to the slider. If each of the allowable tensile and compressive stresses of the slider material is $50\,\mathrm{MPa}$, the minimum cross-sectional area of the slider in $\mathrm{mm^{2}}$ is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 29.05
-    \item 33.91
-    \item 54.27
-    \item 57.02
-\end{enumerate}
-\end{multicols}
-
-\item The flywheel of a hand operated chaff cutter with two cutting knives is rotated at 30 rpm and is connected to a worm gear assembly for driving the feed rollers. The number of teeth of the worm gear is 24 and number of starts (threads) of the worm is 2. If diameter of each of the feed rollers is 15 cm, the chaff length in mm will be\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 9.8
-    \item 12.8
-    \item 19.6
-    \item 39.2
-\end{enumerate}
-\end{multicols}
-
-\item A piston pump is driven by a 5 m diameter horizontal axis wind turbine for supplying water from a borehole with a total pump head of 10 m. The mean velocity of air is $18\,\mathrm{km\,h^{-1}}$ and the density of air is $1.29\,\mathrm{kg\,m^{-3}}$. The actual power coefficient of the wind turbine is 0.30 and the overall pump efficiency is 60\%. Neglecting the transmission losses, the expected pump discharge in $\mathrm{L\,s^{-1}}$ will be\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 2.90
-    \item 5.80 
-    \item 28.50
-    \item 32.27
-\end{enumerate}
-\end{multicols}
-
-\item A 4-cylinder, 4-stroke compression ignition engine has piston stroke of 10.5 cm and cylinder bore of 11 cm. At a mean piston speed of $7\,\mathrm{m\,s^{-1}}$, the developed brake mean effective pressure is $650\,\mathrm{kPa}$. The brake power in kW developed by the engine is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 39.40
-    \item 43.24
-    \item 86.48
-    \item 172.96
-\end{enumerate}
-\end{multicols}
-
-\item A centrifugal pump having an overall efficiency of 75\% requires 6 kW power at 1450 rpm to deliver water against a suction head of 5 m and a delivery head of 12 m. If the pump runs at 1650 rpm and frictional head losses are negligible, the total head developed by the pump in metres will be\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 22.01
-    \item 25.05
-    \item 29.35
-    \item 31.72
-\end{enumerate}
-\end{multicols}
-
-\item A 100 ha watershed received rainfall at a rate of $5\,\mathrm{cm\,h^{-1}}$ for 2 hours. If the runoff generated by the storm was at the rate of $1\,\mathrm{m^{3}\,s^{-1}}$ for 10 hours, the runoff coefficient for the watershed would be\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item $3.6\times10^{-3}$ 
-    \item $6.0\times10^{-2}$
-    \item $ 0.36 $
-    \item 36
-\end{enumerate}
-\end{multicols}
-
-\item A 10 ha field has 1.2 m deep layer of sandy loam soil underlain by sandy soil up to a depth of 5 m. A pre-irrigation rainfall brings moisture content of the top 0.3 m layer to its field capacity. The moisture content of rest of the sandy loam layer remains at permanent wilting point. The volumetric moisture content at field capacity and permanent wilting point are 32 and 16\%, respectively for the sandy loam soil. The field is irrigated with a stream size of 240 L s$^{-1}$ for 24 hours. Considering the drainage from the sandy loam soil as deep percolation, application efficiency and deep percolation ratio in percent respectively are\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item  56.40 and 43.60
-    \item  69.44 and 30.56
-    \item  75.18 and 24.82
-    \item  92.60 and 7.40
-\end{enumerate}
-\end{multicols}
-
-\item A watershed, with an area of $360\,\mathrm{km^2}$, has a triangular shaped 4-h unit hydrograph with a base of 50 hours. The peak discharge of direct runoff hydrograph due to 3 cm of rainfall-excess in 4 hours from the watershed in $\mathrm{m^3\,s^{-1}}$ is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 13.33
-    \item 40.00
-    \item 120.00
-    \item 160.00
-\end{enumerate}
-\end{multicols}
-
-\item A rotary dryer is used to dry $1200\,\mathrm{kg\,h^{-1}}$ of paddy containing 30\% moisture (wet basis) to give a product containing 15\% moisture (wet basis). Alternately, a portion of the dry product may be recycled and mixed with the fresh feed such that the mixed feed enters the dryer with moisture content of 20\% (wet basis). The moisture evaporation rate without recycle and the paddy recycle rate in $\mathrm{kg\,h^{-1}}$ respectively in the dryer are\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{2}
-    \begin{enumerate}
-        \item 211.76 and 2400
-        \item 211.76 and 600 
-        \item 256.5 and 2400 
-        \item 256.5 and 600
-    \end{enumerate}
-\end{multicols}
-
-\item The work index of a material is 6.25. If 80\% of the feed and 80\% of the product pass through IS Sieve No. 340 (3.25 mm opening) and IS Sieve No. 40 (0.42 mm opening), respectively, the power consumed in kW to crush $5000\,\mathrm{kg\,h^{-1}}$ of sorghum is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 9.77
-        \item 20.49
-        \item 26.29
-        \item 32.29
-    \end{enumerate}
-\end{multicols}
-
-\item In a screen separator, the mass flow rates of feed, overflow and underflow are 150, 140 and $10\,\mathrm{kg\,h^{-1}}$, respectively. Mass fraction of material in the feed and overflow are 0.9 and 0.96, respectively. The effectiveness of separation in percentage is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 32
-        \item 42
-        \item 52
-        \item 62
-    \end{enumerate}
-\end{multicols}
-
-\item A milk fat globule of $2\,\mu\mathrm{m}$ diameter is rising in whole milk of density $1030\,\mathrm{kg\,m^{-3}}$ and coefficient of viscosity $10^{-3}$ Poise. If the fat density is $950\,\mathrm{kg\,m^{-3}}$, the time needed to rise 10 mm for this fat globule in min is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 0.57
-        \item 34.57
-        \item 35.57
-        \item 95.57
-    \end{enumerate}
-\end{multicols}
-
- A $9\times20\,\mathrm{cm}$ fluted roller type seed drill is operated at a forward speed of $3\,\mathrm{km\,h^{-1}}$ in a field of size $120\,\mathrm{m} \times 90\,\mathrm{m}$. The effective ground wheel diameter of the seed drill is $0.5\,\mathrm{m}$ and the ratio of ground wheel rpm to the fluted roller rpm is 2. For one complete rotation of each fluted roller, $6.8\,\mathrm{g}$ seed is transferred from the seed box to the seed tube. The average time taken for each turn while operating length-wise is 50 s and the total time wasted in refilling the seed box for sowing the entire field is 40 min
-\item The seed rate in $\mathrm{kg\,ha^{-1}}$ will be\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 108.32
-        \item 122.55
-        \item 136.99
-        \item 240.71
-    \end{enumerate}
-\end{multicols}
-
-\item The actual field capacity of the machine in $\mathrm{ha\,h^{-1}}$ is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 0.30
-        \item 0.32
-        \item 0.36
-        \item 0.40
-    \end{enumerate}
-\end{multicols}
-
-
-Specific heat capacity of dry air and water vapour are 1.005 and $1.88\,\mathrm{kJ\,kg^{-1}\,K^{-1}}$, respectively. In an energy conserving system, $1\,\mathrm{kg\,s^{-1}}$ air at $30^{\circ}\mathrm{C}$ with constant absolute humidity of $0.02\,\mathrm{kg\,water\,(kg\,dry\,air)^{-1}}$ is heated up to $65^{\circ}\mathrm{C}$. Water at the wet bulb temperature of air is then sprayed into the air so that the final temperature of the air--water vapour mixture is $40^{\circ}\mathrm{C}$. Latent heat of vaporization of water at $70^{\circ}\mathrm{C}$ and $40^{\circ}\mathrm{C}$ are 2334 and $2407\,\mathrm{kJ\,kg^{-1}}$, respectively.
-
-\item The thermal energy supplied per second during heating in kW is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 18.2
-        \item 36.5
-        \item 101.0
-        \item 166.8
-    \end{enumerate}
-\end{multicols}
-\vspace{3cm}
-\item The absolute humidity of the exhaust air from the spray chamber in kg water (kg dry air)$^{-1}$ is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 0.027
-        \item 0.029
-        \item 0.031
-        \item 0.033
-    \end{enumerate}
-\end{multicols}
-
-
-A two-wheel drive tractor weighing 21 kN has a wheel base of 2.1 m. The CG of the tractor is 0.7 m ahead of rear axle centre. The tractor is pulling a single-axle trailer with gross trailer weight of 50 kN on a leveled concrete road while maintaining the line of pull parallel to the ground surface. The tractor hitch point is 42 cm behind the rear axle centre and 52.5 cm above the ground surface. During operation, 20\% of the gross trailer weight is transferred to the tractor hitch point. If the coefficient of rolling resistance for each of the tractor and trailer wheels is taken as 0.04, and their ground reactions are assumed to pass through their respective wheel centres,
-
-\item the dynamic ground reaction against the tractor rear wheels in kN is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 14.0
-        \item 24.0
-        \item 24.5
-        \item 26.4
-    \end{enumerate}
-\end{multicols}
-
-\item the gross traction ratio developed by the tractor is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-\begin{enumerate}
-    \item 0.061
-    \item 0.082
-    \item 0.108
-    \item 0.123
-\end{enumerate}
-\end{multicols}
-
-In an experimental setup, the discharge through a triangular notch is $0.0074\,\mathrm{m^{3}\,s^{-1}}$ at an operating head of $0.1\,\mathrm{m}$. The coefficient of discharge for the notch is 0.7. If the required discharge is $0.1\,\mathrm{m^{3}\,s^{-1}}$,
-
-\item the corresponding head in m is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 0.00015
-        \item 0.035
-        \item 0.283
-        \item 67.13
-    \end{enumerate}
-\end{multicols}
-
-\item the corresponding width of water surface in m is\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 0.80
-        \item 0.099
-        \item 0.00043
-        \item 0.00086
-    \end{enumerate}
-\end{multicols}
-
-\item If $3\le X\le 5$ and $8\le Y\le 11$ then which of the following options is TRUE?\
-
-\hfill(GATE EE 2025)
-
-    \begin{enumerate}
-        \item $\tfrac{3}{5}\;\le \tfrac{X}{Y}\le\;\tfrac{8}{5}$ 
-        \item $\tfrac{3}{11}\;\le \tfrac{X}{Y}\le\tfrac{5}{8}
-        $ 
-        \item $\tfrac{3}{11}\le \tfrac{X}{Y}\le\ \tfrac{8}{5}$ 
-        \item $\tfrac{3}{5}\le \tfrac{X}{Y}\le \tfrac{8}{11}$
-    \end{enumerate}
-
-\item The Headmaster \rule{2cm}{0.15mm} to speak to you.\\
-Which of the following options is incorrect to complete the above sentence?\
-
-\hfill(GATE EE 2025)
+\hfill(GATE MA 2010)
 
 \begin{enumerate}
-    \item is wanting 
-    \item wants 
-    \item want
-    \item was wanting
-\end{enumerate}
-
-\item Mahatama Gandhi was known for his humility as\
-
-\hfill(GATE EE 2025)
-
-\begin{enumerate}
-    \item he played an important role in humiliating exit of British from India.
-    \item he worked for humanitarian causes.
-    \item he displayed modesty in his interactions.
-    \item he was a fine human being.
-\end{enumerate}
-
-\item All engineering students should learn mechanics, mathematics and how to do computation.\
-\emph{I\quad\quad\quad\; II\quad\quad\quad\; III\quad\quad\quad\; IV}\\
-Which of the above underlined parts of the sentence is not appropriate?\
-
-\hfill(GATE EE 2025)
-
 \begin{multicols}{4}
-\begin{enumerate}
-    \item I
-    \item II
-    \item III
-    \item IV
+\item $\dfrac{4}{5}\,t^{2}$
+\item $\dfrac{5}{6}\,t^{2}$
+\item $\dfrac{6}{7}\,t^{2}$
+\item $\dfrac{7}{8}\,t^{2}$
+\end{multicols}
 \end{enumerate}
-\end{multicols}
-
-\item Select the pair that best expresses a relationship similar to that expressed in the pair:\\
-\emph{water: pipe::}\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{2}
-    \begin{enumerate}
-        \item cart: road
-        \item electricity: wire
-        \item sea: beach 
-        \item music: instrument
-    \end{enumerate}
-\end{multicols}
-
-\item Velocity of an object fired directly in upward direction is given by $V=80-32t$, where $t$ (time) is in seconds. When will the velocity be between $32\,\mathrm{m\,s^{-1}}$ and $64\,\mathrm{m\,s^{-1}}$?\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{2}
-    \begin{enumerate}
-        \item $(1,3/2)$ 
-        \item $(1/2,1)$
-        \item $(1/2,3/2)$
-        \item $(1,3)$
-    \end{enumerate}
-\end{multicols}
-
-\item In a factory, two machines $M_1$ and $M_2$ manufacture 60\% and 40\% of the autocomponents respectively. Out of the total production, 2\% of $M_1$ and 3\% of $M_2$ are found to be defective. If a randomly drawn autocomponent from the combined lot is found defective, what is the probability that it was manufactured by $M_2$?\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 0.35
-        \item 0.45
-        \item 0.5
-        \item 0.4
-    \end{enumerate}
-\end{multicols}
-
-\item Following table gives data on tourists from different countries visiting India in the year 2011.\\
-\begin{tabular}{lc}
-\toprule
-Country & Number of Tourists \\
-\midrule
-USA & 2000 \\
-England & 3500 \\
-Germany & 1200 \\
-Italy & 1100 \\
-Japan & 2400 \\
-Australia & 2300 \\
-France & 1000 \\
-\bottomrule
-\end{tabular}\\
-Which two countries contributed to the one third of the total number of tourists who visited India in 2011?\
-\hfill(GATE EE 2025)
-\begin{enumerate}
-    \item USA and Japan 
-    \item USA and Australia
-    \item England and France 
-    \item Japan and Australia
-\end{enumerate}
-
-\item If $|{-}2X+9|=3$ then the possible value of $|{-}X|-X^2$ would be:\
-
-\hfill(GATE EE 2025)
-
-\begin{multicols}{4}
-    \begin{enumerate}
-        \item 30
-        \item $-30$
-        \item $-42$
-        \item 42
-    \end{enumerate}
-\end{multicols}
-
-\item All professors are researchers\\ Some scientists are professors\\
-Which of the given conclusions is logically valid and is inferred from the above arguments:\
-
-\hfill(GATE EE 2025)
-
-\begin{enumerate}
-    \item All scientists are researchers 
-    \item All professors are scientists 
-    \item Some researchers are scientists 
-    \item No conclusion follows
-\end{enumerate}
-\end{enumerate}
-
-\vfill
 \begin{center}
-\textbf{END OF THE QUESTION PAPER}
+    \textbf{GENERAL APTITUDE}
 \end{center}
+\item Which of the following options is the closest in meaning to the word below: 
 
+\textbf{Circumlocution}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item cyclic
+\item indirect
+\item confusing
+\item crooked
+\end{multicols}
+\end{enumerate}
+
+\item The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair. 
+\textbf{Unemployed : Worker}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{2}
+\item fallow : land
+\item unaware : sleeper
+\item wit : jester
+\item renovated : house
+\end{multicols}
+\end{enumerate}
+\newpage
+\item Choose the most appropriate word from the options given below to complete the following sentence: 
+\textbf{If we manage to \underline{\hspace{2cm}}. our natural resources, we would leave a better planet for our children.}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item uphold
+\item restrain
+\item cherish
+\item conserve
+\end{multicols}
+\end{enumerate}
+
+\item Choose the most appropriate word from the options given below to complete the following sentence: 
+\textbf{His rather casual remarks on politics\underline{\hspace{2cm}}. his lack of seriousness about the subject.}
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item masked
+\item belied
+\item betrayed
+\item suppressed
+\end{multicols}
+\end{enumerate}
+
+\item 25 persons are in a room. 15 of them play hockey, 17 of them play football and 10 of them play both hockey and football. Then the number of persons playing neither hockey nor football is:
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item 2
+\item 17
+\item 13
+\item 3
+\end{multicols}
+\end{enumerate}
+\item Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause. 
+
+Which of the following statements best sums up the meaning of the above passage:
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\item Modern warfare has resulted in civil strife.
+\item Chemical agents are useful in modern warfare.
+\item Use of chemical agents in warfare would be undesirable.
+\item People in military establishments like to use chemical agents in war.
+\end{enumerate}
+
+\item If 137 + 276 = 435 how much is 731 + 672?
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item 534
+\item 1403
+\item 1623
+\item 1513
+\end{multicols}
+\end{enumerate}
+
+\item 5 skilled workers can build a wall in 20 days; 8 semi-skilled workers can build a wall in 25 days; 10 unskilled workers can build a wall in 30 days. If a team has 2 skilled, 6 semi-skilled and 5 unskilled workers, how long will it take to build the wall?
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item 20 days
+\item 18 days
+\item 16 days
+\item 15 days
+\end{multicols}
+\end{enumerate}
+
+\item Given digits 2, 3, 3, 3, 4, 4, 4, 4, how many distinct 4 digit numbers greater than 3000 can be formed?
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item 50
+\item 51
+\item 52
+\item 54
+\end{multicols}
+\end{enumerate}
+\newpage
+\item Hari (H), Gita (G), Irfan (I) and Saira (S) are siblings (i.e. brothers and sisters). All were born on 1st January. The age difference between any two successive siblings (that is born one after another) is less than 3 years. Given the following facts:
+
+i. Hari's age + Gita's age = Irfan's age + Saira's age. 
+
+ii. The age difference between Gita and Saira is 1 year. However, Gita is not the oldest and Saira is not the youngest. 
+
+iii. There are no twins. 
+
+In what order were they born (oldest first)?
+
+\hfill(GATE MA 2010)
+
+\begin{enumerate}
+\begin{multicols}{4}
+\item HSIG
+\item SGHI
+\item IGSH
+\item IHSG
+\end{multicols}
+\end{enumerate}
+
+
+\end{enumerate}
+\end{flushleft}
 \end{document}
+
+
