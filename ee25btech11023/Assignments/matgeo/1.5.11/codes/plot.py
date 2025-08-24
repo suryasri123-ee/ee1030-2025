@@ -61,4 +61,5 @@ plt.legend(loc='best')
 plt.grid()
 plt.axis('equal')
 
+plt.savefig('../figs/fig1.png')
 plt.show()
