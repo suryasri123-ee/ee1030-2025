@@ -1,0 +1,99 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{1.5.21}
+\author{EE25BTECH11033 - Kavin}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+\textbf{Question}:\\
+Find the ratio in which $\vec{P}(4,m)$ divides the line segment joining the points $\vec{A}(2,3)$ and $\vec{B}(6,-3)$. Hence, find $m$.\\
+\bigskip
+
+
+\textbf{Solution}:\\
+Let the vector $\vec{P}$ be 
+\begin{align}
+    \vec{P}=\begin{myvec}{4\\m}\end{myvec} \;, 
+\end{align}
+Given the points,
+\begin{align}
+    \vec{A}=\begin{myvec}{2\\3}\end{myvec}
+    \vec{B}=\begin{myvec}{6\\-3}\end{myvec}
+\end{align}
+We can use the section formula to find the ratio first and then we can compute the value of $m$.\\
+\\
+Section formula for a vector $\vec{P}$ which divides the line formed by vectors $\vec{A}$ and $\vec{B}$ in the ratio k:1 is given by
+\begin{align}
+    \vec{P}=\frac{k\vec{B}+\vec{A}}{k+1}
+\end{align}
+Using section formula,\\
+\begin{align}
+         \myvec{4\\m} &=\frac{{\myvec{2\\3}+k\myvec{6\\-3}}}{1+k}\\
+    \implies\myvec{4\\m} + k\myvec{4\\m} &=\myvec{2\\3}+k\myvec{6\\-3}\\ 
+	 \implies k\myvec{2 \\ -3-m} &= \myvec{2 \\ m-3}
+	 \\
+	 \text{or, } k &= \frac{1}{1}.\\
+     \implies m &= 0.
+\end{align}
+\bigskip
+\\
+See Fig. 0 ,
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.6\columnwidth]{figs/fig.png}
+\end{center}
+\caption{}
+\label{fig:Fig1}
+\end{figure}
+
+
+
+
+
+\end{document}
