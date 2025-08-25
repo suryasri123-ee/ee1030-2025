@@ -74,7 +74,7 @@ columns=fullflexible
   showstringspaces=false
 }
 
-\title{Problem 1.5.11}
+\title{Problem 1.9.12}
 \author{ee25btech11023-Venkata Sai}
 
 \date{\today} 
@@ -92,8 +92,8 @@ columns=fullflexible
 \begin{frame}
 \frametitle{Problem Statement}
 %
- The point \textbf{R} divides the line segment AB, where \textbf{A}$\brak{-4,0}$ and \textbf{B}$\brak{0,6}$ such that
-AR = $\frac{3}{4}$AB. Find the coordinates of \textbf{R}. 
+Find the length of the segment joining \textbf{A}$\brak{-6,7}$ and \textbf{B}$\brak{-1,-5}$. Also, find the
+midpoint of AB. 
  \begin{table}[h!]    
   \centering
   \input{table/table}
@@ -104,46 +104,51 @@ AR = $\frac{3}{4}$AB. Find the coordinates of \textbf{R}.
 
 %\subsection{Literature}
 \section{Solution}
-\subsection{Section Formula}
+\subsection{Formulas}
 \begin{frame}
-\frametitle{Section Formula}
+\frametitle{Formulas}
 %\framesubtitle{Literature}
 Formula:
+
+Let $(x_1,y_1)$ and $(x_2,y_2)$ be any two points.
+Distance Formula is given by
 \begin{align}
-\vec{P}=\frac{k(\vec{B})+(\vec{A})}{k+1}=\myvec{x\\y}
+  \sqrt{\brak{x_2 - x_1}^2 + \brak{y_2 - y_1}^2}
+\end{align}
+Midpoint Formula:
+\begin{align}
+   \vec{P}=\frac{k(\vec{B})+(\vec{A})}{k+1}
 \end{align}
 Where: 
 
-\centering{'k' is the ratio in which the point divides the line segment}
+\centering{$k$ = 1 }
 
 \begin{align}
-\vec{A}=\myvec{-4\\0} \hspace{1cm} \vec{B}=\myvec{0\\6} 
+\vec{A}=\myvec{-6\\7} \hspace{1cm} \vec{B}=\myvec{-1\\-5} 
 \end{align}
 
 
 \end{frame}
-\subsection{Obtaining $k$ Value}
+\subsection{Obtaining Distance}
 \begin{frame}
-\frametitle{Obtaining $k$ Value}
+\frametitle{Obtaining Distance}
 \begin{align}
-	AR&=\frac{3}{4}AB \\
-    AR&=\frac{3}{4}(AR+RB) \\
-    4AR&=3AR+3RB \\
-    AR&=3RB\\
-\frac{AR}{RB}&=3
+	\myvec{-6\\7} =\myvec{x_1\\y_1} \\
+    \myvec{-1\\-5} =\myvec{x_2\\y_2} 
+    \end{align}
+    \begin{align}
+   \text{Distance} &= \sqrt{(-1 - (-6))^2 + (-5 - 7)^2} = \sqrt{(5)^2 + (-12)^2} \\ &= \sqrt{25 + 144} \\&= \sqrt{169}\\ &= 13
 \end{align}
-Hence k=3
 \end{frame}
-\subsection{Obtaining Point}
+\subsection{Finding Midpoint}
 \begin{frame}
-\frametitle{Obtaining Point}
+\frametitle{Finding Midpoint}
 
 \begin{align}
-P=\frac{3B+A}{4}&=\frac{3\myvec{0\\6}+\myvec{-4\\0}}{4}=\frac{\myvec{-4\\18}}{4} \\
-P&=\myvec{-1\\\frac{9}{2}}
+P=\frac{B+A}{2}=\frac{\myvec{-6\\7}+\myvec{-1\\-5}}{2}&=\frac{\myvec{-7\\2}}{2}\\ &=\myvec{\frac{-7}{2}\\1}\\
 \end{align}
 
-Hence the coordinates of $\vec{P}$ are $\brak{-1,\frac{9}{2}}$
+Hence the coordinates of $\vec{P}$ are $\brak{\frac{-7}{2},1}$
 
 
 
@@ -178,7 +183,7 @@ Hence the coordinates of $\vec{P}$ are $\brak{-1,\frac{9}{2}}$
 
 int main() {
     double **k, **M, **C;
-    int x1 = -4, x2 = 0, y1 = 0, y2 = 6;
+    int x1 = -6, x2 = -1, y1 = 7, y2 = -5;
 
     // Create matrices
     M = createMat(2, 2);
@@ -191,14 +196,14 @@ int main() {
    k = createMat(2, 1);
     C = createMat(2, 1);
 
-    M[0][1] = x1;  // x1 = -4
-    M[1][1] = y1;  // y1 = 0
+    M[0][1] = x1;  
+    M[1][1] = y1;  
 
-    M[0][0] = x2;  // x2 = 0
-    M[1][0] = y2;  // y2 = 6
+    M[0][0] = x2;  
+    M[1][0] = y2;  
     
-    k[0][0] = 3.0 / 4;  // weight for B (column 0)
-    k[1][0] = 1.0 / 4;  // weight for A (column 1)
+    k[0][0] = 1.0 / 2;  // weight for B (column 0)
+    k[1][0] = 1.0 / 2;  // weight for A (column 1)
 
     C = Matmul(M, k, 2, 2, 1);
 
@@ -261,13 +266,12 @@ from conics.funcs import circ_gen
 # Read data
 data = np.loadtxt("values.dat", skiprows=1)
 
-xc = data[0]  # Extract x-coordinate (e.g., -1)
-yc = data[1]  # Extract y-coordinate (e.g., 4.5)
+xc = data[0]
+yc = data[1]
 
-# Given points
-A = np.array([-4, 0]).reshape(-1, 1)
-B = np.array([0, 6]).reshape(-1, 1)
-R = np.array([xc, yc]).reshape(-1, 1)
+A = np.array([-6, 7]).reshape(-1, 1)
+B = np.array([-1, -5]).reshape(-1, 1)
+P = np.array([xc, yc]).reshape(-1, 1)
 
 # Generating line AB
 x_AB = line_gen(A, B)
@@ -283,10 +287,10 @@ plt.plot(x_AB[0, :], x_AB[1, :], label='$AB$')
 \frametitle{Python Code for Plotting}
 \begin{lstlisting}[language=Python]
 # Labeling the coordinates
-tri_coords = np.block([[A, B, R]])
+tri_coords = np.block([[A, B, P]])
 plt.scatter(tri_coords[0, :], tri_coords[1, :])
 
-vert_labels = ['A', 'B', 'R']
+vert_labels = ['A', 'B', 'P']
 
 # Helper function: format number with decimal only if needed
 def fmt(val):
@@ -298,6 +302,8 @@ for i, txt in enumerate(vert_labels):
     plt.annotate(f'{txt}\n({fmt(x)}, {fmt(y)})',
                  (x, y),
                  textcoords="offset points",
+                 xytext=(20, -10),
+                 ha='center')
 
 \end{lstlisting}
 \end{frame}
@@ -305,19 +311,18 @@ for i, txt in enumerate(vert_labels):
 \begin{frame}[fragile]
 \frametitle{Python Code for Plotting}
 \begin{lstlisting}[language=Python]
-                 xytext=(20, -10),
-                 ha='center')
-
-# Styling
 ax = plt.gca()
 ax.spines['left'].set_visible(False)
 ax.spines['right'].set_visible(False)
 ax.spines['top'].set_visible(False)
 ax.spines['bottom'].set_visible(False)
 
+
 plt.legend(loc='best')
 plt.grid()
-plt.axis('equal')
+
+plt.ylim(-7, 8)
+plt.xlim(-7,7)
 
 plt.savefig('../figs/fig1.png')
 plt.show()
