@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.15)  18 AUG 2025 08:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.15)  25 AUG 2025 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1389,70 +1389,127 @@ Package hyperref Info: Link coloring OFF on input line 51.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 8
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 8
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 8
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 8
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 8
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/base/8r.enc}]
-<figs/figure_path.png, id=45, 224.33812pt x 70.76437pt>
-File: figs/figure_path.png Graphic file (type png)
-<use figs/figure_path.png>
-Package pdftex.def Info: figs/figure_path.png  used on input line 143.
-(pdftex.def)             Requested size: 516.0pt x 162.78268pt.
+)
+<figs/sequence.png, id=7, 450.68375pt x 394.97563pt>
+File: figs/sequence.png Graphic file (type png)
+<use figs/sequence.png>
+Package pdftex.def Info: figs/sequence.png  used on input line 104.
+(pdftex.def)             Requested size: 516.0pt x 452.27177pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 143--145
+Overfull \hbox (24.0pt too wide) in paragraph at lines 104--105
  [] 
  []
 
-<figs/table.png, id=47, 408.02437pt x 423.08063pt>
-File: figs/table.png Graphic file (type png)
-<use figs/table.png>
-Package pdftex.def Info: figs/table.png  used on input line 179.
-(pdftex.def)             Requested size: 516.0pt x 535.0663pt.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/base/8r.enc}] [2 <./figs/sequence.png>]
+<figs/question.png, id=54, 120.95187pt x 119.44624pt>
+File: figs/question.png Graphic file (type png)
+<use figs/question.png>
+Package pdftex.def Info: figs/question.png  used on input line 142.
+(pdftex.def)             Requested size: 309.60315pt x 305.78313pt.
+<figs/option1.png, id=55, 135.50626pt x 94.85437pt>
+File: figs/option1.png Graphic file (type png)
+<use figs/option1.png>
+Package pdftex.def Info: figs/option1.png  used on input line 146.
+(pdftex.def)             Requested size: 309.60315pt x 216.73044pt.
+ [3 <./figs/question.png>]
+<figs/option2.png, id=67, 133.49875pt x 84.315pt>
+File: figs/option2.png Graphic file (type png)
+<use figs/option2.png>
+Package pdftex.def Info: figs/option2.png  used on input line 147.
+(pdftex.def)             Requested size: 309.60315pt x 195.5813pt.
+<figs/option3.png, id=68, 126.4725pt x 85.82062pt>
+File: figs/option3.png Graphic file (type png)
+<use figs/option3.png>
+Package pdftex.def Info: figs/option3.png  used on input line 148.
+(pdftex.def)             Requested size: 309.60315pt x 210.09337pt.
+<figs/option4.png, id=69, 126.97438pt x 89.33376pt>
+File: figs/option4.png Graphic file (type png)
+<use figs/option4.png>
+Package pdftex.def Info: figs/option4.png  used on input line 149.
+(pdftex.def)             Requested size: 309.60315pt x 217.83224pt.
+ [4 <./figs/option1.png> <./figs/option2.png> <./figs/option3.png>]
+<figs/opt1.png, id=80, 111.41624pt x 101.37875pt>
+File: figs/opt1.png Graphic file (type png)
+<use figs/opt1.png>
+Package pdftex.def Info: figs/opt1.png  used on input line 177.
+(pdftex.def)             Requested size: 154.80157pt x 140.86653pt.
+<figs/opt2.png, id=81, 197.23688pt x 184.18813pt>
+File: figs/opt2.png Graphic file (type png)
+<use figs/opt2.png>
+Package pdftex.def Info: figs/opt2.png  used on input line 178.
+(pdftex.def)             Requested size: 154.80157pt x 144.55988pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 179--181
- [] 
- []
-
-[2 <./figs/figure_path.png>] [3 <./figs/table.png>] [4] [5] [6]
-Overfull \hbox (64.50099pt too wide) in paragraph at lines 487--494
+[5 <./figs/option4.png> <./figs/opt1.png>]
+<figs/opt3.png, id=101, 191.71625pt x 182.6825pt>
+File: figs/opt3.png Graphic file (type png)
+<use figs/opt3.png>
+Package pdftex.def Info: figs/opt3.png  used on input line 179.
+(pdftex.def)             Requested size: 154.80157pt x 147.51485pt.
+<figs/opt4.png, id=102, 185.69376pt x 185.69376pt>
+File: figs/opt4.png Graphic file (type png)
+<use figs/opt4.png>
+Package pdftex.def Info: figs/opt4.png  used on input line 180.
+(pdftex.def)             Requested size: 154.80157pt x 154.8058pt.
+ [6 <./figs/opt2.png> <./figs/opt3.png> <./figs/opt4.png>] [7] [8]
+Overfull \hbox (218.40115pt too wide) in paragraph at lines 403--410
 [][] 
  []
 
-[7] [8] [9] [10] [11] (./main.aux)
+[9]
+Overfull \hbox (82.5851pt too wide) in paragraph at lines 478--485
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
+
+ []
+
+[12] [13] [14] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1464,23 +1521,23 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46857 strings out of 474222
- 1089987 string characters out of 5748733
- 1943975 words of memory out of 5000000
- 68133 multiletter control sequences out of 15000+600000
- 615556 words of font info for 150 fonts, out of 8000000 for 9000
+ 46913 strings out of 474222
+ 1091195 string characters out of 5748733
+ 1939975 words of memory out of 5000000
+ 68189 multiletter control sequences out of 15000+600000
+ 616694 words of font info for 151 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,8n,103p,1172b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,7n,103p,1172b,692s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 158050 bytes).
+Output written on main.pdf (14 pages, 375685 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 384 compressed objects within 4 object streams
- 273 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
