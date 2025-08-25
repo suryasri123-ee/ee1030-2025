@@ -70,7 +70,5 @@ plt.legend(loc='best')
 plt.grid(True)
 plt.axis('equal')
 
-plt.savefig('..figs\fig.png')
-
 plt.show()
 
