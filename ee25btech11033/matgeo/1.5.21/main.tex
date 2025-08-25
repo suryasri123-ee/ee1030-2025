@@ -91,15 +91,24 @@ Section formula for a vector $\vec{P}$ which divides the line formed by vectors 
 \begin{align}
     \vec{P}=\frac{k\vec{B}+\vec{A}}{k+1}
 \end{align}
-Using section formula,\\
 \begin{align}
-         \myvec{4\\0} &=\frac{{\myvec{2\\3}+k\myvec{6\\-3}}}{1+k}\\
-    \implies\myvec{4\\0} + k\myvec{4\\0} &=\myvec{2\\3}+k\myvec{6\\-3}\\ 
-	 \implies k\myvec{2 \\ -3} &= \myvec{2 \\ -3}
-	 \\
-	 \implies k &= \frac{1}{1}.
+			k\brak{\vec{P}-\vec{B}}&= \vec{A}-\vec{P}
+\end{align}
+\begin{align}
+    \implies k &=
+			\frac{\brak{\vec{A}-\vec{P}}^{\top}\brak{\vec{P}-\vec{B}}}{\norm{\vec{P}-\vec{B}}^2}
+			\label{eq:section_formula-k}
 \end{align}
 \bigskip
+\begin{align}
+\brak{\vec{A}-\vec{P}}^{\top}\brak{\vec{P}-\vec{B}} = \myvec{-2 & 3}\myvec{-2\\3} = 13\\
+{\norm{\vec{P}-\vec{B}}^2} = \brak{\sqrt{2^2 + 3^2}}^2 = 13
+\end{align}
+
+\begin{align}
+\implies k &= 1
+\end{align}
+
 Therefore the ratio in which $\vec{P}$ divides the line segment joining the points $\vec{A}$ and $\vec{B}$ is $1:1$\\
 \\
 See Fig. 0 ,
@@ -113,8 +122,5 @@ See Fig. 0 ,
 
 
 
-
-
 \end{document}
-
 

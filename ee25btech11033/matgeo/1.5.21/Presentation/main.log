@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  25 AUG 2025 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  25 AUG 2025 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1200,10 +1200,6 @@ Type  H <return>  for immediate help.
                                                   
 l.51 ...{\solution}{\noindent \textbf{Solution: }}
                                                   
-? H
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 ? 
 \c@matchleft=\count361
 \c@matchright=\count362
@@ -1474,9 +1470,6 @@ Type  H <return>  for immediate help.
                                                   
 l.23 \RequirePackage{minted}[2021/12/24]
                                         
-? H
-Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for
- more information.
 ? 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '5.1.1'
@@ -1520,9 +1513,6 @@ Type  H <return>  for immediate help.
                                                   
 l.73 \begin{document}
                      
-? H
-Refer to the installation instructions in the minted documentation for more inf
-ormation.
 ? 
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
 73.
@@ -1793,9 +1783,6 @@ Type  H <return>  for immediate help.
                                                   
 l.108 \end{frame}
                  
-? H
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 ? 
 
 ! LaTeX Error: \mathbf allowed only in math mode.
@@ -1816,9 +1803,6 @@ Type  H <return>  for immediate help.
                                                   
 l.108 \end{frame}
                  
-? H
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 ? 
 [3
 
@@ -1866,7 +1850,7 @@ File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (1.72923pt too high) detected at line 252
+Overfull \vbox (1.72923pt too high) detected at line 260
  []
 
 [12
@@ -1875,7 +1859,7 @@ Overfull \vbox (1.72923pt too high) detected at line 252
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (1.72923pt too high) detected at line 272
+Overfull \vbox (1.72923pt too high) detected at line 280
  []
 
 [13
@@ -1886,10 +1870,10 @@ Overfull \vbox (1.72923pt too high) detected at line 272
  (./main.vrb) [14
 
 ]
-<figs/fig.png, id=408, 462.528pt x 346.896pt>
+<figs/fig.png, id=410, 462.528pt x 346.896pt>
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 296.
+Package pdftex.def Info: figs/fig.png  used on input line 304.
 (pdftex.def)             Requested size: 277.84358pt x 208.38268pt.
  [15
 
@@ -1917,28 +1901,29 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 56435 strings out of 476091
- 1340853 string characters out of 5794081
+ 56437 strings out of 476091
+ 1340895 string characters out of 5794081
  2315730 words of memory out of 5000000
- 75807 multiletter control sequences out of 15000+600000
+ 75808 multiletter control sequences out of 15000+600000
  553954 words of font info for 74 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  128i,16n,122p,1172b,1467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm
+vips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm
 /lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf
 /fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/txfonts/txsya.pfb>
-Output written on main.pdf (15 pages, 200844 bytes).
+usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t
+xsya.pfb>
+Output written on main.pdf (15 pages, 203852 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
- 439 compressed objects within 5 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
+ 33 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 
