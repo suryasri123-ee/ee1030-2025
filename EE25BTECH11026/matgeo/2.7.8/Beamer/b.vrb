@@ -1,0 +1,15 @@
+\frametitle{Python Code}
+    \begin{lstlisting}
+import math as m
+a=2.0
+b=3.0
+dot=4.0
+
+def find_mag_diffvector(a,b,dot):
+    diff=m.sqrt(a**2+b**2-2*dot)
+    return diff
+
+mag_diff=find_mag_diffvector(a,b,dot)
+
+print(f"The magnitude of difference of vector a and b is :{mag_diff:.4f}")
+    \end{lstlisting}
