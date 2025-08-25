@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  25 AUG 2025 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  25 AUG 2025 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**b.tex
+**main.tex
 (./b.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1846,7 +1846,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
 (/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
-Overfull \vbox (1.72923pt too high) detected at line 359
+Overfull \vbox (1.72923pt too high) detected at line 357
  []
 
 [17
@@ -1857,10 +1857,10 @@ Overfull \vbox (1.72923pt too high) detected at line 359
  (./b.vrb) [18
 
 ]
-<figs/circle_graph.png, id=544, 462.528pt x 346.896pt>
+<figs/circle_graph.png, id=543, 462.528pt x 346.896pt>
 File: figs/circle_graph.png Graphic file (type png)
 <use figs/circle_graph.png>
-Package pdftex.def Info: figs/circle_graph.png  used on input line 387.
+Package pdftex.def Info: figs/circle_graph.png  used on input line 385.
 (pdftex.def)             Requested size: 277.84358pt x 208.38268pt.
  [19
 
@@ -1886,10 +1886,10 @@ Package pdftex.def Info: figs/circle_graph.png  used on input line 387.
 [23
 
 ]
-<figs/circle_graph2.png, id=687, 462.528pt x 346.896pt>
+<figs/circle_graph2.png, id=686, 462.528pt x 346.896pt>
 File: figs/circle_graph2.png Graphic file (type png)
 <use figs/circle_graph2.png>
-Package pdftex.def Info: figs/circle_graph2.png  used on input line 471.
+Package pdftex.def Info: figs/circle_graph2.png  used on input line 469.
 (pdftex.def)             Requested size: 277.84358pt x 208.38268pt.
  [24
 
@@ -1912,24 +1912,23 @@ Package rerunfilecheck Info: File `b.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 57200 strings out of 474222
- 1358396 string characters out of 5748734
+ 57201 strings out of 474222
+ 1358400 string characters out of 5748734
  2355201 words of memory out of 5000000
  78394 multiletter control sequences out of 15000+600000
  599736 words of font info for 78 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 128i,15n,123p,1169b,1465s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,1172b,1465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy
-a.pfb>
-Output written on b.pdf (24 pages, 245537 bytes).
+blic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/txfonts/txsya.pfb>
+Output written on b.pdf (24 pages, 228787 bytes).
 PDF statistics:
- 774 PDF objects out of 1000 (max. 8388607)
- 665 compressed objects within 7 object streams
+ 769 PDF objects out of 1000 (max. 8388607)
+ 662 compressed objects within 7 object streams
  49 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
