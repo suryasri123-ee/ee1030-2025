@@ -1,0 +1,87 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a4paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}  % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{1.1.6.13}
+\author{ee25btech11063-vejith}
+
+\maketitle
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+\textbf{Question}:\\
+The points $\brak{0,5}$,$\brak{0,-9}$ and $\brak{3,6}$ are  not collinear.
+\\
+\textbf{Solution: }\\
+\begin{table}[h!]    
+  \centering
+  \input{tables/table1.tex}
+  \caption{Variables Used}
+  \label{}
+\end{table}\\
+\begin{align}
+\text{The collinearity matrix is given by}\\
+\myvec{
+   \vec{B}-\vec{A} & \vec{C}-\vec{A}
+ }^T = \myvec{
+   0 & -14 
+   \\
+   3 & 1
+   }\\
+ \end{align}
+ 3 points are collinear if the rank of collinearity matrix is 1.but  for above matrix by applying any row reduction also we can't create zero rows in matrix.\\
+ $\implies$ given 3 points A,B,C are not collinear and they form a triangle.
+ \begin{figure}[h!]
+   \centering
+   \includegraphics[width=0.7\linewidth]{figs/01.png}
+   \caption{ A,B,C are not collinear}
+   \label{}
+\end{figure}
+\end{document}
