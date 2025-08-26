@@ -64,18 +64,12 @@ Given:
 	\caption{Given data}
 	\input{tables/table}
 \end{table}
-Using Section Formula,\\
 \begin{align}
-\vec{P}=\frac{k\vec{B}+\vec{A}}{k+1}
+	k=\frac{\brak{\vec{A}-\vec{P}}^T\brak{\vec{P}-\vec{B}}}{\norm{\vec{P}-\vec{B}}^2}
 \end{align}
+Substituting values,\\
 \begin{align}
-\myvec{4\\5}=\frac{k\myvec{7\\8}+\myvec{2\\3}}{k+1}
-\end{align}
-\begin{align}
-3k\myvec{1\\1}=2\myvec{1\\1}
-\end{align}
-\begin{align}
-or, k=\frac{2}{3}
+	k=\frac{\myvec{-2 & -2}\myvec{-3\\-3}}{\norm{\myvec{-3\\-3}}^2}  =\frac{2}{3}
 \end{align}
 \begin{figure}[H]
 	\centering
