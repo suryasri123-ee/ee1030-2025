@@ -84,38 +84,50 @@ Find the ratio in which the Y-axis divides the line segment joining the points A
 
 \begin{frame}{allowframebreaks}
 \frametitle{Equation}
-The coordinates of any point $\vec{P}$ on the line segment $\vec{AB}$ can be found using the section formula
+Let the Y-axis divide the line segment $\vec{AB}$ at point $\vec{P}$ in the ratio $k:1$.
+Since $\vec{P}$ lies on Y-axis, let
+\begin{align*}
+\vec{P} = \myvec{0 \\ y}
+\end{align*}
+The point $\vec{A}$, $\vec{B}$, $\vec{P}$ are collinear.
 \begin{align}
-    \vec{P} \equiv \myvec{x \\ y} = \frac{k\vec{B} + \vec{A}}{k+1}
-\end{align}
-Here, substituting the values, we get
-\begin{align}
-    \vec{P} \equiv \myvec{x \\ y} = \frac{k\myvec{-1 \\ -4}+1\myvec{5 \\ -6}}{k+1} \\
-    \vec{P} = \myvec{\frac{k\brak{-1} + 1\brak{5}}{k+1} \\ \frac{k\brak{-4} + 1\brak{-6}}{k+1}} \\
-    \vec{P} = \myvec{\frac{-k+5}{k+1} \\ \frac{-4k-6}{k+1}}
+\implies \text{rank}\myvec{\vec{B}-\vec{A} , \vec{P}-\vec{A}} = 1
 \end{align}
 \end{frame}
 
 \begin{frame}{Theoretical Solution}
-Since the point $\vec{P}$ lies on the Y-axis only, its x component must be 0.
 \begin{align}
-    \frac{-k+5}{k+1} = 0 \\
-    -k + 5 = 0 \implies k = 5
-\end{align}
-Thus, the ratio in which the Y-axis divides the line segment $\vec{AB}$ is \textbf{5:1}.
-\end{frame}
-
-\begin{frame}{allowframebreaks}
-\frametitle{Theoretical Solution}
-Now, we find the coordinates of the point of intersection, $\vec{P}$, by substituting $k=5$ into the equations for x and y components.
-The x component is 0. For the y component,
-\begin{align}
-    y = \frac{-4\brak{5} - 6}{5+1} = \frac{-20 - 6}{6} = \frac{-26}{6} = -\frac{13}{3}
+\implies \norm{\myvec{\vec{B}-\vec{A} , \vec{P}-\vec{A}}} &= 0 \\
+\norm{\myvec{-6 , -5 \\ 2 , y+6}} &= 0 \\
+-6 \times \brak{y+6} - \brak{-5} \times 2 &= 0 \\
+-36 - 6y + 10 &= 0 \\
+y &= \frac{-13}{3}
 \end{align}
 $\therefore$ The coordinates of the point of intersection are 
 \begin{align*}
 \vec{P} = \myvec{0 \\ -\frac{13}{3}}
 \end{align*}
+
+The section formula is
+\begin{align}
+    \vec{P} \equiv \myvec{x \\ y} = \frac{k\vec{B} + \vec{A}}{k+1}
+\end{align}
+\end{frame}
+
+\begin{frame}{allowframebreaks}
+\frametitle{Theoretical Solution}
+Here, substituting the values,
+\begin{align}
+    \myvec{0 \\ \frac{-13}{3}} &= \frac{1}{k+1}\brak{\myvec{5 \\ -6}+k\myvec{-1 \\ -4}} \\
+    \myvec{0 \\ \frac{-13}{3}} &= \frac{1}{k+1}\brak{\myvec{5-k \\ -6-4k}} \\
+\end{align}
+\begin{align}
+0 &= \frac{5-k}{k+1} \\
+5-k &= 0 \\
+\implies k &= 5
+\end{align}
+
+Thus, the ratio in which the point $\vec{P}$ divides the line segment $\vec{AB}$ is \textbf{5:1}.
 \end{frame}
 
 \begin{frame}[fragile]
