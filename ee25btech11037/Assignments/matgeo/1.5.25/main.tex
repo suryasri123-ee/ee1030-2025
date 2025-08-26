@@ -17,7 +17,6 @@
 \usepackage{tkz-euclide} 
 \usepackage{listings}
 \usepackage{gvv}
-\usepackage{gvv-book}
 %\def\inputGnumericTable{}                                 
 \usepackage[latin1]{inputenc} 
 \usetikzlibrary{arrows.meta, positioning}
@@ -69,13 +68,17 @@ Therefore, they are defined to be collinear if,
 
 We know that $k$ is the ratio in which $\vec{R}$ divides $\vec{P}$ and $\vec{Q}$,
 \begin{align*}
-    k=\dfrac{\norm{\overline{PR}}}{\norm{\overline{RQ}}}\\
-    \overline{PR}=\myvec{-2/11 \\ -18/11} \\ \implies \norm{\overline{PR}}=\sqrt{4/121 + 324/121}=\sqrt{328/21}
-    \implies \norm{\overline{PR}}=2\sqrt{82}/11 \\
-    \overline{QR}=\myvec{9/11 \\ 81/11} \\ 
-    \implies \norm{\overline{QR}}=\sqrt{81/121 + 6561/121}=\sqrt{6642/121}
-    \implies \norm{\overline{QR}}=9\sqrt{82}/11\\
-    \therefore k=\dfrac{\norm{\overline{PR}}}{\norm{\overline{RQ}}}=\dfrac{2}{9}
+   \vec{R}=\dfrac{k\vec{Q}+\vec{P}}{1+k}\\
+   k\brak{\vec{R}-\vec{Q}}&= \vec{P}-\vec{R}\\
+   \implies k =\dfrac{\brak{\vec{P}-\vec{R}}^{\top}\brak{\vec{R}-\vec{Q}}}{\norm{\vec{R}-\vec{Q}}^2}\\
+   \brak{\vec{P}-\vec{R}}^{\top}=\myvec{\frac{-2}{11} & \frac{-18}{11}}\\
+   \brak{\vec{R}-\vec{Q}}=\myvec{\frac{-9}{11} \\ \frac{-81}{11}}\\
+   \norm{\vec{R}-\vec{Q}}^2=\frac{81}{121} + \frac{6561}{121}=\frac{6642}{121}\\
+   \therefore k=\dfrac{\myvec{\frac{-2}{11} & \frac{-18}{11}}\myvec{\frac{-9}{11} \\ \frac{-81}{11}}}{\frac{6642}{121}}\\
+   \end{align*}
+\begin{align*}
+   \implies k=\dfrac{\frac{18}{121} + \frac{1458}{121}}{\frac{6642}{121}}
+   \implies k=\dfrac{1476}{6624}=\dfrac{2}{9}
 \end{align*}
 
 \begin{align*}
