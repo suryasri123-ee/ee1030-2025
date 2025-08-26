@@ -1,0 +1,19 @@
+\frametitle{Python Code: Direct}
+\begin{lstlisting}
+ax.set_title('Trisection of a Line Segment', fontsize=16, fontweight='bold')
+ax.set_xlabel('X-axis', fontsize=14)
+ax.set_ylabel('Y-axis', fontsize=14)
+
+ax.grid(True, linestyle='--', alpha=0.6)
+
+ax.set_xlim(0, 8)
+ax.set_ylim(-6, 0)
+
+ax.set_aspect('equal', adjustable='box')
+
+ax.legend()
+
+plt.savefig('trisection_plot.png')
+plt.show()
+
+\end{lstlisting}
