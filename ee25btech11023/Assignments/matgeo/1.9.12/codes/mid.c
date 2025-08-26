@@ -11,22 +11,23 @@
 
 int main() {
     double **k, **M, **C;
-    int x1 = -4, x2 = 0, y1 = 0, y2 = 6;
+     int x1 = -6, x2 = -1, y1 = 7, y2 = -5;
 
     // Create matrices
     M = createMat(2, 2);
     k = createMat(2, 1);
     C = createMat(2, 1);
 
+    M[0][1] = x1;  
+    M[1][1] = y1;  
 
-    M[0][1] = x1; 
-    M[1][1] = y1; 
 
     M[0][0] = x2;  
     M[1][0] = y2;  
+
  
-    k[0][0] = 3.0 / 4;  // weight for B (column 0)
-    k[1][0] = 1.0 / 4;  // weight for A (column 1)
+    k[0][0] =1.0 / 2;  // weight for B (column 0)
+    k[1][0] = 1.0 / 2;  // weight for A (column 1)
 
     // Matrix multiplication: C = M * k
     C = Matmul(M, k, 2, 2, 1);
