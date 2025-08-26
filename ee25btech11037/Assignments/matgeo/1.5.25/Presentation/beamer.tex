@@ -61,7 +61,7 @@
 
 \maketitle
 
-\section*{Outline}
+
 \begin{frame}
 \tableofcontents
 \end{frame}
@@ -88,10 +88,9 @@ In what ratio does the point $\vec{R}=\myvec{\frac{24}{11} \\ y}$ divide the lin
 
 \begin{frame}{Solution}
 \begin{align*}
- \implies \Delta=0\\
-    \dfrac{2}{11}\brak{7-y} - \dfrac{9}{11}\brak{y+2}=0\\
-    14-2y-18-9y=0\\
-    \implies y=\dfrac{-4}{11}    
+ \myvec{\frac{2}{11}&\frac{9}{11}\\ y+2&7-y} \overset{C_1 \rightarrow C_1+C_2}{\longrightarrow} \myvec{\frac{2}{11} &1 \\ y+2 & 9} \overset{R_2 \rightarrow R_2-9 R_1}{\longrightarrow} \myvec{\frac{2}{11}&1\\ y+\frac{4}{11} & 0}\\
+    \text{for the rank of this matrix to be 1, its $2^{nd}$ row has to be 0}\\ y+\frac{4}{11}=0\\
+    \therefore y=\dfrac{-4}{11}  
 \end{align*}
 
 We know that $k$ is the ratio in which $\vec{R}$ divides $\vec{P}$ and $\vec{Q}$,
@@ -121,7 +120,7 @@ We know that $k$ is the ratio in which $\vec{R}$ divides $\vec{P}$ and $\vec{Q}$
 \section{Final Answer}
 \begin{frame}{Final Answer}
 \begin{align*}
-    \text{Hence, the final answer is }\fbox{\lambda = \dfrac{2}{9}} \; \text{and} \; \fbox{y = \dfrac{-4}{11}}  
+    \text{Hence, the final answer is }\fbox{k = \dfrac{2}{9}} \; \text{and} \; \fbox{y = \dfrac{-4}{11}}  
 \end{align*}
 \begin{figure}[H]
     \centering

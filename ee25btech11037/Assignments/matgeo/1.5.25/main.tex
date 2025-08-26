@@ -59,13 +59,11 @@ Therefore, they are defined to be collinear if,
     \text{rank}\myvec{\vec{R}- \vec{P} & \vec{Q}-\vec{R}}=1\\
     \vec{R}-\vec{P}=\myvec{\dfrac{2}{11} \\ y+2}\\
     \vec{Q}-\vec{R}=\myvec{\dfrac{9}{11} \\ 7-y}\\
-    \implies \text{rank}\myvec{\dfrac{2}{11} & \dfrac{9}{11} \\ y+2 & 7-y} = 1\\
-    \implies \Delta=0\\
-    \dfrac{2}{11}\brak{7-y} - \dfrac{9}{11}\brak{y+2}=0\\
-    14-2y-18-9y=0\\
-    \implies y=\dfrac{-4}{11}
+    \text{rank}\myvec{\dfrac{2}{11} & \dfrac{9}{11} \\ y+2 & 7-y} = 1\\
+    \myvec{\frac{2}{11}&\frac{9}{11}\\ y+2&7-y} \overset{C_1 \rightarrow C_1+C_2}{\longrightarrow} \myvec{\frac{2}{11} &1 \\ y+2 & 9} \overset{R_2 \rightarrow R_2-9 R_1}{\longrightarrow} \myvec{\frac{2}{11}&1\\ y+\frac{4}{11} & 0}\\
+    \text{for the rank of this matrix to be 1, its $2^{nd}$ row has to be 0}\\ y+\frac{4}{11}=0\\
+    \therefore y=\dfrac{-4}{11}
 \end{align*}
-
 We know that $k$ is the ratio in which $\vec{R}$ divides $\vec{P}$ and $\vec{Q}$,
 \begin{align*}
    \vec{R}=\dfrac{k\vec{Q}+\vec{P}}{1+k}\\
@@ -89,7 +87,7 @@ We know that $k$ is the ratio in which $\vec{R}$ divides $\vec{P}$ and $\vec{Q}$
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\columnwidth]{figs/1.png}
+    \includegraphics[width=0.9\columnwidth]{figs/1.png}
     \caption{Plot for 1.5.25}
     \label{fig:placeholder}
 \end{figure}
