@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  26 AUG 2025 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.25)  26 AUG 2025 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1377,58 +1377,63 @@ l.78 \renewcommand\thesubsubsectiondis
                                       {\thesubsectiondis.\arabic{subsubsecti...
 
 ? 
+) (/usr/share/texlive/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
+Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
+. Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 17.
+h' as default language. on input line 19.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-7.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
+9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 17.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 19.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-17.
+19.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 19.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-17.
+19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 19.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-17.
+19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 19.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-7.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1487,14 +1492,14 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count388
-LaTeX Info: Redefining \celsius on input line 17.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 17.
+LaTeX Info: Redefining \celsius on input line 19.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 19.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 17.
-Package gensymb Info: Using \Omega for \ohm on input line 17.
+LaTeX Info: Redefining \ohm on input line 19.
+Package gensymb Info: Using \Omega for \ohm on input line 19.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1505,7 +1510,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 17.
+or `english'. on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1515,116 +1520,132 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 19.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-4.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-4.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-4.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-4.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 90.
- [1
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...tal amount, the percentage of money in ₹
+                                                  $5$ coins is
+? 
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/base/8r.enc}] (/usr/share/texlive/texmf-dist/tex/latex/listi
-ngs/lstlang1.sty
+st/fonts/enc/dvips/base/8r.enc}]
+<./figs/q8.png, id=74, 465.99094pt x 289.83281pt>
+File: ./figs/q8.png Graphic file (type png)
+<use ./figs/q8.png>
+Package pdftex.def Info: ./figs/q8.png  used on input line 119.
+(pdftex.def)             Requested size: 297.04968pt x 184.76265pt.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 130.
+<figs/q10.png, id=76, 344.78813pt x 110.66344pt>
+File: figs/q10.png Graphic file (type png)
+<use figs/q10.png>
+Package pdftex.def Info: figs/q10.png  used on input line 173.
+(pdftex.def)             Requested size: 495.07779pt x 158.90265pt.
+ [2 <./figs/q8.png>] [3 <./figs/q10.png>]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 1
-38.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 138.
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
-40.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for OML+txr on input line 1
-45.
+LaTeX Font Info:    Trying to load font information for OML+txr on input line 2
+71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxr.fd
 File: omltxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OML/txr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/txmi/m/it' tried instead on input line 145.
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 271.
 
- [2] [3] [4]
-<figs/q21.png, id=185, 223.43475pt x 154.77824pt>
-File: figs/q21.png Graphic file (type png)
-<use figs/q21.png>
-Package pdftex.def Info: figs/q21.png  used on input line 366.
-(pdftex.def)             Requested size: 142.26378pt x 98.55469pt.
+LaTeX Font Info:    Trying to load font information for OMS+txr on input line 2
+73.
 
-[5 <./figs/q21.png>]
-Overfull \hbox (9.64821pt too wide) in paragraph at lines 378--412
-[] [] 
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 273.
+ [4]
+<figs/q20.png, id=170, 555.57562pt x 428.35031pt>
+File: figs/q20.png Graphic file (type png)
+<use figs/q20.png>
+Package pdftex.def Info: figs/q20.png  used on input line 334.
+(pdftex.def)             Requested size: 346.55293pt x 267.19539pt.
+ [5 <./figs/q20.png>] [6]
+<figs/q28.png, id=242, 468.24937pt x 163.3603pt>
+File: figs/q28.png Graphic file (type png)
+<use figs/q28.png>
+Package pdftex.def Info: figs/q28.png  used on input line 418.
+(pdftex.def)             Requested size: 247.5389pt x 86.36118pt.
+ [7 <./figs/q28.png>] [8]
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 565--566
+[][] 
  []
 
-[6] [7]
-<figs/q33.png, id=269, 476.37975pt x 163.812pt>
-File: figs/q33.png Graphic file (type png)
-<use figs/q33.png>
-Package pdftex.def Info: figs/q33.png  used on input line 536.
-(pdftex.def)             Requested size: 495.07779pt x 170.24046pt.
- [8 <./figs/q33.png>]
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-604.
-
+602.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-) [9]
-Overfull \hbox (44.55917pt too wide) in paragraph at lines 695--696
-[]\OT1/txr/m/n/10.95 Consider a database that has the re-la-tion schemas EMP$[]
-$, and DEPT$[]$.
- []
+) [9] [10] [11]
+<figs/q50.png, id=358, 345.54094pt x 246.9225pt>
+File: figs/q50.png Graphic file (type png)
+<use figs/q50.png>
+Package pdftex.def Info: figs/q50.png  used on input line 762.
+(pdftex.def)             Requested size: 247.5389pt x 176.89487pt.
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 756--762
+[12 <./figs/q50.png>]
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 8
+20.
 
- []
-
-[11] [12] [13] [14]
-<figs/q65.png, id=415, 423.83344pt x 236.38312pt>
-File: figs/q65.png Graphic file (type png)
-<use figs/q65.png>
-Package pdftex.def Info: figs/q65.png  used on input line 1025.
-(pdftex.def)             Requested size: 198.02809pt x 110.44362pt.
- [15 <./figs/q65.png>] (./main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+) [13] [14]
+<figs/q64.png, id=432, 293.59688pt x 390.70969pt>
+File: figs/q64.png Graphic file (type png)
+<use figs/q64.png>
+Package pdftex.def Info: figs/q64.png  used on input line 884.
+(pdftex.def)             Requested size: 148.52484pt x 197.64963pt.
+ [15 <./figs/q64.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1643,27 +1664,29 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52741 strings out of 474222
- 1241477 string characters out of 5748733
- 2060781 words of memory out of 5000000
- 73846 multiletter control sequences out of 15000+600000
- 613634 words of font info for 174 fonts, out of 8000000 for 9000
+ 52671 strings out of 474222
+ 1241128 string characters out of 5748733
+ 2011943 words of memory out of 5000000
+ 73802 multiletter control sequences out of 15000+600000
+ 586808 words of font info for 104 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,10n,109p,1198b,2571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,109p,1198b,2568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 387042 bytes).
+pe1/public/tfrupee/tfrupee.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
+sy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on main.pdf (15 pages, 425758 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 507 compressed objects within 6 object streams
- 352 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 492 compressed objects within 5 object streams
+ 334 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
