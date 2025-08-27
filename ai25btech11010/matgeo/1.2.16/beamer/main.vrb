@@ -1,0 +1,23 @@
+\frametitle{Python code - plotting the points}
+	\begin{lstlisting}
+# Labels
+ax.text(A[0,0], A[1,0], A[2,0], "A(-1,2,1)")
+ax.text(B[0,0], B[1,0], B[2,0], "B(1,-2,5)")
+ax.text(C[0,0], C[1,0], C[2,0], "C(4,-7,8)")
+ax.text(D[0,0], D[1,0], D[2,0], "D(2,-3,4)")
+
+# Axes
+ax.set_xlabel('$x$')
+ax.set_ylabel('$y$')
+ax.set_zlabel('$z$')
+plt.title("Parallelogram in 3D")
+
+# Save figure
+save_path = '../figs/img.png'
+os.makedirs(os.path.dirname(save_path), exist_ok=True)
+plt.savefig(save_path, dpi=300)
+
+print(f"Image saved at: {save_path}")
+
+plt.show()
+\end{lstlisting}
