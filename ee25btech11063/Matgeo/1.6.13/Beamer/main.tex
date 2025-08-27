@@ -88,7 +88,7 @@ The points $\brak{0,5}$,$\brak{0,-9}$ and $\brak{3,6}$ are  not collinear.
 \end{frame}
 
 \begin{frame}{Solution}
-    \begin{align}
+\begin{align}
 \text{The collinearity matrix is given by}\\
 \myvec{
    \vec{B}-\vec{A} & \vec{C}-\vec{A}
@@ -104,31 +104,41 @@ The points $\brak{0,5}$,$\brak{0,-9}$ and $\brak{3,6}$ are  not collinear.
    \\
    3 & 1
    }
-   \xleftrightarrow[]{R_2 \leftarrow {R_1+14R_2}}
+  &\xrightarrow{R_1 \leftrightarrow R_2}
    \myvec{
-   0 & -14
+   3 & 1
    \\
-   42 & 0
+   0 & -14
    }\\
  \end{align}
  \begin{align}
      \myvec{
+   3 & 1
+   \\
    0 & -14
-   \\
-   3 & 1
-   }
-   \xleftrightarrow[]{R_1 \leftarrow {R_1+14R_2}}
+   }\xleftrightarrow[]{R_1 \leftarrow {\frac{1}{3}R_1}}
    \myvec{
-   42 & -0
+   1 & \frac{1}{3}
    \\
-   3 & 1
+   0 & -14
+   }
+\end{align}
+\begin{align}
+    \myvec{
+   1 & \frac{1}{3}
+   \\
+   0 & -14
+   }\xleftrightarrow[]{R_2 \leftarrow {\frac{-1}{14}R_2}}
+   \myvec{
+   1 & \frac{1}{3}
+   \\
+   0 & 1
    }
 \end{align}
 \end{frame}
 
 \begin{frame}{conclusion}
-    But  for above collinearity matrix by applying any row reduction also we can't create  rows with zero entries in matrix.\\
- The rank of the above collinearity matrix is 2\\
+ The above matrix now is in row echelon form.Rank of a matix in echelon form is number of non zero rows.so,The rank of the above collinearity matrix is 2\\
  $\implies$ given 3 points A,B,C are not collinear.
  \begin{figure}[h!]
    \centering

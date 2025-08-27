@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  26 AUG 2025 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  27 AUG 2025 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1167,28 +1167,28 @@ Overfull \hbox (9.54984pt too wide) detected at line 88
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 127.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 138.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 127.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 138.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 127.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 138.
 
  [4
 
 ]
-<figs/01.png, id=47, 392.4261pt x 363.5181pt>
+<figs/01.png, id=48, 392.4261pt x 363.5181pt>
 File: figs/01.png Graphic file (type png)
 <use figs/01.png>
-Package pdftex.def Info: figs/01.png  used on input line 139.
+Package pdftex.def Info: figs/01.png  used on input line 149.
 (pdftex.def)             Requested size: 171.14764pt x 158.53955pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 139.
+Package hyperref Warning: Ignoring empty anchor on input line 149.
 
 
-Overfull \vbox (11.7956pt too high) detected at line 139
+Overfull \vbox (11.7956pt too high) detected at line 149
  []
 
 [5
@@ -1219,7 +1219,7 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 
 
 (./main.vrb)
-Overfull \vbox (8.52684pt too high) detected at line 219
+Overfull \vbox (8.52684pt too high) detected at line 229
  []
 
 [8
@@ -1268,12 +1268,13 @@ ist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt8.pfb>
-Output written on main.pdf (9 pages, 200467 bytes).
+amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+tt8.pfb>
+Output written on main.pdf (9 pages, 208997 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  20 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
