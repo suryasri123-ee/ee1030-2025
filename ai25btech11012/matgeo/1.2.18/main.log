@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.1)  26 AUG 2025 01:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.1)  27 AUG 2025 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1739,13 +1739,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 38.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 38.
+
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1921,16 +1921,18 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 38.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 \c@lstlisting=\count409
 
-(./tables/table.tex
+(/Users/unnathi/Documents/ee1030-2025/ai25btech11012/matgeo/1.2.18/tables/table
+.tex
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
 
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
@@ -1961,14 +1963,14 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 (/usr/local/texlive/2025/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ))
-</Users/unnathi/Documents/matgeo/ai25btech11012/matgeo/1.2.18/figs/fig.png, id=
-31, 462.528pt x 346.896pt>
-File: /Users/unnathi/Documents/matgeo/ai25btech11012/matgeo/1.2.18/figs/fig.png
- Graphic file (type png)
-<use /Users/unnathi/Documents/matgeo/ai25btech11012/matgeo/1.2.18/figs/fig.png>
-
-Package pdftex.def Info: /Users/unnathi/Documents/matgeo/ai25btech11012/matgeo/
-1.2.18/figs/fig.png  used on input line 97.
+</Users/unnathi/Documents/ee1030-2025/ai25btech11012/matgeo/1.2.18/figs/fig.png
+, id=31, 462.528pt x 346.896pt>
+File: /Users/unnathi/Documents/ee1030-2025/ai25btech11012/matgeo/1.2.18/figs/fi
+g.png Graphic file (type png)
+<use /Users/unnathi/Documents/ee1030-2025/ai25btech11012/matgeo/1.2.18/figs/fig
+.png>
+Package pdftex.def Info: /Users/unnathi/Documents/ee1030-2025/ai25btech11012/ma
+tgeo/1.2.18/figs/fig.png  used on input line 97.
 (pdftex.def)             Requested size: 254.9356pt x 191.20625pt.
 
 
@@ -1981,30 +1983,20 @@ ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
 
-[2 </Users/unnathi/Documents/matgeo/ai25btech11012/matgeo/1.2.18/figs/fig.png>]
-(./main.aux)
+[2 </Users/unnathi/Documents/ee1030-2025/ai25btech11012/matgeo/1.2.18/figs/fig.
+png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 54421 strings out of 473190
- 1297772 string characters out of 5715801
- 1887519 words of memory out of 5000000
- 76856 multiletter control sequences out of 15000+600000
+ 54429 strings out of 473190
+ 1298297 string characters out of 5715801
+ 1888604 words of memory out of 5000000
+ 76858 multiletter control sequences out of 15000+600000
  622675 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,15n,109p,1194b,1019s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2014,7 +2006,7 @@ texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 64280 bytes).
+Output written on main.pdf (2 pages, 66011 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
