@@ -1,0 +1,63 @@
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage[cmex10]{amsmath}
+\usepackage{amssymb,amsfonts,amsthm}
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{hyperref}
+
+\begin{document}
+
+
+\title{1.9.14}
+\author{EE25BTECH11025 - Ganachari Vishwambhar}
+\maketitle
+
+\textbf{Question}:\newline
+If $\vec{P}=\brak{2,2}$, $\vec{Q}=\brak{-4,-4}$, and $\vec{R}=\brak{5,-8}$ are the vertices of a triangle $\Delta PQR$, then find the length of the median through $\vec{R}$.\\
+\textbf{Solution: }\\
+Given position vectors of the points are:
+\begin{align}
+    \vec{P}=\myvec{2\\2},
+    \vec{Q}=\myvec{-4\\-4},
+    \vec{R}=\myvec{5\\-8}
+\end{align}
+
+Let the position vectors of $\vec{P,Q,R}$ be the columns of the $2\times 3$ matrix:
+\begin{align}
+    V=\myvec{\vec{R}&\vec{Q}&\vec{P}}\\
+    V=\myvec{5&-4&2\\-8&-4&2}
+\end{align}
+
+The midpoint of $PQ$ is:
+\begin{align}
+    \vec{M}=\frac{1}{2}\vec{P}+\frac{1}{2}\vec{Q}=V\myvec{0\\ \frac{1}{2}\\ \frac{1}{2}}\\
+    \vec{RM}=\vec{M}-\vec{R}=V\myvec{-1\\ \frac{1}{2}\\ \frac{1}{2}}
+\end{align}
+
+Let
+\begin{align}
+    \vec{c_R}=\myvec{-1\\ \frac{1}{2}\\ \frac{1}{2}}
+\end{align}
+
+Let the gram matrix:
+\begin{align}
+G=V^TV\\
+G=\myvec{89&12&-6\\12&32&-16\\-6&-16&8}
+\end{align}
+
+
+Then the squares length of the median from $\vec{R}$ is :
+\begin{align}
+    ||\vec{RM}||^2=\brak{V\vec{c_R}}^T\brak{V\vec{c_R}}\\
+    =\vec{c_R}^T\brak{V^TV}\vec{c_R}=\vec{c_R}^TG\vec{c_R}\\
+    ||\vec{RM}||= \sqrt{85}\approx9.2195
+\end{align}
+
+\begin{figure}[h!]
+   \centering
+   \includegraphics[width=0.7\linewidth]{figs/plot.png}
+   \caption{Plot of triangle $\Delta PQR$}
+   \label{}
+\end{figure}
+\end{document}  
