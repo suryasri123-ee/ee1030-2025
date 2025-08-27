@@ -80,59 +80,59 @@ Let us solve the given equation theoretically and then verify the solution compu
 \\
 According to the question,the edges of the parallelopiped are parallel to the unit vectors $\hat{a},\hat{b},\hat{c}$ and\\
 \begin{align*}
-    \hat{a}.\hat{b}=\hat{b}.\hat{c}=\hat{c}.\hat{a}=\frac{1}{2}
+    \hat{a}^T\hat{b}=\hat{b}^T\hat{c}=\hat{c}^T\hat{a}=\frac{1}{2}
 \end{align*}
 As we know that the volume of parallelopiped is given by
 \begin{align*}
-    V=|[\vec{a}\;\vec{b}\;\vec{c}]|
+    V=[\vec{a}\;\vec{b}\;\vec{c}]
 \end{align*}
 and
 \begin{align*}
-    [\vec{a}\;\vec{b}\;\vec{c}][\vec{a}\;\vec{b}\;\vec{c}]^T=G
+    [\vec{a}\;\vec{b}\;\vec{c}][\vec{a}\;\vec{b}\;\vec{c}]^T=\vec{G}
 \end{align*}
-where G is the Gram Matrix.
+where $\vec{G}$ is the Gram Matrix.
 \begin{align*}
-    \therefore G=\myvec{\hat{a}.\hat{a}&&\hat{a}.\hat{b}&&\hat{a}.\hat{c} \\ \hat{b}.\hat{a}&& \hat{b}.\hat{b}&& \hat{b}.\hat{c} \\ \hat{c}.\hat{a}&& \hat{c}.\hat{b}&& \hat{c}.\hat{c}}=\myvec{1&&\frac{1}{2}&&\frac{1}{2}\\ \frac{1}{2}&&1&&\frac{1}{2}\\ \frac{1}{2}&&\frac{1}{2}&&1}
+    \therefore \vec{G}=\myvec{\hat{a}^T\hat{a}&&\hat{a}^T\hat{b}&&\hat{a}^T\hat{c} \\ \hat{b}^T\hat{a}&& \hat{b}^T\hat{b}&& \hat{b}^T\hat{c} \\ \hat{c}^T\hat{a}&& \hat{c}^T\hat{b}&& \hat{c}^T\hat{c}}=\myvec{1&&\frac{1}{2}&&\frac{1}{2}\\ \frac{1}{2}&&1&&\frac{1}{2}\\ \frac{1}{2}&&\frac{1}{2}&&1}
 \end{align*}
-For calculating the det(G), we can use the concept of eigen values.\\
+For calculating the det($\vec{G}$), we can use the concept of eigen values.\\
 \\
 Eigen values are those scalars which satisfies the following condition,
-For any non-zero eigen-vector $\vec{v}$ and coefficient matrix A,
+For any non-zero eigen-vector $\vec{v}$ and coefficient matrix $\vec{M}$,
 \begin{align*}
-    M\vec{v}=\lambda \vec{v} \; , where \; \lambda \;is\; an \;eigen\; value.
+    \vec{M}\vec{v}=\lambda \vec{v} \; , where \; \lambda \;is\; an \;eigen\; value.
 \end{align*}
 \begin{align*}
-     G=(1-\rho)I\;+\rho\;\vec{1}\vec{1}^T, \; where\, \rho=\frac{1}{2}\;and\;\vec{1}=\myvec{1&&1&&1}
+     \vec{G}=(1-\rho)\vec{I}\;+\rho\;\vec{1}\vec{1}^T, \; where\, \rho=\frac{1}{2}\;and\;\vec{1}=\myvec{1&&1&&1}
 \end{align*}
-Let $\vec{1}\vec{1}^T=J$. As we could see that the eigen-vector of J is $\vec{1}$ and by the rule,
+Let $\vec{1}\vec{1}^T=\vec{J}$. As we could see that the eigen-vector of $\vec{J}$ is $\vec{1}$ and by the rule,
 \newpage
 \vspace*{0.25cm}
 
 \begin{align*}
     \myvec{1&&1&&1\\1&&1&&1\\1&&1&&1}\myvec{1\\1\\1}=\myvec{3\\3\\3}=3\vec{1}
 \end{align*}
-So, 3 is a eigen value of J. Also we can observe that any vector orthogonal to J has eigen value 0 and since the eigen vector has only two degrees of freedom,
+So, 3 is a eigen value of $\vec{J}$. Also we can observe that any vector orthogonal to $\vec{J}$ has eigen value 0 and since the eigen vector has only two degrees of freedom,
 \begin{align*}
-    \therefore eigen\;values\;of\;J\;are\;\{3,0,0\}
+    \therefore eigen\;values\;of\;\vec{J}\;are\;\{3,0,0\}
 \end{align*}
-Modifying the above equation on G,
+Modifying the above equation on $\vec{G}$,
 \begin{align*}
-    \therefore G\vec{v}=\frac{1}{2}I\vec{v}+\frac{1}{2}J\vec{v}
+    \therefore \vec{G}\vec{v}=\frac{1}{2}\vec{I}\vec{v}+\frac{1}{2}\vec{J}\vec{v}
 \end{align*}
 \begin{align*}
-    \implies G\vec{v}=\frac{(1+\mu)}{2}\vec{v}
+    \implies \vec{G}\vec{v}=\frac{(1+\mu)}{2}\vec{v}
 \end{align*}
-where $\mu$ is the eigen value of J. Here the eigen value of G is $\frac{1+\mu}{2}$ and substituting the obtained eigen values of J in this equation, we get the eigen values of G to be $\{2,\frac{1}{2},\frac{1}{2}\}$\\
+where $\mu$ is the eigen value of $\vec{J}$. Here the eigen value of $\vec{G}$ is $\frac{1+\mu}{2}$ and substituting the obtained eigen values of $\vec{J}$ in this equation, we get the eigen values of $\vec{G}$ to be $\{2,\frac{1}{2},\frac{1}{2}\}$\\
 \\
-As we know that for eigen values of G being $\{\mu_1,\mu_2,\mu_3\}$
+As we know that for eigen values of $\vec{G}$ being $\{\mu_1,\mu_2,\mu_3\}$,
 \begin{align*}
-    det(G)=\mu_1\mu_2\mu_3
+    det(\vec{G})=\mu_1\mu_2\mu_3
 \end{align*}
 \begin{align*}
-    \therefore det(G)=2\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{2}
+    \therefore det(\vec{G})=2\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{2}
 \end{align*}
 \begin{align*}
-    \implies V=\sqrt{det(G)}=\frac{1}{\sqrt{2}} \; units
+    \implies V=\sqrt{det(\vec{G})}=\frac{1}{\sqrt{2}} \; units
 \end{align*}
 
 From the figure, taking an example of vectors $\vec{a}$ and $\vec{b}$ ,it is clearly verified that the theoretical solution matches with the computational solution.\\

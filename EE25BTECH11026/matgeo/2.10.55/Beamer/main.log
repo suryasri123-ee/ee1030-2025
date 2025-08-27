@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.18)  27 AUG 2025 12:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.18)  27 AUG 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**b.tex
-(./b.tex
+**main.tex
+(./main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1480,7 +1480,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks61
 \c@listing=\count409
 )
-runsystem(mkdir -p _minted-b)...disabled (restricted).
+runsystem(mkdir -p _minted-main)...disabled (restricted).
 
 
 
@@ -1533,7 +1533,7 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-runsystem(command -v pygmentize && touch b.aex)...disabled (restricted).
+runsystem(command -v pygmentize && touch main.aex)...disabled (restricted).
 
 
 
@@ -1554,8 +1554,8 @@ LaTeX Font Info:    Trying to load font information for OT1+lmss on input line
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-No file b.aux.
-\openout1 = `b.aux'.
+No file main.aux.
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 87.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
@@ -1657,7 +1657,7 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 87.
 \@outlinefile=\write7
-\openout7 = `b.out'.
+\openout7 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 87.
@@ -1732,7 +1732,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@lstlisting=\count417
 
-No file b.nav.
+No file main.nav.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
@@ -1806,13 +1806,13 @@ dvips/lm/lm-mathsy.enc}] [3
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 125.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 122.
 
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 125.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 122.
 
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 125.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 122.
 
  [4
 
@@ -1828,9 +1828,9 @@ LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
 ] [9
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb
+ (./main.vrb
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
 3.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
@@ -1838,111 +1838,112 @@ File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) [10
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb) [11
-
-]
-\openout4 = `b.vrb'.
-
- (./b.vrb) [12
+ (./main.vrb) [11
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb) [13
-
-]
-\openout4 = `b.vrb'.
-
- (./b.vrb) [14
+ (./main.vrb)
+[12
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb
+ (./main.vrb) [13
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [14
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
 5.
- (/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
+
+(/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
-[15
+)) [15
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb) [16
-
-]
-\openout4 = `b.vrb'.
-
- (./b.vrb)
-[17
+ (./main.vrb) [16
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb) [18
-
-]
-\openout4 = `b.vrb'.
-
- (./b.vrb) [19
+ (./main.vrb) [17
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb) [20
-
-]
-\openout4 = `b.vrb'.
-
- (./b.vrb) [21
+ (./main.vrb) [18
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb)
-[22
+
+(./main.vrb) [19
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb)
-Overfull \vbox (1.72923pt too high) detected at line 459
+ (./main.vrb) [20
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [21
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [22
+
+]
+\openout4 = `main.vrb'.
+
+
+(./main.vrb)
+Overfull \vbox (1.72923pt too high) detected at line 456
  []
 
 [23
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb) [24
+ (./main.vrb) [24
 
 ]
-\openout4 = `b.vrb'.
+\openout4 = `main.vrb'.
 
- (./b.vrb) [25
+ (./main.vrb) [25
 
 ]
 <figs/Figure-1.png, id=745, 650.43pt x 505.89pt>
 File: figs/Figure-1.png Graphic file (type png)
 <use figs/Figure-1.png>
-Package pdftex.def Info: figs/Figure-1.png  used on input line 498.
+Package pdftex.def Info: figs/Figure-1.png  used on input line 495.
 (pdftex.def)             Requested size: 273.83728pt x 212.98953pt.
  [26
 
  <./figs/Figure-1.png>]
 \tf@nav=\write8
-\openout8 = `b.nav'.
+\openout8 = `main.nav'.
 
 \tf@toc=\write9
-\openout9 = `b.toc'.
+\openout9 = `main.toc'.
 
 \tf@snm=\write10
-\openout10 = `b.snm'.
+\openout10 = `main.snm'.
 
- (./b.aux)
+ (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1952,22 +1953,22 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package rerunfilecheck Warning: File `b.out' has changed.
+Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `b.out':
+Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 57776 strings out of 474222
- 1370338 string characters out of 5748733
- 2386516 words of memory out of 5000000
- 78962 multiletter control sequences out of 15000+600000
+ 57774 strings out of 474222
+ 1370446 string characters out of 5748733
+ 2386546 words of memory out of 5000000
+ 78960 multiletter control sequences out of 15000+600000
  599736 words of font info for 78 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 128i,16n,123p,1169b,1470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,123p,1172b,1470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/pu
@@ -1977,7 +1978,7 @@ e/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public
 texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on b.pdf (26 pages, 340142 bytes).
+Output written on main.pdf (26 pages, 340200 bytes).
 PDF statistics:
  852 PDF objects out of 1000 (max. 8388607)
  731 compressed objects within 8 object streams
