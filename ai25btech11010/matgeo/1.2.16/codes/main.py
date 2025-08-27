@@ -35,7 +35,3 @@ D = ( 2, -3,  4)
 
 points = [A, B, C, D]
 
-if is_parallelogram(points):
-    print("The given points form a parallelogram.")
-else:
-    print(" The given points do NOT form a parallelogram.")
