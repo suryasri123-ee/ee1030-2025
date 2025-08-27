@@ -1,0 +1,489 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{mathtools}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{gvv}
+\usepackage{lmodern}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{graphicx}
+
+\setbeamertemplate{page number in head/foot}[totalframenumber]
+
+\usepackage{tcolorbox}
+\tcbuselibrary{minted,breakable,xparse,skins}
+
+
+
+\definecolor{bg}{gray}{0.95}
+\DeclareTCBListing{mintedbox}{O{}m!O{}}{%
+  breakable=true,
+  listing engine=minted,
+  listing only,
+  minted language=#2,
+  minted style=default,
+  minted options={%
+    linenos,
+    gobble=0,
+    breaklines=true,
+    breakafter=,,
+    fontsize=\small,
+    numbersep=8pt,
+    #1},
+  boxsep=0pt,
+  left skip=0pt,
+  right skip=0pt,
+  left=25pt,
+  right=0pt,
+  top=3pt,
+  bottom=3pt,
+  arc=5pt,
+  leftrule=0pt,
+  rightrule=0pt,
+  bottomrule=2pt,
+  toprule=2pt,
+  colback=bg,
+  colframe=orange!70,
+  enhanced,
+  overlay={%
+    \begin{tcbclipinterior}
+    \fill[orange!20!white] (frame.south west) rectangle ([xshift=20pt]frame.north west);
+    \end{tcbclipinterior}},
+  #3,
+}
+\lstset{
+    language=C,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    stringstyle=\color{orange},
+    commentstyle=\color{green!60!black},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    breaklines=true,
+    showstringspaces=false,
+}
+%------------------------------------------------------------
+%This block of code defines the information to appear in the
+%Title page
+\title %optional
+{4.3.13}
+\date{August 27,2025}
+%\subtitle{A short story}
+
+\author % (optional)
+{Harsha-EE25BTECH11026}
+
+
+
+\begin{document}
+
+
+\frame{\titlepage}
+\begin{frame}{Question}
+Equations of the diagonals of the square formed by the lines x = 0, y = 0, x = 1 and y = 1 are \underline{\hspace{2cm}}.
+\end{frame}
+
+\begin{frame}{Theoretical Solution}
+According to the question,\\
+The vertices of the square are ,
+\begin{align*}
+    \vec{a}=\myvec{0\\0}\;\;\vec{b}=\myvec{1\\0}\;\;\vec{c}=\myvec{1\\1}\;\;\vec{d}=\myvec{0\\1}
+\end{align*}
+\end{frame}
+
+
+\begin{frame}{Theoretical Solution}
+From the given data , we can interpret that the direction vectors of diagnols , say $\vec{d_1}$ and $\vec{d_2}$, can be given by 
+\begin{align*}
+    \vec{d_1}=\vec{c}-\vec{a}\;\;and\;\;\vec{d_2}=\vec{d}-\vec{b}
+\end{align*}
+\begin{align*}
+    \therefore \vec{d_1}=\myvec{1\\1}-\myvec{0\\0}=\myvec{1\\1}
+\end{align*}
+\begin{align*}
+    \vec{d_2}=\myvec{1\\0}-\myvec{0\\1}=\myvec{1\\-1}
+\end{align*}
+\end{frame}
+
+\begin{frame}{Equation}
+To compute the equation of the diagnols from the direction vectors, we can use the normal form of the equation,which is given by
+\begin{align*}
+    \vec{n}^T\vec{r}=\vec{n}^T\vec{P}
+\end{align*}
+where,\\
+\hspace*{4em}  $\vec{n}$-vector orthogonal to the direction vector\\
+\\
+\hspace*{4em}  $\vec{r}=\myvec{x&&y}^T$ \\
+\\
+\hspace*{4em}  $\vec{P}$=A point which lies along the vector\\
+\end{frame}
+
+\begin{frame}{Theoretical Solution}
+For diagnol $\vec{c}-\vec{a}$,
+\begin{align*}
+    \vec{n}=\myvec{-1\\1}\;\;and\;\;\vec{P}=\myvec{1\\1}
+\end{align*}
+\begin{align*}
+    \therefore \myvec{-1&&1}\myvec{x\\y}=\myvec{-1&&1}\myvec{1\\1}
+\end{align*}
+\begin{align*}
+    \implies y=x
+\end{align*}
+\end{frame}
+
+\begin{frame}{Theoretical Solution}
+For diagnol $\vec{d}-\vec{b}$,
+\begin{align*}
+    \vec{n}=\myvec{1\\1}\;\;and\;\;\vec{P}=\myvec{1\\0}
+\end{align*}
+\begin{align*}
+    \therefore \myvec{1&&1}\myvec{x\\y}=\myvec{1&&1}\myvec{1\\0}
+\end{align*}
+\begin{align*}
+    \implies x+y=1
+\end{align*}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{C Code -Finding Diagonals of a square}
+
+    \begin{lstlisting}
+    #include <stdio.h>
+
+typedef struct {
+    double A, B, C;  // Line coefficients Ax + By + C = 0
+} Line;
+
+// Function to compute line equation given two points (x1,y1), (x2,y2)
+Line line_from_points(double x1, double y1, double x2, double y2) {
+    Line l;
+    l.A = y1 - y2;
+    l.B = x2 - x1;
+    l.C = (x1 * y2) - (x2 * y1);
+    return l;
+}
+
+
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{C Code -Finding Diagonals of a square}
+
+    \begin{lstlisting}
+// Function to compute diagonals of a square
+void diagonals_of_square(double vertices[4][2], Line *diag1, Line *diag2) {
+    // vertices order: A, B, C, D
+    // Diagonals: AC and BD
+    *diag1 = line_from_points(vertices[0][0], vertices[0][1],
+                              vertices[2][0], vertices[2][1]);
+    *diag2 = line_from_points(vertices[1][0], vertices[1][1],
+                              vertices[3][0], vertices[3][1]);
+}
+
+
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{C Code -Finding Diagonals of a square}
+
+    \begin{lstlisting}
+// Export function for Python
+__attribute__((visibility("default"))) 
+void get_square_diagonals(double vertices[4][2], double *out) {
+    Line d1, d2;
+    diagonals_of_square(vertices, &d1, &d2);
+
+
+    // Store results in array: [A1, B1, C1, A2, B2, C2]
+    out[0] = d1.A;
+    out[1] = d1.B;
+    out[2] = d1.C;
+    out[3] = d2.A;
+    out[4] = d2.B;
+    out[5] = d2.C;
+}
+
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python+C code}
+
+    \begin{lstlisting}
+import ctypes
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib as mp
+mp.use('TkAgg')
+
+# Load the shared C library
+lib = ctypes.CDLL("./libdiagonals.so")
+
+# Define function signature for C function
+lib.get_square_diagonals.argtypes = [ctypes.c_double * 8, ctypes.c_double * 6]
+
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python+C code}
+
+    \begin{lstlisting}
+
+def get_diagonals(vertices):
+    """Call C function to compute diagonals of a square"""
+    verts = (ctypes.c_double * 8)(*np.array(vertices).flatten())
+    out = (ctypes.c_double * 6)()
+    lib.get_square_diagonals(verts, out)
+    return np.array(out[:]).reshape(2,3)  # [[A1,B1,C1],[A2,B2,C2]]
+
+
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python+C code}
+
+    \begin{lstlisting}
+def format_equation(A, B, C):
+    """
+    Beautify line equation into readable string.
+    Example: -1x + 1y + 0 -> -x + y = 0
+    """
+    terms = []
+
+    # Ax term
+    if A != 0:
+        if A == 1:
+            terms.append("x")
+        elif A == -1:
+            terms.append("-x")
+        else:
+            terms.append(f"{A:g}x")
+
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python+C code}
+
+    \begin{lstlisting}
+ # By term
+    if B != 0:
+        sign = "+" if B > 0 and terms else ""
+        if B == 1:
+            terms.append(f"{sign}y")
+        elif B == -1:
+            terms.append(f"{sign}-y")
+        else:
+            terms.append(f"{sign}{B:g}y")
+  # Constant term
+    if C != 0:
+        sign = "+" if C > 0 and terms else ""
+        terms.append(f"{sign}{C:g}")
+    if not terms:
+        return "0 = 0"
+    return " ".join(terms) + " = 0"
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python+C code}
+
+    \begin{lstlisting}
+# Example: Square vertices (A,B,C,D)
+vertices = [(0,0), (1,0), (1,1), (0,1)]
+lines = get_diagonals(vertices)
+
+eq1 = format_equation(*lines[0])
+eq2 = format_equation(*lines[1])
+
+print("Diagonal AC:", eq1)
+print("Diagonal BD:", eq2)
+
+# Plotting
+square_x, square_y = zip(*vertices, vertices[0])
+plt.plot(square_x, square_y, "b-", label="Square")
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python+C code}
+
+    \begin{lstlisting}
+# Diagonal AC
+plt.plot([vertices[0][0], vertices[2][0]], [vertices[0][1], vertices[2][1]], "r--", label=f"AC: {eq1}")
+
+# Diagonal BD
+plt.plot([vertices[1][0], vertices[3][0]], [vertices[1][1], vertices[3][1]], "g--", label=f"BD: {eq2}")
+
+plt.legend(loc="upper right")
+plt.gca().set_aspect("equal", adjustable="box")
+plt.grid(True)
+plt.savefig("/home/user/Matrix/Matgeo_assignments/4.3.13/figs/Figure_1")
+plt.show()
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python code}
+
+    \begin{lstlisting}
+import matplotlib as mp
+mp.use("TkAgg")
+import numpy as np
+import matplotlib.pyplot as plt
+
+def line_equation_cartesian(point, direction):
+    """
+    Returns line equation in Cartesian form: Ax + By + C = 0
+    given a point and a direction vector.
+    """
+    x0, y0 = point
+    a, b = direction
+    
+    # Normal vector
+    A, B = -b, a
+    C = -(A*x0 + B*y0)
+    return A, B, C
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python code}
+
+    \begin{lstlisting}
+def diagonals_of_square(vertices):
+    """
+    Given 4 vertices of a square (in order), compute equations of diagonals in Cartesian form.
+    """
+    A, B, C, D = vertices
+    
+    # Diagonals are AC and BD
+    AC_dir = (C[0]-A[0], C[1]-A[1])
+    BD_dir = (D[0]-B[0], D[1]-B[1])
+    
+    line1 = line_equation_cartesian(A, AC_dir)
+    line2 = line_equation_cartesian(B, BD_dir)
+    
+    return line1, line2
+    \end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]
+    \frametitle{Python code}
+
+    \begin{lstlisting}
+def format_equation(A, B, C):
+    """
+    Beautify line equation into readable string.
+    Example: -1x + 1y + 0 -> -x + y = 0
+    """
+    terms = []
+
+    # Handle Ax term
+    if A != 0:
+        if A == 1:
+            terms.append("x")
+        elif A == -1:
+            terms.append("-x")
+        else:
+            terms.append(f"{A}x")
+
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python code}
+
+    \begin{lstlisting}
+    # Handle By term
+    if B != 0:
+        sign = "+" if B > 0 and terms else ""
+        if B == 1:
+            terms.append(f"{sign}y")
+        elif B == -1:
+            terms.append(f"{sign}-y")
+        else:
+            terms.append(f"{sign}{B}y")
+            # Handle C constant term
+    if C != 0:
+        sign = "+" if C > 0 and terms else ""
+        terms.append(f"{sign}{C}")
+
+    # In case all are zero
+    if not terms:
+        return "0 = 0"
+    return " ".join(terms) + " = 0"
+    \end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]
+    \frametitle{Python code}
+
+    \begin{lstlisting}
+def plot_square_and_diagonals(vertices, line1, line2):
+    """
+    Plot square and its diagonals with equations shown on the plot.
+    """
+    A, B, C, D = vertices
+    square_x = [A[0], B[0], C[0], D[0], A[0]]
+    square_y = [A[1], B[1], C[1], D[1], A[1]]
+    
+    plt.plot(square_x, square_y, 'b-', label='Square') 
+    # Plot diagonals
+    plt.plot([A[0], C[0]], [A[1], C[1]], 'r--', label='Diagonal AC')
+    plt.plot([B[0], D[0]], [B[1], D[1]], 'g--', label='Diagonal BD')
+    # Equations
+    eq1 = format_equation(*line1)
+    eq2 = format_equation(*line2)
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python code}
+
+    \begin{lstlisting}
+  # Midpoints of diagonals
+    mid_AC = ((A[0]+C[0])/2, (A[1]+C[1])/2)
+    mid_BD = ((B[0]+D[0])/2, (B[1]+D[1])/2)
+    
+    # Place texts with slight offsets to avoid overlap
+    plt.text(mid_AC[0]+0.05, mid_AC[1]+0.05, eq1, color='red', fontsize=10, ha='left')
+    plt.text(mid_BD[0]-0.15, mid_BD[1]-0.1, eq2, color='green', fontsize=10, ha='right')
+    
+    plt.gca().set_aspect('equal', adjustable='box')
+    plt.legend(loc="upper right")
+    plt.grid(True)
+    plt.savefig("/home/user/Matrix/Matgeo_assignments/4.3.13/figs/Figure_1")
+    plt.show()
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}{Plot}
+    \begin{figure}[H]
+    \centering
+    \caption{Plot of square and its diagonals}
+    \includegraphics[width=0.6\columnwidth]{figs/Figure_1.png}
+    \label{fig:1}
+    \end{figure}
+\end{frame}
+
+
+
+
+
+\end{document}

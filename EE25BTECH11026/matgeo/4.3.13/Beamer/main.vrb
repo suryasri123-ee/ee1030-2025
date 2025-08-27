@@ -1,0 +1,17 @@
+\frametitle{Python code}
+
+    \begin{lstlisting}
+  # Midpoints of diagonals
+    mid_AC = ((A[0]+C[0])/2, (A[1]+C[1])/2)
+    mid_BD = ((B[0]+D[0])/2, (B[1]+D[1])/2)
+
+    # Place texts with slight offsets to avoid overlap
+    plt.text(mid_AC[0]+0.05, mid_AC[1]+0.05, eq1, color='red', fontsize=10, ha='left')
+    plt.text(mid_BD[0]-0.15, mid_BD[1]-0.1, eq2, color='green', fontsize=10, ha='right')
+
+    plt.gca().set_aspect('equal', adjustable='box')
+    plt.legend(loc="upper right")
+    plt.grid(True)
+    plt.savefig("/home/user/Matrix/Matgeo_assignments/4.3.13/figs/Figure_1")
+    plt.show()
+    \end{lstlisting}

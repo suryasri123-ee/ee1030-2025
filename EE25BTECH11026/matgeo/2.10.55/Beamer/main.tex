@@ -145,11 +145,23 @@ Let $\vec{1}\vec{1}^T=\vec{J}$. As we could see that the eigen-vector of $\vec{J
 \begin{align*}
     \myvec{1&&1&&1\\1&&1&&1\\1&&1&&1}\myvec{1\\1\\1}=\myvec{3\\3\\3}=3\vec{1}
 \end{align*}
-So, 3 is a eigen value of $\vec{J}$. Also we can observe that any vector orthogonal to $\vec{J}$ has eigen value 0 and since the eigen vector has only two degrees of freedom,
+
+
+\end{frame}
+
+
+\begin{frame}{Theoretical solution}
+
+So, 3 is a eigen value of $\vec{J}$. Also, we know that the sum of eigen values is equal to trace of a matrix,we can say that the sum of the other eigen values would be 0. Also, we know that any orthogonal vector to $\vec{1}$ ,say $\myvec{-1&&1&&0}^T$ ,
+\begin{align*}
+    \myvec{1&&1&&1\\1&&1&&1\\1&&1&&1}\myvec{-1\\1\\0}=\vec{0}
+\end{align*}
+yields 0.Thus we can say that 0 is also one of the eigen value of J. As sum of the other eigen values other than 3 is zero, the other eigen value must be zero.
 \begin{align*}
     \therefore eigen\;values\;of\;\vec{J}\;are\;\{3,0,0\}
 \end{align*}
 \end{frame}
+
 
 \begin{frame}{Theoretical Solution}
 Modifying the above equation on $\vec{G}$,
