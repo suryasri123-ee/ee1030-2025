@@ -1,0 +1,147 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm} % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2.8.16}
+\author{EE25BTECH11033 - Kavin}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+\textbf{Question}:\\
+Prove that the lines $x=py+q , z=ry+s \text{ and } x=p^{\prime}y+q^{\prime}, z=r^{\prime}y+s^{\prime} $ are perpendicular if $pp^{\prime}+rr^{\prime}+1=0$.\\
+\bigskip
+
+\textbf{Solution}:\\
+Let line $L_1$ be the intersection of the planes,
+\begin{center}
+    $x-py-q=0\ ,\ z-ry-s=0$
+\end{center}
+Let line $L_2$ be the intersection of the planes,
+\begin{center}
+    $x-p^{\prime}y-q^{\prime}=0\ ,\ z-r^{\prime}y-s^{\prime}=0$
+\end{center}
+\bigskip
+The direction vectors of the lines $L_1$ and $L_2$ are given by the cross product of the direction vectors of the normals of the intersecting planes.\\ 
+Let $\vec{n_1}$, $\vec{n_2}$ be the normals for the planes $x-py-q=0\ \text{and}\ z-ry-s=0$ respectively.
+
+\begin{align}
+    direction\ vector\ of\ \vec{n_1}\ = \myvec{1\\-p\\0}
+\end{align}
+\begin{align}
+    direction\ vector\ of\ \vec{n_2}\ = \myvec{0\\-r\\1}
+\end{align}
+Let $\vec{n_3}$, $\vec{n_4}$ be the normals for the planes $x-p^{\prime}y-q^{\prime}=0\ \text{and}\ z-r^{\prime}y-s^{\prime}=0$ respectively.
+
+\begin{align}
+    direction\ vector\ of\ \vec{n_3}\ = \myvec{1\\-p^{\prime}\\0}
+\end{align}
+\begin{align}
+    direction\ vector\ of\ \vec{n_4}\ = \myvec{0\\-r^{\prime}\\1}
+\end{align}
+\newpage
+\begin{align}
+    \therefore direction\ vector\ of\ L_1\ = \vec{n_1} \times \vec{n_2} 
+\end{align}
+\begin{align}
+    direction\ vector\ of\ L_2\ = \vec{n_3} \times \vec{n_4} 
+\end{align}
+\bigskip
+
+The {\em cross product} or {\em vector product} of $\vec{n_1}, \vec{n_2}$ is defined as
+\begin{align}
+  \label{eq:cross3d}
+	\vec{n_1} \times \vec{n_2} 
+	 = \myvec{ \mydet{(\vec{n_1})_{23} & (\vec{n_2})_{23}} \\[1ex] \mydet{(\vec{n_1})_{31} & (\vec{n_2})_{31}} \\[1ex] \mydet{(\vec{n_1})_{12}  & (\vec{n_2})_{12}}}
+\end{align}\\
+\begin{align}
+	\mydet{(\vec{n_1})_{23}&(\vec{n_2})_{23}}=\mydet{-p & -r \\ 0 & 1}=-p\\\
+	\mydet{(\vec{n_1})_{31}&(\vec{n_2})_{31}}=\mydet{0 & 1 \\ 1 & 0}=-1\\
+	\mydet{(\vec{n_1})_{12}&(\vec{n_2})_{12}}=\mydet{1 & 0 \\ -p & -r}=-r,
+	\\
+	\vec{n_1}\times\vec{n_2}
+	 =\myvec{ \mydet{(\vec{n_1})_{23} & (\vec{n_2})_{23}} \\[1ex] \mydet{(\vec{n_1})_{31} & (\vec{n_2})_{31}} \\[1ex] \mydet{(\vec{n_1})_{12}  & (\vec{n_2})_{12}}}
+=\myvec{-p\\-1\\-r}
+\end{align}
+\begin{align}
+    \implies direction\ vector\ of\ L_1\ = \myvec{-p\\-1\\-r}
+\end{align}\\
+\bigskip
+
+The {\em cross product} or {\em vector product} of $\vec{n_3}, \vec{n_4}$ is defined as
+\begin{align}
+  \label{eq:cross3d}
+	\vec{n_3} \times \vec{n_4} 
+	 = \myvec{ \mydet{(\vec{n_3})_{23} & (\vec{n_4})_{23}} \\[1ex] \mydet{(\vec{n_3})_{31} & (\vec{n_4})_{31}} \\[1ex] \mydet{(\vec{n_3})_{12}  & (\vec{n_4})_{12}}}
+\end{align}\\
+\begin{align}
+	\mydet{(\vec{n_3})_{23}&(\vec{n_4})_{23}}=\mydet{-p^{\prime} & -r^{\prime} \\ 0 & 1}=-p^{\prime}\\\
+	\mydet{(\vec{n_3})_{31}&(\vec{n_4})_{31}}=\mydet{0 & 1 \\ 1 & 0}=-1\\
+	\mydet{(\vec{n_3})_{12}&(\vec{n_4})_{12}}=\mydet{1 & 0 \\ -p^{\prime} & -r^{\prime}}=-r^{\prime},
+	\\
+	\vec{n_3}\times\vec{n_4}
+	 =\myvec{ \mydet{(\vec{n_3})_{23} & (\vec{n_4})_{23}} \\[1ex] \mydet{(\vec{n_3})_{31} & (\vec{n_4})_{31}} \\[1ex] \mydet{(\vec{n_3})_{12}  & (\vec{n_4})_{12}}}
+=\myvec{-p^{\prime}\\-1\\-r^{\prime}}
+\end{align}
+\begin{align}
+    \implies direction\ vector\ of\ L_2\ = \myvec{-p^{\prime}\\-1\\-r^{\prime}}
+\end{align}\\
+\bigskip
+
+If the lines are perpendicular, then their dot product of direction vectors must be zero.
+\begin{align}
+    \implies \brak{direction\ vector\ of\ L_1}^\top\brak{direction\ vector\ of\ L_2} = 0
+\end{align}
+\begin{align}
+\implies \myvec{-p & -1 & -r} \myvec{-p^{\prime}\\-1\\-r^{\prime}} = 0
+\end{align}
+\begin{align}
+\implies pp^{\prime}+rr^{\prime}+1=0
+\end{align}\\
+\bigskip
+
+$\therefore$the lines $x=py+q , z=ry+s \text{ and } x=p^{\prime}y+q^{\prime}, z=r^{\prime}y+s^{\prime} $ are perpendicular if $pp^{\prime}+rr^{\prime}+1=0$
+\end{document}
