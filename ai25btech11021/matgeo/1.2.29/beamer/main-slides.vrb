@@ -1,0 +1,19 @@
+\frametitle{Python Code}
+    \begin{lstlisting}
+
+# Labels
+plt.text(W[0], W[1], " W", fontsize=12)
+plt.text(V[0], V[1], " V", fontsize=12)
+plt.text(R[0], R[1], " R", fontsize=12)
+
+plt.xlim(-10,80)
+plt.ylim(-10,80)
+plt.xlabel("East (+x)")
+plt.ylabel("North (+y)")
+plt.title("Relative Wind Seen from Boat")
+plt.legend()
+plt.grid(True)
+plt.gca().set_aspect('equal', adjustable='box')
+plt.show()
+
+    \end{lstlisting}
