@@ -54,15 +54,16 @@ In what ratio does the point \myvec{\frac{24}{11} \\ y} divide the line segment 
 $\vec{P}=\myvec{2\\-2}$, $\vec{Q}\myvec{3\\7}$ and a point $\vec{R} \myvec{\frac{24}{11} \\ y}$ on $PQ$.
 
 Let $R$ divide $PQ$ internally in the ratio $k:1$.\\
-Therefore, they are defined to be collinear if,
+Therefore, they are defined to be collinear if rank of the collinearity matrix is 1
 \begin{align*}
-    \text{rank}\myvec{\vec{R}- \vec{P} & \vec{Q}-\vec{R}}=1\\
-    \vec{R}-\vec{P}=\myvec{\dfrac{2}{11} \\ y+2}\\
+    \text{Collinearity matrix is }\myvec{\vec{P}- \vec{R} & \vec{Q}-\vec{R}}^{\top}=1\\
+    \vec{P}-\vec{R}=\myvec{\dfrac{-2}{11} \\ -y-2}\\
     \vec{Q}-\vec{R}=\myvec{\dfrac{9}{11} \\ 7-y}\\
-    \text{rank}\myvec{\dfrac{2}{11} & \dfrac{9}{11} \\ y+2 & 7-y} = 1\\
-    \myvec{\frac{2}{11}&\frac{9}{11}\\ y+2&7-y} \overset{R_2 \rightarrow 9R_2-11 R_1\brak{7-y}}{\longrightarrow} \myvec{\frac{2}{11} &\frac{9}{11} \\ 11y+4 & 0} \\
-    \text{for the rank of this matrix to be 1, its $2^{nd}$ row has to be 0}\\ 11y+{4}=0\\
-    \therefore y=\dfrac{-4}{11}
+    \implies \text{rank}\myvec{\frac{-2}{11} & -y-2 \\ \frac{9}{11} & 7-y} = 1\\
+    \myvec{\frac{-2}{11} & -2-y \\ \frac{9}{11} & 7-y}\overset{R_2 \rightarrow R_2 + \frac{9}{2}R_1}{\longrightarrow} \myvec{\frac{-2}{11} & -2-y \\ 0 & \dfrac{-11-4y}{2}}\\
+    \text{for rank of this matrix to be 1, all the elements in the lower row have to be zero}\\
+    \therefore -11-4y=0 \implies
+    y=\dfrac{-4}{11}
 \end{align*}
 We know that $k$ is the ratio in which $\vec{R}$ divides $\vec{P}$ and $\vec{Q}$,
 \begin{align*}
@@ -71,7 +72,7 @@ We know that $k$ is the ratio in which $\vec{R}$ divides $\vec{P}$ and $\vec{Q}$
    \implies k =\dfrac{\brak{\vec{P}-\vec{R}}^{\top}\brak{\vec{R}-\vec{Q}}}{\norm{\vec{R}-\vec{Q}}^2}\\
    \brak{\vec{P}-\vec{R}}^{\top}=\myvec{\frac{-2}{11} & \frac{-18}{11}}\\
    \brak{\vec{R}-\vec{Q}}=\myvec{\frac{-9}{11} \\ \frac{-81}{11}}\\
-   \norm{\vec{R}-\vec{Q}}^2=\frac{81}{121} + \frac{6561}{121}=\frac{6642}{121}\\
+   \norm{\vec{R}-\vec{Q}}^2=\myvec{\vec{R}-\vec{Q}}^{\top} \myvec{\vec{R}-\vec{Q}}\\=\myvec{\frac{-9}{11} & \frac{-81}{11}}\myvec{\frac{-9}{11} \\ \frac{-81}{11}}=\frac{81}{121} + \frac{6561}{121}=\frac{6642}{121}\\
    \therefore k=\dfrac{\myvec{\frac{-2}{11} & \frac{-18}{11}}\myvec{\frac{-9}{11} \\ \frac{-81}{11}}}{\frac{6642}{121}}\\
    \end{align*}
 \begin{align*}
@@ -82,12 +83,9 @@ We know that $k$ is the ratio in which $\vec{R}$ divides $\vec{P}$ and $\vec{Q}$
 \begin{align*}
  \text{Hence, the final answer is }\fbox{k = \dfrac{2}{9}} \; \text{and} \; \fbox{y = \dfrac{-4}{11}}  
 \end{align*}
-
-
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\columnwidth]{figs/1.png}
+    \includegraphics[width=1\columnwidth]{figs/1.png}
     \caption{Plot for 1.5.25}
     \label{fig:placeholder}
 \end{figure}

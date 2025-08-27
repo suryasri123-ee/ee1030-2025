@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.9)  27 AUG 2025 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.9)  27 AUG 2025 19:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1098,6 +1098,13 @@ ut line 72.
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 72.
+
 
 [3
 
@@ -1118,17 +1125,17 @@ thkerncmss.
 [7
 
 ]
-./beamer.tex:131: Missing $ inserted.
+./beamer.tex:134: Missing $ inserted.
 <inserted text> 
                 $
-l.131 \end{frame}
+l.134 \end{frame}
                  
 ? R
 OK, entering \nonstopmode...
-./beamer.tex:131: Extra }, or forgotten $.
+./beamer.tex:134: Extra }, or forgotten $.
 \@genfrac ...egingroup #4\endgroup #2#3\relax #5}}
                                                   
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1136,10 +1143,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./beamer.tex:131: Extra }, or forgotten $.
+./beamer.tex:134: Extra }, or forgotten $.
 \fbox  ...x {\color@begingroup \kern \fboxsep {#1}
                                                   \kern \fboxsep \color@endg...
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1147,18 +1154,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./beamer.tex:131: Missing $ inserted.
+./beamer.tex:134: Missing $ inserted.
 <inserted text> 
                 $
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./beamer.tex:131: Missing } inserted.
+./beamer.tex:134: Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1166,10 +1173,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./beamer.tex:131: Missing } inserted.
+./beamer.tex:134: Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1177,18 +1184,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./beamer.tex:131: Missing $ inserted.
+./beamer.tex:134: Missing $ inserted.
 <inserted text> 
                 $
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./beamer.tex:131: Extra }, or forgotten $.
+./beamer.tex:134: Extra }, or forgotten $.
 \@genfrac ...egingroup #4\endgroup #2#3\relax #5}}
                                                   
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1196,10 +1203,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./beamer.tex:131: Extra }, or forgotten $.
+./beamer.tex:134: Extra }, or forgotten $.
 \fbox  ...x {\color@begingroup \kern \fboxsep {#1}
                                                   \kern \fboxsep \color@endg...
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1207,18 +1214,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./beamer.tex:131: Missing $ inserted.
+./beamer.tex:134: Missing $ inserted.
 <inserted text> 
                 $
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./beamer.tex:131: Missing } inserted.
+./beamer.tex:134: Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1226,10 +1233,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./beamer.tex:131: Missing } inserted.
+./beamer.tex:134: Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1237,18 +1244,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./beamer.tex:131: Missing $ inserted.
+./beamer.tex:134: Missing $ inserted.
 <inserted text> 
                 $
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./beamer.tex:131: Extra }, or forgotten $.
+./beamer.tex:134: Extra }, or forgotten $.
 \@genfrac ...egingroup #4\endgroup #2#3\relax #5}}
                                                   
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1256,10 +1263,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./beamer.tex:131: Extra }, or forgotten $.
+./beamer.tex:134: Extra }, or forgotten $.
 \fbox  ...x {\color@begingroup \kern \fboxsep {#1}
                                                   \kern \fboxsep \color@endg...
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1267,18 +1274,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./beamer.tex:131: Missing $ inserted.
+./beamer.tex:134: Missing $ inserted.
 <inserted text> 
                 $
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./beamer.tex:131: Missing } inserted.
+./beamer.tex:134: Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1286,10 +1293,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./beamer.tex:131: Missing } inserted.
+./beamer.tex:134: Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1297,18 +1304,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./beamer.tex:131: Missing $ inserted.
+./beamer.tex:134: Missing $ inserted.
 <inserted text> 
                 $
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./beamer.tex:131: Extra }, or forgotten $.
+./beamer.tex:134: Extra }, or forgotten $.
 \@genfrac ...egingroup #4\endgroup #2#3\relax #5}}
                                                   
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1316,10 +1323,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./beamer.tex:131: Extra }, or forgotten $.
+./beamer.tex:134: Extra }, or forgotten $.
 \fbox  ...x {\color@begingroup \kern \fboxsep {#1}
                                                   \kern \fboxsep \color@endg...
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1327,18 +1334,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./beamer.tex:131: Missing $ inserted.
+./beamer.tex:134: Missing $ inserted.
 <inserted text> 
                 $
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./beamer.tex:131: Missing } inserted.
+./beamer.tex:134: Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1346,10 +1353,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./beamer.tex:131: Missing } inserted.
+./beamer.tex:134: Missing } inserted.
 <inserted text> 
                 }
-l.131 \end{frame}
+l.134 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1360,10 +1367,10 @@ my insertion and my current dilemma will both disappear.
 <figs/1.png, id=78, 578.16pt x 433.62pt>
 File: figs/1.png Graphic file (type png)
 <use figs/1.png>
-Package pdftex.def Info: figs/1.png  used on input line 131.
+Package pdftex.def Info: figs/1.png  used on input line 134.
 (pdftex.def)             Requested size: 239.60567pt x 179.70413pt.
 
-Overfull \vbox (34.13931pt too high) detected at line 131
+Overfull \vbox (34.13931pt too high) detected at line 134
  []
 
 
@@ -1390,23 +1397,23 @@ Package rerunfilecheck Info: File `beamer.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  25298 strings out of 473190
- 480325 string characters out of 5715801
- 857060 words of memory out of 5000000
- 48015 multiletter control sequences out of 15000+600000
- 567232 words of font info for 66 fonts, out of 8000000 for 9000
+ 480345 string characters out of 5715801
+ 856056 words of memory out of 5000000
+ 48016 multiletter control sequences out of 15000+600000
+ 566774 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,123p,381b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,17n,123p,396b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
-cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on beamer.pdf (8 pages, 130340 bytes).
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on beamer.pdf (8 pages, 130932 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
