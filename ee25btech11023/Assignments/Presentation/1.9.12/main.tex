@@ -158,10 +158,17 @@ Hence the coordinates of $\vec{P}$ are $\brak{\frac{-7}{2},1}$
 \begin{frame}[fragile]
 \frametitle{Plot}
 
+<<<<<<< HEAD
 \begin{figure}[h!]
    \centering
    \includegraphics[width=0.9\linewidth]{figs/fig1.png}
 	\caption{Area Enclosed by parabola and line. }
+=======
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.8\columnwidth]{figs/fig1.png}
+	\caption{}
+>>>>>>> upstream/main
    \label{stemplot}
 \end{figure}
 \end{frame}
@@ -183,14 +190,24 @@ Hence the coordinates of $\vec{P}$ are $\brak{\frac{-7}{2},1}$
 
 int main() {
     double **k, **M, **C;
+<<<<<<< HEAD
     int x1 = -6, x2 = -1, y1 = 7, y2 = -5;
 
     // Create matrices
     M = createMat(2, 2);
+=======
+     int x1 = -6, x2 = -1, y1 = 7, y2 = -5;
+
+    // Create matrices
+    M = createMat(2, 2);
+    k = createMat(2, 1);
+    C = createMat(2, 1);
+>>>>>>> upstream/main
  
     \end{lstlisting}
 \end{frame}
 \begin{frame}[fragile]
+<<<<<<< HEAD
 \frametitle{C Code for generating points on parabola}
 \begin{lstlisting}[language=C]
    k = createMat(2, 1);
@@ -205,16 +222,38 @@ int main() {
     k[0][0] = 1.0 / 2;  // weight for B (column 0)
     k[1][0] = 1.0 / 2;  // weight for A (column 1)
 
+=======
+\frametitle{C Code for generating points on line}
+\begin{lstlisting}[language=C]
+  M[0][1] = x1;  
+    M[1][1] = y1;  
+
+
+    M[0][0] = x2;  
+    M[1][0] = y2;  
+
+ 
+    k[0][0] =1.0 / 2;  // weight for B (column 0)
+    k[1][0] = 1.0 / 2;  // weight for A (column 1)
+
+    // Matrix multiplication: C = M * k
+>>>>>>> upstream/main
     C = Matmul(M, k, 2, 2, 1);
 
     // Write result to file
     FILE *file = fopen("values.dat", "w");
     if (file == NULL) {
+<<<<<<< HEAD
  
+=======
+        printf("Error opening file!\n");
+        return 1;
+>>>>>>> upstream/main
 \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile]
+<<<<<<< HEAD
 \frametitle{C Code for generating points on parabola}
 \begin{lstlisting}[language=C]
        printf("Error opening file!\n");
@@ -222,6 +261,12 @@ int main() {
     }
 
     fprintf(file, "x\ty\t of C\n");
+=======
+\frametitle{C Code for generating points on line}
+\begin{lstlisting}[language=C]
+     }
+      fprintf(file, "x\ty\t of C\n");
+>>>>>>> upstream/main
     fprintf(file, "%.02lf\t%.02lf\n", C[0][0], C[1][0]);  // x and y of C
 
     fclose(file);
@@ -266,9 +311,16 @@ from conics.funcs import circ_gen
 # Read data
 data = np.loadtxt("values.dat", skiprows=1)
 
+<<<<<<< HEAD
 xc = data[0]
 yc = data[1]
 
+=======
+xc = data[0]  # Extract x-coordinate (e.g., -1)
+yc = data[1]  # Extract y-coordinate (e.g., 4.5)
+
+# Given points
+>>>>>>> upstream/main
 A = np.array([-6, 7]).reshape(-1, 1)
 B = np.array([-1, -5]).reshape(-1, 1)
 P = np.array([xc, yc]).reshape(-1, 1)
@@ -279,7 +331,10 @@ x_AB = line_gen(A, B)
 # Plotting
 plt.plot(x_AB[0, :], x_AB[1, :], label='$AB$')
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
 \end{lstlisting}
 \end{frame}
 
@@ -297,14 +352,22 @@ def fmt(val):
     return f"{val:.1f}" if abs(val - round(val)) > 1e-6 else f"{int(val)}"
 
 for i, txt in enumerate(vert_labels):
+<<<<<<< HEAD
     x = tri_coords[0, i]
     y = tri_coords[1, i]
+=======
+    x = tri_coords[0, i].item()
+    y = tri_coords[1, i].item()
+>>>>>>> upstream/main
     plt.annotate(f'{txt}\n({fmt(x)}, {fmt(y)})',
                  (x, y),
                  textcoords="offset points",
                  xytext=(20, -10),
                  ha='center')
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
 \end{lstlisting}
 \end{frame}
 
@@ -317,6 +380,7 @@ ax.spines['right'].set_visible(False)
 ax.spines['top'].set_visible(False)
 ax.spines['bottom'].set_visible(False)
 
+<<<<<<< HEAD
 
 plt.legend(loc='best')
 plt.grid()
@@ -330,3 +394,19 @@ plt.show()
 \end{frame}
 
 \end{document}
+=======
+plt.legend(loc='best')
+plt.grid()
+
+# Increase y-axis from -8 to 8 to show full range
+plt.ylim(-7, 8)
+plt.xlim(-7,7)
+
+# Save and open
+plt.show()
+plt.savefig('../figs/fig1.png')
+\end{lstlisting}
+\end{frame}
+
+\end{document}
+>>>>>>> upstream/main

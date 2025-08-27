@@ -15,5 +15,4 @@ ax.legend()
 
 plt.savefig('trisection_plot.png')
 plt.show()
-
 \end{lstlisting}

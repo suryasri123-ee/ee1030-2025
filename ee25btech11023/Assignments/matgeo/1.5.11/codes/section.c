@@ -18,6 +18,7 @@ int main() {
     k = createMat(2, 1);
     C = createMat(2, 1);
 
+<<<<<<< HEAD
     // Point A (-4, 0) -> column 1
     M[0][1] = x1;  // x1 = -4
     M[1][1] = y1;  // y1 = 0
@@ -28,6 +29,15 @@ int main() {
 
     // Divide AB in ratio AC:CB = 3:1
     // Then C = (1*A + 3*B) / (3+1) => weights: A=1/4, B=3/4
+=======
+
+    M[0][1] = x1; 
+    M[1][1] = y1; 
+
+    M[0][0] = x2;  
+    M[1][0] = y2;  
+ 
+>>>>>>> upstream/main
     k[0][0] = 3.0 / 4;  // weight for B (column 0)
     k[1][0] = 1.0 / 4;  // weight for A (column 1)
 
