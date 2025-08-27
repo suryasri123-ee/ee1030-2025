@@ -2,16 +2,13 @@
 #1.2.18 represents graphically a parallelogram
 
 import sys
-sys.path.insert(0, '/Users/unnathi/Documents/matgeo/ai25btech11012/matgeo/1.2.18/codes') 
+sys.path.insert(0, '/Users/unnathi/Documents/ee1030-2025/ai25btech11012/matgeo/1.2.18/codes') 
 import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-#if using termux 
 import subprocess
-import shlex 
-#end if
-
+import shlex
 
 
 # Function to generate line points
@@ -64,7 +61,8 @@ plt.axis('equal')
 plt.grid(True)
 
 # Save and Show
-plt.savefig('/Users/unnathi/Documents/matgeo/ai25btech11012/matgeo/1.2.18/figs/fig.png')
+plt.savefig('/Users/unnathi/Documents/ee1030-2025/ai25btech11012/matgeo/1.2.18/figs/fig.png')
+
 plt.show()
 
 

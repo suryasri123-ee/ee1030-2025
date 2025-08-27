@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.1)  27 AUG 2025 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.1)  28 AUG 2025 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1989,13 +1989,17 @@ png>] (./main.aux)
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  54429 strings out of 473190
  1298297 string characters out of 5715801
- 1888604 words of memory out of 5000000
+ 1888602 words of memory out of 5000000
  76858 multiletter control sequences out of 15000+600000
  622675 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2006,7 +2010,7 @@ texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 66011 bytes).
+Output written on main.pdf (2 pages, 65489 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
