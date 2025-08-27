@@ -1,0 +1,6 @@
+\beamer@sectionintoc {2}{Problem}{3}{0}{1}
+\beamer@sectionintoc {3}{Solution}{4}{0}{2}
+\beamer@subsectionintoc {3}{1}{Vector Setup}{4}{0}{2}
+\beamer@subsectionintoc {3}{2}{Solving for vector C}{5}{0}{2}
+\beamer@subsectionintoc {3}{3}{Solving for vector C}{6}{0}{2}
+\beamer@subsectionintoc {3}{4}{Plot}{11}{0}{2}
