@@ -1,43 +1,39 @@
-import math
-import sys   
 import numpy as np
-import numpy.linalg as LA
 import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-from line.funcs import *
-#from triangle.funcs import *
-#from conics.funcs import circ_gen
-#if using termux
-import subprocess
-import shlex
-#end if
 
-A = np.array([1,3]).reshape(-1,1)
-B = np.array([-1,2]).reshape(-1,1)
-C = np.array([2,5]).reshape(-1,1)
-D = np.array([4,6]).reshape(-1,1)
+# Read coordinates from output.dat
+coords = np.loadtxt('output.dat')
+A, B, C, D = coords
 
-coords = np.block([[A,B,C,D]])
+def linegen(P, Q, num=100):
+    return np.column_stack([
+        np.linspace(P[0], Q[0], num),
+        np.linspace(P[1], Q[1], num)
+    ])
 
-AB = line_gen(A,B)
-BC = line_gen(B,C)
-CD = line_gen(C,D)
-DA = line_gen(D,A)
+# Generate the sides of the parallelogram
+AB = linegen(A, B)
+BC = linegen(B, C)
+CD = linegen(C, D)
+DA = linegen(D, A)
 
-plt.plot(AB[0,:],AB[1,:])
-plt.plot(BC[0,:],BC[1,:])
-plt.plot(CD[0,:],CD[1,:])
-plt.plot(DA[0,:],DA[1,:])
-plt.scatter(coords[0,:],coords[1,:])
+# Plot the sides
+plt.plot(AB[:, 0], AB[:, 1])
+plt.plot(BC[:, 0], BC[:, 1])
+plt.plot(CD[:, 0], CD[:, 1])
+plt.plot(DA[:, 0], DA[:, 1])
 
+# Scatter and label vertices correctly
+for name, pt in zip(['A', 'B', 'C', 'D'], [A, B, C, D]):
+    plt.scatter(pt[0], pt[1])
+    plt.text(pt[0] + 0.05, pt[1] + 0.05, f'{name}{tuple(map(int, pt))}')
 
-plt.text(A[0],A[1],"A(1,3)")
-plt.text(B[0],B[1],"B(-1,2)")
-plt.text(C[0],C[1],"C(2,5)")
-plt.text(D[0],D[1],"D(4,6)")
-plt.xlabel('$x$')
-plt.ylabel('$y$')
-plt.grid() # minor
+plt.xlabel('x')
+plt.ylabel('y')
+plt.grid(True)
 plt.axis('equal')
+plt.title('Parallelogram ABCD')
 
 plt.savefig('../figs/fig.png')
+plt.show()
+
