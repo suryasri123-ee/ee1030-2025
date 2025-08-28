@@ -1,0 +1,17 @@
+\frametitle{Python Code}
+    \begin{lstlisting}
+# Axis limits and ticks
+plt.xlim(-2, 4)
+plt.ylim(0, 7)
+plt.xticks(np.arange(-2, 5, 1))
+plt.yticks(np.arange(0, 8, 1))
+
+# Title and axis labels
+plt.title('Points A, B, C', fontsize=14, fontweight='bold', pad=20)
+plt.xlabel('')
+plt.ylabel('')
+
+# Save the figure
+plt.savefig('fig1.png', dpi=150, bbox_inches='tight')
+plt.close()
+    \end{lstlisting}
