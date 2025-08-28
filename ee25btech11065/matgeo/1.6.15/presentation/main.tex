@@ -96,6 +96,14 @@
 \begin{frame}{Theoretical Solution}
 Let $\vec{A}(5,1)$, $\vec{B}(-2,-3)$, $\vec{C}(8,2m)$.
 \\
+\begin{table}[H]    
+  \centering
+  \input{tables/table.tex}
+  \caption{Answers}
+  \label{Answers}
+\end{table}
+\end{frame}
+\begin{frame}{Theoretical Solution}
 Using the collinearity $\brak{rank}$ test, form the matrix with difference vectors:
 \begin{align*}
     (\vec{B}-\vec{A} \quad \vec{C}-\vec{A}) &= \myvec{-2-5 & 8-5 \\ -3-1 & 2m-1} \\
@@ -107,7 +115,7 @@ Using the collinearity $\brak{rank}$ test, form the matrix with difference vecto
 \textbf{The three points are collinear$\iff$this matrix has rank 1 $\brak{its\ rows\ are\ linearly\ dependent}$.\\}
 \end{frame}
 \begin{frame}{Theoretical Solution}
-Using Gauss–Jordan elimination,
+Using row reduction ,
 \begin{center}
  $R_2 \leftarrow 7R_2 - 4R_1 \implies \myvec{ -7 & 3 \\ 0 & 14m-19 }.$
  \end{center}
