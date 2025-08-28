@@ -105,16 +105,14 @@ midpoint of AB.
 %\subsection{Literature}
 \section{Solution}
 \subsection{Formulas}
+\setcounter{section}{1}
 \begin{frame}
 \frametitle{Formulas}
 %\framesubtitle{Literature}
 Formula:
 
-Let $(x_1,y_1)$ and $(x_2,y_2)$ be any two points.
-Distance Formula is given by
-\begin{align}
-  \sqrt{\brak{x_2 - x_1}^2 + \brak{y_2 - y_1}^2}
-\end{align}
+The direction vector for the given two points $\vec{A}$ and $\vec{B}$ is given by $\vec{B}-\vec{A}$
+
 Midpoint Formula:
 \begin{align}
    \vec{P}=\frac{k(\vec{B})+(\vec{A})}{k+1}
@@ -127,25 +125,29 @@ Where:
 \vec{A}=\myvec{-6\\7} \hspace{1cm} \vec{B}=\myvec{-1\\-5} 
 \end{align}
 
-
 \end{frame}
-\subsection{Obtaining Distance}
+\subsection{Obtaining Length of the segment}
 \begin{frame}
-\frametitle{Obtaining Distance}
-\begin{align}
-	\myvec{-6\\7} =\myvec{x_1\\y_1} \\
-    \myvec{-1\\-5} =\myvec{x_2\\y_2} 
-    \end{align}
+\frametitle{Obtaining Length of the segment}
     \begin{align}
-   \text{Distance} &= \sqrt{(-1 - (-6))^2 + (-5 - 7)^2} = \sqrt{(5)^2 + (-12)^2} \\ &= \sqrt{25 + 144} \\&= \sqrt{169}\\ &= 13
+\vec{B} - \vec{A} = \myvec{-1 - (-6) \\ -5 - 7} = \myvec{5 \\ -12}  
 \end{align}
+\begin{align}
+d = \|\vec{B-A}\| = \sqrt{\brak{B-A}^\top \brak{B-A}} 
+\end{align}
+\begin{align}
+\brak{\vec{B}-\vec{A}}^\top \brak{\vec{B}-\vec{A}}&=\myvec{5  \ -12}\myvec{5 \\ -12}\\
+&=5\times5+-12\times-12 = 169\\
+d &=\sqrt{169}=13
+\end{align}
+Hence, the length of the segment $\vec{AB}$ is 13 units.
 \end{frame}
 \subsection{Finding Midpoint}
 \begin{frame}
 \frametitle{Finding Midpoint}
 
 \begin{align}
-P=\frac{B+A}{2}=\frac{\myvec{-6\\7}+\myvec{-1\\-5}}{2}&=\frac{\myvec{-7\\2}}{2}\\ &=\myvec{\frac{-7}{2}\\1}\\
+\vec{P}=\frac{\vec{B}+\vec{A}}{2}=\frac{\myvec{-6\\7}+\myvec{-1\\-5}}{2}&=\frac{\myvec{-7\\2}}{2}\\ &=\myvec{\frac{-7}{2}\\1}
 \end{align}
 
 Hence the coordinates of $\vec{P}$ are $\brak{\frac{-7}{2},1}$
@@ -158,17 +160,10 @@ Hence the coordinates of $\vec{P}$ are $\brak{\frac{-7}{2},1}$
 \begin{frame}[fragile]
 \frametitle{Plot}
 
-<<<<<<< HEAD
-\begin{figure}[h!]
-   \centering
-   \includegraphics[width=0.9\linewidth]{figs/fig1.png}
-	\caption{Area Enclosed by parabola and line. }
-=======
 \begin{figure}[H]
    \centering
    \includegraphics[width=0.8\columnwidth]{figs/fig1.png}
 	\caption{}
->>>>>>> upstream/main
    \label{stemplot}
 \end{figure}
 \end{frame}
@@ -190,39 +185,16 @@ Hence the coordinates of $\vec{P}$ are $\brak{\frac{-7}{2},1}$
 
 int main() {
     double **k, **M, **C;
-<<<<<<< HEAD
-    int x1 = -6, x2 = -1, y1 = 7, y2 = -5;
-
-    // Create matrices
-    M = createMat(2, 2);
-=======
      int x1 = -6, x2 = -1, y1 = 7, y2 = -5;
 
     // Create matrices
     M = createMat(2, 2);
     k = createMat(2, 1);
     C = createMat(2, 1);
->>>>>>> upstream/main
  
     \end{lstlisting}
 \end{frame}
 \begin{frame}[fragile]
-<<<<<<< HEAD
-\frametitle{C Code for generating points on parabola}
-\begin{lstlisting}[language=C]
-   k = createMat(2, 1);
-    C = createMat(2, 1);
-
-    M[0][1] = x1;  
-    M[1][1] = y1;  
-
-    M[0][0] = x2;  
-    M[1][0] = y2;  
-    
-    k[0][0] = 1.0 / 2;  // weight for B (column 0)
-    k[1][0] = 1.0 / 2;  // weight for A (column 1)
-
-=======
 \frametitle{C Code for generating points on line}
 \begin{lstlisting}[language=C]
   M[0][1] = x1;  
@@ -237,36 +209,21 @@ int main() {
     k[1][0] = 1.0 / 2;  // weight for A (column 1)
 
     // Matrix multiplication: C = M * k
->>>>>>> upstream/main
     C = Matmul(M, k, 2, 2, 1);
 
     // Write result to file
     FILE *file = fopen("values.dat", "w");
     if (file == NULL) {
-<<<<<<< HEAD
- 
-=======
         printf("Error opening file!\n");
         return 1;
->>>>>>> upstream/main
 \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile]
-<<<<<<< HEAD
-\frametitle{C Code for generating points on parabola}
-\begin{lstlisting}[language=C]
-       printf("Error opening file!\n");
-        return 1;
-    }
-
-    fprintf(file, "x\ty\t of C\n");
-=======
 \frametitle{C Code for generating points on line}
 \begin{lstlisting}[language=C]
      }
       fprintf(file, "x\ty\t of C\n");
->>>>>>> upstream/main
     fprintf(file, "%.02lf\t%.02lf\n", C[0][0], C[1][0]);  // x and y of C
 
     fclose(file);
@@ -311,16 +268,10 @@ from conics.funcs import circ_gen
 # Read data
 data = np.loadtxt("values.dat", skiprows=1)
 
-<<<<<<< HEAD
-xc = data[0]
-yc = data[1]
-
-=======
 xc = data[0]  # Extract x-coordinate (e.g., -1)
 yc = data[1]  # Extract y-coordinate (e.g., 4.5)
 
 # Given points
->>>>>>> upstream/main
 A = np.array([-6, 7]).reshape(-1, 1)
 B = np.array([-1, -5]).reshape(-1, 1)
 P = np.array([xc, yc]).reshape(-1, 1)
@@ -331,10 +282,6 @@ x_AB = line_gen(A, B)
 # Plotting
 plt.plot(x_AB[0, :], x_AB[1, :], label='$AB$')
 
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/main
 \end{lstlisting}
 \end{frame}
 
@@ -352,22 +299,13 @@ def fmt(val):
     return f"{val:.1f}" if abs(val - round(val)) > 1e-6 else f"{int(val)}"
 
 for i, txt in enumerate(vert_labels):
-<<<<<<< HEAD
-    x = tri_coords[0, i]
-    y = tri_coords[1, i]
-=======
     x = tri_coords[0, i].item()
     y = tri_coords[1, i].item()
->>>>>>> upstream/main
     plt.annotate(f'{txt}\n({fmt(x)}, {fmt(y)})',
                  (x, y),
                  textcoords="offset points",
                  xytext=(20, -10),
                  ha='center')
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/main
 \end{lstlisting}
 \end{frame}
 
@@ -380,21 +318,6 @@ ax.spines['right'].set_visible(False)
 ax.spines['top'].set_visible(False)
 ax.spines['bottom'].set_visible(False)
 
-<<<<<<< HEAD
-
-plt.legend(loc='best')
-plt.grid()
-
-plt.ylim(-7, 8)
-plt.xlim(-7,7)
-
-plt.savefig('../figs/fig1.png')
-plt.show()
-\end{lstlisting}
-\end{frame}
-
-\end{document}
-=======
 plt.legend(loc='best')
 plt.grid()
 
@@ -409,4 +332,3 @@ plt.savefig('../figs/fig1.png')
 \end{frame}
 
 \end{document}
->>>>>>> upstream/main

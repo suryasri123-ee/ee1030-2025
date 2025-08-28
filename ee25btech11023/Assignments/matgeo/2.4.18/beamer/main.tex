@@ -92,7 +92,7 @@ columns=fullflexible
 \begin{frame}
 \frametitle{Problem Statement}
 %
-Find the values of $\vec{p}$ so that the lines $\frac{1-x}{3} = \frac{7y-14}{2p} = \frac{z-3}{2}$ and $\frac{7-7x}{3p} = \frac{y-5}{1} = \frac{6-z}{5}$ are at right angles. 
+Find the values of $p$ so that the lines $\frac{1-x}{3} = \frac{7y-14}{2p} = \frac{z-3}{2}$ and $\frac{7-7x}{3p} = \frac{y-5}{1} = \frac{6-z}{5}$ are at right angles. 
  \begin{table}[h!]    
   \centering
   \input{table/table}
@@ -109,7 +109,7 @@ Find the values of $\vec{p}$ so that the lines $\frac{1-x}{3} = \frac{7y-14}{2p}
 %\framesubtitle{Literature}
 To show that two lines are at right angles
 \begin{align}
- \myvec{m_1}^\top\myvec{m_2} = 0 
+ \myvec{\vec{m_1}}^\top\myvec{\vec{m_2}} = 0 
 \end{align}
 
 \end{frame}
@@ -130,11 +130,11 @@ Line 2:
 \frametitle{Direction Vectors}
 Direction vector for line 1:
 \begin{align}
-m_1 = \myvec{-3 \\ \frac{2p}{7} \\ 2}
+\vec{m_1} = \myvec{-3 \\ \frac{2p}{7} \\ 2}
 \end{align}
 Direction vector for line 2:
 \begin{align}
-m_2 = \myvec{-\frac{3p}{7} \\ 1 \\ -5}
+\vec{m_2} = \myvec{-\frac{3p}{7} \\ 1 \\ -5}
 \end{align}
 \end{frame}
 
@@ -142,18 +142,18 @@ m_2 = \myvec{-\frac{3p}{7} \\ 1 \\ -5}
 \begin{frame}
 \frametitle{Answer}
 \begin{align}
-\myvec{m_1}^\top\myvec{m_2} = 0 
+\myvec{\vec{m_1}}^\top\myvec{\vec{m_2}} = 0 
 \end{align}
 \begin{align}
 \myvec{-3 \ \frac{2p}{7} \ 2}\myvec{-\frac{3p}{7} \\ 1 \\ -5}=0  
 \end{align}
 \begin{align}
-(-3)(-\frac{3p}{7}) + (\frac{2p}{7})(1) + (2)(-5) = 0  
+\brak{-3}\brak{-\frac{3p}{7}} + \brak{\frac{2p}{7}}\brak{1} + \brak{2}\brak{-5} = 0
 \end{align}
 \begin{align}
 p = \frac{70}{11}
 \end{align}
-Hence the value of $\vec{p}$ is $\frac{70}{11}$
+Hence the value of $p$ is $\frac{70}{11}$
 \end{frame}
 
 \subsection{Plot}
@@ -162,7 +162,7 @@ Hence the value of $\vec{p}$ is $\frac{70}{11}$
 
 \begin{figure}[h!]
    \centering
-   \includegraphics[width=0.6\columnwidth]{figs/fig1.png}
+   \includegraphics[width=0.8\linewidth]{figs/fig1.png}
 	\caption{}
    \label{stemplot}
 \end{figure}
