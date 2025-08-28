@@ -1,0 +1,173 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\graphicspath{{./figs/}}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage{caption}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}     
+\usepackage{xparse}
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+%\newtheorem{theorem}{Theorem}[section]
+%\newtheorem{theorem}{Theorem}[section]
+%\newtheorem{problem}{Problem}
+%\newtheorem{proposition}{Proposition}[section]
+%\newtheorem{lemma}{Lemma}[section]
+%\newtheorem{corollary}[theorem]{Corollary}
+%\newtheorem{example}{Example}[section]
+%\newtheorem{definition}[problem]{Definition}
+
+\begin{document}
+
+%\textbf{\Large 1.3.6} \\
+%\textbf{\large AI25BTECH11027 - NAGA BHUVANA} \\
+\title{1.3.6}
+\author{AI25BTECH11027 - NAGA BHUVANA}
+% \maketitle
+% \newpage
+% \bigskip
+%\begin{document}
+{\let\newpage\relax\maketitle}
+%\renewcommand{\thefigure}{\theenumi}
+%\renewcommand{\thetable}{\theenumi}
+
+		\textbf{Question}:
+
+		\noindent Show that the points $\textbf{A}\brak{6,2}$,$\textbf{B}\brak{2,1}$,$\textbf{C}\brak{1,5}$ and $\textbf{D}\brak{5,6}$ are vertices of a square.\\
+		\textbf{Solution:}\\
+        From the given information,
+
+
+		\begin{align}
+			\vec{A} = \myvec{6\\2} ,\vec{B}=\myvec{2\\1} ,\vec{C}=\myvec{1\\5} , \vec{D}=\myvec{5\\6}
+		\end{align}
+		\begin{align}
+		    \vec{B}-\vec{A}=\myvec{2-6\\1-2}=\myvec{-4\\-1}
+		\end{align}
+        \begin{align}
+            \vec{C}-\vec{D}=\myvec{1-5\\5-6}=\myvec{-4\\-1}
+        \end{align}
+        \begin{align}
+            \vec{B}-\vec{A}=\vec{C}-\vec{D}
+        \end{align}
+        By the above property we can say that \textbf{ABCD} is a parallelogram.\\
+        Now \begin{align}
+            \vec{B-A}=\myvec{2-6\\1-2}=\myvec{-4\\-1}\\
+            \implies \vec{(B-A)}^T=\myvec{-4 & -1}\\
+            \end{align}
+            \begin{align}
+            \vec{C-B}=\myvec{1-2\\5-1}=\myvec{-1\\4}\\
+            \implies \vec{(C-B)}^T=\myvec{-1 & 4}\\
+            \end{align}
+            \begin{align}
+            \vec{D-C}=\myvec{5-1\\6-5}=\myvec{4\\1}\\
+            \implies \vec{(D-C)}^T=\myvec{4 & 1}\\
+            \end{align}
+            \begin{align}
+            \vec{A-D}=\myvec{6-5\\2-6}=\myvec{1\\-4}\\
+            \implies \vec{(A-D)}^T=\myvec{1 & -4}\\
+            \end{align}
+            \begin{align}
+            \vec{C-A}=\myvec{1-6\\5-2}=\myvec{-5\\-3}\\
+            \implies \vec{(C-A)}^T=\myvec{-5 & -3}\\
+            \end{align}
+            \begin{align}
+            \vec{D-B}=\myvec{5-2\\6-1}=\myvec{3\\6}\\
+            \implies \vec{(D-B)}^T=\myvec{3 & 6}\\
+        \end{align} 
+        The magnitude of the sides and the diagonals of the parallelogram are\\
+        \begin{align}
+            \|\vec{B-A}\|^2=\myvec{B-A}^T\myvec{B-A}\\
+        \end{align}
+    \begin{align}
+            \|\vec{B-A}\|^2=\myvec{-4 & -1}\myvec{-4\\-1}\\
+            \|\vec{B-A}\|^2=(-4)^2+(-1)^2=17\\
+            \therefore \|\vec{B-A}\|=\sqrt{17}
+        \end{align}
+        \begin{align}
+            \|\vec{C-B}\|^2=\myvec{C-B}^T\myvec{C-B}
+        \end{align}
+        \begin{align}
+            \|\vec{C-B}\|^2=\myvec{-1 & 4}\myvec{-1\\4}\\
+            \|\vec{C-B}\|^2=(-1)^2+(4)^2=17\\
+            \therefore \|\vec{C-B}\|=\sqrt{17}
+        \end{align}
+        \begin{align}
+            \|\vec{D-C}\|^2=\myvec{D-C}^T\myvec{D-C}
+        \end{align}
+        \begin{align}
+            \|\vec{D-C}\|^2=\myvec{4 & 1}\myvec{4\\1}\\
+            \|\vec{D-C}\|^2=(4)^2+(1)^2=17\\
+            \therefore \|\vec{D-C}\|=\sqrt{17}
+        \end{align}
+        \begin{align}
+            \|\vec{A-D}\|^2=\myvec{A-D}^T\myvec{A-D}
+        \end{align}
+        \begin{align}
+            \|\vec{A-D}\|^2=\myvec{1 & -4}\myvec{1\\-4}\\
+            \|\vec{A-D}\|^2={(1)^2+(-4)^2}=17\\
+            \therefore \|\vec{A-D}\|=\sqrt{17}\\
+        \end{align}
+        \begin{align}
+            \|\vec{B-A}\|=\|\vec{C-B}\|=\|\vec{D-C}\|=\|\vec{A-D}\|=\sqrt{17}
+        \end{align}
+        From the above all the sides of the parallelogram are equal\\
+        Now consider the diagonals of the parallelogram\\
+        \begin{align}
+            \|\vec{C-A}\|^2=\myvec{C-A}^T\myvec{C-A}\\
+        \end{align}
+        \begin{align}
+            \|\vec{C-A}\|^2=\myvec{-5 & -3}\myvec{-5\\-3}
+            \|\vec{C-A}\|^2=(-5)^2+(-3)^2=34\\
+            \|\vec{C-A}\|=\sqrt{34}\\
+        \end{align}
+        \begin{align}
+            \|\vec{D-B}\|^2=\myvec{D-B}^T\myvec{D-B}\\
+            \end{align}
+            \begin{align}
+            \|\vec{D-B}\|^2=\myvec{3 & 5}\myvec{3\\5}
+            \|\vec{D-B}\|^2=(3)^2+(5)^2=34\\
+            \|\vec{D-B}\|=\sqrt{34}\\
+        \end{align}
+        \begin{align}
+            \|\vec{C-A}\|=\|\vec{D-B}\|=\sqrt{34} 
+        \end{align}
+        From the above the diagonals of the parallelogram are equal\\
+        \textbf{Property:}\\
+        A parallelogram with all the sides of equal length and the diagonals of equal length must be a square.\\
+        \begin{center}
+	       The given Points  forms a Square
+           \end{center}
+	   \begin{figure}[h!]
+               \centering
+               \includegraphics[width=0.7\linewidth]{figs/fig1.png}
+               \caption{}
+               \label{plot}
+           \end{figure}
+\end{document}
