@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.15)  28 AUG 2025 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.15)  29 AUG 2025 00:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1656,173 +1656,396 @@ No file b.nav.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-rm.enc}]
-
-[2
-
-]
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-15.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+1.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-115.
+91.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-115.
+91.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 115.
+(Font)              <10.95> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 115.
+(Font)              <8> on input line 91.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 115.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-15.
+(Font)              <6> on input line 91.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-15.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-15.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-15.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-15.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 115.
-
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 115.
-
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 115.
-
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 115.
-
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 115.
-
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 115.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 91.
 
 
+[2
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-mathsy.enc}]
 
 [3
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+\openout4 = `b.vrb'.
+
+ (./b.vrb
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+2.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+Overfull \vbox (1.72923pt too high) detected at line 132
+ []
+
+
 
 [4
 
-]
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}]
+\openout4 = `b.vrb'.
+
+ (./b.vrb
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8         fprintf(stderr, "
+                             Error: m + n == 0, cannot compute section.\n");
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...ror: m + n == 0, cannot compute section.\n"
+                                                  );
+? 
+)
+Overfull \vbox (1.72923pt too high) detected at line 155
+ []
+
+
 
 [5
 
 ]
+\openout4 = `b.vrb'.
+
+ (./b.vrb)
 
 [6
 
 ]
+\openout4 = `b.vrb'.
 
-LaTeX Warning: Reference `0.26' on page 7 undefined on input line 195.
+ (./b.vrb
 
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 C_FILE = "
+               section.c"
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 C_FILE = "section.c"
+                         
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 SO_FILE = "
+                ./libsection.so"
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 SO_FILE = "./libsection.so"
+                                
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15     print("
+                libsection.so not found â€” compiling section.c ...")
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (â\lst@EC€\lst@EC”).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15     print("libsection.so not found â€” 
+                                            compiling section.c ...")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ....so not found â€” compiling section.c ..."
+                                                  )
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16     cmd = ["
+                 gcc", "-shared", "-o", "libsection.so", "-fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16     cmd = ["gcc"
+                     , "-shared", "-o", "libsection.so", "-fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16     cmd = ["gcc", "
+                        -shared", "-o", "libsection.so", "-fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16     cmd = ["gcc", "-shared"
+                                , "-o", "libsection.so", "-fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16     cmd = ["gcc", "-shared", "
+                                   -o", "libsection.so", "-fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16     cmd = ["gcc", "-shared", "-o"
+                                      , "libsection.so", "-fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16     cmd = ["gcc", "-shared", "-o", "
+                                         libsection.so", "-fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...= ["gcc", "-shared", "-o", "libsection.so"
+                                                  , "-fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ..."gcc", "-shared", "-o", "libsection.so", "
+                                                  -fPIC", C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ... "-shared", "-o", "libsection.so", "-fPIC"
+                                                  , C_FILE]
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19         print("
+                    Compiled libsection.so")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19         print("Compiled libsection.so"
+                                           )
+? 
+)
 
 [7
 
 ]
+\openout4 = `b.vrb'.
 
-LaTeX Warning: Reference `0.30' on page 8 undefined on input line 211.
+ (./b.vrb
 
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
 
-LaTeX Warning: Reference `0.29' on page 8 undefined on input line 211.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4         print("
+                   Compilation failed:", e)
+? ]
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 
 
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4         print("Compilation failed:"
+                                       , e)
+? 
+)
 
 [8
 
 ]
 \openout4 = `b.vrb'.
 
- (./b.vrb
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-3.
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-12.
-
-(/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
-Overfull \vbox (1.72923pt too high) detected at line 234
+ (./b.vrb)
+Overfull \vbox (13.72923pt too high) detected at line 232
  []
 
 
 
 [9
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}]
+]
 \openout4 = `b.vrb'.
 
  (./b.vrb
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19         printf("
-                     Memory allocation failed.\n");
-? 
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19         printf("Memory allocation failed.\n"
-                                                 );
-? 
-)
-Overfull \vbox (13.72923pt too high) detected at line 260
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+6.
+ (/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+Overfull \vbox (1.72923pt too high) detected at line 254
  []
 
 
 
 [10
 
-]
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
 \openout4 = `b.vrb'.
 
  (./b.vrb
@@ -1833,8 +2056,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7     printf("
-                x\t\ty\n");
+l.3 print(f"
+             Raw m (AP) = {m}, n (PB) = {n}")
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -1843,8 +2066,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7     printf("x\t\ty\n"
-                         );
+l.3 print(f" Raw m (AP) = {m}, n (PB) = {n}"
+                                            )
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -1853,8 +2076,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9         printf("
-                    %f\t%f\n", x_points[i], y_points[i]);
+l.4 print(f"
+             AP:PB (reduced) = {ratA_int}:{ratB_int}")
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -1863,8 +2086,188 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9         printf("%f\t%f\n"
-                             , x_points[i], y_points[i]);
+l.4 ...f" AP:PB (reduced) = {ratA_int}:{ratB_int}"
+                                                  )
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 print(f"
+             x = {x_val}")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 print(f" x = {x_val}"
+                         )
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...0]], [A[1], B[1]], linestyle='--', label="
+                                                  Line AB")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...1], B[1]], linestyle='--', label="Line AB"
+                                                  )
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 plt.scatter(*A, marker='o', label=f"
+                                         A{A}", zorder=5)
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 plt.scatter(*A, marker='o', label=f"A{A}"
+                                              , zorder=5)
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 plt.scatter(*B, marker='o', label=f"
+                                         B{B}", zorder=5)
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 plt.scatter(*B, marker='o', label=f"B{B}"
+                                              , zorder=5)
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 plt.scatter(*P, marker='o', label=f"
+                                         P({x_val:.3g},{yP})", zorder=5)
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ..., marker='o', label=f"P({x_val:.3g},{yP})"
+                                                  , zorder=5)
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 plt.text(A[0]-0.6, A[1]+0.4, f"
+                                    A{A}", color="red")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 plt.text(A[0]-0.6, A[1]+0.4, f"A{A}"
+                                         , color="red")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 plt.text(A[0]-0.6, A[1]+0.4, f"A{A}", color="
+                                                  red")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...t(A[0]-0.6, A[1]+0.4, f"A{A}", color="red"
+                                                  )
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 plt.text(B[0]+0.4, B[1]-0.6, f"
+                                    B{B}", color="blue")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 plt.text(B[0]+0.4, B[1]-0.6, f"B{B}"
+                                         , color="blue")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 plt.text(B[0]+0.4, B[1]-0.6, f"B{B}", color="
+                                                  blue")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...(B[0]+0.4, B[1]-0.6, f"B{B}", color="blue"
+                                                  )
 ? 
 )
 
@@ -1881,8 +2284,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 lib = ctypes.CDLL("
-                       ./c.so")
+l.3 plt.text(P[0]+0.4, P[1]+0.4, f"
+                                   P({x_val:.3g},{yP})", color="green")
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -1891,33 +2294,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 lib = ctypes.CDLL("./c.so"
-                              )
-? 
-)
-
-[12
-
-]
-\openout4 = `b.vrb'.
-
- (./b.vrb)
-
-[13
-
-]
-\openout4 = `b.vrb'.
-
- (./b.vrb
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ... 'ro-', markersize=2, linewidth=4, label="
-                                                  sim")
+l.3 ...(P[0]+0.4, P[1]+0.4, f"P({x_val:.3g},{yP})"
+                                                  , color="green")
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -1926,7 +2304,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...-', markersize=2, linewidth=4, label="sim"
+l.3 ..., P[1]+0.4, f"P({x_val:.3g},{yP})", color="
+                                                  green")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...+0.4, f"P({x_val:.3g},{yP})", color="green"
                                                   )
 ? 
 
@@ -1936,8 +2324,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...eory, y_theory, 'b-', linewidth=2, label="
-                                                  theory")
+l.5 plt.axhline(0, color="
+                          gray", lw=0.5)
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -1946,26 +2334,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ..._theory, 'b-', linewidth=2, label="theory"
-                                                  )
-? 
-)
-
-[14
-
-]
-\openout4 = `b.vrb'.
-
- (./b.vrb
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 plt.xlabel("
-                x") 1
+l.5 plt.axhline(0, color="gray"
+                               , lw=0.5)
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -1974,8 +2344,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 plt.xlabel("x"
-                  ) 1
+l.6 plt.axvline(0, color="
+                          gray", lw=0.5)
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -1984,18 +2354,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 plt.ylabel("
-                y")
-? 
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 plt.ylabel("y"
-                  )
+l.6 plt.axvline(0, color="gray"
+                               , lw=0.5)
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -2005,7 +2365,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.7 plt.grid(True, linestyle="
-                              --")
+                              --", alpha=0.5)
 ? 
 
 ! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
@@ -2015,23 +2375,83 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.7 plt.grid(True, linestyle="--"
-                                 )
+                                 , alpha=0.5)
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 plt.xlabel("
+                x")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 plt.xlabel("x"
+                  )
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 plt.ylabel("
+                y")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 plt.ylabel("y"
+                  )
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 plt.title(f"
+                 P divides AB in ratio {ratA_int}:{ratB_int}")
+? 
+
+! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...divides AB in ratio {ratA_int}:{ratB_int}"
+                                                  )
 ? 
 )
 
-[15
+[12
 
 ]
-<figs/Figure_1.png, id=463, 462.528pt x 346.896pt>
-File: figs/Figure_1.png Graphic file (type png)
-<use figs/Figure_1.png>
-Package pdftex.def Info: figs/Figure_1.png  used on input line 369.
+<figs/Figure.png, id=375, 462.528pt x 346.896pt>
+File: figs/Figure.png Graphic file (type png)
+<use figs/Figure.png>
+Package pdftex.def Info: figs/Figure.png  used on input line 296.
 (pdftex.def)             Requested size: 205.37926pt x 154.0374pt.
 
 
-[16
+[13
 
- <./figs/Figure_1.png>]
+ <./figs/Figure.png>]
 \tf@nav=\write7
 \openout7 = `b.nav'.
 
@@ -2048,12 +2468,6 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package rerunfilecheck Warning: File `b.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
@@ -2063,25 +2477,23 @@ Package rerunfilecheck Info: Checksums for `b.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 59148 strings out of 473197
- 1434194 string characters out of 5718605
- 2589017 words of memory out of 5000000
- 81382 multiletter control sequences out of 15000+600000
+ 59181 strings out of 473197
+ 1434272 string characters out of 5718605
+ 2585015 words of memory out of 5000000
+ 81420 multiletter control sequences out of 15000+600000
  600504 words of font info for 78 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 128i,15n,123p,1169b,1534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,1169b,1484s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmtt10.pfb>
-Output written on b.pdf (16 pages, 233970 bytes).
+ic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on b.pdf (13 pages, 198060 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 459 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
+ 27 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 

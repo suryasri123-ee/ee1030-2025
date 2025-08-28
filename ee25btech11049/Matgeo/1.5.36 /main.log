@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.15)  28 AUG 2025 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.15)  29 AUG 2025 00:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1905,10 +1905,10 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-<figs/Figure_1.png, id=31, 462.528pt x 346.896pt>
-File: figs/Figure_1.png Graphic file (type png)
-<use figs/Figure_1.png>
-Package pdftex.def Info: figs/Figure_1.png  used on input line 92.
+<figs/Figure.png, id=31, 462.528pt x 346.896pt>
+File: figs/Figure.png Graphic file (type png)
+<use figs/Figure.png>
+Package pdftex.def Info: figs/Figure.png  used on input line 92.
 (pdftex.def)             Requested size: 364.1953pt x 273.16086pt.
 
 
@@ -1917,7 +1917,7 @@ dist/fonts/enc/dvips/base/8r.enc}
 
 ]
 
-[2 <./figs/Figure_1.png>] (./main.aux)
+[2 <./figs/Figure.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1927,8 +1927,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  54397 strings out of 473197
- 1294007 string characters out of 5718605
- 1880712 words of memory out of 5000000
+ 1293993 string characters out of 5718605
+ 1880710 words of memory out of 5000000
  76829 multiletter control sequences out of 15000+600000
  622675 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
