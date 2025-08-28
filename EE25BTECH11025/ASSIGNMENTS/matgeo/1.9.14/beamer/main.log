@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  28 AUG 2025 09:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  28 AUG 2025 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1770,27 +1770,32 @@ LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
  [2
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathsy.enc}] [3
+dvips/lm/lm-mathsy.enc}]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 99.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 99.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <7> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 99.
+ [3
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
 \openout4 = `main.vrb'.
 
- (./main.vrb
-! Undefined control sequence.
-<argument> ...6 & -5 \\ 2 & a+6} \xleftrightarrow 
-                                                  []{R_2 \rightarrow {\frac ...
-l.4 \end{align}
-               
-? 
-! Undefined control sequence.
-<argument> ...6 & -5 \\ 2 & a+6} \xleftrightarrow 
-                                                  []{R_2 \rightarrow {\frac ...
-l.4 \end{align}
-               
-? 
-) [4
-
-] [5
+ (./main.vrb)
+[4
 
 ]
 \openout4 = `main.vrb'.
@@ -1800,7 +1805,7 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line
 2.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [6
+)) [5
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}]
 \openout4 = `main.vrb'.
@@ -1811,9 +1816,14 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
 
 (/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [7
+)) [6
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [7
+
+]
 \openout4 = `main.vrb'.
 
  (./main.vrb) [8
@@ -1821,26 +1831,26 @@ File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [9
+ (./main.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC”).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 plt.title("Triangle Î”PQR 
+                              and Median through R")
+? 
+) [9
 
 ]
-\openout4 = `main.vrb'.
-
- (./main.vrb) [10
-
-]
-\openout4 = `main.vrb'.
-
-
-(./main.vrb) [11
-
-]
-<../figs/plot.png, id=348, 462.528pt x 346.896pt>
+<../figs/plot.png, id=291, 462.528pt x 346.896pt>
 File: ../figs/plot.png Graphic file (type png)
 <use ../figs/plot.png>
-Package pdftex.def Info: ../figs/plot.png  used on input line 234.
+Package pdftex.def Info: ../figs/plot.png  used on input line 196.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
- [12
+ [10
 
  <../figs/plot.png>]
 \tf@nav=\write8
@@ -1861,25 +1871,23 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 57015 strings out of 474222
- 1357112 string characters out of 5748734
- 2296232 words of memory out of 5000000
- 78249 multiletter control sequences out of 15000+600000
- 599736 words of font info for 78 fonts, out of 8000000 for 9000
+ 57023 strings out of 474222
+ 1357220 string characters out of 5748734
+ 2316232 words of memory out of 5000000
+ 78259 multiletter control sequences out of 15000+600000
+ 626051 words of font info for 109 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 128i,17n,123p,1172b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,1172b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/txfonts/txsya.pfb>
-Output written on main.pdf (12 pages, 199889 bytes).
+ic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (10 pages, 185884 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
+ 22 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 
