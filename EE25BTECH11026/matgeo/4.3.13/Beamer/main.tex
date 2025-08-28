@@ -100,35 +100,22 @@ The vertices of the square are ,
 \end{align*}
 \end{frame}
 
-
-\begin{frame}{Theoretical Solution}
-To compute the equation of the diagonals from the direction vectors, we can use the normal form of the equation,which is given by
-\begin{align*}
-    \vec{n}^T\vec{x}=\vec{n}^T\vec{P}
-\end{align*}
-where,\\
-\hspace*{4em}  $\vec{n}$-vector orthogonal to the direction vector\\
-\\
-\hspace*{4em}  $\vec{x}=\myvec{x&&y}^T$ \\
-\\
-\hspace*{4em}  $\vec{P}$=A point which lies along the vector
-\end{frame}
-
 \begin{frame}{Equation}
-To compute the equation of the diagnols , we can use the normal form of the equation,which is given by
+To compute the equation of the diagonals , we can use the normal form of the equation,which is given by
 \begin{align*}
-    \vec{n}^T\vec{r}=\vec{n}^T\vec{P}
+    \vec{n}^T\vec{x}=0 \;for \;the \;lines \;passing\;through \;the \;origin
+\end{align*}
+\begin{align*}
+    \vec{n}^T\vec{x}=1 \;for \;the \;lines \;not \;passing\;through \;the \;origin
 \end{align*}
 where,\\
 \hspace*{4em}  $\vec{n}$-vector orthogonal to the direction vector\\
 \\
-\hspace*{4em}  $\vec{r}=\myvec{x&&y}^T$ \\
-\\
-\hspace*{4em}  $\vec{P}$=A point which lies along the vector\\
+\hspace*{4em}  $\vec{x}=\myvec{x&&y}^T$
 \end{frame}
 
 \begin{frame}{Theoretical Solution}
-For diagnol $\vec{c}-\vec{a}$,
+For diagonal $\vec{c}-\vec{a}$,
 \begin{align*}
     \vec{n}=\myvec{0&&-1\\1&&0}\vec{d}
 \end{align*}
@@ -139,27 +126,20 @@ where $\vec{d}$ is the direction vector of diagonal.
 \begin{align*}
     \implies \vec{n}=\myvec{-1\\1}
 \end{align*}
+As we know that the diagonal $\vec{c}-\vec{a}$ passes through the origin,
 \begin{align*}
-    \vec{n}=\myvec{-1\\1}\;\;and\;\;\vec{P}=\myvec{1\\1}
-\end{align*}
-\begin{align*}
-    \therefore \myvec{-1&&1}\myvec{x\\y}=\myvec{-1&&1}\myvec{1\\1}=0
+    \therefore \myvec{-1&&1}\myvec{x\\y}=0
 \end{align*}
 \end{frame}
 
 \begin{frame}{Theoretical Solution}
-Similarly, for diagnol $\vec{d}-\vec{b}$,
+But, for diagonal $\vec{d}-\vec{b}$, as the diagonal doesn't pass through the origin,
 \begin{align*}
-    \therefore \vec{n}=\myvec{0&&-1\\1&&0}\brak{\myvec{0\\1}-\myvec{1\\0}}
+    \vec{n}^T\vec{x}=1
 \end{align*}
+As we know that the diagonal $\vec{d}-\vec{b}$ pass through the vectors $\myvec{1&&0}^T$ and $\myvec{0&&1}^T$, we can say that $\vec{n}$ would be $\myvec{1&&1}^T$ 
 \begin{align*}
-    \implies \vec{n}=\myvec{-1\\-1}
-\end{align*}
-\begin{align*}
-    \vec{n}=\myvec{-1\\-1}\;\;and\;\;\vec{P}=\myvec{1\\0}
-\end{align*}
-\begin{align*}
-    \therefore \myvec{-1&&-1}\myvec{x\\y}=\myvec{-1&&-1}\myvec{1\\0}=-1
+    \therefore \myvec{1&&1}\myvec{x\\y}=1
 \end{align*}
 \end{frame}
 
