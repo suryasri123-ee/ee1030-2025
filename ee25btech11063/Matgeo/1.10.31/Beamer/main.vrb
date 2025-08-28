@@ -1,0 +1,11 @@
+\frametitle{Python: plot.py}
+\begin{lstlisting}[language=Python]
+ax.set_zlabel("Z-axis")
+ax.set_title("3D Vector Representation with Components & Angles")
+
+ax.legend()
+
+# Save the figure and show it (single figure only)
+plt.savefig("vector_plot.png", dpi=300, bbox_inches='tight')
+plt.show()
+\end{lstlisting}
