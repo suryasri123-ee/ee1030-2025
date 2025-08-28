@@ -75,50 +75,51 @@ The vertices of the square are ,
 \begin{align*}
     \vec{a}=\myvec{0\\0}\;\;\vec{b}=\myvec{1\\0}\;\;\vec{c}=\myvec{1\\1}\;\;\vec{d}=\myvec{0\\1}
 \end{align*}
-From the given data , we can interpret that the direction vectors of diagnols , say $\vec{d_1}$ and $\vec{d_2}$, can be given by 
+To compute the equation of the diagnols , we can use the normal form of the equation,which is given by
 \begin{align*}
-    \vec{d_1}=\vec{c}-\vec{a}\;\;and\;\;\vec{d_2}=\vec{d}-\vec{b}
-\end{align*}
-\begin{align*}
-    \therefore \vec{d_1}=\myvec{1\\1}-\myvec{0\\0}=\myvec{1\\1}
-\end{align*}
-\begin{align*}
-    \vec{d_2}=\myvec{1\\0}-\myvec{0\\1}=\myvec{1\\-1}
-\end{align*}
-To compute the equation of the diagnols from the direction vectors, we can use the normal form of the equation,which is given by
-\begin{align*}
-    \vec{n}^T\vec{r}=\vec{n}^T\vec{P}
+    \vec{n}^T\vec{x}=\vec{n}^T\vec{P}
 \end{align*}
 where,\\
 \hspace*{4em}  $\vec{n}$-vector orthogonal to the direction vector\\
 \\
-\hspace*{4em}  $\vec{r}=\myvec{x&&y}^T$ \\
+\hspace*{4em}  $\vec{x}=\myvec{x&&y}^T$ \\
 \\
 \hspace*{4em}  $\vec{P}$=A point which lies along the vector\\
-\newpage
-\vspace*{0.25cm}
+\\
 For diagnol $\vec{c}-\vec{a}$,
+\begin{align*}
+    \vec{n}=\myvec{0&&-1\\1&&0}\vec{d}
+\end{align*}
+where $\vec{d}$ is the direction vector of diagonal.
+\begin{align*}
+    \therefore \vec{n}=\myvec{0&&-1\\1&&0}\brak{\myvec{1\\1}-\myvec{0\\0}}
+\end{align*}
+\begin{align*}
+    \implies \vec{n}=\myvec{-1\\1}
+\end{align*}
 \begin{align*}
     \vec{n}=\myvec{-1\\1}\;\;and\;\;\vec{P}=\myvec{1\\1}
 \end{align*}
 \begin{align*}
-    \therefore \myvec{-1&&1}\myvec{x\\y}=\myvec{-1&&1}\myvec{1\\1}
+    \therefore \myvec{-1&&1}\myvec{x\\y}=\myvec{-1&&1}\myvec{1\\1}=0
 \end{align*}
-\begin{align*}
-    \implies y=x
-\end{align*}
+\newpage
+\vspace*{0.25cm}
 
-For diagnol $\vec{d}-\vec{b}$,
+Similarly, for diagnol $\vec{d}-\vec{b}$,
 \begin{align*}
-    \vec{n}=\myvec{1\\1}\;\;and\;\;\vec{P}=\myvec{1\\0}
+    \therefore \vec{n}=\myvec{0&&-1\\1&&0}\brak{\myvec{0\\1}-\myvec{1\\0}}
 \end{align*}
 \begin{align*}
-    \therefore \myvec{1&&1}\myvec{x\\y}=\myvec{1&&1}\myvec{1\\0}
+    \implies \vec{n}=\myvec{-1\\-1}
 \end{align*}
 \begin{align*}
-    \implies x+y=1
+    \vec{n}=\myvec{-1\\-1}\;\;and\;\;\vec{P}=\myvec{1\\0}
 \end{align*}
-
+\begin{align*}
+    \therefore \myvec{-1&&-1}\myvec{x\\y}=\myvec{-1&&-1}\myvec{1\\0}=-1
+\end{align*}
+\\
 From the figure, it is clearly verified that the theoretical solution matches with the computational solution.\\
 \begin{figure}[H]
     \centering
