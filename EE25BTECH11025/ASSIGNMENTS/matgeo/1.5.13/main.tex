@@ -22,15 +22,15 @@ Given points are:
 \vec{B}=\myvec{5\\-6}
 \end{align}
 
-Let the line segment joining $\vec{A}$ and $\vec{B}$ intersect the X=0 at point $\vec{C}$. Let the ratio in which the X=0 divide the line segment $\vec{AB}$ be $m:1$:
+Let the line segment joining $\vec{A}$ and $\vec{B}$ intersect the X=0 at point $\vec{C}$. Let the ratio in which the X=0 divide the line segment $\vec{B}-\vec{A}$ be $m:1$:
 \begin{align}
 \vec{C}=\myvec{0\\a}
 \end{align}
 
-Points $\vec{A}$, $\vec{B}$ and $\vec{C}$ are collinear, so vectors $\vec{AB}$ and $\vec{AC}$ are parallel.\\
+Points $\vec{A}$, $\vec{B}$ and $\vec{C}$ are collinear, so vectors $\vec{B}-\vec{A}$ and $\vec{C}-\vec{A}$ are parallel.\\
 Collinearity leads to:
 \begin{align}
-    rank\brak{\vec{AB},\vec{AC}}
+    rank\brak{\vec{B}-\vec{A},\vec{C}-\vec{A}}
 \end{align}
 Matrix setup:
 \begin{align}
@@ -52,17 +52,17 @@ Thus the coordinates of point $\vec{C}$:
     \vec{C}=\myvec{0\\\frac{-13}{3}}
 \end{align}
 
-Finding $m$ by projecting $\vec{AC}$ onto the direction of $\vec{AB}$:
+Finding $m$ by projecting $\vec{C}-\vec{A}$ onto the direction of $\vec{B}-\vec{A}$:
 \begin{align}
     m=\frac{\myvec{5 & \frac{-5}{3}}\myvec{1 \\ \frac{-1}{3}}}{\norm{\myvec{1 \\ \frac{-1}{3}}}^2}=5
 \end{align}
 
-Thus, the ratio in which the point $\vec{C}$ divides the line segment $\vec{AB}$ is \textbf{5:1}. \\
+Thus, the ratio in which the point $\vec{C}$ divides the line segment $\vec{B}-\vec{A}$ is \textbf{5:1}. \\
 
 \begin{figure}[h!]
    \centering
    \includegraphics[width=0.7\linewidth]{figs/plot.png}
-   \caption{Plot of line segment \textbf{AB}}
+   \caption{Plot of line segment \textbf{B-A}}
    \label{}
 \end{figure}
 \end{document}  
