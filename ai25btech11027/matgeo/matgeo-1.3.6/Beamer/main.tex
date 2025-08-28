@@ -79,7 +79,8 @@ columns=fullflexible
 
 		\noindent Show that the points $\textbf{A}\brak{6,2}$,$\textbf{B}\brak{2,1}$,$\textbf{C}\brak{1,5}$ and $\textbf{D}\brak{5,6}$ are vertices of a square.\\
 		\textbf{Solution:}\\
-        From the given information,
+       
+      Given that
 
 
 		\begin{align}
@@ -94,97 +95,57 @@ columns=fullflexible
         \begin{align}
             \vec{B}-\vec{A}=\vec{C}-\vec{D}
         \end{align}
-        By the above property we can say that \textbf{ABCD} is a parallelogram.
-        Now \begin{align}
-            \vec{B-A}=\myvec{2-6\\1-2}=\myvec{-4\\-1}\\
-            \implies \vec{(B-A)}^T=\myvec{-4 & -1}\\
-            \end{align}
-            \begin{align}
-            \vec{C-B}=\myvec{1-2\\5-1}=\myvec{-1\\4}\\
-            \implies \vec{(C-B)}^T=\myvec{-1 & 4}\\
-            \end{align}
-            \begin{align}
-            \vec{D-C}=\myvec{5-1\\6-5}=\myvec{4\\1}\\
-            \implies \vec{(D-C)}^T=\myvec{4 & 1}\\
-            \end{align}
-            \begin{align}
-            \vec{A-D}=\myvec{6-5\\2-6}=\myvec{1\\-4}\\
-            \implies \vec{(A-D)}^T=\myvec{1 & -4}\\
-            \end{align}
-            \begin{align}
-            \vec{C-A}=\myvec{1-6\\5-2}=\myvec{-5\\-3}\\
-            \implies \vec{(C-A)}^T=\myvec{-5 & -3}\\
-            \end{align}
-            \begin{align}
-            \vec{D-B}=\myvec{5-2\\6-1}=\myvec{3\\6}\\
-            \implies \vec{(D-B)}^T=\myvec{3 & 6}\\
-        \end{align} 
-        The magnitude of the sides and the diagonals of the parallelogram are\\
+        By the above property we can say that \textbf{ABCD} is a parallelogram.\\
+        Consider the sides\\
         \begin{align}
-            \|\vec{B-A}\|^2=\myvec{B-A}^T\myvec{B-A}\\
-        \end{align}
-    \begin{align}
-            \|\vec{B-A}\|^2=\myvec{-4 & -1}\myvec{-4\\-1}\\
-            \|\vec{B-A}\|^2=(-4)^2+(-1)^2=17\\
-            \therefore \|\vec{B-A}\|=\sqrt{17}
+            \vec{A-D}=\myvec{6-5\\2-6}=\myvec{1\\-4}
         \end{align}
         \begin{align}
-            \|\vec{C-B}\|^2=\myvec{C-B}^T\myvec{C-B}
+            \vec{(B-A)}^T=\myvec{-4 & -1}
         \end{align}
         \begin{align}
-            \|\vec{C-B}\|^2=\myvec{-1 & 4}\myvec{-1\\4}\\
-            \|\vec{C-B}\|^2=(-1)^2+(4)^2=17\\
-            \therefore \|\vec{C-B}\|=\sqrt{17}
+            \|\vec{B-A}\|=\sqrt{17}\\
+            \|\vec{A-D}\|=\sqrt{17}\\
         \end{align}
-        \begin{align}
-            \|\vec{D-C}\|^2=\myvec{D-C}^T\myvec{D-C}
-        \end{align}
-        \begin{align}
-            \|\vec{D-C}\|^2=\myvec{4 & 1}\myvec{4\\1}\\
-            \|\vec{D-C}\|^2=(4)^2+(1)^2=17\\
-            \therefore \|\vec{D-C}\|=\sqrt{17}
-        \end{align}
-        \begin{align}
-            \|\vec{A-D}\|^2=\myvec{A-D}^T\myvec{A-D}
-        \end{align}
-        \begin{align}
-            \|\vec{A-D}\|^2=\myvec{1 & -4}\myvec{1\\-4}\\
-            \|\vec{A-D}\|^2={(1)^2+(-4)^2}=17\\
-            \therefore \|\vec{A-D}\|=\sqrt{17}\\
-        \end{align}
-        \begin{align}
-            \|\vec{B-A}\|=\|\vec{C-B}\|=\|\vec{D-C}\|=\|\vec{A-D}\|=\sqrt{17}
-        \end{align}
-        From the above all the sides of the parallelogram are equal\\
-        Now consider the diagonals of the parallelogram\\
-        \begin{align}
-            \|\vec{C-A}\|^2=\myvec{C-A}^T\myvec{C-A}\\
-        \end{align}
-        \begin{align}
-            \|\vec{C-A}\|^2=\myvec{-5 & -3}\myvec{-5\\-3}\\
-            \|\vec{C-A}\|^2=(-5)^2+(-3)^2=34\\
-            \|\vec{C-A}\|=\sqrt{34}\\
-        \end{align}
-        \begin{align}
-            \|\vec{D-B}\|^2=\myvec{D-B}^T\myvec{D-B}\\
-            \end{align}
-            \begin{align}
-            \|\vec{D-B}\|^2=\myvec{3 & 5}\myvec{3\\5}\\
-            \|\vec{D-B}\|^2=(3)^2+(5)^2=34\\
-            \|\vec{D-B}\|=\sqrt{34}\\
-        \end{align}
-        \begin{align}
-            \|\vec{C-A}\|=\|\vec{D-B}\|=\sqrt{34} 
-        \end{align}
-        From the above the diagonals of the parallelogram are equal\\
-        \textbf{Property:}\\
-        A parallelogram with all the sides of equal length and the diagonals of equal length must be a square.\\
-     % Graphical representation
-           \begin{frame}
-		   \frametitle{Graphical Representation}
-		   Hence \textbf{ABCD} forms a square
-		   \begin{center}
-               \includegraphics[width=0.7\linewidth]{figs/fig1.png}
-		 \end{center}
-           \end{frame}
+      Consider the angle $\theta$ between the sides $\vec{B-A}$ and $\vec{A-D}$ of the parallelogram\\
+      \begin{align}
+      \cos{\theta}=\frac{\myvec{B-A}^T\myvec{A-D}}{\|\vec{B-A}\|\|\vec{A-D}\|}
+      \end{align}
+      \begin{align}
+          \cos{\theta}=\frac{\myvec{-4 & -1}\myvec{1\\-4}}{\sqrt{17}\sqrt{17}}\\
+          \cos{\theta}=\frac{(-4)(1)+(-1)(-4)}{17}\\
+      \end{align}
+      \begin{align}
+          \cos{\theta}=0\\
+     \implies  \theta=90^\circ
+      \end{align}
+      \textbf{Property:}\\
+      A parallelogram with one angle $90^\circ$ is a rectangle\\
+      Hence the parallelogram is a rectangle\\
+      \begin{align}
+      \vec{A-C}=\myvec{5\\-3}\\
+      \implies \vec{(A-C)}^T=\myvec{5 & -3}
+      \end{align}
+      \begin{align}
+          \vec{B-D}=\myvec{-3\\-5}
+      \end{align}
+      Let the angle between the diagonals of the rectangle be $\alpha$\\
+      Now Consider the inner product of the diagonals of rectangle $\vec{A-C}$ and $\vec{B-D}$ \\
+      \begin{align}
+      \cos{\alpha}=\frac{\myvec{A-C}^T\myvec{B-D}}{\|\vec{A-C}\|\|\vec{B-D}\|}=\frac{\myvec{5&-3}\myvec{-3\\-5}}{\sqrt{34}\sqrt{34}}
+      \end{align}
+      \begin{align}
+          \cos{\alpha}=0\\
+       \implies \alpha=90^\circ
+      \end{align}
+      \textbf{Property:}\\
+      Rectangle with diagonals at right angle is a square\\
+      Hence given points forms a square\\
+      % Graphical representation
+      \begin{frame}
+      \frametitle{Graphical Representation}
+          \centering
+          \includegraphics[width=0.6\linewidth]{figs/fig1.png}
+      \end{frame}
 \end{document}
+     
