@@ -27,16 +27,16 @@ int main() {
     m = dr2 / k;
     n = dr3 / k;
 
+    //  Verify that angle with X-axis is acute
+    if (l <= 0) {
+        printf("Error: The vector does not make an acute angle with the X-axis.\n");
+        return 1;
+    }
+
     // Components of vector
     comp_x = magnitude * l;
     comp_y = magnitude * m;
     comp_z = magnitude * n;
-
-    // Since vector makes acute angle with X-axis, l must be positive
-    if (l < 0) {
-        l = -l; m = -m; n = -n;
-        comp_x = -comp_x; comp_y = -comp_y; comp_z = -comp_z;
-    }
 
     // Display results
     printf("Direction Cosines: l = %.3f, m = %.3f, n = %.3f\n", l, m, n);

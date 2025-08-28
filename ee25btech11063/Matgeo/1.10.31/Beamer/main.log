@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  28 AUG 2025 07:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.3)  28 AUG 2025 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -935,7 +935,11 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count368
 \l__pdf_internal_box=\box128
 )
-No file main.aux.
+(./main.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -956,6 +960,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1013,6 +1018,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 68.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1108,15 +1115,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count375
-
-No file main.nav.
-[1
+ (./main.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
@@ -1163,11 +1167,11 @@ $[]$
 ] [5
 
 ]
-<figs/01.png, id=48, 362.7954pt x 367.3725pt>
+<figs/01.png, id=52, 357.9774pt x 367.3725pt>
 File: figs/01.png Graphic file (type png)
 <use figs/01.png>
 Package pdftex.def Info: figs/01.png  used on input line 114.
-(pdftex.def)             Requested size: 171.14764pt x 173.30974pt.
+(pdftex.def)             Requested size: 171.14764pt x 175.64168pt.
 
 
 Package hyperref Warning: Ignoring empty anchor on input line 114.
@@ -1220,8 +1224,50 @@ Type  H <return>  for immediate help.
 l.14 # Normalize direction ratios â†’ 
                                       direction cosines
 ? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC±).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...s NOT make an acute angle with x-axis (Î± 
+                                                  = {alpha:.2f}Â°). No figur...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@EC°).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...ute angle with x-axis (Î± = {alpha:.2f}Â°)
+                                                  . No figure generated.")
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC±).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...or r makes an acute angle with x-axis (Î± 
+                                                  = {alpha:.2f}Â°). Generati...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@EC°).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...ute angle with x-axis (Î± = {alpha:.2f}Â°)
+                                                  . Generating figure...")
+? 
 )
-Overfull \vbox (8.52684pt too high) detected at line 234
+Overfull \vbox (8.52684pt too high) detected at line 237
  []
 
 [10
@@ -1237,8 +1283,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 # Draw arcs for Î±,
-                         Î², Î³
+l.27 ... 3, alpha, axis='x', color='b')      # Î± 
+                                                  at radius 3
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC²).
@@ -1247,8 +1293,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 # Draw arcs for Î±, Î²,
-                             Î³
+l.28 ... 3.5, beta, axis='y', color='g')     # Î² 
+                                                  at radius 3.5
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC³).
@@ -1257,8 +1303,40 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 # Draw arcs for Î±, Î², Î³
-                               
+l.29 ... 4, gamma, axis='z', color='orange') # Î³ 
+                                                  at radius 4
+? 
+)
+Overfull \vbox (8.52684pt too high) detected at line 272
+ []
+
+[11
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC±).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     ax.text(4.5, 1, 0, f"Î±=
+                                {alpha:.1f}Â°", color='b')      # Î± label f...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@EC°).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     ax.text(4.5, 1, 0, f"Î±={alpha:.1f}Â°",
+                                                color='b')      # Î± label f...
+
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC±).
@@ -1267,18 +1345,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 ax.text(3.5, 0.5, 0, f"Î±=
-                               {alpha:.1f}Â°", color='b')
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@EC°).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 ax.text(3.5, 0.5, 0, f"Î±={alpha:.1f}Â°",
-                                               color='b')
+l.4 ... f"Î±={alpha:.1f}Â°", color='b')      # Î± 
+                                                  label far on +x
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC²).
@@ -1287,8 +1355,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 ax.text(0.5, 3.5, 0, f"Î²=
-                               {beta:.1f}Â°", color='g')
+l.5     ax.text(1, 5.0, 1, f"Î²=
+                                {beta:.1f}Â°", color='g')       # Î² label f...
+
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@EC°).
@@ -1297,8 +1366,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 ax.text(0.5, 3.5, 0, f"Î²={beta:.1f}Â°",
-                                              color='g')
+l.5     ax.text(1, 5.0, 1, f"Î²={beta:.1f}Â°",
+                                               color='g')       # Î² label f...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC²).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ... f"Î²={beta:.1f}Â°", color='g')       # Î² 
+                                                  label farther on +y
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC³).
@@ -1307,8 +1387,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ax.text(0.5, 0.5, 3.5, f"Î³=
-                                 {gamma:.1f}Â°", color='orange')
+l.6     ax.text(1, 1, 5.2, f"Î³=
+                                {gamma:.1f}Â°", color='orange') # Î³ label h...
+
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@EC°).
@@ -1317,19 +1398,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ax.text(0.5, 0.5, 3.5, f"Î³={gamma:.1f}Â°",
-                                                 color='orange')
+l.6     ax.text(1, 1, 5.2, f"Î³={gamma:.1f}Â°",
+                                                color='orange') # Î³ label h...
+
 ? 
-)
-Overfull \vbox (8.52684pt too high) detected at line 271
- []
 
-[11
+! LaTeX Error: Invalid UTF-8 byte sequence (Î\lst@EC³).
 
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb) [12
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ... f"Î³={gamma:.1f}Â°", color='orange') # Î³ 
+                                                  label higher on +z
+? 
+) [12
 
 ]
 \tf@nav=\write6
@@ -1348,22 +1431,16 @@ L3 programming layer <2024-01-22>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  786DEDF945F54D022A2FDD30FA989114;116.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 786DEDF945F54D022A2FDD30FA989114;116.
  ) 
 Here is how much of TeX's memory you used:
- 27354 strings out of 474222
- 511856 string characters out of 5748734
- 2460975 words of memory out of 5000000
- 49027 multiletter control sequences out of 15000+600000
+ 27401 strings out of 474222
+ 512272 string characters out of 5748734
+ 2433975 words of memory out of 5000000
+ 49066 multiletter control sequences out of 15000+600000
  567539 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,131p,426b,1408s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1378,10 +1455,10 @@ type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt8.pfb>
-Output written on main.pdf (12 pages, 418262 bytes).
+Output written on main.pdf (12 pages, 381807 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 149 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  26 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
