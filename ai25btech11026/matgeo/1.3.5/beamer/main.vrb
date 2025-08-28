@@ -1,0 +1,24 @@
+\frametitle{Python Code Using C Functions}
+    \begin{lstlisting}
+
+# Function to calculate x using diagonal midpoint property
+def find_x():
+    # (3 + x)/2 = (6 + 5)/2
+    return 11 - 3   # x = 8
+
+# Function to calculate y using diagonal midpoint property
+def find_y():
+    # (3 + 7)/2 = (y + 6)/2
+    return 10 - 6   # y = 4
+
+# Main function (like in C)
+def main():
+    x = find_x()
+    y = find_y()
+    print(f"The values are: x = {x}, y = {y}")
+
+# Run main
+if __name__ == "__main__":
+    main()
+     \end{lstlisting}
+
