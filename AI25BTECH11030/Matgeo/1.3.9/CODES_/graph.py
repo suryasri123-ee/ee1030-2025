@@ -31,6 +31,15 @@ plt.text(A[0], A[1]+0.1, 'A (6,0)', ha='center', color='blue')
 plt.text(B[0], B[1]+0.1, 'B (-2,0)', ha='center', color='green')
 plt.text(C[0], C[1]+0.1, 'C (2,0)', ha='center', color='red')
 
+# Draw the circle centered at C with radius = half the distance AB
+radius = np.linalg.norm(A - B) / 2
+
+circle = plt.Circle((C[0], C[1]), radius, fill=False, color='orange', linestyle='--', linewidth=2, label='Circle')
+
+# Add circle to plot
+ax = plt.gca()
+ax.add_patch(circle)
+
 # Labels and grid
 plt.xlabel('$x$')
 plt.ylabel('$y$')
@@ -39,6 +48,5 @@ plt.grid(True, linestyle='--')
 plt.axis('equal')
 
 # Save figure (adjust path as needed)
-plt.savefig('circle_diameter_plot.png', dpi=300)
-
-plt.show()
+plt.savefig('circle_diameter_plot_with_circle.png', dpi=300)
+plt.show() 

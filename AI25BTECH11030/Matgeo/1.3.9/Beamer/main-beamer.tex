@@ -142,22 +142,24 @@ columns=fullflexible
 \begin{lstlisting}[language=C]
 #include <stdio.h>
 #include <stdlib.h>
-#include "libs/matfun.h"
-#include "libs/geofun.h"
+#include "matfun.h"
 
 int main() {
     double **M, **k, **C;
+    int cx = 2, cy = 0;  // Center of circle
+    int ax = 6, ay = 0;  // One endpoint of diameter
 
-    int cx = 2, cy = 0;
-    int ax = 6, ay = 0;
-    // Create matrices
+    // Create matrices: M (2x2), k (2x1), C (2x1)
     M = createMat(2, 2);
     k = createMat(2, 1);
-    C = createMat(2, 1);
 
     // Arrange matrix M: columns are points C and A
     M[0][0] = (double)cx; M[1][0] = (double)cy;
     M[0][1] = (double)ax; M[1][1] = (double)ay;
+
+    // Weights vector for B = 2*C - A
+    k[0][0] = 2.0;
+    k[1][0] = -1.0;
 
 \end{lstlisting}
 \end{frame}
@@ -166,9 +168,6 @@ int main() {
 \frametitle{C Code }
 \begin{lstlisting}[language=C]
 
-    // Weights vector for B = 2*C - A
-    k[0][0] = 2.0;
-    k[1][0] = -1.0;
     // Calculate B = M * k
     C = Matmul(M, k, 2, 2, 1);
 
@@ -182,6 +181,7 @@ int main() {
 
     return 0;
 }
+
 \end{lstlisting}
 \end{frame}
 \begin{frame}[fragile]
@@ -203,10 +203,12 @@ def line_gen(A, B, num=100):
 C = np.array([2, 0]).reshape(-1,1)   # Center
 A = np.array([6, 0]).reshape(-1,1)   # One end of diameter
 B = 2*C - A                         # Other end of diameter calculated
+
 coords = np.block([[A,B,C]])
 
 # Generate line points for diameter AB
 AB = line_gen(A, B)
+
 \end{lstlisting}
 \end{frame}
 \begin{frame}[fragile]
@@ -223,6 +225,19 @@ plt.text(A[0], A[1]+0.1, 'A (6,0)', ha='center', color='blue')
 plt.text(B[0], B[1]+0.1, 'B (-2,0)', ha='center', color='green')
 plt.text(C[0], C[1]+0.1, 'C (2,0)', ha='center', color='red')
 
+# Draw the circle centered at C with radius = half the distance AB
+radius = np.linalg.norm(A - B) / 2
+
+circle = plt.Circle((C[0], C[1]), radius, fill=False, color='orange', linestyle='--', linewidth=2, label='Circle')
+
+# Add circle to plot
+ax = plt.gca()
+ax.add_patch(circle)
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Python Plot }
+\begin{lstlisting}[language=Python]
 # Labels and grid
 plt.xlabel('$x$')
 plt.ylabel('$y$')
@@ -230,11 +245,10 @@ plt.legend(loc='best')
 plt.grid(True, linestyle='--')
 plt.axis('equal')
 
-# Save figure
-plt.savefig('circle_diameter_plot.png', dpi=300)
-plt.show()
+# Save figure (adjust path as needed)
+plt.savefig('circle_diameter_plot_with_circle.png', dpi=300)
+plt.show() 
 \end{lstlisting}
 \end{frame}
-
 
 \end{document}

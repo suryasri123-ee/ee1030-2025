@@ -1,17 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "libs/matfun.h"
-#include "libs/geofun.h"
+#include "matfun.h"
 
 int main() {
     double **M, **k, **C;
+    int cx = 2, cy = 0;  // Center of circle
+    int ax = 6, ay = 0;  // One endpoint of diameter
 
-    int cx = 2, cy = 0;
-    int ax = 6, ay = 0;
-    // Create matrices
+    // Create matrices: M (2x2), k (2x1), C (2x1)
     M = createMat(2, 2);
     k = createMat(2, 1);
-    C = createMat(2, 1);
 
     // Arrange matrix M: columns are points C and A
     M[0][0] = (double)cx; M[1][0] = (double)cy;
@@ -20,6 +18,7 @@ int main() {
     // Weights vector for B = 2*C - A
     k[0][0] = 2.0;
     k[1][0] = -1.0;
+
     // Calculate B = M * k
     C = Matmul(M, k, 2, 2, 1);
 
