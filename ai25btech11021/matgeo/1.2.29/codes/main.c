@@ -2,18 +2,16 @@
 #include <math.h>
 
 int main() {
-    // Wind (NE at 72 km/h)
-    double W_x = 72 * cos(M_PI/4);
-    double W_y = 72 * sin(M_PI/4);
+    double Rx = 50.91;
+    double Ry = -0.09;
 
-    // Boat (North at 51 km/h)
-    double V_x = 0;
-    double V_y = 51;
+    double dot_product = Rx * 1 + Ry * 0;  // dot with East vector [1, 0]
+    double mag_R = sqrt(Rx * Rx + Ry * Ry);
 
-    // Relative wind = Wind - Boat
-    double R_x = W_x - V_x;
-    double R_y = W_y - V_y;
+    double cos_theta = dot_product / mag_R;
+    double theta_rad = acos(cos_theta);
+    double theta_deg = theta_rad * (180.0 / M_PI);
 
-    printf("Relative wind: (%.2f, %.2f)\n", R_x, R_y);
+    printf("Angle from East = %.4f degrees\n", theta_deg);
     return 0;
 }

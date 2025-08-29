@@ -74,39 +74,67 @@
 
 \textbf{Solution}:\\
 
-\textbf{Step 1: Represent given velocities as vectors}
+\textbf{Step 1: Represent velocities as vectors}
 
-The wind velocity (ground frame) is along the NE direction with speed $72 \,\text{km/h}$:
-\[
-W = \begin{bmatrix} 72 \cos 45^\circ \\ 72 \sin 45^\circ \end{bmatrix}
-= \begin{bmatrix} 50.91 \\ 50.91 \end{bmatrix} \ \text{km/h}.
-\]
-
-The boat velocity (ground frame) is northward with speed $51 \,\text{km/h}$:
-\[
-V = \begin{bmatrix} 0 \\ 51 \end{bmatrix} \ \text{km/h}.
-\]
-
-\textbf{Step 2: Relative wind (wind as seen from the boat)}
+The wind velocity vector (in ground frame) is towards NE (45$^\circ$) with speed 72 km/h:
 
 \[
-R = W - V
-= \begin{bmatrix} 50.91 \\ 50.91 \end{bmatrix} -
-\begin{bmatrix} 0 \\ 51 \end{bmatrix}
-= \begin{bmatrix} 50.91 \\ -0.09 \end{bmatrix}.
+\vec{W} = 
+\begin{bmatrix}
+72 \cos 45^\circ \\
+72 \sin 45^\circ
+\end{bmatrix}
+=
+\begin{bmatrix}
+50.91 \\
+50.91
+\end{bmatrix} \text{ km/h}
 \]
 
-\textbf{Step 3: Direction of the relative wind}
+The boat velocity vector (in ground frame) is towards North:
 
 \[
-\theta = \tan^{-1}\left(\frac{-0.09}{50.91}\right) \approx -0.1^\circ
+\vec{V} =
+\begin{bmatrix}
+0 \\
+51
+\end{bmatrix} \text{ km/h}
 \]
 
-Thus, the relative wind is almost exactly eastward, slightly south of east.
+\textbf{Step 2: Compute relative wind (wind as seen from the boat)}
 
 \[
-\boxed{\text{The flag on the mast points nearly East, slightly tilted South.}}
+\vec{R} = \vec{W} - \vec{V} =
+\begin{bmatrix}
+50.91 \\
+50.91
+\end{bmatrix}
+-
+\begin{bmatrix}
+0 \\
+51
+\end{bmatrix}
+=
+\begin{bmatrix}
+50.91 \\
+-0.09
+\end{bmatrix}
 \]
+
+\textbf{Step 3: Use cosine formula to find angle from East axis}
+
+Let $\theta$ be the angle between $\vec{R}$ and the East direction $\vec{E} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$
+
+\[
+\cos \theta = \frac{\vec{R} \cdot \vec{E}}{|\vec{R}||\vec{E}|}
+= \frac{50.91 \cdot 1 + (-0.09)\cdot 0}{\sqrt{50.91^2 + (-0.09)^2}} = \frac{50.91}{50.9118}
+\]
+
+\[
+\theta = \cos^{-1}\left( \frac{50.91}{50.9118} \right) \approx \cos^{-1}(0.9999646) \approx 0.1^\circ
+\]
+
+So, the flag points nearly \textbf{East}, slightly tilted \textbf{South}.
 
 
 
