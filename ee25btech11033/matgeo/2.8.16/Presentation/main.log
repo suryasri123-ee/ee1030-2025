@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  27 AUG 2025 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.7.29)  29 AUG 2025 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1789,27 +1789,11 @@ Overfull \vbox (5.53468pt too high) detected at line 123
 
 ] [6
 
-]
-Overfull \vbox (9.53114pt too high) detected at line 160
- []
+] [7
 
-[7
+] [8
 
-]
-pdfTeX warning (ext4): destination with the same identifier (name{eq:cross3d}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.169 \end{frame}
-                  [8
-
-]
-Overfull \vbox (9.53114pt too high) detected at line 183
- []
-
-[9
-
-] [10
+] [9
 
 ]
 \openout4 = `main.vrb'.
@@ -1819,18 +1803,17 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line
 3.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [11
+)) [10
 
 ]
 \openout4 = `main.vrb'.
 
-
-(./main.vrb
+ (./main.vrb
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
 7.
  (/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [12
+)) [11
 
 ]
 \tf@nav=\write8
@@ -1844,9 +1827,6 @@ File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
  (./main.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
@@ -1856,13 +1836,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 56164 strings out of 476091
- 1338026 string characters out of 5794081
+ 56160 strings out of 476091
+ 1337985 string characters out of 5794081
  2246730 words of memory out of 5000000
- 75555 multiletter control sequences out of 15000+600000
+ 75554 multiletter control sequences out of 15000+600000
  553954 words of font info for 74 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 128i,21n,122p,1172b,1467s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,1172b,1467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/sh
 are/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
@@ -1875,10 +1855,10 @@ pe1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t
 xsya.pfb>
-Output written on main.pdf (12 pages, 178408 bytes).
+Output written on main.pdf (11 pages, 177360 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 23 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
