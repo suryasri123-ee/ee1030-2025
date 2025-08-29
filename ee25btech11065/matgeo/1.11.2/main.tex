@@ -1,0 +1,97 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{1.11.2}
+\author{EE25BTECH11065 - Yoshita}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+\textbf{Question}:\\
+    Unit vector along PQ, where coordinates of P and Q respectively are \myvec{2\\1\\-1} and \myvec{4\\4\\-7} is.\\
+\bigskip
+
+\textbf{Solution}:\\
+Let the coordinates of the points be $\mathbf{P}(2, 1, -1)$ and $\mathbf{Q}(4, 4, -7)$.
+\begin{table}[H]    
+  \centering
+  \input{tables/table.tex}
+  \caption{Vectors}
+  \label{Answers}
+\end{table}
+We find the vector $\vec{\mathbf{PQ}}$ by subtracting the coordinates of P from the coordinates of Q.
+\begin{align}
+    \vec{\mathbf{PQ}} &= \mathbf{Q} - \mathbf{P} \\
+    &= (4-2)\mathbf{i} + (4-1)\mathbf{j} + (-7 - (-1))\mathbf{k} \\
+    &= 2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k}
+\end{align}
+Magnitude (or norm) of the vector $\vec{\mathbf{PQ}}$,
+\begin{align}
+    ||\vec{\mathbf{PQ}}|| &= \sqrt{(2)^2 + (3)^2 + (-6)^2} \\
+    &= \sqrt{4 + 9 + 36} \\
+    &= \sqrt{49} \\
+    &= 7
+\end{align}
+The unit vector in the direction of $\vec{\mathbf{PQ}}$, denoted as $\mathbf{\hat{u}}$, is found by dividing the vector by its magnitude.
+\begin{align}
+    \mathbf{\hat{u}} &= \frac{\vec{\mathbf{PQ}}}{||\vec{\mathbf{PQ}}||} \\
+    &= \frac{1}{7}(2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k}) \\
+    &= \frac{2}{7}\mathbf{i} + \frac{3}{7}\mathbf{j} - \frac{6}{7}\mathbf{k}
+\end{align}
+Thus, the unit vector along PQ is $\mathbf{\frac{1}{7}(2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k})}$.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.9\columnwidth]{figs/fig1.png}
+\end{center}
+\caption{}
+\label{fig:Fig.1}
+\end{figure}
+\end{document}
+
+
+
+
