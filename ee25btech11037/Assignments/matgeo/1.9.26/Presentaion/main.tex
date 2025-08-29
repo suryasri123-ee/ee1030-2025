@@ -49,7 +49,7 @@
 %\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
 \providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
 	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
-%\newcommand{\solution}{\noindent \textbf{Solution: }}
+%\newcommand{\solution}{\noindent \textbf{Solution: }}align
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 
@@ -77,34 +77,37 @@ Find the value of k, if the point $\vec{P}\brak{2,4}$ is equidistant from point 
 \begin{frame}{Solution}
    \textbf{Given: } 
 $\vec{P}\myvec{2\\4}$, $\vec{A}\myvec{5\\k}$ and a point $\vec{B} \myvec{k \\ 7}$ such that $\vec{P}$ is equidistant from $\vec{A}$ and $\vec{B}$. 
-\begin{align*}
+\begin{align}
     \therefore \norm{\vec{A}-\vec{P}}=\norm{\vec{B}-\vec{P}}\\
     \text{On squaring both the sides, we get }\\
     \norm{\vec{A}-\vec{P}}^2=\norm{\vec{B}-\vec{P}}^2\\
-    \myvec{\vec{A}-\vec{P}}^{\top}\myvec{\vec{A}-\vec{P}}=\myvec{\vec{B}-\vec{P}}^{\top}\myvec{\vec{B}-\vec{P}}\\
-\end{align*}
+    \myvec{\vec{A}-\vec{P}}^{\top}\myvec{\vec{A}-\vec{P}}=\myvec{\vec{B}-\vec{P}}^{\top}\myvec{\vec{B}-\vec{P}}
+\end{align}
 \end{frame}
-
-
 
 \begin{frame}{Solution}
-\begin{align*}
- \myvec{\vec{A}-\vec{P}}=\myvec{3 \\ k-4}\\
+\begin{align}
+    \myvec{\vec{A}-\vec{P}}=\myvec{3 \\ k-4}\\
     \myvec{\vec{B}-\vec{P}}=\myvec{k-2 \\ 3}\\
-    \myvec{\vec{A}-\vec{P}}^{\top}\myvec{\vec{A}-\vec{P}}=\myvec{3 & k-4}\myvec{3 \\ k-4}=9+\brak{k-4}^2=k^2 - 8k + 25\\
-    \myvec{\vec{B}-\vec{P}}^{\top}\myvec{\vec{B}-\vec{P}}=\myvec{k-2 & 3}\myvec{k-2 \\ 3}=\brak{k-2}^2 + 9=k^2 -4k+13\\
-    \text{From above, } k^2 - 8k + 25=k^2 -4k+13\\
-    \implies 4k=12 \implies k=3
- \end{align*}
+    \myvec{\vec{A}-\vec{P}}^{\top}\myvec{\vec{A}-\vec{P}}=\myvec{3 & k-4}\myvec{3 \\ k-4}\\=9+\brak{k-4}^2=9 + k^2 - 8k +16  =k^2 - 8k + 25
+\end{align}
 \end{frame}
 
+\begin{frame}{Solution}
+\begin{align}
+    \myvec{\vec{B}-\vec{P}}^{\top}\myvec{\vec{B}-\vec{P}}=\myvec{k-2 &
+    3}\myvec{k-2 \\ 3}\\=\brak{k-2}^2 + 9= k^2 - 4k + 4 + 9=k^2 -4k+13\\
+    \text{From \brak{8} and \brak{10},   } k^2 - 8k + 25=k^2 -4k+13\\
+    \implies-4k+8k=25-13 \implies 4k=12 \implies k=3
+\end{align}
+\end{frame}
 
 
 \section{Final Answer}
 \begin{frame}{Final Answer}
-\begin{align*}
+\begin{align}
     \text{Hence, the final answer is }\fbox{k = 3} 
-\end{align*}
+\end{align}
 \begin{figure}
     \centering
     \includegraphics[width=0.6\columnwidth]{figs/1.png}
