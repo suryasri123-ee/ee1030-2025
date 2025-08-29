@@ -1,0 +1,71 @@
+\documentclass{beamer}
+
+% Theme (you can change to Warsaw, Madrid, CambridgeUS, etc.)
+\usetheme{Madrid}
+
+% Packages
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage{caption}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+% Custom command for matrices
+\newcommand{\brak}[1]{\begin{pmatrix}#1\end{pmatrix}}
+
+% Title info
+\title{Problem 1.4.25}
+\author{EE25BTECH11009 – Anshu Kumar Ram}
+\date{\today}
+
+\begin{document}
+
+% Title Page
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Question Frame
+\begin{frame}{Question}
+    \textbf{Find the position vector of a point \( R \) which divides the line joining two points \( P \) and \( Q \) whose position vectors are \(2\mathbf a + \mathbf b\) and \(\mathbf a - 3\mathbf b\) externally in the ratio \(1:2\).}
+\end{frame}
+
+% Solution Frame (step 1)
+\begin{frame}{Solution}
+\textbf{Step 1: Represent points in coordinates}  
+\begin{align*}
+P &= 2\mathbf a + \mathbf b = \brak{2\\1}, \\
+Q &= \mathbf a - 3\mathbf b = \brak{1\\-3}.
+\end{align*}
+\end{frame}
+
+% Solution Frame (step 2)
+\begin{frame}{Solution}
+\textbf{Step 2: Apply section formula (external division)}
+
+\begin{align*}
+R &= \frac{1 \cdot Q - 2 \cdot P}{1 - 2} \\[6pt]
+  &= \frac{1}{-1}\left(\begin{pmatrix}1\\-3\end{pmatrix} - 2\begin{pmatrix}2\\1\end{pmatrix}\right) \\[6pt]
+  &= -\begin{pmatrix}1-4\\-3-2\end{pmatrix} \\[6pt]
+  &= -\begin{pmatrix}-3\\-5\end{pmatrix} \\[6pt]
+  &= \begin{pmatrix}3\\5\end{pmatrix}.
+\end{align*}
+
+So, the position vector is
+\[
+\boxed{R = 3\mathbf{a} + 5\mathbf{b}}
+\]
+\end{frame}
+
+
+% Graph Frame
+\begin{frame}{Graphical Representation}
+    \centering
+    \includegraphics[width=0.8\linewidth, keepaspectratio]{figs/section_graph.png}
+    \captionsetup{justification=centering}
+    \captionof{figure}{Graph for Question 2}
+\end{frame}
+
+\end{document}
