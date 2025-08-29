@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.18)  29 AUG 2025 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.18)  29 AUG 2025 18:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1812,9 +1812,9 @@ LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [4
 
-] [5
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}] [5
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}] [6
+] [6
 
 ]
 \openout4 = `main.vrb'.
@@ -1993,7 +1993,7 @@ blic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on main.pdf (20 pages, 222700 bytes).
+Output written on main.pdf (20 pages, 223037 bytes).
 PDF statistics:
  664 PDF objects out of 1000 (max. 8388607)
  567 compressed objects within 6 object streams

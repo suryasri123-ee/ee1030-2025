@@ -83,10 +83,13 @@ To compute the equation of the diagnols , we can use the normal form of the equa
     \vec{n}^T\vec{x}=1 \;for \;the \;lines \;not \;passing\;through \;the \;origin
 \end{align*}
 where,\\
-\hspace*{4em}  $\vec{n}$-vector orthogonal to the direction vector\\
-\\
-\hspace*{4em}  $\vec{x}=\myvec{x&&y}^T$ \\
-\\
+\begin{align*}
+    \vec{n}-vector\; orthogonal\; to\; the\; direction\; vector
+\end{align*}
+\begin{align*}
+    \vec{x}=\myvec{x&&y}^T
+\end{align*}
+
 
 For diagonal $\vec{c}-\vec{a}$, as it passes through the origin,
 \begin{align*}
@@ -96,12 +99,11 @@ By substituting the vector through which it passes through,
 \begin{align*}
     \vec{n}^T\myvec{1\\1}=0
 \end{align*}
-we get
 \begin{align*}
-    \vec{n}=\myvec{-1\\1}
+    \implies \vec{n}=\myvec{-1\\1}
 \end{align*}
 \begin{align*}
-    \therefore The\;equation\;of\;line\;is\;\myvec{-1&&1}\myvec{x\\y}=0
+    \therefore \myvec{-1&&1}\myvec{x\\y}=0
 \end{align*}
 \newpage
 \vspace*{0.25cm}
@@ -111,15 +113,13 @@ But, for diagonal $\vec{d}-\vec{b}$, as the diagonal doesn't pass through the or
     \vec{n}^T\vec{x}=1
 \end{align*}
 \begin{align*}
-    \vec{n}^T\myvec{1\\0}=1\\
-    \vec{n}^T\myvec{0\\1}=1
-\end{align*} 
-by solving,
-\begin{align*}
-    \vec{n}=\myvec{1\\1}
+    \therefore \vec{n}^T\myvec{1&&0\\0&&1}=\myvec{1\\1}
 \end{align*}
 \begin{align*}
-    \therefore The\;equation\;of\;line\;is\;\myvec{1&&1}\myvec{x\\y}=1
+    \implies \vec{n}=\myvec{1\\1}
+\end{align*}
+\begin{align*}
+    \therefore \myvec{1&&1}\myvec{x\\y}=1
 \end{align*}
 \\
 From the figure, it is clearly verified that the theoretical solution matches with the computational solution.\\
