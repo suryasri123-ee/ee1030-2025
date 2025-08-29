@@ -1,0 +1,280 @@
+\documentclass{beamer}
+\mode<presentation>
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{adjustbox}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{graphicx} % <-- needed for images
+\def\UrlBreaks{\do\/\do-}
+
+\usetheme{Boadilla}
+\usecolortheme{lily}
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2ex,dp=1ex,right]{author in head/foot}%
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\setbeamertemplate{navigation symbols}{}
+
+\lstset{
+  frame=single,
+  breaklines=true,
+  columns=fullflexible,
+  basicstyle=\ttfamily\tiny   % tiny font so code fits
+}
+
+\numberwithin{equation}{section}
+
+% ---- your macros ----
+\providecommand{\nCr}[2]{\,^{#1}C_{#2}}
+\providecommand{\nPr}[2]{\,^{#1}P_{#2}}
+\providecommand{\mbf}{\mathbf}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
+\providecommand{\rsbrak}[1]{\ensuremath{\left.#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+\providecommand{\abs}[1]{\left\vert#1\right\vert}
+\providecommand{\res}[1]{\Res\displaylimits_{#1}}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\mtx}[1]{\mathbf{#1}}
+\providecommand{\mean}[1]{E\left[ #1 \right]}
+\providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
+\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
+\providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\let\vec\mathbf
+% ---------------------
+
+\title{Matgeo Presentation - Problem 2.9.7}
+\author{ee25btech11056 - Suraj.N}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Problem Statement}
+\textbf{Question} :  
+
+\begin{align*}
+\vec{a}=2\hat{i}+\hat{j}+3\hat{k},\ \vec{b}=-\hat{i}+2\hat{j}+\hat{k},\ \vec{c}=3\hat{i}+\hat{j}+2\hat{k}
+\end{align*}
+
+\begin{center}
+then find \(\vec{a}\cdot(\vec{b}\times\vec{c})\)
+\end{center}
+
+\begin{table}[h!]
+  \centering
+  \input{tables/table.tex}
+  \caption*{Table : vectors}
+  \label{2.9.7}
+\end{table}
+
+\end{frame}
+
+\begin{frame}{Solution}
+
+\begin{align*}
+\vec{b} \times \vec{c} = 
+\myvec{
+|\vec{B_{23}} & \vec{C_{23}}| \\
+|\vec{B_{31}} & \vec{C_{31}}| \\
+|\vec{B_{12}} & \vec{C_{12}}|
+}
+\end{align*}
+
+\begin{align*}
+\mydet{\vec{B_{23}} & \vec{C_{23}}} = \mydet{2 & 1\\1 & 2} = 3
+\end{align*}
+
+\begin{align*}
+\mydet{\vec{B_{31}} & \vec{C_{31}}} = \mydet{1 & 2\\-1 & 3} = 5
+\end{align*}
+
+\begin{align*}
+\mydet{\vec{B_{12}} & \vec{C_{12}}} = \mydet{-1 & 3\\2 & 1} = -7
+\end{align*}
+
+\begin{align*}
+  \vec{b} \times \vec{c} = \myvec{3\\5\\-7}
+\end{align*}
+
+
+\end{frame}
+
+\begin{frame}
+\begin{center}
+the value of \(\vec{a}\cdot(\vec{b}\times\vec{c})\) = $\vec{a}^\top(\vec{b}\times\vec{c})$ = \myvec{2 & 1 & 3}\myvec{3\\5\\-7}\\
+= (2)(3) + (1)(5) + (3)(-7) 
+= 6 + 5 - 21\\
+= -10
+
+\textbf{Final Answer} : \(\vec{a}\cdot(\vec{b}\times\vec{c})\)  = -10 
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Plot}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.6\columnwidth]{figs/vectors.png} 
+   \caption*{Fig : Vectors}
+  \label{Fig1}
+\end{figure}
+
+\end{frame}
+
+\section*{Appendix: Code}
+
+% C program
+\begin{frame}[fragile]{C Code: points.c}
+\begin{lstlisting}[language=C]
+
+#include <stdio.h>
+
+// Function to compute scalar triple product: a · (b × c)
+double triple_product(double a[3], double b[3], double c[3]) {
+  double cross[3];
+
+  // Cross product b × c
+  cross[0] = b[1] * c[2] - b[2] * c[1];
+  cross[1] = b[2] * c[0] - b[0] * c[2];
+  cross[2] = b[0] * c[1] - b[1] * c[0];
+
+  // Dot product a · (b × c)
+  double result = a[0] * cross[0] + a[1] * cross[1] + a[2] * cross[2];
+  return result;
+}
+
+\end{lstlisting}
+\end{frame}
+
+% Python calling C
+\begin{frame}[fragile]{Python: call\_c.py}
+\begin{lstlisting}[language=Python]
+
+import ctypes
+import numpy as np
+import sys
+import matplotlib.pyplot as plt
+
+# Load shared library
+lib = ctypes.CDLL("./libpoints.so")
+lib.triple_product.restype = ctypes.c_double
+lib.triple_product.argtypes = [
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double)
+]
+
+# Default vectors (if no args provided)
+a = np.array([2.0, 1.0, 3.0], dtype=np.double)
+b = np.array([-1.0, 2.0, 1.0], dtype=np.double)
+c = np.array([3.0, 1.0, 2.0], dtype=np.double)
+
+# If user provides command-line arguments → override
+if len(sys.argv) == 10:  # script + 9 numbers
+    a = np.array([float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3])], dtype=np.double)
+    b = np.array([float(sys.argv[4]), float(sys.argv[5]), float(sys.argv[6])], dtype=np.double)
+    c = np.array([float(sys.argv[7]), float(sys.argv[8]), float(sys.argv[9])], dtype=np.double)
+
+# Call C function
+res = lib.triple_product(a.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
+                         b.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
+                         c.ctypes.data_as(ctypes.POINTER(ctypes.c_double)))
+
+print(f"Scalar Triple Product (from C): {res}")
+
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Python: call\_c.py}
+\begin{lstlisting}[language=Python]
+
+
+# ---- Visualization using matplotlib ----
+cross_bc = np.cross(b, c)
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+ax.quiver(0, 0, 0, a[0], a[1], a[2], color='blue', label='a', arrow_length_ratio=0.1)
+ax.quiver(0, 0, 0, b[0], b[1], b[2], color='red', label='b', arrow_length_ratio=0.1)
+ax.quiver(0, 0, 0, c[0], c[1], c[2], color='green', label='c', arrow_length_ratio=0.1)
+ax.quiver(0, 0, 0, cross_bc[0], cross_bc[1], cross_bc[2],
+          color='purple', label='b × c', arrow_length_ratio=0.1)
+
+ax.set_title(f"Scalar Triple Product = {res:.2f}")
+ax.set_xlabel("X-axis")
+ax.set_ylabel("Y-axis")
+ax.set_zlabel("Z-axis")
+ax.legend()
+
+plt.savefig("vectors.png", dpi=300, bbox_inches="tight")
+plt.show()
+
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Python: plot.py}
+\begin{lstlisting}[language=Python]
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Vectors
+a = np.array([2, 1, 3])
+b = np.array([-1, 2, 1])
+c = np.array([3, 1, 2])
+
+# Scalar triple product
+res = np.dot(a, np.cross(b, c))
+print(f"Scalar Triple Product (using NumPy): {res}")
+
+# Cross product b × c
+cross_bc = np.cross(b, c)
+
+# Plot
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+ax.quiver(0, 0, 0, a[0], a[1], a[2], color='blue', label='a', arrow_length_ratio=0.1)
+ax.quiver(0, 0, 0, b[0], b[1], b[2], color='red', label='b', arrow_length_ratio=0.1)
+ax.quiver(0, 0, 0, c[0], c[1], c[2], color='green', label='c', arrow_length_ratio=0.1)
+ax.quiver(0, 0, 0, cross_bc[0], cross_bc[1], cross_bc[2],
+          color='purple', label='b × c', arrow_length_ratio=0.1)
+
+ax.set_title(f"Scalar Triple Product = {res:.2f}")
+ax.set_xlabel("X-axis")
+ax.set_ylabel("Y-axis")
+ax.set_zlabel("Z-axis")
+ax.legend()
+
+plt.savefig("vectors.png", dpi=300, bbox_inches="tight")
+plt.show()
+
+\end{lstlisting}
+\end{frame}
+
+
+\end{document}
