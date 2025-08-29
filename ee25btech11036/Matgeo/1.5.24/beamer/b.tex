@@ -91,100 +91,73 @@
   \titlepage
 \end{frame}
 
-\begin{frame}{Problem statement}
-A line intersects the \(Y\)-axis and \(X\)-axis at the points
+
+
+%-------------------------------------------------
+\begin{frame}{Problem Statement}
+A line intersects the $Y$-axis and $X$-axis at the points
 \[
-P=(0,b)\quad\text{and}\quad Q=(c,0)
+P = (0,b), \quad Q = (c,0)
 \]
-respectively. If \((2,-5)\) is the midpoint of \(\overline{PQ}\), find the coordinates of \(P\) and \(Q\).
+respectively. If $(2,-5)$ is the midpoint of $\overline{PQ}$, then find the coordinates of $P$ and $Q$.
 \end{frame}
 
-\begin{frame}{Idea (two relations needed)}
-We need two independent relations between \(b\) and \(c\). We'll obtain:
-\begin{enumerate}
-  \item a relation coming from the \emph{line equation / rank condition}, and
-  \item a relation coming from the \emph{midpoint} condition.
-\end{enumerate}
-Both together determine \(b\) and \(c\).
+%-------------------------------------------------
+\begin{frame}{Vector Representation}
+We represent the points as column vectors:
+\[
+\vec P = \myvec{0 \\ b}, \quad 
+\vec Q = \myvec{c \\ 0}, \quad
+\vec M = \myvec{2 \\ -5}.
+\]
 \end{frame}
 
-\begin{frame}{Line equation and the rank relation}
-Consider the general line equation
+%-------------------------------------------------
+\begin{frame}{(i) Rank/Collinearity Condition}
+Since $P, Q, M$ are collinear,
 \[
-u x + v y + w = 0,
-\]
-with constants \(u,v,w\) (not all zero). Since \(P=(0,b)\) lies on the line,
-\[
-u\cdot 0 + v\cdot b + w = 0 \quad\Rightarrow\quad v b + w = 0. \tag{1}
-\]
-Since \(Q=(c,0)\) lies on the line,
-\[
-u\cdot c + v\cdot 0 + w = 0 \quad\Rightarrow\quad u c + w = 0. \tag{2}
-\]
-Subtract (2) from (1):
-\[
-v b - u c = 0 \quad\Rightarrow\quad v b = u c. \tag{R}
-\]
-Equation (R) is the relation between \(b\) and \(c\) arising from the line coefficients.
-(It is independent of \(w\).)
-\end{frame}
-
-\begin{frame}{Interpretation of the rank relation}
-The relation \(v b = u c\) simply says the ratio of the intercepts is tied to the ratio of line coefficients:
-\[
-\frac{b}{c} = \frac{u}{v}.
-\]
-This is one constraint linking \(b\) and \(c\). To get their numerical values we need another independent relation — the midpoint condition.
-\end{frame}
-
-\begin{frame}{Midpoint condition (second relation)}
-The midpoint \(M\) of \(P\) and \(Q\) is
-\[
-M = \frac{P + Q}{2} = \frac{1}{2}\myvec{0\\b} + \frac{1}{2}\myvec{c\\0} = \frac{1}{2}\myvec{c\\b}.
-\]
-We are given \(M=\myvec{2\\-5}\). Equate the components:
-\[
-\frac{c}{2} = 2 \quad\Rightarrow\quad c = 4,
-\]
-\[
-\frac{b}{2} = -5 \quad\Rightarrow\quad b = -10.
-\]
-These are the numerical values of \(b\) and \(c\).
-\end{frame}
-
-\begin{frame}{Consistency with the rank relation}
-We found:
-\[
-b=-10,\qquad c=4.
-\]
-Plugging into the rank relation \(v b = u c\) gives
-\[
-v(-10) = u(4) \quad\Rightarrow\quad \frac{u}{v} = -\frac{10}{4} = -\frac{5}{2}.
-\]
-So any line coefficients \(u,v\) satisfying \(u:v = -5:2\) (and appropriate \(w\)) will give the same intercepts. This confirms the intercepts are consistent with a line having slope \(-b/c = -(-10)/4 = 10/4 = 5/2\) (note sign conventions).
-\end{frame}
-
-\begin{frame}{Matrix viewpoint (brief)}
-Write the midpoint equations componentwise:
-\[
-\frac{1}{2}\begin{pmatrix}c\\b\end{pmatrix} = \begin{pmatrix}2\\-5\end{pmatrix}
-\quad\Longrightarrow\quad
-\begin{pmatrix}c\\b\end{pmatrix} = \begin{pmatrix}4\\-10\end{pmatrix}.
-\]
-Equivalently as a matrix equation \(I\mathbf{x}=\mathbf{B}\) with
-\(\mathbf{x}=\begin{pmatrix}b\\c\end{pmatrix}\) (or ordered as you prefer),
-the solution is immediate since \(I^{-1}=I\).
-\end{frame}
-
-\begin{frame}{Final answer}
-Therefore the intercept points are
-\[
-\boxed{P=(0,-10),\qquad Q=(4,0).}
+\operatorname{rank}\myvec{\vec P - \vec M \quad \vec Q - \vec M}^{\top} = 1.
 \]
 
-\bigskip
-(These satisfy the midpoint condition and the linear relation from the line coefficients.)
+\begin{align*}
+\myvec{\vec P - \vec M & \vec Q - \vec M}^{\top} 
+&= \myvec{-2 & c-2 \\ b+5 & 5} \\
+&\xrightarrow{R_2 \leftarrow -2R_2 - (b+5)R_1}
+\myvec{-2 & c-2 \\ 0 & -10 - (b+5)(c-2)}.
+\end{align*}
+
+For rank $=1$, the last entry must vanish:
+\[
+(b+5)(c-2) = -10. \tag{*}
+\]
 \end{frame}
+
+%-------------------------------------------------
+\begin{frame}{(ii) Midpoint Condition}
+The midpoint of $P$ and $Q$ is:
+\begin{align*}
+\vec M &= \frac{\vec P + \vec Q}{2} \\
+\myvec{2 \\ -5} &= \frac{1}{2}\myvec{0 \\ b} + \frac{1}{2}\myvec{c \\ 0}
+= \frac{1}{2}\myvec{c \\ b}.
+\end{align*}
+
+Thus,
+\[
+\myvec{c \\ b} = \myvec{4 \\ -10}
+\quad\Longrightarrow\quad c=4, \; b=-10.
+\]
+\end{frame}
+
+%-------------------------------------------------
+\begin{frame}{Final Answer}
+Therefore, the intercept points are:
+\[
+\vec P = \myvec{0 \\ -10}, 
+\qquad 
+\vec Q = \myvec{4 \\ 0}.
+\]
+\end{frame}
+
 
 \begin{frame}{Illustration}
 \centering
@@ -202,35 +175,43 @@ Plot shows \(P(0,-10)\), \(Q(4,0)\) and midpoint \(M(2,-5)\).
 \begin{lstlisting}
 #include <stdio.h>
 
-// Function to find coordinates of P(0,b) and Q(c,0)
-// given the midpoint (mx, my)
-void findCoordinates(int mx, int my, int* c, int* b) {
+int main() {
+ 
+    printf("Problem 1.5.24:\n");
+    printf("A line intersects the Y-axis and X-axis at P=(0,b) and Q=(c,0).\n");
+    printf("If (2,-5) is the midpoint of PQ, find P and Q.\n\n");
 
-    printf("Step 1: Rank relation between b and c\n");
-    printf("Line: ux + vy + w = 0\n");
-    printf("P = (0,b), Q = (c,0) lie on the line\n");
-    printf("=> vb + w = 0,   uc + w = 0\n");
-    printf("Subtracting: vb - uc = 0 => v b = u c (relation 1)\n\n");
+   
+    printf("Step (i): Rank / Collinearity condition\n");
+    printf("From collinearity, (b+5)(c-2) = -10\n\n");
 
-    printf("Step 2: Midpoint relation\n");
-    printf("Midpoint M = ( (0+c)/2, (b+0)/2 ) = (%d, %d)\n", mx, my);
-    printf("=> c/2 = %d => c = %d\n", mx, 2*mx);
-    printf("=> b/2 = %d => b = %d\n\n", my, 2*my);
+ 
+    printf("Step (ii): Midpoint condition\n");
+    int Mx = 2, My = -5;
+    int c = 2 * Mx;   // c/2 = 2 -> c = 4
+    int b = 2 * My;   // b/2 = -5 -> b = -10
+    printf("Midpoint gives: c = %d, b = %d\n\n", c, b);
     \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{C Code - Section formula function}
 \begin{lstlisting}
-    // Assign values using midpoint
-    *c = 2 * mx;
-    *b = 2 * my;
 
-    printf("Step 3: Solve both relations\n");
-    printf("Coordinates of P = (0,%d)\n", *b);
-    printf("Coordinates of Q = (%d,0)\n\n", *c);
+    int Px = 0, Py = b;
+    int Qx = c, Qy = 0;
+    printf("Final Answer:\n");
+    printf("P = (%d, %d)\n", Px, Py);
+    printf("Q = (%d, %d)\n", Qx, Qy);
+
+  
+    int midx = (Px + Qx) / 2;
+    int midy = (Py + Qy) / 2;
+    printf("\nVerification:\n");
+    printf("Midpoint of P and Q = (%d, %d)\n", midx, midy);
+
+    return 0;
 }
-
 \end{lstlisting}
 \end{frame}
 
@@ -238,75 +219,86 @@ void findCoordinates(int mx, int my, int* c, int* b) {
  \begin{frame}[fragile]
 	\frametitle{Python Code through shared output}
 	\begin{lstlisting}       
+
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-# --- Step 1: Rank relation ---
-print("Step 1: Rank relation between b and c")
-print("General line: ux + vy + w = 0")
-print("Points: P=(0,b), Q=(c,0)")
-print("Substitute: vb + w = 0,   uc + w = 0")
-print("Subtracting => v b = u c   (relation 1)\n")
+print("Step 1: Rank condition (collinearity)")
+print("Matrix formed from (P-M) and (Q-M):")
+print("[[-2, c-2], [b+5, 5]]")
 
-# --- Step 2: Midpoint relation ---
-print("Step 2: Midpoint relation")
-mx, my = 2, -5
-print(f"Midpoint M = ((0+c)/2, (b+0)/2) = ({mx}, {my})")
+print("Row operation: R2 -> -2*R2 - (b+5)*R1")
+print("=> [[-2, c-2], [0, -10 - (b+5)(c-2)]]")
 
-# Solve midpoint equations
-c = 2 * mx
-b = 2 * my
-print(f"c/2 = {mx}  =>  c = {c}")
-   \end{lstlisting}
-        \end{frame}
-         \begin{frame}[fragile]
-	\frametitle{Python Code through shared output}
-	\begin{lstlisting}    
-print(f"b/2 = {my}  =>  b = {b}   (relation 2)\n")
+print("For rank=1: (b+5)(c-2) = -10")
+\end{lstlisting}
+\end{frame}
 
-# --- Step 3: Solve ---
+% --- Step 2 ---
+\begin{frame}[fragile]\frametitle{Python Code through shared output}
+\begin{lstlisting}
+print("Step 2: Midpoint condition")
+Mx, My = 2, -5
+print("M = ((0+c)/2, (b+0)/2) = (2,-5)")
+
+c = 2*Mx
+b = 2*My
+print(f"From midpoint: c = {c}, b = {b}")
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]\frametitle{Python Code through shared output}
+\begin{lstlisting}
 P = (0, b)
 Q = (c, 0)
-M = (mx, my)
 
-print("Step 3: Solve both relations")
-print(f"Coordinates of P = {P}")
-print(f"Coordinates of Q = {Q}\n")
+print("Final Answer:")
+print(f"P = {P}")
+print(f"Q = {Q}")
+\end{lstlisting}
+\end{frame}
 
-# --- Step 4: Plot ---
-x_points = np.array([P[0], Q[0]])
-y_points = np.array([P[1], Q[1]])
 
-plt.figure(figsize=(7,6))
-plt.plot(x_points, y_points, 'b-', label="Line PQ")
-plt.plot(P[0], P[1], 'go', markersize=10, label=f"P {P}")
-plt.plot(Q[0], Q[1], 'ro', markersize=10, label=f"Q {Q}")
- \end{lstlisting}
-        \end{frame}
-              \begin{frame}[fragile]
-	\frametitle{Python Code through shared output}
-	\begin{lstlisting}    
-plt.plot(M[0], M[1], 'm*', markersize=12, label=f"M {M}")
+\begin{frame}[fragile]\frametitle{Python Code through shared output}
+\begin{lstlisting}
+midpoint = ((P[0]+Q[0])/2, (P[1]+Q[1])/2)
+print("Verification:")
+print(f"Midpoint of P and Q = {midpoint}")
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]\frametitle{Python Code through shared output}
+\begin{lstlisting}
+# --- Step 5: Plot the graph ---
+plt.figure(figsize=(6,6))
+plt.axhline(0, color='black', linewidth=0.8)  # X-axis
+plt.axvline(0, color='black', linewidth=0.8)  # Y-axis
 
-# Annotate
-plt.text(P[0]+0.2, P[1], f"P{P}", fontsize=12)
-plt.text(Q[0]+0.2, Q[1], f"Q{Q}", fontsize=12)
-plt.text(M[0]+0.2, M[1], f"M{M}", fontsize=12)
+# Plot line PQ
+plt.plot([P[0], Q[0]], [P[1], Q[1]], 'b-', label="Line PQ")
 
-# Format
-plt.title("Line Intercepting Axes with Midpoint Condition", fontsize=15)
-plt.axhline(0, color="black", linewidth=0.7)
-plt.axvline(0, color="black", linewidth=0.7)
-plt.xlabel("X-axis")
-plt.ylabel("Y-axis")
-plt.grid(True, linestyle="--", alpha=0.6)
+# Mark points
+plt.scatter(*P, color='red')
+plt.scatter(*Q, color='green')
+plt.scatter(*M, color='purple')
+
+plt.text(P[0]-0.5, P[1], f"P({int(P[0])},{int(P[1])})", fontsize=10, color="red")
+plt.text(Q[0]+0.2, Q[1], f"Q({int(Q[0])},{int(Q[1])})", fontsize=10, color="green")
+plt.text(M[0]+0.2, M[1], f"M({int(M[0])},{int(M[1])})", fontsize=10, color="purple")
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]\frametitle{Python Code through shared output}
+\begin{lstlisting}
+plt.title("Line PQ with Midpoint M(2,-5)")
+plt.grid(True)
 plt.legend()
 plt.axis("equal")
+
 plt.show()
-
 \end{lstlisting}
-        \end{frame}
-
+\end{frame}
 \begin{frame}[fragile]
 	\frametitle{Direct Python Code}
 	\begin{lstlisting}
@@ -320,23 +312,34 @@ from libs.line.funcs import *
 from libs.triangle.funcs import *
 from libs.conics.funcs import circ_gen
 
-# --- Step 1: Rank relation ---
-print("Step 1: Rank relation between b and c")
-print("General line: ux + vy + w = 0")
-print("Points: P = (0,b), Q = (c,0)")
-print("=> vb + w = 0,   uc + w = 0")
-print("Subtracting => v b = u c   (Relation 1)\n")
+# --- Step 1: Rank Matrix condition ---
+print("Step 1: Rank condition between b and c")
+print("Take M = (2,-5), P = (0,b), Q = (c,0)")
 
-# --- Step 2: Midpoint relation ---
-print("Step 2: Midpoint relation")
+# Construct rank matrix for collinearity of P, Q, M
+# Vectors (P-M) and (Q-M) must be linearly dependent => rank = 1
+# Matrix form: [[Px-Mx, Qx-Mx], [Py-My, Qy-My]]
+# Here M=(2,-5)
+M = np.array(([2, -5])).reshape(-1,1)
 \end{lstlisting}
 \end{frame}
 \begin{frame}[fragile]
 	\frametitle{Direct Python Code}
 	\begin{lstlisting}
+b, c = symbols = (None, None)  # placeholders for explanation
 
-M = np.array(([2, -5])).reshape(-1,1)
+print("Matrix formed from (P-M) and (Q-M):")
+print("[[-2, c-2], [b+5, 5]]")
+
+print("Row operation: R2 -> -2*R2 - (b+5)*R1")
+print("=> [[-2, c-2], [0, -10 - (b+5)(c-2)]]")
+
+print("For rank=1: (b+5)(c-2) = -10   (Relation 1)\n")
+
+# --- Step 2: Midpoint relation ---
+print("Step 2: Midpoint relation")
 print("Midpoint M = ((0+c)/2, (b+0)/2) = (2, -5)")
+
 c = 2 * M[0,0]
 b = 2 * M[1,0]
 print(f"c/2 = 2  =>  c = {c}")
@@ -345,19 +348,23 @@ print(f"b/2 = -5 =>  b = {b}   (Relation 2)\n")
 # --- Step 3: Solve both relations ---
 P = np.array(([0,b])).reshape(-1,1)
 Q = np.array(([c,0])).reshape(-1,1)
-
-print("Step 3: Solve both relations")
-print(f"Coordinates of P = (0, {b})")
-print(f"Coordinates of Q = ({c}, 0)\n")
-
-# --- Step 4: Plotting ---
-x_PQ = line_gen(P,Q)
-plt.plot(x_PQ[0,:], x_PQ[1,:], label='$PQ$')
 \end{lstlisting}
 \end{frame}
 \begin{frame}[fragile]
 	\frametitle{Direct Python Code}
 	\begin{lstlisting}
+print("Step 3: Solve")
+print(f"Coordinates of P = (0, {b})")
+print(f"Coordinates of Q = ({c}, 0)\n")
+
+# --- Step 4: Verification ---
+mid = (P+Q)/2
+print("Verification: midpoint of P and Q =", mid.ravel())
+
+# --- Step 5: Plotting ---
+x_PQ = line_gen(P,Q)
+plt.plot(x_PQ[0,:], x_PQ[1,:], label='$PQ$')
+
 # Mark points
 coords = np.block([[P,Q,M]])
 vert_labels = ['P','Q','M']
@@ -366,7 +373,11 @@ for i, txt in enumerate(vert_labels):
     plt.annotate(f'{txt}\n({coords[0,i]:.0f},{coords[1,i]:.0f})',
                  (coords[0,i], coords[1,i]),
                  textcoords="offset points", xytext=(20,-10), ha='center')
-
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+	\frametitle{Direct Python Code}
+	\begin{lstlisting}
 # Axis styling
 ax = plt.gca()
 ax.spines['left'].set_visible(False)
@@ -377,11 +388,7 @@ ax.spines['bottom'].set_visible(False)
 plt.legend(loc='best')
 plt.grid()
 plt.axis('equal')
-\end{lstlisting}
-\end{frame}
-\begin{frame}[fragile]
-	\frametitle{Direct Python Code}
-	\begin{lstlisting}
+
 # Save figure as PDF
 outfile_pdf = 'chapters/10/7/2/2/figs/fig.pdf'
 plt.savefig(outfile_pdf)
@@ -389,7 +396,11 @@ plt.savefig(outfile_pdf)
 # Save figure as PNG
 outfile_png = 'chapters/10/7/2/2/figs/fig.png'
 plt.savefig(outfile_png, dpi=300)
-
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+	\frametitle{Direct Python Code}
+	\begin{lstlisting}
 # Open image depending on system
 try:
     import platform, subprocess, shlex

@@ -1,26 +1,44 @@
 #include <stdio.h>
 
-// Function to find coordinates of P(0,b) and Q(c,0)
-// given the midpoint (mx, my)
-void findCoordinates(int mx, int my, int* c, int* b) {
+int main() {
+    // -------------------------------------------------
+    // Problem statement
+    // -------------------------------------------------
+    printf("Problem 1.5.24:\n");
+    printf("A line intersects the Y-axis and X-axis at P=(0,b) and Q=(c,0).\n");
+    printf("If (2,-5) is the midpoint of PQ, find P and Q.\n\n");
 
-    printf("Step 1: Rank relation between b and c\n");
-    printf("Line: ux + vy + w = 0\n");
-    printf("P = (0,b), Q = (c,0) lie on the line\n");
-    printf("=> vb + w = 0,   uc + w = 0\n");
-    printf("Subtracting: vb - uc = 0 => v b = u c (relation 1)\n\n");
+    // -------------------------------------------------
+    // Step (i): Rank / Collinearity relation
+    // -------------------------------------------------
+    printf("Step (i): Rank / Collinearity condition\n");
+    printf("From collinearity, (b+5)(c-2) = -10\n\n");
 
-    printf("Step 2: Midpoint relation\n");
-    printf("Midpoint M = ( (0+c)/2, (b+0)/2 ) = (%d, %d)\n", mx, my);
-    printf("=> c/2 = %d => c = %d\n", mx, 2*mx);
-    printf("=> b/2 = %d => b = %d\n\n", my, 2*my);
+    // -------------------------------------------------
+    // Step (ii): Midpoint condition
+    // -------------------------------------------------
+    printf("Step (ii): Midpoint condition\n");
+    int Mx = 2, My = -5;
+    int c = 2 * Mx;   // c/2 = 2 -> c = 4
+    int b = 2 * My;   // b/2 = -5 -> b = -10
+    printf("Midpoint gives: c = %d, b = %d\n\n", c, b);
 
-    // Assign values using midpoint
-    *c = 2 * mx;
-    *b = 2 * my;
+    // -------------------------------------------------
+    // Final Answer
+    // -------------------------------------------------
+    int Px = 0, Py = b;
+    int Qx = c, Qy = 0;
+    printf("Final Answer:\n");
+    printf("P = (%d, %d)\n", Px, Py);
+    printf("Q = (%d, %d)\n", Qx, Qy);
 
-    printf("Step 3: Solve both relations\n");
-    printf("Coordinates of P = (0,%d)\n", *b);
-    printf("Coordinates of Q = (%d,0)\n\n", *c);
+    // -------------------------------------------------
+    // Verification of midpoint
+    // -------------------------------------------------
+    int midx = (Px + Qx) / 2;
+    int midy = (Py + Qy) / 2;
+    printf("\nVerification:\n");
+    printf("Midpoint of P and Q = (%d, %d)\n", midx, midy);
+
+    return 0;
 }
-

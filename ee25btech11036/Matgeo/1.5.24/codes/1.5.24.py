@@ -1,86 +1,68 @@
-import ctypes
-import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.pyplot as plt
 
-# --- Part 1: Interfacing with the C Function ---
+print("Problem 1.5.24:")
+print("A line intersects the Y-axis and X-axis at P=(0,b) and Q=(c,0).")
+print("If (2,-5) is the midpoint of PQ, find P and Q.\n")
 
-# Load the shared library
-try:
-    solver_lib = ctypes.CDLL('./1.5.24.so')
-except OSError as e:
-    print("Error loading shared library. Did you compile 1.5.24.c?")
-    print(e)
-    exit()
+# --- Step 1: Rank condition using matrix ---
+print("Step 1: Rank condition (collinearity)")
+P = np.array([0, 'b'], dtype=object)   # keep symbolic b
+Q = np.array(['c', 0], dtype=object)   # keep symbolic c
+M = np.array([2, -5])
 
-# Define the argument and return types for the C function
-solver_lib.findCoordinates.argtypes = [
-    ctypes.c_int, ctypes.c_int,
-    ctypes.POINTER(ctypes.c_int), ctypes.POINTER(ctypes.c_int)
-]
-solver_lib.findCoordinates.restype = None
+print("Matrix formed from (P-M) and (Q-M):")
+print("[[-2, c-2], [b+5, 5]]")
 
-# Input midpoint
-midpoint_x, midpoint_y = 2, -5
+print("Perform row operation: R2 -> -2*R2 - (b+5)*R1")
+print("=> [[-2, c-2], [0, -10 - (b+5)(c-2)]]")
 
-# --- Part 2: Relations from math ---
+print("For rank=1, last entry must vanish:")
+print("(b+5)(c-2) = -10   (relation 1)\n")
 
-print("Step 1: Rank relation between b and c")
-print("Line: ux + vy + w = 0")
-print("P = (0,b), Q = (c,0) lie on the line")
-print("=> vb + w = 0,   uc + w = 0")
-print("Subtracting: vb - uc = 0 => v b = u c (relation 1)\n")
+# --- Step 2: Midpoint condition ---
+print("Step 2: Midpoint condition")
+Mx, My = 2, -5
+print(f"Midpoint M = ((0+c)/2, (b+0)/2) = ({Mx}, {My})")
 
-print("Step 2: Midpoint relation")
-print("Midpoint M = ( (0+c)/2, (b+0)/2 ) = (2, -5)")
-print("=> c/2 = 2 => c = 4")
-print("=> b/2 = -5 => b = -10 (relation 2)\n")
+# Solve midpoint equations
+c = 2 * Mx
+b = 2 * My
+print(f"From midpoint: c = {c}, b = {b} (relation 2)\n")
 
-# --- Part 3: Call the C solver for verification ---
+# --- Step 3: Solve ---
+P = np.array([0, b])
+Q = np.array([c, 0])
+print("Step 3: Final Solution")
+print(f"P = {tuple(P)}")
+print(f"Q = {tuple(Q)}\n")
 
-c_val, b_val = ctypes.c_int(), ctypes.c_int()
-solver_lib.findCoordinates(
-    ctypes.c_int(midpoint_x),
-    ctypes.c_int(midpoint_y),
-    ctypes.byref(c_val),
-    ctypes.byref(b_val)
-)
+# --- Step 4: Verification ---
+midpoint = (P + Q) / 2
+print("Verification:")
+print(f"Midpoint of P and Q = {tuple(midpoint)}")
 
-c = c_val.value
-b = b_val.value
+# --- Step 5: Plot the graph ---
+plt.figure(figsize=(6,6))
+plt.axhline(0, color='black', linewidth=0.8)  # X-axis
+plt.axvline(0, color='black', linewidth=0.8)  # Y-axis
 
-# Define coordinates
-P = (0, b)
-Q = (c, 0)
-M = (midpoint_x, midpoint_y)
+# Plot line PQ
+plt.plot([P[0], Q[0]], [P[1], Q[1]], 'b-', label="Line PQ")
 
-print("Step 3: Solve both relations")
-print(f"Coordinates of P = {P}")
-print(f"Coordinates of Q = {Q}\n")
+# Mark points
+plt.scatter(*P, color='red')
+plt.scatter(*Q, color='green')
+plt.scatter(*M, color='purple')
 
-# --- Part 4: Plotting the Result ---
+# Add labels
+plt.text(P[0]-0.5, P[1], f"P({int(P[0])},{int(P[1])})", fontsize=10, color="red")
+plt.text(Q[0]+0.2, Q[1], f"Q({int(Q[0])},{int(Q[1])})", fontsize=10, color="green")
+plt.text(M[0]+0.2, M[1], f"M({int(M[0])},{int(M[1])})", fontsize=10, color="purple")
 
-x_points = np.array([P[0], Q[0]])
-y_points = np.array([P[1], Q[1]])
-
-plt.figure(figsize=(8,7))
-plt.plot(x_points, y_points, 'b-', label=f'Line PQ')
-plt.plot(P[0], P[1], 'go', markersize=10, label=f'P = {P}')
-plt.plot(Q[0], Q[1], 'ro', markersize=10, label=f'Q = {Q}')
-plt.plot(M[0], M[1], 'm*', markersize=12, label=f'M = {M}')
-
-# Annotate points
-plt.text(P[0] + 0.2, P[1], f'P{P}', fontsize=12)
-plt.text(Q[0] + 0.2, Q[1], f'Q{Q}', fontsize=12)
-plt.text(M[0] + 0.2, M[1], f'M{M}', fontsize=12)
-
-# Formatting
-plt.title('Line Intercepting Axes with Midpoint Condition', fontsize=16)
-plt.axhline(0, color='black', linewidth=0.7)
-plt.axvline(0, color='black', linewidth=0.7)
-plt.xlabel('X-axis')
-plt.ylabel('Y-axis')
-plt.grid(True, linestyle='--', alpha=0.6)
+plt.title("Line PQ with Midpoint M(2,-5)")
+plt.grid(True)
 plt.legend()
-plt.axis('equal')
-plt.show()
+plt.axis("equal")
 
+plt.show()

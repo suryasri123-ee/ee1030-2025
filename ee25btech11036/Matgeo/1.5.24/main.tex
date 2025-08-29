@@ -71,57 +71,50 @@ A line intersects the $Y$-axis and $X$-axis at the points
 $P=(0,b)$ and $Q=(c,0)$ respectively. If $(2,-5)$ is the midpoint of
 $\overline{PQ}$, then find the coordinates of $P$ and $Q$.
 
-\section*{Matrix Solution}
+% Solution for 1.5.24 (matrix method: rank + midpoint)
+\providecommand{\myvec}[1]{\begin{pmatrix}#1\end{pmatrix}}
 
-\begin{enumerate}
-\item \textbf{Relation from Rank Condition}
+\begin{align*}
+\vec P&=\myvec{0\\ b},\quad 
+\vec Q=\myvec{c\\ 0},\quad 
+\vec M=\myvec{2\\ -5}.
+\end{align*}
 
-The general equation of a line is
+\textbf{(i) Rank/collinearity: } 
+\begin{align*}
+\text{Since } \vec P,\vec Q,\vec M \text{ are collinear, } 
+\operatorname{rank}\myvec{\vec P-\vec M & \vec Q-\vec M}^{\top}=1.
+\end{align*}
+\begin{align*}
+\myvec{\vec P-\vec M & \vec Q-\vec M}^{\top}
+&=\myvec{-2 & c-2\\[2pt] b+5 & 5}
+\xrightarrow{\,R_2\leftarrow -2R_2-(b+5)R_1\,}
+\myvec{-2 & c-2\\[2pt] 0 & -10-(b+5)(c-2)}.
+\end{align*}
+For rank \(=1\), the last entry must be \(0\):
+\begin{align*}
+-10-(b+5)(c-2)=0
+\;\;\Longrightarrow\;\;
+(b+5)(c-2)=-10. \tag{*}
+\end{align*}
+
+\textbf{(ii) Midpoint: }
+\begin{align*}
+\vec M=\frac{\vec P+\vec Q}{2}
+\;\Longrightarrow\;
+\myvec{2\\ -5}
+=\frac{1}{2}\myvec{0\\ b}+\frac{1}{2}\myvec{c\\ 0}
+=\frac{1}{2}\myvec{c\\ b}
+\;\Longrightarrow\;
+\myvec{c\\ b}=\myvec{4\\ -10}.
+\end{align*}
+Thus \(c=4,\; b=-10\), and these satisfy \((*)\).
+
+\textbf{Answer: }
 \[
-ax + by = 1
+\vec P=\myvec{0\\ -10},\qquad
+\vec Q=\myvec{4\\ 0}.
 \]
-
-Since it intersects the $y$-axis at $P=(0,b)$ and $x$-axis at $Q=(c,0)$,  
-we have the relations:
-\[
-\vec{P} = \myvec{0 \\ b}, \quad \vec{Q} = \myvec{c \\ 0}.
-\]
-
-These points must satisfy the line equation, giving the system
-\[
-\myvec{0 & b \\ c & 0}\vec{x} = \myvec{b \\ c}.
-\]
-
-For consistency, the rank condition gives
-\[
-\frac{0}{b} = \frac{c}{0} \;\;\Rightarrow\;\; bc + 40 = 0
-\]
-(or the equivalent relation depending on the method).
-
-\item \textbf{Relation from Midpoint}
-
-The midpoint $M$ of $P$ and $Q$ is
-\[
-M = \frac{P+Q}{2} = \myvec{2 \\ -5}.
-\]
-
-So,
-\[
-\frac{c}{2} = 2 \;\;\Rightarrow\;\; c=4, 
-\qquad 
-\frac{b}{2} = -5 \;\;\Rightarrow\;\; b=-10.
-\]
-
-\item \textbf{Final Coordinates}
-
-\[
-P = \myvec{0 \\ -10}, 
-\qquad 
-Q = \myvec{4 \\ 0}.
-\]
-
-\end{enumerate}
-
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.6\columnwidth]{figs/Figure_1.png}

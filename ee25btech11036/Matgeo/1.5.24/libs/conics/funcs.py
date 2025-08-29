@@ -10,7 +10,7 @@
 
 import numpy as np
 import numpy.linalg as LA
-from libs.params import *
+from params import *
 
 def conic_param(V,u,f):
         # Compute eigenvalues and eigenvectors

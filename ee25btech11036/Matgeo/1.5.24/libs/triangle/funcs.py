@@ -7,9 +7,9 @@
 
 import numpy as np
 import numpy.linalg as LA
-from libs.line.funcs import *
+from line.funcs import *
 #from line.params import *
-from libs.params import *
+from params import *
 
 #Triangle sides
 def tri_sides(A,B,C):
