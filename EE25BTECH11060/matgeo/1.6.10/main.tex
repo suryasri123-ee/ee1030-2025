@@ -83,8 +83,10 @@ C & 11 & 3 & 7 \\
 \begin{myvec}{4  & 10\\2 & 5\\6 & 15}\end{myvec}
 \xleftrightarrow{R_3 \gets R_3-(R_1 + R_2)}
   \begin{myvec}{4  & 10\\2 & 5\\0 & 0}\end{myvec}
-  \xleftrightarrow{R_1 \gets R_1-(2 R_2)} 
-\begin{myvec}{0 & 0\\2 & 5\\0 & 0}\end{myvec}
+  \xleftrightarrow{R_2 \leftarrow R_2 - (R_1/2)} 
+\begin{myvec}{4 & 10\\0 & 0\\0 & 0}\end{myvec}
+\xleftrightarrow{R_1 \leftarrow (R_1/4)} 
+\begin{myvec}{1 & 2.5\\0 & 0\\0 & 0}\end{myvec}
 \]
 
 Which is a Rank 1 matrix , Hence   $\vec{A}(1,-2,-8)$,$\vec{B}(5,0,-2)$ and $\vec{C}(11,3,7)$ are collinear.\\
