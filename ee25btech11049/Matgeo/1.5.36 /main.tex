@@ -25,7 +25,7 @@
 \usepackage[breaklinks=true]{hyperref}
 \usepackage{tkz-euclide} 
 \usepackage{listings}
-% \usepackage{gvv}                                        
+\usepackage{gvv}                                        
 \def\inputGnumericTable{}                                 
 \usepackage[latin1]{inputenc}                                
 \usepackage{color}                                            
@@ -69,9 +69,33 @@
 Point P\brak{x,4} lies on the line segment joining the points $\vec{A}$\brak{-5, 8} and $\vec{B}$\brak{4,-10}. Find the ratio in which point P divides the line segment AB. Also, find the value of x. \\ 
 \solution \\
 Let 
-\begin{align*}
-\vec{A}= \myvec{-5 \\ 8}, \vec{B}= \myvec{4 \\ -10}
-\end{align*}
+\begin{align}
+\vec{A}= \myvec{-5 \\ 8}, \vec{B}= \myvec{4 \\ -10} , \vec{P} = \myvec{x \\ 4}
+\end{align}    
+
+Since $\vec{P}$ lies on $\vec{A}$ and $\vec{B}$, they must be collinear
+\begin{align}
+\therefore \text{rank}\myvec{\vec{P} - \vec{A} & &\vec{B} - \vec{A}} = 1
+\end{align}
+\begin{align}
+    \text{rank}\myvec{x+5 & 9 \\ -4 & -18} = 1
+\end{align}
+By transformation $R_1 \rightarrow R_1 + \frac{1}{2}R_2$
+\begin{align}
+    \text{rank}\myvec{x+3 & 0 \\ -4 & -18} = 1
+\end{align}
+Thus for rank to be 1
+\begin{align}
+    x+3 = 0
+\end{align}
+\begin{align}
+\therefore x = -3
+\end{align}
+Thus $\vec{P}$ is :
+\begin{align}
+    \vec{P} = \myvec{-3 \\ 4}
+\end{align}
+
 Let $\vec{P} = \lambda\vec{A} + \mu\vec{B}$ with $\lambda + \mu =1$. Using the y-coordinates:
 
 \begin{align}
@@ -81,14 +105,9 @@ Hence the internal division ratio
 \begin{align}
     AP:PB = \mu:\lambda=2:7
 \end{align}
-and
-\begin{align}
-   x=\lambda\brak{-5}+\mu\brak{4}= -\frac{35}{9} + \frac{8}{9} = -3
-\end{align}
-So, $\vec{P}=\brak{-3,4}$
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{figs/Figure.png}
+    \includegraphics[width=0.9\columnwidth]{figs/Figure.png}
 \end{figure}
 \end{document}
