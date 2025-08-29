@@ -1,9 +1,0 @@
-\frametitle{Python Code - Output}
-
-\begin{lstlisting}[language=Python]
-lib.centroid(A_ct, B_ct, G_ct, C_ct)
-
-print("Coordinates of point C:")
-print(C)
-\end{lstlisting}
-
