@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.14)  28 AUG 2025 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.14)  29 AUG 2025 11:20
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **main-slides.tex
 (./main-slides.tex
@@ -1388,7 +1388,7 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
@@ -1402,11 +1402,14 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
+runsystem(uname -s > "main-slides.w18")...executed.
 
-Package ifplatform Warning: 
-    shell escape is disabled, so I can only detect \ifwindows.
 
-) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(./main-slides.w18)
+runsystem(rm -- "main-slides.w18")...executed.
+
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \xs_counta=\count400
 \xs_countb=\count401
@@ -1437,19 +1440,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks61
 \c@listing=\count405
 )
-runsystem(mkdir -p _minted-main-slides)...disabled (restricted).
+runsystem(mkdir -p _minted-main-slides)...executed.
 
 
-
-! Package minted Error: You must invoke LaTeX with the -shell-escape flag.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \RequirePackage{minted}[2021/12/24]
-                                        
-? 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
@@ -1488,32 +1481,22 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-runsystem(command -v pygmentize && touch main-slides.aex)...disabled (restricte
-d).
+runsystem(command -v pygmentize && touch main-slides.aex)...executed.
 
+runsystem(rm main-slides.aex)...executed.
 
-
-! Package minted Error: You must have `pygmentize' installed to use this packag
-e.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 \begin{document}
-                     
-? 
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
 78.
+
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-No file main-slides.aux.
+) (./main-slides.aux)
 \openout1 = `main-slides.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 78.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 78.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1610,6 +1593,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 78.
+
+(./main-slides.out) (./main-slides.out)
 \@outlinefile=\write7
 \openout7 = `main-slides.out'.
 
@@ -1685,93 +1670,92 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count413
-
-No file main-slides.nav.
-[1
+ (./main-slides.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-rm.enc}] [2
 
 ]
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-4.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
+2.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-94.
+92.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-94.
+92.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 94.
+(Font)              <10.95> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 94.
+(Font)              <8> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 94.
+(Font)              <6> on input line 92.
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
-4.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
-4.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
-4.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
-4.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-4.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 94.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 94.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 94.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 92.
  [3
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}] [4
 
 ]
-Overfull \vbox (36.41975pt too high) detected at line 151
+Overfull \vbox (2.82806pt too high) detected at line 146
  []
 
 [5
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathsy.enc}]
-<figs/fig1.png, id=174, 481.8pt x 304.13625pt>
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+<figs/fig1.png, id=175, 481.8pt x 304.13625pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 158.
+Package pdftex.def Info: figs/fig1.png  used on input line 153.
 (pdftex.def)             Requested size: 330.11922pt x 208.38776pt.
  [6
 
- <./figs/fig1.png>] [7
+ <./figs/fig1.png>]
+[7
 
 ]
 \tf@nav=\write8
@@ -1788,24 +1772,14 @@ Package pdftex.def Info: figs/fig1.png  used on input line 158.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main-slides.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main-slides.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main-slides.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 56389 strings out of 474222
- 1350886 string characters out of 5748733
- 2180297 words of memory out of 5000000
- 77666 multiletter control sequences out of 15000+600000
+ 56419 strings out of 474222
+ 1351141 string characters out of 5748733
+ 2180334 words of memory out of 5000000
+ 77686 multiletter control sequences out of 15000+600000
  590659 words of font info for 72 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  128i,15n,123p,1179b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1814,12 +1788,12 @@ pe1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on main-slides.pdf (7 pages, 176763 bytes).
+ic/lm/lmsso8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy
+a.pfb>
+Output written on main-slides.pdf (7 pages, 174095 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
+ 279 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
  16 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 
