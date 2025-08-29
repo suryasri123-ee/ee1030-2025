@@ -1,0 +1,101 @@
+\documentclass{beamer}
+
+% Theme
+\usetheme{Madrid}
+\usecolortheme{default}
+
+% Packages
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{lscape}
+
+% Custom macros
+\newcommand{\myvec}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\newcommand{\brak}[1]{\left( #1 \right)}
+
+% Redefine \vec to bold letters only (no arrow)
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\title{1.5.7}
+\author{EE25BTECH11019 -- Darji Vivek M.}
+\date{}
+
+\begin{document}
+
+% Title slide
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Question
+\begin{frame}{Question}
+If $\brak{\tfrac{a}{3},4}$ is the midpoint of the line segment joining 
+the points $\brak{-6,5}$ and $\brak{-2,3}$, then the value of $a$ is
+\hfill $\brak{10,2021}$
+\end{frame}
+
+% Variables table
+\begin{frame}{Variables Used}
+\begin{table}[h!]    
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    Symbol & Meaning \\ \hline
+    $\vec{A}$ & Point $(-6,5)$ \\ \hline
+    $\vec{B}$ & Point $(-2,3)$ \\ \hline
+    $\vec{M}$ & Midpoint \\ \hline
+    $a$ & Unknown to find \\ \hline
+  \end{tabular}
+\end{table}
+\end{frame}
+
+% Midpoint formula
+\begin{frame}{Midpoint Formula}
+\begin{align}
+\vec{A} &= \myvec{-6\\5}, \quad 
+\vec{B} = \myvec{-2\\3} \\[6pt]
+\vec{M} &= \frac{\vec{A}+\vec{B}}{2}
+\end{align}
+\end{frame}
+
+% Substitution
+\begin{frame}{Substitution}
+\begin{align}
+\vec{M} &= \tfrac{1}{2}\brak{\myvec{-6\\5}+\myvec{-2\\3}} \\[6pt]
+&= \tfrac{1}{2}\myvec{-8\\8} \\[6pt]
+&= \myvec{-4\\4}
+\end{align}
+\end{frame}
+
+% Given midpoint
+\begin{frame}{Given Midpoint}
+\begin{align}
+\vec{M} = \myvec{\tfrac{a}{3}\\4}
+\end{align}
+
+Equating components:
+\begin{align}
+\tfrac{a}{3} = -4 \implies a = -12
+\end{align}
+\end{frame}
+
+% Final Answer
+\begin{frame}{Final Answer}
+\[
+\boxed{a = -12}
+\]
+\end{frame}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\columnwidth]{figs/1.png}
+\caption{\centering plot}
+\label{fig:placeholder_125}
+\end{figure}
+
+\end{document}
