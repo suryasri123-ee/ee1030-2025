@@ -1,0 +1,20 @@
+\frametitle{Direct Python Code}
+	\begin{lstlisting}
+# Save figure as PDF
+outfile_pdf = 'chapters/10/7/2/2/figs/fig.pdf'
+plt.savefig(outfile_pdf)
+
+# Save figure as PNG
+outfile_png = 'chapters/10/7/2/2/figs/fig.png'
+plt.savefig(outfile_png, dpi=300)
+
+# Open image depending on system
+try:
+    import platform, subprocess, shlex
+    if "termux" in platform.platform().lower():   # Android Termux
+        subprocess.run(shlex.split(f"termux-open {outfile_png}"))
+    else:                                        # Linux desktop
+        subprocess.run(shlex.split(f"xdg-open {outfile_png}"))
+except Exception as e:
+    print(f"Could not auto-open file. Saved at {outfile_png}")
+\end{lstlisting}

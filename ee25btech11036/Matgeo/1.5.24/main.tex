@@ -65,74 +65,52 @@ text width=4em, text centered, rounded corners, minimum height=3em]
 	\numberwithin{equation}{enumi}
 	\numberwithin{figure}{enumi}
 	\renewcommand{\thetable}{\theenumi}
+
 \textbf{1.5.24}\quad
 A line intersects the $Y$-axis and $X$-axis at the points
 $P=(0,b)$ and $Q=(c,0)$ respectively. If $(2,-5)$ is the midpoint of
 $\overline{PQ}$, then find the coordinates of $P$ and $Q$.
 
-
-\textbf{Coordinates: } 
-$P = (0,-10), \; Q = (4,0)$
-
 \section*{Matrix Solution}
 
 \begin{enumerate}
-\item \textbf{Vector Midpoint Formula}
+\item \textbf{Relation from Rank Condition}
 
-Let 
+The general equation of a line is
 \[
-\vec{P} = \myvec{0 \\ b}, \quad 
-\vec{Q} = \myvec{c \\ 0}, \quad 
-\vec{M} = \myvec{2 \\ -5}.
+ax + by = 1
 \]
 
-The midpoint formula is
-\begin{align*}
-\vec{M} &= \tfrac{1}{2}(\vec{P} + \vec{Q}) \\[6pt]
-\myvec{2 \\ -5} &= \tfrac{1}{2}\left(\myvec{0 \\ b} + \myvec{c \\ 0}\right) \\[6pt]
-&= \tfrac{1}{2}\myvec{c \\ b}.
-\end{align*}
-
-Multiplying through by $2$:
+Since it intersects the $y$-axis at $P=(0,b)$ and $x$-axis at $Q=(c,0)$,  
+we have the relations:
 \[
-\myvec{4 \\ -10} = \myvec{c \\ b}.
+\vec{P} = \myvec{0 \\ b}, \quad \vec{Q} = \myvec{c \\ 0}.
 \]
 
----
-
-\item \textbf{System in Matrix Form ($A\vec{x} = \vec{B}$)}
-
-This gives the system
+These points must satisfy the line equation, giving the system
 \[
-\begin{cases}
-b = -10,\\
-c = 4.
-\end{cases}
+\myvec{0 & b \\ c & 0}\vec{x} = \myvec{b \\ c}.
 \]
 
-Equivalently,
+For consistency, the rank condition gives
 \[
-\underbrace{\myvec{1 & 0 \\ 0 & 1}}_{A}
-\underbrace{\myvec{b \\ c}}_{\vec{x}}
-=
-\underbrace{\myvec{-10 \\ 4}}_{\vec{B}}.
+\frac{0}{b} = \frac{c}{0} \;\;\Rightarrow\;\; bc + 40 = 0
 \]
+(or the equivalent relation depending on the method).
 
----
+\item \textbf{Relation from Midpoint}
 
-\item \textbf{Solving the Matrix Equation}
-
-Since $A$ is the identity,
+The midpoint $M$ of $P$ and $Q$ is
 \[
-\vec{x} = A^{-1}\vec{B} = I\vec{B} = \myvec{-10 \\ 4}.
+M = \frac{P+Q}{2} = \myvec{2 \\ -5}.
 \]
 
 So,
 \[
-b = -10, \quad c = 4.
+\frac{c}{2} = 2 \;\;\Rightarrow\;\; c=4, 
+\qquad 
+\frac{b}{2} = -5 \;\;\Rightarrow\;\; b=-10.
 \]
-
----
 
 \item \textbf{Final Coordinates}
 
@@ -148,15 +126,14 @@ Q = \myvec{4 \\ 0}.
     \centering
     \includegraphics[width=0.6\columnwidth]{figs/Figure_1.png}
     \caption{Plot using Shared output}
-    \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.6\columnwidth]{figs/fig.png}
     \caption{Plot using Python}
-    \label{fig:placeholder}
 \end{figure}
 
-
 \end{document}
+
+
