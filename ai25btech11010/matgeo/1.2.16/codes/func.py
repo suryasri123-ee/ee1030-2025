@@ -1,6 +1,3 @@
-\frametitle{Python code -Ploting the points using c function}
-	\begin{lstlisting}
-
 import numpy as np, matplotlib.pyplot as plt, os
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
@@ -16,4 +13,3 @@ os.makedirs(os.path.dirname(save_path),exist_ok=True)
 plt.savefig(save_path,dpi=300)
 plt.show()
 
-\end{lstlisting}
