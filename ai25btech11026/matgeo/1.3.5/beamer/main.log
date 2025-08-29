@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.16)  29 AUG 2025 00:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2025.8.16)  29 AUG 2025 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2012,6 +2012,16 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
 
 {/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/enc/dvips/
 lm/lm-mathit.enc}]
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 121.
+
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 121.
+
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 121.
+
+
 
 [3
 
@@ -2057,91 +2067,44 @@ lm/lm-rmtt.enc}]
 \openout4 = `main.vrb'.
 
  (./main.vrb
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+20.
 
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 print(f"
-             The values are: x = {x}, y = {y}")
-? 
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 print(f"The values are: x = {x}, y = {y}"
-                                              )
-? 
-)
-
-[5
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18     print(f"
-                 The values are: x = {x}, y = {y}")
-? 
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18     print(f"The values are: x = {x}, y = {y}"
-                                                  )
-? 
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 if __name__ == "
-                     __main__":
-? 
-
-! LaTeX Error: Command \textquotedbl unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 if __name__ == "__main__"
-                              :
-? 
-)
-Overfull \vbox (45.52928pt too high) detected at line 190
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/lm/ts1
+lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+Overfull \vbox (9.52928pt too high) detected at line 175
  []
 
 
 
+[5
+
+{/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/enc/dvips/
+lm/lm-ts1.enc}]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+
 [6
 
 ]
-<Figs/IMG-20250829-WA0000.jpg, id=204, 1606.0pt x 1606.0pt>
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+
+[7
+
+]
+<Figs/IMG-20250829-WA0000.jpg, id=234, 1606.0pt x 1606.0pt>
 File: Figs/IMG-20250829-WA0000.jpg Graphic file (type jpg)
 <use Figs/IMG-20250829-WA0000.jpg>
-Package pdftex.def Info: Figs/IMG-20250829-WA0000.jpg  used on input line 197.
+Package pdftex.def Info: Figs/IMG-20250829-WA0000.jpg  used on input line 215.
 (pdftex.def)             Requested size: 208.37073pt x 208.37073pt.
 
 
-[7
+[8
 
  <./Figs/IMG-20250829-WA0000.jpg>]
 \tf@nav=\write7
@@ -2169,13 +2132,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 59208 strings out of 467800
- 1462208 string characters out of 5417814
- 2498156 words of memory out of 5000000
- 86870 multiletter control sequences out of 15000+600000
- 662757 words of font info for 79 fonts, out of 8000000 for 9000
+ 59368 strings out of 467800
+ 1464403 string characters out of 5417814
+ 2501158 words of memory out of 5000000
+ 87021 multiletter control sequences out of 15000+600000
+ 668492 words of font info for 82 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 128i,15n,123p,1172b,1293s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,1172b,1455s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/lm/lmex10.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-di
 st/fonts/type1/public/lm/lmmi10.pfb></data/data/com.termux/files/usr/share/texl
@@ -2185,14 +2148,14 @@ ta/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/lm/lms
 s8.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/typ
 e1/public/lm/lmssbx10.pfb></data/data/com.termux/files/usr/share/texlive/2025/t
 exmf-dist/fonts/type1/public/lm/lmsso10.pfb></data/data/com.termux/files/usr/sh
-are/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></data/data/com.te
-rmux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
+are/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></data/data/com.te
+rmux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/publi
-c/lm/lmtt10.pfb>
-Output written on main.pdf (7 pages, 391005 bytes).
+c/txfonts/txsya.pfb>
+Output written on main.pdf (8 pages, 380291 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 15 named destinations out of 1000 (max. 500000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
+ 17 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 

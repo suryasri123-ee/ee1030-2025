@@ -98,25 +98,26 @@ find the values of $x$ and $y$.
 \textbf{Solution:} \\
 In a parallelogram, the diagonals bisect each other. Therefore, the midpoint of diagonal 
 joining $(3,3)$ and $(x,7)$ is equal to the midpoint of diagonal joining $(6,y)$ and $(5,6)$.
-begin{align}
-($\frac{3+x}{2}, \frac{3+7}{2}$) 
-= ($\frac{6+5}{2}, \frac{y+6}{2}$)
-end{align}
+\begin{align}
+    \vec{A}=\begin{myvec}{3\\3}\end{myvec}\;
+    \vec{B}=\begin{myvec}{6\\y}\end{myvec}\;
+    \vec{C}=\begin{myvec}{x\\7}\end{myvec}\;         \vec{D}=\begin{myvec}{5\\6}\end{myvec}\
+\end{align}
+condition for the given points to form a parallelogram.\\
+\begin{align}
+    \vec{B}-\vec{A}=\vec{C}-\vec{D}
+\end{align}
 
-$
-\left(\frac{3+x}{2}, 5\right) = \left(\frac{11}{2}, \frac{y+6}{2}\right)
-$
 
-Equating the coordinates, we get:
-$
-\frac{3+x}{2} = \frac{11}{2} \quad \Rightarrow \quad x=8
-$
-$
-5 = \frac{y+6}{2} \quad \Rightarrow \quad y=4
-$
-
-\bigskip
-\textbf{Final Answer:} \quad $x=8, \; y=4$
+\begin{align}
+    \vec{B}-\vec{A}=\begin{myvec}
+        {3\\y-3}
+    \end{myvec} \;
+    \vec{C}-\vec{D}=\begin{myvec}
+        {x-5\\1}\
+    \end{myvec}
+\end{align}
+$\therefore$ $x=8, \; y=4$  
 \end{frame}
 
 
@@ -148,49 +149,66 @@ int main() {
 \begin{frame}[fragile]
     \frametitle{Python Code}
     \begin{lstlisting}
-# Using midpoint property of diagonals of parallelogram
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
-# From (x+3)/2 = 11/2  => x = 11 - 3
-x = 11 - 3  
+# Given and solved coordinates
+A = (3, 3, 0)
+B = (6, 4, 0)   # y = 4
+C = (8, 7, 0)   # x = 8
+D = (5, 6, 0)
 
-# From (y+6)/2 = 5  => y = 10 - 6
-y = 10 - 6  
+# Vertices in order, and close the parallelogram by repeating the first point
+vertices = [A, B, C, D, A]
 
-print(f"The values are: x = {x}, y = {y}")
+# Unpack coordinates
+xs, ys, zs = zip(*vertices)
+
+# Plotting
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+
 
 
     \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile]
-    \frametitle{Python Code Using C Functions}
+    \frametitle{Python Code }
     \begin{lstlisting}
     
-# Function to calculate x using diagonal midpoint property
-def find_x():
-    # (3 + x)/2 = (6 + 5)/2
-    return 11 - 3   # x = 8
+# Plot the edges
+ax.plot(xs, ys, zs, label='Parallelogram', color='blue')
 
-# Function to calculate y using diagonal midpoint property
-def find_y():
-    # (3 + 7)/2 = (y + 6)/2
-    return 10 - 6   # y = 4
+# Plot the points
+ax.scatter(xs, ys, zs, color='red', s=50)
 
-# Main function (like in C)
-def main():
-    x = find_x()
-    y = find_y()
-    print(f"The values are: x = {x}, y = {y}")
+# Annotate each point
+labels = ['A(3,3)', 'B(6,4)', 'C(8,7)', 'D(5,6)', 'A']
+for i, (x, y, z) in enumerate(vertices):
+    ax.text(x, y, z + 0.1, labels[i], fontsize=10)
 
-# Run main
-if __name__ == "__main__":
-    main()
+# Setting labels
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+ax.set_title('Parallelogram in 3D (Z=0)')
      \end{lstlisting}
 
 \end{frame}
+\begin{frame}[fragile]
+    \frametitle{Python Code }
+    \begin{lstlisting}
+    # Set the view angle for better 3D effect
+ax.view_init(elev=20, azim=30)
 
-    
+# Save as PNG
+plt.savefig('parallelogram_3d.png', dpi=300)
+plt.show()
+   \end{lstlisting}
 
+\end{frame}
 \begin{frame}{Plot}
     \centering
     \includegraphics[width=\columnwidth, height=0.8\textheight, keepaspectratio]{Figs/IMG-20250829-WA0000.jpg}     
