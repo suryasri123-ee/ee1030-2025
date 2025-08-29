@@ -30,8 +30,14 @@ S = lib.midpoint(D, A)
 points = [P, Q, R, S, P]  # Loop back to P
 x_vals = [p.x for p in points]
 y_vals = [p.y for p in points]
+plt.plot(x_vals, y_vals, marker='o', label='PQRS')
 
-plt.plot(x_vals, y_vals, marker='o')
+# Diagonal from P to R
+plt.plot([P.x, R.x], [P.y, R.y], 'r--', label='Diagonal PR')
+
+# Diagonal from Q to S
+plt.plot([Q.x, S.x], [Q.y, S.y], 'g--', label='Diagonal QS')
+
 plt.title("Quadrilateral PQRS")
 plt.grid(True)
 plt.axis('equal')
