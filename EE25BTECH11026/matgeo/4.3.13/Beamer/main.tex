@@ -103,28 +103,28 @@ The vertices of the square are ,
 \begin{frame}{Equation}
 To compute the equation of the diagnols , we can use the normal form of the equation,which is given by
 \begin{align*}
-    \vec{n}^T\vec{x}=0 \;for \;the \;lines \;passing\;through \;the \;origin
+    \vec{n}^{\top}\vec{x}=0 \;for \;the \;lines \;passing\;through \;the \;origin
 \end{align*}
 \begin{align*}
-    \vec{n}^T\vec{x}=1 \;for \;the \;lines \;not \;passing\;through \;the \;origin
+    \vec{n}^{\top}\vec{x}=1 \;for \;the \;lines \;not \;passing\;through \;the \;origin
 \end{align*}
 where,\\
 \begin{align*}
     \vec{n}-vector\; orthogonal\; to\; the\; direction\; vector
 \end{align*}
 \begin{align*}
-    \vec{x}=\myvec{x&&y}^T
+    \vec{x}=\myvec{x&&y}^{\top}
 \end{align*}
 \end{frame}
 
 \begin{frame}{Theoretical Solution}
 For diagonal $\vec{c}-\vec{a}$, as it passes through the origin,
 \begin{align*}
-    \therefore \vec{n}^T\vec{x}=0
+    \therefore \vec{n}^{\top}\vec{x}=0
 \end{align*}
 By substituting the vector through which it passes through,
 \begin{align*}
-    \vec{n}^T\myvec{1\\1}=0
+    \vec{n}^{\top}\myvec{1\\1}=0
 \end{align*}
 \begin{align*}
     \implies \vec{n}=\myvec{-1\\1}
@@ -137,10 +137,10 @@ By substituting the vector through which it passes through,
 \begin{frame}{Theoretical Solution}
 But, for diagonal $\vec{d}-\vec{b}$, as the diagonal doesn't pass through the origin,
 \begin{align*}
-    \vec{n}^T\vec{x}=1
+    \vec{n}^{\top}\vec{x}=1
 \end{align*}
 \begin{align*}
-    \therefore \vec{n}^T\myvec{1&&0\\0&&1}=\myvec{1\\1}
+    \therefore \vec{n}^{\top}\myvec{1&&0\\0&&1}=\myvec{1\\1}
 \end{align*}
 \begin{align*}
     \implies \vec{n}=\myvec{1\\1}
@@ -268,8 +268,8 @@ eq2 = cartesian_eq(n2, c2.value)
     \frametitle{Python+C code}
 
     \begin{lstlisting}
-print("Diagonal AC (normal form):", f"[{n1[0]} {n1[1]}] · [x y]^T = {c1.value}")
-print("Diagonal BD (normal form):", f"[{n2[0]} {n2[1]}] · [x y]^T = {c2.value}")
+print("Diagonal AC (normal form):", f"[{n1[0]} {n1[1]}] · [x y]^{\top} = {c1.value}")
+print("Diagonal BD (normal form):", f"[{n2[0]} {n2[1]}] · [x y]^{\top} = {c2.value}")
 
 # ---- PLOT ----
 A, B, C, D = vertices
@@ -308,8 +308,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def line_equation_normal(point1, point2):
-    """Returns line equation in normal form: n^T x = c
-       where n is the normal vector and x = [x y]^T."""
+    """Returns line equation in normal form: n^{\top} x = c
+       where n is the normal vector and x = [x y]^{\top}."""
     x1, y1 = point1
     x2, y2 = point2
     # Direction vector
@@ -340,7 +340,7 @@ def diagonals_of_square(vertices):
 
 def format_normal_form(n, c):
     """Format equation in normal form."""
-    return f"[{n[0]} {n[1]}] · [x y]^T = {c}"
+    return f"[{n[0]} {n[1]}] · [x y]^{\top} = {c}"
 
     \end{lstlisting}
 \end{frame}
@@ -351,7 +351,7 @@ def format_normal_form(n, c):
 
     \begin{lstlisting}
 def format_cartesian(n, c):
-    """Convert n^T x = c into Cartesian form ax + by + d = 0
+    """Convert n^{\top} x = c into Cartesian form ax + by + d = 0
     where n = [a b]."""
     a, b = n
     d = -c
