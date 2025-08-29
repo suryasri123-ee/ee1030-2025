@@ -115,20 +115,20 @@ where,\\
 \end{frame}
 
 \begin{frame}{Theoretical Solution}
-For diagonal $\vec{c}-\vec{a}$,
+For diagonal $\vec{c}-\vec{a}$, as it passes through the origin,
 \begin{align*}
-    \vec{n}=\myvec{0&&-1\\1&&0}\vec{d}
+    \therefore \vec{n}^T\vec{x}=0
 \end{align*}
-where $\vec{d}$ is the direction vector of diagonal.
+By substituting the vector through which it passes through,
 \begin{align*}
-    \therefore \vec{n}=\myvec{0&&-1\\1&&0}\brak{\myvec{1\\1}-\myvec{0\\0}}
+    \vec{n}^T\myvec{1\\1}=0
+\end{align*}
+we get
+\begin{align*}
+    \vec{n}=\myvec{-1\\1}
 \end{align*}
 \begin{align*}
-    \implies \vec{n}=\myvec{-1\\1}
-\end{align*}
-As we know that the diagonal $\vec{c}-\vec{a}$ passes through the origin,
-\begin{align*}
-    \therefore \myvec{-1&&1}\myvec{x\\y}=0
+    \therefore The\;equation\;of\;line\;is\;\myvec{-1&&1}\myvec{x\\y}=0
 \end{align*}
 \end{frame}
 
@@ -139,73 +139,49 @@ But, for diagonal $\vec{d}-\vec{b}$, as the diagonal doesn't pass through the or
 \end{align*}
 As we know that the diagonal $\vec{d}-\vec{b}$ pass through the vectors $\myvec{1&&0}^T$ and $\myvec{0&&1}^T$, we can say that $\vec{n}$ would be $\myvec{1&&1}^T$ 
 \begin{align*}
-    \therefore \myvec{1&&1}\myvec{x\\y}=1
+    \therefore The\;equation\;of\;line\;is\;\myvec{1&&1}\myvec{x\\y}=1
 \end{align*}
 \end{frame}
 
 \begin{frame}[fragile]
-    \frametitle{C Code -Finding Diagonals of a square}
+    \frametitle{C Code -Finding Equations of diagonals of a square}
 
     \begin{lstlisting}
-    #include <stdio.h>
+#include <stdio.h>
 
-typedef struct {
-    double A, B, C;  // Line coefficients Ax + By + C = 0
-} Line;
+void diagonal_equations(double vertices[4][2], double n1[2], double *c1, double n2[2], double *c2) {
+    // A, B, C, D are the vertices
+    double *A = vertices[0];
+    double *B = vertices[1];
+    double *C = vertices[2];
+    double *D = vertices[3];
 
-// Function to compute line equation given two points (x1,y1), (x2,y2)
-Line line_from_points(double x1, double y1, double x2, double y2) {
-    Line l;
-    l.A = y1 - y2;
-    l.B = x2 - x1;
-    l.C = (x1 * y2) - (x2 * y1);
-    return l;
-}
+    // Diagonal AC
+    double dx1 = C[0] - A[0];
+    double dy1 = C[1] - A[1];
+    n1[0] = dy1;
+    n1[1] = -dx1;
+    *c1 = n1[0]*A[0] + n1[1]*A[1];
 
 
     \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile]
-    \frametitle{C Code -Finding Diagonals of a square}
+    \frametitle{C Code -Finding Equations of diagonals of a square}
 
     \begin{lstlisting}
-// Function to compute diagonals of a square
-void diagonals_of_square(double vertices[4][2], Line *diag1, Line *diag2) {
-    // vertices order: A, B, C, D
-    // Diagonals: AC and BD
-    *diag1 = line_from_points(vertices[0][0], vertices[0][1],
-                              vertices[2][0], vertices[2][1]);
-    *diag2 = line_from_points(vertices[1][0], vertices[1][1],
-                              vertices[3][0], vertices[3][1]);
+
+    // Diagonal BD
+    double dx2 = D[0] - B[0];
+    double dy2 = D[1] - B[1];
+    n2[0] = dy2;
+    n2[1] = -dx2;
+    *c2 = n2[0]*B[0] + n2[1]*B[1];
 }
-
-
     \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile]
-    \frametitle{C Code -Finding Diagonals of a square}
-
-    \begin{lstlisting}
-// Export function for Python
-__attribute__((visibility("default"))) 
-void get_square_diagonals(double vertices[4][2], double *out) {
-    Line d1, d2;
-    diagonals_of_square(vertices, &d1, &d2);
-
-
-    // Store results in array: [A1, B1, C1, A2, B2, C2]
-    out[0] = d1.A;
-    out[1] = d1.B;
-    out[2] = d1.C;
-    out[3] = d2.A;
-    out[4] = d2.B;
-    out[5] = d2.C;
-}
-
-    \end{lstlisting}
-\end{frame}
 
 \begin{frame}[fragile]
     \frametitle{Python+C code}
@@ -213,15 +189,21 @@ void get_square_diagonals(double vertices[4][2], double *out) {
     \begin{lstlisting}
 import ctypes
 import numpy as np
-import matplotlib.pyplot as plt
 import matplotlib as mp
-mp.use('TkAgg')
+mp.use("TkAgg")
+import matplotlib.pyplot as plt
 
-# Load the shared C library
+# Load C shared library
 lib = ctypes.CDLL("./libdiagonals.so")
 
-# Define function signature for C function
-lib.get_square_diagonals.argtypes = [ctypes.c_double * 8, ctypes.c_double * 6]
+# Define argument types for the function
+lib.diagonal_equations.argtypes = [
+    (ctypes.c_double * 2) * 4,
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double)
+]
 
     \end{lstlisting}
 \end{frame}
@@ -230,13 +212,46 @@ lib.get_square_diagonals.argtypes = [ctypes.c_double * 8, ctypes.c_double * 6]
     \frametitle{Python+C code}
 
     \begin{lstlisting}
+# Define square vertices
+vertices = [(0.0,0.0), (1.0,0.0), (1.0,1.0), (0.0,1.0)]
+vert_array = ((ctypes.c_double*2)*4)(*[(ctypes.c_double*2)(*v) for v in vertices])
 
-def get_diagonals(vertices):
-    """Call C function to compute diagonals of a square"""
-    verts = (ctypes.c_double * 8)(*np.array(vertices).flatten())
-    out = (ctypes.c_double * 6)()
-    lib.get_square_diagonals(verts, out)
-    return np.array(out[:]).reshape(2,3)  # [[A1,B1,C1],[A2,B2,C2]]
+# Output containers
+n1 = (ctypes.c_double*2)()
+c1 = ctypes.c_double()
+n2 = (ctypes.c_double*2)()
+c2 = ctypes.c_double()
+
+# Call C function
+lib.diagonal_equations(vert_array, n1, ctypes.byref(c1), n2, ctypes.byref(c2))
+
+n1 = np.array([n1[0], n1[1]])
+n2 = np.array([n2[0], n2[1]])
+
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python+C code}
+
+    \begin{lstlisting}
+# Convert to Cartesian equation: ax + by + d = 0
+def cartesian_eq(n, c):
+    a, b = n
+    d = -c
+    eq = []
+    if a != 0:
+        eq.append(f"{a}x")
+    if b != 0:
+        sign = "+" if b > 0 and eq else ""
+        eq.append(f"{sign}{b}y")
+    if d != 0:
+        sign = "+" if d > 0 and eq else ""
+        eq.append(f"{sign}{d}")
+    return " ".join(eq) + " = 0"
+
+eq1 = cartesian_eq(n1, c1.value)
+eq2 = cartesian_eq(n2, c2.value)
 
 
     \end{lstlisting}
@@ -246,21 +261,19 @@ def get_diagonals(vertices):
     \frametitle{Python+C code}
 
     \begin{lstlisting}
-def format_equation(A, B, C):
-    """
-    Beautify line equation into readable string.
-    Example: -1x + 1y + 0 -> -x + y = 0
-    """
-    terms = []
+print("Diagonal AC (normal form):", f"[{n1[0]} {n1[1]}] · [x y]^T = {c1.value}")
+print("Diagonal BD (normal form):", f"[{n2[0]} {n2[1]}] · [x y]^T = {c2.value}")
 
-    # Ax term
-    if A != 0:
-        if A == 1:
-            terms.append("x")
-        elif A == -1:
-            terms.append("-x")
-        else:
-            terms.append(f"{A:g}x")
+# ---- PLOT ----
+A, B, C, D = vertices
+square_x = [A[0], B[0], C[0], D[0], A[0]]
+square_y = [A[1], B[1], C[1], D[1], A[1]]
+
+plt.plot(square_x, square_y, 'b-', label='Square')
+
+# Plot diagonals
+plt.plot([A[0], C[0]], [A[1], C[1]], 'r--', label=eq1)
+plt.plot([B[0], D[0]], [B[1], D[1]], 'g--', label=eq2)
 
     \end{lstlisting}
 \end{frame}
@@ -269,62 +282,14 @@ def format_equation(A, B, C):
     \frametitle{Python+C code}
 
     \begin{lstlisting}
- # By term
-    if B != 0:
-        sign = "+" if B > 0 and terms else ""
-        if B == 1:
-            terms.append(f"{sign}y")
-        elif B == -1:
-            terms.append(f"{sign}-y")
-        else:
-            terms.append(f"{sign}{B:g}y")
-  # Constant term
-    if C != 0:
-        sign = "+" if C > 0 and terms else ""
-        terms.append(f"{sign}{C:g}")
-    if not terms:
-        return "0 = 0"
-    return " ".join(terms) + " = 0"
-    \end{lstlisting}
-\end{frame}
-
-\begin{frame}[fragile]
-    \frametitle{Python+C code}
-
-    \begin{lstlisting}
-# Example: Square vertices (A,B,C,D)
-vertices = [(0,0), (1,0), (1,1), (0,1)]
-lines = get_diagonals(vertices)
-
-eq1 = format_equation(*lines[0])
-eq2 = format_equation(*lines[1])
-
-print("Diagonal AC:", eq1)
-print("Diagonal BD:", eq2)
-
-# Plotting
-square_x, square_y = zip(*vertices, vertices[0])
-plt.plot(square_x, square_y, "b-", label="Square")
-    \end{lstlisting}
-\end{frame}
-
-\begin{frame}[fragile]
-    \frametitle{Python+C code}
-
-    \begin{lstlisting}
-# Diagonal AC
-plt.plot([vertices[0][0], vertices[2][0]], [vertices[0][1], vertices[2][1]], "r--", label=f"AC: {eq1}")
-
-# Diagonal BD
-plt.plot([vertices[1][0], vertices[3][0]], [vertices[1][1], vertices[3][1]], "g--", label=f"BD: {eq2}")
-
+plt.gca().set_aspect('equal', adjustable='box')
 plt.legend(loc="upper right")
-plt.gca().set_aspect("equal", adjustable="box")
 plt.grid(True)
-plt.savefig("/home/user/Matrix/Matgeo_assignments/4.3.13/figs/Figure_1")
+plt.savefig("/home/user/Matrix/Matgeo_assignments/4.3.13/figs/Figure_1.png")
 plt.show()
     \end{lstlisting}
 \end{frame}
+
 
 \begin{frame}[fragile]
     \frametitle{Python code}
@@ -335,18 +300,18 @@ mp.use("TkAgg")
 import numpy as np
 import matplotlib.pyplot as plt
 
-def line_equation_cartesian(point, direction):
-    """
-    Returns line equation in Cartesian form: Ax + By + C = 0
-    given a point and a direction vector.
-    """
-    x0, y0 = point
-    a, b = direction
-    
+def line_equation_normal(point1, point2):
+    """Returns line equation in normal form: n^T x = c
+       where n is the normal vector and x = [x y]^T."""
+    x1, y1 = point1
+    x2, y2 = point2
+    # Direction vector
+    dx, dy = x2 - x1, y2 - y1
     # Normal vector
-    A, B = -b, a
-    C = -(A*x0 + B*y0)
-    return A, B, C
+    n = np.array([dy, -dx])
+    # Constant term
+    c = n @ np.array([x1, y1])
+    return n, c
     \end{lstlisting}
 \end{frame}
 
@@ -356,18 +321,20 @@ def line_equation_cartesian(point, direction):
     \begin{lstlisting}
 def diagonals_of_square(vertices):
     """
-    Given 4 vertices of a square (in order), compute equations of diagonals in Cartesian form.
+    Given 4 vertices of a square (in order), compute equations of diagonals.
     """
     A, B, C, D = vertices
     
     # Diagonals are AC and BD
-    AC_dir = (C[0]-A[0], C[1]-A[1])
-    BD_dir = (D[0]-B[0], D[1]-B[1])
-    
-    line1 = line_equation_cartesian(A, AC_dir)
-    line2 = line_equation_cartesian(B, BD_dir)
+    line1 = line_equation_normal(A, C)
+    line2 = line_equation_normal(B, D)
     
     return line1, line2
+
+def format_normal_form(n, c):
+    """Format equation in normal form."""
+    return f"[{n[0]} {n[1]}] · [x y]^T = {c}"
+
     \end{lstlisting}
 \end{frame}
 
@@ -376,82 +343,56 @@ def diagonals_of_square(vertices):
     \frametitle{Python code}
 
     \begin{lstlisting}
-def format_equation(A, B, C):
-    """
-    Beautify line equation into readable string.
-    Example: -1x + 1y + 0 -> -x + y = 0
-    """
+def format_cartesian(n, c):
+    """Convert n^T x = c into Cartesian form ax + by + d = 0
+    where n = [a b]."""
+    a, b = n
+    d = -c
     terms = []
-
-    # Handle Ax term
-    if A != 0:
-        if A == 1:
-            terms.append("x")
-        elif A == -1:
-            terms.append("-x")
-        else:
-            terms.append(f"{A}x")
-
-    \end{lstlisting}
-\end{frame}
-
-\begin{frame}[fragile]
-    \frametitle{Python code}
-
-    \begin{lstlisting}
-    # Handle By term
-    if B != 0:
-        sign = "+" if B > 0 and terms else ""
-        if B == 1:
-            terms.append(f"{sign}y")
-        elif B == -1:
-            terms.append(f"{sign}-y")
-        else:
-            terms.append(f"{sign}{B}y")
-            # Handle C constant term
-    if C != 0:
-        sign = "+" if C > 0 and terms else ""
-        terms.append(f"{sign}{C}")
-
-    # In case all are zero
-    if not terms:
-        return "0 = 0"
+    if a != 0:
+        terms.append(f"{'' if a == 1 else '-' if a == -1 else a}x")
+    if b != 0:
+        sign = "+" if b > 0 and terms else ""
+        terms.append(f"{sign}{'' if abs(b) == 1 else b}y" if b not in [1, -1] else f"{sign}{'y' if b == 1 else '-y'}")
+    if d != 0:
+        sign = "+" if d > 0 and terms else ""
+        terms.append(f"{sign}{d}")
     return " ".join(terms) + " = 0"
+
     \end{lstlisting}
 \end{frame}
-
 
 \begin{frame}[fragile]
     \frametitle{Python code}
 
     \begin{lstlisting}
-def plot_square_and_diagonals(vertices, line1, line2):
-    """
-    Plot square and its diagonals with equations shown on the plot.
-    """
+    def plot_square_and_diagonals(vertices, line1, line2):
+    """Plot square and its diagonals with Cartesian equations on the plot."""
     A, B, C, D = vertices
     square_x = [A[0], B[0], C[0], D[0], A[0]]
     square_y = [A[1], B[1], C[1], D[1], A[1]]
     
-    plt.plot(square_x, square_y, 'b-', label='Square') 
+    plt.plot(square_x, square_y, 'b-', label='Square')
+    
     # Plot diagonals
     plt.plot([A[0], C[0]], [A[1], C[1]], 'r--', label='Diagonal AC')
     plt.plot([B[0], D[0]], [B[1], D[1]], 'g--', label='Diagonal BD')
-    # Equations
-    eq1 = format_equation(*line1)
-    eq2 = format_equation(*line2)
+    # Equations in Cartesian form for plot
+    eq1 = format_cartesian(*line1)
+    eq2 = format_cartesian(*line2)
+   
     \end{lstlisting}
 \end{frame}
+
 
 \begin{frame}[fragile]
     \frametitle{Python code}
 
     \begin{lstlisting}
-  # Midpoints of diagonals
+ # Midpoints of diagonals
     mid_AC = ((A[0]+C[0])/2, (A[1]+C[1])/2)
     mid_BD = ((B[0]+D[0])/2, (B[1]+D[1])/2)
-    
-    # Place texts with slight offsets to avoid overlap
+    # Place texts
     plt.text(mid_AC[0]+0.05, mid_AC[1]+0.05, eq1, color='red', fontsize=10, ha='left')
     plt.text(mid_BD[0]-0.15, mid_BD[1]-0.1, eq2, color='green', fontsize=10, ha='right')
     
@@ -460,6 +401,26 @@ def plot_square_and_diagonals(vertices, line1, line2):
     plt.grid(True)
     plt.savefig("/home/user/Matrix/Matgeo_assignments/4.3.13/figs/Figure_1")
     plt.show()
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Python code}
+
+    \begin{lstlisting}
+vertices = [(0,0), (1,0), (1,1), (0,1)]
+
+# Compute diagonal equations
+line1, line2 = diagonals_of_square(vertices)
+
+# Print normal forms
+print("Diagonal AC equation (normal form):", format_normal_form(*line1))
+print("Diagonal BD equation (normal form):", format_normal_form(*line2))
+
+# Plot with Cartesian equations
+plot_square_and_diagonals(vertices, line1, line2)
+
+
     \end{lstlisting}
 \end{frame}
 

@@ -1,81 +1,72 @@
 import ctypes
 import numpy as np
-import matplotlib.pyplot as plt
 import matplotlib as mp
-mp.use('TkAgg')
+mp.use("TkAgg")
+import matplotlib.pyplot as plt
 
-# Load the shared C library
+# Load C shared library
 lib = ctypes.CDLL("./libdiagonals.so")
 
-# Define function signature for C function
-lib.get_square_diagonals.argtypes = [ctypes.c_double * 8, ctypes.c_double * 6]
+# Define argument types for the function
+lib.diagonal_equations.argtypes = [
+    (ctypes.c_double * 2) * 4,
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double)
+]
 
-def get_diagonals(vertices):
-    """Call C function to compute diagonals of a square"""
-    verts = (ctypes.c_double * 8)(*np.array(vertices).flatten())
-    out = (ctypes.c_double * 6)()
-    lib.get_square_diagonals(verts, out)
-    return np.array(out[:]).reshape(2,3)  # [[A1,B1,C1],[A2,B2,C2]]
+# Define square vertices
+vertices = [(0.0,0.0), (1.0,0.0), (1.0,1.0), (0.0,1.0)]
+vert_array = ((ctypes.c_double*2)*4)(*[(ctypes.c_double*2)(*v) for v in vertices])
 
-def format_equation(A, B, C):
-    """
-    Beautify line equation into readable string.
-    Example: -1x + 1y + 0 -> -x + y = 0
-    """
-    terms = []
+# Output containers
+n1 = (ctypes.c_double*2)()
+c1 = ctypes.c_double()
+n2 = (ctypes.c_double*2)()
+c2 = ctypes.c_double()
 
-    # Ax term
-    if A != 0:
-        if A == 1:
-            terms.append("x")
-        elif A == -1:
-            terms.append("-x")
-        else:
-            terms.append(f"{A:g}x")
+# Call C function
+lib.diagonal_equations(vert_array, n1, ctypes.byref(c1), n2, ctypes.byref(c2))
 
-    # By term
-    if B != 0:
-        sign = "+" if B > 0 and terms else ""
-        if B == 1:
-            terms.append(f"{sign}y")
-        elif B == -1:
-            terms.append(f"{sign}-y")
-        else:
-            terms.append(f"{sign}{B:g}y")
+n1 = np.array([n1[0], n1[1]])
+n2 = np.array([n2[0], n2[1]])
 
-    # Constant term
-    if C != 0:
-        sign = "+" if C > 0 and terms else ""
-        terms.append(f"{sign}{C:g}")
+# Convert to Cartesian equation: ax + by + d = 0
+def cartesian_eq(n, c):
+    a, b = n
+    d = -c
+    eq = []
+    if a != 0:
+        eq.append(f"{a}x")
+    if b != 0:
+        sign = "+" if b > 0 and eq else ""
+        eq.append(f"{sign}{b}y")
+    if d != 0:
+        sign = "+" if d > 0 and eq else ""
+        eq.append(f"{sign}{d}")
+    return " ".join(eq) + " = 0"
 
-    if not terms:
-        return "0 = 0"
+eq1 = cartesian_eq(n1, c1.value)
+eq2 = cartesian_eq(n2, c2.value)
 
-    return " ".join(terms) + " = 0"
+print("Diagonal AC (normal form):", f"[{n1[0]} {n1[1]}] · [x y]^T = {c1.value}")
+print("Diagonal BD (normal form):", f"[{n2[0]} {n2[1]}] · [x y]^T = {c2.value}")
 
-# Example: Square vertices (A,B,C,D)
-vertices = [(0,0), (1,0), (1,1), (0,1)]
-lines = get_diagonals(vertices)
+# ---- PLOT ----
+A, B, C, D = vertices
+square_x = [A[0], B[0], C[0], D[0], A[0]]
+square_y = [A[1], B[1], C[1], D[1], A[1]]
 
-eq1 = format_equation(*lines[0])
-eq2 = format_equation(*lines[1])
+plt.plot(square_x, square_y, 'b-', label='Square')
 
-print("Diagonal AC:", eq1)
-print("Diagonal BD:", eq2)
+# Plot diagonals
+plt.plot([A[0], C[0]], [A[1], C[1]], 'r--', label=eq1)
+plt.plot([B[0], D[0]], [B[1], D[1]], 'g--', label=eq2)
 
-# Plotting
-square_x, square_y = zip(*vertices, vertices[0])
-plt.plot(square_x, square_y, "b-", label="Square")
-
-# Diagonal AC
-plt.plot([vertices[0][0], vertices[2][0]], [vertices[0][1], vertices[2][1]], "r--", label=f"AC: {eq1}")
-
-# Diagonal BD
-plt.plot([vertices[1][0], vertices[3][0]], [vertices[1][1], vertices[3][1]], "g--", label=f"BD: {eq2}")
-
+plt.gca().set_aspect('equal', adjustable='box')
 plt.legend(loc="upper right")
-plt.gca().set_aspect("equal", adjustable="box")
 plt.grid(True)
-plt.savefig("/home/user/Matrix/Matgeo_assignments/4.3.13/figs/Figure_1")
+plt.savefig("/home/user/Matrix/Matgeo_assignments/4.3.13/figs/Figure_1.png")
 plt.show()
 
