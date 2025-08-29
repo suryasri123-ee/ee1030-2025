@@ -1,0 +1,162 @@
+
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\graphicspath{{./figs/}}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{circuitikz}
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+text width=4em, text centered, rounded corners, minimum height=3em]
+\tikzstyle{sum} = [draw, fill=blue!10, circle, minimum size=1cm, node distance=1.5cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+
+
+\begin{document}
+	
+	\bibliographystyle{IEEEtran}
+	\vspace{3cm}
+	
+	\title{1.5.24}
+	\author{EE25BTECH11036 - M Chanakya Srinivas}
+	\maketitle
+	% \newpage
+	% \bigskip
+	{\let\newpage\relax\maketitle}
+	
+	\renewcommand{\thefigure}{\theenumi}
+	\renewcommand{\thetable}{\theenumi}
+	\setlength{\intextsep}{10pt} % Space between text and floats
+	
+	
+	\numberwithin{equation}{enumi}
+	\numberwithin{figure}{enumi}
+	\renewcommand{\thetable}{\theenumi}
+\textbf{1.5.24}\quad
+A line intersects the $Y$-axis and $X$-axis at the points
+$P=(0,b)$ and $Q=(c,0)$ respectively. If $(2,-5)$ is the midpoint of
+$\overline{PQ}$, then find the coordinates of $P$ and $Q$.
+
+
+\textbf{Coordinates: } 
+$P = (0,-10), \; Q = (4,0)$
+
+\section*{Matrix Solution}
+
+\begin{enumerate}
+\item \textbf{Vector Midpoint Formula}
+
+Let 
+\[
+\vec{P} = \myvec{0 \\ b}, \quad 
+\vec{Q} = \myvec{c \\ 0}, \quad 
+\vec{M} = \myvec{2 \\ -5}.
+\]
+
+The midpoint formula is
+\begin{align*}
+\vec{M} &= \tfrac{1}{2}(\vec{P} + \vec{Q}) \\[6pt]
+\myvec{2 \\ -5} &= \tfrac{1}{2}\left(\myvec{0 \\ b} + \myvec{c \\ 0}\right) \\[6pt]
+&= \tfrac{1}{2}\myvec{c \\ b}.
+\end{align*}
+
+Multiplying through by $2$:
+\[
+\myvec{4 \\ -10} = \myvec{c \\ b}.
+\]
+
+---
+
+\item \textbf{System in Matrix Form ($A\vec{x} = \vec{B}$)}
+
+This gives the system
+\[
+\begin{cases}
+b = -10,\\
+c = 4.
+\end{cases}
+\]
+
+Equivalently,
+\[
+\underbrace{\myvec{1 & 0 \\ 0 & 1}}_{A}
+\underbrace{\myvec{b \\ c}}_{\vec{x}}
+=
+\underbrace{\myvec{-10 \\ 4}}_{\vec{B}}.
+\]
+
+---
+
+\item \textbf{Solving the Matrix Equation}
+
+Since $A$ is the identity,
+\[
+\vec{x} = A^{-1}\vec{B} = I\vec{B} = \myvec{-10 \\ 4}.
+\]
+
+So,
+\[
+b = -10, \quad c = 4.
+\]
+
+---
+
+\item \textbf{Final Coordinates}
+
+\[
+P = \myvec{0 \\ -10}, 
+\qquad 
+Q = \myvec{4 \\ 0}.
+\]
+
+\end{enumerate}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/Figure_1.png}
+    \caption{Plot using Shared output}
+    \label{fig:placeholder}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/fig.png}
+    \caption{Plot using Python}
+    \label{fig:placeholder}
+\end{figure}
+
+
+\end{document}

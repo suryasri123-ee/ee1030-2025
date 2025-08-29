@@ -1,0 +1,10 @@
+\frametitle{Direct Python Code}
+	\begin{lstlisting}
+    else:                                        # Linux desktop
+        subprocess.run(shlex.split(f"xdg-open {outfile}"))
+except Exception as e:
+    print(f"Could not auto-open file. Saved at {outfile}")
+
+#else
+#plt.show()
+\end{lstlisting}
