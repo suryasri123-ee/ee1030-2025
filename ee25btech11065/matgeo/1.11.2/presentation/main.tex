@@ -103,31 +103,50 @@ Let the coordinates of the points be $\mathbf{P}(2, 1, -1)$ and $\mathbf{Q}(4, 4
 \end{table}
 \end{frame}
 \begin{frame}{Theoretical Solution}
-We find the vector $\vec{\mathbf{PQ}}$ by subtracting the coordinates of P from the coordinates of Q.
+To find the vector \(\mathbf{PQ}\), we subtract the matrix for P from the matrix for Q:
 \begin{align}
-    \vec{\mathbf{PQ}} &= \mathbf{Q} - \mathbf{P} \\
-    &= (4-2)\mathbf{i} + (4-1)\mathbf{j} + (-7 - (-1))\mathbf{k} \\
-    &= 2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k}
+    \mathbf{PQ} &= \mathbf{Q} - \mathbf{P} \\
+    &= 
+   \myvec{4\\4\\-7}
+    -
+    \myvec{2\\2\\-2} \\
+    &= 
+    \myvec{4-2\\4-1\\-7-(-1)} \\
+    &= 
+    \myvec{2\\3\\-6}
 \end{align}
+
+This resulting vector can also be written in the standard basis notation shown in the image:
+\[
+\mathbf{PQ} = 2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k}
+\]
 \end{frame}
 
 \begin{frame}{Theoretical Solution}
-Magnitude (or norm) of the vector $\vec{\mathbf{PQ}}$,
+If we represent the vector \(\mathbf{PQ}\) as a column vector \(\mathbf{a}\):
+\[
+\mathbf{a} = 
+\myvec{2\\3\\-6}
+\]
+The norm is the square root of the dot product of the vector with itself, which can be expressed as the matrix product of its transpose \(\mathbf{a}^T\) and \(\mathbf{a}\).
 \begin{align}
-    ||\vec{\mathbf{PQ}}|| &= \sqrt{(2)^2 + (3)^2 + (-6)^2} \\
-    &= \sqrt{4 + 9 + 36} \\
+    \left\| \mathbf{a} \right\| &= \sqrt{\mathbf{a}^T \mathbf{a}} \\
+    &= \sqrt{
+        \myvec{2\ 3-6}
+        \myvec{2\\3\\-6}
+    } \\
     &= \sqrt{49} \\
     &= 7
 \end{align}
 \end{frame}
-\begin{frame}{Equation}
+\begin{frame}{Theoretical Solution}
 The unit vector in the direction of $\vec{\mathbf{PQ}}$, denoted as $\mathbf{\hat{u}}$, is found by dividing the vector by its magnitude.
 \begin{align}
     \mathbf{\hat{u}} &= \frac{\vec{\mathbf{PQ}}}{||\vec{\mathbf{PQ}}||} \\
     &= \frac{1}{7}(2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k}) \\
     &= \frac{2}{7}\mathbf{i} + \frac{3}{7}\mathbf{j} - \frac{6}{7}\mathbf{k}
 \end{align}
-Thus, the unit vector along PQ is $\mathbf{\frac{1}{7}(2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k})}$.
+Thus, the unit vector along PQ is \myvec{2/7\\3/7\\-6/7} or $\mathbf{\frac{1}{7}(2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k})}$.
 \end{frame}
 
 
