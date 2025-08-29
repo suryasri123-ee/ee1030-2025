@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.13)  28 AUG 2025 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.13)  29 AUG 2025 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1798,7 +1798,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-136.
+135.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1829,7 +1829,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
-Overfull \vbox (1.72923pt too high) detected at line 189
+Overfull \vbox (1.72923pt too high) detected at line 188
  []
 
 
@@ -1840,10 +1840,10 @@ Overfull \vbox (1.72923pt too high) detected at line 189
 <Figs/Figure_3.2.png, id=236, 511.9125pt x 428.60126pt>
 File: Figs/Figure_3.2.png Graphic file (type png)
 <use Figs/Figure_3.2.png>
-Package pdftex.def Info: Figs/Figure_3.2.png  used on input line 199.
+Package pdftex.def Info: Figs/Figure_3.2.png  used on input line 198.
 (pdftex.def)             Requested size: 273.83728pt x 229.26997pt.
 
-Overfull \vbox (37.74365pt too high) detected at line 199
+Overfull \vbox (37.74365pt too high) detected at line 198
  []
 
 
@@ -1854,16 +1854,16 @@ Overfull \vbox (37.74365pt too high) detected at line 199
 <Figs/Figure_3.1.png, id=268, 506.89375pt x 418.56375pt>
 File: Figs/Figure_3.1.png Graphic file (type png)
 <use Figs/Figure_3.1.png>
-Package pdftex.def Info: Figs/Figure_3.1.png  used on input line 208.
+Package pdftex.def Info: Figs/Figure_3.1.png  used on input line 207.
 (pdftex.def)             Requested size: 273.83728pt x 226.12323pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:placehold
 er}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.208 \end{frame}
+l.207 \end{frame}
                  
-Overfull \vbox (34.59691pt too high) detected at line 208
+Overfull \vbox (34.59691pt too high) detected at line 207
  []
 
 
@@ -1902,7 +1902,7 @@ Overfull \vbox (34.59691pt too high) detected at line 208
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (1.72923pt too high) detected at line 319
+Overfull \vbox (1.72923pt too high) detected at line 318
  []
 
 
@@ -1913,7 +1913,7 @@ Overfull \vbox (1.72923pt too high) detected at line 319
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (1.72923pt too high) detected at line 345
+Overfull \vbox (1.72923pt too high) detected at line 344
  []
 
 
@@ -1923,16 +1923,16 @@ Overfull \vbox (1.72923pt too high) detected at line 345
 ]
 File: Figs/Figure_3.2.png Graphic file (type png)
 <use Figs/Figure_3.2.png>
-Package pdftex.def Info: Figs/Figure_3.2.png  used on input line 355.
+Package pdftex.def Info: Figs/Figure_3.2.png  used on input line 354.
 (pdftex.def)             Requested size: 273.83728pt x 229.26997pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:placehold
 er}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.355 \end{frame}
+l.354 \end{frame}
                  
-Overfull \vbox (37.74365pt too high) detected at line 355
+Overfull \vbox (37.74365pt too high) detected at line 354
  []
 
 
@@ -1942,16 +1942,16 @@ Overfull \vbox (37.74365pt too high) detected at line 355
 ]
 File: Figs/Figure_3.1.png Graphic file (type png)
 <use Figs/Figure_3.1.png>
-Package pdftex.def Info: Figs/Figure_3.1.png  used on input line 364.
+Package pdftex.def Info: Figs/Figure_3.1.png  used on input line 363.
 (pdftex.def)             Requested size: 273.83728pt x 226.12323pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:placehold
 er}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.364 \end{frame}
+l.363 \end{frame}
                  
-Overfull \vbox (34.59691pt too high) detected at line 364
+Overfull \vbox (34.59691pt too high) detected at line 363
  []
 
 
@@ -1987,13 +1987,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 59155 strings out of 473190
- 1438612 string characters out of 5715800
+ 59157 strings out of 473190
+ 1438668 string characters out of 5715800
  2507022 words of memory out of 5000000
- 81383 multiletter control sequences out of 15000+600000
+ 81385 multiletter control sequences out of 15000+600000
  600874 words of font info for 79 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 128i,15n,123p,1172b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,123p,1172b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/tex
@@ -2004,7 +2004,7 @@ ublic/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm
 fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/l
 ocal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (17 pages, 558154 bytes).
+Output written on main.pdf (17 pages, 562666 bytes).
 PDF statistics:
  589 PDF objects out of 1000 (max. 8388607)
  499 compressed objects within 5 object streams

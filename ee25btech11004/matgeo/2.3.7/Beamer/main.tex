@@ -88,7 +88,7 @@
 
 \frame{\titlepage}
 \begin{frame}{Question}
-Find the acute angle between the planes $ \vec{r} \cdot (\hat{i} - 2\hat{j} - 2\hat{k})$ and  $ \vec{r} \cdot (3\hat{i} - 6\hat{j} + 2\hat{k})$.
+Find the acute angle between the planes $ \vec{r} \cdot (\hat{i} - 2\hat{j} - 2\hat{k} ) = 1$ and  $ \vec{r} \cdot (3\hat{i} - 6\hat{j} + 2\hat{k})=0$.
 
 \end{frame}
 \begin{frame}{allowframebreaks}
@@ -99,12 +99,12 @@ Find the acute angle between the planes $ \vec{r} \cdot (\hat{i} - 2\hat{j} - 2\
     \label{tab:parameters}
     
     
-    Let vector $\mathbf{P}$ be: \begin{align}
+    Let vector $\vec{n_1}$ be: \begin{align}
     \myvec{1\\-2\\-2}
     \end{align}
     
 
-    Let vector $\mathbf{Q}$ be: \begin{align}\myvec{3\\-6\\2}\end{align}
+    Let vector $\vec{n_2}$ be: \begin{align}\myvec{3\\-6\\2}\end{align}
     \label{0.2}
 
    
@@ -113,10 +113,11 @@ Find the acute angle between the planes $ \vec{r} \cdot (\hat{i} - 2\hat{j} - 2\
 
 \begin{frame}{Formula}
 The formula to calculate the angle between the two planes is
-\
-$$ \theta = \frac{\pi}{2} - \cos^{-1}\brak{\frac{\vec{P}^T\vec{Q}}{|\vec{P}||\vec{Q}|}}$$
+\begin{align}
+\theta = \frac{\pi}{2} - \cos^{-1}\brak{\frac{\vec{n_1}^T\vec{n_2}}{|\vec{n_1}||\vec{n_2}|}}
+= \sin^{-1}\brak{\frac{\vec{n_1}^T\vec{n_2}}{|\vec{n_1}||\vec{n_2}|}}
+\end{align}
 
-$$= \sin^{-1}\brak{\frac{\vec{P}^T\vec{Q}}{|\vec{P}||\vec{Q}|}}$$
 
 
 \end{frame}
@@ -124,13 +125,11 @@ $$= \sin^{-1}\brak{\frac{\vec{P}^T\vec{Q}}{|\vec{P}||\vec{Q}|}}$$
 \begin{frame}{allowframebreaks}
 \frametitle{Solution}
 Substituting $\mathbf{P, Q}$ in this formula :
-$$= \sin^{-1}\brak{\frac{\myvec{1\\-2\\-2}^T\myvec{3\\-6\\2}}{|\myvec{1\\-2\\-2}||\myvec{3\\-6\\2}|}}$$
-
-
-$$= \sin^{-1}\brak{\frac{19}{|3||7|}}$$
-
-$$= \sin^{-1}\brak{\frac{11}{21}}$$
-
+\begin{align*}
+= \sin^{-1}\brak{\frac{\myvec{1\\-2\\-2}^T\myvec{3\\-6\\2}}{|\myvec{1\\-2\\-2}||\myvec{3\\-6\\2}|}}
+= \sin^{-1}\brak{\frac{19}{|3||7|}}
+= \sin^{-1}\brak{\frac{11}{21}}
+\end{align*}
 \centering
 This is 31.58906757233914°
 \end{frame}
