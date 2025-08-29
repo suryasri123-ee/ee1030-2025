@@ -102,15 +102,15 @@ Since $\vec{P}$ lies on $\vec{A}$ and $\vec{B}$, they must be collinear
 \begin{align}
     \text{rank}\myvec{x+5 & 9 \\ -4 & -18} = 1
 \end{align}
-By transformation $R_1 \rightarrow R_1 + \frac{1}{2}R_2$
+By transformation $R_2 \rightarrow R_2 + 2R_1$
 \begin{align}
-    \text{rank}\myvec{x+3 & 0 \\ -4 & -18} = 1
+    \text{rank}\myvec{x+5 & 9 \\ 2x+6 & 0} = 1
 \end{align}
 Thus for rank to be 1
 \end{frame}
 \begin{frame}{Theoretical Solution}
  \begin{align}
-    x+3 = 0
+    2x+6 = 0
 \end{align}
 \begin{align}
 \therefore x = -3
@@ -119,16 +119,27 @@ Thus $\vec{P}$ is :
 \begin{align}
     \vec{P} = \myvec{-3 \\ 4}
 \end{align}
+let $\vec{P}$ divide the line joining points $\vec{A}$ and $\vec{B}$ in the ratio $k:1$.
 
-Let $\vec{P} = \lambda\vec{A} + \mu\vec{B}$ with $\lambda + \mu =1$. Using the y-coordinates:
+\begin{align*}
+    \vec{P}=\frac{k\vec{B+\vec{A}}}{k+1}
+\end{align*}
 
-\begin{align}
-    \myvec{8 & -10 \\ 1 & 1} \myvec{\lambda \\ \mu} = \myvec{4 \\ 1}
-\end{align}
-Hence the internal division ratio
-\begin{align}
-    AP:PB = \mu:\lambda=2:7
-\end{align}
+\begin{align*}
+    k\brak{\vec{P}- \vec{B}} = \vec{A}-\vec{P}
+k=\frac{\brak{\vec{P}-\vec{B}}^T\brak{\vec{A}-\vec{P}}}{||\brak{\vec{P}-\vec{B}}||^2}    
+\end{align*}
+\end{frame}
+\begin{frame}{Theoretical Solution}
+\begin{align*}
+    k=\frac{\myvec{x-4 \\ -14} \cdot \myvec{-5-x\\4}}{{\norm{\myvec{x-4 \\ -14}}}^2}
+\end{align*}
+
+substituting the value of $x$ as , we get the value of $k$ as
+
+\begin{align*}
+    k=2/7
+\end{align*}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -310,10 +321,92 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 \end{lstlisting}
 \end{frame}
+\begin{frame}[fragile]
+    \frametitle{Python Code}
+    \begin{lstlisting}
+import sys 
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Local imports (your setup)
+from libs.line.funcs import *
+
+# Section formula
+def section_point(A, B, m, n):
+    return (m*B + n*A) / (m+n)
+
+# Given points
+A = np.array([-5, 8]).reshape(-1, 1)
+B = np.array([4, -10]).reshape(-1, 1)
+
+# Given y of P
+yP = 4
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{Python Code}
+    \begin{lstlisting}
+# Solve for ratio m:n using y-coordinate
+# 4(m+n) = m*yB + n*yA
+# => 4m + 4n = m*(-10) + n*8
+# => 14m = 4n  => m/n = 2/7
+m, n = 2, 7
+
+# Compute P using section formula
+P = section_point(A, B, m, n).reshape(-1, 1)
+
+print(f"Ratio AP:PB = {m}:{n}")
+print(f"Value of x = {P[0,0]}")
+
+# Plot
+x_AB = line_gen_num(A, B, 20)
+plt.plot(x_AB[0,:], x_AB[1,:], 'g--', label="Line Segment AB")
+
+plot_coords = np.block([[A, B, P]])
+plt.scatter(plot_coords[0,:], plot_coords[1,:], color='blue')
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{Python Code}
+    \begin{lstlisting}
+vert_labels = [
+    f'A({A[0,0]}, {A[1,0]})',
+    f'B({B[0,0]}, {B[1,0]})',
+    f'P({P[0,0]}, {P[1,0]})'
+]
+
+for i, txt in enumerate(vert_labels):
+    plt.annotate(txt,
+            (plot_coords[0,i], plot_coords[1,i]),
+            textcoords="offset points",
+            xytext=(0,10),
+            ha='center')
+
+plt.xlabel('$x$')
+plt.ylabel('$y$')
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{Python Code}
+    \begin{lstlisting}
+plt.title("Division of Line Segment AB by Point P")
+plt.legend(loc='best')
+plt.grid()
+plt.axis('equal')
+
+plt.savefig("../figs/section_formula_plot.jpg")
+plt.show()
+
+\end{lstlisting}
+\end{frame}
 \begin{frame}{Plot by python using shared output from c}
 	\begin{center}
 		\includegraphics[width=0.9\columnwidth]{figs/Figure.png}
 	\end{center}
 \end{frame}
-
+\begin{frame}{Plot by using Python only}
+	\begin{center}
+		\includegraphics[width=0.9\columnwidth]{figs/Figure_1.png}
+	\end{center}
+\end{frame}
 \end{document}

@@ -69,45 +69,61 @@
 Point P\brak{x,4} lies on the line segment joining the points $\vec{A}$\brak{-5, 8} and $\vec{B}$\brak{4,-10}. Find the ratio in which point P divides the line segment AB. Also, find the value of x. \\ 
 \solution \\
 Let 
-\begin{align}
+\begin{align*}
 \vec{A}= \myvec{-5 \\ 8}, \vec{B}= \myvec{4 \\ -10} , \vec{P} = \myvec{x \\ 4}
-\end{align}    
+\end{align*}    
 
 Since $\vec{P}$ lies on $\vec{A}$ and $\vec{B}$, they must be collinear
-\begin{align}
+\begin{align*}
 \therefore \text{rank}\myvec{\vec{P} - \vec{A} & &\vec{B} - \vec{A}} = 1
-\end{align}
-\begin{align}
+\end{align*}
+\begin{align*}
     \text{rank}\myvec{x+5 & 9 \\ -4 & -18} = 1
-\end{align}
-By transformation $R_1 \rightarrow R_1 + \frac{1}{2}R_2$
-\begin{align}
-    \text{rank}\myvec{x+3 & 0 \\ -4 & -18} = 1
-\end{align}
+\end{align*}
+By transformation $R_2 \rightarrow R_2 + 2R_1$
+\begin{align*}
+    \text{rank}\myvec{x+5 & 9 \\ 2x+6 & 0} = 1
+\end{align*}
 Thus for rank to be 1
-\begin{align}
-    x+3 = 0
-\end{align}
-\begin{align}
+\begin{align*}
+    2x+6 = 0
+\end{align*}
+\begin{align*}
 \therefore x = -3
-\end{align}
+\end{align*}
 Thus $\vec{P}$ is :
-\begin{align}
+\begin{align*}
     \vec{P} = \myvec{-3 \\ 4}
-\end{align}
+\end{align*}
 
-Let $\vec{P} = \lambda\vec{A} + \mu\vec{B}$ with $\lambda + \mu =1$. Using the y-coordinates:
+let $\vec{P}$ divide the line joining points $\vec{A}$ and $\vec{B}$ in the ratio $k:1$.
 
-\begin{align}
-    \myvec{8 & -10 \\ 1 & 1} \myvec{\lambda \\ \mu} = \myvec{4 \\ 1}
-\end{align}
-Hence the internal division ratio
-\begin{align}
-    AP:PB = \mu:\lambda=2:7
-\end{align}
+\begin{align*}
+    \vec{P}=\frac{k\vec{B+\vec{A}}}{k+1}
+\end{align*}
 
-\begin{figure}
+\begin{align*}
+    k\brak{\vec{P}- \vec{B}} = \vec{A}-\vec{P}
+k=\frac{\brak{\vec{P}-\vec{B}}^T\brak{\vec{A}-\vec{P}}}{||\brak{\vec{P}-\vec{B}}||^2}    
+\end{align*}
+
+\begin{align*}
+    k=\frac{\myvec{x-4 \\ -14} \cdot \myvec{-5-x\\4}}{{\norm{\myvec{x-4 \\ -14}}}^2}
+\end{align*}
+
+substituting the value of $x$ as , we get the value of $k$ as
+
+\begin{align*}
+    k=2/7
+\end{align*}
+
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\columnwidth]{figs/Figure.png}
+    \includegraphics[width=0.6\columnwidth]{figs/Figure.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figs/Figure_1.png}
 \end{figure}
 \end{document}
