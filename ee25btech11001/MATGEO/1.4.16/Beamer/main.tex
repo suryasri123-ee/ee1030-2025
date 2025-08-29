@@ -1,0 +1,92 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{gvv}
+\usepackage{lmodern}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{graphicx}
+
+\setbeamertemplate{page number in head/foot}[totalframenumber]
+
+\title{1.4.16}
+\date{August 29, 2025}
+\author{EE25BTECH11001 - Aarush Dilawri}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% ---- Question ----
+\begin{frame}{Question}
+Find the coordinates of the points which trisect the line segment joining the points 
+\[
+\vec{P}(4,2,-6) \quad \text{and} \quad \vec{Q}(10,-16,6).
+\]
+\end{frame}
+
+% ---- Vectors ----
+\begin{frame}{Vectors}
+Let the vectors be
+\begin{align}
+    \vec{P} &= \myvec{4\\2\\-6}, \\
+    \vec{Q} &= \myvec{10\\-16\\6}.
+\end{align}
+We want to find the points which divide $PQ$ in the ratio $2:1$ and $1:2$.
+\end{frame}
+
+% ---- Section Formula ----
+\begin{frame}{Section Formula}
+\textbf{Section formula:}  
+If a point divides the line joining $\vec{A}$ and $\vec{B}$ in the ratio $k:1$, then
+\[
+\vec{P} = \frac{k\vec{B} + \vec{A}}{k+1}.
+\]
+\end{frame}
+
+% ---- First Trisection Point ----
+\begin{frame}{First Trisection Point}
+Using section formula for ratio $2:1$,
+\begin{align}
+    \vec{S} &= \frac{2\vec{Q} + \vec{P}}{3} \\
+    &= \frac{\myvec{20\\-32\\12} + \myvec{4\\2\\-6}}{3} \\
+    &= \frac{\myvec{24\\-30\\6}}{3} \\
+    &= \myvec{8\\-10\\2}.
+\end{align}
+\end{frame}
+
+% ---- Second Trisection Point ----
+\begin{frame}{Second Trisection Point}
+Using section formula for ratio $1:2$,
+\begin{align}
+    \vec{R} &= \frac{\vec{Q} + 2\vec{P}}{3} \\
+    &= \frac{\myvec{10\\-16\\6} + \myvec{8\\4\\-12}}{3} \\
+    &= \frac{\myvec{18\\-12\\-6}}{3} \\
+    &= \myvec{6\\-4\\-2}.
+\end{align}
+\end{frame}
+
+% ---- Final Answer ----
+\begin{frame}{Final Answer}
+Therefore, the points of trisection of $PQ$ are
+\[
+\vec{S} = \myvec{8\\-10\\2}, \quad \vec{R} = \myvec{6\\-4\\-2}.
+\]
+\end{frame}
+
+% ---- Plot ----
+\begin{frame}{Plot}
+\centering
+\includegraphics[width=0.8\linewidth]{figs/fig.png}
+\end{frame}
+
+\end{document}
