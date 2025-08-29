@@ -66,62 +66,82 @@
 \renewcommand{\thetable}{\theenumi}
 
 \textbf{Question}:\\
-Find the coordinates of a point \textbf{P} , which lies on the linesegment joining the points \textbf{A} (-2,2) and \textbf{B}
-(2,-4) such that AP=$\frac{3}{7}$AB
+\textbf{Question}:\\
+Find the coordinates of a point \textbf{P} which lies on the line segment joining the points 
+\textbf{A} $(-2,2)$ and \textbf{B} $(2,-4)$ such that 
+\[
+AP = \frac{3}{7} AB.
+\]
 
 \solution\\
-We are given two points
+We are given:
 \[
-\vec{A} = \begin{bmatrix}-2 \\ 2\end{bmatrix},\qquad 
-\vec{B} = \begin{bmatrix}2 \\ -4\end{bmatrix},
-\]
-and a point $\vec{P}$ on the line segment $AB$ such that
-\[
-AP = \frac{3}{7}AB.
+\vec{A} = \begin{bmatrix}$-2$ \\ $2$\end{bmatrix}, \qquad
+\vec{B} = \begin{bmatrix}$2$ \\ $-4$\end{bmatrix}, \qquad
+\vec{P} \text{ on } AB \text{ such that } AP = \frac{3}{7} AB.
 \]
 
-\subsection*{Step 1: Formula}
-The section formula in vector form is
+\subsection*{Step 1: Section Formula}
 \[
-\vec{P} = \vec{A} + \frac{AP}{AB}\,(\vec{B}-\vec{A}).
+\vec{P} = \vec{A} + \frac{AP}{AB}(\vec{B}-\vec{A})
 \]
 
-\subsection*{Step 2: Substitution}
-Since $\tfrac{AP}{AB}=\tfrac{3}{7}$,
-\[
-\vec{P} = \vec{A} + \frac{3}{7}(\vec{B}-\vec{A}).
-\]
-
+\subsection*{Step 2: Compute $\vec{B}-\vec{A}$}
 \[
 \vec{B}-\vec{A} =
-\begin{bmatrix}2 \\ -4\end{bmatrix} -
-\begin{bmatrix}-2 \\ 2\end{bmatrix}
-=
-\begin{bmatrix}4 \\ -6\end{bmatrix}.
+\begin{bmatrix}$2$ \\ $-4$\end{bmatrix} -
+\begin{bmatrix}$-2$ \\ $2$\end{bmatrix} =
+\begin{bmatrix}
+$2 - (-2)$ \\
+$-4 - 2$
+\end{bmatrix} =
+\begin{bmatrix}
+$4$ \\
+$-6$
+\end{bmatrix}
 \]
 
+\subsection*{Step 3: Multiply by $\frac{3}{7}$}
 \[
 \frac{3}{7}(\vec{B}-\vec{A}) =
-\frac{3}{7}\begin{bmatrix}4 \\ -6\end{bmatrix}
-=
-\begin{bmatrix}\tfrac{12}{7} \\ -\tfrac{18}{7}\end{bmatrix}.
+\frac{3}{7} \begin{bmatrix}4 \\ -6\end{bmatrix} =
+\begin{bmatrix}
+\frac{3}{7} \cdot 4 \\
+\frac{3}{7} \cdot (-6)
+\end{bmatrix} =
+\begin{bmatrix}
+\frac{12}{7} \\
+-\frac{18}{7}
+\end{bmatrix}
 \]
 
+\subsection*{Step 4: Add to $\vec{A}$}
 \[
-\vec{P} =
-\begin{bmatrix}-2 \\ 2\end{bmatrix}
-+ \begin{bmatrix}\tfrac{12}{7} \\ -\tfrac{18}{7}\end{bmatrix}
-=
-\begin{bmatrix}-\tfrac{2}{7} \\ -\tfrac{4}{7}\end{bmatrix}.
+\vec{P} = 
+\begin{bmatrix}-2 \\ 2\end{bmatrix} +
+\begin{bmatrix}\frac{12}{7} \\ -\frac{18}{7}\end{bmatrix} =
+\begin{bmatrix}
+-2 + \frac{12}{7} \\
+2 + \left(-\frac{18}{7}\right)
+\end{bmatrix} =
+\begin{bmatrix}
+\frac{-14 + 12}{7} \\
+\frac{14 - 18}{7}
+\end{bmatrix} =
+\begin{bmatrix}
+-\frac{2}{7} \\
+-\frac{4}{7}
+\end{bmatrix}
 \]
 
 \subsection*{Final Answer}
 \[
-\vec{P} =
-\begin{bmatrix}-\tfrac{2}{7} \\ -\tfrac{4}{7}\end{bmatrix}
+\vec{P} = 
+\begin{bmatrix}-\frac{2}{7} \\ -\frac{4}{7}\end{bmatrix}
 \quad\Rightarrow\quad
-P\left(-\tfrac{2}{7},\,-\tfrac{4}{7}\right).
+\textbf{P}\left(-\frac{2}{7}, -\frac{4}{7}\right)
 \]
+
 
 \begin{center}
     \includegraphics[width=0.6\columnwidth]{figs/plot1.png}
