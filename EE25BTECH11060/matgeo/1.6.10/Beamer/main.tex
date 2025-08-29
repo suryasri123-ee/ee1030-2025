@@ -122,63 +122,44 @@ C & 11 & 3 & 7 \\
  
 
 
-\begin{frame}{allowframebreaks}
+ \begin{frame}{allowframebreaks}
 \frametitle{Row reduction}
 
-     
+$\myvec{ 4 & 10 \\ 2 & 5 \\ 6 & 15 }
+R_3 \leftarrow R_3 - (R_1 + R_2) \implies \myvec{ 4 & 10 \\ 2 & 5 \\ 0 & 0 }$
+
+$\myvec{ 4 & 10 \\ 2 & 5 \\ 0 & 0 }
+R_2 \leftarrow R_2 - (R_1/2)  \implies \myvec{4&10 \\ 0 &0 \\0 & 0}$
+  
+$\myvec{4&10 \\ 0 &0 \\0 & 0}
+ R_1 \leftarrow R_1/4 \implies \myvec{1 & 2.5 \\ 0 & 0 \\ 0 & 0}$
  
 
-\[
-\left(
-\begin{array}{cc}
-4 & 10 \\
-2 & 5 \\
-6 & 15
-\end{array}
-\right)
-R_3 \leftarrow R_3 - (R_1 + R_2)
-\;
-\left(
-\begin{array}{cc}
-4 & 10 \\
-2 & 5 \\
-0 & 0
-\end{array}
-\right)
-\quad
-R_1 \leftarrow R_1 - (2R_2)
-\quad
-\left(
-\begin{array}{cc}
-0 & 0 \\
-2 & 5 \\
-0 & 0
-\end{array}
-\right)
-\]
- 
 
 Which is a Rank 1 matrix , Hence   $\vec{A}(1,-2,-8)$,$\vec{B}(5,0,-2)$ and $\vec{C}(11,3,7)$ are collinear.
 \end{frame}
 
-\begin{frame}{solution}
-    \frametitle{finding ratio}
-    Section formula for a vector $\vec{B}$ which divides the line formed by vectors $\vec{A}$ and $\vec{C}$ in the ratio k:1 is given by
+ Section formula for a vector $\vec{B}$ which divides the line formed by vectors $\vec{A}$ and $\vec{C}$ in the ratio k:1 is given by
 
 \begin{align}
     \vec{B}=\frac{k\vec{C}+\vec{A}}{k+1}\\
-             \myvec{5\\0\\-2} &=\frac{{\myvec{1\\-2\\-8}+k\myvec{11\\3\\7}}}{1+k}\\
-    \implies\myvec{5\\0\\-2} + k\myvec{5\\0\\-2} &=\myvec{1\\-2\\-8}+k\myvec{11\\3\\7}\\ 
-    \implies \myvec{4 \\2 \\6} &= k\myvec{6 \\ 3 \\9}\\
-    \implies k = \frac{2}{3}
 \end{align}
-\end{frame}
-\begin{frame}
-$k=\frac{2}{3}$\\
-     $\vec{B}$ which divides  $\vec{A}\vec{C}$ in the ratio 2:3
+\begin{align}
+			k\brak{\vec{B}-\vec{C}}&= \vec{A}-\vec{B}
+            \end{align}
+Taking dot product on both sides with $(\vec{B}-\vec{C})$
+\begin{align}
+ k =\frac{\brak{\vec{A}-\vec{B}}^{\top}\brak{\vec{B}-\vec{C}}}{\norm{\vec{B}-\vec{C}}^2}
+\end{align}
+\bigskip
+\begin{align}
+\brak{\vec{A}-\vec{B}}^{\top}\brak{\vec{B}-\vec{C}} = \myvec{-4 & -2 &  -6 }\myvec{-6\\-3\\-9} = 84\\
+{\norm{\vec{B}-\vec{C}}^2} = \brak{\sqrt{(-6^2) + (-3)^2 + (-9)^2}}^2 = 126
+\end{align}
 
 
-\end{frame}
+ $\vec{B}$ which divides  $\vec{A}\vec{C}$ in the ratio 2:3
+
 
 
 

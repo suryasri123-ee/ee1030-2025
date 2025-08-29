@@ -1,10 +1,10 @@
 import subprocess
 
 # Compile the C program
-subprocess.run(["gcc", "points.c", "-o", "points"])
+subprocess.run(["gcc", "code.c", "-o", "code"])
 
 # Run the compiled C program
-result = subprocess.run(["./points"], capture_output=True, text=True)
+result = subprocess.run(["./code"], capture_output=True, text=True)
 
 # Print the output from the C program (solution steps for k=2/3)
 print(result.stdout) 
