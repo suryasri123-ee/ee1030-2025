@@ -78,44 +78,17 @@
         \end{align}
         By the above property we can say that \textbf{ABCD} is a parallelogram.\\
         Consider the sides\\
-        \begin{align}
-            \vec{A-D}=\myvec{6-5\\2-6}=\myvec{1\\-4}
-        \end{align}
-        \begin{align}
-            \vec{(B-A)}^T=\myvec{-4 & -1}
-        \end{align}
-      Consider the angle $\theta$ between the sides $\vec{B-A}$ and $\vec{C-B}$ of the parallelogram\\
+      Consider the inner product of the vectors $\vec{(B-A)}$ and $\vec{(C-B)}$ of the parallelogram\\
       \begin{align}
-      \cos{\theta}=\frac{\myvec{B-A}^T\myvec{C-B}}{\|\vec{B-A}\|\|\vec{C-B}\|}
+          \implies \vec{(B-A)} \cdot \vec{(C-B)}=(-4)(-1)+(-1)(4)=0
       \end{align}
-      \begin{align}
-          \cos{\theta}=\frac{\myvec{-4 & -1}\myvec{-1\\4}}{\sqrt{17}\sqrt{17}}\\
-          \cos{\theta}=\frac{(-4)(-1)+(-1)(4)}{17}\\
-      \end{align}
-      \begin{align}
-          \cos{\theta}=0\\
-      \end{align}
-      \begin{center}
-      $\theta=90^\circ$
-      \end{center}
+          Hence the angle at vertex B is $90^\circ$\\
       \textbf{Property:}\\
       A parallelogram with one angle $90^\circ$ is a rectangle\\
       Hence the parallelogram is a rectangle\\
+      Now consider the inner product of the diagonals of the rectangle $\vec{(C-A)}$ and $\vec{(D-B)}$\\ 
       \begin{align}
-      \vec{A-C}=\myvec{5\\-3}\\
-      \implies \vec{(A-C)}^T=\myvec{5 & -3}
-      \end{align}
-      \begin{align}
-          \vec{B-D}=\myvec{-3\\-5}
-      \end{align}
-      Let the angle between the diagonals of the rectangle be $\alpha$\\
-      Now Consider the inner product of the diagonals of rectangle $\vec{A-C}$ and $\vec{B-D}$ \\
-      \begin{align}
-      \cos{\alpha}=\frac{\myvec{A-C}^T\myvec{B-D}}{\|\vec{A-C}\|\|\vec{B-D}\|}=\frac{\myvec{5&-3}\myvec{-3\\-5}}{\sqrt{34}\sqrt{34}}
-      \end{align}
-      \begin{align}
-          \cos{\alpha}=0\\
-          \cos{\alpha}=90^\circ
+         \implies \vec{(C-A)} \cdot \vec{(D-B)}=(-5)(3)+(3)(5)=0
       \end{align}
       \textbf{Property:}\\
       Rectangle with diagonals at right angle is a square\\

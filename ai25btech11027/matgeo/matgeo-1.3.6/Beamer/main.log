@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  29 AUG 2025 09:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.16)  29 AUG 2025 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,16 +1096,12 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
 (Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 80.
  [2]
-Underfull \vbox (badness 4967) has occurred while \output is active []
-
- [3]
-[4]
-<figs/fig1.png, id=44, 544.0325pt x 561.09625pt>
+<figs/fig1.png, id=31, 544.0325pt x 561.09625pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 145.
+Package pdftex.def Info: figs/fig1.png  used on input line 120.
 (pdftex.def)             Requested size: 205.37926pt x 211.82324pt.
- [5] [6 <./figs/fig1.png>]
+ [3] [4 <./figs/fig1.png>]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -1131,8 +1127,8 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26236 strings out of 476064
- 494947 string characters out of 5792853
+ 26232 strings out of 476064
+ 494913 string characters out of 5792853
  1934975 words of memory out of 5000000
  47742 multiletter control sequences out of 15000+600000
  565569 words of font info for 63 fonts, out of 8000000 for 9000
@@ -1144,14 +1140,12 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (6 pages, 126942 bytes).
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (4 pages, 107347 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
