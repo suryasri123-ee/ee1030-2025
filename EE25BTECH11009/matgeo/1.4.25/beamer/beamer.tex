@@ -65,29 +65,37 @@
 
 % ---------------- Question ----------------
 \begin{frame}{Question}
-\textbf{Find the position vector of a point \( R \) which divides the line joining two points \( P \) and \( Q \) whose position vectors are \(2\mathbf a + \mathbf b\) and \(\mathbf a - 3\mathbf b\) externally in the ratio \(1:2\).}
+\textbf{Find the position vector of a point $R$ which divides the line joining two points $P$ and $Q$ whose position vectors are $2\vec{a} + \vec{b}$ and $\vec{a} - 3\vec{b}$ externally in the ratio $1:2$.}
 \end{frame}
 
 % ---------------- Solution ----------------
 \begin{frame}{Solution Step 1}
 \textbf{Step 1: Represent points in coordinates}  
-\begin{align*}
-P &= 2\mathbf a + \mathbf b = \brak{2\\1}, \\
-Q &= \mathbf a - 3\mathbf b = \brak{1\\-3}.
-\end{align*}
+\begin{equation}
+\vec{P} = 2\vec{a} + \vec{b} = \brak{2\\1}
+\end{equation}
+\begin{equation}
+\vec{Q} = \vec{a} - 3\vec{b} = \brak{1\\-3}
+\end{equation}
 \end{frame}
 
 \begin{frame}{Solution Step 2}
 \textbf{Step 2: Apply section formula (external division)}
-\begin{align*}
-R &= \frac{1 \cdot Q - 2 \cdot P}{1 - 2} \\[2pt]
-  &= \frac{1}{-1}\left(\begin{pmatrix}1\\-3\end{pmatrix} - 2\begin{pmatrix}2\\1\end{pmatrix}\right) \\[2pt]
-  &= -\begin{pmatrix}-3\\-5\end{pmatrix} \\[2pt]
-  &= \begin{pmatrix}3\\5\end{pmatrix}.
-\end{align*}
-\[
-\boxed{R = 3\mathbf{a} + 5\mathbf{b}}
-\]
+\begin{equation}
+\vec{R} = \frac{1 \cdot \vec{Q} - 2 \cdot \vec{P}}{1 - 2}
+\end{equation}
+\begin{equation}
+= \frac{1}{-1}\left(\brak{1\\-3} - 2\brak{2\\1}\right)
+\end{equation}
+\begin{equation}
+= -\brak{-3\\-5}
+\end{equation}
+\begin{equation}
+= \brak{3\\5}
+\end{equation}
+\begin{equation}
+\vec{R} = 3\vec{a} + 5\vec{b}
+\end{equation}
 \end{frame}
 
 % ---------------- Graph ----------------
@@ -226,11 +234,4 @@ plt.scatter(tri_coords[0,:], tri_coords[1,:])
 plt.show()
 \end{lstlisting}
 \end{frame}
-\begin{frame}{Graphical Representation}
-    \centering
-    \includegraphics[width=0.8\linewidth]{figs/section_graph.png}
-    \captionsetup{justification=centering}
-    \captionof{figure}{plot}
-\end{frame}
-
 \end{document}
