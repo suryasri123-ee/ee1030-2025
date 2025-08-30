@@ -49,7 +49,7 @@
 \bibliographystyle{IEEEtran}
 \vspace{3cm}
 
-\title{4.3.13}
+\title{4.7.12}
 \author{EE25BTECH11026-Harsha}
  \maketitle
 % \newpage
@@ -72,7 +72,7 @@ Let us solve the given question theoretically and then verify the solution compu
 \\
 According to the question,\\
 \begin{align}
-    Equation\;of\;target\;line\;:\;\myvec{4&&-1}\myvec{x\\y}=0
+    \text{Equation of target line:}\myvec{4&&-1}\myvec{x\\y}=0
 \end{align}
 and
 \begin{align}
@@ -80,29 +80,21 @@ and
 \end{align}
 As the direction of line makes an angle of $135\degree$ with the $+x$ axis, the unit direction vector of the line is given by
 \begin{align}
-    \vec{m}=\myvec{\cos{135\degree}\\\sin{135\degree}}=\myvec{-\frac{1}{\sqrt{2}}\\\frac{1}{\sqrt{2}}}
+    \vec{m_0}=\myvec{\cos{135\degree}\\\sin{135\degree}}=\myvec{-\frac{1}{\sqrt{2}}\\\frac{1}{\sqrt{2}}}
 \end{align}
-Parametrize the required line using $\vec{P}$,yielding
+The formula to calculate the distance $\kappa$ of the target line from the point, along a line is given by
 \begin{align}
-    \vec{x}=\vec{P}+\kappa\vec{m}
-\end{align}
-Inserting the parametric form in the equation of target line,
-\begin{align}
-    \myvec{4&&-1}\brak{\vec{P}+\kappa\vec{m}}=0
+    \kappa=\frac{c-\vec{n}^{\top}\vec{P}}{\vec{n}^{\top}\vec{m_0}}\\
 \end{align}
 \begin{align}
-    \therefore \kappa=\frac{-\myvec{4&&-1}\myvec{4\\1}}{\myvec{4&&-1}\myvec{-\frac{1}{\sqrt{2}}\\\frac{1}{\sqrt{2}}}}
+     \therefore \kappa=\frac{-\myvec{4&&-1}\myvec{4\\1}}{\myvec{4&&-1}\myvec{-\frac{1}{\sqrt{2}}\\\frac{1}{\sqrt{2}}}}
 \end{align}
 \begin{align}
-    \implies \kappa=3\sqrt{2}
+    \implies \kappa=3\sqrt{2}\; \text{units}
 \end{align}
 \newpage
 \vspace*{0.25cm}
-Since $\vec{m}$ is a unit vector, the norm of vector $\vec{P}$ from the given line along the line with $\vec{m}=\myvec{-\frac{1}{\sqrt{2}}&&\frac{1}{\sqrt{2}}}^{\top}$ is
-\begin{align}
-    \kappa=3\sqrt{2}\;units
-\end{align}
-\\
+
 From the figure, it is clearly verified that the theoretical solution matches with the computational solution.\\
 \begin{figure}[H]
     \centering
