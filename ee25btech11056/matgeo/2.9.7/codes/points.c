@@ -1,15 +1,32 @@
+#include <math.h>
 #include <stdio.h>
 
-// Function to compute scalar triple product: a · (b × c)
-double triple_product(double a[3], double b[3], double c[3]) {
-  double cross[3];
+// Function to compute dot product
+double dot(double u[3], double v[3]) {
+  return u[0] * v[0] + u[1] * v[1] + u[2] * v[2];
+}
 
-  // Cross product b × c
-  cross[0] = b[1] * c[2] - b[2] * c[1];
-  cross[1] = b[2] * c[0] - b[0] * c[2];
-  cross[2] = b[0] * c[1] - b[1] * c[0];
+// Function to compute determinant of 3x3 matrix
+double det3(double M[3][3]) {
+  return M[0][0] * (M[1][1] * M[2][2] - M[1][2] * M[2][1]) -
+         M[0][1] * (M[1][0] * M[2][2] - M[1][2] * M[2][0]) +
+         M[0][2] * (M[1][0] * M[2][1] - M[1][1] * M[2][0]);
+}
 
-  // Dot product a · (b × c)
-  double result = a[0] * cross[0] + a[1] * cross[1] + a[2] * cross[2];
-  return result;
+// Function to compute box product using Gram matrix
+double box_product() {
+  double a[3] = {2, 1, 3};
+  double b[3] = {-1, 2, 1};
+  double c[3] = {3, 1, 2};
+
+  double G[3][3] = {{dot(a, a), dot(a, b), dot(a, c)},
+                    {dot(b, a), dot(b, b), dot(b, c)},
+                    {dot(c, a), dot(c, b), dot(c, c)}};
+
+  double detG = det3(G);
+
+  // Negative since left-handed system
+  double box = -sqrt(detG);
+
+  return box;
 }

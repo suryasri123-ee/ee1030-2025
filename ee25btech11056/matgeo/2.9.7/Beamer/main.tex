@@ -95,43 +95,107 @@ then find \(\vec{a}\cdot(\vec{b}\times\vec{c})\)
 
 \begin{frame}{Solution}
 
-\begin{align*}
-\vec{b} \times \vec{c} = 
-\myvec{
-|\vec{B_{23}} & \vec{C_{23}}| \\
-|\vec{B_{31}} & \vec{C_{31}}| \\
-|\vec{B_{12}} & \vec{C_{12}}|
+The Gram matrix \( \vec{G} \) for the vectors \( \vec{a}, \vec{b}, \vec{c} \) is:
+\begin{align}
+\vec{G} = \myvec{
+\vec{a}^\top \vec{a} & \vec{a}^\top \vec{b} & \vec{a}^\top \vec{c} \\
+\vec{b}^\top \vec{a} & \vec{b}^\top \vec{b} & \vec{b}^\top \vec{c} \\
+\vec{c}^\top \vec{a} & \vec{c}^\top \vec{b} & \vec{c}^\top \vec{c}
 }
-\end{align*}
+\end{align}
 
-\begin{align*}
-\mydet{\vec{B_{23}} & \vec{C_{23}}} = \mydet{2 & 1\\1 & 2} = 3
-\end{align*}
+Now, calculate the dot products:
 
-\begin{align*}
-\mydet{\vec{B_{31}} & \vec{C_{31}}} = \mydet{1 & 2\\-1 & 3} = 5
-\end{align*}
+\begin{align}
+\vec{a}^\top \vec{a} = 2^2 + 1^2 + 3^2 = 4 + 1 + 9 = 14
+\end{align}
 
-\begin{align*}
-\mydet{\vec{B_{12}} & \vec{C_{12}}} = \mydet{-1 & 3\\2 & 1} = -7
-\end{align*}
+\begin{align}
+\vec{a}^\top \vec{b} = (2)(-1) + (1)(2) + (3)(1) = -2 + 2 + 3 = 3
+\end{align}
 
-\begin{align*}
-  \vec{b} \times \vec{c} = \myvec{3\\5\\-7}
-\end{align*}
+\begin{align}
+\vec{a}^\top \vec{c} = (2)(3) + (1)(1) + (3)(2) = 6 + 1 + 6 = 13
+\end{align}
 
+\begin{align}
+\vec{b}^\top \vec{a} = \vec{a}^\top \vec{b} = 3
+\end{align}
 
 \end{frame}
 
 \begin{frame}
-\begin{center}
-the value of \(\vec{a}\cdot(\vec{b}\times\vec{c})\) = $\vec{a}^\top(\vec{b}\times\vec{c})$ = \myvec{2 & 1 & 3}\myvec{3\\5\\-7}\\
-= (2)(3) + (1)(5) + (3)(-7) 
-= 6 + 5 - 21\\
-= -10
 
-\textbf{Final Answer} : \(\vec{a}\cdot(\vec{b}\times\vec{c})\)  = -10 
-\end{center}
+\begin{align}
+\vec{b}^\top \vec{b} = (-1)^2 + 2^2 + 1^2 = 1 + 4 + 1 = 6
+\end{align}
+
+\begin{align}
+\vec{b}^\top \vec{c} = (-1)(3) + (2)(1) + (1)(2) = -3 + 2 + 2 = 1
+\end{align}
+
+\begin{align}
+\vec{c}^\top \vec{a} = \vec{a}^\top \vec{c} = 13
+\end{align}
+
+\begin{align}
+\vec{c}^\top \vec{b} = \vec{b}^\top \vec{c} = 1
+\end{align}
+
+\begin{align}
+\vec{c}^\top \vec{c} = 3^2 + 1^2 + 2^2 = 9 + 1 + 4 = 14
+\end{align}
+
+Thus, the Gram matrix \( \vec{G} \) is:
+\begin{align}
+\vec{G} = \myvec{
+14 & 3 & 13 \\
+3 & 6 & 1 \\
+13 & 1 & 14
+}
+\end{align}
+
+\end{frame}
+
+\begin{frame}
+
+The characteristic equation is obtained by solving the determinant equation \( \mydet{\vec{G} - \lambda \vec{I}} = 0 \). The characteristic polynomial for the matrix is:
+
+\begin{align}
+\lambda^3 - 34\lambda^2 + 185\lambda - 100 = 0
+\end{align}
+
+
+To find the eigenvalues, we solve the cubic equation:
+\[
+\lambda^3 - 34\lambda^2 + 185\lambda - 100 = 0
+\]
+By solving this equation , we obtain the eigenvalues:
+\begin{align}
+\lambda_1 \approx 27.38, \quad \lambda_2 \approx 6.02, \quad \lambda_3 \approx 0.61.
+\end{align}
+
+
+The determinant of \( \vec{G} \) is the product of its eigenvalues:
+\begin{align}
+\mydet{\vec{G}} = \lambda_1 \lambda_2 \lambda_3 = 100.
+\end{align}
+
+
+The box product (scalar triple product) is the square root of the determinant of \( \vec{G} \):
+\begin{align}
+\vec{a} \cdot (\vec{b} \times \vec{c}) = \sqrt{\mydet{\vec{G}}} = \sqrt{100} = 10
+\end{align}
+
+\end{frame}
+
+\begin{frame}
+
+As the three vectors form a left-handed system , the box product is negative. Hence, the negative value should be considered.
+
+\textbf{Final Answer} : The value of \(\vec{a}\cdot(\vec{b}\times\vec{c})\) = -10
+ 
+
 
 \end{frame}
 
@@ -151,20 +215,37 @@ the value of \(\vec{a}\cdot(\vec{b}\times\vec{c})\) = $\vec{a}^\top(\vec{b}\time
 \begin{frame}[fragile]{C Code: points.c}
 \begin{lstlisting}[language=C]
 
+#include <math.h>
 #include <stdio.h>
 
-// Function to compute scalar triple product: a · (b × c)
-double triple_product(double a[3], double b[3], double c[3]) {
-  double cross[3];
+// Function to compute dot product
+double dot(double u[3], double v[3]) {
+  return u[0] * v[0] + u[1] * v[1] + u[2] * v[2];
+}
 
-  // Cross product b × c
-  cross[0] = b[1] * c[2] - b[2] * c[1];
-  cross[1] = b[2] * c[0] - b[0] * c[2];
-  cross[2] = b[0] * c[1] - b[1] * c[0];
+// Function to compute determinant of 3x3 matrix
+double det3(double M[3][3]) {
+  return M[0][0] * (M[1][1] * M[2][2] - M[1][2] * M[2][1]) -
+         M[0][1] * (M[1][0] * M[2][2] - M[1][2] * M[2][0]) +
+         M[0][2] * (M[1][0] * M[2][1] - M[1][1] * M[2][0]);
+}
 
-  // Dot product a · (b × c)
-  double result = a[0] * cross[0] + a[1] * cross[1] + a[2] * cross[2];
-  return result;
+// Function to compute box product using Gram matrix
+double box_product() {
+  double a[3] = {2, 1, 3};
+  double b[3] = {-1, 2, 1};
+  double c[3] = {3, 1, 2};
+
+  double G[3][3] = {{dot(a, a), dot(a, b), dot(a, c)},
+                    {dot(b, a), dot(b, b), dot(b, c)},
+                    {dot(c, a), dot(c, b), dot(c, c)}};
+
+  double detG = det3(G);
+
+  // Negative since left-handed system
+  double box = -sqrt(detG);
+
+  return box;
 }
 
 \end{lstlisting}
@@ -174,37 +255,36 @@ double triple_product(double a[3], double b[3], double c[3]) {
 \begin{frame}[fragile]{Python: call\_c.py}
 \begin{lstlisting}[language=Python]
 
+import sys
 import ctypes
 import numpy as np
-import sys
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
-# Load shared library
-lib = ctypes.CDLL("./libpoints.so")
-lib.triple_product.restype = ctypes.c_double
-lib.triple_product.argtypes = [
-    ctypes.POINTER(ctypes.c_double),
-    ctypes.POINTER(ctypes.c_double),
-    ctypes.POINTER(ctypes.c_double)
-]
+# Load shared object
+lib = ctypes.CDLL("./points.so")
+lib.box_product.restype = ctypes.c_double
 
-# Default vectors (if no args provided)
-a = np.array([2.0, 1.0, 3.0], dtype=np.double)
-b = np.array([-1.0, 2.0, 1.0], dtype=np.double)
-c = np.array([3.0, 1.0, 2.0], dtype=np.double)
+# Call the C function
+box = lib.box_product()
+print("Box product (from C) =", box)
 
-# If user provides command-line arguments → override
-if len(sys.argv) == 10:  # script + 9 numbers
-    a = np.array([float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3])], dtype=np.double)
-    b = np.array([float(sys.argv[4]), float(sys.argv[5]), float(sys.argv[6])], dtype=np.double)
-    c = np.array([float(sys.argv[7]), float(sys.argv[8]), float(sys.argv[9])], dtype=np.double)
+# Define vectors
+a = np.array([2,1,3])
+b = np.array([-1,2,1])
+c = np.array([3,1,2])
 
-# Call C function
-res = lib.triple_product(a.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
-                         b.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
-                         c.ctypes.data_as(ctypes.POINTER(ctypes.c_double)))
+# 3D plot
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
 
-print(f"Scalar Triple Product (from C): {res}")
+# Origin
+origin = np.array([0,0,0])
+
+# Plot vectors with arrowheads
+ax.quiver(*origin, *a, color='r', arrow_length_ratio=0.1, label="a = (2,1,3)")
+ax.quiver(*origin, *b, color='g', arrow_length_ratio=0.1, label="b = (-1,2,1)")
+ax.quiver(*origin, *c, color='b', arrow_length_ratio=0.1, label="c = (3,1,2)")
 
 \end{lstlisting}
 \end{frame}
@@ -212,26 +292,18 @@ print(f"Scalar Triple Product (from C): {res}")
 \begin{frame}[fragile]{Python: call\_c.py}
 \begin{lstlisting}[language=Python]
 
+# Set limits
+ax.set_xlim([-2,4])
+ax.set_ylim([-2,4])
+ax.set_zlim([0,4])
 
-# ---- Visualization using matplotlib ----
-cross_bc = np.cross(b, c)
-
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-
-ax.quiver(0, 0, 0, a[0], a[1], a[2], color='blue', label='a', arrow_length_ratio=0.1)
-ax.quiver(0, 0, 0, b[0], b[1], b[2], color='red', label='b', arrow_length_ratio=0.1)
-ax.quiver(0, 0, 0, c[0], c[1], c[2], color='green', label='c', arrow_length_ratio=0.1)
-ax.quiver(0, 0, 0, cross_bc[0], cross_bc[1], cross_bc[2],
-          color='purple', label='b × c', arrow_length_ratio=0.1)
-
-ax.set_title(f"Scalar Triple Product = {res:.2f}")
-ax.set_xlabel("X-axis")
-ax.set_ylabel("Y-axis")
-ax.set_zlabel("Z-axis")
+ax.set_xlabel("X")
+ax.set_ylabel("Y")
+ax.set_zlabel("Z")
+ax.set_title(f"Vectors a, b, c (Box product = {box:.2f})")
 ax.legend()
 
-plt.savefig("vectors.png", dpi=300, bbox_inches="tight")
+plt.savefig("vectors.png")
 plt.show()
 
 \end{lstlisting}
@@ -239,39 +311,61 @@ plt.show()
 
 \begin{frame}[fragile]{Python: plot.py}
 \begin{lstlisting}[language=Python]
+
 import numpy as np
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 # Vectors
-a = np.array([2, 1, 3])
-b = np.array([-1, 2, 1])
-c = np.array([3, 1, 2])
+a = np.array([2,1,3])
+b = np.array([-1,2,1])
+c = np.array([3,1,2])
 
-# Scalar triple product
-res = np.dot(a, np.cross(b, c))
-print(f"Scalar Triple Product (using NumPy): {res}")
+# Gram matrix
+G = np.array([
+    [np.dot(a,a), np.dot(a,b), np.dot(a,c)],
+    [np.dot(b,a), np.dot(b,b), np.dot(b,c)],
+    [np.dot(c,a), np.dot(c,b), np.dot(c,c)]
+])
 
-# Cross product b × c
-cross_bc = np.cross(b, c)
+# Determinant and box product
+detG = np.linalg.det(G)
+box = -np.sqrt(detG)
 
-# Plot
+print("Determinant of Gram matrix =", detG)
+print("Box product =", box)
+
+# 3D plot
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-ax.quiver(0, 0, 0, a[0], a[1], a[2], color='blue', label='a', arrow_length_ratio=0.1)
-ax.quiver(0, 0, 0, b[0], b[1], b[2], color='red', label='b', arrow_length_ratio=0.1)
-ax.quiver(0, 0, 0, c[0], c[1], c[2], color='green', label='c', arrow_length_ratio=0.1)
-ax.quiver(0, 0, 0, cross_bc[0], cross_bc[1], cross_bc[2],
-          color='purple', label='b × c', arrow_length_ratio=0.1)
+origin = np.array([0,0,0])
 
-ax.set_title(f"Scalar Triple Product = {res:.2f}")
-ax.set_xlabel("X-axis")
-ax.set_ylabel("Y-axis")
-ax.set_zlabel("Z-axis")
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Python: plot.py}
+\begin{lstlisting}[language=Python]
+
+
+# Plot vectors
+ax.quiver(*origin, *a, color='r', arrow_length_ratio=0.1, label="a = (2,1,3)")
+ax.quiver(*origin, *b, color='g', arrow_length_ratio=0.1, label="b = (-1,2,1)")
+ax.quiver(*origin, *c, color='b', arrow_length_ratio=0.1, label="c = (3,1,2)")
+
+ax.set_xlim([-2,4])
+ax.set_ylim([-2,4])
+ax.set_zlim([0,4])
+
+ax.set_xlabel("X")
+ax.set_ylabel("Y")
+ax.set_zlabel("Z")
+ax.set_title(f"Vectors a, b, c (Box product = {box:.2f})")
 ax.legend()
 
-plt.savefig("vectors.png", dpi=300, bbox_inches="tight")
+plt.savefig("vectors.png")
 plt.show()
+
 
 \end{lstlisting}
 \end{frame}

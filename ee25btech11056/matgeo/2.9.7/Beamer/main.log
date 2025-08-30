@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.1)  30 AUG 2025 00:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.1)  30 AUG 2025 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,25 +964,21 @@ Overfull \vbox (5.86424pt too high) detected at line 94
 
 [2
 
-]
-Overfull \vbox (2.73926pt too high) detected at line 124
- []
-
-[3
+] [3
 
 ] [4
 
+] [5
+
+] [6
+
 ]
-<figs/vectors.png, id=48, 299.6796pt x 298.2342pt>
+<figs/vectors.png, id=58, 462.528pt x 346.896pt>
 File: figs/vectors.png Graphic file (type png)
 <use figs/vectors.png>
-Package pdftex.def Info: figs/vectors.png  used on input line 146.
-(pdftex.def)             Requested size: 205.37926pt x 204.38931pt.
-
-Overfull \vbox (1.11617pt too high) detected at line 146
- []
-
-[5
+Package pdftex.def Info: figs/vectors.png  used on input line 210.
+(pdftex.def)             Requested size: 205.37926pt x 154.0374pt.
+ [7
 
  <./figs/vectors.png>]
 \openout4 = `main.vrb'.
@@ -994,171 +990,33 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <6> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 4.
+)
+Overfull \vbox (8.52684pt too high) detected at line 252
+ []
 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@EC·).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...ion to compute scalar triple product: a Â· 
-                                                  (b Ã— c)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@EC—).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ... compute scalar triple product: a Â· (b Ã— 
-                                                  c)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@EC—).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10   // Cross product b Ã— 
-                             c
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@EC·).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15   // Dot product a Â· 
-                           (b Ã— c)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@EC—).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15   // Dot product a Â· (b Ã— 
-                                 c)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-) [6
+[8
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-
-! LaTeX Error: Invalid UTF-8 byte sequence (â\lst@EC†\lst@EC’).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 ... user provides command-line arguments â†’ 
-                                                  override
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-)
-Overfull \vbox (1.52684pt too high) detected at line 210
- []
-
-[7
+)) [9
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@EC—).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15           color='purple', label='b Ã— 
-                                           c', arrow_length_ratio=0.1)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-) [8
+ (./main.vrb) [10
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb
+ (./main.vrb) [11
 
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@EC—).
+]
+\openout4 = `main.vrb'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 # Cross product b Ã— 
-                          c
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@EC—).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26           color='purple', label='b Ã— 
-                                           c', arrow_length_ratio=0.1)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-)
-Overfull \vbox (8.52684pt too high) detected at line 277
- []
-
-[9
+ (./main.vrb) [12
 
 ]
 \tf@nav=\write6
@@ -1179,18 +1037,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 786DEDF945F54D022A2FDD30FA989114;116.
  ) 
 Here is how much of TeX's memory you used:
- 27270 strings out of 474222
- 510773 string characters out of 5748734
- 2305975 words of memory out of 5000000
- 48944 multiletter control sequences out of 15000+600000
+ 27296 strings out of 474222
+ 511047 string characters out of 5748734
+ 2271975 words of memory out of 5000000
+ 48962 multiletter control sequences out of 15000+600000
  567539 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,131p,426b,1412s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,131p,426b,1406s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on main.pdf (9 pages, 315245 bytes).
+Output written on main.pdf (12 pages, 177226 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
