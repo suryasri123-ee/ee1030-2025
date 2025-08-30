@@ -82,15 +82,21 @@ As the direction of line makes an angle of $135\degree$ with the $+x$ axis, the 
 \begin{align}
     \vec{m_0}=\myvec{\cos{135\degree}\\\sin{135\degree}}=\myvec{-\frac{1}{\sqrt{2}}\\\frac{1}{\sqrt{2}}}
 \end{align}
-The formula to calculate the distance $\kappa$ of the target line from the point, along a line is given by
+To calculate the distance $\kappa$ of a vector $\vec{P}$ from the target line $\vec{n}^{\top}\vec{x}=c$ along a line with direction vector $\vec{m_0}$,
 \begin{align}
-    \kappa=\frac{c-\vec{n}^{\top}\vec{P}}{\vec{n}^{\top}\vec{m_0}}\\
+    \text{Parametric form:\;}\vec{x}=\vec{P}+\kappa\vec{m_0} 
 \end{align}
 \begin{align}
-     \therefore \kappa=\frac{-\myvec{4&&-1}\myvec{4\\1}}{\myvec{4&&-1}\myvec{-\frac{1}{\sqrt{2}}\\\frac{1}{\sqrt{2}}}}
+    \implies \vec{n}^{\top}\brak{\vec{P}+\kappa\vec{m_0}}=c
 \end{align}
 \begin{align}
-    \implies \kappa=3\sqrt{2}\; \text{units}
+    \therefore \kappa=\frac{c-\vec{n}^{\top}\vec{P}}{\vec{n}^{\top}\vec{m_0}}\\
+\end{align}
+\begin{align}
+     \implies \kappa=\frac{-\myvec{4&&-1}\myvec{4\\1}}{\myvec{4&&-1}\myvec{-\frac{1}{\sqrt{2}}\\\frac{1}{\sqrt{2}}}}
+\end{align}
+\begin{align}
+    \kappa=3\sqrt{2}\; \text{units}
 \end{align}
 \newpage
 \vspace*{0.25cm}
