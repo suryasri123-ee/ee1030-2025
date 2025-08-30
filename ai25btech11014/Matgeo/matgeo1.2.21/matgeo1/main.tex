@@ -58,58 +58,83 @@
 
 
 
-\textbf{Question}:\par
-The centroid of a triangle $ABC$ is at the point $(1,1,1)$. If the coordinates of $A$ and $B$ are $(3,-5,7)$ and $(-1,7,-6)$ respectively, find the coordinates of the point $C$.
 
+\section*{Question}
+\vspace{0.5cm}
+The centroid of triangle $\triangle ABC$ is at the point $\vec{G} = \myvec{1\\1\\1}$.  
+The coordinates of points $\vec{A}$ and $\vec{B}$ are given by:
+\[
+\vec{A} = \myvec{3\\-5\\7}, \quad \vec{B} = \myvec{-1\\7\\-6}
+\]
+Find the coordinates of point $\vec{C}$.
 
-\vspace{1cm}
-
-\textbf{Solution:}\\
-\vspace{0.1cm}
-
-
-
-Let the position vectors of points $A$, $B$, and $C$ be:
-\begin{align}
-\vec{A} = \myvec{3\\-5\\7},\quad
-\vec{B} = \myvec{-1\\7\\-6},\quad
-\vec{C} = \vec{C}
-\end{align}
-
-The centroid $\vec{G}$ of triangle $ABC$ is given by:
-\begin{align}
+\section*{Solution}
+\vspace{0.5cm}
+The centroid $\vec{G}$ of triangle $\triangle ABC$ is given by the formula:
+\[
 \vec{G} = \frac{1}{3}(\vec{A} + \vec{B} + \vec{C})
-\end{align}
+\]
 
-Given:
-\begin{align}
-\vec{G} = \myvec{1\\1\\1}
-\end{align}
+Multiplying both sides by 3:
+\[
+3\vec{G} = \vec{A} + \vec{B} + \vec{C}
+\]
 
-Substitute and solve:
-\begin{align}
-\frac{1}{3}\left(\myvec{3\\-5\\7} + \myvec{-1\\7\\-6} + \vec{C}\right) = \myvec{1\\1\\1}
-\end{align}
+Solving for $\vec{C}$:
+\[
+\vec{C} = 3\vec{G} - \vec{A} - \vec{B}
+\]
 
-Add vectors:
-\begin{align}
-\frac{1}{3}\left(\myvec{2\\2\\1} + \vec{C}\right) = \myvec{1\\1\\1}
-\end{align}
+\subsection*{Symbolic Expression}
 
-Multiply both sides by 3:
-\begin{align}
-\myvec{2\\2\\1} + \vec{C} = \myvec{3\\3\\3}
-\end{align}
+Let $\vec{A} = \vec{a}$, $\vec{B} = \vec{b}$, and $\vec{G} = \vec{g}$, then:
+\[
+\vec{C} = 3\vec{g} - \vec{a} - \vec{b}
+\]
 
-Subtract:
-\begin{align}
+\subsection*{Numerical Substitution}
+
+Substitute the given values:
+\[
+\vec{C} = 3\myvec{1\\1\\1} - \myvec{3\\-5\\7} - \myvec{-1\\7\\-6}
+\]
+
+Compute step-by-step:
+\[
+3\vec{G} = \myvec{3\\3\\3}
+\]
+\[
+\vec{C} = \myvec{3\\3\\3} - \myvec{3\\-5\\7} = \myvec{0\\8\\-4}
+\]
+\[
+\vec{C} = \myvec{0\\8\\-4} - \myvec{-1\\7\\-6} = \myvec{1\\1\\2}
+\]
+
+\subsection*{Final Answer}
+
+The coordinates of point $\vec{C}$ are:
+\[
 \vec{C} = \myvec{1\\1\\2}
-\end{align}
-
-\textbf{Therefore, the coordinates of point $C$ are $(1,1,2)$.}
+\]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
 \begin{figure}[h!]
    \centering
    \includegraphics[width=1\linewidth]{figs/fig1.png}
