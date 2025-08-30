@@ -68,31 +68,33 @@ Let the vertices of parallelogram ABCD be
 $\Vec{A}\myvec{3\\-1\\2}$, $\Vec{ B}\myvec{1\\-2\\4}$, $\Vec{C}\myvec{-1\\1\\2}$.
 In any parallelogram, the diagonals bisect each other, so the midpoints of $\vec{AC}$ and $\vec{BD}$ are equal.
 
-\textbf{The  midpoint of $\vec{A}\myvec{x_1\\y_1\\z_1}$ and $\vec{B}\myvec{x_2\\y_2\\z_2}$ is}
+\textbf{The  midpoint of $\vec{A}$ and $\vec{B}$ is}
 
 \begin{align}
-    \vec{M_{AB}} = \myvec{\frac{x_1+x_2}{2} \\ \frac{y_1+y_2}{2} \\ \frac{z_1+z_2}{2}}
+    \vec{M_{AB}} = \frac{\vec{A}+\vec{B}}{2}
 \end{align}
 
 Midpoint of $\vec{AC}$:
 
 \begin{align}
-\vec{M_{AC}}=\myvec{\frac{3+(-1)}{2} \\ \frac{-1+1}{2} \\ \frac{2+2}{2}}=\myvec{1\\0\\2}.
+    \vec{M_{AC}} = \frac{\vec{A}+\vec{C}}{2}
 \end{align}
 
-Let $\vec{D}=\myvec{x\\y\\z}$. Midpoint of $\vec{BD}$:
+Midpoint of $\vec{BD}$:
 
 \begin{align}
-\vec{M_{BD}}=\myvec{\frac{1+x}{2} \\ \frac{-2+y}{2} \\ \frac{4+z}{2}}.
+    \vec{M_{BD}} = \frac{\vec{B}+\vec{D}}{2}
 \end{align}
 
-Set $\vec{M_{AC}}=\vec{M_{BD}}$:
+As $\vec{M_{AC}}=\vec{M_{BD}}$:
 
 \begin{align}
-\frac{1+x}{2}=1, \frac{-2+y}{2}=0, \frac{4+z}{2}=2.
+     \vec{A} + \vec{C} = \vec{B} + \vec{D}  \\
+     \vec{D} = \vec{A} + \vec{C} - \vec{B}  \\
+     \vec{D} = \myvec{3\\-1\\2} + \myvec{-1\\1\\2}  - \myvec{1\\-2\\4}  \\
+     \vec{D} = \myvec{3+(-1)-1 \\ -1+1-(-2) \\ 2+2-4}  \\
+     \vec{D} = \myvec{1\\2\\0}
 \end{align}
-
-Solving gives $x=1, y=2, z=0$.
 
 The fourth vertex is $\vec{D}\myvec{1\\2\\0}$.
 
