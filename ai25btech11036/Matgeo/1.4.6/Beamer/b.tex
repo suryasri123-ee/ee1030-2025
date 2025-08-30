@@ -99,44 +99,56 @@ columns=fullflexible
 \begin{frame}[t]{Solution}
 \small
 \textbf{Given:}\;
-% Given:  A(4,2), B(8,4), P(2,1)
-\begin{align}
-\vec{A} &= \myvec{4\\2},\qquad
-\vec{B} = \myvec{8\\4},\qquad
-\vec{P} = \myvec{2\\1}.
-\end{align}
+ \[
+    \vec A=\myvec{4\\2},\quad 
+    \vec B=\myvec{8\\4},\quad 
+    \vec P=\myvec{2\\1}
+    \]
+    Direction vector:
+    \[
+    \vec m=\vec B-\vec A=\myvec{8\\4}-\myvec{4\\2}=\myvec{4\\2}
+    \]
 
-\begin{align}
-\vec{AB} &= \vec{B}-\vec{A}
-= \myvec{8\\4}-\myvec{4\\2}
-= \myvec{4\\2},\\[2mm]
-\vec{AP} &= \vec{P}-\vec{A}
-= \myvec{2\\1}-\myvec{4\\2}
-= \myvec{-2\\-1}.
-\end{align}
+    Parameter:
+    \[
+    k=\frac{(\vec P-\vec A)^\top(\vec B-\vec A)}{\|\vec B-\vec A\|^2}
+    =\frac{(\myvec{2\\1}-\myvec{4\\2})^\top\myvec{4\\2}}{4^2+2^2}
+    =\frac{\myvec{-2\\-1}^\top\myvec{4\\2}}{20}
+    =\frac{-8-2}{20}=-\frac{1}{2}.
+    \]
 
-\begin{align}
-\|\vec{AB}\|^2 &= 4^2 + 2^2 = 20,\\[1mm]
-\|\vec{AP}\|^2 &= (-2)^2 + (-1)^2 = 5.
-\end{align}
+    Hence,
+    \[
+    \vec P=\vec A+k(\vec B-\vec A)=\vec A-\frac{1}{2}(\vec B-\vec A)
+    \]
 
-\begin{align}
-\left(\frac{AP}{AB}\right)^2
-= \frac{\|\vec{AP}\|^2}{\|\vec{AB}\|^2}
-= \frac{5}{20}
-= \frac{1}{4}
-\;\Rightarrow\;
-\frac{AP}{AB} = \frac{1}{2}.
-\end{align}
+    Since \(k<0\), point \(P\) lies on the line \(AB\) but \emph{outside} the segment (beyond \(A\)).
 
-\[
-\boxed{\,AP=\tfrac{1}{2}\,AB\,}
-\]
+    \item \textbf{Lengths:}
+    \[
+    AB=\|\vec B-\vec A\|=\sqrt{4^2+2^2}=2\sqrt{5}, \qquad
+    AP=\|\vec P-\vec A\|=\|\myvec{-2\\-1}\|=\sqrt{5}.
+    \]
 \end{frame}
+\begin{frame}{solution}
+    Therefore,
+    \[
+    AP=\tfrac{1}{2}AB.
+    \]
+
+    \item \textbf{Conclusion:}  
+    The correct relation is
+    \[
+    AP=\frac{1}{2}AB
+    \]
+    and \(P\) does not lie on the segment \(AB\).  
+    Hence, the given statement is \textbf{false}.
+    \end{frame}
+
     \begin{frame}{Graphical Representation}
    \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{fig.1.4.6.jpeg}
+\includegraphics[width=0.7\linewidth]{fig.1.4.6}
 
 \end{figure}
 \end{frame}
