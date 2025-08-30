@@ -76,11 +76,6 @@ To find the vector \(\mathbf{PQ}\), we subtract the matrix for P from the matrix
     \myvec{2\\3\\-6}
 \end{align}
 
-This resulting vector can also be written in the standard basis notation shown in the image:
-\[
-\mathbf{PQ} = 2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k}
-\]
-
 If we represent the vector \(\mathbf{PQ}\) as a column vector \(\mathbf{a}\):
 \[
 \mathbf{a} = 
@@ -96,16 +91,19 @@ The norm is the square root of the dot product of the vector with itself, which 
     &= \sqrt{49} \\
     &= 7
 \end{align}
-The unit vector in the direction of $\vec{\mathbf{PQ}}$, denoted as $\mathbf{\hat{u}}$, is found by dividing the vector by its magnitude.
+The unit vector in the direction of $\vec{\mathbf{PQ}}$, denoted as $\mathbf{u}$, is found by dividing the vector by its magnitude.
 \begin{align}
-    \mathbf{\hat{u}} &= \frac{\vec{\mathbf{PQ}}}{||\vec{\mathbf{PQ}}||} \\
-    &= \frac{1}{7}(2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k}) \\
-    &= \frac{2}{7}\mathbf{i} + \frac{3}{7}\mathbf{j} - \frac{6}{7}\mathbf{k}
+     \\
+     \mathbf{u} &= \frac{1}{\left\| \mathbf{a} \right\|} \mathbf{a} \\
+    &= \frac{1}{7} 
+    \myvec{2\\3\\-6} \\
+    &= 
+    \myvec{2/7\\3/7\\-6/7}
 \end{align}
-Thus, the unit vector along PQ is \myvec{2/7\\3/7\\-6/7} or $\mathbf{\frac{1}{7}(2\mathbf{i} + 3\mathbf{j} - 6\mathbf{k})}$.
+Thus, the unit vector along PQ is \myvec{2/7\\3/7\\-6/7} .
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.7\columnwidth]{figs/fig1.png}
+\includegraphics[width=0.63\columnwidth]{figs/fig1.png}
 \end{center}
 \caption{}
 \label{fig:Fig.1}
