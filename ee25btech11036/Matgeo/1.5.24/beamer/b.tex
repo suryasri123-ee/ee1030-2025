@@ -115,37 +115,39 @@ We represent the points as column vectors:
 %-------------------------------------------------
 \begin{frame}{(i) Rank/Collinearity Condition}
 Since $P, Q, M$ are collinear,
-\[
+\begin{align}
 \operatorname{rank}\myvec{\vec P - \vec M \quad \vec Q - \vec M}^{\top} = 1.
-\]
+\end{align}
 
-\begin{align*}
+\begin{align}
 \myvec{\vec P - \vec M & \vec Q - \vec M}^{\top} 
 &= \myvec{-2 & c-2 \\ b+5 & 5} \\
 &\xrightarrow{R_2 \leftarrow -2R_2 - (b+5)R_1}
 \myvec{-2 & c-2 \\ 0 & -10 - (b+5)(c-2)}.
-\end{align*}
+\end{align}
 
 For rank $=1$, the last entry must vanish:
-\[
-(b+5)(c-2) = -10. \tag{*}
-\]
+\begin{align}
+    (b+5)(c-2) = -10.
+\end{align}
 \end{frame}
 
 %-------------------------------------------------
 \begin{frame}{(ii) Midpoint Condition}
 The midpoint of $P$ and $Q$ is:
-\begin{align*}
+\begin{align}
 \vec M &= \frac{\vec P + \vec Q}{2} \\
 \myvec{2 \\ -5} &= \frac{1}{2}\myvec{0 \\ b} + \frac{1}{2}\myvec{c \\ 0}
 = \frac{1}{2}\myvec{c \\ b}.
-\end{align*}
+\end{align}
 
 Thus,
-\[
+\begin{align}
 \myvec{c \\ b} = \myvec{4 \\ -10}
 \quad\Longrightarrow\quad c=4, \; b=-10.
-\]
+\end{align}
+
+
 \end{frame}
 
 %-------------------------------------------------

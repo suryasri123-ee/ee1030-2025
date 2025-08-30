@@ -45,6 +45,7 @@ text width=4em, text centered, rounded corners, minimum height=3em]
 \tikzstyle{output} = [coordinate]
 
 
+
 \begin{document}
 	
 	\bibliographystyle{IEEEtran}
@@ -62,9 +63,9 @@ text width=4em, text centered, rounded corners, minimum height=3em]
 	\setlength{\intextsep}{10pt} % Space between text and floats
 	
 	
-	\numberwithin{equation}{enumi}
-	\numberwithin{figure}{enumi}
-	\renewcommand{\thetable}{\theenumi}
+\renewcommand\theequation{\arabic{equation}}
+\renewcommand\thefigure{\arabic{figure}}
+\renewcommand{\thetable}{\theenumi}
 
 \textbf{1.5.24}\quad
 A line intersects the $Y$-axis and $X$-axis at the points
@@ -74,32 +75,38 @@ $\overline{PQ}$, then find the coordinates of $P$ and $Q$.
 % Solution for 1.5.24 (matrix method: rank + midpoint)
 \providecommand{\myvec}[1]{\begin{pmatrix}#1\end{pmatrix}}
 
-\begin{align*}
-\vec P&=\myvec{0\\ b},\quad 
-\vec Q=\myvec{c\\ 0},\quad 
+\begin{align}
+\vec P&=\myvec{0\\ b},
+\end{align}
+\begin{align}
+    \vec Q=\myvec{c\\ 0},
+\end{align} 
+
+\begin{align}
 \vec M=\myvec{2\\ -5}.
-\end{align*}
+\end{align}
 
 \textbf{(i) Rank/collinearity: } 
-\begin{align*}
+\begin{align}
 \text{Since } \vec P,\vec Q,\vec M \text{ are collinear, } 
 \operatorname{rank}\myvec{\vec P-\vec M & \vec Q-\vec M}^{\top}=1.
-\end{align*}
-\begin{align*}
+\end{align}
+\begin{align}
 \myvec{\vec P-\vec M & \vec Q-\vec M}^{\top}
 &=\myvec{-2 & c-2\\[2pt] b+5 & 5}
 \xrightarrow{\,R_2\leftarrow -2R_2-(b+5)R_1\,}
 \myvec{-2 & c-2\\[2pt] 0 & -10-(b+5)(c-2)}.
-\end{align*}
+\end{align}
 For rank \(=1\), the last entry must be \(0\):
-\begin{align*}
+\begin{align}
+\label{eq:theory}
 -10-(b+5)(c-2)=0
 \;\;\Longrightarrow\;\;
-(b+5)(c-2)=-10. \tag{*}
-\end{align*}
+(b+5)(c-2)=-10.
+\end{align}
 
 \textbf{(ii) Midpoint: }
-\begin{align*}
+\begin{align}
 \vec M=\frac{\vec P+\vec Q}{2}
 \;\Longrightarrow\;
 \myvec{2\\ -5}
@@ -107,8 +114,8 @@ For rank \(=1\), the last entry must be \(0\):
 =\frac{1}{2}\myvec{c\\ b}
 \;\Longrightarrow\;
 \myvec{c\\ b}=\myvec{4\\ -10}.
-\end{align*}
-Thus \(c=4,\; b=-10\), and these satisfy \((*)\).
+\end{align}
+Thus \(c=4,\; b=-10\), and these satisfy \ref{eq:theory}.
 
 \textbf{Answer: }
 \[

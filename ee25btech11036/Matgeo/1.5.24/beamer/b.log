@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.29)  30 AUG 2025 00:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.29)  30 AUG 2025 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1742,7 +1742,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
 <figs/fig.png, id=203, 462.528pt x 346.896pt>
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 168.
+Package pdftex.def Info: figs/fig.png  used on input line 170.
 (pdftex.def)             Requested size: 222.48985pt x 166.86812pt.
 
 
@@ -1899,7 +1899,7 @@ l.20 ...rintf("Midpoint gives: c = %d, b = %d\n\n"
                                                   , c, b);
 ? 
 )
-Overfull \vbox (13.72923pt too high) detected at line 195
+Overfull \vbox (13.72923pt too high) detected at line 197
  []
 
 
@@ -2481,7 +2481,7 @@ l.18 ...{int(M[1])})", fontsize=10, color="purple"
                                                   )
 ? 
 )
-Overfull \vbox (13.72923pt too high) detected at line 291
+Overfull \vbox (13.72923pt too high) detected at line 293
  []
 
 
@@ -2581,7 +2581,7 @@ l.15 print("Take M = (2,-5), P = (0,b), Q = (c,0)"
                                                   )
 ? 
 )
-Overfull \vbox (13.72923pt too high) detected at line 325
+Overfull \vbox (13.72923pt too high) detected at line 327
  []
 
 
@@ -2773,7 +2773,7 @@ l.20 ...t(f"b/2 = -5 =>  b = {b}   (Relation 2)\n"
                                                   )
 ? 
 )
-Overfull \vbox (49.72923pt too high) detected at line 352
+Overfull \vbox (49.72923pt too high) detected at line 354
  []
 
 
@@ -2887,7 +2887,7 @@ l.22                  textcoords="offset points"
 
 ? 
 )
-Overfull \vbox (49.72923pt too high) detected at line 377
+Overfull \vbox (49.72923pt too high) detected at line 379
  []
 
 
@@ -2898,7 +2898,7 @@ Overfull \vbox (49.72923pt too high) detected at line 377
 \openout4 = `b.vrb'.
 
  (./b.vrb)
-Overfull \vbox (1.72923pt too high) detected at line 400
+Overfull \vbox (1.72923pt too high) detected at line 402
  []
 
 
@@ -2997,10 +2997,10 @@ l.11 ...ot auto-open file. Saved at {outfile_png}"
 <figs/Figure_1.png, id=606, 578.16pt x 505.89pt>
 File: figs/Figure_1.png Graphic file (type png)
 <use figs/Figure_1.png>
-Package pdftex.def Info: figs/Figure_1.png  used on input line 419.
+Package pdftex.def Info: figs/Figure_1.png  used on input line 421.
 (pdftex.def)             Requested size: 273.83728pt x 239.6055pt.
 
-Overfull \vbox (18.53474pt too high) detected at line 419
+Overfull \vbox (18.53474pt too high) detected at line 421
  []
 
 
@@ -3010,10 +3010,10 @@ Overfull \vbox (18.53474pt too high) detected at line 419
  <./figs/Figure_1.png>]
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 425.
+Package pdftex.def Info: figs/fig.png  used on input line 427.
 (pdftex.def)             Requested size: 308.06367pt x 231.05875pt.
 
-Overfull \vbox (9.98799pt too high) detected at line 425
+Overfull \vbox (9.98799pt too high) detected at line 427
  []
 
 
@@ -3030,7 +3030,7 @@ Overfull \vbox (9.98799pt too high) detected at line 425
 \tf@snm=\write9
 \openout9 = `b.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20250830005034 92EB5FFEE6AE2FEC3AD
+runsystem(latexminted cleantemp  --timestamp 20250830115814 92EB5FFEE6AE2FEC3AD
 71C777531578F)...executed safely (allowed).
 
  (./b.aux)
@@ -3043,8 +3043,8 @@ Package rerunfilecheck Info: File `b.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  59164 strings out of 475178
- 1431221 string characters out of 5766539
- 2617940 words of memory out of 5000000
+ 1431219 string characters out of 5766539
+ 2617941 words of memory out of 5000000
  81127 multiletter control sequences out of 15000+600000
  600504 words of font info for 78 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
@@ -3057,7 +3057,7 @@ hare/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmtt10.pfb>
-Output written on b.pdf (22 pages, 302106 bytes).
+Output written on b.pdf (22 pages, 302046 bytes).
 PDF statistics:
  727 PDF objects out of 1000 (max. 8388607)
  621 compressed objects within 7 object streams
