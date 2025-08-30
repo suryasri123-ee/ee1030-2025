@@ -1,17 +1,19 @@
+
 #include <math.h>
-void midpoint(double *A , double *B , double *M , int m )
+double norm_vec_sq(double *A , int m )
 {
-    
+    double sum = 0.0; 
     for ( int i = 0 ; i < m ; i++ )
     {
-        M[i] = (A[i]+B[i])/ 2.0 ;
+        sum += pow(A[i] , 2 );
     }
-    
+    return sum; 
 }
 
-void rotate(double *IN , double *OP , double theta )
+double x_cal(double *A , double *B , double *E , double na , double nb  )
 {
-    theta = M_PI / 180.0 * theta ; // converting to radian
-    OP[0] = cos(theta)*IN[0] - sin(theta)*IN[1] ; 
-    OP[1] = sin(theta) * IN[0] + cos(theta) * IN[1] ; 
+    double x , k ; 
+    k = (A[0]-B[0])*E[0] + (A[1]-B[1])*E[1];  
+    x = (na - nb) / (2*k);
+    return x; 
 }

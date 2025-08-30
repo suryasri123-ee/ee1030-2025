@@ -3,41 +3,44 @@ import numpy as np
 import matplotlib.pyplot as plt
 handc1 = ctypes.CDLL("./func.so")
 
-handc1.midpoint.argtypes = [
-    ctypes.POINTER(ctypes.c_double),
-    ctypes.POINTER(ctypes.c_double),
-    ctypes.POINTER(ctypes.c_double),
-    ctypes.c_int
-]
+def norm_cal ( A: np.ndarray , m) :
+    handc1.norm_vec_sq.argtypes = [
+        ctypes.POINTER(ctypes.c_double),
+        ctypes.c_int
+    ]
 
-handc1.midpoint.restype = None
+    handc1.norm_vec_sq.restype = ctypes.c_double
+
+    return handc1.norm_vec_sq (
+        A.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),m
+    )
+
+
 A = np.array([[-5],[-2]], dtype=np.float64).reshape(-1,1)
 B = np.array([[4],[-2]], dtype=np.float64).reshape(-1,1)
-M = np.zeros(2,dtype=np.float64).reshape(-1,1)
+n1 = norm_cal(A,2)
+n2 = norm_cal(B,2)
 
-handc1.midpoint (
-    A.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
-    B.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
-    M.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),2
-)
-AB = np.array([[9],[0]],dtype=np.float64)
-theta = 90
-handc1.rotate.argtypes = [
+handc1.x_cal.argtypes = [
     ctypes.POINTER(ctypes.c_double),
     ctypes.POINTER(ctypes.c_double),
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.c_double,
     ctypes.c_double
 ]
 
-handc1.rotate.restype = None
+e = np.array([[1],[0]],dtype=np.float64).reshape(-1,1)
 
-per = np.zeros(2,dtype=np.float64).reshape(-1,1)
+handc1.x_cal.restype = ctypes.c_double
 
-handc1.rotate(
-    AB.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
-    per.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),theta
+x = handc1.x_cal(
+    A.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
+    B.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
+    e.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
+    n1,n2
 )
 
-Q = M + 2 / 9 * per
+Q = np.array([[x],[0]], dtype=np.float64).reshape(-1,1)
 
 def line_cre(P: np.ndarray , Q: np.ndarray, str):
     handc2 = ctypes.CDLL("./line_gen.so")
@@ -66,16 +69,14 @@ def line_cre(P: np.ndarray , Q: np.ndarray, str):
 
 
 
+
 plt.figure()
-
 line_cre(A,B,"g-")
-line_cre(Q,M,"r-")
+line_cre(Q,(A+B)/2,"r-")
 
-coords = np.block([[A,B,M,Q]])
+coords = np.block([[A,B,Q]])
 plt.scatter(coords[0,:],coords[1,:])
-vert_labels = ['A','B','M','Q']
-#for i , txt in enumerate(vert_labels):
- #   plt.annotate(txt,(coords[0,i],coords[1,i]),textcoords="offset points", xytext=(0,10),ha='center')
+vert_labels = ['A','B','Q']
 
 for i, txt in enumerate(vert_labels):
     plt.annotate(f'{txt}\n({coords[0,i]:.1f}, {coords[1,i]:.1f})',

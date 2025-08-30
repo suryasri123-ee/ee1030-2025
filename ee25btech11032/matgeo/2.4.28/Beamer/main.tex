@@ -16,6 +16,7 @@
 \usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{gensymb}
+\usepackage{gensymb}
 
 \setbeamertemplate{page number in head/foot}[totalframenumber]
 
@@ -87,101 +88,80 @@
 
 \frame{\titlepage}
 \begin{frame}{Question}
-Find the coordinates of the point $\vec{Q}$ on the x-axis which lies on the perpendicular bisector of the line segment joining the points $\vec{A} \brak{-5,-2} \text{ and } \vec{B} \brak{4,-2}$. Name the type of triangle formed by points $\vec{Q}, \vec{A} \text{ and } \vec{B}$.
+Find the coordinates of the point $\vec{Q}$ on the $x$-axis which lies on the perpendicular bisector of the line segment joining the points $\vec{A} \brak{-5,-2} \text{ and } \vec{B} \brak{4,-2}$. Name the type of triangle formed by points $\vec{Q}, \vec{A} \text{ and } \vec{B}$.
 \end{frame}
 
 
 
-\begin{frame}{Theoretical Solution}
-Given,
-
-\begin{align}
-    \vec{A} = \myvec{-5\\-2} , \vec{B} = \myvec{4\\-2}      
-\end{align}
-
-Let $\vec{M}$ be the midpoint of $\vec{AB}$
-
-\end{frame}
+% \begin{frame}{Theoretical Solution}
+% \begin{table}[H]
+% \centering
+% \input{tables/table.tex}
+% \caption*{Table:2.4.28}
+% \label{Table:2.4.28}	
+% \end{table}
+% \end{frame}
 
 \begin{frame}{Theoretical Solution}
-
+ If $\vec{Q}$ lies on the  $x$-axis and on the perpendicular bisector of the points $\vec{A}$ and $\vec{B}$, i.e $\vec{Q}$ is equidistant from points $\vec{A}$ and $\vec{B}$
 \begin{align}
-    \vec{M} &= \frac{1}{2}\brak{\vec{A} + \vec{B}}\\
-     &= \frac{1}{2}\brak{\myvec{-5\\-2} + \myvec{4\\-2}}\\
-     &= \myvec{-0.5 \\ -2}
-\end{align}
-
-\end{frame}
-
-\begin{frame}{Theoretical Solution}
-
-To find the direction vector of perpendicular bisector , we can find the direction vector of $\vec{AB}$ and then rotate it by $90\degree$
-
-Direction Vector of $\vec{AB}$ (represented by $\vec{V_{AB}}$): 
-\begin{align}
-    \vec{B} - \vec{A} = \vec{V_{AB}} = \myvec{4\\-2} - \myvec{-5\\-2} = \myvec{9 \\ 0 }
-\end{align}
-
-Rotation Matrix : 
-\begin{align}
-    R\brak{\theta} = \myvec{\cos{\theta} & -\sin{\theta} \\ \sin{\theta} & \cos{\theta}}
+ \norm{\vec{Q}-\vec{A}} &=
+\norm{\vec{Q}-\vec{B}} 
+\\
+ \implies \norm{\vec{Q}-\vec{A}}^2 &=
+\norm{\vec{Q}-\vec{B}}^2 
+\\
+ \implies \norm{\vec{Q}}^2-2{\vec{Q}}^{\top}\vec{A} + \norm{\vec{A}}^2
+	&= \norm{\vec{Q}}^2-2{\vec{Q}}^{\top}\vec{B} + \norm{\vec{B}}^2,
 \end{align}
 \end{frame}
 
 \begin{frame}{Theoretical Solution}
-Direction Vector for perpendicular bisector (represented by $\vec{V}$) : 
-
-\begin{align}
-    \vec{V} = R\brak{90 \degree } \vec{V_{AB}} = \myvec{0 & -1 \\ 1 & 0}\myvec{9 \\ 0} = \myvec{0 \\ 9 }
-\end{align}
-
-Any arbitrary vector on perpendicular bisector can be given by : 
-
-\begin{align}
-    \vec{Q} = \vec{M} + t\vec{V} \text{ where } t \in \mathbb{R}
-\end{align}
-
+which can be simplified to obtain, 
+  \begin{align}
+	  \brak{\vec{A}-\vec{B}}^\top   \vec{Q}&=\frac{\norm{\vec{A}}^2 -\norm{\vec{B}}^2 }{2}.
+  \end{align}
+  \begin{align}
+  \because \vec{Q} &= x\vec{e}_1,
+  \end{align}
+  \begin{align}
+   x &=\frac{\norm{\vec{A}}^2 -\norm{\vec{B}}^2 }{2\brak{\vec{A}-\vec{B}}^{\top }\vec{e}_1.}
+  \end{align} 
+  
 \end{frame}
 
 \begin{frame}{Theoretical Solution}
-Finding $\vec{Q}$ , 
 \begin{align}
-    \vec{Q} = \myvec{-0.5 \\ -2 } + t\myvec{0 \\ 9} 
-\end{align}
-\begin{align}
-    \vec{Q} = \myvec{-0.5 \\ -2 + 9t}
-\end{align}
-Since y-coordinate of $\vec{Q}$ is zero 
-\begin{align}
-    \vec{Q} = \myvec{-0.5 \\ 0 }
-\end{align}   
-
-\end{frame}
-
-\begin{frame}{Theoretical Solution}
+      \norm{\vec{A}}^2 = 29 , \norm{\vec{B}}^2 = 20   
+  \end{align}
+    \begin{align}
+        \brak{\vec{A}-\vec{B}}^{\top} = \myvec{-9 & 0 } , \vec{e}_1 = \myvec{1 \\ 0} 
+    \end{align}
+    Substituting from $\brak{0.7}$ and $\brak{0.8}$,
+ $x =  -0.5$.  Thus, 
+		\begin{align}
+        \vec{Q} = \myvec{-0.5 \\ 0}.
+		\end{align}
+		
 Since $\vec{Q}$ lies on perpendicular bisector of $\vec{AB}$ , it is equidistant from both $\vec{A}$ and $\vec{B}$
 \begin{align}
     \norm{\vec{Q} - \vec{A}} = \norm{\vec{Q} - \vec{B}}
 \end{align}
 Hence $\triangle ABQ$ is an isosceles triangle.
-
-
 \end{frame}
 
 \begin{frame}[fragile]
-    \frametitle{C Code (1) - Function to find Mid Point of Two given vectors }
-
-    \begin{lstlisting}
-    
+    \frametitle{C Code (1) - Function to find norm square }
+    \begin{lstlisting}  
 #include <math.h>
-void midpoint(double *A , double *B , double *M , int m )
+double norm_vec_sq(double *A , int m )
 {
-    
+    double sum = 0.0; 
     for ( int i = 0 ; i < m ; i++ )
     {
-        M[i] = (A[i]+B[i])/ 2.0 ;
+        sum += pow(A[i] , 2 );
     }
-    
+    return sum; 
 }
     \end{lstlisting}
 \end{frame}
@@ -189,16 +169,16 @@ void midpoint(double *A , double *B , double *M , int m )
 
 
 \begin{frame}[fragile]
-    \frametitle{C Code (2) - Function to rotate a Direction Vector by theta$\degree$}
+    \frametitle{C Code (2) - Function to $x$}
     \begin{lstlisting}
 
-void rotate(double *IN , double *OP , double theta )
+double x_cal(double *A , double *B , double *E , double na , double nb  )
 {
-    theta = M_PI / 180.0 * theta ; // converting to radian
-    OP[0] = cos(theta)*IN[0] - sin(theta)*IN[1] ; 
-    OP[1] = sin(theta) * IN[0] + cos(theta) * IN[1] ; 
+    double x , k ; 
+    k = (A[0]-B[0])*E[0] + (A[1]-B[1])*E[1];  
+    x = (na - nb) / (2*k);
+    return x; 
 }
-
     \end{lstlisting}
 \end{frame}
 
@@ -232,46 +212,52 @@ import numpy as np
 import matplotlib.pyplot as plt
 handc1 = ctypes.CDLL("./func.so")
 
-handc1.midpoint.argtypes = [
-    ctypes.POINTER(ctypes.c_double),
-    ctypes.POINTER(ctypes.c_double),
-    ctypes.POINTER(ctypes.c_double),
-    ctypes.c_int
-]
+def norm_cal ( A: np.ndarray , m) :
+    handc1.norm_vec_sq.argtypes = [
+        ctypes.POINTER(ctypes.c_double),
+        ctypes.c_int
+    ]
 
-handc1.midpoint.restype = None
-A = np.array([[-5],[-2]], dtype=np.float64).reshape(-1,1)
-B = np.array([[4],[-2]], dtype=np.float64).reshape(-1,1)
-M = np.zeros(2,dtype=np.float64).reshape(-1,1)
+    handc1.norm_vec_sq.restype = ctypes.c_double
 
+    return handc1.norm_vec_sq (
+        A.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),m
+    )
 \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile]
     \frametitle{Python Code - Using Shared Object}
     \begin{lstlisting} 
-handc1.midpoint (
-    A.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
-    B.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
-    M.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),2)
-AB = np.array([[9],[0]],dtype=np.float64)
-theta = 90
-handc1.rotate.argtypes = [
+A = np.array([[-5],[-2]], dtype=np.float64).reshape(-1,1)
+B = np.array([[4],[-2]], dtype=np.float64).reshape(-1,1)
+n1 = norm_cal(A,2)
+n2 = norm_cal(B,2)
+
+handc1.x_cal.argtypes = [
     ctypes.POINTER(ctypes.c_double),
     ctypes.POINTER(ctypes.c_double),
-    ctypes.c_double]
-
-handc1.rotate.restype = None
-per = np.zeros(2,dtype=np.float64).reshape(-1,1)
-handc1.rotate(AB.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
-    per.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),theta)
-
-Q = M + 2 / 9 * per
-
+    ctypes.POINTER(ctypes.c_double),
+    ctypes.c_double,
+    ctypes.c_double
+    ]
 
 \end{lstlisting}
 \end{frame}
+\begin{frame}[fragile]
+    \frametitle{Python Code - Using Shared Object}
+    \begin{lstlisting}
+e = np.array([[1],[0]],dtype=np.float64).reshape(-1,1)
+handc1.x_cal.restype = ctypes.c_double
 
+x = handc1.x_cal(
+    A.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
+    B.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
+    e.ctypes.data_as(ctypes.POINTER(ctypes.c_double)),
+    n1,n2)
+Q = np.array([[x],[0]], dtype=np.float64).reshape(-1,1)
+\end{lstlisting}
+\end{frame}
 \begin{frame}[fragile]
     \frametitle{Python Code - Using Shared Object}
     \begin{lstlisting}
@@ -312,11 +298,11 @@ n = 200
     \begin{lstlisting}
 plt.figure()
 line_cre(A,B,"g-")
-line_cre(Q,M,"r-")
+line_cre(Q,(A+B)/2,"r-")
 
-coords = np.block([[A,B,M,Q]])
+coords = np.block([[A,B,Q]])
 plt.scatter(coords[0,:],coords[1,:])
-vert_labels = ['A','B','M','Q']
+vert_labels = ['A','B','Q']
 #for i , txt in enumerate(vert_labels):
 #plt.annotate(txt,(coords[0,i],coords[1,i]),textcoords="offset points", xytext=(0,10),ha='center')
 
@@ -374,18 +360,15 @@ from line.funcs import *
 \begin{frame}[fragile]
     \frametitle{Python Code }
     \begin{lstlisting}
+
 A = np.array([-5,-2]).reshape(-1,1)
 B = np.array([4,-2]).reshape(-1,1)
-M = (A+B)/2
-AB = np.array([9,0]).reshape(-1,1)
-theta = 90
-theta = np.deg2rad(theta)
-x,y = AB
-x_1 = np.cos(theta)*x - np.sin(theta)*y
-y_1 = np.sin(theta)*x + np.cos(theta)*y
-per = np.array([x_1,y_1]).reshape(-1,1)
+e1 = np.array([1,0]).reshape(-1,1)
 
-Q = M +2/9*per
+x = (LA.norm(A)**2 - LA.norm(B)**2)/(2*np.dot((A-B).T,e1))
+#x = float(x)
+x = np.squeeze(x)
+Q = np.array([[x],[0]],dtype=np.float64).reshape(-1,1)
 
 def plot_it(P,Q,str):
     x_l = line_gen_num(P,Q,20)
@@ -399,11 +382,11 @@ def plot_it(P,Q,str):
 
 plt.figure()
 plot_it(A,B,"g-")
-plot_it(M,Q,"r-")
+plot_it((A+B)/2,Q,"r-")
 
-coords = np.block([[A,B,M,Q]])
+coords = np.block([[A,B,Q]])
 plt.scatter(coords[0,:],coords[1,:])
-vert_labels = ['A','B','M','Q']
+vert_labels = ['A','B','Q']
 #for i , txt in enumerate(vert_labels):
  #   plt.annotate(txt,(coords[0,i],coords[1,i]),textcoords="offset points", xytext=(0,10),ha='center')
 for i, txt in enumerate(vert_labels):

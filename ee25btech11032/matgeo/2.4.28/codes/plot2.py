@@ -1,5 +1,5 @@
 import math
-import sys 
+import sys
 sys.path.insert(0, '/home/kartik-lahoti/matgeo/codes/CoordGeo')
 import numpy as np
 import numpy.linalg as LA
@@ -15,20 +15,14 @@ from line.funcs import *
 #import subprocess
 #import shlex
 
-
-
 A = np.array([-5,-2]).reshape(-1,1)
 B = np.array([4,-2]).reshape(-1,1)
-M = (A+B)/2
-AB = np.array([9,0]).reshape(-1,1)
-theta = 90
-theta = np.deg2rad(theta)
-x,y = AB
-x_1 = np.cos(theta)*x - np.sin(theta)*y
-y_1 = np.sin(theta)*x + np.cos(theta)*y
-per = np.array([x_1,y_1]).reshape(-1,1)
+e1 = np.array([1,0]).reshape(-1,1)
 
-Q = M +2/9*per
+x = (LA.norm(A)**2 - LA.norm(B)**2)/(2*np.dot((A-B).T,e1))
+#x = float(x)
+x = np.squeeze(x)
+Q = np.array([[x],[0]],dtype=np.float64).reshape(-1,1)
 
 def plot_it(P,Q,str):
     x_l = line_gen_num(P,Q,20)
@@ -37,15 +31,12 @@ def plot_it(P,Q,str):
 plt.figure()
 
 plot_it(A,B,"g-")
-plot_it(M,Q,"r-")
+plot_it((A+B)/2,Q,"r-")
 
-
-
-coords = np.block([[A,B,M,Q]])
+coords = np.block([[A,B,Q]])
 plt.scatter(coords[0,:],coords[1,:])
-vert_labels = ['A','B','M','Q']
-#for i , txt in enumerate(vert_labels):
- #   plt.annotate(txt,(coords[0,i],coords[1,i]),textcoords="offset points", xytext=(0,10),ha='center')
+vert_labels = ['A','B','Q']
+
 for i, txt in enumerate(vert_labels):
     plt.annotate(f'{txt}\n({coords[0,i]:.1f}, {coords[1,i]:.1f})',
                  (coords[0,i], coords[1,i]),
@@ -56,7 +47,7 @@ plt.xlim([-6,6])
 plt.ylim([-4,2])
 plt.xlabel('$x$')
 plt.ylabel('$y$')
-plt.legend(loc='best')
+#plt.legend(loc='best')
 plt.grid()
 
 plt.title("Fig:2.4.28")
