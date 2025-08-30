@@ -96,7 +96,7 @@ $A = (1, 2)$ and $B = (2, 3)$. Also, find the value of $y$.
 \begin{frame}{Collinearity Condition}
 Points \textbf{A}, \textbf{B}, and \textbf{P} are collinear:
 $
-\implies \text{rank} \myvec {\vec{B} - \vec{A} & \vec{P} - \vec{A}}  = 1
+\implies \text{rank} \myvec {\vec{B} - \vec{A} & \vec{P} - \vec{A}}^T  = 1
 $
 
 Calculate vectors:
@@ -110,21 +110,21 @@ Calculate vectors:
 Matrix:
 $
 \myvec{
-1 & 7 \\
-1 & y - 2}
+1 & 1 \\
+7 & y - 2}
 $
 
 Row reduce:
 $
-R_1 \rightarrow R_1 - R_2 \implies
+R_2 \rightarrow R_2 - 7R_1 \implies
 \myvec{
-0 & 9 - y \\
-1 & y - 2}
+1 & 1 \\
+0 & y - 9}
 $
 
 For rank 1:
 $
-9 - y = 0 \implies y = 9
+y - 9 = 0 \implies y = 9
 $
 
 $

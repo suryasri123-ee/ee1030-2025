@@ -84,7 +84,7 @@ Given $P = \myvec{8 \\ y}$
 The points $A$, $B$, $P$ are collinear.
 
 \begin{align}
-\implies \text{rank} \begin{pmatrix} \vec{B}-\vec{A} & \vec{P}-\vec{A} \end{pmatrix} = 1
+\implies \text{rank} \myvec{ \vec{B}-\vec{A} & \vec{P}-\vec{A} }^T = 1
 \end{align}
 
 \begin{align}
@@ -94,33 +94,33 @@ The points $A$, $B$, $P$ are collinear.
 
 Therefore, our matrix is:
 \begin{align}
-\begin{pmatrix}
-1 & 7 \\
-1 & y-2
-\end{pmatrix}
+\myvec{
+1 & 1 \\
+7 & y-2
+}
 \end{align}
 
 Row reducing:
 \begin{align}
-R_1 \rightarrow R_1 - R_2 \implies
-\begin{pmatrix}
-0 & 9-y \\
-1 & y-2
-\end{pmatrix}
+R_2 \rightarrow R_2 - 7R_1 \implies
+\myvec{
+1 & 1 \\
+0 & y-9
+}
 \end{align}
 
 For the above matrix to be of rank 1,
 \begin{align}
-9-y = 0 \implies y = 9
+y-9 = 0 \implies y = 9
 \end{align}
 
 $\therefore$ The coordinates of the point of division are
 \begin{align*}
-P = \myvec{8 \\ 9}
+\vec{P} = \myvec{8 \\ 9}
 \end{align*}
 
 \begin{align}
-    \textbf{P} = \frac{k\textbf{B}+\textbf{A}}{k+1}
+    \vec{P} = \frac{k\vec{B}+\vec{A}}{k+1}
 \end{align}
 
 \begin{align}
