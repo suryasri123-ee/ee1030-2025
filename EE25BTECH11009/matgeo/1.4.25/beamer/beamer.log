@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  30 AUG 2025 02:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  30 AUG 2025 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,85 +694,122 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dimb=\dimen293
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks46
+\inpenc@posthook=\toks47
+)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count336
-\calc@Bcount=\count337
-\calc@Adimen=\dimen294
-\calc@Bdimen=\dimen295
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count338
-\calc@Cskip=\skip67
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Info: Redefining \not on input line 1043.
+LaTeX Info: Redefining \textsquare on input line 1063.
+LaTeX Info: Redefining \openbox on input line 1064.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-)
-\g_MT_multlinerow_int=\count339
-\l_MT_multwidth_dim=\dimen296
-\origjot=\skip68
-\l_MT_shortvdotswithinadjustabove_dim=\dimen297
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen298
-\l_MT_above_intertext_sep=\dimen299
-\l_MT_below_intertext_sep=\dimen300
-\l_MT_above_shortintertext_sep=\dimen301
-\l_MT_below_shortintertext_sep=\dimen302
-\xmathstrut@box=\box76
-\xmathstrut@dim=\dimen303
-)
-(/usr/share/texlive/texmf-dist/tex/latex/gensymb/gensymb.sty
-Package: gensymb 2022/10/17 v1.0.2 (KJH)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen304
-\captionmargin=\dimen305
-\caption@leftmargin=\dimen306
-\caption@rightmargin=\dimen307
-\caption@width=\dimen308
-\caption@indent=\dimen309
-\caption@parindent=\dimen310
-\caption@hangindent=\dimen311
-Package caption Info: beamer document class detected.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
-File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
-e beamer document classes (AR)
-))
-\c@caption@flags=\count340
-\c@continuedfloat=\count341
-Package caption Info: hyperref package is loaded.
-Package caption Info: Hyperref support is turned off
-(caption)             because hyperref has stopped early.
-)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+2024/02/04 5.06c tkz-euclide.sty
+Package: tkz-euclide  2024/02/04 5.06c for pure Euclidean Geometry 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box77
+\pgfnodeparttextbox=\box76
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen312
-\pgf@nodesepend=\dimen313
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -780,10 +817,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen314
-\pgffor@skip=\dimen315
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -791,93 +828,745 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count342
-\pgfplotmarksize=\dimen316
+\pgf@plot@mark@count=\count336
+\pgfplotmarksize=\dimen298
 )
-\tikz@lastx=\dimen317
-\tikz@lasty=\dimen318
-\tikz@lastxsaved=\dimen319
-\tikz@lastysaved=\dimen320
-\tikz@lastmovetox=\dimen321
-\tikz@lastmovetoy=\dimen322
-\tikzleveldistance=\dimen323
-\tikzsiblingdistance=\dimen324
-\tikz@figbox=\box78
-\tikz@figbox@bg=\box79
-\tikz@tempbox=\box80
-\tikz@tempbox@bg=\box81
-\tikztreelevel=\count343
-\tikznumberofchildren=\count344
-\tikznumberofcurrentchild=\count345
-\tikz@fig@count=\count346
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count337
+\tikznumberofchildren=\count338
+\tikznumberofcurrentchild=\count339
+\tikz@fig@count=\count340
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count347
-\pgfmatrixcurrentcolumn=\count348
-\pgf@matrix@numberofcolumns=\count349
+\pgfmatrixcurrentrow=\count341
+\pgfmatrixcurrentcolumn=\count342
+\pgf@matrix@numberofcolumns=\count343
 )
-\tikz@expandcount=\count350
+\tikz@expandcount=\count344
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen307
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen308
+\pgfarrowlength=\dimen309
+\pgfarrowwidth=\dimen310
+\pgfarrowlinewidth=\dimen311
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box81
+\pgf@layerboxsaved@background=\box82
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count351
-\lst@gtempboxa=\box82
-\lst@token=\toks48
-\lst@length=\count352
-\lst@currlwidth=\dimen325
-\lst@column=\count353
-\lst@pos=\count354
-\lst@lostspace=\dimen326
-\lst@width=\dimen327
-\lst@newlines=\count355
-\lst@lineno=\count356
-\lst@maxwidth=\dimen328
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen312
+\pgfdecoratedremainingdistance=\dimen313
+\pgfdecoratedinputsegmentcompleteddistance=\dimen314
+\pgfdecoratedinputsegmentremainingdistance=\dimen315
+\pgf@decorate@distancetomove=\dimen316
+\pgf@decorate@repeatstate=\count345
+\pgfdecorationsegmentamplitude=\dimen317
+\pgfdecorationsegmentlength=\dimen318
+)
+\tikz@lib@dec@box=\box83
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.shapes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.shapes.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.text.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.text.code.tex
+\pgf@lib@dec@text@box=\box84
+)
+\tikz@lib@dec@te@box=\box85
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryintersections.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
+s.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+\pgf@intersect@solutions=\count346
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfpu.code.tex)
+\tikz@math@for@depth=\count347
+\tikz@math@dimen=\dimen319
+\tikz@math@toks=\toks50
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count348
+\l__pdf_internal_box=\box86
+))
+Package: xfp 2023-10-10 L3 Floating point unit
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+))
+\tkzRadius=\dimen320
+\tkzLength=\dimen321
+\tkz@radi=\dimen322
+\tkz@ax=\dimen323
+\tkz@ay=\dimen324
+\tkz@bx=\dimen325
+\tkz@by=\dimen326
+\tkz@cx=\dimen327
+\tkz@cy=\dimen328
+\tkz@dx=\dimen329
+\tkz@dy=\dimen330
+\tkz@cntmk=\count349
+
+Local configuration file tkz-euclide.cfg found and used
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
+2024/02/04 5.06c tkz-euclide.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
+2024/02/04 5.06c tkz-tools-eu-base.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
+2024/02/04 5.06c tkz-tools-eu-utilities.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
+2024/02/04 5.06c tkz-obj-eu-BB.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
+2024/02/04 5.06c tkz-obj-eu-grids.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
+2024/02/04 5.06c tkz-lib-eu-marks.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
+2024/02/04 5.06c tkz-tools-eu-text.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
+2024/02/04 5.06c tkz-lib-eu-shape.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.tex
+2024/02/04 5.06c tkz-obj-eu-axesmin
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
+2024/02/04 5.06c tkz-tools-eu-colors
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2024/02/04 5.06c tkz-obj-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
+2024/02/04 5.06c tkz-draw-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2024/02/04 5.06c tkz-obj-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
+2024/02/04 5.06c tkz-tools-eu-points-by.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
+2024/02/04 5.06c tkz-tools-eu-math.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections
+.tex
+2024/02/04 5.06c tkz-tools-eu-intersections.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
+2024/02/04 5.06c tkz-obj-eu-points-with.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
+2024/02/04 5.06c tkz-obj-el-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
+2024/02/04 5.06c tkz-tools-eu-angles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
+2024/02/04 5.06c tkz-obj-eu-circles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by.tex
+2024/02/04 5.06c tkz-obj-eu-circles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
+2024/02/04 5.06c tkz-obj-eu-points-rnd.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
+2024/02/04 5.06c tkz-obj-eu-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
+2024/02/04 5.06c tkz-obj-eu-polygons.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
+2024/02/04 5.06c tkz-obj-eu-triangles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
+2024/02/04 5.06c tkz-obj-eu-draw-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
+2024/02/04 5.06c tkz-obj-eu-draw-circles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
+2024/02/04 5.06c tkz-obj-eu-draw-ellipses.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
+2024/02/04 5.06c tkz-obj-eu-polygons.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
+2024/02/04 5.06c tkz-tool-eu-angles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-sectors.tex
+2024/02/04 5.06c tkz-obj-eu-sectors.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
+2024/02/04 5.06c tkz-obj-eu-compass.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-show.tex
+2024/02/04 5.06c tkz-obj-eu-show.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
+2024/02/04 5.06c tkz-obj-eu-protractor.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count350
+\lst@gtempboxa=\box87
+\lst@token=\toks51
+\lst@length=\count351
+\lst@currlwidth=\dimen331
+\lst@column=\count352
+\lst@pos=\count353
+\lst@lostspace=\dimen332
+\lst@width=\dimen333
+\lst@newlines=\count354
+\lst@lineno=\count355
+\lst@maxwidth=\dimen334
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count357
-\lst@skipnumbers=\count358
-\lst@framebox=\box83
+\c@lstnumber=\count356
+\lst@skipnumbers=\count357
+\lst@framebox=\box88
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count359
-\l__pdf_internal_box=\box84
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
 )
-(./beamer.aux)
+\XKV@depth=\count358
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box89
+)
+\tc@llx=\dimen335
+\tc@lly=\dimen336
+\tc@urx=\dimen337
+\tc@ury=\dimen338
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen339
+\adjbox@Height=\dimen340
+\adjbox@Depth=\dimen341
+\adjbox@Totalheight=\dimen342
+\adjbox@pwidth=\dimen343
+\adjbox@pheight=\dimen344
+\adjbox@pdepth=\dimen345
+\adjbox@ptotalheight=\dimen346
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count359
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box90
+\sift@deathcycles=\count360
+\@vwid@loff=\dimen347
+\@vwid@roff=\dimen348
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen349
+\ar@mcellbox=\box91
+\extrarowheight=\dimen350
+\NC@list=\toks54
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box92
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen351
+\TX@old@table=\dimen352
+\TX@old@col=\dimen353
+\TX@target=\dimen354
+\TX@delta=\dimen355
+\TX@cols=\count361
+\TX@ftn=\toks55
+) (./gvv.sty
+\c@rem=\count362
+
+
+! LaTeX Error: Command \solution already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...{\solution}{\noindent \textbf{Solution: }}
+                                                  
+? R
+OK, entering \nonstopmode...
+\c@matchleft=\count363
+\c@matchright=\count364
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/txr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/txmi/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/txsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/txex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/bx/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/bx/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/bx/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/txr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/txss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/txr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/txtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/b/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/b/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2023/12/09{} The CircuiTikz circuit drawing package version
+ 1.6.6
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.te
+x
+File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransf
+ormations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgftransformnonlinearflatness=\dimen356
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.
+code.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen357
+\pgf@curvilinear@length@a=\dimen358
+\pgf@curvilinear@length@b=\dimen359
+\pgf@curvilinear@length@c=\dimen360
+\pgf@curvilinear@length@d=\dimen361
+)
+\pgf@arrows@the@rigidity=\dimen362
+))
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count365
+\pgf@circ@count@b=\count366
+\pgf@circ@count@c=\count367
+\pgf@circ@res@up=\dimen363
+\pgf@circ@res@down=\dimen364
+\pgf@circ@res@zero=\dimen365
+\pgf@circ@res@left=\dimen366
+\pgf@circ@res@right=\dimen367
+\pgf@circ@res@other=\dimen368
+\pgf@circ@res@step=\dimen369
+\pgf@circ@res@temp=\dimen370
+\pgf@circ@Rlen=\dimen371
+\pgf@circ@scaled@Rlen=\dimen372
+\pgfstartlinewidth=\dimen373
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
+\ctikz@scratchbox=\box93
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count368
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+\pgfcirc@labelshift=\dimen374
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks56
+\verbatim@line=\toks57
+\verbatim@in@stream=\read3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box94
+\tcb@upperbox=\box95
+\tcb@lowerbox=\box96
+\tcb@phantombox=\box97
+\c@tcbbreakpart=\count369
+\c@tcblayer=\count370
+\c@tcolorbox@number=\count371
+\l__tcobox_tmpa_box=\box98
+\l__tcobox_tmpa_dim=\dimen375
+\tcb@temp=\box99
+\tcb@temp=\box100
+\tcb@temp=\box101
+\tcb@temp=\box102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
+Library (tcolorbox): 'tcbminted.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvr
+b
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count372
+\FV@InFile=\read4
+\FV@TabBox=\box103
+\c@FancyVerbLine=\count373
+\FV@StepNumber=\count374
+\FV@OutFile=\write5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count375
+\output=\toks58
+\linenoprevgraf=\count376
+\linenumbersep=\dimen376
+\linenumberwidth=\dimen377
+\c@linenumber=\count377
+\c@pagewiselinenumber=\count378
+\c@LN@truepage=\count379
+\c@internallinenumber=\count380
+\c@internallinenumbers=\count381
+\quotelinenumbersep=\dimen378
+\bframerule=\dimen379
+\bframesep=\dimen380
+\bframebox=\box104
+\linenoamsmath@ams@eqpen=\count382
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count383
+\c@FancyVerbBufferIndex=\count384
+\c@FancyVerbBufferLength=\count385
+\c@FancyVerbBufferLine=\count386
+\c@FV@oldbufferlength=\count387
+\c@FV@TrueTabGroupLevel=\count388
+\c@FV@TrueTabCounter=\count389
+\FV@TabBox@Group=\box105
+\FV@TmpLength=\skip67
+\c@FV@HighlightLinesStart=\count390
+\c@FV@HighlightLinesStop=\count391
+\FV@LoopCount=\count392
+\FV@NCharsBox=\box106
+\FV@BreakIndent=\dimen381
+\FV@BreakIndentNChars=\count393
+\FV@BreakSymbolSepLeft=\dimen382
+\FV@BreakSymbolSepLeftNChars=\count394
+\FV@BreakSymbolSepRight=\dimen383
+\FV@BreakSymbolSepRightNChars=\count395
+\FV@BreakSymbolIndentLeft=\dimen384
+\FV@BreakSymbolIndentLeftNChars=\count396
+\FV@BreakSymbolIndentRight=\dimen385
+\FV@BreakSymbolIndentRightNChars=\count397
+\c@FancyVerbLineBreakLast=\count398
+\FV@LineBox=\box107
+\FV@LineIndentBox=\box108
+\c@FV@BreakBufferDepth=\count399
+\FV@LineWidth=\dimen386
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count400
+\xs_countb=\count401
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip68
+\fb@frw=\dimen387
+\fb@frh=\dimen388
+\FrameRule=\dimen389
+\FrameSep=\dimen390
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count402
+\float@exts=\toks59
+\float@box=\box109
+\@float@everytoks=\toks60
+\@floatcapt=\box110
+)
+\minted@appexistsfile=\read5
+\minted@bgbox=\box111
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count403
+\c@minted@pygmentizecounter=\count404
+\@float@every@listing=\toks61
+\c@listing=\count405
+)
+runsystem(mkdir -p _minted-beamer)...disabled (restricted).
+
+
+
+! Package minted Error: You must invoke LaTeX with the -shell-escape flag.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \RequirePackage{minted}[2021/12/24]
+                                        
+Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for
+ more information.
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count406
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box112
+\tcb@totalupperbox=\box113
+\tcb@totallowerbox=\box114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '6.2.0'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.te
+x
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box115
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+)
+runsystem(command -v pygmentize && touch beamer.aex)...disabled (restricted).
+
+
+
+! Package minted Error: You must have `pygmentize' installed to use this packag
+e.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \begin{document}
+                     
+Refer to the installation instructions in the minted documentation for more inf
+ormation.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+86.
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+No file beamer.aux.
 \openout1 = `beamer.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 86.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+86.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 86.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+86.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 86.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+86.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 86.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
+6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -915,17 +1604,17 @@ LaTeX Font Info:    ... okay on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count360
-\scratchdimen=\dimen329
-\scratchbox=\box85
-\nofMPsegments=\count361
-\nofMParguments=\count362
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count363
-\MPscratchDim=\dimen330
-\MPnumerator=\count364
-\makeMPintoPDFobject=\count365
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count407
+\scratchdimen=\dimen391
+\scratchbox=\box116
+\nofMPsegments=\count408
+\nofMParguments=\count409
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count410
+\MPscratchDim=\dimen392
+\MPnumerator=\count411
+\makeMPintoPDFobject=\count412
+\everyMPtoPDFconversion=\toks63
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -935,64 +1624,56 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 59.
-
-(./beamer.out) (./beamer.out)
-\@outlinefile=\write5
-\openout5 = `beamer.out'.
+Package hyperref Info: Link coloring OFF on input line 86.
+\@outlinefile=\write7
+\openout7 = `beamer.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 59.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 86.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 59.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 86.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 86.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 86.
+\symnumbers=\mathgroup10
+\sympureletters=\mathgroup11
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 59.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 86.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 59.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 59.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 86.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 59.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 59.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 86.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 59.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 59.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 86.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 59.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 59.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 86.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 59.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 86.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 59.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 59.
+(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 59.
+(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 59.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 59.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 59.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 59.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
-9.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 5
-9.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 59.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1018,150 +1699,344 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \celsius on input line 59.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 59.
+\c@lstlisting=\count413
 
+No file beamer.nav.
+[1
 
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 59.
-Package gensymb Info: Using \Omega for \ohm on input line 59.
-
-Package gensymb Warning: Not defining \micro.
-
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count366
-(./beamer.nav) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-rm.enc}]
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+3.
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+93.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 69.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+93.
 
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-[2
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 93.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
+3.
 
-] [3
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
+3.
 
-] [4
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 93.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 93.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 93.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 93.
+ [2
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}] [3
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-mathex.enc}] [4
+
+] [5
 
 ]
-<figs/section_graph.png, id=147, 462.528pt x 346.896pt>
-File: figs/section_graph.png Graphic file (type png)
-<use figs/section_graph.png>
-Package pdftex.def Info: figs/section_graph.png  used on input line 107.
-(pdftex.def)             Requested size: 273.83728pt x 205.38673pt.
+\openout4 = `beamer.vrb'.
 
-Overfull \vbox (2.31615pt too high) detected at line 107
+
+(./beamer.vrb
+
+! Package Listings Error: Couldn't load requested style.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=CStyle]
+                                    
+The following styles weren't loadable:
+    ,cstyle$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: style cstyle undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=CStyle]
+                                    
+The style is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+2.
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) [6
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}]
+\openout4 = `beamer.vrb'.
+
+ (./beamer.vrb
+
+! Package Listings Error: Couldn't load requested style.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=CStyle]
+                                    
+The following styles weren't loadable:
+    ,cstyle$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: style cstyle undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=CStyle]
+                                    
+The style is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [7
+
+]
+\openout4 = `beamer.vrb'.
+
+ (./beamer.vrb
+
+! Package Listings Error: Couldn't load requested style.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=PyStyle]
+                                     
+The following styles weren't loadable:
+    ,pystyle$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: style pystyle undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=PyStyle]
+                                     
+The style is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Overfull \vbox (85.72923pt too high) detected at line 206
  []
 
-[5
+[8
+
+]
+\openout4 = `beamer.vrb'.
+
+ (./beamer.vrb
+
+! Package Listings Error: Couldn't load requested style.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=PyStyle]
+                                     
+The following styles weren't loadable:
+    ,pystyle$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: style pystyle undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=PyStyle]
+                                     
+The style is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Overfull \vbox (121.72923pt too high) detected at line 237
+ []
+
+[9
+
+]
+\openout4 = `beamer.vrb'.
+
+ (./beamer.vrb
+
+! Package Listings Error: Couldn't load requested style.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=PyStyle]
+                                     
+The following styles weren't loadable:
+    ,pystyle$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: style pystyle undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=PyStyle]
+                                     
+The style is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+4.
+(/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) [10
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
+\openout4 = `beamer.vrb'.
+
+ (./beamer.vrb
+
+! Package Listings Error: Couldn't load requested style.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=PyStyle]
+                                     
+The following styles weren't loadable:
+    ,pystyle$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: style pystyle undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}[style=PyStyle]
+                                     
+The style is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [11
+
+]
+<figs/section_graph.png, id=351, 462.528pt x 346.896pt>
+File: figs/section_graph.png Graphic file (type png)
+<use figs/section_graph.png>
+Package pdftex.def Info: figs/section_graph.png  used on input line 282.
+(pdftex.def)             Requested size: 277.84358pt x 208.38268pt.
+ [12
 
  <./figs/section_graph.png>]
-\openout4 = `beamer.vrb'.
+\tf@nav=\write8
+\openout8 = `beamer.nav'.
 
- (./beamer.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-)
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <6> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
-) [6
+\tf@toc=\write9
+\openout9 = `beamer.toc'.
 
-]
-\openout4 = `beamer.vrb'.
-
-
-(./beamer.vrb) [7
-
-]
-\openout4 = `beamer.vrb'.
-
- (./beamer.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)) [8
-
-]
-\openout4 = `beamer.vrb'.
-
-
-(./beamer.vrb) [9
-
-]
-\openout4 = `beamer.vrb'.
-
- (./beamer.vrb) [10
-
-]
-\openout4 = `beamer.vrb'.
-
- (./beamer.vrb) [11
-
-]
-\tf@nav=\write6
-\openout6 = `beamer.nav'.
-
-\tf@toc=\write7
-\openout7 = `beamer.toc'.
-
-\tf@snm=\write8
-\openout8 = `beamer.snm'.
+\tf@snm=\write10
+\openout10 = `beamer.snm'.
 
  (./beamer.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `beamer.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `beamer.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `beamer.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28720 strings out of 474222
- 555710 string characters out of 5748734
- 2257975 words of memory out of 5000000
- 50404 multiletter control sequences out of 15000+600000
- 565922 words of font info for 65 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 128i,15n,123p,426b,1439s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Navigation12} has been referenced but does not exis
-t, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmtt8.pfb>
-Output written on beamer.pdf (11 pages, 147327 bytes).
+ 56969 strings out of 474222
+ 1356354 string characters out of 5748734
+ 2485252 words of memory out of 5000000
+ 78207 multiletter control sequences out of 15000+600000
+ 599736 words of font info for 78 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 128i,15n,123p,1174b,1518s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmtt10.pfb>
+Output written on beamer.pdf (12 pages, 176919 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 432 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 33 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 
