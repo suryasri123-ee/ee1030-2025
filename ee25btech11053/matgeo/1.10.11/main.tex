@@ -1,0 +1,118 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{1.10.11}
+\author{EE25BTECH11053 - Surya Sri}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\textbf{Question}:\\
+Find a vector of magnitude 5 units, and parallel to the resultant of the vectors $\vec{a} = 2\hat{i} + 3\hat{j} - \hat{k}$ and $\vec{b} = \hat{i} - 2\hat{j} + \hat{k}$.
+
+
+\bigskip
+\textbf{Solution}:
+
+$$
+\vec{a} = \begin{bmatrix} 2 \\ 3 \\ -1 \end{bmatrix}, \quad
+\vec{b} = \begin{bmatrix} 1 \\ -2 \\ 1 \end{bmatrix}
+$$
+
+ Resultant Vector is,
+
+\begin{align}
+\vec{R} = \vec{a} + \vec{b} = 
+\begin{bmatrix} 2 \\ 3 \\ -1 \end{bmatrix} + \begin{bmatrix} 1 \\ -2 \\ 1 \end{bmatrix}
+= \begin{bmatrix} 3 \\ 1 \\ 0 \end{bmatrix}
+\end{align}
+
+Magnitude of Resultant vector is,
+
+\begin{align}
+|{R}| = \sqrt{3^2 + 1^2 + 0^2} = \sqrt{9 + 1} = \sqrt{10}
+\end{align}
+
+Unit Vector Parallel to Resultant is,
+
+
+\begin{align}
+{\hat{R}} = \frac{1}{\sqrt{10}} \begin{bmatrix} 3 \\ 1 \\ 0 \end{bmatrix}
+\end{align}
+
+
+Scale to Magnitude 5,
+
+\begin{align}
+\vec{v} = 5 \cdot {\hat{R}} = 5 \cdot \frac{1}{\sqrt{10}} \begin{bmatrix} 3 \\ 1 \\ 0 \end{bmatrix}
+= \begin{bmatrix} \frac{15}{\sqrt{10}} \\ \frac{5}{\sqrt{10}} \\ 0 \end{bmatrix}
+\end{align}
+
+Therefore,
+\begin{align}
+\vec{v} = \begin{bmatrix}
+\frac{15}{\sqrt{10}} \\
+\frac{5}{\sqrt{10}} \\
+0
+\end{bmatrix}
+\end{align}
+is a matrix with magnitude 5 parallel to the resultant vector.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.75\columnwidth]{figs/graph.png}
+\end{center}
+\caption{}
+\label{fig:Fig}
+\end{figure}
+
+
+
+
+
+\end{document}
